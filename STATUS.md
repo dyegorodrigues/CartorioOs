@@ -19,7 +19,8 @@ Atualizado em 08/09/2026.
 - registro de corpus oficial no Notion;
 - matriz ENAC 2026.2 completa no nível **Tema**: 11 matérias + 181 temas oficiais de alto nível;
 - primeira revisão de integridade da matriz, incluindo correção do item Civil 19 (Lei 4.380/1964: contratos imobiliários);
-- ENAC 2026.1 Tipo 1: questões 1–15 já registradas/classificadas no Question Intelligence Lab.
+- ENAC 2026.1 Tipo 1: questões **1–30** já registradas/classificadas no Question Intelligence Lab;
+- checkpoint analítico Q1–Q30 versionado em `research/ENAC_2026_1_CLASSIFICATION.md`.
 
 ## O que NÃO está concluído
 - decomposição integral de todos os temas em Subtema/Microtema, especialmente os subitens 1.1–11.2 de Notarial e Registral;
@@ -32,12 +33,12 @@ Atualizado em 08/09/2026.
 ## Progresso verificável
 - Matérias do ENAC 2026.2: **11/11**.
 - Temas oficiais de alto nível: **181/181**.
-- Questões ENAC históricas classificadas: **15/300**.
+- Questões ENAC históricas classificadas: **30/300**.
 - Provas ENAC no corpus-alvo: **3 edições concluídas para classificação (2025.1, 2025.2, 2026.1)**.
 
 ## Próximo bloco obrigatório antes de promover prioridades
 ### A. Corpus ENAC
-1. concluir 2026.1 (100 itens);
+1. concluir 2026.1 (100 itens), com próximo checkpoint em Q60;
 2. classificar 2025.2 e 2025.1;
 3. registrar questões anuladas/alteradas e eventuais justificativas de recurso;
 4. classificar por currículo, microtema, fonte, habilidade e padrão de distrator;
