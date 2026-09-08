@@ -4,49 +4,90 @@ Fonte canônica: prova oficial Tipo 1 + gabarito definitivo FGV/CNJ. Plataformas
 
 ## Estado
 
-- Questões classificadas: **40/100**.
-- Q1–Q40 pertencem ao bloco nominal Direito Notarial e Registral da prova.
+- Questões canônicas classificadas: **60/100**.
+- Bloco de **Direito Notarial e Registral Q1–Q60 fechado**.
 - Gabarito definitivo conferido antes do registro.
-- Itens são relacionados também a nós interdisciplinares quando o raciocínio exigido atravessa Civil, Constitucional, Tributário, garantias ou outros campos.
+- Quatro registros antigos de bootstrap foram preservados no Notion, mas marcados `Excluir das métricas = true`; a contagem canônica validada é 60.
+- Itens são relacionados também a nós interdisciplinares quando o raciocínio exigido atravessa Civil, Constitucional, Tributário, urbanístico, agrário, garantias ou outros campos.
 
-## Distribuição provisória Q1–Q40 por eixo primário
+## Distribuição descritiva Q1–Q60 por eixo primário GX
 
-| Eixo primário | Itens observados | Quantidade |
-|---|---|---:|
-| Registro de Imóveis | 6, 8, 11, 16, 19, 20, 29, 30, 31, 32, 33, 34, 35 | 13 |
-| Tabelionato de Notas | 5, 7, 9, 15, 18, 26, 28 | 7 |
-| RCPN | 3, 13, 14, 23, 24, 25, 27 | 7 |
-| Tabelionato de Protesto | 2, 10, 17, 36 | 4 |
-| RTD | 21, 22, 37 | 3 |
-| RCPJ | 38 | 1 |
-| Regime/organização geral | 1, 4, 12, 39, 40 | 5 |
+> Os eixos abaixo são uma taxonomia analítica GX, não categorias oficiais da FGV. Questões interdisciplinares podem tocar vários nós; cada item recebe aqui apenas um eixo primário para leitura do bloco.
 
-**Não promover esta distribuição a frequência preditiva.** Ela descreve somente 40 itens de uma edição.
+| Eixo primário | Quantidade | Exemplos de temas |
+|---|---:|---|
+| Registro de Imóveis | **21** | prenotação/CNIB, usucapião, Reurb, incorporação, garantias, loteamento, adjudicação, autotutela registral |
+| RCPN | **10** | casamento estrangeiro, registro tardio, filiação socioafetiva, naturalidade, nome, proclamas |
+| Tabelionato de Notas | **9** | conta vinculada, DAV, autocuratela, ata notarial, testamento, e-Notariado, inventário extrajudicial |
+| Regime/organização geral | **9** | interinidade, SERP, responsabilidade, sigilo, emolumentos, impedimentos e deveres |
+| Tabelionato de Protesto | **7** | renegociação, sustação, retificação, certidões, intimação e arquivamento |
+| RTD | **3** | instrumentos particulares, garantias mobiliárias e documento estrangeiro |
+| RCPJ | **1** | partido político em formação |
+| **Total** | **60** | |
 
-## Novos sinais em Q31–Q40
+**Não promover esta distribuição a frequência histórica/preditiva.** Ela descreve uma edição completa no seu bloco de 60 questões, mas ainda não responde sozinha como a FGV se comporta ao longo do tempo.
 
-- **Tempo jurídico é variável de prova:** Q33 exige separar lavratura, prenotação, qualificação e indisponibilidade superveniente.
-- **Procedimento extrajudicial não significa ausência de juízo técnico:** Q34 explora o tratamento da impugnação na usucapião.
-- **A FGV cruza Direito material e técnica registral:** Q31 mistura sucessões e limites do cancelamento registral; Q35 mistura condomínio/incorporação e especialidade.
-- **Atividade e tributação conversam:** Q40 conecta regime da delegação à natureza jurídica/legalidade dos emolumentos.
-- **Responsabilidades devem ser separadas por esfera:** Q39 explora civil, disciplinar e penal, com forte risco de distrator por responsabilidade objetiva indevida.
+## Primeira leitura intraprova do bloco completo
 
-## Padrões provisórios observados Q1–Q40
+### 1. O objeto real da cobrança é frequentemente uma decisão operacional
+A FGV não se limita a perguntar o conceito de um instituto. Muitos itens colocam o candidato na posição de identificar **o que o delegatário/oficial deve fazer agora**, qual via é adequada, que efeito o ato produz ou quem tem competência.
 
-1. **Caso concreto curto** é recorrente: a regra aparece embutida numa situação operacional de serventia.
-2. **Detalhe procedimental** decide muitas respostas: competência, destino do documento, meio eletrônico, efeito do ato, necessidade de autorização e via adequada.
-3. **Normas contemporâneas** aparecem cedo: SERP, conta vinculada notarial, centrais eletrônicas, Marco Legal das Garantias, Reurb e mecanismos extrajudiciais recentes.
-4. **Interdisciplinaridade real**: a questão continua no bloco Notarial/Registral, mas exige Civil, Constitucional, Tributário, urbanístico, garantias ou insolvência.
-5. Distratores frequentemente alteram uma única variável jurídica plausível: **autoridade/competência, requisito, efeito, prazo/momento, via, exceção ou grau de judicialização**.
-6. O conhecimento útil precisa ser modelado como **regra + limite + procedimento + consequência + distinção**, não apenas definição doutrinária.
-7. O **snapshot temporal** é essencial: questão histórica, direito vigente e direito cobrável pelo edital podem divergir.
+### 2. Distrator bom altera uma única variável crítica
+Padrões recorrentes no bloco:
+- autoridade/competência;
+- requisito;
+- momento temporal;
+- efeito jurídico;
+- prazo/ordem procedimental;
+- judicialização ou desjudicialização;
+- sujeito legitimado;
+- esfera de responsabilidade;
+- exceção à regra.
 
-## Consequência pedagógica provisória
+Isso exige material orientado a **regra + limite + procedimento + consequência + distinção**, não definição solta.
 
-O Material Mestre não deve ensinar RI, Notas ou RCPN como ilhas. Os capítulos devem expor conexões com nós civis/constitucionais/tributários relevantes e produzir exercícios de transferência. O padrão ainda será reavaliado após Q1–Q60 e novamente após as 300 questões históricas.
+### 3. Atualização normativa é matéria, não mero clipping
+A prova utiliza ecossistema eletrônico e institutos recentes: SERP, centrais, CNIB/CNN, conta vinculada, Marco Legal das Garantias, adjudicação/usucapião extrajudiciais, alterações do RCPN e novas rotinas de Protesto. O `Freshness Firewall` é parte da preparação, não infraestrutura acessória.
+
+### 4. O rótulo “Notarial e Registral” esconde dependências fortes
+Exemplos do bloco:
+- RI + sucessões;
+- RI + condomínio/incorporação;
+- RI + urbanístico/agrário;
+- RI + garantias e financiamento;
+- RCPN + nacionalidade/constitucional;
+- RCPN + capacidade/família;
+- regime da delegação + Tributário;
+- Notas + sucessões;
+- compliance extrajudicial + lavagem de dinheiro.
+
+Consequência: o currículo precisa ser grafo e a ordem pedagógica deve trazer fundamentos civis/constitucionais/tributários **just in time**, sem obrigar o candidato a terminar disciplinas inteiras antes de tocar o extrajudicial.
+
+### 5. Literalidade e transferência coexistem
+Há itens que exigem listas/requisitos precisos, como intimação no Protesto, e outros que exigem aplicação sofisticada a casos novos. O GX não pode escolher entre “lei seca” e “casos”: precisa treinar ambos e ligar cada regra ao tipo de recuperação necessário.
+
+### 6. Tempo jurídico aparece como dimensão de raciocínio
+Prenotação × indisponibilidade superveniente, alterações normativas, etapas procedimentais e atos históricos demonstram que o sistema precisa manter três snapshots:
+- direito vigente hoje;
+- direito cobrável conforme o marco temporal do edital-alvo;
+- direito vigente quando a questão histórica foi aplicada.
+
+## Consequências pedagógicas já autorizadas por esta edição
+
+Sem transformar uma edição em previsão histórica, já é seguro usar o bloco para desenhar **formato de ensino**:
+1. começar cada núcleo com mapa e conceitos mínimos;
+2. apresentar regra e fundamento;
+3. explicitar limites/exceções;
+4. mostrar fluxo/procedimento quando houver;
+5. criar quadro `confunde com`;
+6. aplicar caso operacional;
+7. testar recuperação sem alternativas;
+8. aplicar questão oficial e analisar cada distrator;
+9. transformar o mesmo conhecimento em microdiscursiva/oral quando transferível às fases estaduais.
 
 ## Próximo checkpoint
 
-- Classificar Q41–Q60 e fechar o bloco nominal Notarial/Registral do ENAC 2026.1.
-- Depois classificar Q61–Q100 e comparar comportamento por disciplina.
-- Só após 100/100 produzir a primeira análise intraprova quantitativa.
+- Classificar **Q61–Q100** e fechar a prova 2026.1 inteira.
+- Produzir a primeira análise intraprova completa por disciplina, tipo cognitivo, fonte normativa e padrão de distrator.
+- Depois classificar 2025.2 e 2025.1.
+- Somente após 300/300 iniciar estatísticas históricas e sinais temporais da FGV com pretensão preditiva calibrada.
