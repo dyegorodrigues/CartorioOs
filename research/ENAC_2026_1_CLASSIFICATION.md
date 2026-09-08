@@ -4,15 +4,35 @@ Fonte canônica: prova oficial Tipo 1 + gabarito definitivo FGV/CNJ. Plataformas
 
 ## Estado
 
-- Questões canônicas classificadas: **60/100**.
-- Bloco de **Direito Notarial e Registral Q1–Q60 fechado**.
-- Gabarito definitivo conferido antes do registro.
-- Quatro registros antigos de bootstrap foram preservados no Notion, mas marcados `Excluir das métricas = true`; a contagem canônica validada é 60.
-- Itens são relacionados também a nós interdisciplinares quando o raciocínio exigido atravessa Civil, Constitucional, Tributário, urbanístico, agrário, garantias ou outros campos.
+- Questões canônicas classificadas — passagem 1: **100/100**.
+- Bloco Direito Notarial e Registral: **60/60**.
+- Q61–Q100 classificados por disciplina, gabarito definitivo, tema jurídico principal e padrão de cobrança.
+- Q87 e Q95: **anuladas** no gabarito definitivo; preservadas como dado histórico, sem uso do gabarito para ensino.
+- Quatro registros antigos de bootstrap foram preservados no Notion, mas marcados `Excluir das métricas = true`; QA confirmou **100 registros canônicos**.
+- Passagem 2 ainda necessária: refinar relações Tema → Subtema/Microtema conforme o Curriculum Graph for decomposto.
+
+## Matriz observada na prova 2026.1
+
+| Disciplina | Questões |
+|---|---:|
+| Notarial e Registral | 60 |
+| Civil | 14 |
+| Constitucional | 9 |
+| Administrativo | 4 |
+| Tributário | 4 |
+| Empresarial | 4 |
+| Processo Civil | 2 |
+| Penal | 1 |
+| Processo Penal | 1 |
+| Conhecimentos Gerais | 1 |
+| **Total** | **100** |
+
+### Matrix drift para 2026.2
+A matriz do edital 2026.2 não é idêntica à de 2026.1: Constitucional caiu de 9 para 8; Conhecimentos Gerais deixou de aparecer como bloco próprio; Trabalho e Processo do Trabalho entraram com 1 questão cada. Portanto, frequências históricas deverão ser **normalizadas pela matriz de cada edição**. Contagem bruta entre provas pode produzir prioridade falsa.
 
 ## Distribuição descritiva Q1–Q60 por eixo primário GX
 
-> Os eixos abaixo são uma taxonomia analítica GX, não categorias oficiais da FGV. Questões interdisciplinares podem tocar vários nós; cada item recebe aqui apenas um eixo primário para leitura do bloco.
+> Os eixos abaixo são taxonomia analítica GX, não categorias oficiais da FGV. Questões interdisciplinares podem tocar vários nós; cada item recebe aqui apenas um eixo primário para leitura do bloco.
 
 | Eixo primário | Quantidade | Exemplos de temas |
 |---|---:|---|
@@ -25,69 +45,79 @@ Fonte canônica: prova oficial Tipo 1 + gabarito definitivo FGV/CNJ. Plataformas
 | RCPJ | **1** | partido político em formação |
 | **Total** | **60** | |
 
-**Não promover esta distribuição a frequência histórica/preditiva.** Ela descreve uma edição completa no seu bloco de 60 questões, mas ainda não responde sozinha como a FGV se comporta ao longo do tempo.
+**Não promover esta distribuição a frequência histórica/preditiva.** Ela descreve uma edição completa no seu bloco de 60 questões.
 
-## Primeira leitura intraprova do bloco completo
+## Leitura intraprova da edição completa
 
-### 1. O objeto real da cobrança é frequentemente uma decisão operacional
-A FGV não se limita a perguntar o conceito de um instituto. Muitos itens colocam o candidato na posição de identificar **o que o delegatário/oficial deve fazer agora**, qual via é adequada, que efeito o ato produz ou quem tem competência.
+### 1. A FGV cartorializa outras disciplinas
+Q61–Q69, embora constitucionais, usam repetidamente delegações, emolumentos, serventias, RCPN, loteamento, CNJ e competência sobre atos extrajudiciais. Administrativo e Tributário também aparecem em cenários de serventia, imóveis e registro.
 
-### 2. Distrator bom altera uma única variável crítica
-Padrões recorrentes no bloco:
+**Consequência:** não devemos ensinar Constitucional/Administrativo/Tributário como cursos genéricos desconectados. A fundação geral existe, mas os exemplos, exercícios e transferência devem retornar ao universo cartorário sempre que possível.
+
+### 2. Civil é infraestrutura do extrajudicial
+Q80–Q93 confirmam forte interseção com sucessões, família, capacidade, direitos reais, contratos, locações, desconsideração e legislação urbanística. Mesmo quando a questão está formalmente em Civil, o cenário frequentemente poderia surgir numa escritura, inventário ou qualificação registral.
+
+### 3. Jurisprudência recente não é camada opcional
+Q63, Q65, Q74–Q78, Q88, Q98–Q99 demonstram uso de STF/STJ e alterações legislativas recentes. O Material Mestre precisa distinguir:
+- regra legal básica;
+- entendimento jurisprudencial que altera/completa a resposta;
+- data/snapshot de validade.
+
+### 4. O objeto real da cobrança é frequentemente uma decisão operacional
+Muitos itens colocam o candidato diante de **o que fazer agora**, qual via é adequada, qual ato ingressa, que efeito ocorre ou quem tem competência.
+
+### 5. Distrator forte altera uma única variável crítica
+Padrões recorrentes:
 - autoridade/competência;
 - requisito;
 - momento temporal;
 - efeito jurídico;
 - prazo/ordem procedimental;
-- judicialização ou desjudicialização;
+- judicialização/desjudicialização;
 - sujeito legitimado;
 - esfera de responsabilidade;
-- exceção à regra.
+- exceção à regra;
+- diferença entre texto legal e entendimento de tribunal superior.
 
 Isso exige material orientado a **regra + limite + procedimento + consequência + distinção**, não definição solta.
 
-### 3. Atualização normativa é matéria, não mero clipping
-A prova utiliza ecossistema eletrônico e institutos recentes: SERP, centrais, CNIB/CNN, conta vinculada, Marco Legal das Garantias, adjudicação/usucapião extrajudiciais, alterações do RCPN e novas rotinas de Protesto. O `Freshness Firewall` é parte da preparação, não infraestrutura acessória.
+### 6. Literalidade e transferência coexistem
+Há itens de memória precisa de requisitos/listas e itens de aplicação sofisticada a fatos novos. O GX precisa treinar lei seca e resolução de caso, alternando o formato conforme o microtema.
 
-### 4. O rótulo “Notarial e Registral” esconde dependências fortes
-Exemplos do bloco:
-- RI + sucessões;
-- RI + condomínio/incorporação;
-- RI + urbanístico/agrário;
-- RI + garantias e financiamento;
-- RCPN + nacionalidade/constitucional;
-- RCPN + capacidade/família;
-- regime da delegação + Tributário;
-- Notas + sucessões;
-- compliance extrajudicial + lavagem de dinheiro.
+### 7. Atualização normativa é matéria, não mero clipping
+A prova usa SERP, centrais, CNIB/CNN, conta vinculada, Marco Legal das Garantias, procedimentos extrajudiciais recentes e alterações de RCPN/Protesto. O `Freshness Firewall` é parte do motor pedagógico.
 
-Consequência: o currículo precisa ser grafo e a ordem pedagógica deve trazer fundamentos civis/constitucionais/tributários **just in time**, sem obrigar o candidato a terminar disciplinas inteiras antes de tocar o extrajudicial.
-
-### 5. Literalidade e transferência coexistem
-Há itens que exigem listas/requisitos precisos, como intimação no Protesto, e outros que exigem aplicação sofisticada a casos novos. O GX não pode escolher entre “lei seca” e “casos”: precisa treinar ambos e ligar cada regra ao tipo de recuperação necessário.
-
-### 6. Tempo jurídico aparece como dimensão de raciocínio
-Prenotação × indisponibilidade superveniente, alterações normativas, etapas procedimentais e atos históricos demonstram que o sistema precisa manter três snapshots:
+### 8. Tempo jurídico é dimensão de raciocínio
+O sistema deve manter três snapshots distintos:
 - direito vigente hoje;
 - direito cobrável conforme o marco temporal do edital-alvo;
 - direito vigente quando a questão histórica foi aplicada.
 
-## Consequências pedagógicas já autorizadas por esta edição
+## Consequências pedagógicas já autorizadas pela prova 2026.1
 
-Sem transformar uma edição em previsão histórica, já é seguro usar o bloco para desenhar **formato de ensino**:
-1. começar cada núcleo com mapa e conceitos mínimos;
-2. apresentar regra e fundamento;
-3. explicitar limites/exceções;
-4. mostrar fluxo/procedimento quando houver;
-5. criar quadro `confunde com`;
-6. aplicar caso operacional;
-7. testar recuperação sem alternativas;
-8. aplicar questão oficial e analisar cada distrator;
-9. transformar o mesmo conhecimento em microdiscursiva/oral quando transferível às fases estaduais.
+Sem transformar uma edição em previsão histórica, já é seguro usar seu formato para desenhar o ensino:
+1. mapa e conceitos mínimos;
+2. regra e fundamento;
+3. limites/exceções;
+4. fluxo/procedimento;
+5. quadro `confunde com`;
+6. caso operacional;
+7. recuperação sem alternativas;
+8. questão oficial com análise de cada distrator;
+9. transferência para microdiscursiva/oral quando pertinente;
+10. verificação de freshness antes de consolidar regra sensível.
 
 ## Próximo checkpoint
 
-- Classificar **Q61–Q100** e fechar a prova 2026.1 inteira.
-- Produzir a primeira análise intraprova completa por disciplina, tipo cognitivo, fonte normativa e padrão de distrator.
-- Depois classificar 2025.2 e 2025.1.
-- Somente após 300/300 iniciar estatísticas históricas e sinais temporais da FGV com pretensão preditiva calibrada.
+- Classificar **ENAC 2025.2 — 100/100**.
+- Depois classificar **ENAC 2025.1 — 100/100**.
+- Construir comparação 300/300 por:
+  - matriz da edição;
+  - tema/microtema;
+  - fonte normativa;
+  - tipo cognitivo;
+  - padrão de distrator;
+  - atualização temporal;
+  - interdisciplinaridade;
+  - persistência/recência.
+- Somente após 300/300 iniciar estatísticas históricas e sinais preditivos calibrados.
