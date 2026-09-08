@@ -26,11 +26,13 @@ Atualizado em 08/09/2026.
 - arquitetura `architecture/ZERO_TO_OUTORGA_SYSTEM.md`: uma base jurídica canônica com renderização objetiva, discursiva, prática e oral;
 - página Notion `GX Cartório — Zero à Outorga & Anti-Tree-Bias v0.1`;
 - ENAC 2026.1 Tipo 1: **100/100** classificados na passagem 1 do Question Intelligence Lab;
-- ENAC 2025.2: **Q1–Q12** classificados na passagem 1 e ligados aos subtemas oficiais, com mecanismos de distrator e snapshots;
-- QA do banco: quatro registros antigos de bootstrap preservados, mas excluídos das métricas;
+- ENAC 2025.2: **Q1–Q60** classificados na passagem 1; bloco Notarial/Registral fechado 60/60;
+- Q24 do ENAC 2025.2 registrada como anulada conforme gabarito definitivo;
+- QA do banco: quatro registros antigos de bootstrap do 2026.1 preservados, mas excluídos das métricas;
 - Q87 e Q95 do ENAC 2026.1 registradas como anuladas conforme gabarito definitivo;
 - matrix drift 2026.1 → 2026.2 identificado e futura estatística definida como normalizada pela matriz da edição;
 - análise intraprova 2026.1 versionada em `research/ENAC_2026_1_CLASSIFICATION.md`;
+- checkpoint 2025.2 versionado em `research/ENAC_2025_2_CLASSIFICATION.md`;
 - corpus multibanca atualizado para v0.2 com classes de complexidade jurídica L4/L3/L2/L1 e regra anti-contaminação;
 - Question Intelligence Lab ampliado com `Complexidade jurídica`, `Família da fonte`, `Snapshot histórico`, `Snapshot atual` e `Mecanismo do distrator`;
 - protocolo de perfil temporal de banca em `research/BANK_DNA_PROTOCOL.md`;
@@ -43,17 +45,20 @@ Atualizado em 08/09/2026.
 - Matérias do ENAC 2026.2: **11/11**.
 - Temas oficiais de alto nível: **181/181**.
 - Subtemas oficiais N/R: **138/138**.
-- Questões ENAC históricas classificadas: **112/300**.
+- Questões ENAC históricas classificadas: **160/300**.
 - ENAC 2026.1 passagem 1: **100/100**.
-- ENAC 2025.2 passagem 1: **12/100**.
+- ENAC 2025.2 passagem 1: **60/100**.
+- ENAC 2025.2 N/R: **60/60**.
+- ENAC 2025.2 anuladas no bloco ingerido: **1 (Q24)**.
 - ENAC 2026.1 anuladas: **2 (Q87 e Q95)**.
-- ENAC 2026.1 distribuição validada: 60 N/R, 14 Civil, 9 Constitucional, 4 Administrativo, 4 Tributário, 4 Empresarial, 2 Processo Civil, 1 Penal, 1 Processo Penal, 1 Conhecimentos Gerais.
-- Provas ENAC ainda incompletas na passagem 1: **2025.2 e 2025.1**.
+- Provas ENAC ainda incompletas na passagem 1: **2025.2 Q61–Q100 e 2025.1 Q1–Q100**.
 
 ## O que NÃO está concluído
 - passagem 2 das questões 2026.1 para relacionar cada item ao Subtema/Microtema fino;
+- passagem 2 do ENAC 2025.2, incluindo os itens deliberadamente mantidos sem relação fina;
 - criação de Microtemas úteis abaixo dos 138 subitens N/R e abaixo dos temas das demais matérias;
-- conclusão das provas ENAC 2025.2 e 2025.1;
+- conclusão das questões Q61–Q100 do ENAC 2025.2;
+- classificação do ENAC 2025.1;
 - expansão sistemática do corpus same-topic/same-bank em FGV L4/L3 e cartório multibanca;
 - estatísticas históricas de incidência próprias do GX;
 - sequência pedagógica final por pré-requisitos;
@@ -63,7 +68,7 @@ Atualizado em 08/09/2026.
 
 ## Próximo bloco obrigatório antes de promover prioridades
 ### A. Corpus ENAC
-1. continuar **ENAC 2025.2 a partir da Q13 até 100/100**;
+1. continuar **ENAC 2025.2 Q61–Q100**;
 2. classificar **ENAC 2025.1 — 100/100**;
 3. normalizar resultados pela matriz de cada edição;
 4. registrar anuladas/alteradas e contexto temporal;
