@@ -18,8 +18,10 @@ Atualizado em 08/09/2026.
 - radar normativo automático;
 - registro de corpus oficial no Notion;
 - matriz ENAC 2026.2 completa no nível **Tema**: 11 matérias + 181 temas oficiais de alto nível;
-- primeira revisão de integridade da matriz;
-- ENAC 2026.1 Tipo 1: questões **1–40** registradas/classificadas no Question Intelligence Lab;
+- primeira revisão de integridade da matriz, incluindo confirmação de `CIV 19 — Contratos imobiliários (Lei 4.380/1964)`;
+- ENAC 2026.1 Tipo 1: questões **1–60** registradas/classificadas no Question Intelligence Lab;
+- QA do banco: quatro registros antigos de bootstrap preservados, mas marcados `Excluir das métricas = true`; contagem canônica validada = **60**;
+- bloco completo Notarial/Registral 2026.1 versionado em `research/ENAC_2026_1_CLASSIFICATION.md`;
 - auditoria inicial de materiais/cursos: VFK, Estratégia, G7, PreparaEnac, QConcursos e obras especializadas;
 - política `Freshness Firewall` versionada;
 - Legal Source Registry ampliado com freshness, vigência, revalidação e impacto sobre materiais;
@@ -28,14 +30,15 @@ Atualizado em 08/09/2026.
 ## Progresso verificável
 - Matérias do ENAC 2026.2: **11/11**.
 - Temas oficiais de alto nível: **181/181**.
-- Questões ENAC históricas classificadas: **40/300**.
-- ENAC 2026.1 classificado: **40/100**.
+- Questões ENAC históricas classificadas: **60/300**.
+- ENAC 2026.1 classificado: **60/100**.
+- Bloco Notarial/Registral ENAC 2026.1: **60/60**.
 - Provas ENAC no corpus-alvo: **3 edições para classificação (2025.1, 2025.2, 2026.1)**.
 
 ## O que NÃO está concluído
 - decomposição integral de todos os temas em Subtema/Microtema, especialmente os subitens de Notarial e Registral;
 - classificação integral das provas ENAC 2025.1, 2025.2 e 2026.1;
-- estatísticas de incidência próprias do GX;
+- estatísticas históricas de incidência próprias do GX;
 - sequência pedagógica final por pré-requisitos;
 - diagnóstico individual do candidato;
 - corpus completo de discursivas, peças e orais estaduais;
@@ -43,13 +46,12 @@ Atualizado em 08/09/2026.
 
 ## Próximo bloco obrigatório antes de promover prioridades
 ### A. Corpus ENAC
-1. concluir Q41–Q60 para fechar o bloco nominal Notarial/Registral do ENAC 2026.1;
-2. concluir Q61–Q100;
+1. concluir **Q61–Q100** e fechar o ENAC 2026.1 inteiro;
+2. produzir análise intraprova completa por disciplina, habilidade, fonte e padrão de distrator;
 3. classificar 2025.2 e 2025.1;
 4. registrar anuladas/alteradas e contexto temporal;
-5. classificar por currículo, microtema, fonte, habilidade e padrão de distrator;
-6. comparar mudança de matriz entre edições;
-7. só então calcular incidência, recorrência e sinais temporais da FGV.
+5. comparar mudança de matriz entre edições;
+6. só após 300/300 calcular incidência, recorrência e sinais temporais da FGV com pretensão preditiva calibrada.
 
 ### B. Matriz oficial 2026.2
 1. decompor os 181 temas apenas até granularidade útil;
