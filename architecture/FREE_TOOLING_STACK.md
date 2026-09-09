@@ -9,6 +9,13 @@ Nenhuma função pedagógica central pode depender de recurso pago do Notion, Ai
 
 Se um recurso pago ficar disponível temporariamente, ele é tratado como aceleração opcional, nunca como dependência arquitetural.
 
+## Decisão arquitetural atual
+**Não criar nem promover um Google Sheets de produção neste momento.**
+
+O corpus 300/300 e o estado atual permanecem onde já estão até que o schema operacional esteja congelado e exista necessidade concreta de analytics/telemetria que justifique um novo data plane.
+
+Motivo: o risco real não é escala de células nem contexto do modelo. O risco é criar duas fontes de verdade, duplicar registros e introduzir drift. A adoção de Sheets será uma migração controlada, não um reflexo automático à limitação do Notion Free.
+
 ## Stack canônica gratuita
 
 ### 1. GitHub — Source of Truth versionado
@@ -28,14 +35,35 @@ Guardar no GitHub:
 
 O GitHub vence conflitos de arquitetura e regras versionadas.
 
-### 2. Google Sheets — Operational Data Plane
-Função: dados estruturados de alto volume, métricas e filas operacionais.
+### 2. Notion Free — Human Knowledge Portal + estado visual atual
+Função: leitura confortável, mapas, Command Center, Material Mestre e bancos já existentes enquanto forem suficientes.
 
-Motivo: o Google Sheets suporta até 10 milhões de células por arquivo, escala suficiente para dezenas de milhares de questões e eventos de estudo no estágio atual do GX.
+Usar para:
+- Command Center;
+- mapas de matéria;
+- páginas didáticas MASTER/REVIEW;
+- páginas de decisão;
+- guias navegáveis;
+- resumos de estado;
+- Curriculum/Question Lab/Errors/Sessions já existentes, sem depender de consultas avançadas pagas.
 
-Arquivo operacional preferencial: `GX Cartório — Data Plane`.
+O plano Free individual continua útil para páginas e bases visuais. A limitação da integração avançada não deve bloquear o sistema.
 
-Tabs previstas:
+### 3. Google Sheets — Candidate Operational Data Plane, ainda não promovido
+Função futura potencial: dados estruturados de alto volume, métricas e filas operacionais.
+
+Capacidade técnica não é preocupação imediata: Google Sheets suporta até 10 milhões de células por arquivo, escala suficiente para dezenas de milhares de questões e eventos de estudo no estágio atual do GX.
+
+**Mas capacidade não é critério de adoção.** Sheets só será criado quando:
+1. o schema operacional estiver congelado;
+2. houver necessidade concreta de consulta/agregação/analytics que o Notion Free não resolva;
+3. IDs e regras de reconciliação estiverem definidos;
+4. a migração puder ser feita em lotes auditáveis;
+5. houver ganho claro de confiabilidade ou eficiência.
+
+Arquivo futuro preferencial, se promovido: `GX Cartório — Data Plane`.
+
+Tabs candidatas:
 1. `Curriculum`
 2. `Questions`
 3. `Question_Alternatives`
@@ -48,30 +76,28 @@ Tabs previstas:
 10. `Dashboard`
 11. `Config`
 
-### 3. Notion Free — Human Knowledge Portal
-Função: leitura confortável, mapas, Command Center e Material Mestre.
-
-Usar para:
-- Command Center;
-- mapas de matéria;
-- páginas didáticas MASTER/REVIEW;
-- páginas de decisão;
-- guias navegáveis;
-- resumos de estado.
-
-Não usar como banco operacional crítico quando a automação exigir consultas estruturadas pagas.
-
-O plano Free individual continua útil para páginas e bases visuais. O limite da integração avançada não deve bloquear o sistema.
-
 ### 4. Google Drive — Corpus e arquivos pesados
 Função:
 - provas oficiais;
 - PDFs e espelhos;
 - materiais adquiridos/legalmente disponíveis;
 - exportações;
+- imagens/mapas/diagramas gerados;
 - arquivos maiores que não devem viver dentro do Notion.
 
 Sempre preservar a URL/fonte e metadados de autoridade/data.
+
+## Regra de contexto
+Mesmo se Sheets for adotado no futuro, **o tutor nunca carregará a planilha inteira para o contexto**.
+
+O runtime deve ler somente:
+- o nó curricular atual;
+- revisões vencidas;
+- erros relevantes;
+- poucas questões candidatas;
+- métricas agregadas necessárias à decisão atual.
+
+Dados volumosos permanecem fora da janela de conversa e são consultados por faixa/registro quando necessário.
 
 ## O que não adotar como núcleo agora
 
@@ -95,16 +121,17 @@ Não será obrigatório. A lógica de spaced retrieval pertence ao GX.
 
 Exportar para Anki pode virar saída opcional futura, sobretudo no Android, mas o candidato não deve administrar decks para o sistema funcionar.
 
-## Separação de responsabilidades
+## Separação de responsabilidades atual
 
-| Tipo de informação | Canônico |
+| Tipo de informação | Canônico atual |
 |---|---|
 | regra de arquitetura | GitHub |
 | estado HOT | GitHub |
-| dado operacional tabular | Google Sheets |
 | página didática navegável | Notion |
-| arquivo/PDF/corpus | Google Drive |
+| bancos operacionais já existentes | Notion, provisoriamente |
+| arquivo/PDF/corpus pesado | Google Drive |
 | conversa diária | ChatGPT, com persistência dos efeitos nas camadas acima |
+| data plane analítico futuro | Google Sheets, somente após promotion gate |
 
 ## Chat Is Not Memory
 O chat é o cockpit.
@@ -124,27 +151,28 @@ A conversa pode desaparecer sem destruir o estado do candidato.
 Não assumir que o acesso avançado de consulta estruturada reinicia diariamente.
 
 Estado operacional seguro:
-- tratar Query Data Source avançado como indisponível no plano gratuito;
-- usar se estiver disponível, mas nunca depender dele;
-- migrar agregações e telemetria para Sheets;
-- manter Notion como visualização e conteúdo humano.
+- tratar a consulta avançada paga como indisponível para arquitetura;
+- usar recursos gratuitos disponíveis quando suficientes;
+- manter Notion como visualização e conteúdo humano;
+- não migrar apenas porque uma consulta específica ficou indisponível;
+- introduzir Sheets somente quando o promotion gate for satisfeito.
 
-## Migração sem drift
-A migração Notion → Sheets deve ser incremental e auditada.
-
-1. congelar schema alvo;
-2. exportar/reconstruir registros em lotes verificáveis;
-3. preservar IDs/URLs originais;
-4. conferir contagens por prova/matéria;
-5. conferir anuladas/excluídas;
-6. comparar amostras linha a linha;
-7. somente depois declarar Sheets como data plane canônico;
-8. manter Notion como front-end, sem apagar o histórico durante estabilização.
+## Promotion gate para Google Sheets
+1. congelar schema alvo no GitHub;
+2. definir chave primária/IDs estáveis;
+3. especificar fonte de verdade por entidade;
+4. criar uma planilha SANDBOX pequena, nunca o corpus inteiro de saída;
+5. migrar amostra de 20–30 registros;
+6. testar leitura/escrita e contexto por range;
+7. reconciliar linha a linha;
+8. só então decidir se o ganho justifica produção;
+9. se aprovado, migrar em lotes e recontar;
+10. se não aprovado, descartar sandbox sem tocar no corpus atual.
 
 Não criar uma segunda verdade silenciosa.
 
 ## Critério de sucesso
-O usuário deve poder usar apenas o ChatGPT para estudar e, no máximo, abrir o Notion/Sheets quando quiser visualizar o estado.
+O usuário deve poder usar apenas o ChatGPT para estudar e, no máximo, abrir o Notion/Drive quando quiser visualizar material e estado.
 
 Ele não precisa:
 - cadastrar flashcards;
