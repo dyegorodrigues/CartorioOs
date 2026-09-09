@@ -7,7 +7,6 @@ Atualizado em 08/09/2026.
 
 ## Já consolidado
 - arquitetura ChatGPT + Notion + GitHub;
-- bancos operacionais no Notion;
 - Material Mestre separado da telemetria;
 - baseline regulatório da Resolução CNJ 696/2026;
 - pesos atuais do ENAC 2026.2;
@@ -16,15 +15,15 @@ Atualizado em 08/09/2026.
 - protocolo editorial do material;
 - workflow adaptativo diário;
 - radar normativo automático;
-- registro de corpus oficial no Notion;
 - matriz ENAC 2026.2 completa no nível **Tema**: 11 matérias + 181 temas oficiais de alto nível;
-- **138/138 subitens expressos de Direito Notarial e Registral (1.1–11.2) materializados como Subtemas no Curriculum Graph**;
-- primeira revisão de integridade da matriz, incluindo confirmação de `CIV 19 — Contratos imobiliários (Lei 4.380/1964)`;
+- **138/138 subitens expressos de Direito Notarial e Registral (1.1–11.2)** materializados como Subtemas;
 - protocolo pedagógico `pedagogy/ADVANCE_ORGANIZER_PROTOCOL.md`;
-- página Notion `GX Cartório — Mapa da Floresta & Advance Organizer v0.1`;
-- regra anti-tree-bias formalizada: árvore do edital = navegação; motor = grafo multidimensional;
 - arquitetura `architecture/ZERO_TO_OUTORGA_SYSTEM.md`: uma base jurídica com saídas objetiva, discursiva, prática e oral;
-- página Notion `GX Cartório — Zero à Outorga & Anti-Tree-Bias v0.1`;
+- **Dual Spine** formalizada em `architecture/DUAL_SPINE_CURRICULUM.md`: edital visível e segmentado por matéria + grafo multidimensional como motor interno;
+- regra anti-embaralhamento: blocked foundation → discriminação local → transferência → simulação no formato real da prova;
+- Depth Budget P0–P4 para impedir estudo enciclopédico sem utilidade para aprovação;
+- runtime pedagógico `pedagogy/CHAT_TUTOR_RUNTIME.md`: `Começar estudo` → ensinar → recuperar → testar → diagnosticar → revisar → registrar → recalibrar;
+- stack gratuita formalizada em `architecture/FREE_TOOLING_STACK.md`;
 - ENAC 2025.1 Tipo 1: **100/100** classificados na passagem 1;
 - ENAC 2025.2 Tipo 1: **100/100** classificados na passagem 1;
 - ENAC 2026.1 Tipo 1: **100/100** classificados na passagem 1;
@@ -40,6 +39,19 @@ Atualizado em 08/09/2026.
 - auditoria inicial de materiais/cursos: VFK, Estratégia, G7, PreparaEnac, QConcursos e obras especializadas;
 - Freshness Firewall ativo e Legal Source Registry ampliado;
 - atos CNJ 224/2026, 229/2026, 246/2026 e 253/2026 semeados como fontes HOT.
+
+## Objetivo canônico do candidato
+**Aprovação em todas as etapas.**
+
+O GX não otimiza para erudição máxima nem para formação profissional completa antes da prova. Fundamentos, teoria, doutrina e prática entram na profundidade necessária para:
+- entender;
+- lembrar;
+- acertar;
+- discriminar alternativas;
+- resolver caso novo;
+- fundamentar discursiva/peça;
+- responder oralmente;
+- executar sob tempo e pressão.
 
 ## Progresso verificável
 - Matérias do ENAC 2026.2: **11/11**.
@@ -58,43 +70,68 @@ A matriz atual ENAC 2026.2 usa: 60 N/R + 14 Civil + 8 Constitucional + 4 Adminis
 
 Consequência: Conhecimentos Gerais é histórico, não currículo atual; Trabalho e Processo do Trabalho precisam de corpus lateral porque ainda não têm histórico ENAC próprio; frequência histórica será normalizada pela oportunidade de cobrança.
 
-## Limitação operacional temporária
-- O recurso estruturado `Query Data Source` do Notion atingiu a cota do workspace durante a auditoria final do 2025.2.
-- Todas as operações de criação usadas para completar 2025.2 e 2025.1 retornaram sucesso.
-- A recontagem SQL final 300/300 e os agregados quantitativos serão rodados quando a consulta voltar a ficar disponível.
-- Não inferir falha ou perda de dados a partir dessa limitação de leitura.
+## Stack gratuita canônica
+### GitHub
+Source of Truth versionado para arquitetura, estado HOT, protocolos, matrizes e meta-análises.
+
+### Google Sheets
+Novo destino planejado para o **Operational Data Plane**: questões, alternativas, mastery, revisões, sessões, erros, produção e dashboard. Migração será auditada e incremental para não criar duas verdades.
+
+### Notion Free
+Permanece como **Human Knowledge Portal**: Command Center, mapas, páginas didáticas e Material Mestre. Nenhuma função central dependerá de consulta avançada paga.
+
+### Google Drive
+Corpus de PDFs, provas, espelhos, arquivos e materiais pesados.
+
+## Restrição do Notion Free
+A consulta estruturada avançada disponível pela integração aparece como recurso dependente de plano pago no workspace atual.
+
+Portanto:
+- não assumir reset diário como fundamento arquitetural;
+- não assinar plano pago;
+- usar a consulta avançada quando eventualmente disponível apenas como bônus;
+- mover telemetria/agregações para Google Sheets;
+- manter Notion para navegação e conteúdo humano.
 
 ## O que NÃO está concluído
-- QA estruturado final 300/300 no Notion após liberação da consulta;
+- QA agregado final 300/300 por uma camada estruturada independente do Notion pago;
+- migração auditada do Operational Data Plane para Google Sheets;
 - passagem 2 das 300 questões: Tema/Subtema/Microtema fino, fundamento, alternativa por alternativa e snapshots atuais;
 - criação de Microtemas úteis abaixo dos subtemas oficiais e temas das demais disciplinas;
 - meta-análise quantitativa/qualitativa/temporal/semântica final das 300;
 - expansão sistemática do corpus FGV L4/L3 e cartório multibanca;
-- sequência pedagógica final calibrada pelo corpus + dependências;
+- Discipline Maps e progressões pedagógicas completas das 11 matérias;
 - diagnóstico individual do candidato;
+- calibração individual do espaçamento/retrieval;
 - corpus completo de discursivas, peças e orais estaduais;
 - auditoria especializada por matéria/obra e por fase estadual;
 - Material Mestre completo.
 
 ## Próximo bloco obrigatório antes de promover prioridades
-### A. QA + Meta-análise 300
-1. recontar 300/300 por edição/disciplina/anulação;
-2. detectar duplicados/bootstraps e lacunas de relação;
-3. normalizar matrix drift;
-4. fazer passagem 2 semântica;
-5. clusterizar microtemas e habilidades que atravessam disciplinas;
-6. calcular incidência, recorrência, família de fonte, mecanismo de distrator e sinais temporais;
-7. publicar `research/ENAC_300_META_ANALYSIS.md` com níveis de confiança separados para fato, padrão e hipótese preditiva.
+### A. Data Plane gratuito + QA 300
+1. congelar schema operacional para Google Sheets;
+2. migrar/reconstruir o corpus em lotes verificáveis;
+3. preservar IDs/URLs históricas;
+4. recontar 300/300 por edição/disciplina/anulação;
+5. detectar duplicados/bootstraps e lacunas;
+6. declarar Sheets canônico apenas após reconciliação.
 
-### B. Curriculum Graph
-1. usar os 138 subtemas N/R oficiais como espinha canônica;
-2. criar Microtemas apenas quando questão, regra, pré-requisito, jurisprudência ou distinção justificar granularidade separada;
-3. decompor as demais matérias na mesma lógica;
-4. ligar questão → micro/subtema → fonte → habilidade → material;
-5. marcar pré-requisitos e conexões interdisciplinares;
-6. separar profundidade ENAC de aprofundamento estadual/discursivo/oral.
+### B. Meta-análise 300
+1. normalizar matrix drift;
+2. fazer passagem 2 semântica;
+3. clusterizar microtemas e habilidades que atravessam disciplinas;
+4. calcular incidência, recorrência, família de fonte, mecanismo de distrator e sinais temporais;
+5. publicar `research/ENAC_300_META_ANALYSIS.md` com níveis de confiança separados para fato, padrão e hipótese preditiva.
 
-### C. Corpus expandido
+### C. Curriculum / Dual Spine
+1. preservar a árvore oficial para orientação e cobertura;
+2. criar Discipline Maps independentes e coerentes;
+3. usar o grafo apenas para pré-requisitos, transferência e revisão;
+4. criar Microtemas somente quando houver valor probatório/pedagógico;
+5. ligar questão → micro/subtema → fonte → habilidade → material;
+6. manter Exam View idêntica à segmentação real da prova.
+
+### D. Corpus expandido
 1. FGV cartório além do ENAC;
 2. FGV L4/L3 de mesmo microtema: ENAM, magistratura e carreiras jurídicas comparáveis;
 3. cartório Cebraspe/Vunesp/outras bancas;
@@ -102,21 +139,21 @@ Consequência: Conhecimentos Gerais é histórico, não currículo atual; Trabal
 5. Trabalho/Processo do Trabalho lateralmente até existir histórico ENAC;
 6. triangulação oficial → fonte primária → comentário qualificado.
 
-### D. Pedagogia e material
+### E. Pedagogia e material
 1. produzir L0 Career Map, L1 Discipline Maps, L2 Theme Maps e L3 previews;
 2. manter `MAP → MASTER → REVIEW → RECALL → EXAM → REFERENCE`;
-3. reconstruir base just in time para candidato enferrujado;
-4. flashcards apenas para conhecimento atomicamente recuperável;
-5. casos, discursiva, peça e oral para relações/transferência;
+3. reconstruir base just in time;
+4. aplicar retrieval durante o ensino, não apenas ao final;
+5. ajustar intervalos de revisão pelo desempenho individual;
 6. objetiva, discursiva, prática e oral são saídas da mesma unidade jurídica.
 
-### E. Freshness
+### F. Freshness
 1. manter radar CNJ/legislação/jurisprudência;
 2. propagar mudanças para nós e materiais derivados;
 3. bloquear questões sintéticas baseadas em fonte Revalidar/Histórico;
 4. manter direito vigente na prova histórica, direito atual e cutoff do alvo separados.
 
-### F. Concursos estaduais
+### G. Concursos estaduais
 1. formar corpus de editais/provas recentes;
 2. separar regime anterior e posterior à Resolução 696/2026;
 3. mapear discursivas, peças e oral;
@@ -124,4 +161,4 @@ Consequência: Conhecimentos Gerais é histórico, não currículo atual; Trabal
 5. atualizar overlays quando surgir concurso-alvo.
 
 ## Regra de qualidade
-Nenhum número de `incidência`, `chance de cair` ou prioridade preditiva é canônico sem origem documentada, QA do corpus e normalização. A matriz garante cobertura; as provas fornecem evidência de cobrança; o grafo pedagógico define ordem; o desempenho individual define adaptação; o Freshness Firewall valida o direito atual. Perfis de banca são versionados por período, e mudança de estilo não autoriza inferir uso de IA sem evidência externa.
+Nenhum número de `incidência`, `chance de cair` ou prioridade preditiva é canônico sem origem documentada, QA do corpus e normalização. A matriz garante cobertura; as provas fornecem evidência de cobrança; a Dual Spine preserva orientação e conexões; o desempenho individual define adaptação; o Freshness Firewall valida o direito atual. Perfis de banca são versionados por período, e mudança de estilo não autoriza inferir uso de IA sem evidência externa.
