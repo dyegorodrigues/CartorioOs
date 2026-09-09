@@ -1,109 +1,157 @@
 # GX Cartório OS — Layered Material Model
 
+Atualizado em 09/09/2026.
+
 ## Principle
-The candidate must be able to study and review without depending on chat history. Chat is the tutor interface; Notion is the human-readable corpus; GitHub versions the operating logic.
+The candidate must be able to learn, review and consult without depending on chat history.
 
-A topic is never represented by one giant PDF or by one tiny summary. It has multiple synchronized views.
+A topic is not one giant PDF and not one tiny summary. It exposes **six synchronized interfaces**, but those interfaces do not need six independent manually maintained copies.
 
-## The five material layers
+## Canonical-storage rule
+To reduce freshness debt, prefer three canonical artifact families:
+
+1. **KNOWLEDGE / MASTER SOURCE** — the semantically marked teaching unit.
+2. **EXAM / ITEMS** — objective, discursive, practical and oral applications.
+3. **REFERENCE / SOURCES** — primary authority, mirrors and deep consultation material.
+
+`MAP`, `REVIEW` and `RECALL` should, whenever practical, be **derived projections** of the canonical knowledge unit + learner state rather than hand-maintained duplicate documents.
+
+This preserves a rich learner experience with less risk of six versions drifting after a legal change.
+
+## The six learner-facing interfaces
+
+### 0. MAP
+Orientation before depth.
+
+Contains:
+- where the topic sits in the Discipline Map;
+- its purpose and high-level architecture;
+- prerequisite concepts;
+- main subdivisions;
+- exam-phase relevance;
+- visible progress.
+
+MAP is not a summary of everything. It is a cognitive organizer.
 
 ### 1. MASTER
-The authoritative study chapter. Rich enough to teach the subject from the required foundations to exam-level nuance.
+The authoritative teaching view. Rich enough to teach from necessary foundations to exam-appropriate nuance.
 
 Default structure:
-1. Orientation: what this topic is and why it matters.
-2. Prerequisites and vocabulary.
+1. Orientation and vocabulary.
+2. Minimal prerequisites.
 3. Conceptual architecture.
 4. Rule and legal basis.
 5. Requirements / elements / competence / procedure.
 6. Effects and consequences.
 7. Exceptions and edge cases.
-8. Distinctions with neighboring institutes.
-9. Current jurisprudence and CNJ norms.
-10. Concrete notarial/registry applications.
-11. Exam DNA: documented ways the topic has been charged.
-12. Phase translation: objective, discursive, practical piece, oral.
-13. Short retrieval prompts.
-14. Links to REVIEW, RECALL and EXAM layers.
+8. `Confunde com` distinctions.
+9. Current jurisprudence/CNJ when answer-changing.
+10. Concrete notarial/registry application.
+11. Documented exam evidence.
+12. Translation to objective/discursive/practical/oral.
+13. Embedded retrieval prompts.
+14. Freshness/source metadata.
 
-MASTER is complete enough for serious study, but edited against the curriculum graph and question corpus so it does not become a general-purpose legal encyclopedia.
+MASTER is edited against curriculum + source + exam evidence so it does not become a general-purpose encyclopedia.
 
 ### 2. REVIEW
-High-density revision view. It is not the only summary and must not carry concepts the candidate has never understood.
+High-density revision projection.
+
+Prefer generating it from semantic markings inside MASTER plus personal errors.
 
 Contains:
 - concept skeleton;
-- rule / exception pairs;
-- critical deadlines and competences;
+- rule/exception pairs;
+- critical deadlines/competence;
 - high-value comparisons;
-- jurisprudential holdings that change answers;
-- common traps;
-- the learner's recurrent errors when useful.
+- answer-changing precedents;
+- recurring learner traps.
+
+REVIEW must never introduce a proposition absent from the canonical knowledge/source layer.
 
 ### 3. RECALL
-Retrieval interface. No passive rereading by default.
+Retrieval projection.
 
-Contains:
-- free-recall prompts;
-- incomplete tables / structures to reconstruct;
-- explain-in-30/60/120-second prompts;
+May be generated/adapted from canonical content and current learner state:
+- free recall;
+- incomplete structures to rebuild;
+- 30/60/120-second explanations;
 - discrimination pairs;
 - mini cases;
-- memory cues only after failed retrieval.
+- atomic flashcards only when atomization helps;
+- cues only after failed retrieval.
+
+Do not turn every paragraph into a flashcard.
 
 ### 4. EXAM
 Assessment interface.
 
-Contains:
-- official target-bank questions;
-- same-bank transfer questions;
-- other-bank robustness questions;
-- validated synthetic GX questions;
-- micro-discursives;
+Contains provenance-labeled:
+- official target questions;
+- same-bank transfer items;
+- other-bank robustness/domain items;
+- validated synthetic GX items;
+- microdiscursives;
 - practical-piece drills;
-- oral questions and follow-ups;
-- timed sets / simulations.
+- oral prompts/requestions;
+- timed sets and simulations.
+
+Official question text may be linked/stored in an appropriate controlled data plane rather than unnecessarily republished in the public repository.
 
 ### 5. REFERENCE
-Deep consultation layer for material that would overload daily study:
-- full statutory excerpts / tables;
-- extended doctrinal controversies;
+Deep consultation layer:
+- primary laws/regulations and official links;
+- extended doctrine/controversy;
 - historical changes;
-- long jurisprudential chains;
-- unusual state-local provisions;
-- source documents and links.
+- jurisprudential chains;
+- state-local provisions;
+- official correction mirrors/resources.
 
-REFERENCE exists so depth is preserved without forcing every detail into the main learning path.
+REFERENCE preserves depth without forcing it into daily study.
 
-## Editorial visual grammar for Notion
-Use visual semantics consistently rather than decorative randomness.
+## Editorial visual grammar
+Use semantic consistency, not decorative color.
 
 - **Black/default**: narrative explanation.
-- **Blue + bold**: core rule, concept name, structural element.
-- **Red + bold**: exception, prohibition, nullity, critical deadline or high-risk trap.
-- **Green + bold**: consequence, correct application, decision rule, checklist result.
+- **Blue + bold**: core rule, concept, structural element.
+- **Red + bold**: exception, prohibition, nullity, critical deadline/high-risk trap.
+- **Green + bold**: consequence, correct application, decision rule/checklist result.
 - **Orange + bold**: caution, controversy, `confunde com`, wording trap.
-- **Purple + bold**: jurisprudence / CNJ interpretation / advanced nuance.
+- **Purple + bold**: jurisprudence/CNJ interpretation/advanced nuance.
 
-Headings should reveal the mental map. Long paragraphs are acceptable when needed for legal nuance, but pages must be chunked by conceptual function and supported by tables when comparison is the cognitive task.
+Diagrams, mental maps and generated images are used only when they reduce cognitive load or make procedure/relationship clearer.
 
 ## Depth control
-Do not compress solely to make pages shorter.
-Do not expand solely because doctrine exists.
+Do not compress for aesthetics and do not expand because doctrine exists.
 
-A detail stays in MASTER when at least one applies:
-- required to understand a later node;
-- expressly in the edital;
-- repeatedly or recently tested;
-- necessary to eliminate plausible distractors;
-- necessary for discursive/practical/oral performance;
+A detail stays in the main MASTER path when one or more applies:
+- expressly required by the syllabus;
+- prerequisite for a later high-value node;
+- supported by meaningful domain/exam evidence;
+- needed to eliminate plausible distractors;
+- needed for written/practical/oral performance;
 - changes the legal result;
-- is a high-risk confusion for the learner.
+- high-risk confusion for the learner;
+- newly volatile/changed and likely to cause outdated reasoning.
 
-Otherwise it may move to REFERENCE.
+Otherwise move to REFERENCE.
 
-## Versioning and legal freshness
-Each chapter must be traceable to curriculum nodes and source registry items. Sensitive content receives a last-reviewed date. A material update caused by a normative change should identify what changed and invalidate affected recall/exam items where necessary.
+## Freshness propagation
+Each canonical proposition must be traceable to authority and review date/status.
+
+When a source changes:
+1. mark affected canonical knowledge;
+2. revalidate MASTER proposition;
+3. regenerate/flag REVIEW and RECALL projections;
+4. invalidate or revalidate synthetic EXAM items;
+5. preserve historical snapshot for old official questions.
+
+Generated projections should be disposable/rebuildable, not independent truths.
+
+## PDF/image policy
+PDFs, diagrams and images are **releases/views**, not competing sources of truth.
+
+A PDF can provide a polished offline study/revision edition. If law changes, the canonical knowledge unit changes first and the PDF is regenerated/versioned.
 
 ## No-chat dependency rule
-A candidate should be able to open a MASTER chapter months later and reconstruct the legal subject without needing to search old ChatGPT conversations.
+A candidate should be able to open the material months later and reconstruct the subject without searching old ChatGPT conversations.
