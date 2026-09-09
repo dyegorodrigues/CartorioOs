@@ -1,191 +1,151 @@
 # GX Cartório OS — Free Tooling Stack
 
-Atualizado em 08/09/2026.
+Atualizado em 09/09/2026.
 
 ## Regra de produto
 O GX deve funcionar sem exigir assinatura adicional do usuário.
 
 Nenhuma função pedagógica central pode depender de recurso pago do Notion, Airtable, Anki, banco de dados comercial ou serviço premium externo.
 
-Se um recurso pago ficar disponível temporariamente, ele é tratado como aceleração opcional, nunca como dependência arquitetural.
-
 ## Decisão arquitetural atual
-**Não criar nem promover um Google Sheets de produção neste momento.**
+**Não migrar o data plane de produção agora.**
 
-O corpus 300/300 e o estado atual permanecem onde já estão até que o schema operacional esteja congelado e exista necessidade concreta de analytics/telemetria que justifique um novo data plane.
+O risco principal não é capacidade de armazenamento ou contexto do modelo. É criar duas fontes de verdade, duplicar registros e introduzir drift antes de o tutor mínimo começar a produzir dados reais do candidato.
 
-Motivo: o risco real não é escala de células nem contexto do modelo. O risco é criar duas fontes de verdade, duplicar registros e introduzir drift. A adoção de Sheets será uma migração controlada, não um reflexo automático à limitação do Notion Free.
-
-## Stack canônica gratuita
+## Stack canônica gratuita atual
 
 ### 1. GitHub — Source of Truth versionado
-Função: governança, protocolos, matrizes, pesquisas, regras do sistema e artefatos estruturais.
-
-Guardar no GitHub:
-- STATUS e ponteiro HOT;
-- matriz canônica do edital;
-- taxonomias;
-- protocolos de classificação/QA;
-- meta-análises;
-- arquitetura pedagógica;
-- políticas de freshness;
-- schemas de dados;
-- regras de cálculo e priorização;
-- snapshots/reconstruções que precisam de histórico auditável.
-
-O GitHub vence conflitos de arquitetura e regras versionadas.
-
-### 2. Notion Free — Human Knowledge Portal + estado visual atual
-Função: leitura confortável, mapas, Command Center, Material Mestre e bancos já existentes enquanto forem suficientes.
-
-Usar para:
-- Command Center;
-- mapas de matéria;
-- páginas didáticas MASTER/REVIEW;
-- páginas de decisão;
-- guias navegáveis;
-- resumos de estado;
-- Curriculum/Question Lab/Errors/Sessions já existentes, sem depender de consultas avançadas pagas.
-
-O plano Free individual continua útil para páginas e bases visuais. A limitação da integração avançada não deve bloquear o sistema.
-
-### 3. Google Sheets — Candidate Operational Data Plane, ainda não promovido
-Função futura potencial: dados estruturados de alto volume, métricas e filas operacionais.
-
-Capacidade técnica não é preocupação imediata: Google Sheets suporta até 10 milhões de células por arquivo, escala suficiente para dezenas de milhares de questões e eventos de estudo no estágio atual do GX.
-
-**Mas capacidade não é critério de adoção.** Sheets só será criado quando:
-1. o schema operacional estiver congelado;
-2. houver necessidade concreta de consulta/agregação/analytics que o Notion Free não resolva;
-3. IDs e regras de reconciliação estiverem definidos;
-4. a migração puder ser feita em lotes auditáveis;
-5. houver ganho claro de confiabilidade ou eficiência.
-
-Arquivo futuro preferencial, se promovido: `GX Cartório — Data Plane`.
-
-Tabs candidatas:
-1. `Curriculum`
-2. `Questions`
-3. `Question_Alternatives`
-4. `Sources`
-5. `Mastery`
-6. `Review_Queue`
-7. `Sessions`
-8. `Errors`
-9. `Production`
-10. `Dashboard`
-11. `Config`
-
-### 4. Google Drive — Corpus e arquivos pesados
 Função:
-- provas oficiais;
-- PDFs e espelhos;
-- materiais adquiridos/legalmente disponíveis;
-- exportações;
-- imagens/mapas/diagramas gerados;
-- arquivos maiores que não devem viver dentro do Notion.
+- STATUS/ponteiro HOT;
+- arquitetura e protocolos;
+- matriz canônica;
+- schemas;
+- pesquisas/meta-análises;
+- regras de QA/freshness;
+- snapshots textuais que precisam de diff/auditoria.
 
-Sempre preservar a URL/fonte e metadados de autoridade/data.
+O repositório `dyegorodrigues/CartorioOs` está **público** em 09/09/2026.
 
-## Regra de contexto
-Mesmo se Sheets for adotado no futuro, **o tutor nunca carregará a planilha inteira para o contexto**.
+### 2. Notion Free — Human Knowledge Portal + estado operacional provisório
+Função:
+- Command Center;
+- Discipline/Theme Maps;
+- Material Mestre;
+- bancos operacionais já construídos;
+- navegação humana.
 
-O runtime deve ler somente:
-- o nó curricular atual;
-- revisões vencidas;
-- erros relevantes;
-- poucas questões candidatas;
-- métricas agregadas necessárias à decisão atual.
+#### Limite real observado
+A consulta SQL avançada da integração é limitada em planos que não possuem a capacidade paga correspondente. Isso **não significa que toda leitura estruturada do Notion deixou de funcionar**.
 
-Dados volumosos permanecem fora da janela de conversa e são consultados por faixa/registro quando necessário.
+A integração atual também oferece:
+- `rows` mode, para até 100 linhas por consulta com filtros;
+- `view` mode, que usa views e não tem a mesma cota específica de SQL.
+
+Portanto:
+- nenhuma função central depende de SQL pago;
+- usar rows/views para leituras delimitadas quando suficiente;
+- Notion continua operacional enquanto a escala real permitir;
+- não assinar plano pago como requisito do GX.
+
+### 3. Google Drive — corpus e arquivos pesados
+Função:
+- provas oficiais/PDFs;
+- espelhos;
+- materiais adquiridos ou legalmente disponíveis;
+- imagens, mapas e diagramas;
+- exports e artefatos grandes.
+
+Preservar URL, autoridade, edição/data e freshness.
+
+### 4. Google Sheets — Candidate Operational Data Plane, não promovido
+Pode ser excelente para:
+- tentativas em grande volume;
+- review queue;
+- mastery/retention;
+- analytics e dashboards;
+- queries por ranges.
+
+A integração está conectada. Se adotado, o tutor **nunca carrega a planilha inteira**: lê somente ranges/registros necessários à sessão.
+
+Sheets só entra após promotion gate e quando resolver dor real observada.
+
+## SQLite / JSONL
+### SQLite
+SQLite é tecnicamente excelente dentro de um aplicativo/local runtime, mas **não é o data plane imediato do GX nesta integração**.
+
+Razões:
+- arquivo `.sqlite` é binário e produz diffs pobres no Git;
+- o conector GitHub atual versiona conteúdo de arquivo, mas não executa transações SQL persistentes contra um banco hospedado no repositório;
+- regravar binário a cada sessão criaria fricção e risco de conflito;
+- portanto o ganho teórico de transação não está disponível no runtime atual.
+
+Reavaliar SQLite apenas quando houver aplicação própria/runtime local ou cloud que opere o banco diretamente.
+
+### JSONL/CSV
+São boas opções para:
+- exports auditáveis;
+- snapshots de tentativas;
+- datasets de pesquisa;
+- interchange entre ferramentas.
+
+Mas atualizar um arquivo Git grande a cada microtentativa também pode ser ineficiente. Usar quando houver contrato claro, não como religião de stack.
 
 ## O que não adotar como núcleo agora
-
 ### Airtable Free
-Não adotar como data plane principal.
-
-Razões atuais:
-- 1.000 registros por base;
-- 1.000 chamadas de API por workspace/mês.
-
-Isso é pequeno para Question Intelligence + alternativas + sessões + revisões + erros + produção.
+Pequeno demais para o volume previsto e adiciona fornecedor sem vantagem decisiva.
 
 ### Obsidian
-Bom para conhecimento pessoal, mas adicionaria outra interface e não oferece vantagem suficiente sobre GitHub + Notion + Drive no workflow atual.
+Bom produto, mas outra interface sem ganho suficiente no workflow atual.
 
 ### Supabase/Postgres
-Pode ser excelente no futuro quando o GX virar aplicação própria, mas introduzir backend agora aumenta engenharia antes de necessidade real.
+Excelente candidato caso o GX vire aplicação própria. Overengineering agora.
 
 ### Anki como dependência
-Não será obrigatório. A lógica de spaced retrieval pertence ao GX.
-
-Exportar para Anki pode virar saída opcional futura, sobretudo no Android, mas o candidato não deve administrar decks para o sistema funcionar.
+Não obrigatório. Exportação futura é permitida, mas o candidato não administra decks para o sistema funcionar.
 
 ## Separação de responsabilidades atual
-
 | Tipo de informação | Canônico atual |
 |---|---|
-| regra de arquitetura | GitHub |
-| estado HOT | GitHub |
-| página didática navegável | Notion |
-| bancos operacionais já existentes | Notion, provisoriamente |
-| arquivo/PDF/corpus pesado | Google Drive |
-| conversa diária | ChatGPT, com persistência dos efeitos nas camadas acima |
-| data plane analítico futuro | Google Sheets, somente após promotion gate |
+| arquitetura / regra / estado HOT | GitHub |
+| páginas didáticas / mapas / portal | Notion |
+| bancos atuais | Notion provisoriamente |
+| PDFs / espelhos / assets | Google Drive |
+| conversa diária | ChatGPT, persistindo efeitos |
+| analytics/data plane futuro | decidir por promotion gate |
 
 ## Chat Is Not Memory
-O chat é o cockpit.
-
-Ao final de uma sessão relevante, o sistema deve persistir automaticamente:
-- novos erros;
-- mastery atualizado;
+Ao final de uma sessão relevante, persistir o **efeito** da conversa:
+- tentativas;
+- mastery/retention;
 - próxima revisão;
-- questões resolvidas;
-- evidências de retenção;
-- decisões pedagógicas;
-- mudanças de arquitetura, quando existirem.
+- erros relevantes;
+- evidências discursivas/orais;
+- decisões pedagógicas.
 
-A conversa pode desaparecer sem destruir o estado do candidato.
+O candidato não deve administrar isso manualmente.
 
-## Política para o limite do Notion
-Não assumir que o acesso avançado de consulta estruturada reinicia diariamente.
+## Promotion gate para qualquer novo data plane
+1. definir o problema que a ferramenta resolve;
+2. congelar schema mínimo;
+3. definir IDs/chaves;
+4. definir source-of-truth por entidade;
+5. criar sandbox pequeno;
+6. testar leitura/escrita do runtime real;
+7. reconciliar 20–30 registros linha a linha;
+8. testar falha/retry/duplicata;
+9. só promover se o ganho superar a dívida de migração;
+10. manter rollback claro.
 
-Estado operacional seguro:
-- tratar a consulta avançada paga como indisponível para arquitetura;
-- usar recursos gratuitos disponíveis quando suficientes;
-- manter Notion como visualização e conteúdo humano;
-- não migrar apenas porque uma consulta específica ficou indisponível;
-- introduzir Sheets somente quando o promotion gate for satisfeito.
+## Context budget rule
+Independentemente da ferramenta, o tutor consulta somente:
+- estado curricular necessário;
+- itens vencidos;
+- erros relevantes;
+- poucas questões candidatas;
+- fontes jurídicas do bloco;
+- métricas agregadas suficientes para a decisão.
 
-## Promotion gate para Google Sheets
-1. congelar schema alvo no GitHub;
-2. definir chave primária/IDs estáveis;
-3. especificar fonte de verdade por entidade;
-4. criar uma planilha SANDBOX pequena, nunca o corpus inteiro de saída;
-5. migrar amostra de 20–30 registros;
-6. testar leitura/escrita e contexto por range;
-7. reconciliar linha a linha;
-8. só então decidir se o ganho justifica produção;
-9. se aprovado, migrar em lotes e recontar;
-10. se não aprovado, descartar sandbox sem tocar no corpus atual.
-
-Não criar uma segunda verdade silenciosa.
+O data plane pode ter milhões de células/linhas sem ocupar a janela de conversa, desde que seja consultado seletivamente.
 
 ## Critério de sucesso
-O usuário deve poder usar apenas o ChatGPT para estudar e, no máximo, abrir o Notion/Drive quando quiser visualizar material e estado.
-
-Ele não precisa:
-- cadastrar flashcards;
-- atualizar cronograma;
-- escolher próxima matéria;
-- organizar questões;
-- recalcular revisão;
-- mover linhas entre bancos;
-- administrar taxonomia.
-
-Esse trabalho pertence ao sistema.
-
-## Fontes públicas verificadas em 08/09/2026
-- Notion Free: https://www.notion.com/pricing
-- Airtable Free: https://support.airtable.com/docs/airtable-plans-overview
-- Google Drive/Sheets limits: https://support.google.com/drive/answer/37603
+O usuário deve conseguir estudar apenas com o comando `Começar estudo` e, opcionalmente, abrir Notion/Drive para consulta visual. Ele não escolhe próxima matéria, não move linhas, não mantém flashcards e não recalcula revisão.
