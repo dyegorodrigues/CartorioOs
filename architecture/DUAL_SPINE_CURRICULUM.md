@@ -1,9 +1,11 @@
 # GX Cartório OS — Dual Spine Curriculum
 
-Atualizado em 08/09/2026.
+Atualizado em 09/09/2026.
 
 ## Missão
-O GX existe para maximizar a probabilidade de aprovação em todas as fases dos concursos de outorga de delegações. Não é uma faculdade paralela, um tratado enciclopédico nem um sistema para formar o profissional mais erudito possível antes da prova.
+O GX existe para maximizar a probabilidade de aprovação em todas as fases dos concursos de outorga de delegações e orientar preparação de teto, inclusive tentativa real de gabarito, sem transformar o estudo em enciclopédia indiscriminada.
+
+A regra é **cobertura integral do escopo + profundidade desigual e justificável**. Ver `architecture/COVERAGE_DEPTH_POLICY.md`.
 
 A profundidade jurídica é instrumental: entra quando aumenta acerto, discriminação entre alternativas, velocidade, fundamentação, transferência para caso novo, produção discursiva/prática/oral ou reduz risco de erro recorrente.
 
@@ -70,6 +72,8 @@ Funções:
 6. conectar objetiva, discursiva, prática e oral;
 7. selecionar exemplos cartorializados para matérias gerais.
 
+No grafo operacional inicial, priorizar relações que mudam decisão real, especialmente `requires` e `confusable_with`. Não construir ontologia ornamental.
+
 A Spine B fica majoritariamente invisível durante o estudo inicial. Ela aparece quando ajuda.
 
 ## Quatro views canônicas
@@ -114,36 +118,50 @@ Sequência padrão:
 
 O grafo escolhe quando misturar. O candidato nunca recebe aleatoriedade sem finalidade diagnóstica ou pedagógica.
 
+## Coverage Floor
+Nenhum conteúdo expressamente examinável é descartado por baixa incidência histórica.
+
+A incidência altera:
+- orçamento de tempo;
+- quantidade de questões;
+- frequência de revisão;
+- profundidade;
+- mastery-alvo.
+
+Ela não altera a existência do nó no currículo.
+
+Para preparação objetiva madura, conteúdo expresso deve atingir normalmente pelo menos M2–M3, subindo a M4 quando a aplicação em caso/questão inédita for relevante.
+
 ## Depth Budget — quanto estudar de cada coisa
-Todo nó recebe uma classe de profundidade.
+Todo nó recebe uma classe de profundidade, sem confundir profundidade com inclusão/exclusão.
 
 ### P0 — Pré-requisito mínimo
-Base esquecida ou nunca aprendida que é necessária para entender conteúdo pontuável.
+Base esquecida ou nunca aprendida necessária para entender conteúdo pontuável.
 
-Ensinar apenas o suficiente para destravar o próximo nó.
+Ensinar apenas o suficiente para destravar o próximo nó. Mastery típico M1–M2, salvo dependência recorrente.
 
-### P1 — Core de prova
-Conteúdo diretamente previsto ou repetidamente necessário para resolver questões.
+### P1 — Cobertura examinável
+Conteúdo expresso ou plausivelmente examinável que precisa de piso seguro.
 
-Exige domínio forte.
+Exige localizar, recuperar núcleo e discriminar o normal. Mastery típico M2–M4 conforme formato observado.
 
 ### P2 — High-yield / discriminativo
-Regra, exceção, procedimento, jurisprudência ou distinção que separa candidato preparado de candidato mediano.
+Regra, exceção, procedimento, jurisprudência ou distinção com alta recorrência, centralidade ou poder de separar candidato preparado de candidato mediano.
 
-Exige domínio + recuperação rápida + aplicação.
+Exige recuperação rápida, discriminação e aplicação. Mastery típico M3–M4 na objetiva.
 
 ### P3 — Produção avançada
 Conteúdo que precisa sustentar discursiva, peça prática ou oral.
 
-Exige fundamentação, estrutura de resposta e transferência.
+Exige fundamentação, estrutura de resposta e transferência. Mastery típico M5–M7 conforme fase.
 
 ### P4 — Reference
 Doutrina, controvérsia ou detalhe de baixa utilidade imediata.
 
-Fica disponível para consulta e sobe de prioridade apenas por evidência de edital, banca, erro ou fase estadual.
+Fica disponível para consulta e sobe de prioridade por evidência de edital, banca, erro, fase estadual, mudança normativa ou dependência.
 
 ## Regra de utilidade
-Nenhum conteúdo entra na trilha diária apenas porque é juridicamente interessante.
+Nenhum conteúdo recebe alta densidade de repetição apenas porque é juridicamente interessante.
 
 Ele precisa justificar pelo menos uma função:
 - pré-requisito;
@@ -155,6 +173,8 @@ Ele precisa justificar pelo menos uma função:
 - exigência de discursiva/peça/oral;
 - atualização normativa crítica.
 
+Mas conteúdo examinável de baixa incidência continua coberto pelo Coverage Floor.
+
 ## Progressão por matéria
 Cada disciplina deve possuir uma progressão legível:
 
@@ -163,29 +183,35 @@ Cada disciplina deve possuir uma progressão legível:
 A progressão é independente da porcentagem de peso. Uma matéria de 1 questão ainda precisa de coerência; ela apenas recebe menor orçamento de tempo/profundidade se não for dependência de outros blocos.
 
 ## Caso especial: Direito Notarial e Registral
-Na matriz ENAC 2026.2, N/R responde por 60 das 100 questões. Portanto, é o maior bloco objetivo e também o principal ponto de integração prática do sistema.
+Na matriz ENAC 2026.2, N/R responde por 60 das 100 questões. Também é domínio praticamente novo para o candidato e ponto central de integração prática.
 
-Isso não significa estudar 60% do tempo mecanicamente. O orçamento de estudo considera:
+Por isso N/R entra desde o primeiro ciclo, em espiral com fundações just in time.
+
+Isso não significa estudar 60% do tempo mecanicamente. O orçamento considera:
 - peso de prova;
 - tamanho real do conteúdo;
 - dependências;
 - domínio individual;
 - taxa de esquecimento;
 - transferência para demais fases;
-- recência normativa.
+- recência normativa;
+- incidência documentada;
+- risco da cauda ainda não dominada.
 
-## Mastery não é leitura
-Um nó não está dominado porque foi lido.
+## Mastery canônico
+A escala única do GX é M0–M7:
+- M0 — não visto;
+- M1 — reconhece com apoio;
+- M2 — recupera núcleo sem apoio;
+- M3 — discrimina de alternativas/institutos próximos;
+- M4 — aplica em item/caso inédito;
+- M5 — produz resposta escrita juridicamente suficiente;
+- M6 — executa saída prática/procedimental quando aplicável;
+- M7 — explica e sustenta oralmente sob reperguntas.
 
-Níveis de evidência:
-1. **Compreensão** — explica a ideia central com apoio;
-2. **Recuperação** — produz regra/estrutura sem olhar;
-3. **Discriminação** — separa exceções e institutos próximos;
-4. **Aplicação** — resolve questão nova;
-5. **Transferência** — aplica a caso fora do template original;
-6. **Produção** — sustenta resposta discursiva/prática/oral sob tempo.
+`Retention/stability` é eixo separado. Um nó pode ter alta capacidade atual e baixa estabilidade futura.
 
-A exigência de nível varia com o Depth Budget.
+A exigência de nível varia com o Depth Budget e a fase.
 
 ## Orientação permanente
 Toda sessão deve poder responder quatro perguntas:
@@ -194,4 +220,7 @@ Toda sessão deve poder responder quatro perguntas:
 3. O que preciso conseguir fazer ao final?
 4. Quando e como este conhecimento será testado novamente?
 
-Se o GX não consegue responder às quatro, a sessão não está bem arquitetada.
+E para o candidato com tendência a hiperprofundidade, uma quinta:
+5. **Qual detalhe eu não preciso memorizar agora e por quê?**
+
+Se o GX não consegue responder às cinco, a sessão não está bem arquitetada.
