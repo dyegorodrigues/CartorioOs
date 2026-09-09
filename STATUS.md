@@ -24,6 +24,7 @@ Atualizado em 08/09/2026.
 - Depth Budget P0–P4 para impedir estudo enciclopédico sem utilidade para aprovação;
 - runtime pedagógico `pedagogy/CHAT_TUTOR_RUNTIME.md`: `Começar estudo` → ensinar → recuperar → testar → diagnosticar → revisar → registrar → recalibrar;
 - stack gratuita formalizada em `architecture/FREE_TOOLING_STACK.md`;
+- **promotion gate de Google Sheets formalizado: não criar/migrar o data plane de produção antes de schema congelado + sandbox + reconciliação**;
 - ENAC 2025.1 Tipo 1: **100/100** classificados na passagem 1;
 - ENAC 2025.2 Tipo 1: **100/100** classificados na passagem 1;
 - ENAC 2026.1 Tipo 1: **100/100** classificados na passagem 1;
@@ -74,14 +75,14 @@ Consequência: Conhecimentos Gerais é histórico, não currículo atual; Trabal
 ### GitHub
 Source of Truth versionado para arquitetura, estado HOT, protocolos, matrizes e meta-análises.
 
-### Google Sheets
-Novo destino planejado para o **Operational Data Plane**: questões, alternativas, mastery, revisões, sessões, erros, produção e dashboard. Migração será auditada e incremental para não criar duas verdades.
-
 ### Notion Free
-Permanece como **Human Knowledge Portal**: Command Center, mapas, páginas didáticas e Material Mestre. Nenhuma função central dependerá de consulta avançada paga.
+Permanece como **Human Knowledge Portal** e estado visual atual: Command Center, mapas, páginas didáticas, Material Mestre e bancos existentes enquanto forem suficientes. Nenhuma função central dependerá de consulta avançada paga.
+
+### Google Sheets
+**Candidate Operational Data Plane, ainda não promovido.** A integração Google Drive/Sheets está conectada, mas não será criada planilha de produção agora. Sheets só entra após schema congelado, sandbox pequeno, teste por ranges e reconciliação sem drift.
 
 ### Google Drive
-Corpus de PDFs, provas, espelhos, arquivos e materiais pesados.
+Corpus de PDFs, provas, espelhos, imagens/mapas/diagramas e materiais pesados.
 
 ## Restrição do Notion Free
 A consulta estruturada avançada disponível pela integração aparece como recurso dependente de plano pago no workspace atual.
@@ -89,13 +90,17 @@ A consulta estruturada avançada disponível pela integração aparece como recu
 Portanto:
 - não assumir reset diário como fundamento arquitetural;
 - não assinar plano pago;
-- usar a consulta avançada quando eventualmente disponível apenas como bônus;
-- mover telemetria/agregações para Google Sheets;
-- manter Notion para navegação e conteúdo humano.
+- usar recursos gratuitos disponíveis quando suficientes;
+- não migrar apenas porque uma consulta específica ficou indisponível;
+- manter Notion para navegação e conteúdo humano;
+- introduzir Sheets somente quando o promotion gate for satisfeito.
+
+## Regra de contexto do data plane
+Mesmo se Google Sheets for adotado futuramente, o tutor **nunca carrega a planilha inteira no contexto**. O runtime consulta apenas ranges/registros necessários à decisão atual: nó curricular, revisões vencidas, erros relevantes, poucas questões candidatas e métricas agregadas.
 
 ## O que NÃO está concluído
-- QA agregado final 300/300 por uma camada estruturada independente do Notion pago;
-- migração auditada do Operational Data Plane para Google Sheets;
+- QA agregado final 300/300 por uma camada estruturada independente da consulta paga do Notion;
+- schema operacional final e eventual sandbox de Google Sheets;
 - passagem 2 das 300 questões: Tema/Subtema/Microtema fino, fundamento, alternativa por alternativa e snapshots atuais;
 - criação de Microtemas úteis abaixo dos subtemas oficiais e temas das demais disciplinas;
 - meta-análise quantitativa/qualitativa/temporal/semântica final das 300;
@@ -108,13 +113,12 @@ Portanto:
 - Material Mestre completo.
 
 ## Próximo bloco obrigatório antes de promover prioridades
-### A. Data Plane gratuito + QA 300
-1. congelar schema operacional para Google Sheets;
-2. migrar/reconstruir o corpus em lotes verificáveis;
-3. preservar IDs/URLs históricas;
-4. recontar 300/300 por edição/disciplina/anulação;
-5. detectar duplicados/bootstraps e lacunas;
-6. declarar Sheets canônico apenas após reconciliação.
+### A. QA 300 + schema operacional
+1. continuar QA do corpus com fontes e checkpoints versionados;
+2. congelar schema futuro sem criar produção em Sheets;
+3. definir IDs e regras de reconciliação;
+4. criar Sheets SANDBOX apenas quando houver necessidade concreta;
+5. só promover Sheets se o ganho de confiabilidade/analytics justificar.
 
 ### B. Meta-análise 300
 1. normalizar matrix drift;
