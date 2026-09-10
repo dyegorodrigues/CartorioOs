@@ -1,115 +1,255 @@
 # GX Cartório OS — Next Session Pointer — 2026-09-10
 
 ## Purpose
-This file is the HOT handoff for the next ChatGPT conversation. Resume from here without reopening architecture from scratch.
+HOT handoff para continuidade sem reabrir arquitetura do zero.
 
-## User mission
-Prepare from near-zero/rusty legal knowledge to **competitive mastery for approval in ENAC + state objective + discursive + practical + oral stages**, targeting readiness by the end of 2027 and 2028 as absolute buffer ceiling.
+## Branch HOT
+`chatgpt/gx-cartorio-v0.1`
 
-The user does **not** want to optimize for a passing floor. The design target is maximum practical exam performance, ideally approaching gabarito-level reliability, while avoiding useless content and manual study administration.
+## Missão
+Levar o candidato de conhecimento competitivo enferrujado/próximo de zero até **prontidão verificável para aprovação e boa classificação em ENAC + objetiva estadual + discursiva + prática + oral**, com primeira habilitação-alvo em 2027, prontidão competitiva ampla desejada até o fim de 2027 e **2028 apenas como teto/buffer máximo**.
 
-## Latest authorial requirements
-1. **Extreme efficiency:** every unit of study must justify its cost by one or more of: comprehension, retention, discrimination, transfer, objective accuracy, written production, practical execution, oral performance, or legal freshness.
-2. **No encyclopedic waste:** 100% syllabus coverage does not mean equal depth. Use foundation/core/high-yield/tail/reference budgets.
-3. **Self-sufficient material:** candidate should not need to compare 4–5 apostilas to know whether something important is missing. The system should contain the necessary path, sources, questions, explanations, review and output training.
-4. **Linear/coherent visible progression by discipline:** preserve syllabus/discipline architecture so the user always knows where he is. Internal graph connections may support learning but must not create a soup.
-5. **Question-driven engineering at scale:** for each topic/subtopic, mine and classify relevant questions across legal-career levels and banks, with provenance, time window, legal snapshot and current-law revalidation. Historical items may be adapted for current-law practice only when clearly labeled; original historical evidence must remain intact.
-6. **Do not use one undifferentiated mega-corpus.** Maintain:
-   - Domain Incidence Model = what the domain asks across banks;
-   - Bank Style Model = how a specific bank/period/family/phase asks.
-7. **Oral corpus is first-class.** Collect official oral questions, published oral scripts/espelhos where available, practical cases and follow-up patterns. Build oral practice progressively from simple recall to structured case answers and reperguntas.
-8. **Discursive/practical are progressive, not postponed.** Start with micro-outputs, then issue spotting, answer atoms, legal basis, structured paragraphs, full discursive, practical instrument/act and timed execution.
-9. **Question difficulty ladder:** easy recall -> medium discrimination -> hard application -> elite/hard case synthesis. Difficulty should be empirical/behavioral when possible, not decorative labels.
-10. **Dry law / lei seca is important.** Do not replace statute reading with summaries. Build guided statute reading around high-value provisions, distinctions, lists, deadlines, competence, exceptions and wording-sensitive points. Use retrieval and cloze/QA selectively, not transcription.
-11. **No manual summaries by the candidate as default.** The user historically wastes time transcribing. The system should generate/refactor notes and ask the user mainly to retrieve, explain, solve and produce.
-12. **Spaced review must remain tractable.** Do not create a review avalanche. Review queues must prioritize forgetting risk × exam value × learner gap × transfer, and compress/reuse items over time. Retire or reduce low-value prompts as evidence accumulates.
-13. **Reusable evolving study objects:** questions, flashcards, oral prompts, mini-discursives and review prompts should be versioned, improved, merged, retired or discarded based on usefulness and learner evidence. Do not endlessly accumulate.
-14. **ADHD-aware UX:** candidate reports attention problems and rapid forgetting. Use short coherent blocks, visible location, explicit objective, progressive challenge, active response, low executive burden, and avoid dense visual clutter / too many badges / too many simultaneous tasks. Do not medicalize or assume every failure is ADHD.
-15. **Audio is a core interaction mode:** user may answer oral questions by voice; analyze the transcript for legal atoms, precision, structure, missing elements, confidence, concision and follow-up readiness.
-16. **Vocabulary and legal expression:** progressively train precise legal vocabulary and concise oral/written formulation without turning the study into stylistic ornament.
-17. **Freshness Firewall remains mandatory:** historical source snapshot != current law. Never silently modernize an old item and then present it as historical evidence. Keep original + current adaptation separated.
-18. **Predictive analysis must be calibrated:** use recency, recurrence, syllabus surface, legal change, bank/family style and domain incidence, but no fake microtopic probabilities from tiny samples. Backtest when corpus allows.
+O alvo não é `passar raspando`. É reduzir sistematicamente classes de erro e aproximar desempenho de teto/gabarito sem transformar o estudo em enciclopédia ou administração manual de cursinho.
 
-## Important evidence from old user backups
-User uploaded old Penal/Constitutional/Administrative study-system backups. Key lessons already extracted:
-- Good instincts worth preserving: advance organizer/map before depth; coherent discipline sequence; self-sufficient theory; remissions/cross-references; tables; objective + discursive + oral; review layer; active study.
-- Failure modes to prevent: duplicated versions inside same material, logs/agent instructions mixed with study content, too many labels/callouts, every detail promoted to core, unsupported claims of 'high incidence', architecture names overtaking content, progressive formatting drift.
-- Therefore freeze a small visual grammar and single canonical Knowledge Unit with derived MAP/REVIEW/RECALL views.
+## Estado HOT desta sessão
+### Work Order A — CONCLUÍDO / CONGELADO
+`material/EDITORIAL_STANDARD.md` foi promovido para **Editorial Standard v1.0**, congelado em 10/09/2026.
 
-## Current material experiments
-- N/R Entry Map in Notion: `00 — Mapa de Entrada: o que é o sistema notarial e registral`.
-- N/R regime pilot: `01 — Regime jurídico dos serviços notariais e de registro — PILOTO`.
-- Constitutional control demo: MASTER + REVIEW + RECALL + EXAM Lab. These are editorial experiments, not full canonical standard yet.
+Também foram alinhados:
+- `architecture/LEARNING_SYSTEM.md`;
+- `architecture/MINIMUM_VIABLE_TUTOR.md`;
+- `research/LEARNING_METHOD_VALIDATION_2026_09_10.md`.
 
-## Current corpus state
-- ENAC 2025.1: 100/100 indexed/classified passage 1.
-- ENAC 2025.2: 100/100 indexed/classified passage 1.
-- ENAC 2026.1: 100/100 canonical indexed/classified passage 1.
-- Total logical: 300/300.
-- Six annulled items preserved.
-- Passage 1 is **not** full reconstruction. It lacks full item text/alternatives/rationale/resources/current-law snapshot at scale.
+### Correção autoral incorporada
+`Progressivo` agora possui significado operacional explícito:
 
-## Next work order — DO NOT restart architecture brainstorming
-### A. Freeze Editorial Standard v1.0
-Create a concrete style contract from the demos + old-backup lessons:
-- visual grammar;
-- maximum callout density;
-- cross-reference syntax;
-- paragraph/table rules;
-- what belongs in MASTER vs REVIEW vs RECALL vs EXAM vs REFERENCE;
-- how law, jurisprudence, doctrine, theory and questions are visually marked;
-- anti-duplication rules.
+- **M0:** input guiado, leitura/explicação, lei seca guiada, exemplos resolvidos;
+- **M1:** recall leve/assistido;
+- **M2–M3:** Q→A, perguntas sem pista, C/E/MCQ, distinções, mini casos, voz curta;
+- **M3–M4:** transferência, item/caso inédito, issue spotting e microprodução;
+- **M4–M5:** discursiva progressiva `átomos → esqueleto → parágrafo → resposta completa → tempo/linhas`;
+- **M5–M6:** prática `instrumento → estrutura → elementos → execução`;
+- **M5–M7:** oral formal `estrutura → precisão → tempo → reperguntas → mudança de premissa`.
 
-### B. Build one full end-to-end canonical pilot
-Prefer a topic with sufficient official sources and question coverage. It must pass:
-`edital -> primary law -> current jurisprudence -> ENAC/FGV -> state/cartório FGV -> domain multibank -> oral/discursive/practical corpus -> Reconstruction Cards -> depth budget -> MASTER -> REVIEW -> RECALL -> EXAM -> QA -> freshness check`.
+**Voz/microfone pode ser usada desde M1/M2 como interface de recall. Isso não equivale a M7.**
 
-The pilot must prove **self-sufficiency and efficiency**, not just visual polish.
+É proibido usar discursiva fria, peça fria ou oral de banca como rotina de avaliação de conteúdo ainda não aprendido. Pergunta diagnóstica fria, quando útil, não penaliza mastery inicial.
 
+### Regra de dificuldade produtiva
+A tarefa deve ficar aproximadamente um degrau cognitivo acima do desempenho demonstrado.
+
+Falha repetida provoca regressão de suporte:
+`problema completo → caso guiado → contraste → recall do núcleo → releitura localizada`.
+
+Depois o sistema volta a subir. Não deixar o candidato dias preso no mesmo formato apenas para `forçar` aprendizado.
+
+## Nova regra de suficiência do material
+A pergunta autorreferente `com esse material dá para resolver qualquer questão?` **não é evidência** quando respondida pela própria IA.
+
+O Editorial Standard v1.0 criou o **Sufficiency Gate**:
+1. `Coverage Matrix` — edital/nós/proposições/fontes/depth/output;
+2. `Proposition Coverage` — regras e discriminadores necessários;
+3. `Held-out Resolution Test` — questões/casos não usados para escrever aquela versão;
+4. `Adversarial Variants` — inversão de exceção, competência, prazo, fato decisivo, instituto confundível e snapshot.
+
+Falhas são classificadas como:
+- `CONTENT_GAP`;
+- `DISCRIMINATION_GAP`;
+- `TRANSFER_GAP`;
+- `FRESHNESS_GAP`;
+- `QUESTION_DEFECT`;
+- `OUT_OF_SCOPE`;
+- `LEARNER_GAP`.
+
+Os quatro primeiros corrigem o material. `LEARNER_GAP` só pode ser atribuído quando o corpus canônico realmente sustentava a solução no nível esperado.
+
+Linguagem permitida: `sem lacuna conhecida para o escopo validado até esta data`.
+
+Linguagem proibida: `resolve qualquer questão`, `100% garantido`, `completo para toda questão futura`.
+
+## Varredura Q→A
+Cada unidade coerente deve poder gerar uma revisão tipo pergunta-resposta que percorra o capítulo sem releitura integral.
+
+- pergunta primeiro;
+- resposta abaixo/toggle;
+- foco em conceitos, requisitos, competência, prazo/lista, exceção, efeito, `confunde com`, literalidade e precedentes answer-changing;
+- erros pessoais entram progressivamente;
+- candidato tenta responder antes de revelar quando em modo recall.
+
+## Flashcards / objetos de recuperação
+Não modularizar cada parágrafo.
+
+Três famílias:
+- `Atomic Card` — prazo, competência, requisito, definição curta, exceção literal;
+- `Contrast Card` — A × B / regra × exceção / palavra decisiva;
+- `Reconstruction Card` — estrutura, procedimento, mapa, resposta oral curta, esqueleto discursivo/prático.
+
+Ciclo de vida:
+`active → merged → downgraded → retired → reactivated`.
+
+Objetivo: a fila fica **mais inteligente e potencialmente menor** com o domínio, não uma pilha infinita.
+
+## Lei seca guiada
+Permanece obrigatória.
+
+Priorizar leitura literal quando redação muda resposta:
+- requisitos;
+- prazos;
+- competências;
+- legitimidade;
+- vedações;
+- exceções;
+- listas;
+- ordem procedimental;
+- palavras limitadoras/ampliativas;
+- alterações recentes;
+- dispositivos com evidência de cobrança.
+
+MASTER explica e aponta fonte; não substitui automaticamente a leitura por resumo nem transcreve estatuto inteiro.
+
+## Freshness Firewall
+Continua obrigatório:
+- snapshot histórico ≠ lei atual;
+- questão original é preservada;
+- adaptação atual é objeto separado;
+- source version / checked_at / target cutoff devem ser rastreáveis em conteúdo sensível.
+
+## Horizonte e baseline regulatório
+- 2026: bootstrap + início do estudo real; ENAC 2026.2 fora do alvo por decisão autoral;
+- primeira edição ENAC 2027: primeiro alvo de habilitação;
+- fim de 2027: prontidão competitiva ampla desejada;
+- 2028: teto/buffer máximo.
+
+Baseline atual: Resolução CNJ 696/2026 vigente.
+
+Consequência de fase:
+- objetiva/ENAC continuam barreira relevante;
+- discursiva = 70% da nota final;
+- oral = 25%;
+- títulos = 5%.
+
+Portanto escrita/prática/oral **não podem ser adiadas até depois da objetiva**, mas são treinadas em formato compatível com o mastery, não como prova final desde o primeiro contato.
+
+## Currículo e mastery preservados
+- ENAC: 11/11 matérias;
+- temas de alto nível: 181/181;
+- subitens oficiais N/R: 138/138;
+- Dual Spine preservada;
+- relações operacionais prioritárias do grafo: `requires` e `confusable_with`;
+- escala única M0–M7;
+- retention/stability separado.
+
+N/R entra desde o primeiro ciclo. Civil, Constitucional, Administrativo e outras fundações entram em espiral/JIT, mantendo visão disciplinar coerente.
+
+## Corpus ENAC histórico
+Passagem 1 concluída como indexação/classificação:
+- 2025.1: 100/100;
+- 2025.2: 100/100;
+- 2026.1: 100/100 canônicas;
+- total lógico: 300/300;
+- 6 anuladas preservadas.
+
+`300/300` NÃO significa corpus integral reconstruído. Ainda faltam em escala:
+- enunciado/alternativas operacionais;
+- fundamento item a item;
+- alternativa por alternativa;
+- rationale de recursos quando disponível;
+- microtema fino;
+- snapshots revalidados;
+- difficulty empírica.
+
+## Estatística
+Manter separados:
+- `Domain Incidence Model` — o que o domínio cobra em corpus multibanca;
+- `Bank Style Model` — como banca/período/família/fase cobra.
+
+Sem pseudo-probabilidades microtemáticas a partir de amostra pequena.
+
+## Material canônico
+Experiência:
+`MAP → MASTER → REVIEW → RECALL → EXAM → REFERENCE`.
+
+Famílias de verdade:
+1. KNOWLEDGE/MASTER;
+2. EXAM/ITEMS;
+3. REFERENCE/SOURCES.
+
+MAP/REVIEW/RECALL são derivados sempre que possível.
+
+Gramática visual congelada no Editorial Standard v1.0:
+- `REGRA`;
+- `ATENÇÃO`;
+- `CONFUNDE COM`;
+- `PROVA`;
+- `HOT`;
+- `PRODUÇÃO`.
+
+Limites de densidade e regras de tabela/parágrafo/remissão estão no padrão. Não reabrir por preferência cosmética durante o piloto.
+
+## Research sanity check incorporado
+`research/LEARNING_METHOD_VALIDATION_2026_09_10.md` registra:
+- worked examples/guidance para low prior knowledge;
+- retrieval practice;
+- spacing/distributed practice;
+- guidance fading/expertise reversal;
+- sanity check com ecologia atual de preparação jurídica, sem tratar marketing de cursinho como ciência.
+
+## Learner model
+Quando o estudo começar, coletar apenas sinais decisórios:
+- resposta;
+- confiança prévia;
+- correção;
+- latência aproximada quando útil;
+- necessidade de pista;
+- causa do erro;
+- intervalo;
+- modalidade;
+- mastery M0–M7;
+- retenção separada;
+- material gap vs learner gap.
+
+Não inferir traço cognitivo geral de um erro isolado.
+
+# PRÓXIMO WORK ORDER HOT
+## B. Primeiro piloto canônico ponta a ponta
+Não reiniciar Work Order A.
+
+Escolher um tópico real com fontes oficiais e cobertura suficiente para passar por:
+`edital → fonte primária → jurisprudência atual → ENAC/FGV → FGV cartório/estadual → multibanca do domínio → oral/discursiva/prática → Reconstruction Cards → depth budget → MASTER → REVIEW → RECALL → EXAM → Sufficiency Gate → QA → freshness`.
+
+### O piloto precisa provar
+1. **Autossuficiência real**, não promessa;
+2. **Eficiência**, sem teoria ornamental;
+3. **Progressão de dificuldade correta** para um candidato que começa quase do zero;
+4. **Varredura Q→A** útil;
+5. **flashcards seletivos/evolutivos**;
+6. **lei seca guiada**;
+7. **questões held-out** para testar o material;
+8. **separação material gap vs learner gap**;
+9. **Freshness Firewall**;
+10. capacidade de alimentar o MVT.
+
+## Work orders seguintes preservados
 ### C. Oral + written corpus layer
-Create/extend a registry for:
-- source/court/bank/year/phase;
-- exact oral/discursive/practical prompt when lawfully available;
-- official mirror/criteria if available;
-- legal atoms expected;
-- difficulty/cognitive demand;
-- historical-law snapshot;
-- current-law adaptation separately;
-- follow-up questions/reperguntas where evidence exists.
+Registry com fonte/banca/ano/fase, prompt, espelho, átomos, dificuldade, snapshot, adaptação atual e reperguntas.
 
 ### D. Lei seca protocol
-Formalize guided statute study:
-- what is read verbatim;
-- what is converted to recall;
-- how lists/deadlines/competence/exceptions are trained;
-- when a provision leaves high-frequency review;
-- how current version is revalidated.
+Formalização operacional completa.
 
 ### E. Review-load control
-Formalize queue budget so spaced practice does not become massive:
-- due reviews are not all equal;
-- prioritize by `exam value × forgetting risk × learner gap × transfer × freshness`;
-- merge equivalent prompts;
-- retire saturated low-value cards;
-- prefer reconstruction/case over duplicate flashcards when appropriate.
+Budget de fila por `exam value × forgetting risk × learner gap × transfer × freshness`, com merge/retire.
 
 ### F. Minimum Viable Tutor gate
-Before broad material production, ensure runtime can:
-`choose node -> orient -> teach small coherent chunk -> retrieval -> item/case -> diagnose -> register M0–M7 + retention -> schedule -> pick next action`.
+`choose node → orient → teach coherent chunk → retrieval compatível → item/case → diagnose → register M0–M7 + retention → schedule → next action`.
 
-## Core quality gate
-A canonical unit must answer YES to all:
-1. Does it cover the relevant syllabus surface without silent gaps?
-2. Can the candidate understand it from near-zero prerequisite state using JIT foundations?
-3. Is every high-cost detail justified by exam/transfer value?
-4. Are primary sources and freshness explicit?
-5. Does it include enough variation to resist distractors rather than memorize one wording?
-6. Does it train at least objective output and, where phase-relevant, progressive written/oral/practical output?
-7. Can review be derived without rereading the whole chapter?
-8. Are cross-references helpful but not noisy?
-9. Is the candidate's executive burden close to zero?
-10. Can the system later explain why this content had this priority/depth?
+## Regra anti-procrastinação arquitetural
+A partir de agora, o Editorial Standard v1.0 fica congelado durante o piloto.
 
-## Next-chat reanchor instruction
-Open next conversation with:
-`Reancore o GX Cartório OS na branch chatgpt/gx-cartorio-v0.1. Leia STATUS.md e handoff/NEXT_SESSION_POINTER_2026-09-10.md. Não reinicie a arquitetura. Continue pelo Work Order A, preservando o horizonte 2027–2028, a regra de eficiência extrema, oral/discursiva/prática progressivas, lei seca guiada e o Freshness Firewall.`
+Só reabrir estrutura se o piloto mostrar falha observável que:
+- prejudica aprendizagem;
+- aumenta carga executiva;
+- ameaça freshness/segurança jurídica;
+- impede evidência de domínio;
+- ou reduz preparação para fase real.
+
+Próxima conversa deve retomar **pelo Work Order B**, não brainstormar arquitetura novamente.
