@@ -1,9 +1,15 @@
 # GX Cartório OS — Estado Atual
 
-Atualizado em 09/09/2026.
+Atualizado em 10/09/2026.
 
 ## Branch HOT
 `chatgpt/gx-cartorio-v0.1`
+
+## Handoff HOT
+Antes de qualquer retomada, ler:
+`handoff/NEXT_SESSION_POINTER_2026-09-10.md`
+
+Esse ponteiro incorpora as exigências autorais mais recentes sobre eficiência extrema, oral/discursiva/prática progressivas, lei seca guiada, controle de carga de revisão, ADHD-aware UX, evolução/reuso dos objetos de estudo e preservação de histórico jurídico versus adaptação à lei vigente.
 
 ## Missão canônica
 Levar o candidato de conhecimento competitivo enferrujado/próximo de zero até **prontidão verificável para aprovação e boa classificação em concursos de outorga de delegações notariais e registrais**, sem transformar o processo em gestão manual de cursinho.
@@ -178,33 +184,42 @@ Principais achados rejeitados/ajustados:
 - percentuais inventados no red team.
 
 ## Próximo bloco de trabalho
-### 1. Minimum Viable Tutor
-- alinhar arquivos restantes à escala M0–M7;
-- definir gates observáveis mínimos;
-- criar primeiro Discipline Map N/R + mapa geral;
-- definir diagnóstico curto de reentrada;
-- começar coleta de tentativas reais.
+### 1. Editorial Standard v1.0
+- congelar gramática visual pequena e estável;
+- limitar densidade de labels/callouts;
+- definir remissões e regras anti-duplicação;
+- formalizar lei seca, jurisprudência, doutrina e teoria dentro do MASTER;
+- manter REVIEW/RECALL derivados.
 
-### 2. Corpus operacional
-- testar amostra cega de classificação;
+### 2. Primeiro piloto canônico ponta a ponta
+Passar um tópico real por:
+`edital -> fontes primárias -> jurisprudência atual -> ENAC/FGV -> FGV cartório/estadual -> corpus multibanca do domínio -> oral/discursiva/prática -> Reconstruction Cards -> depth budget -> MASTER -> REVIEW -> RECALL -> EXAM -> QA/freshness`.
+
+### 3. Corpus operacional
 - tornar enunciados/alternativas acessíveis ao runtime sem republicação desnecessária;
 - produzir Reconstruction Cards junto dos nós que entram no estudo;
-- capturar fundamentos e respostas oficiais a recursos prioritariamente.
+- capturar fundamentos e respostas oficiais a recursos prioritariamente;
+- abrir camada específica de oral/discursiva/prática com histórico e adaptação vigente separados.
 
-### 3. Material inicial
-- produzir primeiro MASTER realmente estudável;
-- N/R desde o início + foundation JIT;
-- gerar REVIEW/RECALL a partir da mesma unidade canônica;
-- questão oficial e microprodução desde cedo.
+### 4. Lei seca guiada + controle de carga de revisão
+- leitura literal seletiva e justificável;
+- recall de listas/prazos/competência/exceções;
+- fila ponderada por valor de prova × risco de esquecimento × lacuna × transferência × freshness;
+- fundir, aposentar ou reduzir prompts saturados para impedir avalanche de revisão.
 
-### 4. Corpus ampliado
-- concursos estaduais de cartório;
-- FGV cartório além do ENAC;
-- FGV L4/L3 para microtemas gerais;
-- Cebraspe/Vunesp/outras bancas para domínio/transferência;
-- espelhos escritos/práticos e material oral.
+### 5. Minimum Viable Tutor
+- alinhar runtime à escala M0–M7;
+- escolher nó;
+- orientar;
+- ensinar bloco curto e coerente;
+- retrieval;
+- questão/caso;
+- diagnosticar;
+- registrar mastery + retenção;
+- agendar;
+- selecionar próxima ação.
 
-### 5. Learner model
+### 6. Learner model
 Após começar o estudo, registrar apenas sinais com valor decisório:
 - resposta;
 - confiança prévia;
@@ -213,7 +228,8 @@ Após começar o estudo, registrar apenas sinais com valor decisório:
 - necessidade de pista;
 - causa do erro;
 - intervalo;
-- modalidade.
+- modalidade;
+- distinguir traço cognitivo geral de dificuldade específica do domínio.
 
 ## Regra anti-procrastinação arquitetural
 A infraestrutura deve chegar rapidamente a **Minimum Viable Tutor**. Depois disso, mudança de arquitetura só recebe prioridade quando:
