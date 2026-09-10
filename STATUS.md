@@ -9,7 +9,7 @@ Atualizado em 10/09/2026.
 Antes de qualquer retomada, ler:
 `handoff/NEXT_SESSION_POINTER_2026-09-10.md`
 
-Esse ponteiro incorpora as exigências autorais mais recentes sobre eficiência extrema, oral/discursiva/prática progressivas, lei seca guiada, controle de carga de revisão, ADHD-aware UX, evolução/reuso dos objetos de estudo e preservação de histórico jurídico versus adaptação à lei vigente.
+O ponteiro incorpora as exigências autorais atuais sobre eficiência extrema, progressão de saída conforme mastery, oral/discursiva/prática progressivas, voz como interface de recall, lei seca guiada, controle de carga de revisão, evolução/reuso dos objetos de estudo, Sufficiency Gate e Freshness Firewall.
 
 ## Missão canônica
 Levar o candidato de conhecimento competitivo enferrujado/próximo de zero até **prontidão verificável para aprovação e boa classificação em concursos de outorga de delegações notariais e registrais**, sem transformar o processo em gestão manual de cursinho.
@@ -78,7 +78,24 @@ Escala única M0–M7:
 - M6 executa prática;
 - M7 sustenta oral/reperguntas.
 
-`Retention/stability` é eixo separado. O drift anterior 0–6 versus M0–M7 foi corrigido em `architecture/LEARNING_SYSTEM.md`.
+`Retention/stability` é eixo separado.
+
+## Progressão de saída — congelada em 10/09/2026
+`Progressivo` não significa exigir todas as fases desde o primeiro contato.
+
+- **M0:** mapa + leitura/explicação + Foundation JIT + lei seca guiada + exemplo resolvido;
+- **M1:** recall assistido, Q→A, completar núcleo, voz curta com apoio;
+- **M2–M3:** recall sem pista, C/E/MCQ, questões oficiais, distinções, mini casos, voz curta;
+- **M3–M4:** item/caso inédito, variação de premissas, issue spotting, microprodução;
+- **M4–M5:** discursiva em escada `átomos → esqueleto → parágrafo → resposta completa → tempo/linhas`;
+- **M5–M6:** prática em escada `instrumento → estrutura → elementos → execução`;
+- **M5–M7:** oral formal `estrutura → precisão → tempo → reperguntas → mudança de premissa`.
+
+Voz/microfone pode ser usada desde M1/M2 como **interface de retrieval**. Isso não equivale a M7.
+
+Discursiva fria, peça fria e oral de banca não são instrumentos normais de primeira exposição.
+
+Falha repetida provoca redução de complexidade/suporte antes de nova escalada.
 
 ## Ordem pedagógica
 N/R entra **desde o primeiro ciclo**, porque combina maior peso atual + baixa exposição prévia + alto valor de transferência + necessidade de muitos ciclos de consolidação.
@@ -117,27 +134,82 @@ O GX separa:
 
 Prioridade usa múltiplos sinais: matriz, superfície do edital, incidência de domínio, estilo da banca, dependências, transferência, volatilidade normativa e desempenho individual.
 
-## Material
-Experiência do candidato permanece:
-`MAP → MASTER → REVIEW → RECALL → EXAM → REFERENCE`.
+## Work Order A — CONCLUÍDO
+### Editorial Standard v1.0
+Congelado em:
+`material/EDITORIAL_STANDARD.md`
 
-Direção editorial após auditoria:
-- reduzir duplicação canônica;
-- MASTER/Knowledge Unit como fonte semântica principal;
-- EXAM como aplicações/itens;
-- REFERENCE como fontes/profundidade;
-- MAP/REVIEW/RECALL preferencialmente derivados, não cópias manuais divergentes.
+Principais contratos:
+- três famílias canônicas: KNOWLEDGE/MASTER, EXAM/ITEMS, REFERENCE/SOURCES;
+- experiência do candidato: `MAP → MASTER → REVIEW → RECALL → EXAM → REFERENCE`;
+- MAP/REVIEW/RECALL preferencialmente derivados;
+- gramática visual pequena: `REGRA`, `ATENÇÃO`, `CONFUNDE COM`, `PROVA`, `HOT`, `PRODUÇÃO`;
+- limites concretos de callout/tabela/parágrafo/remissão;
+- progressão de formato conforme mastery;
+- Varredura Q→A;
+- flashcards seletivos: Atomic / Contrast / Reconstruction;
+- lei seca guiada;
+- Sufficiency Gate;
+- Freshness Firewall;
+- anti-duplicação;
+- Quality Gate canônico.
+
+Também alinhados:
+- `architecture/LEARNING_SYSTEM.md`;
+- `architecture/MINIMUM_VIABLE_TUTOR.md`;
+- `research/LEARNING_METHOD_VALIDATION_2026_09_10.md`.
+
+O padrão fica congelado durante o primeiro piloto. Não reabrir por preferência cosmética.
+
+## Sufficiency Gate
+É proibido validar o material perguntando à própria IA se `dá para resolver qualquer questão` e aceitar a resposta como prova.
+
+A validação usa:
+1. `Coverage Matrix`;
+2. `Proposition Coverage`;
+3. `Held-out Resolution Test` com questões/casos não usados para redigir a versão;
+4. `Adversarial Variants`.
+
+Falhas:
+- `CONTENT_GAP`;
+- `DISCRIMINATION_GAP`;
+- `TRANSFER_GAP`;
+- `FRESHNESS_GAP`;
+- `QUESTION_DEFECT`;
+- `OUT_OF_SCOPE`;
+- `LEARNER_GAP`.
+
+Falhas editoriais corrigem material. `LEARNER_GAP` só é atribuído quando o corpus sustentava a solução.
+
+O objetivo é aproximar gabarito por evidência, não promessa.
+
+## Varredura Q→A e flashcards
+Cada unidade coerente deve poder gerar uma revisão por perguntas e respostas de alta densidade sem releitura integral.
+
+Flashcards não são derivados de cada parágrafo. Famílias:
+- `Atomic Card`;
+- `Contrast Card`;
+- `Reconstruction Card`.
+
+Ciclo de vida:
+`active → merged → downgraded → retired → reactivated`.
+
+A revisão deve reduzir redundância conforme domínio aumenta.
 
 ## Freshness Firewall
 Ativo. Direito histórico, direito atual e cutoff do alvo permanecem separados.
 
 Volatilidade normativa pode aumentar prioridade de revalidação/estudo, mas não será tratada como prova automática de maior incidência.
 
+Questão histórica permanece histórica. Adaptação à lei atual é objeto separado.
+
 ## Retention engine
 - heurísticas apenas como bootstrap;
 - FSRS é candidato para recalls atômicos/flashcards;
 - não substitui mastery M0–M7 nem o scheduler completo;
 - modelos complexos de knowledge tracing não entram sem dados individuais suficientes.
+
+Fila de revisão deve ficar tratável: priorizar risco de esquecimento × valor de prova × learner gap × transferência × freshness; fundir/rebaixar/aposentar objetos saturados.
 
 ## Stack gratuita atual
 ### GitHub
@@ -183,43 +255,36 @@ Principais achados rejeitados/ajustados:
 - afirmar que o repositório é privado;
 - percentuais inventados no red team.
 
-## Próximo bloco de trabalho
-### 1. Editorial Standard v1.0
-- congelar gramática visual pequena e estável;
-- limitar densidade de labels/callouts;
-- definir remissões e regras anti-duplicação;
-- formalizar lei seca, jurisprudência, doutrina e teoria dentro do MASTER;
-- manter REVIEW/RECALL derivados.
+## Próximo bloco de trabalho HOT
+### B. Primeiro piloto canônico ponta a ponta
+Escolher tópico real com fontes e cobertura suficientes e passar por:
+`edital → fontes primárias → jurisprudência atual → ENAC/FGV → FGV cartório/estadual → corpus multibanca → oral/discursiva/prática → Reconstruction Cards → depth budget → MASTER → REVIEW → RECALL → EXAM → Sufficiency Gate → QA/freshness`.
 
-### 2. Primeiro piloto canônico ponta a ponta
-Passar um tópico real por:
-`edital -> fontes primárias -> jurisprudência atual -> ENAC/FGV -> FGV cartório/estadual -> corpus multibanca do domínio -> oral/discursiva/prática -> Reconstruction Cards -> depth budget -> MASTER -> REVIEW -> RECALL -> EXAM -> QA/freshness`.
+O piloto precisa provar:
+- autossuficiência real;
+- eficiência;
+- progressão correta para near-zero;
+- Varredura Q→A;
+- flashcards seletivos;
+- lei seca guiada;
+- held-out resolution;
+- material gap vs learner gap;
+- Freshness Firewall;
+- alimentação do MVT.
 
-### 3. Corpus operacional
-- tornar enunciados/alternativas acessíveis ao runtime sem republicação desnecessária;
-- produzir Reconstruction Cards junto dos nós que entram no estudo;
-- capturar fundamentos e respostas oficiais a recursos prioritariamente;
-- abrir camada específica de oral/discursiva/prática com histórico e adaptação vigente separados.
+### C. Oral + written corpus layer
+Registry com origem/ano/fase/prompt/espelho/átomos/dificuldade/snapshot/adaptação/reperguntas.
 
-### 4. Lei seca guiada + controle de carga de revisão
-- leitura literal seletiva e justificável;
-- recall de listas/prazos/competência/exceções;
-- fila ponderada por valor de prova × risco de esquecimento × lacuna × transferência × freshness;
-- fundir, aposentar ou reduzir prompts saturados para impedir avalanche de revisão.
+### D. Lei seca protocol
+Formalização operacional completa.
 
-### 5. Minimum Viable Tutor
-- alinhar runtime à escala M0–M7;
-- escolher nó;
-- orientar;
-- ensinar bloco curto e coerente;
-- retrieval;
-- questão/caso;
-- diagnosticar;
-- registrar mastery + retenção;
-- agendar;
-- selecionar próxima ação.
+### E. Review-load control
+Budget da fila e regras de merge/retire.
 
-### 6. Learner model
+### F. Minimum Viable Tutor gate
+`choose node → orient → teach coherent chunk → retrieval compatível → item/case → diagnose → register M0–M7 + retention → schedule → next action`.
+
+## Learner model
 Após começar o estudo, registrar apenas sinais com valor decisório:
 - resposta;
 - confiança prévia;
@@ -229,7 +294,11 @@ Após começar o estudo, registrar apenas sinais com valor decisório:
 - causa do erro;
 - intervalo;
 - modalidade;
-- distinguir traço cognitivo geral de dificuldade específica do domínio.
+- mastery;
+- retenção;
+- material gap vs learner gap.
+
+Não transformar qualquer falha em traço cognitivo geral.
 
 ## Regra anti-procrastinação arquitetural
 A infraestrutura deve chegar rapidamente a **Minimum Viable Tutor**. Depois disso, mudança de arquitetura só recebe prioridade quando:
