@@ -1,6 +1,6 @@
 # GX Cartório OS — Minimum Viable Tutor
 
-Atualizado em 09/09/2026.
+Atualizado em 10/09/2026.
 
 ## Objetivo
 Chegar rapidamente a um tutor que realmente ensina, testa, registra e recalibra o candidato, em vez de adiar estudo enquanto a arquitetura cresce.
@@ -14,8 +14,8 @@ Quando o candidato disser `Começar estudo`, o sistema deve conseguir:
 2. escolher um nó estudável e justificar a escolha internamente;
 3. mostrar onde ele está no mapa sem sobrecarregar;
 4. ensinar a fundação mínima + conteúdo examinável;
-5. inserir retrieval durante o ensino;
-6. aplicar pelo menos uma questão/caso relevante;
+5. inserir retrieval **somente após exposição suficiente ao bloco**;
+6. aplicar questão/caso em dificuldade compatível com o mastery atual;
 7. classificar o erro pela causa quando houver;
 8. registrar evidência de mastery e retenção;
 9. definir próxima recuperação;
@@ -71,6 +71,8 @@ Exemplos:
 ### D. Aplicação extrajudicial cedo
 O candidato não deve passar semanas em abstração. Cada bloco relevante ganha situação concreta de serventia.
 
+`Aplicação cedo` não significa `peça/discursiva/oral de banca cedo`. O formato de saída sobe conforme o mastery.
+
 ## Formato mínimo de uma unidade
 ### 1. Você está aqui
 Uma frase de localização + objetivo observável.
@@ -87,13 +89,22 @@ Blocos curtos:
 - exemplo;
 - `confunde com`.
 
-### 4. Retrieval
-Pergunta sem alternativa antes de o conteúdo desaparecer da memória de trabalho.
+### 4. Retrieval compatível
+Depois de o bloco ter sido ensinado:
+- M0/M1: pergunta curta, completar núcleo, Q→A com resposta recolhida/abaixo;
+- M2/M3: recall sem pista, contraste, C/E/MCQ, explicação oral curta;
+- M3/M4: item/caso inédito e microprodução;
+- M4+: produção escrita progressiva;
+- M5+: prática/oral formal conforme o nó.
+
+Nunca usar uma discursiva fria como prova de incapacidade sobre conteúdo ainda não aprendido.
 
 ### 5. Questão/caso
 Preferência:
 - questão oficial reconstruída e validada;
 - ou item diagnóstico/sintético explicitamente rotulado e baseado em fonte atual.
+
+A questão deve estar no máximo um degrau cognitivo além do desempenho demonstrado. Se houver falha repetida, reduzir suporte/complexidade antes de repetir a cobrança.
 
 ### 6. Feedback causal
 Não dizer apenas `certo/errado`.
@@ -109,10 +120,13 @@ Classificar:
 - leitura;
 - desatualização;
 - excesso de inferência;
-- falsa confiança.
+- falsa confiança;
+- **lacuna do próprio material**, quando o held-out/sufficiency gate mostrar que a informação ou discriminação necessária não estava disponível.
 
 ### 7. Closure
 2–5 recalls + uma frase `o que você deve levar desta sessão`.
+
+Quando útil, acrescentar uma mini `Varredura Q→A` para permitir revisão futura sem reler a unidade inteira.
 
 ## Dados mínimos por tentativa
 Registrar somente o que muda decisões:
@@ -142,6 +156,38 @@ Usar escala canônica:
 
 Retenção é separada.
 
+## Voz como interface
+O botão de microfone é uma interface de resposta, não uma fase separada.
+
+Pode ser usado para:
+- responder Q→A;
+- justificar C/E ou alternativa;
+- reconstruir lista/regra;
+- explicar um instituto em 30–60 s;
+- responder microcaso;
+- treinar oral formal quando o mastery liberar.
+
+A análise da transcrição deve verificar conteúdo jurídico antes de estilo:
+1. átomos jurídicos essenciais;
+2. precisão/fundamento;
+3. ordem lógica;
+4. omissões e excessos;
+5. vocabulário;
+6. concisão;
+7. prontidão para repergunta.
+
+## Objetos de revisão no MVT
+Não exigir um sistema gigante de flashcards antes de começar.
+
+Cada nó pode gerar, conforme necessidade:
+- `Atomic Card`;
+- `Contrast Card`;
+- `Reconstruction Card`;
+- perguntas da Varredura Q→A;
+- questão/caso reutilizável.
+
+Objetos não úteis ou já saturados são fundidos/rebaixados/aposentados. O MVT não mede qualidade pela quantidade de cards criados.
+
 ## Regras para o candidato que quer `saber tudo`
 O tutor deve sempre sinalizar implicitamente ou explicitamente:
 - `isso é fundação`;
@@ -162,6 +208,15 @@ Não promete 100/100 em prova futura. O alvo pedagógico é **domínio de teto**
 - forte transferência para questões inéditas;
 - precisão sob tempo;
 - capacidade escrita/prática/oral.
+
+## Sufficiency check do material
+Antes de atribuir um erro ao candidato, o sistema deve poder responder:
+- a regra necessária estava no corpus canônico?
+- o contraste necessário estava ensinado?
+- a questão dependia de snapshot histórico diferente?
+- o caso exigia transferência já treinada?
+
+Material não é considerado `completo` porque a IA declarou que é. O piloto deve usar questões/casos held-out e classificar falhas conforme o Editorial Standard v1.0.
 
 ## Gate para começar estudo real
 Não esperar:
@@ -185,7 +240,8 @@ Ao estudar um cluster, o GX melhora simultaneamente:
 - material MASTER;
 - REVIEW/RECALL derivados;
 - mapa de dependências;
-- dados pessoais do candidato.
+- dados pessoais do candidato;
+- evidência de suficiência/insuficiência do próprio material.
 
 Assim, pesquisa e estudo deixam de ser filas separadas.
 
@@ -195,9 +251,10 @@ Depois das primeiras sessões, o GX deve começar a aprender:
 - se acerto veio de conhecimento ou eliminação;
 - que tipos de confusão se repetem;
 - quais explicações produzem transferência;
-- quanto conteúdo decai após 1, 3, 7, 14+ dias;
+- quanto conteúdo decai após intervalos reais;
 - quando reconhecimento vira aplicação;
-- quanto de fundamentação escrita/oral surge espontaneamente.
+- quanto de fundamentação escrita/oral surge espontaneamente;
+- quais falhas vieram do material e quais vieram do learner state.
 
 Esse learner model passa a competir em importância com a incidência histórica das provas.
 
@@ -206,5 +263,6 @@ MVT v0.1 é considerado operacional após completar uma primeira sessão real e 
 - o que foi estudado;
 - o que foi aprendido;
 - o que falhou;
+- se a falha era do material ou do candidato;
 - o que revisar;
 - e qual é a próxima ação.
