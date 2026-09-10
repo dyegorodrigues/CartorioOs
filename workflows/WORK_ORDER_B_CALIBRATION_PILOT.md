@@ -32,7 +32,30 @@ Razões:
 5. existe evidência de cobrança FGV e em concursos jurídicos/cartorários;
 6. o candidato consegue auditar o conteúdo melhor que em N/R.
 
-## Escopo inicial do nó
+## B0A — Bootstrap constitucional antes do nó
+Nova exigência autoral: o candidato informou que sua memória constitucional está mais preservada nas partes introdutórias e que mesmo `Poder Constituinte` já pode parecer avançado sem reconstrução do chão conceitual.
+
+Portanto o piloto **não começa cobrando diretamente classificações e limites do poder constituinte**.
+
+Antes entra um bootstrap P0, curto e não tratado como tema adicional do edital, com a função exclusiva de reconstruir:
+- Constituição como norma fundamental/suprema da ordem;
+- ideia de criação de uma ordem constitucional versus alteração de uma ordem existente;
+- diferença entre fonte de validade e exercício de competência já constituída;
+- noção de rigidez constitucional e por que reforma exige procedimento especial;
+- vocabulário mínimo para entender originário, derivado, reformador e decorrente.
+
+### Regra anti-inchaço
+B0A não vira capítulo enciclopédico de Teoria da Constituição. Só permanece o que destrava o nó real e reduz erro.
+
+### Gate de saída B0A
+O candidato não precisa dominar doutrina. Basta conseguir:
+1. explicar em linguagem simples por que uma Constituição ocupa posição superior às leis ordinárias;
+2. distinguir `criar uma nova ordem` de `alterar a ordem existente`;
+3. entender por que o poder de reforma é uma competência criada pela própria Constituição.
+
+Depois disso o estudo entra em B0B — Poder Constituinte propriamente dito.
+
+## Escopo inicial do nó B0B
 Não transformar `Poder Constituinte` em tratado.
 
 Subnós provisórios a validar pelo corpus:
@@ -66,6 +89,11 @@ O corpus de oral deve buscar primeiro fontes oficiais de concursos de outorga; n
 
 ## Pipeline B0
 O piloto deve passar nesta ordem:
+
+0. `BOOTSTRAP P0`
+   - reconstruir chão constitucional mínimo;
+   - sem prova pesada;
+   - pequeno recall e 2–5 itens diagnósticos/aplicativos após ensino.
 
 1. `SCOPE`
    - confirmar edital atual;
@@ -121,14 +149,16 @@ O piloto deve passar nesta ordem:
    Testar material contra itens não usados para escrever a versão.
 
 11. `USER AUDIT`
-   O candidato avalia não `se gostou`, mas:
-   - faltou algo que ele sabe ser importante?;
-   - apareceu doutrina inútil?;
-   - ficou claro o que decorar versus compreender?;
+   O candidato avalia não `se gostou`, mas principalmente:
+   - entendeu sem precisar procurar outra apostila?;
+   - sabia exatamente o que fazer em cada missão?;
+   - ficou claro o que compreender, recuperar e ler literalmente?;
    - questões pareciam consequência do material?;
    - alguma resposta exigiu algo que o MASTER não ensinou?;
    - revisão Q→A permite reconstruir o capítulo?;
-   - carga parece permitir avançar?
+   - carga parece permitir avançar sem ficar preso no mesmo tópico?
+
+O usuário **não é responsável por certificar a correção jurídica**. Scope/source/exam proofs continuam responsabilidade do sistema e das fontes.
 
 12. `TRANSFER TO N/R`
    Só após corrigir falhas observadas no B0, aplicar o padrão ao primeiro cluster N/R.
@@ -166,6 +196,11 @@ Mesmo quando o nó alcançar M5/M7, ele continua na trilha objetiva do `CONTINUO
 
 Produção adiciona capacidade. Não aposenta múltipla escolha, C/E, questão inédita, lei seca ou revisão.
 
+## Relação com o runtime diário
+O piloto será executado por `workflows/STUDY_MISSION_ORCHESTRATOR.md`.
+
+O usuário recebe missões fechadas, não o MASTER inteiro como tarefa bruta. Revisões e simulados passam de LOCAL → CLUSTER → DISCIPLINE → CROSS-DISCIPLINE → PARTIAL/FULL conforme cobertura e domínio.
+
 ## Condição para considerar B0 aprovado
 O B0 só passa se:
 - o candidato considerar o nível e a carga plausíveis;
@@ -174,7 +209,8 @@ O B0 só passa se:
 - o material explicar por que cada profundidade existe;
 - Q→A e objetiva conseguirem revisar o núcleo sem releitura integral;
 - produção puder ser liberada sem bloquear avanço curricular;
-- fontes e freshness estiverem rastreáveis.
+- fontes e freshness estiverem rastreáveis;
+- o candidato conseguir avançar curricularmente sem sentir que cada tópico virou um projeto infinito.
 
 ## Próximo passo após este arquivo
-Executar `SCOPE → QUESTION CORPUS → PROPOSITION MAP` de **Poder Constituinte** antes de escrever a primeira versão completa do MASTER.
+Executar **B0A bootstrap P0** e então continuar `SCOPE → QUESTION CORPUS → PROPOSITION MAP → DEPTH BUDGET → MASTER` de Poder Constituinte.
