@@ -55,6 +55,34 @@ O candidato não precisa dominar doutrina. Basta conseguir:
 
 Depois disso o estudo entra em B0B — Poder Constituinte propriamente dito.
 
+## Legacy Red-Team Gate — materiais antigos do candidato
+O candidato forneceu em 10/09/2026 materiais antigos de Estratégia e Dedicação Delta, incluindo Constitucional, Penal e legislação anotada.
+
+Eles são **benchmark não canônico**. Auditoria registrada em:
+`research/LEGACY_MATERIALS_RED_TEAM_AUDIT_2026_09_10.md`.
+
+### Uso permitido
+- colher terminologias/aliases para buscar em provas;
+- levantar controvérsias e detalhes candidatos a validação;
+- comparar organização editorial e carga cognitiva;
+- localizar questões citadas e buscar depois a fonte original;
+- red-team do GX contra lacunas que cursinhos tentaram cobrir;
+- reaproveitar funções úteis como mapa de lei prioritária, quadro comparativo e revisão estruturada.
+
+### Uso proibido
+- mesclar PDFs para formar MASTER;
+- assumir que `caiu em Delegado` significa prioridade em cartório;
+- copiar ranking de importância de outra carreira;
+- tratar comentário de cursinho como autoridade atual;
+- transformar todo aprofundamento encontrado em obrigação de primeira passagem;
+- usar questão reproduzida em material comercial como gabarito canônico sem validação apropriada.
+
+### Regra de triangulação
+Uma proposição sugerida pelo legado só entra no caminho principal quando sua função for justificada por:
+`currículo/edital + autoridade jurídica atual + exam evidence`.
+
+Se não houver essa convergência, fica em `CANDIDATE/REFERENCE` até evidência melhor.
+
 ## Escopo inicial do nó B0B
 Não transformar `Poder Constituinte` em tratado.
 
@@ -93,7 +121,7 @@ O piloto deve passar nesta ordem:
 0. `BOOTSTRAP P0`
    - reconstruir chão constitucional mínimo;
    - sem prova pesada;
-   - pequeno recall e 2–5 itens diagnósticos/aplicativos após ensino.
+   - pequeno recall e itens diagnósticos/aplicativos apenas quando tiverem qualidade suficiente.
 
 1. `SCOPE`
    - confirmar edital atual;
@@ -111,6 +139,11 @@ O piloto deve passar nesta ordem:
    - FGV carreiras jurídicas comparáveis;
    - multibanca cartório;
    - discursiva/oral/prática quando pertinente.
+
+3A. `LEGACY RED TEAM`
+   - confrontar lista de proposições/aliases dos materiais antigos com o corpus;
+   - detectar hipótese de lacuna sem promovê-la automaticamente;
+   - decidir CORE/DISCRIMINATOR/PRODUCTION/TAIL/REFERENCE.
 
 4. `PROPOSITION MAP`
    Para cada questão relevante, extrair:
@@ -210,7 +243,8 @@ O B0 só passa se:
 - Q→A e objetiva conseguirem revisar o núcleo sem releitura integral;
 - produção puder ser liberada sem bloquear avanço curricular;
 - fontes e freshness estiverem rastreáveis;
-- o candidato conseguir avançar curricularmente sem sentir que cada tópico virou um projeto infinito.
+- o candidato conseguir avançar curricularmente sem sentir que cada tópico virou um projeto infinito;
+- o material legado não revelar lacuna legítima sem endereço ou decisão explícita.
 
 ## Próximo passo após este arquivo
-Executar **B0A bootstrap P0** e então continuar `SCOPE → QUESTION CORPUS → PROPOSITION MAP → DEPTH BUDGET → MASTER` de Poder Constituinte.
+Continuar **B0A/B0B** por `SCOPE → QUESTION CORPUS → LEGACY RED TEAM → PROPOSITION MAP → DEPTH BUDGET → MASTER`, mantendo o bootstrap somente no nível necessário para o nó fazer sentido.
