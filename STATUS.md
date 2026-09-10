@@ -9,306 +9,141 @@ Atualizado em 10/09/2026.
 Antes de qualquer retomada, ler:
 `handoff/NEXT_SESSION_POINTER_2026-09-10.md`
 
-O ponteiro incorpora as exigências autorais atuais sobre eficiência extrema, progressão de saída conforme mastery, oral/discursiva/prática progressivas, voz como interface de recall, lei seca guiada, controle de carga de revisão, evolução/reuso dos objetos de estudo, Sufficiency Gate e Freshness Firewall.
-
 ## Missão canônica
-Levar o candidato de conhecimento competitivo enferrujado/próximo de zero até **prontidão verificável para aprovação e boa classificação em concursos de outorga de delegações notariais e registrais**, sem transformar o processo em gestão manual de cursinho.
+Levar o candidato de conhecimento jurídico enferrujado/próximo de zero até **prontidão verificável para ENAC + objetiva estadual + discursiva + peça prática + oral**, com horizonte 2027–2028, eficiência extrema e mínimo de administração manual.
 
-Objetivo não é erudição máxima. Teoria, fundamentos, doutrina e prática entram quando aumentam:
-- compreensão;
-- retenção;
-- acerto e discriminação;
-- velocidade;
-- resolução de caso;
-- discursiva;
-- peça prática;
-- oral;
-- margem competitiva para escolha da delegação.
+Objetivo: aproximar desempenho de teto/gabarito por evidência, não por volume ornamental nem promessa de IA.
 
-## Horizonte real
-- **2026:** bootstrap do tutor + início da preparação real. ENAC 2026.2 não será prestado por decisão autoral.
-- **primeira edição ENAC 2027:** primeiro alvo de habilitação.
-- **fim de 2027:** alvo desejado de prontidão competitiva ampla e possibilidade real de aprovação.
-- **2028:** teto/buffer máximo, não duração padrão planejada.
+## Horizonte
+- 2026: construção/calibração do sistema + início do estudo real somente depois de specimen aprovado; ENAC 2026.2 fora do alvo por decisão autoral.
+- primeira edição ENAC 2027: primeiro alvo de habilitação.
+- fim de 2027: prontidão competitiva ampla desejada.
+- 2028: buffer/teto máximo, não duração padrão.
 
-A data exata das edições 2027 não será inventada antes de publicação oficial.
+## Baseline regulatório atual — Resolução CNJ 696/2026
+- ENAC: 100 objetivas; 60 N/R, 14 Civil, 8 Constitucional, 4 Administrativo, 4 Tributário, 4 Empresarial, 2 Processo Civil, 1 Penal, 1 Processo Penal, 1 Trabalho, 1 Processo do Trabalho.
+- Concurso estadual: objetiva eliminatória e sem peso final quando mantida; discursiva 70%; oral 25%; títulos 5%.
+- Discursiva: no mínimo dissertação + peça prática + 3 questões discursivas.
+- Penal, Processo Penal, Trabalho e Processo do Trabalho: **exclusivamente ENAC/objetiva** no baseline nacional atual.
 
-## Baseline regulatório atual
-Resolução CNJ 696/2026 vigente.
+Consequência: objetiva permanece para sempre, mas OUTPUT formal só é treinado onde a fase real pode exigir. Isso evita desperdício estrutural.
 
-### ENAC
-- habilitatório/eliminatório, não classificatório;
-- ampla concorrência: ≥60% no total;
-- certificado válido por 6 anos;
-- pelo menos duas edições por ano.
+## Work Order A — CONCLUÍDO / CONGELADO
+`material/EDITORIAL_STANDARD.md` = Editorial Standard v1.0.
 
-### Concurso estadual
-A objetiva, quando mantida em vez de substituída pelo ENAC, continua uma barreira relevante: para ampla concorrência, a Resolução 696 prevê mínimo de 50% em N/R, 60% total e convocação limitada por colocação/vaga.
-
-Pesos finais nacionais:
-- discursiva: 70%;
-- oral: 25%;
-- títulos: 5%.
-
-Discursiva inclui no mínimo dissertação + peça prática + três questões discursivas.
-
-**Consequência:** o GX não otimiza para `60 raspando no ENAC`. O certificado é limiar; o conhecimento além do corte transfere diretamente para objetiva estadual, escrita, prática e oral.
-
-## Currículo
-- matérias ENAC atual: **11/11**;
-- temas oficiais de alto nível: **181/181**;
-- subitens oficiais N/R: **138/138**;
-- Dual Spine preservada: edital visível/segmentado + grafo interno.
-
-### Grafo operacional v0.1
-Priorizar duas relações que mudam decisão:
-- `requires`;
-- `confusable_with`.
-
-Não construir ontologia ornamental antes da necessidade.
-
-## Mastery canônico
-Escala única M0–M7:
-- M0 não visto;
-- M1 reconhece com apoio;
-- M2 recupera núcleo sem apoio;
-- M3 discrimina;
-- M4 aplica em item/caso inédito;
-- M5 produz escrito;
-- M6 executa prática;
-- M7 sustenta oral/reperguntas.
-
-`Retention/stability` é eixo separado.
-
-## Progressão de saída — congelada em 10/09/2026
-`Progressivo` não significa exigir todas as fases desde o primeiro contato.
-
-- **M0:** mapa + leitura/explicação + Foundation JIT + lei seca guiada + exemplo resolvido;
-- **M1:** recall assistido, Q→A, completar núcleo, voz curta com apoio;
-- **M2–M3:** recall sem pista, C/E/MCQ, questões oficiais, distinções, mini casos, voz curta;
-- **M3–M4:** item/caso inédito, variação de premissas, issue spotting, microprodução;
-- **M4–M5:** discursiva em escada `átomos → esqueleto → parágrafo → resposta completa → tempo/linhas`;
-- **M5–M6:** prática em escada `instrumento → estrutura → elementos → execução`;
-- **M5–M7:** oral formal `estrutura → precisão → tempo → reperguntas → mudança de premissa`.
-
-Voz/microfone pode ser usada desde M1/M2 como **interface de retrieval**. Isso não equivale a M7.
-
-Discursiva fria, peça fria e oral de banca não são instrumentos normais de primeira exposição.
-
-Falha repetida provoca redução de complexidade/suporte antes de nova escalada.
-
-## Ordem pedagógica
-N/R entra **desde o primeiro ciclo**, porque combina maior peso atual + baixa exposição prévia + alto valor de transferência + necessidade de muitos ciclos de consolidação.
-
-Civil, Constitucional, Administrativo e demais fundações entram em espiral e `foundation just in time`. O candidato continua enxergando Discipline Maps coerentes, sem sopa interdisciplinar.
-
-## Corpus ENAC histórico — estado real
-Passagem 1 concluída como **indexação/classificação histórica**:
-- 2025.1: 100/100;
-- 2025.2: 100/100;
-- 2026.1: 100/100 canônicas;
-- total lógico: **300/300**;
-- anuladas: 6/300;
-- 4 registros antigos de bootstrap do 2026.1 permanecem excluídos das métricas.
-
-### Correção de nomenclatura
-`300/300` não significa corpus plenamente reconstruído.
-
-Ainda faltam em escala integral:
-- enunciado/alternativas em representação operacional;
-- fundamento por item;
-- reconstrução alternativa por alternativa;
-- rationale oficial de recursos quando disponível;
-- microtema fino;
-- snapshots histórico/atual revalidados;
-- difficulty empírica.
-
-Ver `research/ENAC_300_CORPUS_GATE.md`.
-
-## Limite estatístico reconhecido
-180 questões N/R em 138 subitens e apenas três edições não sustentam pseudo-precisão de frequência microtemática nem série temporal robusta.
-
-O GX separa:
-- **Domain Incidence Model:** agrega concursos de cartório multibanca com proveniência para responder `o que o domínio cobra?`;
-- **Bank Style Model:** fica restrito a banca + janela + família + fase para responder `como esta banca cobra?`.
-
-Prioridade usa múltiplos sinais: matriz, superfície do edital, incidência de domínio, estilo da banca, dependências, transferência, volatilidade normativa e desempenho individual.
-
-## Work Order A — CONCLUÍDO
-### Editorial Standard v1.0
-Congelado em:
-`material/EDITORIAL_STANDARD.md`
-
-Principais contratos:
-- três famílias canônicas: KNOWLEDGE/MASTER, EXAM/ITEMS, REFERENCE/SOURCES;
-- experiência do candidato: `MAP → MASTER → REVIEW → RECALL → EXAM → REFERENCE`;
-- MAP/REVIEW/RECALL preferencialmente derivados;
-- gramática visual pequena: `REGRA`, `ATENÇÃO`, `CONFUNDE COM`, `PROVA`, `HOT`, `PRODUÇÃO`;
-- limites concretos de callout/tabela/parágrafo/remissão;
-- progressão de formato conforme mastery;
-- Varredura Q→A;
-- flashcards seletivos: Atomic / Contrast / Reconstruction;
+Preservado:
+- mastery M0–M7 + retention separado;
+- objetiva permanente;
+- oral/discursiva/prática progressivas;
+- voz como interface de recall antes de oral formal;
 - lei seca guiada;
+- Q→A e flashcards seletivos;
+- review-load control;
 - Sufficiency Gate;
 - Freshness Firewall;
-- anti-duplicação;
-- Quality Gate canônico.
+- One-Home Rule / estrutura lógica estável.
 
-Também alinhados:
-- `architecture/LEARNING_SYSTEM.md`;
-- `architecture/MINIMUM_VIABLE_TUTOR.md`;
-- `research/LEARNING_METHOD_VALIDATION_2026_09_10.md`.
+Não reabrir arquitetura por estética. Reabrir somente por falha observável.
 
-O padrão fica congelado durante o primeiro piloto. Não reabrir por preferência cosmética.
+## Correção HOT de 10/09 — fase atual NÃO é estudo
+O candidato explicitou que **não deseja iniciar estudo ainda**. Antes quer ver e auditar como o GX transforma edital + fontes + provas em material learner-facing.
 
-## Sufficiency Gate
-É proibido validar o material perguntando à própria IA se `dá para resolver qualquer questão` e aceitar a resposta como prova.
+Portanto:
+- não entregar Missão 01;
+- não atribuir mastery;
+- não pedir ao candidato que certifique correção jurídica de conteúdo que ele não lembra;
+- construir specimens de inspeção antes de ativar o runtime.
 
-A validação usa:
-1. `Coverage Matrix`;
-2. `Proposition Coverage`;
-3. `Held-out Resolution Test` com questões/casos não usados para redigir a versão;
-4. `Adversarial Variants`.
+Pesquisa-base criada:
+`research/GX_APPROVAL_SYSTEM_META_AUDIT_2026_09_10.md`
 
-Falhas:
-- `CONTENT_GAP`;
-- `DISCRIMINATION_GAP`;
-- `TRANSFER_GAP`;
-- `FRESHNESS_GAP`;
-- `QUESTION_DEFECT`;
-- `OUT_OF_SCOPE`;
-- `LEARNER_GAP`.
+## Evidence-to-Mastery Compiler
+Fluxo invisível ao candidato:
+`OFFICIAL SCOPE → SOURCE REGISTRY → EXAM CORPUS → PROPOSITION MAP → INCIDENCE/CONSEQUENCE → DEPTH BUDGET → CANONICAL TREE → BUILD/VALIDATION/CHALLENGE → FRESHNESS → PATCH LOOP`
 
-Falhas editoriais corrigem material. `LEARNER_GAP` só é atribuído quando o corpus sustentava a solução.
+Superfícies learner-facing, todas derivadas da mesma árvore:
+`MAP → MASTER P1 → LEI SECA GUIADA → REVIEW → Q→A/RECALL → OBJECTIVE LAB → OUTPUT LAB quando pertinente → ERROR PATCH`
 
-O objetivo é aproximar gabarito por evidência, não promessa.
+## Material autossuficiente — definição operacional
+Nunca declarar `resolve qualquer questão` por autoavaliação da IA.
 
-## Varredura Q→A e flashcards
-Cada unidade coerente deve poder gerar uma revisão por perguntas e respostas de alta densidade sem releitura integral.
+Níveis:
+- S0 não testado;
+- S1 scope/source/build cobertos;
+- S2 validation held-out coberta;
+- S3 challenge/multibanca coberto;
+- S4 learner-demonstrated;
+- S5 maintenance-stable.
 
-Flashcards não são derivados de cada parágrafo. Famílias:
-- `Atomic Card`;
-- `Contrast Card`;
-- `Reconstruction Card`.
+Frase permitida: `sem lacuna conhecida relevante para o escopo e snapshot validados`.
 
-Ciclo de vida:
-`active → merged → downgraded → retired → reactivated`.
+## Estratégia de cobertura
+Não levar um nó a M7 antes de avançar o edital inteiro.
 
-A revisão deve reduzir redundância conforme domínio aumenta.
+- Passagem 1: cobertura P1 + esquema mental + sobrevivência objetiva.
+- Passagem 2: profundidade guiada por corpus, exceções, jurisprudência, nomenclaturas, mistura e velocidade.
+- Passagem 3+: robustez, manutenção objetiva e produção escrita/prática/oral nos nós pertinentes.
 
-## Freshness Firewall
-Ativo. Direito histórico, direito atual e cutoff do alvo permanecem separados.
+Nós podem amadurecer de forma assíncrona.
 
-Volatilidade normativa pode aumentar prioridade de revalidação/estudo, mas não será tratada como prova automática de maior incidência.
+## Materiais antigos do candidato
+Sete PDFs Estratégia/Dedicação Delta foram ingeridos como **benchmark não canônico**.
 
-Questão histórica permanece histórica. Adaptação à lei atual é objeto separado.
+Usar para:
+- detectar nomenclaturas/formatos/lacunas potenciais;
+- comparar organização e carga;
+- gerar hipóteses a verificar no corpus.
 
-## Retention engine
-- heurísticas apenas como bootstrap;
-- FSRS é candidato para recalls atômicos/flashcards;
-- não substitui mastery M0–M7 nem o scheduler completo;
-- modelos complexos de knowledge tracing não entram sem dados individuais suficientes.
+Não usar como fonte automática de verdade, prioridade ou profundidade.
 
-Fila de revisão deve ficar tratável: priorizar risco de esquecimento × valor de prova × learner gap × transferência × freshness; fundir/rebaixar/aposentar objetos saturados.
+Achado central: profundidade disponível ≠ profundidade obrigatória na primeira passagem.
 
-## Stack gratuita atual
-### GitHub
-Source of Truth de arquitetura, protocolos, estado HOT e pesquisa. Repositório atual é **público**.
+## Work Order B — EM EXECUÇÃO / CALIBRAÇÃO PAREADA
+O antigo piloto único de `Constitucional → Poder Constituinte` não é suficiente como auditoria humana porque o candidato já não confia no próprio filtro substantivo desse tema.
 
-### Notion Free
-Human Knowledge Portal + bancos existentes, provisoriamente.
+Nova calibração:
 
-A limitação observada é da consulta SQL avançada. `rows` e `view` continuam opções para leituras delimitadas, então Notion não foi descartado.
+### Specimen A — Penal → Aplicação da Lei Penal
+Função:
+- tema inicial/familiar o bastante para auditoria de legibilidade e ordem;
+- demonstra poda agressiva de conteúdo de Delegado que não pertence ao nó;
+- baseline nacional atual é objective-only, logo não recebe discursiva/oral artificial.
 
-### Google Drive
-Corpus oficial, PDFs, espelhos e assets.
+Protótipo learner-facing já criado no Notion:
+`🧪 SPECIMEN A — PEN 1 · Aplicação da Lei Penal — NÃO ESTUDAR`
 
-### Google Sheets
-Candidato futuro para telemetria/analytics. **Não criado/promovido em produção**. Só após necessidade real + schema + sandbox + reconciliação.
+Status: EM PRODUÇÃO; não canônico; não gera estudo/mastery.
 
-### SQLite
-Não adotado como data plane imediato: binário, diff ruim e sem transação SQL persistente disponível através do runtime GitHub atual. Reavaliar apenas se houver aplicação própria/runtime adequado.
+### Specimen B — Constitucional → Poder Constituinte
+Função:
+- demonstrar transformação do mesmo conhecimento entre objetiva e OUTPUT futuro;
+- corpus e fonte devem provar profundidade;
+- candidato avalia forma/clareza/carga, não certifica juridicamente o material.
 
-## Auditoria externa de 09/09/2026
-A nota externa foi tratada como hipótese, não como autoridade.
+Ainda não ativar estudo.
 
-Cross-review canônica:
-`research/EXTERNAL_AUDIT_CROSS_REVIEW_2026_09_09.md`
+## Corpus histórico ENAC
+Passagem 1 preservada:
+- ENAC 2025.1: 100/100 indexadas;
+- 2025.2: 100/100;
+- 2026.1: 100/100;
+- total lógico 300/300, com anuladas preservadas.
 
-Principais achados adotados:
-- Passagem 1 é índice/classificação, não corpus integral;
-- mastery precisava ser unificado;
-- N/R deve começar cedo;
-- 300 itens não sustentam estatística microtemática fina;
-- separar incidência de domínio de estilo de banca;
-- reduzir ontologia operacional;
-- reduzir duplicação de material;
-- coletar desempenho real do candidato cedo;
-- espelhos oficiais/prática precisam virar corpus prioritário.
+`300/300` = indexação/classificação, não reconstrução integral.
 
-Principais achados rejeitados/ajustados:
-- pressão para fazer ENAC 2026.2;
-- `qualquer ponto >60 é desperdício`;
-- desvalorizar objetiva estadual porque peso final =0;
-- SQLite/Git como solução imediata automática;
-- afirmar que Notion inteiro ficou inviável após cota SQL;
-- afirmar que o repositório é privado;
-- percentuais inventados no red team.
+As questões penais oficiais localizadas nessas três edições não recaíram diretamente em PEN 1: 2025.1 lavagem de dinheiro; 2025.2 falsidade ideológica; 2026.1 dosimetria/concurso de majorantes. Isso é registrado como ausência de incidência histórica ENAC no microtema, não como permissão para ignorar um item expresso do edital.
 
-## Próximo bloco de trabalho HOT
-### B. Primeiro piloto canônico ponta a ponta
-Escolher tópico real com fontes e cobertura suficientes e passar por:
-`edital → fontes primárias → jurisprudência atual → ENAC/FGV → FGV cartório/estadual → corpus multibanca → oral/discursiva/prática → Reconstruction Cards → depth budget → MASTER → REVIEW → RECALL → EXAM → Sufficiency Gate → QA/freshness`.
+## Próximo passo HOT
+1. QA/red-team do Specimen A com corpus específico de aplicação da lei penal em concursos de outorga multibanca + fonte primária.
+2. Construir Specimen B de Poder Constituinte com depth budget cross-phase.
+3. Comparar A × B para provar poda por fase, consistência editorial e suficiência falsificável.
+4. Mostrar os specimens ao candidato para auditoria do PRODUTO.
+5. Só depois, se o formato passar, transferir para N/R e ativar estudo real.
 
-O piloto precisa provar:
-- autossuficiência real;
-- eficiência;
-- progressão correta para near-zero;
-- Varredura Q→A;
-- flashcards seletivos;
-- lei seca guiada;
-- held-out resolution;
-- material gap vs learner gap;
-- Freshness Firewall;
-- alimentação do MVT.
-
-### C. Oral + written corpus layer
-Registry com origem/ano/fase/prompt/espelho/átomos/dificuldade/snapshot/adaptação/reperguntas.
-
-### D. Lei seca protocol
-Formalização operacional completa.
-
-### E. Review-load control
-Budget da fila e regras de merge/retire.
-
-### F. Minimum Viable Tutor gate
-`choose node → orient → teach coherent chunk → retrieval compatível → item/case → diagnose → register M0–M7 + retention → schedule → next action`.
-
-## Learner model
-Após começar o estudo, registrar apenas sinais com valor decisório:
-- resposta;
-- confiança prévia;
-- correção;
-- latência aproximada quando útil;
-- necessidade de pista;
-- causa do erro;
-- intervalo;
-- modalidade;
-- mastery;
-- retenção;
-- material gap vs learner gap.
-
-Não transformar qualquer falha em traço cognitivo geral.
-
-## Regra anti-procrastinação arquitetural
-A infraestrutura deve chegar rapidamente a **Minimum Viable Tutor**. Depois disso, mudança de arquitetura só recebe prioridade quando:
-- corrige falha observada;
-- reduz carga executiva do candidato;
-- melhora segurança jurídica;
-- melhora evidência de aprendizagem;
-- ou aumenta capacidade de preparação para uma fase real.
-
-O tempo autônomo da IA trabalhando na engenharia não é `tempo de estudo` do candidato. O candidato deve passar a maior parte de sua energia estudando, não administrando o sistema.
-
-## Regra de qualidade
-Nenhuma incidência, previsão, prioridade ou material vira canônico sem origem documentada e nível de confiança compatível com a evidência. Complexidade arquitetural só é aceita quando muda uma decisão real.
+### Proibido no próximo passo
+- iniciar aula/missão de estudo sem solicitação do candidato;
+- voltar a brainstorm abstrato sem produzir artefato;
+- usar material antigo como cânone;
+- declarar suficiência sem held-out;
+- forçar discursiva/oral em disciplina objective-only;
+- tratar bloco de 20–35 min como carga diária total.
