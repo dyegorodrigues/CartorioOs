@@ -17,29 +17,18 @@ Levar candidato com conhecimento jurídico enferrujado/próximo de zero até **p
 Preservar M0–M7, retention separado, objetiva permanente, output progressivo por pertinência de fase, voz como recall, lei seca guiada, Q→A/flashcards seletivos, revisão cumulativa, throughput adaptativo, One-Home Rule, Sufficiency Gate e Freshness Firewall.
 
 ## Baseline regulatório
-Res. CNJ 696/2026: https://atos.cnj.jus.br/atos/detalhar/7011
+Res. CNJ 696/2026 vigente. Toda prova histórica recebe `REGIME_TAG`, `CONTENT_VALIDITY`, `PHASE_VALIDITY`.
 
-- objetiva estadual: eliminatória/sem peso final quando aplicada e substituível por ENAC conforme regime;
-- discursiva 70%; oral 25%; títulos 5%;
-- Penal, PP, Trabalho e PTrab = exclusivamente ENAC/objetiva no baseline nacional atual;
-- oral novo: pergunta escrita/predefinida, reperguntas guiadas, 90% conteúdo jurídico + 10% articulação técnica.
+## Freshness Firewall
+`research/CNN_CNJ_FRESHNESS_DELTA_MAP_2026-09-10.md`
+`data/freshness/CHANGE_IMPACT_QUEUE_2026-09-10.md`
 
-Toda prova histórica recebe `REGIME_TAG`, `CONTENT_VALIDITY`, `PHASE_VALIDITY`.
+Deltas CNN/CNJ relevantes de 2026 já mapeados. O sistema distingue:
+`CURRENT_LAW` x `EXAM_SNAPSHOT_LAW` x `IMPLEMENT_BY`.
 
-## Freshness Firewall — avanço crítico
-Arquivo HOT: `research/CNN_CNJ_FRESHNESS_DELTA_MAP_2026-09-10.md`.
+ENAC 2026.2: prova prevista 22/11/2026; regra editalícia de 90 dias para início de vigência de preceitos; cutoff aritmético 24/08/2026. Sempre usar vigência real, não apenas publicação.
 
-O CNN/Provimento 149 é corpus versionado. Foram mapeados deltas 2026 relevantes (Prov. 211, 212, 214, 217, 218, 219, 220, 224, 225, 227, 228, 229, 237, 242, 246, 253).
-
-### ENAC 2026.2 — regra de snapshot
-Edital FGV/CNJ prevê prova em 22/11/2026 e exclui preceitos cuja vigência tenha iniciado menos de 90 dias antes; preceitos revogados no período podem ser cobrados.
-Cutoff aritmético = **24/08/2026**, sempre pela data de VIGÊNCIA, não publicação.
-
-O sistema agora distingue:
-`CURRENT_LAW` x `EXAM_SNAPSHOT_LAW`.
-
-Criado `data/freshness/CHANGE_IMPACT_QUEUE_2026-09-10.md` para cascata:
-`mudança → proposições → snapshot de prova → MASTER/REVIEW/Q→A/questões/simulados/output`.
+EFFECTIVE_FROM já confirmado para Prov. 218, 219, 220, 227, 228, 229, 246 e 253 em primeira passagem. Prov. 227 possui vacatio de 60 dias; Prov. 229/253 exemplificam diferença entre vigência normativa e implantação operacional.
 
 ## Compiler invisível
 `OFFICIAL SCOPE → SOURCES → EXAM CORPUS → PROPOSITIONS → INCIDENCE/CONSEQUENCE → DEPTH BUDGET → CANONICAL TREE → BUILD/VALIDATION/CHALLENGE → FRESHNESS → PATCH`.
@@ -54,60 +43,41 @@ Nunca prometer `resolve qualquer questão futura`.
 ## Specimens
 - Penal/PEN1 v0.2 = congelado como protótipo visual; NÃO estudar.
 - Specimen B = adiado.
-- Próximo learner-facing só depois de Atlas + held-out + Depth Budget.
+- Próximo learner-facing somente após red-team do primeiro N/R.
 
-## Market audit
-`research/CARTORIO_PREP_ECOSYSTEM_DEEP_AUDIT_2026_09_10.md`.
-Auditados VFK, Estratégia, Registrando/CP Iuris, Themas, Decorando Lei Seca, PreparaEnac, YK e Juspodivm. Absorver funções, não copiar produtos.
-
-## Cartório Exam Atlas — estado
+## Cartório Exam Atlas
 Protocolo: `research/CARTORIO_EXAM_ATLAS_PROTOCOL_2026.md`.
-
-### Waves 1–5
-- Wave1: censo contemporâneo multibanca.
-- Wave2: TJMS/FGV gold corpus cross-phase.
-- Wave3: TJBA/Cebraspe e transição regulatória.
-- Wave4: ENAC/Lei 8.935 first pass.
-- Wave5: FGV x Cebraspe OUTPUT; regra `KNOWLEDGE_ATOMS ≠ BANK/EDITAL_PACKAGING`.
+Waves 1–5 preservadas.
 
 ### Wave6 — Regime Geral heatmap
 `research/CARTORIO_EXAM_ATLAS_WAVE6_REGIME_GERAL_HEATMAP_2026-09-10.md`.
+Corpus já triangula ENAC/FGV/Cebraspe + IESES/TJPA 2026 + Vunesp/TJSP recente.
 
-Além de ENAC/FGV/Cebraspe, o corpus foi ampliado com:
-- IESES/TJPA 2026, prova + gabarito oficiais;
-- Vunesp/TJSP 13º concurso, prova oficial;
-- sinais de Consulplan/TJMG preservados para ampliar/held-out quando o caderno oficial for localizado.
+Sinais fortes: arts.14–15, 20–22, 27, 29–30, 31–36 e jurisprudência STF associada.
 
-Sinais multibanca fortes em Regime Geral:
-- ingresso arts.14–15;
-- prepostos/gestão arts.20–21;
-- responsabilidade arts.22–24 + Tema777;
-- impedimento art.27;
-- direitos/deveres arts.29–30;
-- disciplina/perda arts.31–36.
+## Ledgers atuais
+- `data/atlas/PROPOSITION_LEDGER_REGIME_GERAL_SEED_2026-09-10.md`
+- `data/atlas/PROPOSITION_LEDGER_CNN_REGIME_GERAL_SEED_2026-09-10.md`
+- `data/atlas/PROPOSITION_LEDGER_LRP_SEED_2026-09-10.md`
 
-IESES/PA 2026 Q10 + gabarito oficial reforça art.22. Vunesp/SP recente testa em sequência ingresso, prepostos, gestão e responsabilidade da Lei 8.935.
-
-## Ledgers
-### Lei 8.935 / Regime Geral
-`data/atlas/PROPOSITION_LEDGER_REGIME_GERAL_SEED_2026-09-10.md`
-Agora C0 + C1/C2 multibanca.
-
-### CNN/CNJ / Regime Geral
-`data/atlas/PROPOSITION_LEDGER_CNN_REGIME_GERAL_SEED_2026-09-10.md`
-Inclui Justiça Aberta, vacâncias, incapacidade permanente e solvência trabalhista.
-
-### LRP
-`data/atlas/PROPOSITION_LEDGER_LRP_SEED_2026-09-10.md`
-Aberto com prenotação, qualificação, usucapião, indisponibilidade, retificação, RTD, sistemas eletrônicos, extratos, Constrijud e alienação fiduciária.
+LRP seed já cobre prenotação, qualificação, usucapião, indisponibilidade, retificação, RTD, eletrônicos/SERP, extratos, Constrijud e alienação fiduciária.
 
 ## Primeiro Depth Budget formal
 `data/atlas/DEPTH_BUDGET_REGIME_GERAL_V0.1_2026-09-10.md`.
 
-Arquitetura pedagógica v0.1:
-`RG0 natureza/CF236 → RG1 ingresso → RG2 gestão/prepostos → RG3 responsabilidade → RG4 incompatibilidades/impedimentos → RG5 independência/direitos/deveres → RG6 disciplina/perda/extinção → RG7 vacância/interinidade + CNN`.
+Estrutura:
+`RG0 natureza/CF236 → RG1 ingresso → RG2 gestão/prepostos → RG3 responsabilidade → RG4 incompat/impedimentos → RG5 independência/direitos/deveres → RG6 disciplina/perda/extinção → RG7 vacância/interinidade + CNN`.
 
-Budget separa P1/P2/P3+, MUST-KNOW literal, MUST-UNDERSTAND, output e podas. Confiança global B+; aprovado para continuar pesquisa, NÃO para estudo.
+Separados P1/P2/P3+, MUST-KNOW literal, MUST-UNDERSTAND, output e poda. Confiança B+; ainda NÃO liberar estudo.
+
+## HELD-OUT — AGORA FORMALMENTE SELADO
+`data/atlas/HELD_OUT_REGISTRY_REGIME_GERAL_V0.1_2026-09-10.md`.
+
+- Vunesp/TJSP Prova 04: Q1–Q4 já usadas; **Q5–Q15 seladas** e não podem ser abertas antes do freeze do material.
+- Consulplan/TJMG: reservar primeiro bloco Regime Geral do caderno oficial assim que o locator for encontrado, registrando metadado ANTES da leitura.
+- primeiro concurso estadual integralmente pós-Res.696: reservar pelo menos 20% estratificado.
+
+Se conteúdo selado for visto, marcar `CONTAMINATED` e substituir; nunca fingir independência.
 
 ## Regra de questões
 - Encoding Check = imediato, não mastery.
@@ -115,14 +85,18 @@ Budget separa P1/P2/P3+, MUST-KNOW literal, MUST-UNDERSTAND, output e podas. Con
 - Held-out = fora do build, testa material.
 - Challenge = outra banca/formulação/cross-node.
 
+Falhas held-out: MATERIAL_GAP / STRUCTURE_GAP / DEPTH_GAP / FRESHNESS_GAP / TRANSFER_GAP / OUT_OF_SCOPE / BAD_QUESTION.
+
 ## Próximo HOT autônomo
-1. formalizar reserva HELD-OUT por banca/cluster antes de qualquer specimen N/R;
-2. terminar heatmap do art.30 por inciso e expandir Vunesp/IESES/Consulplan;
-3. aprofundar LRP C0/C1 e separar RI/RTD/RCPN quando densidade justificar;
-4. preencher `EFFECTIVE_FROM` dos deltas CNN e ligar questões impactadas no Change Impact Queue;
-5. criar primeiro `BUILD CORPUS vs HELD-OUT CORPUS` de Regime Geral;
-6. fazer red-team do Depth Budget v0.1;
-7. somente então construir primeiro specimen N/R learner-facing.
+1. terminar heatmap art.30 por inciso e ampliar corpus sem abrir H1;
+2. localizar caderno Consulplan/TJMG e selar H2 antes de leitura;
+3. aprofundar LRP C0/C1;
+4. completar EFFECTIVE_FROM/IMPLEMENT_BY dos demais deltas CNN;
+5. construir BUILD CORPUS freeze de Regime Geral;
+6. red-team do Depth Budget v0.1 usando CHALLENGE, não HELD-OUT;
+7. corrigir gaps e congelar primeiro material N/R;
+8. só então abrir HELD-OUT e tentar quebrá-lo;
+9. apenas se sobreviver, mostrar novo specimen ao usuário.
 
 ## Anti-drift
-Não iniciar aula; não usar cursinho/material legado como cânone; não importar frequência de OAB/Delegado; não usar prova antiga sem revalidação; não transformar páginas/horas em KPI; não fabricar specimen antes de held-out; não exigir microgestão do usuário.
+Não iniciar aula; não usar cursinho/material legado como cânone; não importar frequência de OAB/Delegado; não usar prova antiga sem revalidação; não transformar páginas/horas em KPI; não vazar held-out; não exigir microgestão do usuário.
