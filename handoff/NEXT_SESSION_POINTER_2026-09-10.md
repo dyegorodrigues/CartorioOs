@@ -10,8 +10,10 @@ HOT handoff para continuar sem reabrir a arquitetura do zero.
 1. `STATUS.md`
 2. `material/EDITORIAL_STANDARD.md`
 3. `research/GX_APPROVAL_SYSTEM_META_AUDIT_2026_09_10.md`
-4. `research/LEGACY_MATERIALS_RED_TEAM_AUDIT_2026_09_10.md`
-5. `workflows/WORK_ORDER_B_CALIBRATION_PILOT.md`
+4. `research/CARTORIO_PREP_ECOSYSTEM_DEEP_AUDIT_2026_09_10.md`
+5. `research/CARTORIO_EXAM_ATLAS_PROTOCOL_2026.md`
+6. `research/LEGACY_MATERIALS_RED_TEAM_AUDIT_2026_09_10.md`
+7. `workflows/WORK_ORDER_B_CALIBRATION_PILOT.md`
 
 ## Horizonte preservado
 - ENAC 2026.2 não é alvo por decisão autoral.
@@ -43,7 +45,7 @@ Preservar:
 - Sufficiency Gate com held-out.
 
 ## Baseline oficial atual
-Resolução CNJ 696/2026 vigente.
+Resolução CNJ 696/2026 vigente. Usar fonte oficial CNJ e revalidar no Freshness Firewall.
 
 ENAC/objetiva: 100 questões na proporção:
 - N/R 60;
@@ -58,14 +60,7 @@ ENAC/objetiva: 100 questões na proporção:
 - Trabalho 1;
 - Processo do Trabalho 1.
 
-Concurso estadual no regime atual:
-- objetiva eliminatória e sem peso final quando mantida;
-- discursiva = 70%;
-- oral = 25%;
-- títulos = 5%;
-- Penal, Processo Penal, Trabalho e Processo do Trabalho = exclusivamente ENAC/objetiva.
-
-Implicação crítica: não treinar OUTPUT formal onde a fase não pode cobrar.
+Implicação crítica: objetiva permanece, mas não treinar OUTPUT formal onde a fase não pode cobrar.
 
 ## Compiler invisível
 `OFFICIAL SCOPE → SOURCES → EXAM CORPUS → PROPOSITIONS → INCIDENCE/CONSEQUENCE → DEPTH BUDGET → CANONICAL TREE → BUILD/VALIDATION/CHALLENGE → FRESHNESS → PATCH`
@@ -75,65 +70,71 @@ Implicação crítica: não treinar OUTPUT formal onde a fase não pode cobrar.
 
 Tudo deriva da MESMA árvore lógica.
 
-## Calibração pareada — estado HOT
+## Estado dos specimens
+### Specimen A — Penal → Aplicação da Lei Penal
+A v0.2 criada no Notion foi considerada pelo candidato uma melhora significativa, mas ainda há incerteza sobre profundidade e suficiência. Congelar como protótipo visual e estrutural. Não estudar; não atribuir mastery; não expandir por ansiedade.
 
-### Specimen A — CRIADO NO NOTION
-`🧪 SPECIMEN A — PEN 1 · Aplicação da Lei Penal — NÃO ESTUDAR`
+Feedback autoral incorporado:
+- precisa de pesquisa muito mais ampla de questões de Cartório e bancas;
+- lei seca deve ser visual, integral quando vantajoso e com palavras fatais destacadas;
+- aliases, exceções e jurisprudência precisam de organização coerente;
+- a profundidade precisa ser demonstrada pelo corpus, não presumida.
 
-ID Notion: `3d742424-cdbc-81b0-887f-f78eb19ab16f`
+### Specimen B
+Não construir ainda. O Atlas vem antes.
 
-Função:
-- permitir auditoria humana de ordem/clareza em tema mais familiar;
-- mostrar a diferença entre conteúdo disponível e conteúdo obrigatório;
-- demonstrar poda de teoria de Delegado que não pertence ao nó;
-- mostrar discipline-phase pruning: Penal é objective-only no baseline atual.
+## Materiais legados atuais
+Uploads do candidato incluem:
+- trilha regular Estratégia para Delegado;
+- trilha Constitucional DPC;
+- DD Legis Código Civil;
+- DD Legis LINDB;
+- DD Legis Código Penal comentado;
+- outros PDFs Estratégia/DD já ingeridos anteriormente.
 
-Estado: EM PRODUÇÃO, NÃO CANÔNICO, NÃO USAR PARA MASTERY.
+São BENCHMARK NÃO CANÔNICO. Servem para UX, estrutura, aliases e detecção de lacunas potenciais. Toda proposição relevante precisa ser julgada por escopo + fonte vigente + corpus Cartório.
 
-O specimen já contém:
-- mapa/endereço mental arts. 1–12;
-- depth budget visível;
-- MASTER P1 de demonstração;
-- lei seca guiada;
-- REVIEW preservando a mesma árvore;
-- Q→A em toggles;
-- exam intelligence distinguindo scope/incidence/domain evidence;
-- seção explícita do que foi podado;
-- Sufficiency Ledger S0–S5.
+Achados úteis:
+- Estratégia: teoria/revisão/lei/questões em trilha, mas planejamento estático pode gerar enorme fila de tarefas;
+- DD Legis: boa visualização de artigos e mapas de incidência, mas incidência exibida é de Delegado e não pode ser transplantada para Cartório;
+- DD Penal mostra profundidade potencial muito maior que o specimen, mas o Atlas deve decidir o que é P1/P2/P3.
 
-### Evidência real relevante já localizada para PEN 1
-- FGV/TJ-RJ/Titular/2017: aplicação da lei penal no tempo, com foco em abolitio criminis.
-- CEBRASPE/TJ-RR/Titular/2025: aplicação da lei penal, cruzando sentença estrangeira, tempo/espaço e prazo.
-- IESES/TJ-PA/Titular/2026: eficácia da lei penal no tempo e no espaço.
+## Deep Audit do mercado atual
+Ler `research/CARTORIO_PREP_ECOSYSTEM_DEEP_AUDIT_2026_09_10.md`.
 
-Nos três ENACs já realizados, a única questão penal de cada Tipo 1 observada foi:
-- 2025.1: Lei 9.613/1998/lavagem;
-- 2025.2: falsidade ideológica;
-- 2026.1: dosimetria/concurso de majorantes.
+Fontes auditadas: VFK, Estratégia, Registrando/CP Iuris, Themas, Decorando Lei Seca, PreparaEnac, YK, Juspodivm.
 
-Logo, PEN 1 atualmente possui **scope evidence forte + domain evidence**, mas não incidência direta nas três amostras ENAC. Não inventar frequência.
+### Síntese funcional
+- VFK: reservatório estadual profundo + ciclo ENAC comprimido, legislação esquematizada, V/F rápido fundamentado, mapeamento e atualização;
+- Estratégia: muitas representações e todas as fases, risco de fragmentação;
+- Registrando: rotina real, integração, flashcards, questões e IA, mas grande carga total;
+- Themas: produtos diferentes por horizonte;
+- Decorando: lei seca visual e questões por artigo;
+- PreparaEnac: grounding por alternativa, questão como dado, QA adversarial e adaptação;
+- YK/Juspodivm: corpus histórico/por edital e materiais específicos de Cartório.
 
-### Specimen B — PRÓXIMO
-Constitucional → Poder Constituinte.
+Não copiar fornecedor. Compor funções, preservar provenance e medir eficiência.
 
-Função:
-- mostrar conteúdo cross-phase;
-- testar como um mesmo nó permanece em objetiva e ganha saída discursiva/oral conforme maturidade;
-- provar que P1 não vira tratado de Teoria da Constituição;
-- usar corpus cartório/FGV/transferível com proveniência clara.
+## Nova distinção de questão
+- ENCODING CHECK = imediato, corrige compreensão, não prova retenção;
+- ASSESSMENT = atrasado/misturado, pode alimentar mastery;
+- HELD-OUT = fora do build, testa suficiência do material;
+- CHALLENGE = outra banca/formulação/cross-node, testa robustez.
 
-O candidato não precisa lembrar a matéria para certificar juridicamente o specimen. Auditoria jurídica cabe a sources/corpus/held-out; auditoria humana cabe a clareza, lógica, carga e sensação de suficiência.
+## HOT AGORA — CARTÓRIO EXAM ATLAS
+Protocolo: `research/CARTORIO_EXAM_ATLAS_PROTOCOL_2026.md`.
 
-## Legacy material
-Sete PDFs Estratégia/Dedicação Delta enviados pelo candidato são benchmark NÃO CANÔNICO.
-
-Usar como red-team para:
-- detectar possível conteúdo perdido;
-- observar organização/formatos;
-- capturar aliases e controvérsias como candidatos;
-- comparar carga.
-
-Não importar profundidade automaticamente.
+Antes de produzir outro specimen learner-facing:
+1. censo de concursos por TJ/banca/ano/fase;
+2. prova e gabarito oficiais como provenance A;
+3. C0 ENAC completo por proposição/distrator;
+4. C1 atual e C2 histórico estaduais;
+5. FGV/Cebraspe/Vunesp/IESES/Consulplan e demais bancas reais;
+6. separar OBJETIVA/DISCURSIVA/PEÇA/ORAL;
+7. usar FGV OAB/ENAM e outras carreiras apenas como transferência de banca/desafio, nunca como incidência Cartório;
+8. gerar por proposição STUDY PRIORITY, MEMORY PRIORITY, QUESTION PRIORITY e OUTPUT PRIORITY;
+9. derivar Depth Budget P1/P2/P3+;
+10. recalibrar o material somente depois.
 
 ## Regra de suficiência
 Nunca `resolve qualquer questão futura`.
@@ -144,19 +145,12 @@ Pergunta operacional: **“há alguma questão legítima, dentro do escopo e ní
 
 Se sim, material falhou primeiro.
 
-## Próximo passo exato
-1. terminar o corpus/QA de PEN 1 e ajustar o specimen sem transformá-lo em curso completo;
-2. construir Specimen B;
-3. fazer auditoria comparativa A×B;
-4. apresentar ambos ao candidato como PRODUTO, não como tarefa de estudo;
-5. só depois decidir liberação do estudo e transferência para o primeiro cluster N/R.
-
 ## Anti-drift
 Não:
 - empurrar aula ao candidato agora;
 - voltar a discutir metodologia sem produzir artefato;
 - confundir volume com cobertura;
-- usar materiais de Delegado como padrão de Cartório;
+- usar materiais de Delegado ou claims comerciais como padrão de Cartório;
 - criar questão sintética e chamar de prova sem QA;
-- forçar OUTPUT em Penal/PP/Trabalho/PTrab no baseline atual;
+- fabricar outro specimen antes do Atlas;
 - exigir microgestão do candidato.
