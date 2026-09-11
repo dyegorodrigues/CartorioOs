@@ -1,95 +1,105 @@
-# GX Cartório OS — Held-Out Registry v0.2
+# GX Cartório OS — Held-Out Registry v0.3
 ## Regime Geral / Lei 8.935 / CNN
 
 Snapshot: 2026-09-11
 Status: SEALED METADATA + INCIDENT LOG. NÃO usar conteúdo reservado no BUILD.
 
 ## Regra
-Este arquivo registra identidade e recorte das provas reservadas. **Não transcrever, resumir, classificar nem consultar enunciados reservados antes do freeze do material que será validado.**
+Registrar identidade/recorte **antes** de abrir conteúdo. Se fonte, caderno ou versão não forem demonstráveis, o pool é inválido. Se conteúdo reservado for visto antes do freeze, marcar contaminado e substituir.
 
-Se uma questão reservada tiver sido vista antes da hora, se o locator estiver incorreto ou se a identidade do caderno não for demonstrável, o pool é `INVALID/CONTAMINATED` e deve ser substituído. Nunca fingir independência.
+## Incident H1 — locator incorreto
+O antigo `H1 — Vunesp/TJSP 13º Concurso, Prova 04 Q5–Q15` foi invalidado em 11/09/2026.
 
-## Incident H1 — locator incorreto detectado em 11/09/2026
-O registry v0.1 dizia:
-`Vunesp/TJSP 13º Concurso, Prova 04 — Q5–Q15`.
+A primeira checagem do PDF após o BUILD freeze demonstrou que o locator usado era, na verdade, do **Concurso de Outorga do Estado de Alagoas nº 01/2023, Vunesp**. Q5–Q8 visualizadas nesse documento local não contam como validação. Referências anteriores a “TJSP Q1–Q4” ficam marcadas `PROVENANCE_ERROR` até correção.
 
-Na primeira tentativa de abertura **após o BUILD freeze**, a checagem do cabeçalho/rodapé do PDF demonstrou que o locator usado não era TJSP: tratava-se do **Concurso de Outorga do Estado de Alagoas nº 01/2023, Vunesp**, cujo edital de gabarito aparece expressamente no próprio documento.
+Status: `INVALID_LOCATOR / RETIRED`.
 
-Consequência:
-- o suposto H1/TJSP nunca teve identidade de fonte corretamente estabelecida;
-- Q5–Q8 visualizadas no locator errado são AL/local e **não contam como validação** do material;
-- Q9–Q15 do locator errado não precisam ser abertas;
-- qualquer alegação anterior de “Vunesp/TJSP Q1–Q4 usadas no BUILD” deve ser tratada como `PROVENANCE_ERROR` até localizar o caderno correto;
-- o material congelado NÃO recebe selo S2 com base nesse pool.
-
-Status do antigo H1: `INVALID_LOCATOR / RETIRED`.
-
-## H1R — Replacement pool Vunesp/TJSP
-- concurso-alvo: Vunesp/TJSP, 13º Concurso de Outorga, código TJSP2305;
+## H1R — Vunesp/TJSP 13º Concurso
+- código oficial: `TJSP2305`;
 - página oficial confirmada: `https://www.vunesp.com.br/TJSP2305`;
-- a aba “Provas e Gabaritos” da página oficial atualmente exige login na Área do Candidato;
-- portanto, nenhum PDF encontrado por busca externa pode ser promovido a H1R sem validação explícita de cabeçalho/concurso/prova;
-- status: `PENDING_VERIFIED_LOCATOR`.
+- 212 vagas na página oficial atual;
+- “Provas e Gabaritos” exige login na Área do Candidato;
+- nenhum PDF externo será promovido sem cabeçalho/concurso/prova verificáveis.
 
-Regra: ao localizar caderno público verificável do TJSP2305, registrar URL/metadados e recorte **antes** de abrir questões.
+Status: `PENDING_VERIFIED_LOCATOR`.
 
 ## H2 — Consulplan/TJMG Edital 1/2024
-- fonte oficial localizada: edital/documentos do concurso;
-- objetivo: encontrar caderno oficial/publicamente verificável e selar bloco de Regime Geral antes da leitura;
-- status: `PENDING_LOCATOR`.
+- página oficial Consulplan confirmada;
+- o concurso sofreu suspensão/nulidade parcial antes de produzir um caderno objetivo utilizável como held-out atual;
+- por isso, H2 não é mais prioridade imediata de validação.
+
+Status: `NO_USABLE_EXAM_YET / PARKED`.
 
 ## H3 — IESES/TJPA 2026
-- fonte: prova 6015 Tipo 1 + gabarito oficial;
-- BUILD já utilizou Q2 e Q10; outras questões iniciais já foram visualizadas;
-- status: `PARTIALLY_CONTAMINATED`;
-- não usar como held-out limpo sem recorte previamente selado e demonstravelmente não visto.
+- prova 6015 Tipo 1 + gabarito oficiais;
+- Q2/Q10 já usados no BUILD e outras questões iniciais já expostas;
+- não usar como held-out sem recorte comprovadamente não visto.
+
+Status: `PARTIALLY_CONTAMINATED`.
 
 ## H4 — Future post-696 state exam
-- reservar automaticamente ao menos 20% do primeiro concurso estadual publicado integralmente sob Res. 696/2026, estratificado por cluster;
-- status: `FUTURE_RESERVED`.
+Reservar automaticamente ao menos 20% do primeiro concurso estadual integralmente publicado sob Res.696/2026, estratificado por cluster.
 
-## H5 — Replacement multibank pool
-Como H1 falhou por proveniência, deve ser criado um pool adicional de banca estadual diferente das principais fontes BUILD, preferencialmente:
-1. Consulplan, se o caderno oficial puder ser localizado e identificado sem abrir conteúdo;
-2. outro caderno Vunesp de Cartório com PDF público e cabeçalho verificável;
-3. IESES apenas com recorte documentalmente não exposto;
-4. Cebraspe/FGV somente se necessário, pois já dominam o BUILD.
+Status: `FUTURE_RESERVED`.
 
-Status: `TO_BE_SEALED_BEFORE_READING`.
+## H5 — Vunesp/TJGO2001 — SEALED BEFORE READING
+Pool substituto multibanca criado **antes de abrir o caderno de questões**.
 
-## Separação BUILD / VALIDATION / CHALLENGE
-### BUILD confirmado
-- ENAC 2025.1, 2025.2, 2026.1 já catalogados;
-- FGV estaduais MS/RN/ES já estudados;
-- Cebraspe BA/RO + challenge oral TJPE/TJDFT já estudados;
+Metadados já confirmados sem leitura do caderno:
+- banca: Fundação Vunesp;
+- concurso: Tribunal de Justiça de Goiás, Concurso Público para Outorga de Delegações de Notas e de Registro;
+- código oficial da página: `TJGO2001`;
+- página oficial: `https://www.vunesp.com.br/TJGO2001`;
+- 292 vagas;
+- prova objetiva teve versões e gabarito oficial público; o edital de gabarito identifica expressamente o concurso.
+
+### Recorte selado
+- modalidade: **PROVIMENTO**;
+- versão-alvo: **VERSÃO 1**;
+- questões reservadas: **Q1–Q10**;
+- objetivo: identificar quais itens pertencem legitimamente a Regime Geral e testar o specimen congelado; itens de especialidades ou legislação local serão `OUT_OF_SCOPE`, não falha artificial do módulo.
+
+### Protocolo de abertura
+1. localizar caderno público oficial/verificável;
+2. validar cabeçalho/modalidade/versão;
+3. abrir somente Q1–Q10;
+4. usar gabarito oficial correspondente;
+5. não consultar Q11+ nesta rodada.
+
+Status: `SEALED / READY_FOR_VALIDATION`.
+
+## BUILD confirmado
+- ENAC 2025.1, 2025.2, 2026.1;
+- FGV estaduais MS/RN/ES;
+- Cebraspe BA/RO;
+- challenge oral oficial TJPE/TJDFT;
 - IESES/PA recortes conhecidos;
-- fontes primárias: CF, Lei 8.935, STF, CNN/CNJ.
+- CF, Lei 8.935, STF, CNN/CNJ.
 
-### BUILD com provenance a corrigir
-- referências anteriores a “Vunesp/TJSP Q1–Q4” NÃO são mais consideradas evidência TJSP até locator correto. Se o conteúdo analisado veio do PDF AL, reclassificar como `Vunesp/TJAL 2023` e, quando regra local, não usar para prioridade nacional.
+## BUILD com provenance corrigida
+Qualquer dado anteriormente atribuído a Vunesp/TJSP a partir do locator errado deve ser reclassificado como Vunesp/TJAL 2023 quando confirmado, e regra local de Alagoas não pode elevar prioridade nacional.
 
-### VALIDATION HELD-OUT
-- H1R + H2 + H4 + H5, somente depois de metadados selados e fonte validada.
+## VALIDATION HELD-OUT
+- H5 agora é o pool limpo utilizável;
+- H1R permanece pendente;
+- H4 permanece futuro.
 
-### CHALLENGE
-- questões/casos oficiais não reservados, outras formas/bancas e adversariais sintéticos com QA.
+## Gap taxonomy
+1. MATERIAL_GAP
+2. STRUCTURE_GAP
+3. DEPTH_GAP
+4. FRESHNESS_GAP
+5. TRANSFER_GAP
+6. OUT_OF_SCOPE
+7. BAD_QUESTION
+8. PROVENANCE_ERROR
 
-## Critério de falha do material
-1. `MATERIAL_GAP` — proposição necessária não ensinada;
-2. `STRUCTURE_GAP` — informação existia, mas não estava conectada/recuperável;
-3. `DEPTH_GAP` — ensinada rasa demais;
-4. `FRESHNESS_GAP` — snapshot desatualizado;
-5. `TRANSFER_GAP` — base existia, faltou aplicação/discriminação;
-6. `OUT_OF_SCOPE` — conteúdo legitimamente fora do módulo;
-7. `BAD_QUESTION` — problema de questão/gabarito após verificação;
-8. `PROVENANCE_ERROR` — origem/identidade da questão ou caderno não foi validada.
-
-## Gate de validação
-- S2 exige held-out suficiente e diversificado;
-- fonte e identidade do caderno fazem parte do gate, não são mero detalhe;
-- o mesmo enunciado em versões diferentes conta uma vez;
-- questão anulada não valida suficiência;
-- após patch, reteste deve usar questão ainda limpa.
+## Gate S2
+- fonte/caderno/versão validados;
+- questões não usadas no BUILD;
+- diversidade suficiente;
+- falha gera patch;
+- questão consumida nunca é reutilizada como prova independente após patch.
 
 ## Anti-leak
-Nenhum agente deve abrir H1R/H2/H4/H5 antes de seu recorte ser formalmente selado.
+Não abrir H1R/H4 nem Q11+ de H5 nesta rodada.
