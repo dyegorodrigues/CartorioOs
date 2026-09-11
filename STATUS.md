@@ -1,16 +1,27 @@
 # GX Cartório OS — Estado Atual
 
-Atualizado em 10/09/2026 22:40 BRT.
+Atualizado em 11/09/2026.
 
 ## Branch / handoff HOT
 - branch: `chatgpt/gx-cartorio-v0.1`
 - ler primeiro: `handoff/NEXT_SESSION_POINTER_2026-09-10.md`
 
+## Mandato autônomo HOT
+Workflow obrigatório:
+`workflows/AUTONOMOUS_EXECUTION_PROTOCOL_2026-09-11.md`
+
+O usuário autorizou execução autônoma/autossuficiente/adaptativa. Não pedir microdecisões nem ficar encerrando cada subpasso com “posso continuar?”. Em cada turno de execução, consumir o maior batch seguro e útil possível:
+`EXECUTE → VERIFY → PERSIST → ADAPT → CONTINUE`.
+
+Parar apenas para decisão autoral real, risco, gasto, ação irreversível, conflito de escopo ou falta material de acesso.
+
+Isso NÃO significa trabalho em background entre mensagens.
+
 ## Missão canônica
 Levar candidato com conhecimento jurídico enferrujado/próximo de zero até **prontidão verificável para ENAC + concurso estadual + discursiva + peça prática + oral**, horizonte 2027–2028, com eficiência extrema e administração manual mínima.
 
 ## Constraint autoral HOT
-**NÃO INICIAR ESTUDO AINDA.** Usuário autorizou execução autônoma. Não entregar Missão 01, não atribuir mastery, não pedir microdecisões.
+**NÃO INICIAR ESTUDO AINDA.** Não entregar Missão 01, não atribuir mastery e não exigir auditoria jurídica do usuário.
 
 ## Work Order A — CONCLUÍDO / CONGELADO
 `material/EDITORIAL_STANDARD.md`.
@@ -47,13 +58,29 @@ Nunca prometer `resolve qualquer questão futura`.
 
 ## Cartório Exam Atlas
 Protocolo: `research/CARTORIO_EXAM_ATLAS_PROTOCOL_2026.md`.
-Waves 1–5 preservadas.
 
-### Wave6 — Regime Geral heatmap
-`research/CARTORIO_EXAM_ATLAS_WAVE6_REGIME_GERAL_HEATMAP_2026-09-10.md`.
-Corpus já triangula ENAC/FGV/Cebraspe + IESES/TJPA 2026 + Vunesp/TJSP recente.
+### Waves 1–6
+Preservadas. Regime Geral já triangula ENAC/FGV/Cebraspe + IESES/TJPA + Vunesp/TJSP recente.
 
 Sinais fortes: arts.14–15, 20–22, 27, 29–30, 31–36 e jurisprudência STF associada.
+
+### Wave7 — LRP / output / bank form
+`research/CARTORIO_EXAM_ATLAS_WAVE7_LRP_OUTPUT_AND_BANK_FORM_2026-09-11.md`.
+
+Nova evidência oficial Cebraspe/TJRO demonstra que especialidades não podem ser modeladas só como artigos:
+- peça prática exigiu ATA NOTARIAL DE JUSTIFICAÇÃO DE POSSE para usucapião extrajudicial;
+- resposta oficial integra CPC art.1.071 + LRP art.216-A + Prov.149/CNJ + forma/qualificação/narrativa probatória;
+- reforçada separação `KNOWLEDGE_ATOMS ≠ BANK/EDITAL_PACKAGING`;
+- output passa a distinguir KNOW / DISCRIMINATE / EXECUTE / QA.
+
+Taxonomia nova para nós N/R:
+- RULE NODE;
+- PROCEDURE NODE;
+- ACT NODE;
+- SYSTEM NODE;
+- JURISPRUDENCE NODE.
+
+O primeiro material N/R deve provar que representa mais que literalidade: regra curta + jurisprudência + mini-procedimento + output atom/skeleton.
 
 ## Ledgers atuais
 - `data/atlas/PROPOSITION_LEDGER_REGIME_GERAL_SEED_2026-09-10.md`
@@ -70,14 +97,24 @@ Estrutura:
 
 Separados P1/P2/P3+, MUST-KNOW literal, MUST-UNDERSTAND, output e poda. Confiança B+; ainda NÃO liberar estudo.
 
-## HELD-OUT — AGORA FORMALMENTE SELADO
+## HELD-OUT — FORMALMENTE SELADO
 `data/atlas/HELD_OUT_REGISTRY_REGIME_GERAL_V0.1_2026-09-10.md`.
 
 - Vunesp/TJSP Prova 04: Q1–Q4 já usadas; **Q5–Q15 seladas** e não podem ser abertas antes do freeze do material.
-- Consulplan/TJMG: reservar primeiro bloco Regime Geral do caderno oficial assim que o locator for encontrado, registrando metadado ANTES da leitura.
+- Consulplan/TJMG: reservar primeiro bloco Regime Geral do caderno oficial assim que locator for encontrado, registrando metadado ANTES da leitura.
 - primeiro concurso estadual integralmente pós-Res.696: reservar pelo menos 20% estratificado.
 
-Se conteúdo selado for visto, marcar `CONTAMINATED` e substituir; nunca fingir independência.
+Se conteúdo selado for visto, marcar `CONTAMINATED` e substituir.
+
+## Contest History Atlas
+Frente paralela autorizada pelo usuário: Estado por Estado, banca, vagas, provimento/remoção, convocados por fase, cortes empíricos, escolhas/outorgas e remanescentes.
+
+Planilha gerada na conversa já chegou à v0.5 e confirmou que:
+- vagas ≠ convocados ≠ aprovados ≠ escolhas ≠ outorgas;
+- corte precisa ser armazenado por fase/modalidade/lista;
+- rodadas de escolha precisam de `CHOICE_ROUND` separado.
+
+Persistir esta frente no repositório e continuar auditando fontes oficiais.
 
 ## Regra de questões
 - Encoding Check = imediato, não mastery.
@@ -88,15 +125,17 @@ Se conteúdo selado for visto, marcar `CONTAMINATED` e substituir; nunca fingir 
 Falhas held-out: MATERIAL_GAP / STRUCTURE_GAP / DEPTH_GAP / FRESHNESS_GAP / TRANSFER_GAP / OUT_OF_SCOPE / BAD_QUESTION.
 
 ## Próximo HOT autônomo
-1. terminar heatmap art.30 por inciso e ampliar corpus sem abrir H1;
-2. localizar caderno Consulplan/TJMG e selar H2 antes de leitura;
-3. aprofundar LRP C0/C1;
-4. completar EFFECTIVE_FROM/IMPLEMENT_BY dos demais deltas CNN;
-5. construir BUILD CORPUS freeze de Regime Geral;
-6. red-team do Depth Budget v0.1 usando CHALLENGE, não HELD-OUT;
-7. corrigir gaps e congelar primeiro material N/R;
-8. só então abrir HELD-OUT e tentar quebrá-lo;
-9. apenas se sobreviver, mostrar novo specimen ao usuário.
+Executar por batches, sem solicitar microaprovação:
+1. aprofundar LRP em `prenotação/qualificação → dúvida → indisponibilidade → usucapião → retificação`;
+2. ligar procedure/act nodes a objetiva + peça/discursiva oficiais;
+3. terminar heatmap art.30 por inciso sem abrir H1;
+4. localizar caderno Consulplan/TJMG e selar H2 antes de leitura;
+5. completar Freshness CNN/Prov.149;
+6. red-team do Depth Budget Regime Geral com CHALLENGE;
+7. construir BUILD CORPUS freeze;
+8. gerar primeiro material N/R;
+9. abrir held-out e tentar quebrá-lo;
+10. continuar Contest History Atlas em paralelo, priorizando concursos concluídos com documentação oficial de corte/escolha/outorga.
 
 ## Anti-drift
-Não iniciar aula; não usar cursinho/material legado como cânone; não importar frequência de OAB/Delegado; não usar prova antiga sem revalidação; não transformar páginas/horas em KPI; não vazar held-out; não exigir microgestão do usuário.
+Não iniciar aula; não usar cursinho/material legado como cânone; não importar frequência de OAB/Delegado; não usar prova antiga sem revalidação; não transformar páginas/horas em KPI; não vazar held-out; não exigir microgestão do usuário; não relatar cada clique como se fosse marco.
