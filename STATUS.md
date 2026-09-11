@@ -1,6 +1,6 @@
 # GX Cartório OS — Estado Atual
 
-Atualizado em 10/09/2026.
+Atualizado em 10/09/2026 22:40 BRT.
 
 ## Branch / handoff HOT
 - branch: `chatgpt/gx-cartorio-v0.1`
@@ -9,193 +9,120 @@ Atualizado em 10/09/2026.
 ## Missão canônica
 Levar candidato com conhecimento jurídico enferrujado/próximo de zero até **prontidão verificável para ENAC + concurso estadual + discursiva + peça prática + oral**, horizonte 2027–2028, com eficiência extrema e administração manual mínima.
 
-Objetivo é desempenho de teto por evidência, não volume ornamental nem promessa de IA.
-
 ## Constraint autoral HOT
-**NÃO INICIAR ESTUDO AINDA.**
-
-O usuário quer primeiro provar a máquina e o material. Não entregar Missão 01, não atribuir mastery e não exigir auditoria jurídica dele.
+**NÃO INICIAR ESTUDO AINDA.** Usuário autorizou execução autônoma. Não entregar Missão 01, não atribuir mastery, não pedir microdecisões.
 
 ## Work Order A — CONCLUÍDO / CONGELADO
-`material/EDITORIAL_STANDARD.md` = Editorial Standard v1.0.
+`material/EDITORIAL_STANDARD.md`.
+Preservar M0–M7, retention separado, objetiva permanente, output progressivo por pertinência de fase, voz como recall, lei seca guiada, Q→A/flashcards seletivos, revisão cumulativa, throughput adaptativo, One-Home Rule, Sufficiency Gate e Freshness Firewall.
 
-Preservar:
-- mastery M0–M7 + retention separado;
-- objetiva permanente;
-- oral/discursiva/prática progressivas e apenas onde a fase vigente permite;
-- voz cedo como recall;
-- lei seca guiada;
-- Q→A e flashcards seletivos;
-- revisão cumulativa;
-- throughput adaptativo;
-- One-Home Rule;
-- Sufficiency Gate;
-- Freshness Firewall.
+## Baseline regulatório
+Res. CNJ 696/2026: https://atos.cnj.jus.br/atos/detalhar/7011
 
-Não reabrir arquitetura por estética; somente por falha observável.
+- objetiva estadual: eliminatória/sem peso final quando aplicada e substituível por ENAC conforme regime;
+- discursiva 70%; oral 25%; títulos 5%;
+- Penal, PP, Trabalho e PTrab = exclusivamente ENAC/objetiva no baseline nacional atual;
+- oral novo: pergunta escrita/predefinida, reperguntas guiadas, 90% conteúdo jurídico + 10% articulação técnica.
 
-## Baseline regulatório — Resolução CNJ 696/2026
-Fonte oficial vigente: https://atos.cnj.jus.br/atos/detalhar/7011
+Toda prova histórica recebe `REGIME_TAG`, `CONTENT_VALIDITY`, `PHASE_VALIDITY`.
 
-- objetiva estadual: eliminatória, sem peso final, substituível por ENAC nos termos da Resolução;
-- discursiva: 70%;
-- oral: 25%;
-- títulos: 5%;
-- Penal, Processo Penal, Trabalho e Processo do Trabalho: exclusivamente ENAC/objetiva;
-- nova matriz prioriza conteúdo nacional/uniforme e atividade N/R;
-- oral sob novo regime: 90% conteúdo jurídico + 10% articulação técnica; pergunta escrita, pontos/perguntas predefinidos e reperguntas guiadas.
+## Freshness Firewall — avanço crítico
+Arquivo HOT: `research/CNN_CNJ_FRESHNESS_DELTA_MAP_2026-09-10.md`.
 
-### Regra crítica de historicidade
-Toda prova recebe `REGIME_TAG` + duas validades:
-- `CONTENT_VALIDITY`;
-- `PHASE_VALIDITY`.
+O CNN/Provimento 149 é corpus versionado. Foram mapeados deltas 2026 relevantes (Prov. 211, 212, 214, 217, 218, 219, 220, 224, 225, 227, 228, 229, 237, 242, 246, 253).
 
-Ex.: Penal em discursiva de edital pré-696 continua útil como forma/conteúdo histórico, mas NÃO eleva OUTPUT penal no baseline atual.
+### ENAC 2026.2 — regra de snapshot
+Edital FGV/CNJ prevê prova em 22/11/2026 e exclui preceitos cuja vigência tenha iniciado menos de 90 dias antes; preceitos revogados no período podem ser cobrados.
+Cutoff aritmético = **24/08/2026**, sempre pela data de VIGÊNCIA, não publicação.
+
+O sistema agora distingue:
+`CURRENT_LAW` x `EXAM_SNAPSHOT_LAW`.
+
+Criado `data/freshness/CHANGE_IMPACT_QUEUE_2026-09-10.md` para cascata:
+`mudança → proposições → snapshot de prova → MASTER/REVIEW/Q→A/questões/simulados/output`.
 
 ## Compiler invisível
-`OFFICIAL SCOPE → SOURCES → EXAM CORPUS → PROPOSITIONS → INCIDENCE/CONSEQUENCE → DEPTH BUDGET → CANONICAL TREE → BUILD/VALIDATION/CHALLENGE → FRESHNESS → PATCH`
+`OFFICIAL SCOPE → SOURCES → EXAM CORPUS → PROPOSITIONS → INCIDENCE/CONSEQUENCE → DEPTH BUDGET → CANONICAL TREE → BUILD/VALIDATION/CHALLENGE → FRESHNESS → PATCH`.
 
 Learner-facing futuro:
-`MAP → MASTER P1 → LEI SECA GUIADA → REVIEW → Q→A/RECALL → OBJECTIVE LAB → OUTPUT LAB quando pertinente`
+`MAP → MASTER P1 → LEI SECA GUIADA → REVIEW → Q→A → OBJECTIVE LAB → OUTPUT LAB`.
 
 ## Suficiência
-Nunca dizer `resolve qualquer questão futura`.
-
 S0 untested → S1 build → S2 held-out → S3 challenge/multibanca → S4 learner-demonstrated → S5 maintenance-stable.
-
-Pergunta operacional: **há questão legítima dentro do escopo/nível cuja solução dependa de proposição que o material não ensinou?** Se sim, material falhou primeiro.
-
-## Estratégia de cobertura
-- P1: mapa mental + core + sobrevivência objetiva;
-- P2: exam depth por corpus, exceções, jurisprudência, aliases, integração;
-- P3+: robustez, manutenção e OUTPUT.
-
-Não levar o primeiro nó a M7 antes de cobrir o currículo.
+Nunca prometer `resolve qualquer questão futura`.
 
 ## Specimens
-### Specimen A — Penal / Aplicação da Lei Penal
-v0.2 no Notion foi melhora clara segundo o usuário, mas fica **CONGELADO COMO PROTÓTIPO**. Não estudar, não ampliar por ansiedade.
+- Penal/PEN1 v0.2 = congelado como protótipo visual; NÃO estudar.
+- Specimen B = adiado.
+- Próximo learner-facing só depois de Atlas + held-out + Depth Budget.
 
-### Specimen B
-ADIADO. Não produzir antes de o Atlas entregar depth budget robusto.
+## Market audit
+`research/CARTORIO_PREP_ECOSYSTEM_DEEP_AUDIT_2026_09_10.md`.
+Auditados VFK, Estratégia, Registrando/CP Iuris, Themas, Decorando Lei Seca, PreparaEnac, YK e Juspodivm. Absorver funções, não copiar produtos.
 
-## Materiais legados do usuário
-Estratégia/DD e novos PDFs (trilhas, CC, LINDB, CP comentado) = **benchmark não canônico**.
-Usar para UX, aliases, possíveis lacunas e organização. Nunca transplantar incidência de Delegado para Cartório.
+## Cartório Exam Atlas — estado
+Protocolo: `research/CARTORIO_EXAM_ATLAS_PROTOCOL_2026.md`.
 
-Achado: trilha Estratégia pode ser coerente conceitualmente, mas foi desenhada para 28h/semana, 756 tarefas e 18/semana. O GX deve adaptar a trilha ao candidato, não o contrário.
+### Waves 1–5
+- Wave1: censo contemporâneo multibanca.
+- Wave2: TJMS/FGV gold corpus cross-phase.
+- Wave3: TJBA/Cebraspe e transição regulatória.
+- Wave4: ENAC/Lei 8.935 first pass.
+- Wave5: FGV x Cebraspe OUTPUT; regra `KNOWLEDGE_ATOMS ≠ BANK/EDITAL_PACKAGING`.
 
-## Deep Audit de mercado
-Arquivo: `research/CARTORIO_PREP_ECOSYSTEM_DEEP_AUDIT_2026_09_10.md`
+### Wave6 — Regime Geral heatmap
+`research/CARTORIO_EXAM_ATLAS_WAVE6_REGIME_GERAL_HEATMAP_2026-09-10.md`.
 
-Auditados: VFK, Estratégia Cartórios, Registrando/CP Iuris, Themas, Decorando Lei Seca, PreparaEnac, YK, Juspodivm.
+Além de ENAC/FGV/Cebraspe, o corpus foi ampliado com:
+- IESES/TJPA 2026, prova + gabarito oficiais;
+- Vunesp/TJSP 13º concurso, prova oficial;
+- sinais de Consulplan/TJMG preservados para ampliar/held-out quando o caderno oficial for localizado.
 
-Absorver funções, não produtos:
-- reservatório profundo sem fila linear;
-- mapeamento/incidência;
-- lei esquematizada;
-- question engine com fundamento;
-- rotina real/adaptação;
-- atualização;
-- treino de todas as fases.
+Sinais multibanca fortes em Regime Geral:
+- ingresso arts.14–15;
+- prepostos/gestão arts.20–21;
+- responsabilidade arts.22–24 + Tema777;
+- impedimento art.27;
+- direitos/deveres arts.29–30;
+- disciplina/perda arts.31–36.
 
-## Cartório Exam Atlas — HOT
-Protocolo: `research/CARTORIO_EXAM_ATLAS_PROTOCOL_2026.md`
+IESES/PA 2026 Q10 + gabarito oficial reforça art.22. Vunesp/SP recente testa em sequência ingresso, prepostos, gestão e responsabilidade da Lei 8.935.
 
-### Wave 1 — censo contemporâneo
-`research/CARTORIO_EXAM_ATLAS_WAVE1_CURRENT_CENSUS_2026-09-10.md`
-
-Onda selecionada 2024–2026:
-- Cebraspe: BA, MT, RO, RR, CE;
-- FGV: MS, RN, ES, RS;
-- Consulplan: PB, MG;
-- IESES: PA;
-- Vunesp: SP.
-
-Não tratar essa contagem como ranking histórico.
-
-### Wave 2 — TJMS/FGV = GOLD_CORPUS_001
-`research/CARTORIO_EXAM_ATLAS_WAVE2_TJMS_FGV_2026_CROSS_PHASE.md`
-
-Mesmo concurso fornece objetiva + escrita/prática + espelho. Confirmado que OUTPUT é integrado e decomponível em átomos jurídicos. Criado conceito `Integrated Case Graph`.
-
-### Wave 3 — TJBA/Cebraspe
-`research/CARTORIO_EXAM_ATLAS_WAVE3_TJBA_CEBRASPE_2026_TRANSITION.md`
-
-Confirmado risco de transição regulatória e necessidade de `REGIME_TAG`.
-
-### Wave 4 — ENAC / Lei 8.935 first pass
-`research/CARTORIO_EXAM_ATLAS_WAVE4_ENAC_LEI8935_FIRST_PASS.md`
-
-Evidência C0 direta já mostra recorrências:
-- art. 22 responsabilidade: ENAC 2025.2 + 2026.1;
-- arts. 29–30 direitos/deveres: 2025.1 + 2026.1;
-- art. 27 impedimento: 2025.2 + 2026.1, além de TJMS/FGV;
-- regime disciplinar arts. 31–35: bloco relevante no 2025.2;
-- ingresso art. 14 e competência protesto art. 11 também cobrados.
-
-Padrões FGV emergentes a continuar testando: boundary, role-swap, alternativa conjuntiva, requisito importado de outra carreira, palavra/conectivo fatal.
-
-### Wave 5 — OUTPUT FGV x Cebraspe
-`research/CARTORIO_EXAM_ATLAS_WAVE5_OUTPUT_TRIANGULATION_FGV_CEBRASPE_2026.md`
-
-Triangulação:
-- FGV: TJMS + TJRN + TJES;
-- Cebraspe: TJBA + TJRO.
-
-Descobertas:
-- `KNOWLEDGE_ATOMS` devem ser separados de `BANK/EDITAL PACKAGING`;
-- FGV varia formato/linhas/quantidade conforme edital, mas casos integrados e espelhos atomizados aparecem repetidamente;
-- RN cobrou teoria constitucional abstrata (Friedrich Müller) dentro de conflito registral real;
-- RN também cobrou Tema 777 + perda da delegação + substituição >6 meses no mesmo caso;
-- ES espelha peça e discursivas por átomos jurídicos;
-- Cebraspe BA/RO explicita subitens/pontuação e RO cobra qualificação registral/nota devolutiva em peça de imóvel rural.
-
-## Oral Corpus seed
-`research/CARTORIO_ORAL_CORPUS_SEED_RES696_2026.md`
-
-Novo baseline 696 torna o oral mais reproduzível:
-`PERGUNTA ESCRITA → ATOMS → RESPOSTA → REPERGUNTA GUIADA → RUBRIC`.
-
-- FGV ES/RN atuais: documentos públicos de convocação/forma, mas não promover relatos informais a corpus oficial.
-- Cebraspe histórico possui malotes públicos com pergunta + padrão de resposta; usar com REGIME_TAG.
-
-## Learning Engine evidence
-`research/LEARNING_ENGINE_LEGAL_REASONING_EVIDENCE_2026-09-10.md`
-
-Preservar:
-- retrieval + spacing;
-- feedback obrigatório para treino útil;
-- worked examples e fading em produção complexa;
-- encoding check ≠ assessment.
-
-## Proposition Ledger N/R — Regime Geral
+## Ledgers
+### Lei 8.935 / Regime Geral
 `data/atlas/PROPOSITION_LEDGER_REGIME_GERAL_SEED_2026-09-10.md`
+Agora C0 + C1/C2 multibanca.
 
-Atualizado com C0 e C1. Sinais fortes já observados:
-- RG-RESP-022: responsabilidade art. 22 = recorrência ENAC;
-- RG-IMP-027: 3º/4º grau = recorrência ENAC + estadual;
-- RG-RESP-T777: escrita FGV MS/RN/ES + Cebraspe BA;
-- RG-LOSS-035: objetiva ENAC + escrita RN;
-- RG-INT-ADI1183: escrita RN diretamente sobre >6 meses;
-- arts. 29–30: cluster recorrente e candidato a organização semântica/heatmap.
+### CNN/CNJ / Regime Geral
+`data/atlas/PROPOSITION_LEDGER_CNN_REGIME_GERAL_SEED_2026-09-10.md`
+Inclui Justiça Aberta, vacâncias, incapacidade permanente e solvência trabalhista.
+
+### LRP
+`data/atlas/PROPOSITION_LEDGER_LRP_SEED_2026-09-10.md`
+Aberto com prenotação, qualificação, usucapião, indisponibilidade, retificação, RTD, sistemas eletrônicos, extratos, Constrijud e alienação fiduciária.
+
+## Primeiro Depth Budget formal
+`data/atlas/DEPTH_BUDGET_REGIME_GERAL_V0.1_2026-09-10.md`.
+
+Arquitetura pedagógica v0.1:
+`RG0 natureza/CF236 → RG1 ingresso → RG2 gestão/prepostos → RG3 responsabilidade → RG4 incompatibilidades/impedimentos → RG5 independência/direitos/deveres → RG6 disciplina/perda/extinção → RG7 vacância/interinidade + CNN`.
+
+Budget separa P1/P2/P3+, MUST-KNOW literal, MUST-UNDERSTAND, output e podas. Confiança global B+; aprovado para continuar pesquisa, NÃO para estudo.
+
+## Regra de questões
+- Encoding Check = imediato, não mastery.
+- Assessment = atrasado/misturado.
+- Held-out = fora do build, testa material.
+- Challenge = outra banca/formulação/cross-node.
 
 ## Próximo HOT autônomo
-1. expandir C0 para CF art. 236 + CNN/CNJ dentro de Regime Geral;
-2. construir heatmap C1/C2 dos arts. 20–36 Lei 8.935;
-3. abrir proposition ledgers de CNN/CNJ e LRP;
-4. coletar oral oficial público com REGIME_TAG e acompanhar o novo padrão 696;
-5. triangular objective grammar FGV x Cebraspe;
-6. produzir **primeiro Depth Budget formal de Regime Geral** somente após essas expansões;
-7. só depois voltar a material learner-facing.
+1. formalizar reserva HELD-OUT por banca/cluster antes de qualquer specimen N/R;
+2. terminar heatmap do art.30 por inciso e expandir Vunesp/IESES/Consulplan;
+3. aprofundar LRP C0/C1 e separar RI/RTD/RCPN quando densidade justificar;
+4. preencher `EFFECTIVE_FROM` dos deltas CNN e ligar questões impactadas no Change Impact Queue;
+5. criar primeiro `BUILD CORPUS vs HELD-OUT CORPUS` de Regime Geral;
+6. fazer red-team do Depth Budget v0.1;
+7. somente então construir primeiro specimen N/R learner-facing.
 
-### Anti-drift
-Não:
-- iniciar estudo agora;
-- fabricar Specimen B antes do Atlas;
-- transformar volume em KPI;
-- usar cursinho/material de Delegado como cânone;
-- contar OAB/MP/Magistratura como frequência de Cartório;
-- usar prova antiga sem revalidar conteúdo/fase;
-- declarar suficiência sem held-out;
-- exigir microgestão do usuário.
+## Anti-drift
+Não iniciar aula; não usar cursinho/material legado como cânone; não importar frequência de OAB/Delegado; não usar prova antiga sem revalidação; não transformar páginas/horas em KPI; não fabricar specimen antes de held-out; não exigir microgestão do usuário.
