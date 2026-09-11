@@ -1,67 +1,52 @@
-# GX Cartório OS — Held-Out Registry v0.7
+# GX Cartório OS — Held-Out Registry v0.8
 ## Regime Geral / Lei 8.935 / CNN
 
 Snapshot: 2026-09-11
 Status: ACTIVE VALIDATION REGISTRY. NÃO usar conteúdo reservado no BUILD.
 
 ## Regra
-Registrar identidade/recorte **antes** de abrir conteúdo. Se fonte/caderno/versão não forem demonstráveis, o pool é inválido. Conteúdo visto antes do freeze vira contaminado.
+Registrar identidade/recorte antes de abrir conteúdo. Qualquer questão exibida por snippet de busca antes da abertura formal deixa de ser held-out independente.
 
-## H1 — antigo TJSP locator
-INVALID_LOCATOR / RETIRED. O PDF era TJAL/Vunesp 2023.
+## Pools anteriores
+- H1 antigo TJSP locator: `INVALID_LOCATOR / RETIRED` (era TJAL/Vunesp 2023).
+- H1R TJSP2305: `PENDING_VERIFIED_LOCATOR`.
+- H2 TJMG/Consulplan: `PARKED`.
+- H3 TJPA/IESES: `PARTIALLY_CONTAMINATED`.
+- H4 primeiro pós-696 integral: `FUTURE_RESERVED`.
+- H5 TJGO/Vunesp: `SEALED / PENDING_QUESTION_BOOK_LOCATOR`.
+- H6 TJRR/Cebraspe: `CONSUMED / ALL OUT_OF_SCOPE`.
+- H7 TJSC/Cebraspe: `CONSUMED / IN-SCOPE FAILURE`; specimen v0.1 falhou S2 e foi patchado para v0.2.
 
-## H1R — Vunesp/TJSP2305
-Página oficial confirmada; provas/gabaritos exigem login. Pendente locator verificável.
+## H8 — Cebraspe/TJPE 2024 — RECUT AFTER LOCATOR SEARCH
+H8 original foi selado como PROVIMENTO Q1–Q20 antes de qualquer busca do caderno.
 
-## H2 — Consulplan/TJMG 2024
-PARKED: sem caderno utilizável nesta fase devido à suspensão/nulidade parcial.
+A busca de locator localizou caderno oficial Cebraspe:
+`https://cdn.cebraspe.org.br/concursos/tj_pe_24_notarios/arquivos/005_TJPE_001_01.PDF`
 
-## H3 — IESES/TJPA 2026
-PARTIALLY_CONTAMINATED por uso prévio de questões iniciais.
+Porém o mecanismo de busca exibiu automaticamente texto de Q1, Q2, Q4, Q5 e Q6 antes da abertura formal. Para evitar autoengano:
+- Q1–Q6 passam a `CONTAMINATED_BY_LOCATOR_SNIPPET`;
+- nenhuma delas poderá validar v0.2, mesmo que Q1 seja claramente Regime Geral;
+- antes de abrir o restante, o pool limpo é recortado novamente.
 
-## H4 — Future post-696 state exam
-FUTURE_RESERVED: >=20% do primeiro concurso estadual integralmente publicado sob Res.696/2026.
+### Recorte limpo H8R
+- concurso: TJPE 2º Concurso, Cebraspe, 2024;
+- caderno oficial já validado pelo cabeçalho;
+- modalidade: PROVIMENTO;
+- questões limpas seladas agora: **Q7–Q20**;
+- Q21+ continuam fora desta rodada;
+- objetivo: identificar itens Regime Geral e confrontar com `REGIME_GERAL_INTERNAL_FREEZE_V0.2`.
 
-## H5 — Vunesp/TJGO2001
-PROVIMENTO v1 Q1–Q10 seladas; página/gabarito confirmados; caderno verificável ainda pendente.
+### Protocolo H8R
+1. abrir apenas Q7–Q20;
+2. localizar gabarito definitivo oficial;
+3. classificar cada questão em IN_SCOPE / OUT_OF_SCOPE;
+4. para IN_SCOPE, mapear proposition ID e cobertura do specimen v0.2;
+5. registrar gap sem editar retroativamente o freeze;
+6. se houver patch, reteste posterior usa outro pool limpo.
 
-## H6 — Cebraspe/TJRR 2025
-CONSUMED / ALL OUT_OF_SCOPE para Regime Geral.
+Status H8: `Q1–Q6 CONTAMINATED; H8R Q7–Q20 SEALED / READY`.
 
-## H7 — Cebraspe/TJSC 2023
-CONSUMED / IN-SCOPE FAILURE.
-Q2 art.12 → MATERIAL_GAP.
-Q3 art.36 → MATERIAL_GAP + DEPTH_GAP.
-Q4 art.40 → MATERIAL_GAP.
-Specimen v0.1 falhou S2 e foi patchado.
-
-## H8 — Cebraspe/TJPE 2024 — SEALED BEFORE LOCATOR SEARCH
-Criado após freeze do specimen v0.2 e **antes de pesquisar/abrir o caderno objetivo**.
-
-Metadados conhecidos sem leitura do recorte:
-- concurso: Tribunal de Justiça de Pernambuco, 2º Concurso Público para Outorga de Delegações de Notas e de Registro;
-- banca: Cebraspe;
-- edital/certame 2024;
-- a frente BUILD já usou prova oral/prática do TJPE como CHALLENGE, mas **não usou a objetiva deste recorte para escrever o Regime Geral v0.2**.
-
-### Recorte selado
-- modalidade-alvo: **PROVIMENTO**;
-- questões: **Q1–Q20**;
-- objetivo: localizar itens de Regime Geral no bloco e confrontar com v0.2;
-- questões de especialidades/constitucional/local serão OUT_OF_SCOPE;
-- Q21+ permanecem fora desta rodada.
-
-### Protocolo
-1. localizar caderno oficial Cebraspe;
-2. validar cabeçalho/modalidade;
-3. abrir somente Q1–Q20;
-4. localizar gabarito definitivo oficial;
-5. classificar escopo/gaps;
-6. jamais usar as questões consumidas para validar versão patchada posterior.
-
-Status: `SEALED / READY_FOR_LOCATOR_SEARCH`.
-
-## Build atual após H7
+## Build atual
 - `DEPTH_BUDGET_REGIME_GERAL_V0.3_2026-09-11.md`;
 - `REGIME_GERAL_INTERNAL_FREEZE_V0.2_2026-09-11.md`.
 
@@ -69,7 +54,7 @@ Status: `SEALED / READY_FOR_LOCATOR_SEARCH`.
 MATERIAL_GAP / STRUCTURE_GAP / DEPTH_GAP / FRESHNESS_GAP / TRANSFER_GAP / OUT_OF_SCOPE / BAD_QUESTION / PROVENANCE_ERROR.
 
 ## Gate S2
-S2 permanece NÃO ATINGIDO. H8 será o próximo teste limpo se o caderno/gabarito forem validados.
+S2 permanece NÃO ATINGIDO. Apenas questões IN_SCOPE limpas de H8R podem contribuir para o reteste.
 
 ## Anti-leak
-Não abrir H1R/H4/H5; em H8 não abrir Q21+ nesta rodada.
+Não abrir H1R/H4/H5; em TJPE não abrir Q21+ nesta rodada.
