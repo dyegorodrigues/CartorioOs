@@ -1,54 +1,97 @@
 # GX Cartório OS — CNN/CNJ Freshness Delta Map
 
 Snapshot: 2026-09-10
-Status: infraestrutura do Freshness Firewall; NÃO é material de estudo.
+Status: infraestrutura HOT do Freshness Firewall; NÃO é material de estudo.
 
-## Fonte-base
-- Provimento CNJ 149/2023 — Código Nacional de Normas do Foro Extrajudicial, texto compilado oficial.
-- Resolução CNJ 696/2026 — regime atual dos concursos de outorga.
+## Fonte-base canônica
+- Provimento CNJ 149/2023 — CNN/CN/CNJ-Extra, texto compilado oficial: https://atos.cnj.jus.br/atos/detalhar/5243
+- Resolução CNJ 696/2026 — regime atual dos concursos de outorga: https://atos.cnj.jus.br/atos/detalhar/7011
 
-## Por que este mapa existe
-O CNN/CNJ-Extra recebe alterações frequentes. Questões históricas continuam úteis como forma cognitiva, mas nenhuma proposição pode ser promovida ao MASTER atual sem revalidação contra o texto compilado e atos modificadores posteriores.
+## Regra-mãe
+O Provimento 149/2023 está formalmente `ALTERADO`, não é um PDF congelado. O GX deve tratar o CNN/CNJ como um corpus versionado. Questão antiga continua útil como evidência de cobrança, mas nenhuma proposição vira MASTER atual sem revalidação contra o texto compilado vigente e atos modificadores supervenientes.
 
-## Deltas relevantes observados em 2026
+## Deltas relevantes de 2026 já confirmados em fonte oficial CNJ
 
-| Ato | Data | Tema | Impacto no Atlas |
-|---|---|---|---|
-| Prov. 217 | 09/03/2026 | adequação registral/indisponibilidade | revalidar nós de RI e ordens de indisponibilidade |
-| Prov. 218 | 13/03/2026 | Justiça Aberta | afeta regime administrativo/dados de serventias |
-| Prov. 219 | 20/03/2026 | gestão/publicidade da relação geral de vacâncias | afeta vacância/interinidade/concurso |
-| Prov. 224 | 12/05/2026 | Constrijud / Serp-Jud / constrições imobiliárias | afeta RI, prenotação, qualificação, ordens judiciais |
-| Prov. 225 | 20/05/2026 | publicidade de protestos / monitoramento de ordens | afeta Protesto e cumprimento de decisões |
-| Prov. 227 | 09/06/2026 | solvência trabalhista dos delegatários | afeta deveres/fiscalização/regime da delegação |
-| Prov. 228 | 16/06/2026 | extratos eletrônicos no RI | afeta títulos eletrônicos/registro/averbação |
-| Prov. 229 | 16/06/2026 | SERP / interoperabilidade / Meu Registro | afeta arquitetura nacional dos registros eletrônicos |
-| Prov. 237 | 13/07/2026 | CNS/acervo/certidões + reprodução assistida | afeta publicidade, acervo e RCPN |
-| Prov. 242 | 21/07/2026 | base nacional RTDPJ / identificadores / governança de dados | afeta RTD/PJ e interoperabilidade |
-| Prov. 253 | 18/08/2026 | certidões e consultas na CENPROT após sustação | afeta Protesto e publicidade atual do registro |
+| Ato | Data | Situação | Tema | Artigos/nós atingidos já identificados | Volatilidade | Impacto no Atlas |
+|---|---|---|---|---|---|---|
+| Prov. 211 | 28/01/2026 | vigente | papel de segurança / transição digital | revoga arts. 461 e 461-A; regra de emissão física sob solicitação | medium | Notas/RCPN/certidões; não manter regra antiga de papel como absoluta |
+| Prov. 212 | 20/02/2026 | vigente | gratuidade de informações para Fazenda | art. 184-A §9 | high | emolumentos/fiscal/RI; questão histórica precisa conferir gratuidade nacional atual |
+| Prov. 214 | 26/02/2026 | vigente | TI + extinção de cláusulas resolutivas | arts. 88 §4, 206 e 439-A, entre outros ajustes | high | LGPD/TI + RI; conecta CNN ao Prov. 213 e legislação material |
+| Prov. 217 | 09/03/2026 | vigente | indisponibilidade / circunscrição | art. 320-I §2 | high | RI: matrícula/transcrição, circunscrição atual/origem, abertura de matrícula |
+| Prov. 218 | 13/03/2026 | vigente | Sistema Justiça Aberta | arts. 136 e ss. | high | Regime Geral/fiscalização/dados; alimentação é dever funcional |
+| Prov. 219 | 20/03/2026 | vigente | relação geral de vacâncias | disciplina própria + remissão do CNN art. 73 | very high | vacância/interinidade/concurso; também integrado à Res. 696/2026 |
+| Prov. 220 | 22/04/2026 | vigente | incapacidade permanente de delegatário | procedimento nacional ligado ao art. 39 III da Lei 8.935 | very high | extinção da delegação, devido processo, regime administrativo |
+| Prov. 224 | 12/05/2026 | vigente | Constrijud / Serp-Jud | nova Seção art. 320-X e seguintes | very high | RI: ordens judiciais, prenotação, qualificação, fluxo eletrônico |
+| Prov. 225 | 20/05/2026 | vigente | publicidade de protestos / ordens judiciais | bloco CENPROT/protesto | high | Protesto: certidões, sustação, litigância abusiva/predatória |
+| Prov. 227 | 09/06/2026 | vigente | solvência trabalhista do delegatário | provimento autônomo, ligado a L8935 arts. 20, 31 I e 36 | very high | Regime Geral: empregador/prepostos, declaração anual, fiscalização/PAD; não linearizar tudo em P1 sem corpus |
+| Prov. 228 | 16/06/2026 | vigente | extratos eletrônicos no RI | art. 208 II b + arts. 210-A a 210-Q | very high | RI/SERP: extrato, emitente, qualificação, nota devolutiva, responsabilidade, interoperabilidade |
+| Prov. 229 | 16/06/2026 | vigente | ecossistema SERP / Meu Registro / interoperabilidade | art. 228-J e seguintes | very high | arquitetura nacional dos registros eletrônicos e operadores nacionais |
+| Prov. 237 | 13/07/2026 | vigente | CNS/acervo/certidões + reprodução assistida | múltiplos nós RCPN/acervo | high | identificação de acervo, sucessão de serventias, RCPN |
+| Prov. 242 | 21/07/2026 | vigente | base nacional RTDPJ | art. 256-A e seguintes | very high | RTD/PJ, SERP, identificadores nacionais, governança de dados |
+| Prov. 246 | 28/07/2026 | vigente | alienação fiduciária / forma do instrumento | art. 440-AO | very high | RI/alienação fiduciária; adequação explícita a STF + STJ + Lei 9.514 |
+| Prov. 253 | 18/08/2026 | vigente | CENPROT / certidões após sustação | bloco Protesto/CENPROT | very high | Protesto: resposta deve refletir situação jurídica atual do registro |
 
-## Regra de versionamento por proposição
-Toda proposição derivada de CNN/CNJ deve registrar:
-1. artigo atual;
-2. snapshot de consulta;
-3. ato modificador conhecido;
-4. tema/especialidade;
-5. status `stable / volatile / recently_changed`;
-6. data-gatilho para nova validação;
-7. questões históricas que ficaram juridicamente incompatíveis ou parcialmente obsoletas.
+## Provimentos autônomos que NÃO devem desaparecer por estarem fora do corpo textual do CNN
+Dois riscos do modelo “só leia o Provimento 149 compilado”:
+1. ato autônomo relevante pode dialogar com o CNN sem estar totalmente absorvido nele;
+2. concurso pode cobrar a regra nacional vigente pelo ato autônomo.
+
+Exemplos já confirmados:
+- Prov. 219/2026 — vacâncias;
+- Prov. 220/2026 — incapacidade permanente;
+- Prov. 227/2026 — solvência trabalhista;
+- Prov. 228/2026 — extratos eletrônicos RI.
+
+## Relação com CF art. 236 e Lei 8.935
+Freshness não é só `qual é o artigo atual?`. O Compiler precisa manter arestas explícitas:
+- CF art. 236 → delegação privada, fiscalização judicial, emolumentos e concurso;
+- Lei 8.935 → regime orgânico do delegatário;
+- CNN/CNJ → uniformização administrativa/operacional nacional;
+- jurisprudência STF/STJ → limites, responsabilidade, interinidade e interpretação;
+- Res. 696/2026 → o que pode ser cobrado e em qual fase.
+
+## Tags temporais por proposição
+Cada proposição derivada de CNN/CNJ deve registrar:
+- `SOURCE_ID` + artigo atual;
+- `SNAPSHOT_DATE`;
+- `LAST_KNOWN_MODIFIER`;
+- `SPECIALTY`;
+- `VOLATILITY = stable | volatile | recently_changed`;
+- `REVALIDATE_ON`: novo provimento/resolução/lei/tema vinculante ou antes de simulado/prova-alvo;
+- `CONTENT_VALIDITY` de questões históricas;
+- `PHASE_VALIDITY` quando a arquitetura do concurso mudou.
 
 ## Regra de uso de questão antiga
-Classificar em uma destas categorias:
-- `VALID_CURRENT`: conteúdo e gabarito seguem atuais;
-- `FORM_ONLY`: forma/distrator útil, regra material alterada;
-- `PARTIAL`: parte da questão permanece válida;
-- `RETIRED`: não usar pedagogicamente salvo para história normativa.
+- `VALID_CURRENT`: forma e regra material atuais;
+- `FORM_ONLY`: distrator/estrutura útil, direito material alterado;
+- `PARTIAL`: parte da questão ainda serve;
+- `RETIRED`: não usar pedagogicamente salvo história normativa.
 
-## Consequência para o GX
-A contagem de incidência não basta. Toda frequência precisa carregar uma dimensão de validade temporal. Um item muito cobrado no passado pode ter baixo valor pedagógico atual se a norma mudou; um ato de 2026 com pouca frequência histórica pode ter alta prioridade por centralidade e recência.
+Questão `FORM_ONLY/PARTIAL` nunca entra em cálculo de mastery sem reescrita/explicitação da mudança.
+
+## Triagem pedagógica dos deltas
+`RECENTLY_CHANGED` não significa automaticamente `DECORE AGORA`.
+
+O Compiler cruza:
+1. centralidade no currículo atual;
+2. incidência observada;
+3. probabilidade de cobrança por novidade normativa;
+4. custo cognitivo;
+5. especialidade e fase;
+6. dependências.
+
+Exemplo: Prov. 227/2026 é recente e importante para Regime Geral, mas seu detalhamento patrimonial completo pode ficar em P2/REFERENCE enquanto P1 registra a arquitetura, dever declaratório, fiscalização e vínculo com arts. 20/31/36 da Lei 8.935.
+
+## Watchlist imediata 2027
+Antes de qualquer liberação de estudo/simulado:
+- pesquisar novos atos CNJ que alterem Prov. 149/2023;
+- pesquisar atos que alterem/integrem Prov. 219, 220, 227, 228 e 229;
+- revalidar Res. 696/2026 e editais ENAC;
+- revalidar Lei 6.015, Lei 8.935, Lei 9.492, Lei 9.514 e Lei 14.382;
+- revalidar temas vinculantes STF/STJ ligados aos nós estudados.
 
 ## Próxima expansão
-1. mapear artigos do CNN/CNJ alterados por cada provimento de 2026;
-2. ligar cada artigo aos nós do Curriculum Graph;
-3. cruzar com ENAC 2025.1/2025.2/2026.1 e concursos estaduais;
-4. sinalizar questões que exigem re-gabarito ou aposentadoria;
-5. incorporar o status temporal ao Depth Budget.
+1. ligar cada delta a IDs de proposição do Atlas;
+2. marcar questões ENAC/estaduais afetadas;
+3. criar `CHANGE_IMPACT_QUEUE` para patches automáticos em MASTER/REVIEW/Q→A/questões;
+4. incorporar esse status ao primeiro Depth Budget de Regime Geral e ao ledger de RI/CNN.
