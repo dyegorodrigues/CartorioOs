@@ -1,90 +1,75 @@
-# GX Cartório OS — Held-Out Registry v0.6
+# GX Cartório OS — Held-Out Registry v0.7
 ## Regime Geral / Lei 8.935 / CNN
 
 Snapshot: 2026-09-11
 Status: ACTIVE VALIDATION REGISTRY. NÃO usar conteúdo reservado no BUILD.
 
 ## Regra
-Registrar identidade/recorte **antes** de abrir conteúdo. Se fonte/caderno/versão não forem demonstráveis, o pool é inválido. Se conteúdo reservado for visto antes do freeze, marcar contaminado e substituir.
+Registrar identidade/recorte **antes** de abrir conteúdo. Se fonte/caderno/versão não forem demonstráveis, o pool é inválido. Conteúdo visto antes do freeze vira contaminado.
 
-## Incident H1 — locator incorreto
-O antigo `H1 — Vunesp/TJSP 13º Concurso, Prova 04 Q5–Q15` foi invalidado porque o locator era TJAL/Vunesp 2023.
+## H1 — antigo TJSP locator
+INVALID_LOCATOR / RETIRED. O PDF era TJAL/Vunesp 2023.
 
-Status: `INVALID_LOCATOR / RETIRED`.
+## H1R — Vunesp/TJSP2305
+Página oficial confirmada; provas/gabaritos exigem login. Pendente locator verificável.
 
-## H1R — Vunesp/TJSP 13º Concurso
-- código oficial: TJSP2305;
-- página oficial confirmada;
-- provas/gabaritos exigem login;
-- nenhum PDF externo será promovido sem cabeçalho verificável.
-
-Status: `PENDING_VERIFIED_LOCATOR`.
-
-## H2 — Consulplan/TJMG Edital 1/2024
-Concurso suspenso/nulo em parte antes de produzir caderno utilizável para esta validação.
-
-Status: `NO_USABLE_EXAM_YET / PARKED`.
+## H2 — Consulplan/TJMG 2024
+PARKED: sem caderno utilizável nesta fase devido à suspensão/nulidade parcial.
 
 ## H3 — IESES/TJPA 2026
-Questões iniciais já expostas/BUILD.
-
-Status: `PARTIALLY_CONTAMINATED`.
+PARTIALLY_CONTAMINATED por uso prévio de questões iniciais.
 
 ## H4 — Future post-696 state exam
-Reservar automaticamente >=20% do primeiro concurso estadual integralmente publicado sob Res.696/2026.
-
-Status: `FUTURE_RESERVED`.
+FUTURE_RESERVED: >=20% do primeiro concurso estadual integralmente publicado sob Res.696/2026.
 
 ## H5 — Vunesp/TJGO2001
-- página oficial/gabarito oficial confirmados;
-- PROVIMENTO versão 1 Q1–Q10 seladas;
-- caderno público verificável ainda não localizado.
+PROVIMENTO v1 Q1–Q10 seladas; página/gabarito confirmados; caderno verificável ainda pendente.
 
-Status: `SEALED / PENDING_QUESTION_BOOK_LOCATOR`.
+## H6 — Cebraspe/TJRR 2025
+CONSUMED / ALL OUT_OF_SCOPE para Regime Geral.
 
-## H6 — Cebraspe/TJRR 2025 — CONSUMED / OUT OF SCOPE
-Q5–Q10 foram seladas e abertas legitimamente. Todas recaíram em especialidades fora do specimen Regime Geral; Q10 foi anulada.
+## H7 — Cebraspe/TJSC 2023
+CONSUMED / IN-SCOPE FAILURE.
+Q2 art.12 → MATERIAL_GAP.
+Q3 art.36 → MATERIAL_GAP + DEPTH_GAP.
+Q4 art.40 → MATERIAL_GAP.
+Specimen v0.1 falhou S2 e foi patchado.
 
-Resultado: não aprova nem reprova Regime Geral.
+## H8 — Cebraspe/TJPE 2024 — SEALED BEFORE LOCATOR SEARCH
+Criado após freeze do specimen v0.2 e **antes de pesquisar/abrir o caderno objetivo**.
 
-Status: `CONSUMED / ALL OUT_OF_SCOPE`.
+Metadados conhecidos sem leitura do recorte:
+- concurso: Tribunal de Justiça de Pernambuco, 2º Concurso Público para Outorga de Delegações de Notas e de Registro;
+- banca: Cebraspe;
+- edital/certame 2024;
+- a frente BUILD já usou prova oral/prática do TJPE como CHALLENGE, mas **não usou a objetiva deste recorte para escrever o Regime Geral v0.2**.
 
-## H7 — Cebraspe/TJSC 2023 — CONSUMED / FAILED S2
-Recorte foi selado ANTES de localizar o caderno:
-- PROVIMENTO;
-- Q1–Q20;
-- caderno oficial Cebraspe `719_TJSCPROVIMENTO_001_01.PDF`;
-- gabarito definitivo oficial identificado.
+### Recorte selado
+- modalidade-alvo: **PROVIMENTO**;
+- questões: **Q1–Q20**;
+- objetivo: localizar itens de Regime Geral no bloco e confrontar com v0.2;
+- questões de especialidades/constitucional/local serão OUT_OF_SCOPE;
+- Q21+ permanecem fora desta rodada.
 
-### Resultado in-scope
-- **Q2 — circunscrição territorial, art.12** → `MATERIAL_GAP`;
-- **Q3 — art.36, afastamento preventivo/interventor/renda** → `MATERIAL_GAP + DEPTH_GAP`;
-- **Q4 — art.40, previdência/contagem recíproca** → `MATERIAL_GAP`.
+### Protocolo
+1. localizar caderno oficial Cebraspe;
+2. validar cabeçalho/modalidade;
+3. abrir somente Q1–Q20;
+4. localizar gabarito definitivo oficial;
+5. classificar escopo/gaps;
+6. jamais usar as questões consumidas para validar versão patchada posterior.
 
-Demais Q1/Q5–Q20 ficaram fora do escopo Regime Geral ou em especialidades/constitucional/local.
+Status: `SEALED / READY_FOR_LOCATOR_SEARCH`.
 
-Conclusão: `REGIME_GERAL_INTERNAL_FREEZE_V0.1` **FALHOU S2**. As três questões consumidas agora são BUILD evidence para o patch e jamais validarão v0.2.
-
-Relatório: `research/REGIME_GERAL_HELD_OUT_VALIDATION_H7_TJSC_2023_2026-09-11.md`.
-
-Status: `CONSUMED / IN-SCOPE FAILURE / PATCHED`.
-
-## Build após H7
-- Depth Budget atualizado para `DEPTH_BUDGET_REGIME_GERAL_V0.3_2026-09-11.md`;
-- specimen interno atualizado para `REGIME_GERAL_INTERNAL_FREEZE_V0.2_2026-09-11.md`;
-- patches: RG0B territorialidade; art.36 completo; RG8 previdência/contagem recíproca.
-
-## Próximo held-out
-Novo pool precisa ser selado antes da leitura e conter chances reais de Regime Geral. Preferências:
-1. objetiva Cebraspe de outro Estado não usada no BUILD;
-2. Vunesp/TJGO se caderno verificável aparecer;
-3. outra banca/Estado com caderno oficial e gabarito definitivo.
+## Build atual após H7
+- `DEPTH_BUDGET_REGIME_GERAL_V0.3_2026-09-11.md`;
+- `REGIME_GERAL_INTERNAL_FREEZE_V0.2_2026-09-11.md`.
 
 ## Gap taxonomy
 MATERIAL_GAP / STRUCTURE_GAP / DEPTH_GAP / FRESHNESS_GAP / TRANSFER_GAP / OUT_OF_SCOPE / BAD_QUESTION / PROVENANCE_ERROR.
 
 ## Gate S2
-S2 permanece **NÃO ATINGIDO**. Só poderá subir após v0.2 sobreviver a novo held-out limpo e diversificado.
+S2 permanece NÃO ATINGIDO. H8 será o próximo teste limpo se o caderno/gabarito forem validados.
 
 ## Anti-leak
-Não abrir H1R/H4 nem conteúdo de H5 sem locator verificável. Novo pool deve ser registrado antes da abertura.
+Não abrir H1R/H4/H5; em H8 não abrir Q21+ nesta rodada.
