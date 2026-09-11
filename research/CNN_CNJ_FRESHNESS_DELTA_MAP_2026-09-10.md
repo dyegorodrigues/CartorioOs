@@ -6,9 +6,26 @@ Status: infraestrutura HOT do Freshness Firewall; NÃO é material de estudo.
 ## Fonte-base canônica
 - Provimento CNJ 149/2023 — CNN/CN/CNJ-Extra, texto compilado oficial: https://atos.cnj.jus.br/atos/detalhar/5243
 - Resolução CNJ 696/2026 — regime atual dos concursos de outorga: https://atos.cnj.jus.br/atos/detalhar/7011
+- ENAC 2026.2 — Edital 2/2026 FGV/CNJ: https://conhecimento.fgv.br/sites/default/files/concursos/minuta-edital-enac-2026.2-27.08.26-versao-final.pdf
 
 ## Regra-mãe
 O Provimento 149/2023 está formalmente `ALTERADO`, não é um PDF congelado. O GX deve tratar o CNN/CNJ como um corpus versionado. Questão antiga continua útil como evidência de cobrança, mas nenhuma proposição vira MASTER atual sem revalidação contra o texto compilado vigente e atos modificadores supervenientes.
+
+## Regra especial ENAC 2026.2 — janela normativa de 90 dias
+O edital vigente do ENAC 2026.2 estabelece que:
+- preceitos normativos cuja vigência tenha se iniciado **menos de 90 dias antes da prova** não serão objeto do exame;
+- preceitos revogados dentro desse mesmo período poderão ser cobrados.
+
+Prova prevista: **22/11/2026**.
+Cutoff aritmético de 90 dias: **24/08/2026**.
+
+Consequência operacional para o snapshot 2026.2:
+- atos com vigência iniciada em 24/08/2026 ou antes entram no radar material, ressalvada regra específica de vigência;
+- atos com vigência posterior a 24/08/2026 ficam fora do conteúdo material do ENAC 2026.2, embora possam governar o próprio exame ou afetar concursos estaduais posteriores;
+- atos revogados após 24/08/2026 podem continuar cobrados no ENAC 2026.2 conforme a cláusula do edital;
+- o GX deve manter `CURRENT LAW` e `EXAM SNAPSHOT LAW` como campos distintos.
+
+Essa regra impede um erro clássico de atualização: ensinar apenas o direito mais novo quando o edital congelou parte do universo normativo em data anterior.
 
 ## Deltas relevantes de 2026 já confirmados em fonte oficial CNJ
 
@@ -30,6 +47,9 @@ O Provimento 149/2023 está formalmente `ALTERADO`, não é um PDF congelado. O 
 | Prov. 242 | 21/07/2026 | vigente | base nacional RTDPJ | art. 256-A e seguintes | very high | RTD/PJ, SERP, identificadores nacionais, governança de dados |
 | Prov. 246 | 28/07/2026 | vigente | alienação fiduciária / forma do instrumento | art. 440-AO | very high | RI/alienação fiduciária; adequação explícita a STF + STJ + Lei 9.514 |
 | Prov. 253 | 18/08/2026 | vigente | CENPROT / certidões após sustação | bloco Protesto/CENPROT | very high | Protesto: resposta deve refletir situação jurídica atual do registro |
+
+### ENAC 2026.2 eligibility overlay desta tabela
+Todos os atos acima estão datados antes do cutoff de 24/08/2026. A elegibilidade concreta ainda depende da **data de início de vigência** de cada preceito, porque alguns atos têm vacatio específica. O campo `EXAM_2026_2_ELIGIBLE` deve ser calculado pela vigência, não apenas pela publicação.
 
 ## Provimentos autônomos que NÃO devem desaparecer por estarem fora do corpo textual do CNN
 Dois riscos do modelo “só leia o Provimento 149 compilado”:
@@ -54,10 +74,13 @@ Freshness não é só `qual é o artigo atual?`. O Compiler precisa manter arest
 Cada proposição derivada de CNN/CNJ deve registrar:
 - `SOURCE_ID` + artigo atual;
 - `SNAPSHOT_DATE`;
+- `EFFECTIVE_FROM`;
 - `LAST_KNOWN_MODIFIER`;
 - `SPECIALTY`;
 - `VOLATILITY = stable | volatile | recently_changed`;
 - `REVALIDATE_ON`: novo provimento/resolução/lei/tema vinculante ou antes de simulado/prova-alvo;
+- `CURRENT_LAW`;
+- `EXAM_SNAPSHOT_LAW`;
 - `CONTENT_VALIDITY` de questões históricas;
 - `PHASE_VALIDITY` quando a arquitetura do concurso mudou.
 
@@ -87,6 +110,7 @@ Antes de qualquer liberação de estudo/simulado:
 - pesquisar novos atos CNJ que alterem Prov. 149/2023;
 - pesquisar atos que alterem/integrem Prov. 219, 220, 227, 228 e 229;
 - revalidar Res. 696/2026 e editais ENAC;
+- calcular automaticamente o cutoff normativo específico de cada edital;
 - revalidar Lei 6.015, Lei 8.935, Lei 9.492, Lei 9.514 e Lei 14.382;
 - revalidar temas vinculantes STF/STJ ligados aos nós estudados.
 
@@ -94,4 +118,4 @@ Antes de qualquer liberação de estudo/simulado:
 1. ligar cada delta a IDs de proposição do Atlas;
 2. marcar questões ENAC/estaduais afetadas;
 3. criar `CHANGE_IMPACT_QUEUE` para patches automáticos em MASTER/REVIEW/Q→A/questões;
-4. incorporar esse status ao primeiro Depth Budget de Regime Geral e ao ledger de RI/CNN.
+4. incorporar `CURRENT_LAW x EXAM_SNAPSHOT_LAW` ao Depth Budget e simulados.
