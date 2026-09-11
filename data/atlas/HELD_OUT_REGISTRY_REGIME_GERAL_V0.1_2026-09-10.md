@@ -1,11 +1,11 @@
-# GX Cartório OS — Held-Out Registry v0.11
+# GX Cartório OS — Held-Out Registry v0.12
 ## Regime Geral / Lei 8.935 / CNN
 
 Snapshot: 2026-09-11
 Status: ACTIVE VALIDATION REGISTRY. NÃO usar conteúdo reservado no BUILD.
 
 ## Regra
-Registrar identidade/recorte antes de abrir conteúdo. Questão exibida por snippet ou retorno ampliado de ferramenta antes de reserva formal deixa de ser held-out independente.
+Registrar identidade/recorte antes de abrir conteúdo. Questão exibida por snippet ou retorno ampliado de ferramenta antes de reserva formal deixa de ser held-out independente. **S2 exige fonte de questão/gabarito suficientemente verificável; banco secundário sozinho não substitui caderno oficial quando este não foi localizado.**
 
 ## Pools encerrados/pendentes
 - H1 antigo TJSP locator: `INVALID_LOCATOR / RETIRED` (era TJAL/Vunesp 2023).
@@ -17,47 +17,37 @@ Registrar identidade/recorte antes de abrir conteúdo. Questão exibida por snip
 - H6 TJRR/Cebraspe: `CONSUMED / ALL OUT_OF_SCOPE`.
 - H7 TJSC/Cebraspe: `CONSUMED / IN-SCOPE FAILURE`; v0.1 falhou S2 e foi patchado.
 - H8 TJPE/Provimento: `CONSUMED / ALL OUT_OF_SCOPE OR ADJACENT`.
-- H9 TJPE/Remoção: `CONSUMED / 1 IN-SCOPE PASS`; Q1 confirmou independência x fiscalização.
+- H9 TJPE/Remoção: `CONSUMED / 1 IN-SCOPE PASS`.
+- H10 TJMT/Cebraspe: `PARKED / NO USABLE QUESTION BOOK LOCATED`.
 
-## H10 — Cebraspe/TJMT — PARKED AFTER LOCATOR SEARCH
-H10 havia sido selado antes da pesquisa. A busca confirmou o edital TJMT 2024 e um novo ciclo 2025/2026, mas **não localizou caderno objetivo oficial aplicável ao pool**. O ciclo 2025/2026 ainda estava em fase de inscrições/documentos e o certame 2024 não forneceu, na busca realizada, prova objetiva pública verificável para validação.
+## H11 — IESES/TJTO 2022 — PARKED AS SECONDARY DISCOVERY
+H11 foi selado antes da busca web. A pesquisa confirmou oficialmente no TJTO:
+- concurso 2022;
+- banca IESES;
+- 34 vagas de provimento + 17 de remoção.
 
-Nenhuma questão H10 foi aberta.
+Foi localizada página de prova no QConcursos e uma reprodução do caderno em fonte secundária. A busca exibiu trechos de algumas questões, inclusive material N/R, antes que um caderno oficial IESES/TJTO pudesse ser localizado.
 
-Status: `SEALED METADATA / NO USABLE QUESTION BOOK LOCATED / PARKED`.
+### Consequência
+- o concurso permanece útil como **DISCOVERY/CHALLENGE multibanca**;
+- não será usado como prova S2 enquanto não houver caderno/gabarito oficial ou reprodução com proveniência forte verificável;
+- recorte Q1–Q20 deixa de ser held-out limpo por exposição parcial nos resultados de busca.
 
-## H11 — IESES/TJTO 2022 — SEALED BEFORE WEB SEARCH
-Criado após constatar que o repositório atual não contém referências a questões TJTO no BUILD de Regime Geral.
-
-Metadados conhecidos antes de qualquer busca de caderno nesta rodada:
-- Tribunal de Justiça do Tocantins;
-- concurso para outorga de delegações notariais e registrais, ciclo 2022;
-- banca: **IESES**;
-- concurso concluído e já inventariado na frente histórica com 51 serventias;
-- nenhuma questão TJTO foi usada no specimen Regime Geral v0.2.
-
-### Recorte selado
-- modalidade-alvo: **PROVIMENTO**;
-- questões: **Q1–Q20**;
-- objetivo: diversificar a validação para banca diferente de Cebraspe/FGV e identificar itens de Regime Geral;
-- questões de especialidades/local serão OUT_OF_SCOPE;
-- se o mecanismo de busca exibir parte das questões, recortar o restante antes da abertura formal.
-
-Status: `SEALED / READY_FOR LOCATOR SEARCH`.
+Status: `PARTIALLY CONTAMINATED / SECONDARY-ONLY / NOT S2`.
 
 ## Build atual
 - `DEPTH_BUDGET_REGIME_GERAL_V0.3_2026-09-11.md`;
 - `REGIME_GERAL_INTERNAL_FREEZE_V0.2_2026-09-11.md`.
 
 ## Evidência limpa atual para v0.2
-- H9-Q1 = PASS IN_SCOPE.
+- H9-Q1 = `PASS IN_SCOPE`.
 - Ainda insuficiente para S2.
 
 ## Gap taxonomy
 MATERIAL_GAP / STRUCTURE_GAP / DEPTH_GAP / FRESHNESS_GAP / TRANSFER_GAP / OUT_OF_SCOPE / BAD_QUESTION / PROVENANCE_ERROR / DUPLICATE_NOT_INDEPENDENT.
 
 ## Gate S2
-S2 permanece NÃO ATINGIDO. H11 será a próxima tentativa multibanca se caderno/gabarito oficiais forem localizados.
+S2 permanece **NÃO ATINGIDO**. Não baixar o padrão só porque locators antigos são difíceis. Preferir esperar/localizar corpus oficial adicional a fingir validação independente.
 
 ## Anti-leak
-Não abrir H1R/H4/H5. Em H11 não abrir Q21+ nesta rodada.
+Não abrir H1R/H4/H5. Próximo pool deve ser registrado antes da pesquisa do caderno.
