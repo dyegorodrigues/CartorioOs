@@ -1,4 +1,4 @@
-# GX Cartório OS — Held-Out Registry v0.3
+# GX Cartório OS — Held-Out Registry v0.4
 ## Regime Geral / Lei 8.935 / CNN
 
 Snapshot: 2026-09-11
@@ -25,15 +25,13 @@ Status: `PENDING_VERIFIED_LOCATOR`.
 
 ## H2 — Consulplan/TJMG Edital 1/2024
 - página oficial Consulplan confirmada;
-- o concurso sofreu suspensão/nulidade parcial antes de produzir um caderno objetivo utilizável como held-out atual;
-- por isso, H2 não é mais prioridade imediata de validação.
+- concurso sofreu suspensão/nulidade parcial antes de produzir caderno objetivo utilizável nesta fase.
 
 Status: `NO_USABLE_EXAM_YET / PARKED`.
 
 ## H3 — IESES/TJPA 2026
 - prova 6015 Tipo 1 + gabarito oficiais;
-- Q2/Q10 já usados no BUILD e outras questões iniciais já expostas;
-- não usar como held-out sem recorte comprovadamente não visto.
+- Q2/Q10 já usados no BUILD e outras questões iniciais já expostas.
 
 Status: `PARTIALLY_CONTAMINATED`.
 
@@ -42,29 +40,43 @@ Reservar automaticamente ao menos 20% do primeiro concurso estadual integralment
 
 Status: `FUTURE_RESERVED`.
 
-## H5 — Vunesp/TJGO2001 — SEALED BEFORE READING
-Pool substituto multibanca criado **antes de abrir o caderno de questões**.
-
-Metadados já confirmados sem leitura do caderno:
-- banca: Fundação Vunesp;
-- concurso: Tribunal de Justiça de Goiás, Concurso Público para Outorga de Delegações de Notas e de Registro;
-- código oficial da página: `TJGO2001`;
+## H5 — Vunesp/TJGO2001
+- banca: Vunesp;
 - página oficial: `https://www.vunesp.com.br/TJGO2001`;
 - 292 vagas;
-- prova objetiva teve versões e gabarito oficial público; o edital de gabarito identifica expressamente o concurso.
+- gabarito oficial público localizado;
+- modalidade/versão reservada: PROVIMENTO, versão 1, Q1–Q10;
+- caderno público oficial/verificável ainda não localizado sem ambiguidade.
 
-### Recorte selado
-- modalidade: **PROVIMENTO**;
-- versão-alvo: **VERSÃO 1**;
-- questões reservadas: **Q1–Q10**;
-- objetivo: identificar quais itens pertencem legitimamente a Regime Geral e testar o specimen congelado; itens de especialidades ou legislação local serão `OUT_OF_SCOPE`, não falha artificial do módulo.
+Status: `SEALED / PENDING_QUESTION_BOOK_LOCATOR`.
 
-### Protocolo de abertura
-1. localizar caderno público oficial/verificável;
-2. validar cabeçalho/modalidade/versão;
-3. abrir somente Q1–Q10;
-4. usar gabarito oficial correspondente;
-5. não consultar Q11+ nesta rodada.
+## H6 — Cebraspe/TJRR 2025 — CLEAN RECUT SEALED
+Uma busca de locator exibiu automaticamente conteúdo de Q1–Q4 do caderno de provimento, tornando Q1–Q4 contaminadas para validação independente. **Antes de abrir qualquer conteúdo posterior**, foi criado este recorte.
+
+Metadados confirmados:
+- concurso: TJRR Notários, Edital 2025;
+- banca: Cebraspe;
+- fonte oficial CDN Cebraspe;
+- caderno objetivo de PROVIMENTO identificado por cabeçalho oficial;
+- locator do caderno: `https://cdn.cebraspe.org.br/concursos/tj_rr_25/arquivos/4803314D33BB8A8908C1320C7E9B9F21B1788DB04B66E34226DCEB250B89DB40.pdf`;
+- outro caderno oficial também foi localizado, mas não será misturado;
+- prova possui 100 questões, 0,10 por acerto, conforme edital.
+
+### Contaminação conhecida
+- Q1–Q4: `CONTAMINATED_BY_SEARCH_SNIPPET`.
+
+### Recorte limpo selado
+- Q5–Q10: **SEALED BEFORE READING**;
+- finalidade: validação externa do specimen Regime Geral congelado;
+- se alguma dessas questões tratar de especialidade fora do módulo, classificar `OUT_OF_SCOPE` sem forçar falha.
+
+### Protocolo
+1. abrir somente trecho Q5–Q10;
+2. localizar gabarito definitivo oficial correspondente;
+3. mapear proposição necessária;
+4. confrontar com `REGIME_GERAL_INTERNAL_FREEZE_V0.1`;
+5. registrar gap;
+6. não consultar Q11+ nessa rodada.
 
 Status: `SEALED / READY_FOR_VALIDATION`.
 
@@ -80,9 +92,10 @@ Status: `SEALED / READY_FOR_VALIDATION`.
 Qualquer dado anteriormente atribuído a Vunesp/TJSP a partir do locator errado deve ser reclassificado como Vunesp/TJAL 2023 quando confirmado, e regra local de Alagoas não pode elevar prioridade nacional.
 
 ## VALIDATION HELD-OUT
-- H5 agora é o pool limpo utilizável;
-- H1R permanece pendente;
-- H4 permanece futuro.
+- H6 = pronto e limpo Q5–Q10;
+- H5 = selado, aguardando locator do caderno;
+- H1R = pendente;
+- H4 = futuro.
 
 ## Gap taxonomy
 1. MATERIAL_GAP
@@ -102,4 +115,4 @@ Qualquer dado anteriormente atribuído a Vunesp/TJSP a partir do locator errado 
 - questão consumida nunca é reutilizada como prova independente após patch.
 
 ## Anti-leak
-Não abrir H1R/H4 nem Q11+ de H5 nesta rodada.
+Não abrir H1R/H4, Q11+ de H6 ou conteúdo de H5 além do necessário para validar o locator antes de sua abertura formal.
