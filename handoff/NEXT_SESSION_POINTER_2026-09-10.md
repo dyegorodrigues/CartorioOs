@@ -10,93 +10,86 @@ Retomar sem reabrir arquitetura e sem iniciar estudo prematuramente.
 1. `STATUS.md`
 2. `material/EDITORIAL_STANDARD.md`
 3. `research/CARTORIO_EXAM_ATLAS_PROTOCOL_2026.md`
-4. `research/CARTORIO_PREP_ECOSYSTEM_DEEP_AUDIT_2026_09_10.md`
-5. `research/CNN_CNJ_FRESHNESS_DELTA_MAP_2026-09-10.md`
-6. `research/CARTORIO_EXAM_ATLAS_WAVE6_REGIME_GERAL_HEATMAP_2026-09-10.md`
-7. `data/atlas/PROPOSITION_LEDGER_REGIME_GERAL_SEED_2026-09-10.md`
-8. `data/atlas/PROPOSITION_LEDGER_CNN_REGIME_GERAL_SEED_2026-09-10.md`
-9. `data/atlas/PROPOSITION_LEDGER_LRP_SEED_2026-09-10.md`
-10. `data/atlas/DEPTH_BUDGET_REGIME_GERAL_V0.1_2026-09-10.md`
+4. `research/CNN_CNJ_FRESHNESS_DELTA_MAP_2026-09-10.md`
+5. `research/CARTORIO_EXAM_ATLAS_WAVE6_REGIME_GERAL_HEATMAP_2026-09-10.md`
+6. `data/atlas/PROPOSITION_LEDGER_REGIME_GERAL_SEED_2026-09-10.md`
+7. `data/atlas/PROPOSITION_LEDGER_CNN_REGIME_GERAL_SEED_2026-09-10.md`
+8. `data/atlas/PROPOSITION_LEDGER_LRP_SEED_2026-09-10.md`
+9. `data/atlas/DEPTH_BUDGET_REGIME_GERAL_V0.1_2026-09-10.md`
+10. `data/atlas/HELD_OUT_REGISTRY_REGIME_GERAL_V0.1_2026-09-10.md`
 11. `data/freshness/CHANGE_IMPACT_QUEUE_2026-09-10.md`
-12. waves 1–5 / oral / learning-engine only quando contexto adicional for necessário.
+12. market audit / waves 1–5 / oral / learning evidence somente se necessário.
 
 ## Constraint autoral
-**NÃO INICIAR ESTUDO AINDA.**
-Usuário autorizou execução autônoma de pesquisa, planejamento, testes e organização. Não pedir microdecisões. Produzir evidência/artefato e relatar progresso.
+**NÃO INICIAR ESTUDO AINDA.** Usuário autorizou execução autônoma. Não pedir microdecisões.
 
-## Horizonte
-- ENAC 2026.2 fora do alvo;
-- primeira edição ENAC 2027 = primeiro alvo;
-- fim de 2027 = prontidão competitiva ampla;
-- 2028 = buffer/teto.
+## Invariantes
+Work Order A congelado. Preservar eficiência extrema, objetiva permanente, M0–M7, output progressivo e pertinente à fase, voz como recall, lei seca guiada, Q→A, revisão cumulativa, throughput adaptativo, One-Home Rule, Sufficiency Gate e Freshness Firewall.
 
-## Work Order A
-CONCLUÍDO/CONGELADO. Preservar M0–M7, objetiva permanente, output progressivo, lei seca guiada, Q→A, revisão cumulativa, throughput, Freshness Firewall, Sufficiency Gate e One-Home Rule.
+## Estado regulatório
+Res. CNJ 696/2026 vigente. Toda prova histórica: `REGIME_TAG + CONTENT_VALIDITY + PHASE_VALIDITY`.
 
-## Regime atual
-Res. CNJ 696/2026 vigente. Toda prova histórica: `REGIME_TAG`, `CONTENT_VALIDITY`, `PHASE_VALIDITY`.
-
-## Regra de snapshot jurídico recém-validada
-ENAC 2026.2:
+ENAC 2026.2 trouxe regra útil ao sistema:
 - prova prevista 22/11/2026;
-- preceitos cuja vigência se inicia menos de 90 dias antes não são cobrados;
-- preceitos revogados dentro do período podem ser cobrados;
-- cutoff aritmético = 24/08/2026, calculado pela VIGÊNCIA real.
-
-Campos obrigatórios daqui em diante:
-`CURRENT_LAW` e `EXAM_SNAPSHOT_LAW`.
+- preceitos com vigência iniciada menos de 90 dias antes não entram;
+- revogados nesse período podem entrar;
+- cutoff = 24/08/2026;
+- manter `CURRENT_LAW x EXAM_SNAPSHOT_LAW`.
 
 ## Freshness
-`research/CNN_CNJ_FRESHNESS_DELTA_MAP_2026-09-10.md` mapeia deltas 2026 do CNN/CNJ.
-`data/freshness/CHANGE_IMPACT_QUEUE_2026-09-10.md` transforma mudança em fila rastreável de patches.
+`CNN_CNJ_FRESHNESS_DELTA_MAP` mapeia principais alterações 2026.
+`CHANGE_IMPACT_QUEUE` já possui EFFECTIVE_FROM inicial de 218/219/220/227/228/229/246/253 e separa vigência normativa de prazo operacional.
 
-## Specimens
-- Penal v0.2 = congelado como protótipo visual.
-- B = adiado.
-- Nenhum learner-facing novo antes de held-out + red-team do Depth Budget.
+## Atlas
+Wave6 incorporou IESES/PA e Vunesp/SP à triangulação do Regime Geral.
 
-## Atlas alcançado
-### Wave6
-`research/CARTORIO_EXAM_ATLAS_WAVE6_REGIME_GERAL_HEATMAP_2026-09-10.md`.
-Corpus agora inclui ENAC/FGV/Cebraspe + IESES/TJPA 2026 + Vunesp/TJSP recente. Consulplan/TJMG permanece alvo de expansão/held-out.
+Regime Geral multibanca já sustenta como núcleos fortes:
+- ingresso;
+- prepostos/gestão;
+- responsabilidade;
+- incompatibilidade/impedimento;
+- direitos/deveres;
+- disciplina/perda;
+- vacância/interinidade.
 
-### Regime Geral ledger
-`data/atlas/PROPOSITION_LEDGER_REGIME_GERAL_SEED_2026-09-10.md`.
-Fortes sinais multibanca em arts.14–15, 20–22, 27, 29–30, 31–36 e Temas STF associados.
+## Ledgers
+- Lei 8.935 Regime Geral: expandido com IESES/Vunesp.
+- CNN Regime Geral: Justiça Aberta, vacâncias, incapacidade, solvência.
+- LRP seed: prenotação, qualificação, usucapião, indisponibilidade, retificação, RTD, SERP/extratos/Constrijud, alienação fiduciária.
 
-### CNN Regime Geral ledger
-`data/atlas/PROPOSITION_LEDGER_CNN_REGIME_GERAL_SEED_2026-09-10.md`.
-Justiça Aberta, vacância, incapacidade, solvência trabalhista e pontes disciplinares já mapeadas.
+## Depth Budget
+`DEPTH_BUDGET_REGIME_GERAL_V0.1_2026-09-10.md`
+Confiança B+. NÃO é estudo.
 
-### LRP ledger
-`data/atlas/PROPOSITION_LEDGER_LRP_SEED_2026-09-10.md`.
-Primeiras famílias: prenotação, qualificação, usucapião, indisponibilidade, retificação, RTD, eletrônicos/SERP, extratos, Constrijud, alienação fiduciária.
+P1 compacta sem empobrecer; P2 guarda profundidade jurisprudencial/CNN/casos; P3+ robustez/output. Literalidade barata e recorrente sobe para MUST-KNOW; estruturas integradas ficam MUST-UNDERSTAND.
 
-## Primeiro Depth Budget formal
-`data/atlas/DEPTH_BUDGET_REGIME_GERAL_V0.1_2026-09-10.md`.
+## HELD-OUT — NÃO VAZAR
+`HELD_OUT_REGISTRY_REGIME_GERAL_V0.1_2026-09-10.md`
 
-Estrutura:
-RG0 natureza → RG1 ingresso → RG2 gestão/prepostos → RG3 responsabilidade → RG4 incompat/impedimentos → RG5 independência/direitos/deveres → RG6 disciplina/perda/extinção → RG7 vacância/interinidade/CNN.
+H1 Vunesp/TJSP Prova 04:
+- Q1–Q4 = BUILD/contaminadas;
+- **Q5–Q15 = SEALED. NÃO ABRIR antes do freeze do material.**
 
-Estado: confiança B+, somente pesquisa. Não liberar estudo.
+H2 Consulplan/TJMG:
+- caderno ainda precisa locator;
+- ao localizar, registrar hash/URL+números de questões ANTES de abrir conteúdo.
+
+H4 futuro pós-696:
+- reservar >=20% estratificado do primeiro concurso estadual integralmente sob o novo regime.
+
+Se qualquer held-out for lido: `CONTAMINATED` e substituir.
 
 ## Próximo passo exato — AUTÔNOMO
-1. criar registro formal de HELD-OUT sem contaminar enunciados;
-2. reservar banca/prova contemporânea ainda não usada no build principal, preferencialmente Consulplan + subset Vunesp;
-3. completar heatmap art.30 por inciso;
-4. ampliar LRP C0/C1;
-5. preencher EFFECTIVE_FROM dos principais deltas CNN e impacto em questões;
-6. red-team Depth Budget v0.1 contra corpus não usado;
-7. corrigir gaps;
-8. só então produzir primeiro specimen N/R.
+1. terminar art.30 heatmap sem abrir H1;
+2. localizar/selar H2 Consulplan antes de leitura;
+3. aprofundar LRP C0/C1;
+4. completar datas de vigência/implementação dos deltas restantes;
+5. freeze do BUILD CORPUS de Regime Geral;
+6. red-team do Depth Budget com CHALLENGE corpus;
+7. construir/freeze primeiro material N/R;
+8. só então abrir held-out e executar Sufficiency Gate;
+9. corrigir e retestar com held-out não contaminado;
+10. mostrar ao usuário somente quando houver produto realmente auditável.
 
 ## Proibido
-- iniciar aula;
-- pedir usuário para escolher próximos passos;
-- fabricar novo specimen no escuro;
-- revelar/usar conteúdo held-out na construção;
-- transformar volume em KPI;
-- cursinho/material legado como cânone;
-- OAB/outras carreiras como frequência de Cartório;
-- prova histórica sem revalidação;
-- declarar suficiência sem teste externo.
+Iniciar aula; fabricar Specimen B; abrir H1 cedo; usar material de cursinho como cânone; importar frequência OAB/Delegado; tratar lei atual como igual ao snapshot editalício; declarar suficiência sem teste; exigir microgestão do usuário.
