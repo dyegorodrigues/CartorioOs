@@ -45,17 +45,14 @@ Preservado:
 
 Não reabrir arquitetura por estética. Reabrir somente por falha observável.
 
-## Correção HOT de 10/09 — fase atual NÃO é estudo
+## Fase atual — NÃO É ESTUDO
 O candidato explicitou que **não deseja iniciar estudo ainda**. Antes quer ver e auditar como o GX transforma edital + fontes + provas em material learner-facing.
 
 Portanto:
 - não entregar Missão 01;
 - não atribuir mastery;
 - não pedir ao candidato que certifique correção jurídica de conteúdo que ele não lembra;
-- construir specimens de inspeção antes de ativar o runtime.
-
-Pesquisa-base criada:
-`research/GX_APPROVAL_SYSTEM_META_AUDIT_2026_09_10.md`
+- construir/evidenciar a máquina antes de ativar o runtime.
 
 ## Evidence-to-Mastery Compiler
 Fluxo invisível ao candidato:
@@ -87,40 +84,63 @@ Não levar um nó a M7 antes de avançar o edital inteiro.
 Nós podem amadurecer de forma assíncrona.
 
 ## Materiais antigos do candidato
-Sete PDFs Estratégia/Dedicação Delta foram ingeridos como **benchmark não canônico**.
+Estratégia/Dedicação Delta foram ingeridos como **benchmark não canônico**.
+
+Novos uploads de 10/09 incluem trilha regular de Delegado, trilha Constitucional, DD Legis Código Civil, LINDB e Código Penal comentado.
 
 Usar para:
 - detectar nomenclaturas/formatos/lacunas potenciais;
 - comparar organização e carga;
+- estudar UX visual e mapas de incidência;
 - gerar hipóteses a verificar no corpus.
 
 Não usar como fonte automática de verdade, prioridade ou profundidade.
 
 Achado central: profundidade disponível ≠ profundidade obrigatória na primeira passagem.
 
-## Work Order B — EM EXECUÇÃO / CALIBRAÇÃO PAREADA
-O antigo piloto único de `Constitucional → Poder Constituinte` não é suficiente como auditoria humana porque o candidato já não confia no próprio filtro substantivo desse tema.
-
-Nova calibração:
-
+## Work Order B — EM EXECUÇÃO / CALIBRAÇÃO
 ### Specimen A — Penal → Aplicação da Lei Penal
-Função:
-- tema inicial/familiar o bastante para auditoria de legibilidade e ordem;
-- demonstra poda agressiva de conteúdo de Delegado que não pertence ao nó;
-- baseline nacional atual é objective-only, logo não recebe discursiva/oral artificial.
+A v0.2 no Notion melhorou visualmente e em estrutura, mas fica **CONGELADA COMO PROTÓTIPO**, não como padrão final, enquanto o Atlas de Cobrança é construído.
 
-Protótipo learner-facing já criado no Notion:
-`🧪 SPECIMEN A — PEN 1 · Aplicação da Lei Penal — NÃO ESTUDAR`
-
-Status: EM PRODUÇÃO; não canônico; não gera estudo/mastery.
+Função já cumprida:
+- detectar falhas do v0.1;
+- validar necessidade de mapa único, depth budget, lei seca destacada, aliases/pegadinhas e prova real;
+- demonstrar que Penal não deve receber OUTPUT formal artificial no baseline atual.
 
 ### Specimen B — Constitucional → Poder Constituinte
-Função:
-- demonstrar transformação do mesmo conhecimento entre objetiva e OUTPUT futuro;
-- corpus e fonte devem provar profundidade;
-- candidato avalia forma/clareza/carga, não certifica juridicamente o material.
+ADIADO até o Atlas oferecer base de profundidade mais robusta. Não fabricar outro specimen no escuro.
 
-Ainda não ativar estudo.
+## Deep Audit do ecossistema atual — 10/09/2026
+Documentos canônicos de pesquisa:
+- `research/CARTORIO_PREP_ECOSYSTEM_DEEP_AUDIT_2026_09_10.md`
+- `research/CARTORIO_EXAM_ATLAS_PROTOCOL_2026.md`
+
+Fornecedores/recursos públicos auditados nesta rodada:
+- VFK Educação;
+- Estratégia Cartórios;
+- Curso Registrando / CP Iuris;
+- Themas Cartórios;
+- Decorando a Lei Seca;
+- PreparaEnac;
+- YK Editora;
+- Juspodivm.
+
+Síntese: o mercado oferece peças fortes separadamente — reservatório profundo, ENAC intensivo, lei seca visual, question engine, planejamento, atualização e treino de fases — mas nenhuma fonte pública auditada demonstra sozinha o pipeline que o GX busca.
+
+### Funções a absorver
+- VFK: mapeamento, lei esquematizada, V/F rápido, estudo conjunto ENAC/estadual, atualização;
+- Estratégia: múltiplas representações e cobertura de fases;
+- Registrando: planejamento por rotina real, integração, flashcards/questões/IA;
+- Themas: mudança de modo por horizonte;
+- Decorando: artigo destacado + questão ligada ao artigo;
+- PreparaEnac: fundamento por alternativa, QA adversarial, trilha por desempenho;
+- YK/Juspodivm: corpus histórico e treino por edital/fase.
+
+### Nova distinção de avaliação
+- `ENCODING CHECK`: pode vir logo após aquisição; mede compreensão imediata e não gera prova de retenção.
+- `ASSESSMENT`: atrasada/misturada; pode alimentar mastery.
+- `HELD-OUT`: não usada no build; testa suficiência do material.
+- `CHALLENGE`: outra formulação/banca/cross-node; testa robustez.
 
 ## Corpus histórico ENAC
 Passagem 1 preservada:
@@ -131,19 +151,22 @@ Passagem 1 preservada:
 
 `300/300` = indexação/classificação, não reconstrução integral.
 
-As questões penais oficiais localizadas nessas três edições não recaíram diretamente em PEN 1: 2025.1 lavagem de dinheiro; 2025.2 falsidade ideológica; 2026.1 dosimetria/concurso de majorantes. Isso é registrado como ausência de incidência histórica ENAC no microtema, não como permissão para ignorar um item expresso do edital.
-
-## Próximo passo HOT
-1. QA/red-team do Specimen A com corpus específico de aplicação da lei penal em concursos de outorga multibanca + fonte primária.
-2. Construir Specimen B de Poder Constituinte com depth budget cross-phase.
-3. Comparar A × B para provar poda por fase, consistência editorial e suficiência falsificável.
-4. Mostrar os specimens ao candidato para auditoria do PRODUTO.
-5. Só depois, se o formato passar, transferir para N/R e ativar estudo real.
+## Próximo passo HOT — CARTÓRIO EXAM ATLAS
+Antes de produzir novo material learner-facing:
+1. inventariar concursos de Cartório por janela temporal, TJ, banca, modalidade e fase;
+2. localizar prova/gabarito oficiais e registrar proveniência;
+3. completar C0 ENAC por proposição/distrator;
+4. construir C1/C2 estadual atual + histórico, com FGV, Cebraspe, Vunesp, IESES, Consulplan e demais bancas reais;
+5. separar objetiva, discursiva, peça e oral;
+6. calcular incidência por proposição, não só por capítulo;
+7. derivar STUDY/MEMORY/QUESTION/OUTPUT PRIORITY e Depth Budget;
+8. só então recalibrar Specimen A e construir próximo specimen.
 
 ### Proibido no próximo passo
 - iniciar aula/missão de estudo sem solicitação do candidato;
 - voltar a brainstorm abstrato sem produzir artefato;
-- usar material antigo como cânone;
+- usar material antigo/cursinho como cânone;
 - declarar suficiência sem held-out;
-- forçar discursiva/oral em disciplina objective-only;
-- tratar bloco de 20–35 min como carga diária total.
+- importar incidência de Delegado/OAB para Cartório;
+- fabricar novo specimen antes de consolidar evidência do Atlas;
+- confundir volume de páginas, horas ou questões com eficiência.
