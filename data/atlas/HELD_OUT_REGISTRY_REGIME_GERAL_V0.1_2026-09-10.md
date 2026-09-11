@@ -1,11 +1,11 @@
-# GX Cartório OS — Held-Out Registry v0.8
+# GX Cartório OS — Held-Out Registry v0.9
 ## Regime Geral / Lei 8.935 / CNN
 
 Snapshot: 2026-09-11
 Status: ACTIVE VALIDATION REGISTRY. NÃO usar conteúdo reservado no BUILD.
 
 ## Regra
-Registrar identidade/recorte antes de abrir conteúdo. Qualquer questão exibida por snippet de busca antes da abertura formal deixa de ser held-out independente.
+Registrar identidade/recorte antes de abrir conteúdo. Questão exibida por snippet de busca antes da abertura formal deixa de ser held-out independente.
 
 ## Pools anteriores
 - H1 antigo TJSP locator: `INVALID_LOCATOR / RETIRED` (era TJAL/Vunesp 2023).
@@ -15,46 +15,64 @@ Registrar identidade/recorte antes de abrir conteúdo. Qualquer questão exibida
 - H4 primeiro pós-696 integral: `FUTURE_RESERVED`.
 - H5 TJGO/Vunesp: `SEALED / PENDING_QUESTION_BOOK_LOCATOR`.
 - H6 TJRR/Cebraspe: `CONSUMED / ALL OUT_OF_SCOPE`.
-- H7 TJSC/Cebraspe: `CONSUMED / IN-SCOPE FAILURE`; specimen v0.1 falhou S2 e foi patchado para v0.2.
+- H7 TJSC/Cebraspe: `CONSUMED / IN-SCOPE FAILURE`; v0.1 falhou S2 e foi patchado.
 
-## H8 — Cebraspe/TJPE 2024 — RECUT AFTER LOCATOR SEARCH
-H8 original foi selado como PROVIMENTO Q1–Q20 antes de qualquer busca do caderno.
-
-A busca de locator localizou caderno oficial Cebraspe:
+## H8 — Cebraspe/TJPE 2024 PROVIMENTO — CONSUMED FOR SCOPE
+Caderno oficial:
 `https://cdn.cebraspe.org.br/concursos/tj_pe_24_notarios/arquivos/005_TJPE_001_01.PDF`
 
-Porém o mecanismo de busca exibiu automaticamente texto de Q1, Q2, Q4, Q5 e Q6 antes da abertura formal. Para evitar autoengano:
-- Q1–Q6 passam a `CONTAMINATED_BY_LOCATOR_SNIPPET`;
-- nenhuma delas poderá validar v0.2, mesmo que Q1 seja claramente Regime Geral;
-- antes de abrir o restante, o pool limpo é recortado novamente.
+Q1–Q6 foram contaminadas por snippet do locator. H8R Q7–Q20 foram seladas antes da abertura e consumidas legitimamente.
 
-### Recorte limpo H8R
-- concurso: TJPE 2º Concurso, Cebraspe, 2024;
-- caderno oficial já validado pelo cabeçalho;
-- modalidade: PROVIMENTO;
-- questões limpas seladas agora: **Q7–Q20**;
-- Q21+ continuam fora desta rodada;
-- objetivo: identificar itens Regime Geral e confrontar com `REGIME_GERAL_INTERNAL_FREEZE_V0.2`.
+### Resultado H8R Q7–Q20
+- Q7 LGPD/proteção de dados → CROSS-SYSTEM/overlay, fora do specimen Regime Geral básico;
+- Q8 imóvel rural/CAR/alienação fiduciária → especialidade/Civil-RI;
+- Q9 CNIB → RI/system node;
+- Q10 princípios registrais → RI;
+- Q11–Q15 RCPN → especialidade;
+- Q16 RCPJ → especialidade;
+- Q17 RTD/territorialidade → especialidade;
+- Q18 adjudicação compulsória → RI/Civil;
+- Q19 condomínio/incorporação → RI/Civil;
+- Q20 Lei 10.169/emolumentos → nó próprio `EMOLUMENTOS`, adjacente ao Regime Geral, mas não pertencente ao scope freeze RG0–RG8.
 
-### Protocolo H8R
-1. abrir apenas Q7–Q20;
-2. localizar gabarito definitivo oficial;
-3. classificar cada questão em IN_SCOPE / OUT_OF_SCOPE;
-4. para IN_SCOPE, mapear proposition ID e cobertura do specimen v0.2;
-5. registrar gap sem editar retroativamente o freeze;
-6. se houver patch, reteste posterior usa outro pool limpo.
+Conclusão: H8R não traz item in-scope do specimen Regime Geral v0.2. Não conta como aprovação nem reprovação.
 
-Status H8: `Q1–Q6 CONTAMINATED; H8R Q7–Q20 SEALED / READY`.
+Status: `CONSUMED / ALL OUT_OF_SCOPE OR ADJACENT`.
+
+## H9 — Cebraspe/TJPE 2024 REMOÇÃO — SEALED BEFORE QUESTION SEARCH
+Criado após o freeze v0.2 e antes de localizar/abrir o caderno de REMOÇÃO.
+
+Metadados confirmados:
+- mesmo concurso TJPE/Cebraspe 2024;
+- modalidade: **REMOÇÃO**;
+- gabarito preliminar/definitivo foi localizado em busca anterior e revelou apenas letras, não os enunciados reservados;
+- conhecer letras do gabarito não contaminou o conteúdo do freeze, mas fica registrado como `ANSWER_KEY_PRESEEN` para transparência.
+
+### Recorte selado
+- questões: **Q1–Q6** da prova de REMOÇÃO;
+- finalidade: obter itens de Regime Geral que não sejam simples duplicatas textuais do caderno de provimento;
+- se a questão for idêntica/materialmente equivalente a uma já vista, classificar `DUPLICATE_NOT_INDEPENDENT`;
+- Q7+ não abrir nesta rodada.
+
+### Protocolo
+1. localizar caderno oficial de remoção;
+2. validar cabeçalho/modalidade;
+3. abrir somente Q1–Q6;
+4. comparar identidade/estrutura com provimento;
+5. mapear in-scope/out-of-scope;
+6. somente questões materialmente independentes podem contribuir para S2.
+
+Status: `SEALED / READY_FOR LOCATOR SEARCH`.
 
 ## Build atual
 - `DEPTH_BUDGET_REGIME_GERAL_V0.3_2026-09-11.md`;
 - `REGIME_GERAL_INTERNAL_FREEZE_V0.2_2026-09-11.md`.
 
 ## Gap taxonomy
-MATERIAL_GAP / STRUCTURE_GAP / DEPTH_GAP / FRESHNESS_GAP / TRANSFER_GAP / OUT_OF_SCOPE / BAD_QUESTION / PROVENANCE_ERROR.
+MATERIAL_GAP / STRUCTURE_GAP / DEPTH_GAP / FRESHNESS_GAP / TRANSFER_GAP / OUT_OF_SCOPE / BAD_QUESTION / PROVENANCE_ERROR / DUPLICATE_NOT_INDEPENDENT.
 
 ## Gate S2
-S2 permanece NÃO ATINGIDO. Apenas questões IN_SCOPE limpas de H8R podem contribuir para o reteste.
+S2 permanece NÃO ATINGIDO.
 
 ## Anti-leak
-Não abrir H1R/H4/H5; em TJPE não abrir Q21+ nesta rodada.
+Não abrir H1R/H4/H5; em H9 não abrir Q7+.
