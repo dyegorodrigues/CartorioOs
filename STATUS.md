@@ -1,141 +1,176 @@
 # GX Cartório OS — Estado Atual
 
-Atualizado em 11/09/2026.
+Atualizado em 11/09/2026 09:21 BRT.
 
 ## Branch / handoff HOT
 - branch: `chatgpt/gx-cartorio-v0.1`
-- ler primeiro: `handoff/NEXT_SESSION_POINTER_2026-09-10.md`
+- handoff: `handoff/NEXT_SESSION_POINTER_2026-09-10.md`
 
 ## Mandato autônomo HOT
 Workflow obrigatório:
 `workflows/AUTONOMOUS_EXECUTION_PROTOCOL_2026-09-11.md`
 
-O usuário autorizou execução autônoma/autossuficiente/adaptativa. Não pedir microdecisões nem ficar encerrando cada subpasso com “posso continuar?”. Em cada turno de execução, consumir o maior batch seguro e útil possível:
+O usuário autorizou execução autônoma/autossuficiente/adaptativa. Em cada turno de projeto executar batch substancial:
 `EXECUTE → VERIFY → PERSIST → ADAPT → CONTINUE`.
 
-Parar apenas para decisão autoral real, risco, gasto, ação irreversível, conflito de escopo ou falta material de acesso.
+Não responder apenas “ok/continuo” quando houver trabalho seguro a executar. Parar somente por decisão autoral real, risco/gasto/irreversibilidade, conflito de escopo ou bloqueio material de acesso.
 
-Isso NÃO significa trabalho em background entre mensagens.
+Isso NÃO significa background entre mensagens.
 
-## Missão canônica
-Levar candidato com conhecimento jurídico enferrujado/próximo de zero até **prontidão verificável para ENAC + concurso estadual + discursiva + peça prática + oral**, horizonte 2027–2028, com eficiência extrema e administração manual mínima.
+## Missão
+Levar candidato com base jurídica enferrujada/próxima de zero até prontidão verificável para ENAC + estadual + discursiva + peça + oral, horizonte 2027–2028, com eficiência extrema.
 
-## Constraint autoral HOT
-**NÃO INICIAR ESTUDO AINDA.** Não entregar Missão 01, não atribuir mastery e não exigir auditoria jurídica do usuário.
+## Constraint autoral
+**NÃO INICIAR ESTUDO AINDA.** Primeiro provar máquina/material. Não atribuir mastery ao usuário.
 
-## Work Order A — CONCLUÍDO / CONGELADO
-`material/EDITORIAL_STANDARD.md`.
-Preservar M0–M7, retention separado, objetiva permanente, output progressivo por pertinência de fase, voz como recall, lei seca guiada, Q→A/flashcards seletivos, revisão cumulativa, throughput adaptativo, One-Home Rule, Sufficiency Gate e Freshness Firewall.
-
-## Baseline regulatório
+## Baseline
 Res. CNJ 696/2026 vigente. Toda prova histórica recebe `REGIME_TAG`, `CONTENT_VALIDITY`, `PHASE_VALIDITY`.
 
-## Freshness Firewall
-`research/CNN_CNJ_FRESHNESS_DELTA_MAP_2026-09-10.md`
-`data/freshness/CHANGE_IMPACT_QUEUE_2026-09-10.md`
+Freshness:
+- `CURRENT_LAW` x `EXAM_SNAPSHOT_LAW` x `IMPLEMENT_BY`;
+- arquivos: `research/CNN_CNJ_FRESHNESS_DELTA_MAP_2026-09-10.md` e `data/freshness/CHANGE_IMPACT_QUEUE_2026-09-10.md`.
 
-Deltas CNN/CNJ relevantes de 2026 já mapeados. O sistema distingue:
-`CURRENT_LAW` x `EXAM_SNAPSHOT_LAW` x `IMPLEMENT_BY`.
+## Compiler
+`OFFICIAL SCOPE → SOURCES → EXAM CORPUS → PROPOSITIONS → INCIDENCE/CONSEQUENCE → DEPTH BUDGET → CANONICAL TREE → BUILD → CHALLENGE → FREEZE → HELD-OUT → PATCH → RETEST → FRESHNESS`.
 
-ENAC 2026.2: prova prevista 22/11/2026; regra editalícia de 90 dias para início de vigência de preceitos; cutoff aritmético 24/08/2026. Sempre usar vigência real, não apenas publicação.
-
-EFFECTIVE_FROM já confirmado para Prov. 218, 219, 220, 227, 228, 229, 246 e 253 em primeira passagem. Prov. 227 possui vacatio de 60 dias; Prov. 229/253 exemplificam diferença entre vigência normativa e implantação operacional.
-
-## Compiler invisível
-`OFFICIAL SCOPE → SOURCES → EXAM CORPUS → PROPOSITIONS → INCIDENCE/CONSEQUENCE → DEPTH BUDGET → CANONICAL TREE → BUILD/VALIDATION/CHALLENGE → FRESHNESS → PATCH`.
-
-Learner-facing futuro:
+Interfaces futuras:
 `MAP → MASTER P1 → LEI SECA GUIADA → REVIEW → Q→A → OBJECTIVE LAB → OUTPUT LAB`.
 
 ## Suficiência
 S0 untested → S1 build → S2 held-out → S3 challenge/multibanca → S4 learner-demonstrated → S5 maintenance-stable.
-Nunca prometer `resolve qualquer questão futura`.
 
-## Specimens
-- Penal/PEN1 v0.2 = congelado como protótipo visual; NÃO estudar.
-- Specimen B = adiado.
-- Próximo learner-facing somente após red-team do primeiro N/R.
+Nunca declarar suficiência por impressão.
 
-## Cartório Exam Atlas
-Protocolo: `research/CARTORIO_EXAM_ATLAS_PROTOCOL_2026.md`.
+---
 
-### Waves 1–6
-Preservadas. Regime Geral já triangula ENAC/FGV/Cebraspe + IESES/TJPA + Vunesp/TJSP recente.
+# Regime Geral — estado real
 
-Sinais fortes: arts.14–15, 20–22, 27, 29–30, 31–36 e jurisprudência STF associada.
+## Challenge pré-freeze
+`research/REGIME_GERAL_CHALLENGE_RED_TEAM_2026-09-11.md`
 
-### Wave7 — LRP / output / bank form
-`research/CARTORIO_EXAM_ATLAS_WAVE7_LRP_OUTPUT_AND_BANK_FORM_2026-09-11.md`.
+Corpus oral oficial TJPE/TJDFT achou:
+- temporalidade pré/pós Lei 13.286/2016;
+- civil x penal x disciplinar;
+- proporcionalidade disciplinar;
+- centralidade da natureza/delegação.
 
-Nova evidência oficial Cebraspe/TJRO demonstra que especialidades não podem ser modeladas só como artigos:
-- peça prática exigiu ATA NOTARIAL DE JUSTIFICAÇÃO DE POSSE para usucapião extrajudicial;
-- resposta oficial integra CPC art.1.071 + LRP art.216-A + Prov.149/CNJ + forma/qualificação/narrativa probatória;
-- reforçada separação `KNOWLEDGE_ATOMS ≠ BANK/EDITAL_PACKAGING`;
-- output passa a distinguir KNOW / DISCRIMINATE / EXECUTE / QA.
+Patch produzido:
+`data/atlas/DEPTH_BUDGET_REGIME_GERAL_V0.2_2026-09-11.md`.
 
-Taxonomia nova para nós N/R:
-- RULE NODE;
-- PROCEDURE NODE;
-- ACT NODE;
-- SYSTEM NODE;
-- JURISPRUDENCE NODE.
+## Primeiro freeze
+`material/specimens/REGIME_GERAL_INTERNAL_FREEZE_V0.1_2026-09-11.md`
 
-O primeiro material N/R deve provar que representa mais que literalidade: regra curta + jurisprudência + mini-procedimento + output atom/skeleton.
+## HELD-OUT H7 — TJSC/Cebraspe 2023
+Relatório:
+`research/REGIME_GERAL_HELD_OUT_VALIDATION_H7_TJSC_2023_2026-09-11.md`
 
-## Ledgers atuais
-- `data/atlas/PROPOSITION_LEDGER_REGIME_GERAL_SEED_2026-09-10.md`
-- `data/atlas/PROPOSITION_LEDGER_CNN_REGIME_GERAL_SEED_2026-09-10.md`
-- `data/atlas/PROPOSITION_LEDGER_LRP_SEED_2026-09-10.md`
+Recorte foi selado antes da abertura e encontrou três falhas in-scope reais:
+- Q2: art.12/circunscrição → MATERIAL_GAP;
+- Q3: art.36/afastamento/interventor/renda → MATERIAL_GAP + DEPTH_GAP;
+- Q4: art.40/previdência/contagem recíproca → MATERIAL_GAP.
 
-LRP seed já cobre prenotação, qualificação, usucapião, indisponibilidade, retificação, RTD, eletrônicos/SERP, extratos, Constrijud e alienação fiduciária.
+**Specimen v0.1 falhou S2.**
 
-## Primeiro Depth Budget formal
-`data/atlas/DEPTH_BUDGET_REGIME_GERAL_V0.1_2026-09-10.md`.
+## Patch pós-held-out
+- `data/atlas/DEPTH_BUDGET_REGIME_GERAL_V0.3_2026-09-11.md`
+- `material/specimens/REGIME_GERAL_INTERNAL_FREEZE_V0.2_2026-09-11.md`
 
-Estrutura:
-`RG0 natureza/CF236 → RG1 ingresso → RG2 gestão/prepostos → RG3 responsabilidade → RG4 incompat/impedimentos → RG5 independência/direitos/deveres → RG6 disciplina/perda/extinção → RG7 vacância/interinidade + CNN`.
+Novos núcleos P1:
+- RG0B atribuições/territorialidade básica;
+- art.36 completo: afastamento preventivo, interventor, fluxo de renda;
+- RG8 previdência/contagem recíproca.
 
-Separados P1/P2/P3+, MUST-KNOW literal, MUST-UNDERSTAND, output e poda. Confiança B+; ainda NÃO liberar estudo.
+## Reteste v0.2
+`research/REGIME_GERAL_RETEST_V02_H8_H9_2026-09-11.md`
 
-## HELD-OUT — FORMALMENTE SELADO
-`data/atlas/HELD_OUT_REGISTRY_REGIME_GERAL_V0.1_2026-09-10.md`.
+- TJPE Provimento H8: recorte limpo Q7–Q20 não tinha item Regime Geral; especialidades/adjacentes → não conta.
+- TJPE Remoção H9: Q1 independência x fiscalização = **PASS IN_SCOPE**, materialmente independente e coberta pelo v0.2.
+- demais Q2–Q6 = especialidade/local/cross-system.
 
-- Vunesp/TJSP Prova 04: Q1–Q4 já usadas; **Q5–Q15 seladas** e não podem ser abertas antes do freeze do material.
-- Consulplan/TJMG: reservar primeiro bloco Regime Geral do caderno oficial assim que locator for encontrado, registrando metadado ANTES da leitura.
-- primeiro concurso estadual integralmente pós-Res.696: reservar pelo menos 20% estratificado.
+**S2 ainda NÃO atingido**: só 1 pass in-scope independente pós-patch.
 
-Se conteúdo selado for visto, marcar `CONTAMINATED` e substituir.
+## Incident de proveniência
+Registry:
+`data/atlas/HELD_OUT_REGISTRY_REGIME_GERAL_V0.1_2026-09-10.md` agora v0.12.
 
-## Contest History Atlas
-Frente paralela autorizada pelo usuário: Estado por Estado, banca, vagas, provimento/remoção, convocados por fase, cortes empíricos, escolhas/outorgas e remanescentes.
+Foi detectado antes de qualquer selo falso que um locator anteriormente chamado “TJSP/Vunesp” era na verdade TJAL/Vunesp 2023.
+- pool antigo invalidado;
+- nova classe de gap `PROVENANCE_ERROR`;
+- nenhuma validação foi declarada com esse locator.
 
-Planilha gerada na conversa já chegou à v0.5 e confirmou que:
-- vagas ≠ convocados ≠ aprovados ≠ escolhas ≠ outorgas;
-- corte precisa ser armazenado por fase/modalidade/lista;
-- rodadas de escolha precisam de `CHOICE_ROUND` separado.
+Outros pools:
+- TJRR H6: all OUT_OF_SCOPE;
+- TJSC H7: falhou e gerou patch;
+- TJPE H9: 1 pass;
+- TJGO/Vunesp: selado, falta caderno verificável;
+- TJMT: parked, sem caderno utilizável localizado;
+- TJTO/IESES: fonte secundária encontrada, mas sem caderno oficial; não usar para S2;
+- futuro primeiro concurso integral pós-696: reservado >=20%.
 
-Persistir esta frente no repositório e continuar auditando fontes oficiais.
+Regra atual: **não baixar o padrão de fonte para fabricar S2.**
 
-## Regra de questões
-- Encoding Check = imediato, não mastery.
-- Assessment = atrasado/misturado.
-- Held-out = fora do build, testa material.
-- Challenge = outra banca/formulação/cross-node.
+---
 
-Falhas held-out: MATERIAL_GAP / STRUCTURE_GAP / DEPTH_GAP / FRESHNESS_GAP / TRANSFER_GAP / OUT_OF_SCOPE / BAD_QUESTION.
+# LRP / Registro de Imóveis — avanço
 
-## Próximo HOT autônomo
-Executar por batches, sem solicitar microaprovação:
-1. aprofundar LRP em `prenotação/qualificação → dúvida → indisponibilidade → usucapião → retificação`;
-2. ligar procedure/act nodes a objetiva + peça/discursiva oficiais;
-3. terminar heatmap art.30 por inciso sem abrir H1;
-4. localizar caderno Consulplan/TJMG e selar H2 antes de leitura;
-5. completar Freshness CNN/Prov.149;
-6. red-team do Depth Budget Regime Geral com CHALLENGE;
-7. construir BUILD CORPUS freeze;
-8. gerar primeiro material N/R;
-9. abrir held-out e tentar quebrá-lo;
-10. continuar Contest History Atlas em paralelo, priorizando concursos concluídos com documentação oficial de corte/escolha/outorga.
+## Wave8
+`research/CARTORIO_EXAM_ATLAS_WAVE8_LRP_PROCEDURAL_CORE_2026-09-11.md`
+
+Tronco operacional:
+`APRESENTAÇÃO → PRENOTAÇÃO/PRIORIDADE → QUALIFICAÇÃO → EXIGÊNCIA/NOTA DEVOLUTIVA → DÚVIDA → REGISTRO/SAÍDA`.
+
+Procedimentos plugados:
+`INDISPONIBILIDADE → USUCAPIÃO EXTRAJUDICIAL → RETIFICAÇÃO`.
+
+Separados eixos:
+- KNOWLEDGE;
+- EXECUTION.
+
+## Depth Budget RI
+`data/atlas/DEPTH_BUDGET_LRP_RI_V0.1_2026-09-11.md`.
+
+Nós tipados como RULE / PROCEDURE / ACT / SYSTEM / JURISPRUDENCE.
+
+---
+
+# Contest History Atlas
+Frente paralela continua ativa.
+
+Planilha de conversa mais recente:
+`GX_Cartorio_Concursos_Historico_v0.5.xlsx`.
+
+Já diferencia:
+- vagas de edital;
+- convocados por fase;
+- corte normativo;
+- corte empírico;
+- aprovados finais;
+- CHOICE_ROUND;
+- escolhas/outorgas/investiduras/remanescentes.
+
+Confirmados em fonte oficial exemplos SC/SE/PR/GO/AC/AM/PE. Continuar sem inferir números ausentes.
+
+---
+
+# Regras de avaliação
+- ENCODING CHECK = imediato, não mastery;
+- ASSESSMENT = atrasado/misturado;
+- HELD-OUT = fora do build;
+- CHALLENGE = outra banca/formulação/cross-node.
+
+Gap taxonomy:
+`MATERIAL_GAP / STRUCTURE_GAP / DEPTH_GAP / FRESHNESS_GAP / TRANSFER_GAP / OUT_OF_SCOPE / BAD_QUESTION / PROVENANCE_ERROR / DUPLICATE_NOT_INDEPENDENT`.
+
+---
+
+# Próximo HOT autônomo
+Sem pedir microaprovação:
+1. continuar busca por held-out oficial independente para Regime Geral v0.2; não declarar S2 até diversidade real;
+2. em paralelo, não travar projeto no locator: avançar LRP procedural ledger + mini-rubrics + held-out RI separado;
+3. criar nó próprio de EMOLUMENTOS, pois TJPE mostrou que não deve ser absorvido artificialmente pelo Regime Geral;
+4. continuar Freshness CNN 2026;
+5. continuar Contest History Atlas em lotes por fontes oficiais;
+6. somente promover material learner-facing depois de validação suficiente.
 
 ## Anti-drift
-Não iniciar aula; não usar cursinho/material legado como cânone; não importar frequência de OAB/Delegado; não usar prova antiga sem revalidação; não transformar páginas/horas em KPI; não vazar held-out; não exigir microgestão do usuário; não relatar cada clique como se fosse marco.
+Não iniciar aula; não usar cursinho como cânone; não importar frequência de OAB/Delegado; não usar prova antiga sem revalidar; não transformar volume em KPI; não vazar held-out; não exigir microgestão; não fingir validação; não responder apenas “ok” quando houver trabalho executável.
