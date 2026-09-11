@@ -11,14 +11,14 @@ Retomar sem reabrir arquitetura e sem iniciar estudo prematuramente.
 2. `material/EDITORIAL_STANDARD.md`
 3. `research/CARTORIO_EXAM_ATLAS_PROTOCOL_2026.md`
 4. `research/CARTORIO_PREP_ECOSYSTEM_DEEP_AUDIT_2026_09_10.md`
-5. `research/CARTORIO_EXAM_ATLAS_WAVE1_CURRENT_CENSUS_2026-09-10.md`
-6. `research/CARTORIO_EXAM_ATLAS_WAVE2_TJMS_FGV_2026_CROSS_PHASE.md`
-7. `research/CARTORIO_EXAM_ATLAS_WAVE3_TJBA_CEBRASPE_2026_TRANSITION.md`
-8. `research/CARTORIO_EXAM_ATLAS_WAVE4_ENAC_LEI8935_FIRST_PASS.md`
-9. `research/CARTORIO_EXAM_ATLAS_WAVE5_OUTPUT_TRIANGULATION_FGV_CEBRASPE_2026.md`
-10. `research/CARTORIO_ORAL_CORPUS_SEED_RES696_2026.md`
-11. `data/atlas/PROPOSITION_LEDGER_REGIME_GERAL_SEED_2026-09-10.md`
-12. `research/LEARNING_ENGINE_LEGAL_REASONING_EVIDENCE_2026-09-10.md`
+5. `research/CNN_CNJ_FRESHNESS_DELTA_MAP_2026-09-10.md`
+6. `research/CARTORIO_EXAM_ATLAS_WAVE6_REGIME_GERAL_HEATMAP_2026-09-10.md`
+7. `data/atlas/PROPOSITION_LEDGER_REGIME_GERAL_SEED_2026-09-10.md`
+8. `data/atlas/PROPOSITION_LEDGER_CNN_REGIME_GERAL_SEED_2026-09-10.md`
+9. `data/atlas/PROPOSITION_LEDGER_LRP_SEED_2026-09-10.md`
+10. `data/atlas/DEPTH_BUDGET_REGIME_GERAL_V0.1_2026-09-10.md`
+11. `data/freshness/CHANGE_IMPACT_QUEUE_2026-09-10.md`
+12. waves 1–5 / oral / learning-engine only quando contexto adicional for necessário.
 
 ## Constraint autoral
 **NÃO INICIAR ESTUDO AINDA.**
@@ -33,90 +33,70 @@ Usuário autorizou execução autônoma de pesquisa, planejamento, testes e orga
 ## Work Order A
 CONCLUÍDO/CONGELADO. Preservar M0–M7, objetiva permanente, output progressivo, lei seca guiada, Q→A, revisão cumulativa, throughput, Freshness Firewall, Sufficiency Gate e One-Home Rule.
 
-## Regime atual — Res. CNJ 696/2026
-Fonte oficial: https://atos.cnj.jus.br/atos/detalhar/7011
+## Regime atual
+Res. CNJ 696/2026 vigente. Toda prova histórica: `REGIME_TAG`, `CONTENT_VALIDITY`, `PHASE_VALIDITY`.
 
-Pontos operacionais:
-- objetiva estadual pode ser substituída pelo ENAC;
-- discursiva 70%, oral 25%, títulos 5%;
-- Penal/PP/Trabalho/PTrab = apenas ENAC/objetiva;
-- prova oral passa a usar perguntas previamente formuladas, entregues por escrito, com reperguntas predefinidas; 90% conteúdo jurídico + 10% articulação técnica.
+## Regra de snapshot jurídico recém-validada
+ENAC 2026.2:
+- prova prevista 22/11/2026;
+- preceitos cuja vigência se inicia menos de 90 dias antes não são cobrados;
+- preceitos revogados dentro do período podem ser cobrados;
+- cutoff aritmético = 24/08/2026, calculado pela VIGÊNCIA real.
 
-Toda prova histórica: `REGIME_TAG`, `CONTENT_VALIDITY`, `PHASE_VALIDITY`.
+Campos obrigatórios daqui em diante:
+`CURRENT_LAW` e `EXAM_SNAPSHOT_LAW`.
 
-## Estado dos specimens
-- Specimen A Penal v0.2: congelado como protótipo visual/estrutural; NÃO estudar.
-- Specimen B: adiado até Depth Budget robusto.
+## Freshness
+`research/CNN_CNJ_FRESHNESS_DELTA_MAP_2026-09-10.md` mapeia deltas 2026 do CNN/CNJ.
+`data/freshness/CHANGE_IMPACT_QUEUE_2026-09-10.md` transforma mudança em fila rastreável de patches.
 
-## Atlas — estado alcançado
-### Wave 1
-Censo contemporâneo: FGV, Cebraspe, Consulplan, IESES, Vunesp em concursos recentes. Não declarar ranking histórico ainda.
+## Specimens
+- Penal v0.2 = congelado como protótipo visual.
+- B = adiado.
+- Nenhum learner-facing novo antes de held-out + red-team do Depth Budget.
 
-### Wave 2 — GOLD_CORPUS_001 TJMS/FGV
-Objetiva + escrita/prática + espelho. Validou OUTPUT ATOMS e Integrated Case Graph.
+## Atlas alcançado
+### Wave6
+`research/CARTORIO_EXAM_ATLAS_WAVE6_REGIME_GERAL_HEATMAP_2026-09-10.md`.
+Corpus agora inclui ENAC/FGV/Cebraspe + IESES/TJPA 2026 + Vunesp/TJSP recente. Consulplan/TJMG permanece alvo de expansão/held-out.
 
-### Wave 3 — TJBA/Cebraspe
-Validou `REGIME_TAG`; conteúdo Penal em escrita pré-696 não deve elevar OUTPUT penal atual.
+### Regime Geral ledger
+`data/atlas/PROPOSITION_LEDGER_REGIME_GERAL_SEED_2026-09-10.md`.
+Fortes sinais multibanca em arts.14–15, 20–22, 27, 29–30, 31–36 e Temas STF associados.
 
-### Wave 4 — ENAC Lei 8.935
-Recorrências C0 diretas já comprovadas:
-- art. 22: ENAC 2025.2 + 2026.1;
-- art. 27: ENAC 2025.2 + 2026.1 (+ TJMS estadual);
-- arts. 29–30: ENAC 2025.1 + 2026.1;
-- disciplina 31–35: forte no 2025.2.
+### CNN Regime Geral ledger
+`data/atlas/PROPOSITION_LEDGER_CNN_REGIME_GERAL_SEED_2026-09-10.md`.
+Justiça Aberta, vacância, incapacidade, solvência trabalhista e pontes disciplinares já mapeadas.
 
-Emerging FGV grammar: boundaries, role-swap, conjunctive options, borrowed requirements, fatal connective/word. Ainda não promover a DNA final.
+### LRP ledger
+`data/atlas/PROPOSITION_LEDGER_LRP_SEED_2026-09-10.md`.
+Primeiras famílias: prenotação, qualificação, usucapião, indisponibilidade, retificação, RTD, eletrônicos/SERP, extratos, Constrijud, alienação fiduciária.
 
-### Wave 5 — output triangulation
-FGV MS/RN/ES x Cebraspe BA/RO.
+## Primeiro Depth Budget formal
+`data/atlas/DEPTH_BUDGET_REGIME_GERAL_V0.1_2026-09-10.md`.
 
-Regra derivada:
-`KNOWLEDGE_ATOMS` separado de `BANK/EDITAL_PACKAGING`.
+Estrutura:
+RG0 natureza → RG1 ingresso → RG2 gestão/prepostos → RG3 responsabilidade → RG4 incompat/impedimentos → RG5 independência/direitos/deveres → RG6 disciplina/perda/extinção → RG7 vacância/interinidade/CNN.
 
-FGV:
-- formato varia por edital;
-- casos integrados fortes;
-- espelhos MS/ES atomizam resposta;
-- RN: teoria constitucional abstrata aparece dentro de conflito registral e Discursiva 2 cruza Tema 777 + perda de delegação + >6 meses de preposto.
-
-Cebraspe:
-- BA/RO mostram subitens e pontuação explícita;
-- RO practical exige qualificação registral/nota devolutiva de imóvel rural, não simples escritura/ata.
-
-## Oral seed
-Novo regime 696 permite modelar oral como:
-`pergunta escrita → atoms → resposta → repergunta guiada → rubric`.
-
-FGV ES/RN atuais possuem regras/convocações públicas, mas não inventar banco de perguntas onde não houver publicação oficial.
-Cebraspe histórico possui malotes com pergunta+padrão; útil com tag histórica. Exemplo histórico de PP deve ser apenas FORM EXAMPLE porque PP é objective-only hoje.
-
-## Regime Geral Ledger — estado
-Arquivo: `data/atlas/PROPOSITION_LEDGER_REGIME_GERAL_SEED_2026-09-10.md`
-
-Prioridades já sustentadas por evidência:
-- art. 22: C0 recorrente;
-- art. 27: C0 recorrente + estadual;
-- Tema 777: escrita FGV MS/RN/ES + Cebraspe BA;
-- art. 35: objetiva ENAC + escrita RN;
-- ADI 1183/>6 meses: escrita RN direta;
-- direitos/deveres 29–30: recorrência C0.
+Estado: confiança B+, somente pesquisa. Não liberar estudo.
 
 ## Próximo passo exato — AUTÔNOMO
-1. expandir Regime Geral C0 com CF 236 + CNN/CNJ;
-2. heatmap C1/C2 arts. 20–36 Lei 8.935;
-3. abrir ledgers CNN/CNJ e LRP;
-4. current-law audit do Código Nacional de Normas/Provimento 149 e alterações até 10/09/2026;
-5. ampliar oral corpus público com regime tag;
-6. triangular objective grammar FGV/Cebraspe;
-7. produzir primeiro Depth Budget formal do Regime Geral;
-8. somente depois gerar material learner-facing e held-out.
+1. criar registro formal de HELD-OUT sem contaminar enunciados;
+2. reservar banca/prova contemporânea ainda não usada no build principal, preferencialmente Consulplan + subset Vunesp;
+3. completar heatmap art.30 por inciso;
+4. ampliar LRP C0/C1;
+5. preencher EFFECTIVE_FROM dos principais deltas CNN e impacto em questões;
+6. red-team Depth Budget v0.1 contra corpus não usado;
+7. corrigir gaps;
+8. só então produzir primeiro specimen N/R.
 
 ## Proibido
 - iniciar aula;
 - pedir usuário para escolher próximos passos;
-- fabricar outro specimen no escuro;
-- usar páginas/horas/questões como KPI;
-- cursinho ou material legado como cânone;
+- fabricar novo specimen no escuro;
+- revelar/usar conteúdo held-out na construção;
+- transformar volume em KPI;
+- cursinho/material legado como cânone;
 - OAB/outras carreiras como frequência de Cartório;
 - prova histórica sem revalidação;
-- declarar suficiência sem held-out.
+- declarar suficiência sem teste externo.
