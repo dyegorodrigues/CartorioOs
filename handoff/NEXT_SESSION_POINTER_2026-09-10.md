@@ -1,95 +1,95 @@
-# GX Cartório OS — Next Session Pointer — 2026-09-10
+# GX Cartório OS — Next Session Pointer — 2026-09-11
 
 ## Purpose
-Retomar sem reabrir arquitetura e sem iniciar estudo prematuramente.
+Retomar sem reabrir arquitetura, sem fingir validação e sem iniciar estudo prematuro.
 
 ## Branch HOT
 `chatgpt/gx-cartorio-v0.1`
 
-## Ordem HOT de leitura
+## Mandato operacional
+Ler primeiro:
 1. `STATUS.md`
-2. `material/EDITORIAL_STANDARD.md`
-3. `research/CARTORIO_EXAM_ATLAS_PROTOCOL_2026.md`
-4. `research/CNN_CNJ_FRESHNESS_DELTA_MAP_2026-09-10.md`
-5. `research/CARTORIO_EXAM_ATLAS_WAVE6_REGIME_GERAL_HEATMAP_2026-09-10.md`
-6. `data/atlas/PROPOSITION_LEDGER_REGIME_GERAL_SEED_2026-09-10.md`
-7. `data/atlas/PROPOSITION_LEDGER_CNN_REGIME_GERAL_SEED_2026-09-10.md`
-8. `data/atlas/PROPOSITION_LEDGER_LRP_SEED_2026-09-10.md`
-9. `data/atlas/DEPTH_BUDGET_REGIME_GERAL_V0.1_2026-09-10.md`
-10. `data/atlas/HELD_OUT_REGISTRY_REGIME_GERAL_V0.1_2026-09-10.md`
-11. `data/freshness/CHANGE_IMPACT_QUEUE_2026-09-10.md`
-12. market audit / waves 1–5 / oral / learning evidence somente se necessário.
+2. `workflows/AUTONOMOUS_EXECUTION_PROTOCOL_2026-09-11.md`
+3. `material/EDITORIAL_STANDARD.md`
+4. `research/CARTORIO_EXAM_ATLAS_PROTOCOL_2026.md`
+5. `data/atlas/HELD_OUT_REGISTRY_REGIME_GERAL_V0.1_2026-09-10.md` (conteúdo interno v0.12)
+6. `research/REGIME_GERAL_HELD_OUT_VALIDATION_H7_TJSC_2023_2026-09-11.md`
+7. `research/REGIME_GERAL_RETEST_V02_H8_H9_2026-09-11.md`
+8. `data/atlas/DEPTH_BUDGET_REGIME_GERAL_V0.3_2026-09-11.md`
+9. `material/specimens/REGIME_GERAL_INTERNAL_FREEZE_V0.2_2026-09-11.md`
+10. `research/CARTORIO_EXAM_ATLAS_WAVE8_LRP_PROCEDURAL_CORE_2026-09-11.md`
+11. `data/atlas/DEPTH_BUDGET_LRP_RI_V0.1_2026-09-11.md`
+12. Freshness/ledgers conforme necessidade.
 
 ## Constraint autoral
-**NÃO INICIAR ESTUDO AINDA.** Usuário autorizou execução autônoma. Não pedir microdecisões.
+**NÃO INICIAR ESTUDO AINDA.** Usuário quer sistema/material provados antes. Não atribuir mastery.
 
-## Invariantes
-Work Order A congelado. Preservar eficiência extrema, objetiva permanente, M0–M7, output progressivo e pertinente à fase, voz como recall, lei seca guiada, Q→A, revisão cumulativa, throughput adaptativo, One-Home Rule, Sufficiency Gate e Freshness Firewall.
+## Regra de execução
+Em todo turno de projeto com trabalho seguro disponível:
+`EXECUTE → VERIFY → PERSIST → ADAPT → CONTINUE`.
 
-## Estado regulatório
-Res. CNJ 696/2026 vigente. Toda prova histórica: `REGIME_TAG + CONTENT_VALIDITY + PHASE_VALIDITY`.
+Não responder somente “ok”. Não pedir microaprovação.
 
-ENAC 2026.2 trouxe regra útil ao sistema:
-- prova prevista 22/11/2026;
-- preceitos com vigência iniciada menos de 90 dias antes não entram;
-- revogados nesse período podem entrar;
-- cutoff = 24/08/2026;
-- manter `CURRENT_LAW x EXAM_SNAPSHOT_LAW`.
+## Regime Geral — estado verdadeiro
+### v0.1
+Foi congelado e testado com held-out limpo TJSC/Cebraspe 2023.
 
-## Freshness
-`CNN_CNJ_FRESHNESS_DELTA_MAP` mapeia principais alterações 2026.
-`CHANGE_IMPACT_QUEUE` já possui EFFECTIVE_FROM inicial de 218/219/220/227/228/229/246/253 e separa vigência normativa de prazo operacional.
+Falhou S2:
+- Q2 art.12/circunscrição = MATERIAL_GAP;
+- Q3 art.36/interventor/renda = MATERIAL_GAP + DEPTH_GAP;
+- Q4 art.40/previdência/contagem recíproca = MATERIAL_GAP.
 
-## Atlas
-Wave6 incorporou IESES/PA e Vunesp/SP à triangulação do Regime Geral.
+### v0.2
+Patch aplicado:
+- RG0B territorialidade básica;
+- art.36 cautelar/intervenção/50-50;
+- RG8 previdência/contagem recíproca;
+- preservados patches pré-held-out de responsabilidade temporal e proporcionalidade disciplinar.
 
-Regime Geral multibanca já sustenta como núcleos fortes:
-- ingresso;
-- prepostos/gestão;
-- responsabilidade;
-- incompatibilidade/impedimento;
-- direitos/deveres;
-- disciplina/perda;
-- vacância/interinidade.
+Reteste:
+- TJPE provimento H8 limpo não trouxe item in-scope;
+- TJPE remoção H9 Q1, independência x fiscalização = PASS IN_SCOPE;
+- apenas um pass independente não basta.
 
-## Ledgers
-- Lei 8.935 Regime Geral: expandido com IESES/Vunesp.
-- CNN Regime Geral: Justiça Aberta, vacâncias, incapacidade, solvência.
-- LRP seed: prenotação, qualificação, usucapião, indisponibilidade, retificação, RTD, SERP/extratos/Constrijud, alienação fiduciária.
+**S2 AINDA NÃO ATINGIDO.**
 
-## Depth Budget
-`DEPTH_BUDGET_REGIME_GERAL_V0.1_2026-09-10.md`
-Confiança B+. NÃO é estudo.
+## Registry held-out
+Arquivo permanece com nome v0.1 histórico, conteúdo interno atualizado.
 
-P1 compacta sem empobrecer; P2 guarda profundidade jurisprudencial/CNN/casos; P3+ robustez/output. Literalidade barata e recorrente sobe para MUST-KNOW; estruturas integradas ficam MUST-UNDERSTAND.
+Incidentes/regras:
+- antigo locator TJSP era TJAL → INVALID/PROVENANCE_ERROR;
+- não baixar padrão da fonte para fabricar suficiência;
+- TJGO Vunesp segue selado aguardando caderno verificável;
+- TJMT sem caderno utilizável localizado → parked;
+- TJTO/IESES apenas fonte secundária localizada → discovery/challenge, não S2;
+- primeiro pós-696 integral continua reservado.
 
-## HELD-OUT — NÃO VAZAR
-`HELD_OUT_REGISTRY_REGIME_GERAL_V0.1_2026-09-10.md`
+## LRP
+Wave8 criou tronco operacional:
+`APRESENTAÇÃO → PRENOTAÇÃO/PRIORIDADE → QUALIFICAÇÃO → EXIGÊNCIA → DÚVIDA → REGISTRO/SAÍDA`.
 
-H1 Vunesp/TJSP Prova 04:
-- Q1–Q4 = BUILD/contaminadas;
-- **Q5–Q15 = SEALED. NÃO ABRIR antes do freeze do material.**
+Procedimentos:
+`INDISPONIBILIDADE / USUCAPIÃO EXTRAJUDICIAL / RETIFICAÇÃO`.
 
-H2 Consulplan/TJMG:
-- caderno ainda precisa locator;
-- ao localizar, registrar hash/URL+números de questões ANTES de abrir conteúdo.
+Depth Budget RI v0.1 existe e separa RULE/PROCEDURE/ACT/SYSTEM/JURISPRUDENCE + KNOWLEDGE/EXECUTION.
 
-H4 futuro pós-696:
-- reservar >=20% estratificado do primeiro concurso estadual integralmente sob o novo regime.
+## Contest History
+Frente paralela ativa. Spreadsheet da conversa chegou a v0.5. Continuar dados oficiais de cortes/choice rounds/outorgas, sem inferências.
 
-Se qualquer held-out for lido: `CONTAMINATED` e substituir.
-
-## Próximo passo exato — AUTÔNOMO
-1. terminar art.30 heatmap sem abrir H1;
-2. localizar/selar H2 Consulplan antes de leitura;
-3. aprofundar LRP C0/C1;
-4. completar datas de vigência/implementação dos deltas restantes;
-5. freeze do BUILD CORPUS de Regime Geral;
-6. red-team do Depth Budget com CHALLENGE corpus;
-7. construir/freeze primeiro material N/R;
-8. só então abrir held-out e executar Sufficiency Gate;
-9. corrigir e retestar com held-out não contaminado;
-10. mostrar ao usuário somente quando houver produto realmente auditável.
+## Próximo batch HOT
+1. não travar tudo tentando achar S2 de Regime Geral; continuar busca em paralelo;
+2. avançar ledger LRP em decision points e mini-rubrics;
+3. abrir nó próprio EMOLUMENTOS (Lei 10.169), pois TJPE mostrou que não deve ser artificialmente absorvido no Regime Geral;
+4. ampliar Freshness CNN;
+5. avançar Contest History em fontes oficiais;
+6. quando surgir novo held-out Regime Geral oficial/limpo, selar antes e retestar v0.2;
+7. não mostrar material learner-facing ainda.
 
 ## Proibido
-Iniciar aula; fabricar Specimen B; abrir H1 cedo; usar material de cursinho como cânone; importar frequência OAB/Delegado; tratar lei atual como igual ao snapshot editalício; declarar suficiência sem teste; exigir microgestão do usuário.
+- iniciar aula;
+- declarar S2 com uma questão;
+- reinterpretar OUT_OF_SCOPE como acerto;
+- reusar questão consumida após patch como validação independente;
+- usar banco secundário como prova canônica quando falta caderno oficial;
+- vazar pool selado;
+- exigir microgestão do usuário.
