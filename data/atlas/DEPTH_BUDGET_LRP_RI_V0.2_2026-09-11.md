@@ -41,7 +41,11 @@ Status: BUILD refinado; pré-freeze learner-facing.
 - saneamento/retificação sob CNN atual;
 - CNIB/Constrijud/SERP quando a questão depende do fluxo nacional vigente.
 
-## P3+
+## P3 — produção avançada
+
+Redigir nota devolutiva, fundamentar dúvida e executar skeleton de ato quando a fase e o domínio justificarem. A produção usa os mesmos IDs do núcleo jurídico.
+
+## P4 — referência residual
 - minúcia tecnológica interna dos operadores;
 - listas extensas de documentos sem evidência de cobrança;
 - exceções estaduais antes de edital-alvo;
@@ -72,4 +76,8 @@ Status: BUILD refinado; pré-freeze learner-facing.
 - challenge pré-freeze encontra e corrige gaps;
 - somente depois gerar `RI_INTERNAL_FREEZE_V0.1` e abrir held-out.
 
-Confiança: A- no tronco, B nos overlays HOT de 2026.
+## Correção de auditoria — 12/09/2026
+
+Os rótulos anteriores de confiança eram julgamento editorial, não medida empírica. Freeze é preservação de versão, não certificado de freshness ou de challenge. Não foi localizada documentação suficiente para dar esses gates como cumpridos na rodada de 12/09.
+
+Ligar ao P1 os patches `LRP-RI-DUVIDA-014`, `LRP-RI-PAGAMENTO-015` e `LRP-RI-PRAZO-SANCAO-016`; `LRP-RI-CITACAO-017` é contraste pontual. Conteúdo e derivações estão em `material/specimens/LRP_RI_AUDIT_PATCH_V0.3_2026-09-12.md`. Estado: BUILD corrigido; S2 pendente e overlays HOT não certificados.

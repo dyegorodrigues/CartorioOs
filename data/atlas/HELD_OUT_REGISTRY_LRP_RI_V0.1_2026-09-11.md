@@ -96,6 +96,17 @@ Resultado:
 
 Status: `CONSUMED / OUT_OF_SCOPE`.
 
+## Errata de integridade — auditoria 12/09/2026
+
+Os relatos acima preservam a execução histórica; prevalecem estas qualificações:
+
+- H4-Q15 demonstra lacuna de cobertura no art.188 §2º, não uma taxa de resolução cega. Seu segundo rótulo `STRUCTURE_GAP` foi rebaixado a complemento de discriminação.
+- H5-Q22 foi erroneamente marcado como confirmação de RG; na verdade revelou `COVERAGE_GAP`, assim como H5-Q20. Ver relatório H5 corrigido.
+- Não há resposta pré-gabarito selada demonstrada para H1/H2/H4/H5. Uso futuro desses recortes: **BUILD/CHALLENGE_ONLY**, nunca novo held-out.
+- Retornos ampliados da execução anterior expuseram, ao menos parcialmente, Q46 e Q61–62/TJPA Provimento, Q26/TJPA Remoção, Q26–30/TJES Provimento e Q26–31/TJES Remoção. Esses vizinhos ficam em quarentena; não confundir “fora do score” com “não visto”.
+- Gabaritos ampliados também foram expostos. Limpeza dos demais itens não está certificada; é necessária auditoria de exposição antes de reservar qualquer restante desses cadernos. Não foi aberto pool novo nesta revisão.
+- O freeze local foi publicado remotamente junto com os resultados no commit `a502b45245d014ac080ed161a8653868026f7330`. Preservar os hashes das bases, sem atribuir a essa publicação cronologia remota independente que ela não documenta.
+
 ## Critério de falha
 MATERIAL_GAP / STRUCTURE_GAP / DEPTH_GAP / FRESHNESS_GAP / TRANSFER_GAP / OUT_OF_SCOPE / BAD_QUESTION / PROVENANCE_ERROR / DUPLICATE_NOT_INDEPENDENT.
 

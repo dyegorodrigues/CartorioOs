@@ -93,9 +93,9 @@ Novo estado após execução autônoma:
 - FGV/TJES H4-Q15 revelou gap real, patchado em v0.2;
 - FGV/TJES H5 não tinha item in-scope para reteste;
 - RI permanece `S1 PATCHED / S2 PENDING`, sem rodadas infinitas;
-- H5-Q22 confirmou Regime Geral art.36 como challenge oportunístico, mas não vira held-out retroativo;
+- H5-Q22 teve seu PASS revogado na auditoria: art.36 insuficientemente ensinado; Q20 também revelou lacuna de atribuições;
 - Emolumentos possui ledger + Depth Budget v0.1;
-- Provimento 255/2026 entrou no Freshness como cross-system HOT.
+- Provimento 255/2026 foi reclassificado: art.119 = 30 dias de vacatio; preceitos novos fora da janela ENAC 2026.2; watchlist 2027.
 
 Ler também:
 1. `workflows/ROADMAP_TO_STUDY_START_2026-09-11.md`;
@@ -105,7 +105,15 @@ Ler também:
 5. `research/LRP_RI_RETEST_V02_H5_TJES_2025_2026-09-12.md`;
 6. `data/atlas/DEPTH_BUDGET_EMOLUMENTOS_V0.1_2026-09-12.md`.
 
-Próximo marco: consolidar relatório de saída da Macro-rodada 1 e iniciar auditoria da fábrica na Rodada 2, sem liberar estudo nesta transição.
+## Auditoria crítica — prevalece sobre o addendum anterior
+
+Ler `research/AUDIT_REVIEW_2026-09-12.md`, o ledger `data/audit/validation_review_2026-09-12.json` e os patches de auditoria v0.3 de RG e RI. As três bases frozen antigas são imutáveis e têm hashes conferidos. RI corrigiu sequência da dúvida, desfechos e relógio de pagamento. RG corrigiu arts.7/11/36. Nenhum patch foi validado por novo held-out.
+
+H1/H2/H4/H5: tratar os resultados de 12/09 como auditoria de cobertura, não resolução cega demonstrada. Ver quarentena de itens vizinhos no registry. TJPA Q11 anulada não é confirmação independente de Emolumentos. P3 = produção; P4 = referência.
+
+Checks: `python3 -B -m unittest discover -s tests -v` e `python3 -B scripts/audit_checks.py`. Testam consistência, não suficiência jurídica. Nenhum dado do candidato foi alterado.
+
+Próximo marco: completar evidências mínimas de saída da Macro-rodada 1; não declarar entrada automática na Rodada 2. É possível preparar verificações da fábrica sem promover material. Não abrir loops infinitos de provas. A revisão no mesmo contexto não substitui a auditoria independente prevista para a Rodada 3.
 
 ## Proibido
 - iniciar aula;

@@ -33,6 +33,19 @@ Change ID; ato/decisão; publicação; EFFECTIVE_FROM; source; propositions; CUR
 | CHG-246-2026 | Prov. 246 — alienação fiduciária | data da publicação (art.3) | LRP-RI-AFID-013 | anterior ao cutoff; elegível em princípio | EXAM_SNAPSHOT_CHECKED |
 | CHG-253-2026 | Prov. 253 — CENPROT | data da publicação (art.5); sistemas têm 90 dias para adequação | Protesto/publicidade | publicação/vigência antes cutoff; regra material pode ser elegível embora implementação sistêmica tenha prazo | EXAM_SNAPSHOT_CHECKED |
 
+## Errata CHG-255-2026 — 12/09/2026
+
+Estado: `EXAM_SNAPSHOT_CHECKED / EXACT_PUBLICATION_PENDING`; superfícies corrigidas, não declarar fila inteira fechada.
+
+- Fonte: [DJe oficial reproduzido pelo TSE](https://sintse.tse.jus.br/documentos/2026/Ago/21/diario-da-justica-eletronico-cnj-edicao-anterior/provimento-no-255-de-19-de-agosto-de-2026-institui-a-consolidacao-nacional-da-execucao-efetiva-e), arts.118–119, p.70.
+- `CURRENT_LAW` em 12/09: **NOT_YET_EFFECTIVE**, em vez de vigente.
+- `EFFECTIVE_FROM`: data exata pendente; limite inferior conservador 19/09/2026. Art.119 = 30 dias após publicação; disponibilidade no DJe em 20/08 não será silenciosamente convertida em publicação.
+- `EXAM_2026_2_NEW_PRECEPT_ELIGIBLE`: **false**, pela cláusula 8.8.1; conteúdo antigo reproduzido exige fonte anterior própria.
+- `IMPLEMENT_BY`: **UNKNOWN**, art.118 = 120 dias da homologação/validação de cada plataforma, não da publicação do provimento.
+- Nós afetados: monitoramento `LRP-RI-CONSTR-012`, sem declarar alteração material automática desse nó; watchlist 2027.
+- Superfícies: mapa Freshness, STATUS, handoff e checkpoint Notion. Não há material learner-facing liberado a corrigir.
+- Regressão mecânica: `scripts/audit_checks.py` + `data/audit/validation_review_2026-09-12.json`. Não substitui interpretação da norma.
+
 ## Distinção nova: NORMATIVE EFFECTIVE x OPERATIONAL DEADLINE
 Não confundir:
 - `norma entrou em vigor`;

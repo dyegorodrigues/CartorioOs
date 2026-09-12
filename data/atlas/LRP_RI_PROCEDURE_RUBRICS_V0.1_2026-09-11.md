@@ -24,8 +24,9 @@ Skeleton: protocolo → ato → exigência individualizada → fundamento → mo
 QA: legality, relevance, specificity, actionability, completeness, tone.
 
 ### R4 Dúvida registral
-Fluxo: `nota devolutiva → discordância/impossibilidade → pedido → anotação na prenotação → ciência → impugnação → remessa → decisão → saída`.
-Pontos centrais: impugnação em 15 dias; ausência de impugnação não impede julgamento; procedência cancela prenotação; improcedência permite registro após reapresentação; decisão é administrativa e não impede contencioso.
+Correção de auditoria em 12/09/2026 — `LRP-RI-DUVIDA-014`: após anotação, certificação e ciência/notificação, certifica-se a notificação e remete-se eletronicamente ao juízo. A impugnação, em 15 dias perante o juízo, **não é condição para a remessa** (LRP art. 198 §1º).
+
+Pontos centrais: ausência de impugnação não impede julgamento; após trânsito, observar art. 203 para cancelamento da prenotação ou registro mediante documentos e mandado/certidão. Decisão é administrativa e não impede contencioso. O fluxo anterior fica preservado no frozen specimen histórico, não nesta rubrica operacional.
 
 ### R5 Usucapião extrajudicial
 Mapa: `advogado + requerimento → RI competente → ata + planta/memorial + documentos → qualificação → notificações/poder público → diligências → impugnação qualificada → registro ou rejeição/remessa`.

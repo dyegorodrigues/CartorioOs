@@ -5,7 +5,7 @@ Snapshot: 2026-09-11
 Status: pós-CHALLENGE + pós-HELD-OUT H7; pronto para novo BUILD freeze. NÃO estudar ainda.
 
 ## Por que existe v0.3
-A v0.2 foi congelada e testada contra um recorte limpo do TJSC/Cebraspe 2023. Três questões in-scope revelaram três omissões reais:
+O specimen v0.1, derivado do budget v0.2, foi congelado e testado contra um recorte do TJSC/Cebraspe 2023. Três questões in-scope revelaram três omissões reais:
 - circunscrição territorial básica (arts.8–13);
 - microfluxo do art.36 (afastamento/interventor/renda);
 - previdência e contagem recíproca (art.40).
@@ -79,3 +79,7 @@ Não incluir no P1:
 ## Estado
 **APROVADO PARA NOVO BUILD FREEZE INTERNO.**
 Confiança do Regime Geral agora: A- no core nacional, ainda sem selo S2.
+
+## Errata HOT — auditoria 12/09/2026
+
+O rótulo de confiança acima era julgamento editorial, não medida empírica. A incorporação ao specimen v0.2 foi incompleta: o art.36 ainda não explicitava prazo cautelar/correção/destino; RG0B não ensinava atribuições específicas cobradas na Q20/TJES. O patch de trabalho atual é `material/specimens/REGIME_GERAL_AUDIT_PATCH_V0.3_2026-09-12.md`; IDs incorporados ao ledger RG. Estado: BUILD corrigido, não novo freeze validado. Referências Vunesp/SP do seed estão em quarentena de proveniência.

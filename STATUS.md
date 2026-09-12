@@ -1,6 +1,14 @@
 # GX Cartório OS — Estado Atual
 
-Atualizado em 12/09/2026 08:00 BRT.
+Atualizado em 12/09/2026 — revisão crítica da rodada autônoma.
+
+## Veredito da auditoria HOT
+
+Relatório: `research/AUDIT_REVIEW_2026-09-12.md`.
+
+Foram corrigidos: vigência/elegibilidade do Prov.255; falso PASS de RG-Q22; lacuna de RG-Q20; sequência da dúvida; interface de pagamento; qualificação de item anulado; P3/P4; e força probatória dos testes. Bases congeladas preservadas por hash. **Zero novos passes independentes; nenhum S2 concedido; estudo continua bloqueado.**
+
+A Macro-rodada 1 não tem saída demonstrada. Preparar uma auditoria da fábrica não equivale a cumprir o gate de entrada na Rodada 2. Esta revisão no mesmo contexto também não cumpre automaticamente a auditoria independente da Rodada 3.
 
 ## Branch / handoff HOT
 - branch: `chatgpt/gx-cartorio-v0.1`
@@ -77,7 +85,7 @@ Recorte foi selado antes da abertura e encontrou três falhas in-scope reais:
 
 Novos núcleos P1:
 - RG0B atribuições/territorialidade básica;
-- art.36 completo: afastamento preventivo, interventor, fluxo de renda;
+- art.36 parcialmente incorporado; completude anteriormente afirmada foi refutada na auditoria de 12/09;
 - RG8 previdência/contagem recíproca.
 
 ## Reteste v0.2
@@ -88,6 +96,8 @@ Novos núcleos P1:
 - demais Q2–Q6 = especialidade/local/cross-system.
 
 **S2 ainda NÃO atingido**: só 1 pass in-scope independente pós-patch.
+
+Esse é o registro histórico da v0.2, não uma recertificação nesta revisão. Versão de trabalho atual: v0.2 + `material/specimens/REGIME_GERAL_AUDIT_PATCH_V0.3_2026-09-12.md`. Q20/C e Q22/B do TJES Remoção revelaram lacunas; Q22 deixou de ser PASS. A v0.3 é BUILD corrigido, sem novo reteste.
 
 ## Incident de proveniência
 Registry:
@@ -127,34 +137,38 @@ Separados eixos:
 - EXECUTION.
 
 ## Depth Budget RI
-`data/atlas/DEPTH_BUDGET_LRP_RI_V0.1_2026-09-11.md`.
+`data/atlas/DEPTH_BUDGET_LRP_RI_V0.2_2026-09-11.md`, com errata de 12/09.
 
 Nós tipados como RULE / PROCEDURE / ACT / SYSTEM / JURISPRUDENCE.
 
 ## Freeze + held-out cycle de 12/09
 - freeze pré-held-out: `material/specimens/LRP_RI_PROCEDURAL_INTERNAL_FREEZE_V0.1_2026-09-12.md`;
-- H1/H2 TJPA: recortes limpos sem item do núcleo → OUT_OF_SCOPE;
-- H4 FGV/TJES Provimento Q1–Q25: Q15 IN_SCOPE revelou `MATERIAL_GAP + STRUCTURE_GAP`;
-- falhas: art.188 §2º/consequência disciplinar e identificação positiva da citação reipersecutória como título registrável;
+- H1/H2 TJPA: recortes reportados sem item do núcleo → OUT_OF_SCOPE, não acertos;
+- H4 FGV/TJES Provimento Q1–Q25: Q15 IN_SCOPE revelou `MATERIAL_GAP` decisivo no art.188 §2º;
+- identificação da citação como título registrável é complemento útil de discriminação, não segunda condição necessária para afirmar E;
 - patch: `material/specimens/LRP_RI_PROCEDURAL_PATCH_V0.2_2026-09-12.md`;
 - H5 FGV/TJES Remoção Q1–Q25: nenhum item in-scope para RI → OUT_OF_SCOPE;
 - relatório: `research/LRP_RI_HELD_OUT_VALIDATION_H1_H2_H4_2026-09-12.md` e `research/LRP_RI_RETEST_V02_H5_TJES_2025_2026-09-12.md`.
 
 **Estado RI: S1 PATCHED / EXTERNAL GAP FOUND / S2 PENDING.** A regra de contenção impede abrir recortes indefinidos só para fabricar selo.
 
+Auditoria: não há resolução cega pré-gabarito documentada para o ciclo de 12/09. Conservam-se achados de cobertura, não uma validação independente. Exposições fora dos recortes foram registradas no registry. Versão de trabalho atual: bases v0.1/v0.2 + `material/specimens/LRP_RI_AUDIT_PATCH_V0.3_2026-09-12.md`; corrigidos fluxo da dúvida e pagamento, sem recertificar CNN integral.
+
 ## Emolumentos
 Nó autônomo aberto e agora com Depth Budget v0.1:
 `data/atlas/DEPTH_BUDGET_EMOLUMENTOS_V0.1_2026-09-12.md`.
 
-Evidência inicial triangula TJPE/Cebraspe, TJPA/IESES e TJES/FGV. Continua BUILD; falta contagem ENAC por proposição antes de freeze.
+Há três fontes de descoberta, não triangulação válida da mesma proposição: TJPA Remoção Q11 é **anulada**; TJES Q18 é específica de Reurb. Continua BUILD; falta contagem ENAC válida por proposição. Anuladas ficam preservadas em camada separada.
 
 ## Freshness adicional
-Provimento CNJ 255/2026 incluído como `CROSS-SYSTEM/HOT`: vigência antes do cutoff do ENAC 2026.2, mas seus 119 artigos não entram automaticamente em P1. Ligar apenas proposições answer-changing a execução extrajudicial/Constrijud/alienação.
+**Errata Prov.255:** art.119 prevê 30 dias após publicação, não vigência imediata. Em 12/09 está em vacatio segundo o texto publicado. Seus preceitos novos não satisfazem a janela de 90 dias do ENAC 2026.2; regras anteriores reproduzidas dependem de suas fontes próprias. Art.118 separa implantação: 120 dias da homologação/validação das plataformas, ainda sem data verificada. Watchlist 2027; fontes e ressalvas no Freshness Delta Map.
 
 ---
 
 # Contest History Atlas
 Frente paralela continua ativa.
+
+Não houve atualização ou recertificação do Contest History na rodada de 12/09 auditada aqui; os dados abaixo são estado herdado.
 
 Planilha de conversa mais recente:
 `GX_Cartorio_Concursos_Historico_v0.5.xlsx`.
@@ -185,12 +199,12 @@ Gap taxonomy:
 
 # Próximo HOT autônomo
 Sem pedir microaprovação:
-1. fechar a Macro-rodada 1 com relatório de fábrica dos dois pilotos, preservando as limitações S2;
+1. executar os checks da auditoria e fechar as lacunas documentais/legais mínimas dos dois pilotos antes de declarar saída da Macro-rodada 1;
 2. contar ENAC por proposição para Emolumentos e consolidar seu ledger sem iniciar terceiro piloto completo;
-3. ligar os patches RI ao Depth Budget/ledger e registrar decision points demonstrados;
+3. verificar os IDs dos patches v0.3 nas superfícies derivadas; o ledger RI já recebeu os quatro IDs auditados;
 4. continuar busca oportunística, não bloqueante, por held-out oficial independente para Regime Geral/RI;
 5. continuar Freshness CNN 2026 e Contest History Atlas em fontes oficiais;
-6. preparar Macro-rodada 2: verificar derivação coerente MAP/MASTER/Lei seca/REVIEW/Q→A/EXAM nos dois pilotos;
+6. preparar verificações MAP/MASTER/Lei seca/REVIEW/Q→A/EXAM sem chamar preparação de gate cumprido;
 7. somente promover material learner-facing depois de validação suficiente e decisão autoral prevista no roadmap.
 
 ## Anti-drift

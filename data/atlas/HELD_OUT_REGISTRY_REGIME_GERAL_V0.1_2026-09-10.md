@@ -44,9 +44,9 @@ Status: `PARTIALLY CONTAMINATED / SECONDARY-ONLY / NOT S2`.
 - Ainda insuficiente para S2.
 
 ## Cross-node challenge de 12/09/2026
-No consumo do pool RI-H5 (FGV/TJES 2025 Remoção Q1–Q25), Q22 testou o art.36 da Lei 8.935. A v0.2 cobriu corretamente afastamento preventivo 90 + 30, metade da renda líquida e conta especial, permitindo o gabarito B.
+**Errata da auditoria:** revogado o `CHALLENGE_PASS` da Q22/TJES Remoção. Na cautelar, a v0.2 deixava “prazo legal”, sem correção monetária e sem destino explícito do saldo. Classificação corrigida: `COVERAGE_GAP / OPPORTUNISTIC`, não PASS.
 
-Classificação: `CHALLENGE_PASS / OPPORTUNISTIC`, não `HELD_OUT_PASS`, porque o pool havia sido reservado para o piloto RI e não pode ser convertido retroativamente em validação S2 de Regime Geral. O resultado aumenta confiança externa, mas S2 permanece não atingido.
+Q20 do mesmo caderno também revelou ausência de atribuições básicas específicas em RG0B. Os itens Q20/C e Q22/B alimentam `material/specimens/REGIME_GERAL_AUDIT_PATCH_V0.3_2026-09-12.md` e ficam consumidos para BUILD/regressão. Nenhum valida a v0.3. O PASS histórico H9-Q1 não foi reauditado nesta passagem nem transferido automaticamente para a versão corrigida.
 
 ## Gap taxonomy
 MATERIAL_GAP / STRUCTURE_GAP / DEPTH_GAP / FRESHNESS_GAP / TRANSFER_GAP / OUT_OF_SCOPE / BAD_QUESTION / PROVENANCE_ERROR / DUPLICATE_NOT_INDEPENDENT.

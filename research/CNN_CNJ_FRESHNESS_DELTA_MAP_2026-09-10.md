@@ -47,12 +47,18 @@ Essa regra impede um erro clássico de atualização: ensinar apenas o direito m
 | Prov. 242 | 21/07/2026 | vigente | base nacional RTDPJ | art. 256-A e seguintes | very high | RTD/PJ, SERP, identificadores nacionais, governança de dados |
 | Prov. 246 | 28/07/2026 | vigente | alienação fiduciária / forma do instrumento | art. 440-AO | very high | RI/alienação fiduciária; adequação explícita a STF + STJ + Lei 9.514 |
 | Prov. 253 | 18/08/2026 | vigente | CENPROT / certidões após sustação | bloco Protesto/CENPROT | very high | Protesto: resposta deve refletir situação jurídica atual do registro |
-| Prov. 255 | 19/08/2026 | vigente desde publicação | Consolidação Nacional da Execução Efetiva | execução judicial/extrajudicial, pesquisa patrimonial, alienação e Banco Nacional de Penhoras | high cross-system | não altera por si só o tronco LRP; criar aresta com Constrijud/Serp-Jud e promover apenas proposições answer-changing |
+| Prov. 255 | 19/08/2026 | **VACATIO em 12/09: art.119 prevê 30 dias após publicação** | Consolidação Nacional da Execução Efetiva | execução de títulos no Poder Judiciário; conexões registrais dependem de dispositivo específico | high cross-system | preceitos novos fora da janela ENAC 2026.2; watchlist 2027, sem promoção automática |
 
 ### ENAC 2026.2 eligibility overlay desta tabela
 Todos os atos acima estão datados antes do cutoff de 24/08/2026. A elegibilidade concreta ainda depende da **data de início de vigência** de cada preceito, porque alguns atos têm vacatio específica. O campo `EXAM_2026_2_ELIGIBLE` deve ser calculado pela vigência, não apenas pela publicação.
 
-O Provimento 255/2026 entrou em vigor na publicação e está temporalmente antes do cutoff do ENAC 2026.2. Sua simples dimensão (119 artigos) não justifica importar todo o ato para P1: o impacto imediato é `CROSS-SYSTEM/HOT`, com triagem por conexões reais a execução extrajudicial, pesquisa patrimonial, alienação judicial e Constrijud.
+**Errata auditada em 12/09/2026:** a classificação anterior do Provimento 255 como vigente desde a publicação estava errada. O art.119 determina 30 dias de vacatio. O DJe nº197 foi disponibilizado em 20/08; não confundir disponibilização com publicação jurídica. Mesmo usando 20/08 como limite inicial conservador, o início de vigência não seria anterior a 19/09, portanto posterior ao cutoff de 24/08 e ao snapshot de 12/09. A data jurídica exata permanece pendente de conferência da publicação; isso não impede excluir seus **preceitos inovadores** pelo item 8.8.1 do edital atual. Normas antigas eventualmente reproduzidas continuam avaliadas por sua fonte e vigência próprias.
+
+Além disso, art.118 prevê implementação obrigatória das plataformas em 120 dias **da respectiva homologação/validação**, não da publicação. Não inventar data de homologação nem converter automaticamente esse prazo em data-calendário. O ato trata execução de títulos judiciais/extrajudiciais no Judiciário; a palavra “extrajudicial” não demonstra, sozinha, novo procedimento de cartório.
+
+A [ficha oficial CNJ 6981](https://atos.cnj.jus.br/atos/detalhar/6981) tem rótulo cadastral “Vigente”, mas também reproduz a vacatio de 30 dias do art.119. Registrar ambos: o rótulo geral não substitui o cálculo temporal para uma data de referência nem a cláusula de exclusão do edital.
+
+Fontes conferidas: [DJe CNJ, pp.51 e 70, cópia TSE](https://sintse.tse.jus.br/documentos/2026/Ago/21/diario-da-justica-eletronico-cnj-edicao-anterior/provimento-no-255-de-19-de-agosto-de-2026-institui-a-consolidacao-nacional-da-execucao-efetiva-e), [cópia STJ, arts.118–119](https://www.stj.jus.br/internet_docs/biblioteca/clippinglegislacao/Prt_255_2026_CNJ.pdf) e edital FGV acima, itens 8.1 e 8.8.1. Conferência pontual: não recertifica os demais atos desta tabela nem cobre eventuais modificadores ainda não auditados.
 
 ## Provimentos autônomos que NÃO devem desaparecer por estarem fora do corpo textual do CNN
 Dois riscos do modelo “só leia o Provimento 149 compilado”:

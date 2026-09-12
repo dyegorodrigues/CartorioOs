@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-09-12",
+  "base_commit": "a502b45245d014ac080ed161a8653868026f7330",
+  "learner_release": false,
+  "scope": "Auditoria pontual, não revalidação integral do projeto; zero novos testes cegos.",
+  "frozen_documents": [
+    {"path": "material/specimens/REGIME_GERAL_INTERNAL_FREEZE_V0.2_2026-09-11.md", "sha256": "fae8c56112b0bc8ce87d489c3932177f332f9aa6fc25a5594b1538dc0b35d475"},
+    {"path": "material/specimens/LRP_RI_PROCEDURAL_INTERNAL_FREEZE_V0.1_2026-09-12.md", "sha256": "8f7c193127a990a54df66f807d6de118c20a2fe49c058fb4fdc90456b91ce793"},
+    {"path": "material/specimens/LRP_RI_PROCEDURAL_PATCH_V0.2_2026-09-12.md", "sha256": "4f2df419270e4e137c735755901afd0325e8ae33352b8b55299f6a9c2ef5e96f"}
+  ],
+  "items": [
+    {
+      "id": "TJES-2025-REM-T1-Q22-RG-v02",
+      "scope": "IN_SCOPE", "item_status": "VALID", "key": "B",
+      "evaluation": "COVERAGE_AUDIT", "result": "GAP",
+      "used_in_build": true, "answer_sealed_before_key": false,
+      "official_source_verified": true, "legal_snapshot_verified": true,
+      "claim_independent_pass": false,
+      "required_atoms": [
+        {"id": "RG-DISC-PREV-001", "covered": false, "evidence": null},
+        {"id": "RG-DISC-RENDA-003", "covered": false, "evidence": null}
+      ],
+      "note": "v0.2 não explicitava prazo cautelar/correção. Patch v0.3 não altera este veredito histórico.",
+      "source_urls": [
+        "https://conhecimento.fgv.br/sites/default/files/concursos/atividade-notarial-e-de-registro-ingresso-por-remocaocar-001-tipo-1-copia.pdf",
+        "https://conhecimento.fgv.br/sites/default/files/concursos/gabarito-definitivo-tjes-notarial.pdf",
+        "https://www.planalto.gov.br/ccivil_03/leis/l8935.htm"
+      ]
+    },
+    {
+      "id": "TJES-2025-REM-T1-Q20-RG-v02",
+      "scope": "IN_SCOPE", "item_status": "VALID", "key": "C",
+      "evaluation": "COVERAGE_AUDIT", "result": "GAP",
+      "used_in_build": true, "answer_sealed_before_key": false,
+      "official_source_verified": true, "legal_snapshot_verified": true,
+      "claim_independent_pass": false,
+      "required_atoms": [{"id": "RG-ATTR-AUTH-001", "covered": false, "evidence": null}],
+      "source_urls": [
+        "https://conhecimento.fgv.br/sites/default/files/concursos/atividade-notarial-e-de-registro-ingresso-por-remocaocar-001-tipo-1-copia.pdf",
+        "https://conhecimento.fgv.br/sites/default/files/concursos/gabarito-definitivo-tjes-notarial.pdf",
+        "https://www.planalto.gov.br/ccivil_03/leis/l8935.htm"
+      ]
+    },
+    {
+      "id": "TJES-2025-PROV-T1-Q15-RI-v01",
+      "scope": "IN_SCOPE", "item_status": "VALID", "key": "E",
+      "evaluation": "COVERAGE_AUDIT", "result": "GAP",
+      "used_in_build": true, "answer_sealed_before_key": null,
+      "official_source_verified": true, "legal_snapshot_verified": true,
+      "claim_independent_pass": false,
+      "required_atoms": [{"id": "LRP-RI-PRAZO-SANCAO-016", "covered": false, "evidence": null}],
+      "source_urls": [
+        "https://conhecimento.fgv.br/sites/default/files/concursos/atividade-notarial-e-de-registro-ingresso-por-provimentocar-002-tipo-1-copia.pdf",
+        "https://conhecimento.fgv.br/sites/default/files/concursos/gabarito-definitivo-tjes-notarial.pdf",
+        "https://www.planalto.gov.br/ccivil_03/leis/l6015compilada.htm"
+      ]
+    },
+    {
+      "id": "TJPA-2026-REM-6104-T1-Q11-EMO",
+      "scope": "IN_SCOPE", "item_status": "ANNULLED", "key": "X",
+      "evaluation": "DISCOVERY_ONLY", "result": "EXCLUDED",
+      "used_in_build": true, "answer_sealed_before_key": false,
+      "official_source_verified": true, "legal_snapshot_verified": false,
+      "claim_independent_pass": false, "required_atoms": [],
+      "source_urls": ["https://iesesconcursos.nyc3.cdn.digitaloceanspaces.com/2025/tjpa_001_2025/documentos/gabaritos/6104.pdf"]
+    },
+    {
+      "id": "TJES-2025-REM-T1-Q14-RI-scope",
+      "scope": "OUT_OF_SCOPE", "item_status": "VALID", "key": "E",
+      "evaluation": "SCOPE_AUDIT", "result": "EXCLUDED",
+      "used_in_build": true, "answer_sealed_before_key": false,
+      "official_source_verified": true, "legal_snapshot_verified": false,
+      "claim_independent_pass": false, "required_atoms": [],
+      "note": "SFH/Lei 4.380, não retificação LRP212-213. Exclusão do piloto não exclui do currículo.",
+      "source_urls": [
+        "https://conhecimento.fgv.br/sites/default/files/concursos/atividade-notarial-e-de-registro-ingresso-por-remocaocar-001-tipo-1-copia.pdf",
+        "https://conhecimento.fgv.br/sites/default/files/concursos/gabarito-definitivo-tjes-notarial.pdf"
+      ]
+    }
+  ],
+  "normative_checks": [
+    {
+      "id": "CNJ-PROV255-ART119",
+      "exam_date": "2026-11-22", "exclusion_days": 90,
+      "effective_from": null, "effective_not_before": "2026-09-19",
+      "current_status": "NOT_YET_EFFECTIVE", "new_precept_eligible": false,
+      "implementation_date": null,
+      "note": "Art.119: 30 dias após publicação; disponibilização 20/08 é apenas limite inferior conservador. Art.118: 120 dias da homologação/validação, datas não verificadas. Não elimina regras antigas reproduzidas.",
+      "source_urls": [
+        "https://www.stj.jus.br/internet_docs/biblioteca/clippinglegislacao/Prt_255_2026_CNJ.pdf",
+        "https://sintse.tse.jus.br/documentos/2026/Ago/21/diario-da-justica-eletronico-cnj-edicao-anterior/provimento-no-255-de-19-de-agosto-de-2026-institui-a-consolidacao-nacional-da-execucao-efetiva-e",
+        "https://conhecimento.fgv.br/sites/default/files/concursos/minuta-edital-enac-2026.2-27.08.26-versao-final.pdf"
+      ]
+    }
+  ]
+}

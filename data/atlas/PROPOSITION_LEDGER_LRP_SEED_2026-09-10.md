@@ -35,6 +35,17 @@ Abrir o primeiro ledger da LRP com proposições demonstradas em ENAC e concurso
 | LRP-RI-CONSTR-012 | Ordens de constrição imobiliária passam por ecossistema Constrijud/Serp-Jud, com disciplina nacional de protocolo/qualificação/cumprimento | CNN art. 320-X+ / Prov.224/2026 | mudança 2026; conexão direta com casos de indisponibilidade e ordens judiciais | system + judicial integration | H/VH | TBD | H future | VH | VERY HIGH / NEW |
 | LRP-RI-AFID-013 | Alienação fiduciária e forma/título registrável precisam ser lidas no regime material e nas atualizações CNN/STF/STJ | Lei 9.514 + CNN art. 440-AO/Prov.246 | escrita FGV/RN integra alienação fiduciária; mudança CNN 2026 | cross-source case | VH | M | H | VH | VERY HIGH |
 
+## Incremento auditado — 12/09/2026
+
+| ID | Proposição/efeito | Fonte | Evidência e estado |
+|---|---|---|---|
+| LRP-RI-DUVIDA-014 | Remessa após certificação da notificação, sem aguardar impugnação; saídas após trânsito | arts. 198 §1º, 199 e 203 | auditoria legal corrigiu fluxo; não held-out |
+| LRP-RI-PAGAMENTO-015 | Prazo de pagamento excluído do prazo de registro | art. 206-A §7º | auditoria legal; não held-out |
+| LRP-RI-PRAZO-SANCAO-016 | Inobservância do prazo remete ao regime disciplinar | art. 188 §2º + Lei 8.935 art. 32 | TJES 2025 Provimento Tipo 1 Q15 E; BUILD consumido |
+| LRP-RI-CITACAO-017 | Registro da citação real/reipersecutória imobiliária | art. 167 I 21 | discriminação auxiliar da Q15; BUILD consumido |
+
+Fonte atual conferida: [LRP compilada](https://www.planalto.gov.br/ccivil_03/leis/l6015compilada.htm). Os quatro IDs alimentam `material/specimens/LRP_RI_AUDIT_PATCH_V0.3_2026-09-12.md`. Não revalidam automaticamente as linhas anteriores deste seed.
+
 ## Padrões já demonstrados
 
 ### 1. FGV ENAC está longe de mera literalidade

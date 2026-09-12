@@ -6,6 +6,8 @@ Status: SEED ENRIQUECIDO C0 + C1/C2 MULTIBANCA; ainda não é material de estudo
 
 > Regra: este arquivo é base de decisão do Compiler. Não usar como superfície de estudo.
 
+> **Errata HOT — 12/09/2026:** as atribuições históricas a “Vunesp/SP 13º” abaixo ficam em `PROVENANCE_PENDING / EXCLUDE_INCIDENCE`, inclusive no Signal Board. O registry RG identificou locator TJSP que era TJAL, e o locator substituto segue pendente. Sem pareamento questão/caderno/gabarito não promover essas menções como confirmação de TJSP, mesmo que a regra jurídica seja correta. A auditoria não reatribuiu automaticamente cada item ao TJAL.
+
 ## Fontes primárias-base
 - Lei 8.935/1994 vigente: https://www.planalto.gov.br/ccivil_03/leis/l8935.htm
 - CF/88, art. 236.
@@ -52,7 +54,20 @@ L=low, M=medium, H=high, VH=very high.
 | RG-INT-T779 | Interinos não se equiparam a titulares concursados; agentes estatais sujeitos ao teto | STF Tema 779 | FGV/MS + Cebraspe/BA escrita | jurisprudência | H | VH | H | VH | CROSS-BANK OUTPUT |
 | RG-INT-ADI1183 | Interinidade por vacância não pode perpetuar preposto não concursado >6 meses conforme STF/modulação | STF ADI 1183 | FGV/RN discursiva direta | jurisprudência + boundary temporal | H | VH | H | VH | C1 DIRECT OUTPUT |
 
-## Direct Signal Board ampliado
+## Incremento de auditoria — 12/09/2026
+
+Subdivisões de RG0B/RG6, não nova arquitetura:
+
+| ID | Fundamento | Cobertura/uso |
+|---|---|---|
+| RG-ATTR-AUTH-001 | Lei 8.935, arts.7º V e 11 III | TJES Remoção Q20/C: atribuição de autenticação/quitação; gap corrigido, item consumido |
+| RG-DISC-PREV-001 | art.36 caput | prazo cautelar explicitado no patch; não derivar da sanção art.32 |
+| RG-DISC-INTERVENTOR-002 | art.36 §1º | critério de conveniência para os serviços corrigido |
+| RG-DISC-RENDA-003 | art.36 §§2º–3º | renda líquida/conta/correção/destino; Q22/B consumida |
+
+Fonte legal conferida em 12/09; derivação em `material/specimens/REGIME_GERAL_AUDIT_PATCH_V0.3_2026-09-12.md`. Nenhum novo PASS independente. Os demais fundamentos do seed não foram recertificados.
+
+## Direct Signal Board ampliado — qualificações Vunesp/SP suspensas pela errata acima
 
 | Família | ENAC | IESES/PA 2026 | Vunesp/SP 13º | FGV/Cebraspe output | Sinal atual |
 |---|---|---|---|---|---|
