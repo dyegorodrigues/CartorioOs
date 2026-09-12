@@ -47,9 +47,12 @@ Essa regra impede um erro clássico de atualização: ensinar apenas o direito m
 | Prov. 242 | 21/07/2026 | vigente | base nacional RTDPJ | art. 256-A e seguintes | very high | RTD/PJ, SERP, identificadores nacionais, governança de dados |
 | Prov. 246 | 28/07/2026 | vigente | alienação fiduciária / forma do instrumento | art. 440-AO | very high | RI/alienação fiduciária; adequação explícita a STF + STJ + Lei 9.514 |
 | Prov. 253 | 18/08/2026 | vigente | CENPROT / certidões após sustação | bloco Protesto/CENPROT | very high | Protesto: resposta deve refletir situação jurídica atual do registro |
+| Prov. 255 | 19/08/2026 | vigente desde publicação | Consolidação Nacional da Execução Efetiva | execução judicial/extrajudicial, pesquisa patrimonial, alienação e Banco Nacional de Penhoras | high cross-system | não altera por si só o tronco LRP; criar aresta com Constrijud/Serp-Jud e promover apenas proposições answer-changing |
 
 ### ENAC 2026.2 eligibility overlay desta tabela
 Todos os atos acima estão datados antes do cutoff de 24/08/2026. A elegibilidade concreta ainda depende da **data de início de vigência** de cada preceito, porque alguns atos têm vacatio específica. O campo `EXAM_2026_2_ELIGIBLE` deve ser calculado pela vigência, não apenas pela publicação.
+
+O Provimento 255/2026 entrou em vigor na publicação e está temporalmente antes do cutoff do ENAC 2026.2. Sua simples dimensão (119 artigos) não justifica importar todo o ato para P1: o impacto imediato é `CROSS-SYSTEM/HOT`, com triagem por conexões reais a execução extrajudicial, pesquisa patrimonial, alienação judicial e Constrijud.
 
 ## Provimentos autônomos que NÃO devem desaparecer por estarem fora do corpo textual do CNN
 Dois riscos do modelo “só leia o Provimento 149 compilado”:

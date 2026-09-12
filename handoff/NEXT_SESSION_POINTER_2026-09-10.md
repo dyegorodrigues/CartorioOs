@@ -85,6 +85,28 @@ Frente paralela ativa. Spreadsheet da conversa chegou a v0.5. Continuar dados of
 6. quando surgir novo held-out Regime Geral oficial/limpo, selar antes e retestar v0.2;
 7. não mostrar material learner-facing ainda.
 
+## Addendum HOT — 12/09/2026
+Novo estado após execução autônoma:
+- roadmap finito continua na Macro-rodada 1/5;
+- RI foi congelado em v0.1 antes dos held-outs;
+- TJPA H1/H2 não tinham item in-scope;
+- FGV/TJES H4-Q15 revelou gap real, patchado em v0.2;
+- FGV/TJES H5 não tinha item in-scope para reteste;
+- RI permanece `S1 PATCHED / S2 PENDING`, sem rodadas infinitas;
+- H5-Q22 confirmou Regime Geral art.36 como challenge oportunístico, mas não vira held-out retroativo;
+- Emolumentos possui ledger + Depth Budget v0.1;
+- Provimento 255/2026 entrou no Freshness como cross-system HOT.
+
+Ler também:
+1. `workflows/ROADMAP_TO_STUDY_START_2026-09-11.md`;
+2. `research/LRP_RI_HELD_OUT_VALIDATION_H1_H2_H4_2026-09-12.md`;
+3. `material/specimens/LRP_RI_PROCEDURAL_INTERNAL_FREEZE_V0.1_2026-09-12.md`;
+4. `material/specimens/LRP_RI_PROCEDURAL_PATCH_V0.2_2026-09-12.md`;
+5. `research/LRP_RI_RETEST_V02_H5_TJES_2025_2026-09-12.md`;
+6. `data/atlas/DEPTH_BUDGET_EMOLUMENTOS_V0.1_2026-09-12.md`.
+
+Próximo marco: consolidar relatório de saída da Macro-rodada 1 e iniciar auditoria da fábrica na Rodada 2, sem liberar estudo nesta transição.
+
 ## Proibido
 - iniciar aula;
 - declarar S2 com uma questão;

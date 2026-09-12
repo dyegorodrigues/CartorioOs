@@ -1,6 +1,6 @@
 # GX Cartório OS — Estado Atual
 
-Atualizado em 11/09/2026 09:21 BRT.
+Atualizado em 12/09/2026 08:00 BRT.
 
 ## Branch / handoff HOT
 - branch: `chatgpt/gx-cartorio-v0.1`
@@ -131,6 +131,26 @@ Separados eixos:
 
 Nós tipados como RULE / PROCEDURE / ACT / SYSTEM / JURISPRUDENCE.
 
+## Freeze + held-out cycle de 12/09
+- freeze pré-held-out: `material/specimens/LRP_RI_PROCEDURAL_INTERNAL_FREEZE_V0.1_2026-09-12.md`;
+- H1/H2 TJPA: recortes limpos sem item do núcleo → OUT_OF_SCOPE;
+- H4 FGV/TJES Provimento Q1–Q25: Q15 IN_SCOPE revelou `MATERIAL_GAP + STRUCTURE_GAP`;
+- falhas: art.188 §2º/consequência disciplinar e identificação positiva da citação reipersecutória como título registrável;
+- patch: `material/specimens/LRP_RI_PROCEDURAL_PATCH_V0.2_2026-09-12.md`;
+- H5 FGV/TJES Remoção Q1–Q25: nenhum item in-scope para RI → OUT_OF_SCOPE;
+- relatório: `research/LRP_RI_HELD_OUT_VALIDATION_H1_H2_H4_2026-09-12.md` e `research/LRP_RI_RETEST_V02_H5_TJES_2025_2026-09-12.md`.
+
+**Estado RI: S1 PATCHED / EXTERNAL GAP FOUND / S2 PENDING.** A regra de contenção impede abrir recortes indefinidos só para fabricar selo.
+
+## Emolumentos
+Nó autônomo aberto e agora com Depth Budget v0.1:
+`data/atlas/DEPTH_BUDGET_EMOLUMENTOS_V0.1_2026-09-12.md`.
+
+Evidência inicial triangula TJPE/Cebraspe, TJPA/IESES e TJES/FGV. Continua BUILD; falta contagem ENAC por proposição antes de freeze.
+
+## Freshness adicional
+Provimento CNJ 255/2026 incluído como `CROSS-SYSTEM/HOT`: vigência antes do cutoff do ENAC 2026.2, mas seus 119 artigos não entram automaticamente em P1. Ligar apenas proposições answer-changing a execução extrajudicial/Constrijud/alienação.
+
 ---
 
 # Contest History Atlas
@@ -165,12 +185,13 @@ Gap taxonomy:
 
 # Próximo HOT autônomo
 Sem pedir microaprovação:
-1. continuar busca por held-out oficial independente para Regime Geral v0.2; não declarar S2 até diversidade real;
-2. em paralelo, não travar projeto no locator: avançar LRP procedural ledger + mini-rubrics + held-out RI separado;
-3. criar nó próprio de EMOLUMENTOS, pois TJPE mostrou que não deve ser absorvido artificialmente pelo Regime Geral;
-4. continuar Freshness CNN 2026;
-5. continuar Contest History Atlas em lotes por fontes oficiais;
-6. somente promover material learner-facing depois de validação suficiente.
+1. fechar a Macro-rodada 1 com relatório de fábrica dos dois pilotos, preservando as limitações S2;
+2. contar ENAC por proposição para Emolumentos e consolidar seu ledger sem iniciar terceiro piloto completo;
+3. ligar os patches RI ao Depth Budget/ledger e registrar decision points demonstrados;
+4. continuar busca oportunística, não bloqueante, por held-out oficial independente para Regime Geral/RI;
+5. continuar Freshness CNN 2026 e Contest History Atlas em fontes oficiais;
+6. preparar Macro-rodada 2: verificar derivação coerente MAP/MASTER/Lei seca/REVIEW/Q→A/EXAM nos dois pilotos;
+7. somente promover material learner-facing depois de validação suficiente e decisão autoral prevista no roadmap.
 
 ## Anti-drift
 Não iniciar aula; não usar cursinho como cânone; não importar frequência de OAB/Delegado; não usar prova antiga sem revalidar; não transformar volume em KPI; não vazar held-out; não exigir microgestão; não fingir validação; não responder apenas “ok” quando houver trabalho executável.
