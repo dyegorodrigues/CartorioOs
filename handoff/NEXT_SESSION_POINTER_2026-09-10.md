@@ -123,3 +123,13 @@ Próximo marco: completar evidências mínimas de saída da Macro-rodada 1; não
 - usar banco secundário como prova canônica quando falta caderno oficial;
 - vazar pool selado;
 - exigir microgestão do usuário.
+
+## Entrega posterior à auditoria — fonte única e dois workbooks
+
+Ler `research/MATERIAL_DERIVATION_REVIEW_2026-09-12.md`. Há dois recortes consolidados em `material/working/`: afastamento/intervenção e exigência/dúvida. Fonte editorial: `data/material/pilot_recortes_v0.1.json`; não editar as derivações à mão. Fora desses recortes, os pilotos continuam com suas lacunas e limitações anteriores.
+
+Os 11 casos são GX sintéticos, com revisão no mesmo contexto registrada para sua versão e seus fundamentos. Após alterar regra, fonte, contexto ou caso, revisar os casos afetados e atualizar o respectivo fingerprint editorial; o gerador recusa revisão vencida. O fingerprint não é verificação jurídica automática e não substitui a auditoria independente. Não existe aprovação automática em lote.
+
+Regerar: `python3 -B scripts/compile_material.py`. Conferir sem escrever: acrescentar `--check`. A suíte possui agora 29 testes, dos quais 13 verificam o gerador. Os 16 anteriores e os hashes congelados continuam íntegros. Nenhum novo pool foi aberto, nenhuma suficiência promovida, nenhum resultado do candidato escrito.
+
+Próximo marco permanece o roadmap finito: evidências mínimas pendentes dos pilotos e revisão externa do material concretamente produzido. Levar estes arquivos para essa revisão; não substituir trabalho empírico por mais arquitetura ou por testes que apenas repetem o conteúdo. Continuar sem iniciar estudo.

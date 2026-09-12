@@ -1,6 +1,14 @@
 # GX Cartório OS — Estado Atual
 
-Atualizado em 12/09/2026 — revisão crítica da rodada autônoma.
+Atualizado em 12/09/2026 — revisão crítica e consolidação didática de dois recortes.
+
+## Entrega mais recente — material derivado
+
+Dois workbooks internos foram gerados de uma fonte editorial: `material/working/RG_AFASTAMENTO_INTERVENCAO_V0.1.md` e `material/working/RI_DUVIDA_V0.1.md`. Contêm 16 regras/grupos, 4 bases conceituais, 16 perguntas de recuperação e 11 casos GX comentados; não são os módulos completos nem novos itens oficiais classificados.
+
+Fonte ativa dos recortes: `data/material/pilot_recortes_v0.1.json`. Gerador: `scripts/compile_material.py`. As seis superfícies usam a mesma base; casos exigem nova revisão editorial se seu texto ou fundamento mudar. Há uma ligação entre RI/sanções e o nó preexistente `RG-PEN-032III`, sem criar outro lar para a mesma regra.
+
+**29 testes mecânicos passaram; 3 hashes frozen preservados; zero novos passes independentes.** Conferência legal e editorial delimitada, no mesmo contexto; BUILD, sem S2 ou início de estudo. Relatório e limites: `research/MATERIAL_DERIVATION_REVIEW_2026-09-12.md`. Esta entrega prepara a fábrica, sem declarar a saída da Macro-rodada 1 ou uma auditoria independente concluída.
 
 ## Veredito da auditoria HOT
 

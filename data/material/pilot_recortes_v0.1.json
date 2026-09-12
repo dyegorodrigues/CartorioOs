@@ -1,0 +1,336 @@
+{
+  "schema_version": 1,
+  "state": "BUILD",
+  "legal_snapshot": "CURRENT_LAW",
+  "exam_snapshot": "NOT_ASSESSED",
+  "checked_at": "2026-09-12",
+  "sources": [
+    {
+      "id": "L8935",
+      "title": "Lei 8.935/1994 — texto compilado no Planalto",
+      "url": "https://www.planalto.gov.br/ccivil_03/leis/l8935.htm",
+      "checked_at": "2026-09-12",
+      "scope": "Arts. 7º V, 11 III, 32, 35 §1º e 36. Conferência do texto legal; não certifica jurisprudência ou normas locais."
+    },
+    {
+      "id": "LRP",
+      "title": "Lei 6.015/1973 — texto compilado no Planalto",
+      "url": "https://www.planalto.gov.br/ccivil_03/leis/l6015compilada.htm",
+      "checked_at": "2026-09-12",
+      "scope": "Arts. 167 I 21, 188, 198–204, 207 e 206-A, especialmente §7º. Conferência dos dispositivos usados; não certifica o CNN/CNJ integral."
+    }
+  ],
+  "units": [
+    {
+      "id": "RG-AFASTAMENTO",
+      "title": "Regime Geral — afastamento, intervenção e limites do prazo",
+      "filename": "RG_AFASTAMENTO_INTERVENCAO_V0.1.md",
+      "scope": "Recorte do regime disciplinar: distinguir três hipóteses de suspensão e explicar a operação do art. 36. Inclui o contraste de atribuições que faltava no piloto. Não substitui o módulo completo de Regime Geral.",
+      "exclusions": "Responsabilidade civil, previdência, procedimento disciplinar local e jurisprudência não são certificados aqui. Os exercícios são sintéticos de elaboração do material, sem resultado do candidato e sem validação independente.",
+      "provenance": "Consolida o patch de auditoria RG v0.3. TJES/FGV 2025 Remoção Tipo 1 Q20 e Q22 já foram consumidas e servem apenas de evidência de lacunas. O contraste com o art. 35 §1º foi acrescentado por conferência da lei, sem inferência de frequência em prova.",
+      "foundations": [
+        {
+          "id": "RG-BASE-TITULAR",
+          "title": "Titular e interventor",
+          "text": "Neste recorte, titular é o notário ou registrador cuja conduta está sendo apurada. Interventor é quem o juízo designa nas hipóteses legais para a intervenção. Ao ler um caso, separe a situação da pessoa investigada da continuidade dos serviços: são perguntas relacionadas, mas cada uma tem uma regra própria."
+        },
+        {
+          "id": "RG-BASE-FINALIDADE",
+          "title": "Pena e medida durante a apuração",
+          "text": "Uma pena é uma consequência disciplinar. Uma medida tomada durante a apuração tem outra função no procedimento. O enunciado pode usar a palavra suspensão nos dois contextos. Por isso, primeiro identifique a finalidade e o fundamento indicado; só depois procure duração, autoridade e efeitos econômicos."
+        }
+      ],
+      "propositions": [
+        {
+          "id": "RG-PEN-032III",
+          "title": "Suspensão como pena",
+          "depth": "P1",
+          "source_ids": ["L8935"],
+          "locator": "Art. 32, caput e III",
+          "rule": "A suspensão de 90 dias, prorrogável por mais 30, integra o elenco de penas disciplinares do art. 32, com amplo direito de defesa.",
+          "explanation": "Aqui a palavra suspensão aparece dentro de uma lista de penas. O dado que identifica o instituto é sua natureza disciplinar sancionatória. A coincidência numérica com o art. 36 não autoriza transportar para toda pena as regras de renda e de intervenção previstas para o afastamento naquele artigo.",
+          "recall_question": "Onde está a suspensão como pena e qual duração o dispositivo prevê?"
+        },
+        {
+          "id": "RG-DISC-PREV-001",
+          "title": "Afastamento necessário à apuração",
+          "depth": "P1",
+          "source_ids": ["L8935"],
+          "locator": "Art. 36, caput",
+          "rule": "Quando o afastamento do titular for necessário à apuração de faltas, cabe suspensão preventiva por 90 dias, prorrogável por mais 30.",
+          "explanation": "A condição de entrada é a necessidade de afastar para apurar faltas. Não se trata, apenas por isso, de uma condenação disciplinar. Em um caso expressamente regido pelo art. 36, uma afirmação de limite improrrogável de 90 dias omite a possibilidade legal de mais 30. Isso não transforma a prorrogação em consequência automática.",
+          "recall_question": "Qual necessidade autoriza a medida do art. 36 e qual é o prazo previsto?"
+        },
+        {
+          "id": "RG-LOSS-035-AFASTAMENTO",
+          "title": "Hipótese própria ligada à perda da delegação",
+          "depth": "P1",
+          "source_ids": ["L8935"],
+          "locator": "Art. 35, §1º",
+          "rule": "Quando o caso configurar perda da delegação, o juízo competente suspenderá o titular até a decisão final e designará interventor, observando o art. 36.",
+          "explanation": "Este dispositivo usa a decisão final como marco temporal e faz remissão ao art. 36. Portanto, não basta reconhecer a palavra suspensão para responder sempre 90 mais 30. Primeiro localize a hipótese descrita no enunciado. O recorte ensina essa distinção textual; não resolve controvérsias sobre duração concreta, controle da medida ou procedimento local.",
+          "recall_question": "Qual é o marco temporal expresso no art. 35 §1º e qual providência acompanha a suspensão?"
+        },
+        {
+          "id": "RG-DISC-INTERVENTOR-002",
+          "title": "Critérios para designar interventor",
+          "depth": "P1",
+          "source_ids": ["L8935"],
+          "locator": "Art. 36, §1º",
+          "rule": "Na hipótese do art. 36, o juízo competente designa interventor se o substituto também estiver acusado de faltas ou se a medida for conveniente para os serviços.",
+          "explanation": "As duas hipóteses são alternativas. O substituto não estar acusado não encerra a análise: ainda pode existir conveniência para os serviços. Preserve o objeto dessa conveniência. Trocar serviços por investigação modifica a condição escrita na lei e reproduz o erro encontrado na versão anterior do material.",
+          "recall_question": "Quem designa o interventor e quais são os dois critérios alternativos do art. 36 §1º?"
+        },
+        {
+          "id": "RG-DISC-RENDA-003",
+          "title": "Renda durante o afastamento e destino do saldo",
+          "depth": "P1",
+          "source_ids": ["L8935"],
+          "locator": "Art. 36, §§2º–3º",
+          "rule": "Durante o afastamento, o titular recebe metade da renda líquida; a outra metade fica em conta bancária especial, com correção monetária. Se absolvido, o titular recebe o saldo; se condenado, o saldo cabe ao interventor.",
+          "explanation": "Resolva a operação em duas etapas. Durante o afastamento, identifique a base líquida e o depósito da outra metade; essa parcela não é entregue imediatamente ao interventor. Ao final, o resultado da apuração determina quem recebe o saldo. Exemplo numérico apenas didático: para renda líquida de R$ 20 mil, são R$ 10 mil para o titular e R$ 10 mil para a conta especial, sujeita à correção. Não se calcula a metade sobre a receita bruta.",
+          "recall_question": "Qual é a base da divisão, onde fica a outra metade e quem recebe o saldo em cada desfecho?"
+        },
+        {
+          "id": "RG-ATTR-AUTH-001",
+          "title": "Contraste adicional: notas e protesto",
+          "depth": "P1",
+          "source_ids": ["L8935"],
+          "locator": "Arts. 7º, V, e 11, III",
+          "rule": "Autenticar cópias compete com exclusividade ao tabelião de notas; receber o pagamento dos títulos protocolizados, dando quitação, compete privativamente ao tabelião de protesto.",
+          "explanation": "Reconheça a operação descrita, antes de escolher a especialidade. Uma cópia a autenticar e um título protocolizado para pagamento pertencem a atribuições distintas. Esta é uma comparação pontual entre os dois dispositivos, não uma descrição exaustiva das competências nem uma afirmação de que tabeliães de notas nunca recebem valores em outras operações autorizadas.",
+          "recall_question": "Quem autentica cópias e quem recebe o pagamento de títulos protocolizados, dando quitação?"
+        }
+      ],
+      "edges": [
+        {"from": "RG-DISC-PREV-001", "type": "requires", "to": "RG-BASE-FINALIDADE"},
+        {"from": "RG-DISC-PREV-001", "type": "confusable_with", "to": "RG-PEN-032III"},
+        {"from": "RG-DISC-PREV-001", "type": "confusable_with", "to": "RG-LOSS-035-AFASTAMENTO"},
+        {"from": "RG-DISC-INTERVENTOR-002", "type": "requires", "to": "RG-BASE-TITULAR"},
+        {"from": "RG-DISC-RENDA-003", "type": "requires", "to": "RG-DISC-PREV-001"}
+      ],
+      "cases": [
+        {
+          "id": "GX-RG-01",
+          "editorial_review": {"kind": "SAME_CONTEXT_EDITORIAL", "checked_at": "2026-09-12", "fingerprint": "4411e307f046fc230381b911d8ac88d16fef02620fde5b0490422cd04e193ab2"},
+          "question": "O afastamento necessário à apuração foi fundamentado no art. 36. Uma resposta afirma que a lei admite mais 30 dias além dos 90 inicialmente previstos, sem tornar a prorrogação automática. A leitura está correta?",
+          "answer": "Sim.",
+          "reasoning": "A hipótese foi expressamente delimitada. O primeiro prazo não é improrrogável. O dispositivo permite mais 30 dias; a palavra permite não torna a prorrogação automática.",
+          "proposition_ids": ["RG-DISC-PREV-001"]
+        },
+        {
+          "id": "GX-RG-02",
+          "editorial_review": {"kind": "SAME_CONTEXT_EDITORIAL", "checked_at": "2026-09-12", "fingerprint": "4881dbdc593c798a0f6744e19a24dbebd29db4cf5631b6569ddd7087050940b0"},
+          "question": "No afastamento do art. 36, o substituto não está acusado, mas o juízo reconhece conveniência da intervenção para os serviços. Essa segunda hipótese pode fundamentar a designação de interventor?",
+          "answer": "Sim.",
+          "reasoning": "O caso satisfaz o segundo critério alternativo. Exigir que ambos coexistam substituiria a alternativa legal por uma condição cumulativa.",
+          "proposition_ids": ["RG-DISC-INTERVENTOR-002"]
+        },
+        {
+          "id": "GX-RG-03",
+          "editorial_review": {"kind": "SAME_CONTEXT_EDITORIAL", "checked_at": "2026-09-12", "fingerprint": "cb5c60555e0e72c0e0bfe0c1f131dafa30772706f1ca77589f2c85f558e7ccab"},
+          "question": "Durante afastamento regido pelo art. 36, propõe-se entregar imediatamente metade da renda bruta ao interventor. A solução reproduz a lei? Explique a divisão e o destino final da parcela reservada.",
+          "answer": "Não.",
+          "reasoning": "Há três decisões a conferir: a base de cálculo, o destino durante a apuração e o beneficiário do saldo ao final. A solução proposta erra já nas duas primeiras e ignora que o desfecho importa para a terceira.",
+          "proposition_ids": ["RG-DISC-RENDA-003"]
+        },
+        {
+          "id": "GX-RG-04",
+          "editorial_review": {"kind": "SAME_CONTEXT_EDITORIAL", "checked_at": "2026-09-12", "fingerprint": "1975abe724311fd128f716db892c20cf10cee22230bb79cef658abd670a1db21"},
+          "question": "Uma resposta diz que toda suspensão mencionada nos arts. 32, 35 §1º e 36 termina necessariamente no mesmo marco de 90 dias mais 30. A generalização está correta?",
+          "answer": "Não.",
+          "reasoning": "Antes de escolher um número, identifique a hipótese. O art. 35 §1º contém o marco decisão final. A comparação textual basta para rejeitar a resposta universal, sem resolver uma controvérsia sobre duração em um processo concreto.",
+          "proposition_ids": ["RG-PEN-032III", "RG-DISC-PREV-001", "RG-LOSS-035-AFASTAMENTO"]
+        },
+        {
+          "id": "GX-RG-05",
+          "editorial_review": {"kind": "SAME_CONTEXT_EDITORIAL", "checked_at": "2026-09-12", "fingerprint": "3491fbef7c3ccf2f15db0171158de17b1561c5462e9e0642b4d538ca4d35998a"},
+          "question": "Uma alternativa atribui a autenticação de cópias ao tabelião de protesto e o recebimento dos títulos protocolizados, com quitação, ao tabelião de notas. A distribuição está correta?",
+          "answer": "Não.",
+          "reasoning": "As duas operações foram trocadas. Corrija cada atribuição com o dispositivo específico, sem inferir exclusões sobre todas as demais atividades das duas especialidades.",
+          "proposition_ids": ["RG-ATTR-AUTH-001"]
+        }
+      ]
+    },
+    {
+      "id": "RI-DUVIDA",
+      "title": "Registro de Imóveis — da exigência ao desfecho da dúvida",
+      "filename": "RI_DUVIDA_V0.1.md",
+      "scope": "Procedimento legal da dúvida a partir da exigência: iniciativa, atos do registrador, impugnação, decisão, recurso e cumprimento. Interfaces pontuais com pagamento, sanções por prazos e citação registrável. Não substitui o módulo completo de RI.",
+      "exclusions": "Não certifica dúvida inversa, procedimentos de averbação, normas estaduais, recursos em situações especiais, cômputo de datas concretas, retificação, usucapião, indisponibilidade ou jurisprudência. CNN/CNJ integral permanece pendente. Os prazos são apresentados com seu evento e destinatário, sem simular calendário.",
+      "provenance": "Consolida correções dos patches RI v0.2 e v0.3. TJES/FGV 2025 Provimento Tipo 1 Q15 foi consumida e revelou a lacuna do art. 188 §2º. Arts. 200–204 e 207 foram detalhados pela leitura da lei. Nenhuma dessas ampliações representa um novo acerto em prova independente.",
+      "foundations": [
+        {
+          "id": "RI-BASE-TITULO",
+          "title": "Título, qualificação e exigência",
+          "text": "Título é o documento apresentado para a prática do ato. Qualificar é examinar sua aptidão jurídica para ingressar no registro. Se existir exigência a satisfazer, o apresentante precisa compreender o obstáculo e decidir sua resposta. A dúvida tratada aqui é o procedimento legal para levar ao juízo a exigência com a qual o interessado não concorda ou que não consegue cumprir."
+        },
+        {
+          "id": "RI-BASE-PROTOCOLO",
+          "title": "Prenotação e decisão final",
+          "text": "A prenotação corresponde ao ingresso do título no Protocolo e não se confunde com o registro pretendido. Neste recorte, acompanhe o que a lei manda anotar ou cancelar no Protocolo. Trânsito em julgado indica que a decisão já não está sujeita a recurso; o art. 203 usa esse marco para as providências finais."
+        }
+      ],
+      "propositions": [
+        {
+          "id": "LRP-RI-NOTA-018",
+          "title": "Exigência escrita e iniciativa do interessado",
+          "depth": "P1",
+          "source_ids": ["LRP"],
+          "locator": "Art. 198, caput e V–VI; art. 188, caput",
+          "rule": "A exigência deve ser indicada por escrito, de uma só vez, de forma articulada, clara e objetiva, com data, identificação e assinatura do oficial ou preposto responsável, no prazo do art. 188. O interessado pode cumpri-la ou requerer a remessa do título e da dúvida ao juízo se não concordar ou não puder satisfazê-la.",
+          "explanation": "O obstáculo precisa ser comunicável e identificável, não apenas uma recusa oral vaga. A iniciativa prevista no art. 198 VI depende do requerimento do interessado na hipótese descrita. O prazo geral do art. 188 é de 10 dias a partir do protocolo para registrar ou emitir nota, com as exceções que o próprio dispositivo indica. Não use esse número isoladamente para todos os títulos.",
+          "recall_question": "Como a exigência deve ser comunicada e o que o interessado pode requerer se discordar ou não conseguir cumpri-la?"
+        },
+        {
+          "id": "LRP-RI-DUVIDA-014",
+          "title": "Atos do registrador e momento da remessa",
+          "depth": "P1",
+          "source_ids": ["LRP"],
+          "locator": "Art. 198, §1º, I–IV",
+          "rule": "Anotada a dúvida no Protocolo e certificadas a prenotação e a suscitação no título, com rubrica das folhas, o oficial dá ciência dos termos ao apresentante, fornece cópia e o notifica para impugnar perante o juízo em 15 dias. Certificado o cumprimento da ciência e notificação, remete eletronicamente título e razões ao juízo. A remessa não aguarda a impugnação nem o término desses 15 dias.",
+          "explanation": "O evento que autoriza a remessa é a certificação da providência do inciso III. A lei não manda aguardar uma impugnação nem esgotar seus 15 dias antes de remeter. Separe as trilhas: o oficial certifica e remete; o apresentante, se impugnar, dirige sua resposta ao juízo. A versão antiga do fluxo invertia essa relação e criava uma espera indevida.",
+          "recall_question": "Qual sequência cabe ao oficial e é necessário esperar a impugnação ou seus 15 dias para remeter?"
+        },
+        {
+          "id": "LRP-RI-DUVIDA-014-SILENCIO",
+          "title": "Falta de impugnação",
+          "depth": "P1",
+          "source_ids": ["LRP"],
+          "locator": "Art. 199",
+          "rule": "Mesmo sem impugnação no prazo legal, a dúvida será julgada por sentença.",
+          "explanation": "O silêncio não substitui o julgamento. Uma alternativa que mande cancelar automaticamente a prenotação porque o interessado não impugnou acrescenta um efeito que o art. 199 não estabelece. Ainda é necessário obter a decisão e identificar seu resultado antes de aplicar as saídas do art. 203.",
+          "recall_question": "A falta de impugnação dispensa a sentença?"
+        },
+        {
+          "id": "LRP-RI-DUVIDA-014-JUIZO",
+          "title": "Ministério Público e decisão",
+          "depth": "P1",
+          "source_ids": ["LRP"],
+          "locator": "Arts. 200–201",
+          "rule": "Impugnada a dúvida com os documentos apresentados pelo interessado, o Ministério Público será ouvido em 10 dias. Se não forem requeridas diligências, o juiz decidirá em 15 dias, com base nos elementos dos autos.",
+          "explanation": "Há destinatários e condições diferentes: 10 dias dizem respeito à manifestação do Ministério Público na hipótese do art. 200; 15 dias, à decisão na hipótese do art. 201. Não some esses números com os 15 dias de impugnação para fabricar um prazo total invariável. Os dispositivos descrevem etapas e condições, não um calendário único para qualquer caso.",
+          "recall_question": "A que atos e condições se ligam os prazos dos arts. 200 e 201?"
+        },
+        {
+          "id": "LRP-RI-DUVIDA-014-RECURSO",
+          "title": "Recurso previsto na LRP",
+          "depth": "P1",
+          "source_ids": ["LRP"],
+          "locator": "Art. 202",
+          "rule": "Da sentença podem apelar o interessado, o Ministério Público e o terceiro prejudicado, com efeitos devolutivo e suspensivo.",
+          "explanation": "Recupere juntos os três legitimados enumerados e os dois efeitos. O recorte reproduz o elenco legal: não decide situações especiais de legitimidade por jurisprudência. O art. 202 também não fornece, em seu texto, um número de dias para apelar; esse prazo exigiria uma análise processual adicional, que não foi incluída nesta unidade.",
+          "recall_question": "Quem o art. 202 enumera para apelar e com quais efeitos?"
+        },
+        {
+          "id": "LRP-RI-DUVIDA-014-SAIDA",
+          "title": "Procedente e improcedente: consequências",
+          "depth": "P1",
+          "source_ids": ["LRP"],
+          "locator": "Art. 203, caput e I–II",
+          "rule": "Depois do trânsito em julgado, a dúvida procedente leva à restituição dos documentos à parte, independentemente de traslado, e à ciência ao oficial para anotar a decisão no Protocolo e cancelar a prenotação. Na improcedente, o interessado reapresenta os documentos com mandado ou certidão da sentença, que ficam arquivados; o registro é feito desde logo, com anotação do fato no Protocolo.",
+          "explanation": "Procedente qualifica a dúvida, não o desejo do apresentante de registrar. Por isso, a saída é cancelamento da prenotação. Improcedente conduz ao registro, mas o cumprimento legal envolve trânsito em julgado e reapresentação acompanhada do documento judicial. Não transforme a simples notícia de uma sentença favorável ao interessado em ordem automática para registrar sem esses passos.",
+          "recall_question": "Após qual marco se cumprem as duas saídas e quais documentos e providências cada uma exige?"
+        },
+        {
+          "id": "LRP-RI-DUVIDA-014-NATUREZA",
+          "title": "Natureza da decisão e custas da dúvida",
+          "depth": "P1",
+          "source_ids": ["LRP"],
+          "locator": "Arts. 204 e 207",
+          "rule": "A decisão da dúvida tem natureza administrativa e não impede o processo contencioso competente. No processo de dúvida, o interessado paga custas somente quando a dúvida for julgada procedente.",
+          "explanation": "O fato de o juízo decidir não altera a natureza que a LRP atribui ao procedimento. A regra de custas é específica da dúvida: ela não significa gratuidade universal dos atos registrais nem elimina emolumentos de operações distintas. Mantenha separados o efeito da decisão e o custo do procedimento.",
+          "recall_question": "Qual é a natureza da decisão, o que ela não impede e quando há custas para o interessado na dúvida?"
+        },
+        {
+          "id": "LRP-RI-PAGAMENTO-015",
+          "title": "Pagamento e prazo de registro",
+          "depth": "P1",
+          "source_ids": ["LRP"],
+          "locator": "Art. 206-A, caput, II, §§1º–2º e 7º",
+          "rule": "Na opção de pagar inicialmente a prenotação, o restante é depositado em 5 dias da análise que conclua pela aptidão do título; os efeitos da prenotação são mantidos nesse período. O intervalo de pagamento do art. 206-A não integra o prazo de registro do art. 188; após o depósito, seguem os procedimentos de registro e expedição da certidão.",
+          "explanation": "São relógios com objetos diferentes. Um deles permite ao usuário completar o pagamento após a análise de aptidão; outro rege a atuação registral. O §7º impede consumir o prazo de registro com aquele intervalo de pagamento. Esta unidade não calcula uma data final nem generaliza a manutenção da prenotação para hipóteses de inadimplemento, reingresso ou procedimentos especiais.",
+          "recall_question": "Na opção do art. 206-A II, quando se paga o restante e esse intervalo consome o prazo do art. 188?"
+        },
+        {
+          "id": "LRP-RI-PRAZO-SANCAO-016",
+          "title": "Sanções por descumprimento do prazo",
+          "depth": "P1",
+          "source_ids": ["LRP", "L8935"],
+          "locator": "LRP, art. 188 §2º; Lei 8.935, art. 32",
+          "rule": "O descumprimento do art. 188 pode sujeitar o oficial às penas do art. 32 da Lei 8.935, nos termos estabelecidos pelo CNJ. O elenco inclui repreensão, multa, suspensão e perda da delegação, assegurado amplo direito de defesa. Não há perda automática da delegação por qualquer atraso.",
+          "explanation": "A remissão é parte da regra examinável: conhecer apenas o prazo não basta para reconhecer sua consequência possível. A palavra poderá e a exigência de defesa impedem concluir por perda automática da delegação em qualquer atraso. O recorte não fixa uma gradação ou sanção para um processo concreto.",
+          "recall_question": "Para qual elenco de penas remete o art. 188 §2º e isso significa perda automática?"
+        },
+        {
+          "id": "LRP-RI-CITACAO-017",
+          "title": "Interface: citação sujeita a registro",
+          "depth": "P1",
+          "source_ids": ["LRP"],
+          "locator": "Art. 167, I, 21",
+          "rule": "A citação de ação real ou pessoal reipersecutória relativa a imóvel está prevista entre os atos de registro do art. 167, I, 21.",
+          "explanation": "O ponto de discriminação aqui é registro, na hipótese específica descrita. Não transforme a regra em afirmação sobre toda citação judicial nem confunda a citação com outros atos processuais que possam ter ingresso registral próprio. Esta interface ajuda a ler os distratores da Q15 já consumida; não foi necessária como uma segunda premissa para reconhecer a alternativa sobre sanções.",
+          "recall_question": "No art. 167 I 21, qual citação está prevista e a modalidade é registro ou averbação?"
+        }
+      ],
+      "edges": [
+        {"from": "LRP-RI-NOTA-018", "type": "requires", "to": "RI-BASE-TITULO"},
+        {"from": "LRP-RI-DUVIDA-014", "type": "requires", "to": "LRP-RI-NOTA-018"},
+        {"from": "LRP-RI-DUVIDA-014-SAIDA", "type": "requires", "to": "RI-BASE-PROTOCOLO"},
+        {"from": "LRP-RI-DUVIDA-014-SAIDA", "type": "requires", "to": "LRP-RI-DUVIDA-014-SILENCIO"},
+        {"from": "LRP-RI-DUVIDA-014-RECURSO", "type": "confusable_with", "to": "LRP-RI-DUVIDA-014-NATUREZA"},
+        {"from": "LRP-RI-PRAZO-SANCAO-016", "type": "requires", "to": "RG-PEN-032III"}
+      ],
+      "cases": [
+        {
+          "id": "GX-RI-01",
+          "editorial_review": {"kind": "SAME_CONTEXT_EDITORIAL", "checked_at": "2026-09-12", "fingerprint": "a9dc6e2a6c2f5e4a5be8c0d3512c5dab872835a71c626f9ae19785686d45ce9d"},
+          "question": "O oficial cumpriu e certificou a ciência e a notificação previstas no art. 198 §1º III. O apresentante ainda não impugnou e os 15 dias não terminaram. A lei exige aguardar esse prazo para remeter o título e as razões ao juízo?",
+          "answer": "Não.",
+          "reasoning": "A condição de remessa do inciso IV já foi satisfeita. A impugnação perante o juízo não é um requisito prévio que retenha o título no cartório.",
+          "proposition_ids": ["LRP-RI-DUVIDA-014"]
+        },
+        {
+          "id": "GX-RI-02",
+          "editorial_review": {"kind": "SAME_CONTEXT_EDITORIAL", "checked_at": "2026-09-12", "fingerprint": "156b8722acc26fae05a854a3495ab3febc1dfbe53995f083b16fcddd1cfdd87b"},
+          "question": "O apresentante deixou transcorrer o prazo de impugnação. Pode-se encerrar a dúvida sem sentença e cancelar automaticamente a prenotação apenas por esse silêncio?",
+          "answer": "Não.",
+          "reasoning": "A omissão do apresentante não dispensa o julgamento. A saída de cancelamento precisa ser ligada ao resultado e ao marco previstos no art. 203, não presumida a partir do silêncio.",
+          "proposition_ids": ["LRP-RI-DUVIDA-014-SILENCIO", "LRP-RI-DUVIDA-014-SAIDA"]
+        },
+        {
+          "id": "GX-RI-03",
+          "editorial_review": {"kind": "SAME_CONTEXT_EDITORIAL", "checked_at": "2026-09-12", "fingerprint": "0c6c6887c6f6ef2911e65209b51e2f817920263e5afab870e5407bc0fd5e1178"},
+          "question": "A dúvida foi julgada improcedente, houve trânsito em julgado e o interessado reapresentou os documentos com certidão da sentença. A providência indicada pelo art. 203 II é realizar o registro desde logo e anotar o fato no Protocolo?",
+          "answer": "Sim.",
+          "reasoning": "O caso forneceu os pressupostos documentais e temporais da saída favorável ao registro. A certidão ou o mandado acompanha a reapresentação e é arquivado conforme o dispositivo.",
+          "proposition_ids": ["LRP-RI-DUVIDA-014-SAIDA"]
+        },
+        {
+          "id": "GX-RI-04",
+          "editorial_review": {"kind": "SAME_CONTEXT_EDITORIAL", "checked_at": "2026-09-12", "fingerprint": "4b70bb53bbd014ba2f01fe47cecd50f160c63aba5868d1ddc7ed180006cb8602"},
+          "question": "Na opção do art. 206-A II, o usuário completa o depósito dentro do intervalo legal após a análise de aptidão. Esse intervalo deve consumir parte do prazo de registro do art. 188?",
+          "answer": "Não.",
+          "reasoning": "O erro seria tratar como um só relógio o pagamento do usuário e o prazo registral. A exclusão vem de regra expressa, não de uma preferência de organização do cartório.",
+          "proposition_ids": ["LRP-RI-PAGAMENTO-015"]
+        },
+        {
+          "id": "GX-RI-05",
+          "editorial_review": {"kind": "SAME_CONTEXT_EDITORIAL", "checked_at": "2026-09-12", "fingerprint": "13c98f4b47982a2fecd6be2450ed54ffe154b65adcad33c9230785ebee6628cd"},
+          "question": "Um comentário afirma que atrasar o prazo do art. 188 nunca pode levar às penas da Lei 8.935, porque a LRP não faz remissão a elas. O comentário está correto?",
+          "answer": "Não.",
+          "reasoning": "A remissão existe. Reconhecer o elenco de consequências possíveis não autoriza escolher automaticamente a mais grave para qualquer atraso.",
+          "proposition_ids": ["LRP-RI-PRAZO-SANCAO-016"]
+        },
+        {
+          "id": "GX-RI-06",
+          "editorial_review": {"kind": "SAME_CONTEXT_EDITORIAL", "checked_at": "2026-09-12", "fingerprint": "1cd86f65645f945ba6d5dfac531db868bedad997bd495b00d79adc18a107cfe6"},
+          "question": "A dúvida foi julgada procedente. Uma resposta diz que, por isso, o interessado conseguiu o registro e não paga custas da dúvida. Essa leitura das duas consequências está correta?",
+          "answer": "Não.",
+          "reasoning": "A palavra procedente se refere à dúvida. Confira separadamente a saída registral após o trânsito e a regra específica de custas, evitando inverter o beneficiário da decisão.",
+          "proposition_ids": ["LRP-RI-DUVIDA-014-SAIDA", "LRP-RI-DUVIDA-014-NATUREZA"]
+        }
+      ]
+    }
+  ]
+}

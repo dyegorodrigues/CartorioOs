@@ -67,6 +67,14 @@ Subdivisões de RG0B/RG6, não nova arquitetura:
 
 Fonte legal conferida em 12/09; derivação em `material/specimens/REGIME_GERAL_AUDIT_PATCH_V0.3_2026-09-12.md`. Nenhum novo PASS independente. Os demais fundamentos do seed não foram recertificados.
 
+### Consolidação didática dos itens auditados — 12/09
+
+Fonte editorial ativa deste recorte: `data/material/pilot_recortes_v0.1.json`, unidade `RG-AFASTAMENTO`. Derivação: `material/working/RG_AFASTAMENTO_INTERVENCAO_V0.1.md`. O ledger mantém a função de índice; regras, explicações e casos desse recorte são editados na fonte editorial, não em cópias do workbook.
+
+Reutiliza `RG-PEN-032III` e os quatro IDs do incremento acima. Acrescenta `RG-LOSS-035-AFASTAMENTO`, subdivisão de `RG-LOSS-035` referente ao §1º, para comparar o marco decisão final com a hipótese do art. 36. A nova subdivisão deriva da lei conferida, sem frequência empírica atribuída. Os grupos não são contagens de átomos independentes.
+
+Relação útil entre módulos: `LRP-RI-PRAZO-SANCAO-016 requires RG-PEN-032III`. Remissão não cria uma segunda cópia do nó de Regime Geral. Estado BUILD, sem novo teste externo e sem recertificar o seed integral.
+
 ## Direct Signal Board ampliado — qualificações Vunesp/SP suspensas pela errata acima
 
 | Família | ENAC | IESES/PA 2026 | Vunesp/SP 13º | FGV/Cebraspe output | Sinal atual |

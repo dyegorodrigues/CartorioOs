@@ -46,6 +46,14 @@ Abrir o primeiro ledger da LRP com proposições demonstradas em ENAC e concurso
 
 Fonte atual conferida: [LRP compilada](https://www.planalto.gov.br/ccivil_03/leis/l6015compilada.htm). Os quatro IDs alimentam `material/specimens/LRP_RI_AUDIT_PATCH_V0.3_2026-09-12.md`. Não revalidam automaticamente as linhas anteriores deste seed.
 
+### Consolidação didática dos itens auditados — 12/09
+
+Fonte editorial ativa deste recorte: `data/material/pilot_recortes_v0.1.json`, unidade `RI-DUVIDA`. Derivação: `material/working/RI_DUVIDA_V0.1.md`. O ledger é índice; editar regras e explicações na fonte editorial e regenerar o workbook.
+
+Reutiliza os IDs 014–017. `LRP-RI-DUVIDA-014` permanece o agrupador procedimental e hospeda os atos/remessa; detalhamentos recebem os sufixos `-SILENCIO`, `-JUIZO`, `-RECURSO`, `-SAIDA` e `-NATUREZA`, vinculados aos arts. 199–204 e 207. `LRP-RI-NOTA-018` explicita a entrada pelo art. 198 e a remissão ao art. 188. Essas subdivisões são editoriais: não multiplicam incidência de prova, nem representam novos itens ENAC classificados.
+
+O vínculo de sanções aponta para `RG-PEN-032III` no lar Regime Geral. A conferência é legal e delimitada; não certifica CNN, o restante do ledger ou suficiência S2.
+
 ## Padrões já demonstrados
 
 ### 1. FGV ENAC está longe de mera literalidade
