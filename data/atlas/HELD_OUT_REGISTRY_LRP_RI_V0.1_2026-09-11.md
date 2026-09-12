@@ -107,6 +107,12 @@ Os relatos acima preservam a execução histórica; prevalecem estas qualificaç
 - Gabaritos ampliados também foram expostos. Limpeza dos demais itens não está certificada; é necessária auditoria de exposição antes de reservar qualquer restante desses cadernos. Não foi aberto pool novo nesta revisão.
 - O freeze local foi publicado remotamente junto com os resultados no commit `a502b45245d014ac080ed161a8653868026f7330`. Preservar os hashes das bases, sem atribuir a essa publicação cronologia remota independente que ela não documenta.
 
+## Atualização de exposição — reconstrução de 12/09
+
+Foram lidas as páginas integrais dos gabaritos Tipo 1 de TJES Provimento e Remoção para conferir Q15/E, Q20/C e Q22/B, além de páginas dos cadernos e retornos ampliados com vizinhos. Prevalece o estado **BUILD/CHALLENGE_ONLY_ENTIRE_BOOK** para os dois cadernos TJES, sem exceção por número de questão. O mesmo item reapresentado em outro tipo não recupera independência. A regra não afirma análise integral das 200 questões.
+
+Índice de proveniência e análise: `data/atlas/FGV_TJES_RECONSTRUCTION_INDEX_2026-09-12.json` e `research/FGV_TJES_THREE_QUESTIONS_RECONSTRUCTED_2026-09-12.md`. Nenhum novo pool reservado foi aberto e nenhum resultado do registro histórico foi convertido em novo PASS.
+
 ## Critério de falha
 MATERIAL_GAP / STRUCTURE_GAP / DEPTH_GAP / FRESHNESS_GAP / TRANSFER_GAP / OUT_OF_SCOPE / BAD_QUESTION / PROVENANCE_ERROR / DUPLICATE_NOT_INDEPENDENT.
 

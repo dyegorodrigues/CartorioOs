@@ -48,6 +48,12 @@ Status: `PARTIALLY CONTAMINATED / SECONDARY-ONLY / NOT S2`.
 
 Q20 do mesmo caderno também revelou ausência de atribuições básicas específicas em RG0B. Os itens Q20/C e Q22/B alimentam `material/specimens/REGIME_GERAL_AUDIT_PATCH_V0.3_2026-09-12.md` e ficam consumidos para BUILD/regressão. Nenhum valida a v0.3. O PASS histórico H9-Q1 não foi reauditado nesta passagem nem transferido automaticamente para a versão corrigida.
 
+## Reconstrução das questões TJES — atualização de 12/09
+
+Q20/C e Q22/B de Remoção T1 receberam análise das cinco alternativas, sem reteste independente. As páginas completas dos gabaritos TJES Remoção/1 e Provimento/1 foram consultadas: **ambos os cadernos inteiros ficam BUILD/CHALLENGE_ONLY**, inclusive suas mesmas questões em outra ordenação/tipo. Não reservar números restantes como se gabaritos e vizinhos não tivessem sido expostos. Isso não equivale a 200 questões analisadas.
+
+Ver `research/FGV_TJES_THREE_QUESTIONS_RECONSTRUCTED_2026-09-12.md`. Os pools H1R/H4/H5 permanecem sem abertura nesta passagem. Nenhuma promoção S2.
+
 ## Gap taxonomy
 MATERIAL_GAP / STRUCTURE_GAP / DEPTH_GAP / FRESHNESS_GAP / TRANSFER_GAP / OUT_OF_SCOPE / BAD_QUESTION / PROVENANCE_ERROR / DUPLICATE_NOT_INDEPENDENT.
 

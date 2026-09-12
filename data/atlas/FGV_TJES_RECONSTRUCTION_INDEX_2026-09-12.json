@@ -1,0 +1,121 @@
+{
+  "schema_version": 1,
+  "reviewed_at": "2026-09-12",
+  "baseline_commit": "b1ab79f8631094522e80b06af34866adb4b96da1",
+  "evaluation": "POST_BUILD_COVERAGE_REVIEW",
+  "independent_passes": 0,
+  "learner_release": false,
+  "notion_question_rows_written": 0,
+  "analysis_file": "research/FGV_TJES_THREE_QUESTIONS_RECONSTRUCTED_2026-09-12.md",
+  "material_source": "data/material/pilot_recortes_v0.1.json",
+  "sources": [
+    {
+      "id": "FGV-TJES-INDEX",
+      "url": "https://conhecimento.fgv.br/concursos/tjesnotarial25"
+    },
+    {
+      "id": "FGV-TJES-REM-T1",
+      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/atividade-notarial-e-de-registro-ingresso-por-remocaocar-001-tipo-1-copia.pdf",
+      "sha256": "8ff30df5603196ba2f6c94f3e547123cf2cf99540a83ded0d1f0e08c63664e04",
+      "relevant_pdf_page": 7,
+      "future_use": "BUILD_CHALLENGE_ONLY_ENTIRE_BOOK"
+    },
+    {
+      "id": "FGV-TJES-PROV-T1",
+      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/atividade-notarial-e-de-registro-ingresso-por-provimentocar-002-tipo-1-copia.pdf",
+      "sha256": "475effe96250e673a1dca19012a5bc13a908776dbc38b4b8708e9e9044bc861a",
+      "relevant_pdf_page": 6,
+      "future_use": "BUILD_CHALLENGE_ONLY_ENTIRE_BOOK"
+    },
+    {
+      "id": "FGV-TJES-KEY",
+      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/gabarito-definitivo-tjes-notarial.pdf",
+      "sha256": "0a966e93b403d6356396759a55f62315b6046b395e2664b2e52a7310b67e2cb8",
+      "publication_date_on_index": "2025-08-26"
+    },
+    {"id": "L8935", "url": "https://www.planalto.gov.br/ccivil_03/leis/l8935.htm"},
+    {"id": "LRP", "url": "https://www.planalto.gov.br/ccivil_03/leis/l6015compilada.htm"},
+    {"id": "L14382", "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/lei/l14382.htm"}
+  ],
+  "items": [
+    {
+      "id": "TJES-2025-REM-T1-Q20",
+      "prior_audit_id": "TJES-2025-REM-T1-Q20-RG-v02",
+      "book_source_id": "FGV-TJES-REM-T1",
+      "key_source_id": "FGV-TJES-KEY",
+      "key_pdf_page": 1,
+      "official_key": "C",
+      "item_status": "VALID",
+      "analysis_anchor": "q20-rem",
+      "used_in_build": true,
+      "claim_independent_pass": false,
+      "correct_option_atoms": ["RG-ATTR-AUTH-001"],
+      "correct_option_coverage": "EXPLICIT_IN_MASTER",
+      "law_refs": [{"source_id": "L8935", "locator": "arts. 7º V e 11 III"}],
+      "alternatives": [
+        {"letter": "A", "verdict": "INCORRECT", "material_node_ids": ["RG-ATTR-AUTH-001"], "coverage": "DIRECT"},
+        {"letter": "B", "verdict": "INCORRECT", "material_node_ids": ["RG-ATTR-AUTH-001"], "coverage": "DIRECT"},
+        {"letter": "C", "verdict": "CORRECT", "material_node_ids": ["RG-ATTR-AUTH-001"], "coverage": "DIRECT"},
+        {"letter": "D", "verdict": "INCORRECT", "material_node_ids": ["RG-ATTR-AUTH-001"], "coverage": "DIRECT"},
+        {"letter": "E", "verdict": "INCORRECT", "material_node_ids": ["RG-ATTR-AUTH-001"], "coverage": "DIRECT"}
+      ]
+    },
+    {
+      "id": "TJES-2025-REM-T1-Q22",
+      "prior_audit_id": "TJES-2025-REM-T1-Q22-RG-v02",
+      "book_source_id": "FGV-TJES-REM-T1",
+      "key_source_id": "FGV-TJES-KEY",
+      "key_pdf_page": 1,
+      "official_key": "B",
+      "item_status": "VALID",
+      "analysis_anchor": "q22-rem",
+      "used_in_build": true,
+      "claim_independent_pass": false,
+      "correct_option_atoms": ["RG-DISC-PREV-001", "RG-DISC-RENDA-003"],
+      "correct_option_coverage": "EXPLICIT_IN_MASTER",
+      "law_refs": [{"source_id": "L8935", "locator": "art. 36 caput e §§1º–2º; arts. 35 §1º e 37 para contraste de competência"}],
+      "alternatives": [
+        {"letter": "A", "verdict": "INCORRECT", "material_node_ids": ["RG-DISC-PREV-001", "RG-DISC-RENDA-003"], "coverage": "DIRECT_DECISIVE_ERROR", "supplement": "O comentário sobre juros é confronto adicional com o texto do art. 36 §2º; não é necessário para rejeitar o prazo de 60 dias."},
+        {"letter": "B", "verdict": "CORRECT", "material_node_ids": ["RG-DISC-PREV-001", "RG-DISC-RENDA-003"], "coverage": "DIRECT"},
+        {"letter": "C", "verdict": "INCORRECT", "material_node_ids": ["RG-DISC-PREV-001", "RG-DISC-RENDA-003"], "coverage": "DIRECT"},
+        {"letter": "D", "verdict": "INCORRECT", "material_node_ids": ["RG-DISC-PREV-001", "RG-DISC-INTERVENTOR-002"], "coverage": "DIRECT_DECISIVE_ERROR"},
+        {"letter": "E", "verdict": "INCORRECT", "material_node_ids": ["RG-LOSS-035-AFASTAMENTO", "RG-DISC-INTERVENTOR-002"], "coverage": "INFERENCE_WITH_PRIMARY_SUPPLEMENT", "supplement": "Art. 37 foi consultado para completar a fundamentação; não estava explicitado nesse workbook."}
+      ]
+    },
+    {
+      "id": "TJES-2025-PROV-T1-Q15",
+      "prior_audit_id": "TJES-2025-PROV-T1-Q15-RI-v01",
+      "book_source_id": "FGV-TJES-PROV-T1",
+      "key_source_id": "FGV-TJES-KEY",
+      "key_pdf_page": 2,
+      "official_key": "E",
+      "item_status": "VALID",
+      "analysis_anchor": "q15-prov",
+      "used_in_build": true,
+      "claim_independent_pass": false,
+      "correct_option_atoms": ["LRP-RI-PRAZO-SANCAO-016"],
+      "correct_option_coverage": "EXPLICIT_AFTER_EXPLANATION_CORRECTION",
+      "law_refs": [
+        {"source_id": "LRP", "locator": "arts. 167 I 21, 186 e 188 caput e §2º"},
+        {"source_id": "L8935", "locator": "art. 32 caput e IV"},
+        {"source_id": "L14382", "locator": "arts. 11 e 21 II; apoio histórico ao art. 188"}
+      ],
+      "alternatives": [
+        {"letter": "A", "verdict": "INCORRECT", "material_node_ids": ["LRP-RI-NOTA-018"], "coverage": "DIRECT_IN_MASTER_EXPLANATION"},
+        {"letter": "B", "verdict": "INCORRECT", "material_node_ids": ["LRP-RI-CITACAO-017"], "coverage": "DIRECT"},
+        {"letter": "C", "verdict": "INCORRECT", "material_node_ids": ["LRP-RI-CITACAO-017"], "coverage": "DIRECT_DECISIVE_ERROR"},
+        {"letter": "D", "verdict": "INCORRECT", "material_node_ids": ["RI-BASE-PROTOCOLO"], "coverage": "DIRECT_IN_FOUNDATION"},
+        {"letter": "E", "verdict": "CORRECT", "material_node_ids": ["LRP-RI-PRAZO-SANCAO-016"], "coverage": "DIRECT_AFTER_CORRECTION"}
+      ],
+      "correction": {
+        "severity": "MUST",
+        "kind": "LEGAL_EXPLANATION_ERROR",
+        "node_id": "LRP-RI-PRAZO-SANCAO-016",
+        "affected_synthetic_case": "GX-RI-05",
+        "official_key_changed": false,
+        "synthetic_answer_changed": false,
+        "editorial_review_reperformed": true
+      }
+    }
+  ]
+}

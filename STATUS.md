@@ -1,8 +1,16 @@
 # GX Cartório OS — Estado Atual
 
-Atualizado em 12/09/2026 — revisão crítica e consolidação didática de dois recortes.
+Atualizado em 12/09/2026 — reconstrução das três questões FGV e correção da explicação sancionatória.
 
-## Entrega mais recente — material derivado
+## Entrega mais recente — prova, fundamento e ensino
+
+Reconstruídas as 15 alternativas de TJES/FGV 2025 Remoção T1 Q20/C e Q22/B e Provimento T1 Q15/E. Relatório: `research/FGV_TJES_THREE_QUESTIONS_RECONSTRUCTED_2026-09-12.md`; índice com referências aos nós e hashes dos PDFs: `data/atlas/FGV_TJES_RECONSTRUCTION_INDEX_2026-09-12.json`.
+
+A comparação confirmou os fundamentos das três letras oficiais e encontrou um erro na explicação de RI: art.188 §2º usa **ensejará**, não **poderá**. Corrigida a distinção entre submissão ao regime sancionatório e possibilidade de uma pena específica. `GX-RI-05` foi revisto após o gerador invalidar sua revisão anterior; as derivações foram atualizadas e os 29 testes passaram. A remissão ao art.37 para fundamentar Q22/E é complemento explicitado na reconstrução, não conteúdo retroativamente atribuído ao workbook.
+
+Essas questões já eram conhecidas e consumidas: **zero novos passes independentes; nenhum S2**. Os dois cadernos TJES T1 ficam inteiros em BUILD/CHALLENGE_ONLY, após exposição das páginas completas dos gabaritos. Não foram classificados 200 itens, recontado ENAC, atualizado mastery ou iniciado estudo.
+
+## Material derivado — base dos recortes
 
 Dois workbooks internos foram gerados de uma fonte editorial: `material/working/RG_AFASTAMENTO_INTERVENCAO_V0.1.md` e `material/working/RI_DUVIDA_V0.1.md`. Contêm 16 regras/grupos, 4 bases conceituais, 16 perguntas de recuperação e 11 casos GX comentados; não são os módulos completos nem novos itens oficiais classificados.
 

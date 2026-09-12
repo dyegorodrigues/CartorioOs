@@ -6,7 +6,7 @@ Conferência legal delimitada: 2026-09-12. CURRENT_LAW; elegibilidade para edita
 
 Gerado por `scripts/compile_material.py` a partir de `data/material/pilot_recortes_v0.1.json`. Edite a fonte editorial e regenere; não edite esta derivação.
 
-Fingerprint semântico da fonte: `cb15664f29c9a04bc2c411b1182c4ef15693d626fce8dfe753d0e95a940904a5`.
+Fingerprint semântico da fonte: `1ac3739af6600f3c96dc58d9e6465f999a85475062cb31d714e77418128acb94`.
 
 **Proveniência:** Consolida correções dos patches RI v0.2 e v0.3. TJES/FGV 2025 Provimento Tipo 1 Q15 foi consumida e revelou a lacuna do art. 188 §2º. Arts. 200–204 e 207 foram detalhados pela leitura da lei. Nenhuma dessas ampliações representa um novo acerto em prova independente.
 
@@ -145,9 +145,9 @@ São relógios com objetos diferentes. Um deles permite ao usuário completar o 
 
 `LRP-RI-PRAZO-SANCAO-016` · P1
 
-O descumprimento do art. 188 pode sujeitar o oficial às penas do art. 32 da Lei 8.935, nos termos estabelecidos pelo CNJ. O elenco inclui repreensão, multa, suspensão e perda da delegação, assegurado amplo direito de defesa. Não há perda automática da delegação por qualquer atraso.
+A inobservância do art. 188 enseja a aplicação das penas do art. 32 da Lei 8.935, nos termos estabelecidos pela Corregedoria Nacional de Justiça. O elenco inclui repreensão, multa, suspensão e perda da delegação, assegurado amplo direito de defesa. A remissão ao elenco não impõe automaticamente a perda da delegação por qualquer atraso.
 
-A remissão é parte da regra examinável: conhecer apenas o prazo não basta para reconhecer sua consequência possível. A palavra poderá e a exigência de defesa impedem concluir por perda automática da delegação em qualquer atraso. O recorte não fixa uma gradação ou sanção para um processo concreto.
+O §2º usa ensejará, não poderá: não apresenta a submissão ao regime sancionatório como mera opção. Outra pergunta é qual pena poderá resultar da apuração. A perda está no elenco, mas a remissão não a escolhe automaticamente nem elimina a defesa. Na Q15/TJES, a possibilidade mencionada na alternativa E diz respeito à perda da delegação. A explicação anterior confundia essa formulação da questão com o verbo do dispositivo legal.
 
 [LRP](https://www.planalto.gov.br/ccivil_03/leis/l6015compilada.htm); [L8935](https://www.planalto.gov.br/ccivil_03/leis/l8935.htm) — LRP, art. 188 §2º; Lei 8.935, art. 32.
 
@@ -227,7 +227,7 @@ Versão compacta: somente as regras canônicas, sem as explicações e os exempl
 
 **Pagamento e prazo de registro** (`LRP-RI-PAGAMENTO-015`): Na opção de pagar inicialmente a prenotação, o restante é depositado em 5 dias da análise que conclua pela aptidão do título; os efeitos da prenotação são mantidos nesse período. O intervalo de pagamento do art. 206-A não integra o prazo de registro do art. 188; após o depósito, seguem os procedimentos de registro e expedição da certidão. [LRP](https://www.planalto.gov.br/ccivil_03/leis/l6015compilada.htm) — Art. 206-A, caput, II, §§1º–2º e 7º.
 
-**Sanções por descumprimento do prazo** (`LRP-RI-PRAZO-SANCAO-016`): O descumprimento do art. 188 pode sujeitar o oficial às penas do art. 32 da Lei 8.935, nos termos estabelecidos pelo CNJ. O elenco inclui repreensão, multa, suspensão e perda da delegação, assegurado amplo direito de defesa. Não há perda automática da delegação por qualquer atraso. [LRP](https://www.planalto.gov.br/ccivil_03/leis/l6015compilada.htm); [L8935](https://www.planalto.gov.br/ccivil_03/leis/l8935.htm) — LRP, art. 188 §2º; Lei 8.935, art. 32.
+**Sanções por descumprimento do prazo** (`LRP-RI-PRAZO-SANCAO-016`): A inobservância do art. 188 enseja a aplicação das penas do art. 32 da Lei 8.935, nos termos estabelecidos pela Corregedoria Nacional de Justiça. O elenco inclui repreensão, multa, suspensão e perda da delegação, assegurado amplo direito de defesa. A remissão ao elenco não impõe automaticamente a perda da delegação por qualquer atraso. [LRP](https://www.planalto.gov.br/ccivil_03/leis/l6015compilada.htm); [L8935](https://www.planalto.gov.br/ccivil_03/leis/l8935.htm) — LRP, art. 188 §2º; Lei 8.935, art. 32.
 
 **Interface: citação sujeita a registro** (`LRP-RI-CITACAO-017`): A citação de ação real ou pessoal reipersecutória relativa a imóvel está prevista entre os atos de registro do art. 167, I, 21. [LRP](https://www.planalto.gov.br/ccivil_03/leis/l6015compilada.htm) — Art. 167, I, 21.
 
@@ -285,7 +285,7 @@ Referência: `LRP-RI-PAGAMENTO-015`.
 
 ### Para qual elenco de penas remete o art. 188 §2º e isso significa perda automática?
 
-O descumprimento do art. 188 pode sujeitar o oficial às penas do art. 32 da Lei 8.935, nos termos estabelecidos pelo CNJ. O elenco inclui repreensão, multa, suspensão e perda da delegação, assegurado amplo direito de defesa. Não há perda automática da delegação por qualquer atraso. [LRP](https://www.planalto.gov.br/ccivil_03/leis/l6015compilada.htm); [L8935](https://www.planalto.gov.br/ccivil_03/leis/l8935.htm) — LRP, art. 188 §2º; Lei 8.935, art. 32.
+A inobservância do art. 188 enseja a aplicação das penas do art. 32 da Lei 8.935, nos termos estabelecidos pela Corregedoria Nacional de Justiça. O elenco inclui repreensão, multa, suspensão e perda da delegação, assegurado amplo direito de defesa. A remissão ao elenco não impõe automaticamente a perda da delegação por qualquer atraso. [LRP](https://www.planalto.gov.br/ccivil_03/leis/l6015compilada.htm); [L8935](https://www.planalto.gov.br/ccivil_03/leis/l8935.htm) — LRP, art. 188 §2º; Lei 8.935, art. 32.
 
 Referência: `LRP-RI-PRAZO-SANCAO-016`.
 
@@ -349,7 +349,7 @@ Um comentário afirma que atrasar o prazo do art. 188 nunca pode levar às penas
 
 **Base para conferir a resposta:**
 
-- `LRP-RI-PRAZO-SANCAO-016`: O descumprimento do art. 188 pode sujeitar o oficial às penas do art. 32 da Lei 8.935, nos termos estabelecidos pelo CNJ. O elenco inclui repreensão, multa, suspensão e perda da delegação, assegurado amplo direito de defesa. Não há perda automática da delegação por qualquer atraso. [LRP](https://www.planalto.gov.br/ccivil_03/leis/l6015compilada.htm); [L8935](https://www.planalto.gov.br/ccivil_03/leis/l8935.htm) — LRP, art. 188 §2º; Lei 8.935, art. 32.
+- `LRP-RI-PRAZO-SANCAO-016`: A inobservância do art. 188 enseja a aplicação das penas do art. 32 da Lei 8.935, nos termos estabelecidos pela Corregedoria Nacional de Justiça. O elenco inclui repreensão, multa, suspensão e perda da delegação, assegurado amplo direito de defesa. A remissão ao elenco não impõe automaticamente a perda da delegação por qualquer atraso. [LRP](https://www.planalto.gov.br/ccivil_03/leis/l6015compilada.htm); [L8935](https://www.planalto.gov.br/ccivil_03/leis/l8935.htm) — LRP, art. 188 §2º; Lei 8.935, art. 32.
 
 ### GX-RI-06
 

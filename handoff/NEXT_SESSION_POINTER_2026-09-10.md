@@ -133,3 +133,13 @@ Os 11 casos são GX sintéticos, com revisão no mesmo contexto registrada para 
 Regerar: `python3 -B scripts/compile_material.py`. Conferir sem escrever: acrescentar `--check`. A suíte possui agora 29 testes, dos quais 13 verificam o gerador. Os 16 anteriores e os hashes congelados continuam íntegros. Nenhum novo pool foi aberto, nenhuma suficiência promovida, nenhum resultado do candidato escrito.
 
 Próximo marco permanece o roadmap finito: evidências mínimas pendentes dos pilotos e revisão externa do material concretamente produzido. Levar estes arquivos para essa revisão; não substituir trabalho empírico por mais arquitetura ou por testes que apenas repetem o conteúdo. Continuar sem iniciar estudo.
+
+## Reconstrução posterior das questões oficiais — 12/09
+
+Ler `research/FGV_TJES_THREE_QUESTIONS_RECONSTRUCTED_2026-09-12.md` e o índice `data/atlas/FGV_TJES_RECONSTRUCTION_INDEX_2026-09-12.json`. São três questões FGV estaduais já consumidas, com 15 alternativas comentadas e vínculos aos nós ensinados. Não são novos itens ENAC nem um held-out.
+
+Correção aplicada em `LRP-RI-PRAZO-SANCAO-016`: o verbo do art.188 §2º é **ensejará**. A possibilidade de perda na alternativa E não torna a remissão sancionatória mera opção. O gerador invalidou `GX-RI-05`; após revisão jurídica, sua conclusão foi mantida, o fingerprint atualizado e o material regenerado. Testes continuam 29; nenhum teste novo foi criado para espelhar a redação legal.
+
+Q20/Q22/Q15 têm fundamentos decisivos no recorte corrigido. A fundamentação completa de alguns distratores tem complementos explicitados na análise (art.37 para Q22/E); não declarar cobertura literal integral de tudo que aparece no comentário. Não contar grupos/alternativas como ocorrências estatisticamente independentes.
+
+As páginas inteiras dos gabaritos Remoção/1 e Provimento/1 foram vistas; ambos os cadernos TJES são agora BUILD/CHALLENGE_ONLY por inteiro, inclusive questões equivalentes em outro tipo. Não reservar um restante artificialmente limpo. Outros pools reservados não foram abertos. Permanecem pendentes fontes/cobertura dos pilotos completos e a validação externa mínima, dentro da contenção. Não iniciar aula.

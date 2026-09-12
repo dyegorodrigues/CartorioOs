@@ -80,3 +80,9 @@ Uma relação entre unidades já funciona: `LRP-RI-PRAZO-SANCAO-016 requires RG-
 Nenhum corpus reservado foi aberto. Q20/Q22 do TJES Remoção e Q15 do Provimento continuam consumidas: demonstram lacunas anteriores, não novos acertos. Não houve recontagem dos 300 ENAC/304 registros, preenchimento da Passagem 2 integral, atualização do Contest History ou fechamento do CNN/Freshness nesta passagem.
 
 O próximo trabalho deve usar estes arquivos como entrada verificável para a revisão externa prevista no roadmap e completar as evidências mínimas ainda pendentes dos pilotos, dentro da regra de contenção. Qualquer correção deve voltar à fonte editorial, passar pela revisão dos casos afetados e ser regenerada. Não reabrir arquitetura, não tratar os testes mecânicos como gate pedagógico cumprido e não iniciar aula sem o marco autoral previsto no projeto.
+
+## Errata posterior — confronto com questões oficiais
+
+A [reconstrução de Q20/Q22/Q15 do TJES](FGV_TJES_THREE_QUESTIONS_RECONSTRUCTED_2026-09-12.md) encontrou um erro remanescente na explicação de `LRP-RI-PRAZO-SANCAO-016`: ela atribuía ao art.188 §2º o verbo poderá, embora o dispositivo use ensejará. A possibilidade diz respeito à pena específica discutida na alternativa E, não a uma remissão legal facultativa. A fonte editorial e as derivações foram corrigidas; `GX-RI-05` foi revisto, sem mudar sua conclusão.
+
+Esta errata qualifica a conferência delimitada relatada acima. Os 29 testes mecânicos não haviam identificado o erro jurídico; sua função continua sendo integridade. Nenhuma certificação independente ou liberação de estudo decorreu das duas passagens.

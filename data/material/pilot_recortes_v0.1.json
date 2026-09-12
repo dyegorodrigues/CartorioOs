@@ -258,8 +258,8 @@
           "depth": "P1",
           "source_ids": ["LRP", "L8935"],
           "locator": "LRP, art. 188 §2º; Lei 8.935, art. 32",
-          "rule": "O descumprimento do art. 188 pode sujeitar o oficial às penas do art. 32 da Lei 8.935, nos termos estabelecidos pelo CNJ. O elenco inclui repreensão, multa, suspensão e perda da delegação, assegurado amplo direito de defesa. Não há perda automática da delegação por qualquer atraso.",
-          "explanation": "A remissão é parte da regra examinável: conhecer apenas o prazo não basta para reconhecer sua consequência possível. A palavra poderá e a exigência de defesa impedem concluir por perda automática da delegação em qualquer atraso. O recorte não fixa uma gradação ou sanção para um processo concreto.",
+          "rule": "A inobservância do art. 188 enseja a aplicação das penas do art. 32 da Lei 8.935, nos termos estabelecidos pela Corregedoria Nacional de Justiça. O elenco inclui repreensão, multa, suspensão e perda da delegação, assegurado amplo direito de defesa. A remissão ao elenco não impõe automaticamente a perda da delegação por qualquer atraso.",
+          "explanation": "O §2º usa ensejará, não poderá: não apresenta a submissão ao regime sancionatório como mera opção. Outra pergunta é qual pena poderá resultar da apuração. A perda está no elenco, mas a remissão não a escolhe automaticamente nem elimina a defesa. Na Q15/TJES, a possibilidade mencionada na alternativa E diz respeito à perda da delegação. A explicação anterior confundia essa formulação da questão com o verbo do dispositivo legal.",
           "recall_question": "Para qual elenco de penas remete o art. 188 §2º e isso significa perda automática?"
         },
         {
@@ -316,7 +316,7 @@
         },
         {
           "id": "GX-RI-05",
-          "editorial_review": {"kind": "SAME_CONTEXT_EDITORIAL", "checked_at": "2026-09-12", "fingerprint": "13c98f4b47982a2fecd6be2450ed54ffe154b65adcad33c9230785ebee6628cd"},
+          "editorial_review": {"kind": "SAME_CONTEXT_EDITORIAL", "checked_at": "2026-09-12", "fingerprint": "89b616688b6d055d70027beee067522ad921e588abc0c086cdef440d8771a40e"},
           "question": "Um comentário afirma que atrasar o prazo do art. 188 nunca pode levar às penas da Lei 8.935, porque a LRP não faz remissão a elas. O comentário está correto?",
           "answer": "Não.",
           "reasoning": "A remissão existe. Reconhecer o elenco de consequências possíveis não autoriza escolher automaticamente a mais grave para qualquer atraso.",

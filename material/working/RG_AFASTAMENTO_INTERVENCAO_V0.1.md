@@ -6,7 +6,7 @@ Conferência legal delimitada: 2026-09-12. CURRENT_LAW; elegibilidade para edita
 
 Gerado por `scripts/compile_material.py` a partir de `data/material/pilot_recortes_v0.1.json`. Edite a fonte editorial e regenere; não edite esta derivação.
 
-Fingerprint semântico da fonte: `cb15664f29c9a04bc2c411b1182c4ef15693d626fce8dfe753d0e95a940904a5`.
+Fingerprint semântico da fonte: `1ac3739af6600f3c96dc58d9e6465f999a85475062cb31d714e77418128acb94`.
 
 **Proveniência:** Consolida o patch de auditoria RG v0.3. TJES/FGV 2025 Remoção Tipo 1 Q20 e Q22 já foram consumidas e servem apenas de evidência de lacunas. O contraste com o art. 35 §1º foi acrescentado por conferência da lei, sem inferência de frequência em prova.
 
