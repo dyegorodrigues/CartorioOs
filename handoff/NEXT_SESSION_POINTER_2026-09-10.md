@@ -10,6 +10,12 @@ Retomar sem reabrir arquitetura, sem fingir validação e sem iniciar estudo pre
 
 Começar por `docs/START_HERE.md`, `STATUS.md` e `architecture/MINIMUM_VIABLE_TUTOR.md`. Ler demais documentos somente conforme a tarefa. O histórico abaixo preserva contexto, mas os checkpoints recentes e erratas prevalecem sobre conclusões antigas de PASS.
 
+Entrega vigente: primeiro bloco de natureza/ingresso, `material/working/RG_NATUREZA_INGRESSO_V0.1.md`, fonte `data/material/ingresso_v0.1.json`. Oito regras, oito recuperações e cinco casos autorais; BUILD. Pesquisa e reconstrução ENAC 2025.2 T1 Q36/C em `research/APROVACAO_PRIMEIRO_BLOCO_2026-09-13.md`. Missão explicitamente voltada à aprovação em todas as etapas; profundidade conforme cobrança/cobertura/pré-requisitos. Não transformar o workbook em seis leituras obrigatórias.
+
+Suíte vigente: 42 testes passaram; os três hashes congelados e três derivados foram conferidos. Em ambiente novo, instalar `requirements-review.txt` antes da suíte completa. Gerar/conferir o lote novo com `python3 -B scripts/compile_material.py --source data/material/ingresso_v0.1.json`, acrescentando `--check` para somente conferir. Revisões editoriais assinadas no mesmo contexto; não são independentes.
+
+O próximo trabalho usa estes arquivos concretos para a revisão já prevista e conclui a integração mínima de sessão. Não reabrir arquitetura, instalar plataformas por analogia com estudos escolares ou acrescentar gates genéricos. A contraparte prática entra no módulo de procedimento adequado, sem forçar uma peça sobre cada regra de ingresso. Registro de exposição atualizado: ENAC 2025.2 inteiro e equivalentes BUILD/CHALLENGE_ONLY. Estudo e desempenho reais continuam não iniciados.
+
 Ensaio de revisão/retomada implementado com FSRS 6.3.2 e 12 testes novos; total 41. Checkpoint de 27 eventos fictícios salvo/relido no Notion e reconstituído em processo novo; retry idempotente. Evento 28 gravado/relido. Relatório: `research/TUTOR_MINIMO_VALIDACAO_2026-09-13.md`.
 
 Não migrar dados nem usar ensaio como learner state. Falta integração de Study Sessions/conversa nova e permanece a validação de conteúdo inicial. Não foi provada memória automática de projeto nem encerrada qualquer macro-rodada. Manter estudo bloqueado; não criar mais arquitetura como pré-condição adicional.

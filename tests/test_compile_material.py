@@ -127,6 +127,18 @@ class MaterialCompilerTests(unittest.TestCase):
     def test_committed_derivatives_are_current(self):
         run(check=True)
 
+    def test_separate_batch_keeps_its_real_source_and_default_batch_unchanged(self):
+        with tempfile.TemporaryDirectory() as temporary:
+            source = Path(temporary) / "another_batch.json"
+            output = Path(temporary) / "generated"
+            source.write_text(json.dumps(self.data), encoding="utf-8")
+            run(source=source, output=output)
+            run(source=source, output=output, check=True)
+            content = (output / self.data["units"][0]["filename"]).read_text(encoding="utf-8")
+            self.assertIn(f"a partir de `{source.resolve().as_posix()}`", content)
+            self.assertNotIn("a partir de `data/material/pilot_recortes_v0.1.json`", content)
+        run(check=True)
+
 
 if __name__ == "__main__":
     unittest.main()

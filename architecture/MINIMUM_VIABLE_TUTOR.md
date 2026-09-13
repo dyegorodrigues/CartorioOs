@@ -10,6 +10,8 @@ O candidato não mantém resumos, decks, planilhas, cronogramas ou bancos no Not
 
 **Estado atual: preparação, estudo real ainda não iniciado.** Simplificar não revoga essa restrição nem registra respostas fictícias como desempenho do candidato.
 
+**Finalidade de seleção:** aprovação e classificação competitiva no concurso, em todas as etapas. Profundidade profissional entra quando necessária para resolver a cobrança, produzir o ato exigido, cobrir o edital ou aprender um pré-requisito. Preparar margens sobre os cortes e enfrentar os gargalos de cada fase; a ambição de gabaritar não autoriza aprofundar uma matéria indefinidamente enquanto outras ficam descobertas.
+
 ## Um ciclo, três tarefas úteis
 
 1. **Aprender:** explicação curta autossuficiente, fundamento, exemplo e contraste necessário.
@@ -20,12 +22,15 @@ Não executar seis leituras obrigatórias do mesmo conteúdo. MAP, MASTER, REVIE
 
 Primeiro percurso preservado: mapa das especialidades → art.236/delegação → regime geral → operações extrajudiciais simples. Base competitiva enferrujada; Notarial/Registral parte sem exposição prévia relevante. Fundamentos gerais entram quando necessários. Os recortes de afastamento e dúvida são ensaios da fábrica, não a primeira aula automática de um iniciante.
 
+Primeiro bloco concreto: `material/working/RG_NATUREZA_INGRESSO_V0.1.md`, derivado de `data/material/ingresso_v0.1.json`. Está em BUILD, com 8 regras e 5 exercícios, incluindo escrita e oral curtas. Ler `research/APROVACAO_PRIMEIRO_BLOCO_2026-09-13.md` para evidência de prova, rubricas, pesquisa e limites. Na sessão futura, expor somente a parte necessária e a pergunta, sem antecipar gabarito/repergunta. Uma peça completa entra no procedimento adequado, sem forçar esse formato em toda regra.
+
 ## Rotina diária
 
 - Retomar uma tarefa interrompida antes de abrir outra, rechecando o conteúdo.
 - Sem interrupção: selecionar uma dose de revisão vencida e um bloco novo estudável; ajustar ao tempo disponível. Sem duração combinada, 20 minutos é hipótese inicial de sessão curta, não preferência comprovada.
 - Se revisão ocupar repetidamente todo o tempo, reduzir entrada de novos cards, retirar duplicatas e investigar itens que falham; preservar avanço curricular. Não perseguir 100% de retenção por ansiedade.
 - Pergunta primeiro, resposta e feedback depois da tentativa. Consulta/pista fica separada de recuperação independente.
+- Preparar solução, fundamento e critérios antes de aplicar o exercício. Avaliação sem ajuda precisa ser distinta da prática assistida; sucesso durante explicação não demonstra transferência. Correção de escrita/oral aceita paráfrase correta, confere os elementos pedidos e detecta contradições, sem premiar fluência em lugar de conteúdo.
 - Ensinar conteúdo desconhecido antes de avaliar. Falha repetida pede mais suporte ou menor complexidade, além de verificar lacuna do material.
 - Ao parar, deixar registro conferido e primeira ação de retomada. Não exigir formulário de fechamento.
 

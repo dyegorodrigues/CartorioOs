@@ -13,7 +13,7 @@ Entrada estável: repositório `dyegorodrigues/CartorioOs`, branch `chatgpt/gx-c
 Comando humano: **“Continuar Cartório OS”**, opcionalmente com tempo disponível. Se uma conversa nova não localizar o projeto, consultar este [ponto de recuperação](https://github.com/dyegorodrigues/CartorioOs/blob/chatgpt/gx-cartorio-v0.1/docs/START_HERE.md). Isso não prova instalação automática nas instruções do projeto ChatGPT.
 
 ## Missão
-Construir um sistema de preparação que reduza a carga executiva do candidato e maximize domínio jurídico verificável. O sistema deve decidir **o que estudar, em que ordem, com qual profundidade, quando revisar e como testar**, preservando fora do chat todo conhecimento estrutural.
+Construir um sistema de preparação que reduza a carga executiva do candidato e produza domínio jurídico verificável para **aprovação e classificação competitiva em todas as etapas do concurso**. O sistema deve decidir **o que estudar, em que ordem, com qual profundidade, quando revisar e como testar**, preservando fora do chat o estado necessário. A profundidade serve à cobrança, à cobertura do edital e aos pré-requisitos; não à formação profissional enciclopédica.
 
 ## Princípios
 1. **Qualidade antes de velocidade.** Nenhum material é promovido a canônico sem revisão jurídica e checagem de fonte.

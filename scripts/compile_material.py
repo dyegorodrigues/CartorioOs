@@ -188,14 +188,14 @@ def render_sections(unit, data):
                                "\n\n".join(review), "\n\n".join(recall), "\n\n".join(cases))))
 
 
-def compile_documents(data):
+def compile_documents(data, source_label="data/material/pilot_recortes_v0.1.json"):
     validate(data)
     digest = fingerprint(data)
     documents = {}
     for unit in data["units"]:
         header = [f"# {unit['title']}", "**BUILD / NÃO VALIDADO / NÃO INICIAR ESTUDO.**",
                   f"Conferência legal delimitada: {data['checked_at']}. CURRENT_LAW; elegibilidade para edital específico não avaliada.",
-                  "Gerado por `scripts/compile_material.py` a partir de `data/material/pilot_recortes_v0.1.json`. Edite a fonte editorial e regenere; não edite esta derivação.",
+                  f"Gerado por `scripts/compile_material.py` a partir de `{source_label}`. Edite a fonte editorial e regenere; não edite esta derivação.",
                   f"Fingerprint semântico da fonte: `{digest}`.",
                   f"**Proveniência:** {unit['provenance']}", f"**Limites:** {unit['exclusions']}"]
         sections = render_sections(unit, data)
@@ -205,7 +205,9 @@ def compile_documents(data):
 
 
 def run(source=SOURCE, output=OUTPUT, check=False):
-    documents = compile_documents(json.loads(Path(source).read_text(encoding="utf-8")))
+    source = Path(source).resolve()
+    source_label = source.relative_to(ROOT).as_posix() if source.is_relative_to(ROOT) else source.as_posix()
+    documents = compile_documents(json.loads(source.read_text(encoding="utf-8")), source_label)
     output = Path(output)
     if check:
         stale = [name for name, content in documents.items()
@@ -222,9 +224,11 @@ def run(source=SOURCE, output=OUTPUT, check=False):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--check", action="store_true")
+    parser.add_argument("--source", type=Path, default=SOURCE)
+    parser.add_argument("--output", type=Path, default=OUTPUT)
     args = parser.parse_args()
     try:
-        count = run(check=args.check)
+        count = run(source=args.source, output=args.output, check=args.check)
     except (ValueError, KeyError, TypeError, OSError) as error:
         parser.exit(1, f"Material check failed: {error}\n")
     print(f"{count} BUILD documents {'verified' if args.check else 'generated'}; no learner release or S2 claim.")

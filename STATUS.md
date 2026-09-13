@@ -1,8 +1,20 @@
 # GX Cartório OS — Estado Atual
 
-Atualizado em 13/09/2026 — tutor simplificado e ensaio persistido de revisão/retomada.
+Atualizado em 13/09/2026 — primeiro bloco de conteúdo orientado à aprovação e revisão das evidências.
 
-## Checkpoint mais recente — rotina no ChatGPT
+## Checkpoint mais recente — aprovação e conteúdo inicial
+
+Objetivo reafirmado pelo usuário: aprovação e classificação competitiva em todas as etapas. Profundidade serve à cobrança, ao edital e aos pré-requisitos; não à formação profissional enciclopédica. O cockpit continua no ChatGPT, com uma tarefa por vez.
+
+Produzido `material/working/RG_NATUREZA_INGRESSO_V0.1.md`: 2 bases, 8 regras, 8 perguntas de recuperação e 5 casos autorais, incluindo escrita/oral curtas. Fonte: `data/material/ingresso_v0.1.json`. O gerador existente aceita fonte/saída explícitas e identifica corretamente o lote; não foi criada outra arquitetura.
+
+ENAC 2025.2 T1 Q36/C reconstruída com conferência de todas as alternativas; espelho TJES/FGV 2025 usado como evidência histórica de pontuação da peça, sem atribuir ao bloco capacidade de resolvê-la. Estudos primários de tutoria e seus repositórios reforçam a separação entre prática assistida e avaliação independente. Pesquisa, limites, fontes e rubricas: `research/APROVACAO_PRIMEIRO_BLOCO_2026-09-13.md`.
+
+**42 testes passaram; 3 hashes congelados preservados; os 2 derivados anteriores e o novo conferidos.** Conferência jurídica/editorial delimitada no mesmo contexto; zero novos passes independentes, sem S2 ou respostas do candidato. Estudo real ainda não iniciado.
+
+Próximo marco: revisar externamente o material concreto e fechar as evidências pendentes dos pilotos; concluir integração mínima de sessão/retomada já prevista. Não criar arquitetura adicional nem esperar reconstruir todo o universo de provas para preparar o primeiro piloto. O bloco novo é BUILD e será oferecido em partes, somente depois da liberação prevista.
+
+## Checkpoint anterior — rotina no ChatGPT
 
 Entrada única: `docs/START_HERE.md`. Contrato simplificado: `architecture/MINIMUM_VIABLE_TUTOR.md`. O candidato recebe uma tarefa por vez; não administra Notion/GitHub/decks nem percorre seis superfícies obrigatoriamente.
 

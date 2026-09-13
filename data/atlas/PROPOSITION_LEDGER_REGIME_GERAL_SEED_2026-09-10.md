@@ -103,3 +103,8 @@ Ainda S1 em construção. Multibanca melhorou, mas falta:
 - mais Vunesp/Consulplan;
 - reservar held-out antes de material learner-facing;
 - snapshot pós-696 futuro para confirmar novas tendências.
+# Materialização de ingresso — 13/09/2026
+
+Fonte editorial BUILD: `data/material/ingresso_v0.1.json`; derivação: `material/working/RG_NATUREZA_INGRESSO_V0.1.md`. Reutiliza `RG-NAT-001` e `RG-NAT-002`. O agrupador `RG-ING-014` é detalhado em `RG-ING-014-REQ`, `RG-ING-014-NAT`, `RG-ING-014-EXP` e `RG-ING-014-ORG`; não contar agrupador e filhos como ocorrências independentes. Complementos delimitados: `RG-ING-VAC-001` e `RG-ING-ENAC-001`.
+
+ENAC 2025.2 T1 Q36/C sustenta especificamente nacionalidade e ausência de três anos para bacharel. Outros detalhes têm fundamento normativo, sem atribuir a Q36 cobrança que não realizou. Relatório: `research/APROVACAO_PRIMEIRO_BLOCO_2026-09-13.md`. Sem nova frequência calculada, S2 ou desempenho do candidato.
