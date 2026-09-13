@@ -6,20 +6,15 @@ Retomar sem reabrir arquitetura, sem fingir validação e sem iniciar estudo pre
 ## Branch HOT
 `chatgpt/gx-cartorio-v0.1`
 
-## Mandato operacional
-Ler primeiro:
-1. `STATUS.md`
-2. `workflows/AUTONOMOUS_EXECUTION_PROTOCOL_2026-09-11.md`
-3. `material/EDITORIAL_STANDARD.md`
-4. `research/CARTORIO_EXAM_ATLAS_PROTOCOL_2026.md`
-5. `data/atlas/HELD_OUT_REGISTRY_REGIME_GERAL_V0.1_2026-09-10.md` (conteúdo interno v0.12)
-6. `research/REGIME_GERAL_HELD_OUT_VALIDATION_H7_TJSC_2023_2026-09-11.md`
-7. `research/REGIME_GERAL_RETEST_V02_H8_H9_2026-09-11.md`
-8. `data/atlas/DEPTH_BUDGET_REGIME_GERAL_V0.3_2026-09-11.md`
-9. `material/specimens/REGIME_GERAL_INTERNAL_FREEZE_V0.2_2026-09-11.md`
-10. `research/CARTORIO_EXAM_ATLAS_WAVE8_LRP_PROCEDURAL_CORE_2026-09-11.md`
-11. `data/atlas/DEPTH_BUDGET_LRP_RI_V0.1_2026-09-11.md`
-12. Freshness/ledgers conforme necessidade.
+## Retomada vigente — 13/09/2026
+
+Começar por `docs/START_HERE.md`, `STATUS.md` e `architecture/MINIMUM_VIABLE_TUTOR.md`. Ler demais documentos somente conforme a tarefa. O histórico abaixo preserva contexto, mas os checkpoints recentes e erratas prevalecem sobre conclusões antigas de PASS.
+
+Ensaio de revisão/retomada implementado com FSRS 6.3.2 e 12 testes novos; total 41. Checkpoint de 27 eventos fictícios salvo/relido no Notion e reconstituído em processo novo; retry idempotente. Evento 28 gravado/relido. Relatório: `research/TUTOR_MINIMO_VALIDACAO_2026-09-13.md`.
+
+Não migrar dados nem usar ensaio como learner state. Falta integração de Study Sessions/conversa nova e permanece a validação de conteúdo inicial. Não foi provada memória automática de projeto nem encerrada qualquer macro-rodada. Manter estudo bloqueado; não criar mais arquitetura como pré-condição adicional.
+
+Para trabalho jurídico, ler `material/EDITORIAL_STANDARD.md`, registros de exposição/held-out e fontes necessárias. Para operação, seguir `workflows/AUTONOMOUS_EXECUTION_PROTOCOL_2026-09-11.md`.
 
 ## Constraint autoral
 **NÃO INICIAR ESTUDO AINDA.** Usuário quer sistema/material provados antes. Não atribuir mastery.

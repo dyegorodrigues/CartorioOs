@@ -1,6 +1,10 @@
 # GX Cartório OS — Free Tooling Stack
 
-Atualizado em 09/09/2026.
+Atualizado em 13/09/2026.
+
+## Ensaio de revisão e retomada
+
+Adaptador interno de `py-fsrs` testado com dados fictícios e checkpoint em uma página de ensaio no Notion. Não houve migração, novo data plane de produção ou sincronização com Anki. GitHub guarda código/políticas/resultados técnicos; histórico pessoal permanece fora do repositório público. Ver `architecture/MINIMUM_VIABLE_TUTOR.md`.
 
 ## Regra de produto
 O GX deve funcionar sem exigir assinatura adicional do usuário.

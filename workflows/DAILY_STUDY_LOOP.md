@@ -1,6 +1,12 @@
 # Workflow Diário — `Começar`
 
-Atualizado em 10/09/2026.
+Atualizado em 13/09/2026.
+
+## Contrato operacional vigente
+
+Aplicar `architecture/MINIMUM_VIABLE_TUTOR.md` e entrar por `docs/START_HERE.md`. As etapas abaixo são responsabilidades internas, não lista para o candidato ou seis leituras obrigatórias. Pergunta antes do gabarito; retomar tarefa pendente antes de outra. Persistir em blocos curtos e conferir leitura, sem depender apenas do encerramento.
+
+FSRS cuida da revisão de cards expostos; seleção curricular é separada. A implementação atual é ensaio fictício, não fila real. Não inferir retenção, confiança, latência ou mastery sem evidência. Estudo aguarda o gate existente.
 
 ## Objetivo
 Permitir que o candidato inicie uma sessão sem decidir matéria, material ou método, preservando avanço curricular, revisão, objetiva permanente e produção progressiva sem avalanche de tarefas.

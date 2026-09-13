@@ -1,8 +1,18 @@
 # GX Cartório OS — Estado Atual
 
-Atualizado em 12/09/2026 — reconstrução das três questões FGV e correção da explicação sancionatória.
+Atualizado em 13/09/2026 — tutor simplificado e ensaio persistido de revisão/retomada.
 
-## Entrega mais recente — prova, fundamento e ensino
+## Checkpoint mais recente — rotina no ChatGPT
+
+Entrada única: `docs/START_HERE.md`. Contrato simplificado: `architecture/MINIMUM_VIABLE_TUTOR.md`. O candidato recebe uma tarefa por vez; não administra Notion/GitHub/decks nem percorre seis superfícies obrigatoriamente.
+
+Implementado ensaio `scripts/review_runtime.py` com `fsrs==6.3.2`: revisão calculada, eventos idempotentes, tarefa pendente, fila curta e conteúdo/versionamento. **41 testes passaram, 12 novos.** Checkpoint fictício de 27 eventos gravado no Notion, relido e recuperado em processo novo; retry não duplicou. Evento 28 gravado e conferido. Detalhes e hashes: `research/TUTOR_MINIMO_VALIDACAO_2026-09-13.md`.
+
+Só dados fictícios, em página de ensaio separada de Study Sessions. **Não há fila pessoal calibrada, integração de sessão real, corretor jurídico automático ou teste em nova conversa ChatGPT concluído.** Sem mudança de data plane, liberação de estudo, S2 ou mastery. Memória nativa não substitui registros; não foi instalada/verificada instrução de projeto pela ferramenta.
+
+Próximo trabalho: conteúdo inicial/validações externas já pendentes e integração mínima com Study Sessions, seguida de aceitação em conversa nova. Não abrir nova arquitetura, dashboard ou migração. O roadmap continua válido; esta entrega antecipa ensaio mecânico da rotina, sem alegar conclusão das macro-rodadas anteriores.
+
+## Entrega anterior — prova, fundamento e ensino
 
 Reconstruídas as 15 alternativas de TJES/FGV 2025 Remoção T1 Q20/C e Q22/B e Provimento T1 Q15/E. Relatório: `research/FGV_TJES_THREE_QUESTIONS_RECONSTRUCTED_2026-09-12.md`; índice com referências aos nós e hashes dos PDFs: `data/atlas/FGV_TJES_RECONSTRUCTION_INDEX_2026-09-12.json`.
 

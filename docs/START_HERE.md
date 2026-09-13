@@ -1,5 +1,17 @@
 # START HERE — GX Cartório OS
 
+## Retomada rápida — 13/09/2026
+
+Entrada estável: repositório `dyegorodrigues/CartorioOs`, branch `chatgpt/gx-cartorio-v0.1`; não supor a branch padrão.
+
+1. Ler `STATUS.md`, priorizando o checkpoint mais recente. Em preparação, continuar preparação; não iniciar estudo nem inventar desempenho.
+2. Ler `architecture/MINIMUM_VIABLE_TUTOR.md`. Outros documentos conforme a tarefa; não abrir todo o histórico a cada retomada.
+3. Buscar o [Command Center no Notion](https://app.notion.com/p/3d442424cdbc81b4bac1f5a92ebe5e0f) e episódio pertinente. Ensaios fictícios não integram desempenho/Study Sessions.
+4. Com estudo liberado: verificar salvamento/versão/freshness, retomar tarefa pendente ou entregar próxima ação. Pergunta antes do gabarito. O candidato não administra ferramentas.
+5. Persistir em blocos curtos e conferir leitura antes de anunciar salvo. Sem acesso, declarar o limite e não simular retomada personalizada.
+
+Comando humano: **“Continuar Cartório OS”**, opcionalmente com tempo disponível. Se uma conversa nova não localizar o projeto, consultar este [ponto de recuperação](https://github.com/dyegorodrigues/CartorioOs/blob/chatgpt/gx-cartorio-v0.1/docs/START_HERE.md). Isso não prova instalação automática nas instruções do projeto ChatGPT.
+
 ## Missão
 Construir um sistema de preparação que reduza a carga executiva do candidato e maximize domínio jurídico verificável. O sistema deve decidir **o que estudar, em que ordem, com qual profundidade, quando revisar e como testar**, preservando fora do chat todo conhecimento estrutural.
 
