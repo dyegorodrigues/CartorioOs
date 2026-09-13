@@ -25,6 +25,20 @@
       "url": "https://conhecimento.fgv.br/sites/default/files/concursos/minuta-edital-enac-2026.2-27.08.26-versao-final.pdf",
       "scope": "Itens 1.3.1, 3.10–3.11 e Anexo I N/R 1 e 1.7; referência atual, sem presumir edital-alvo de 2027.",
       "checked_at": "2026-09-13"
+    },
+    {
+      "id": "LEI-8935-REGIME",
+      "title": "Lei 8.935/1994 — atribuições, deveres e disciplina",
+      "url": "https://www.planalto.gov.br/ccivil_03/leis/l8935.htm",
+      "scope": "Arts.5º–13,27,29–31,35 caput; texto atual dos dispositivos delimitados, sem certificar toda regulação CNJ/local.",
+      "checked_at": "2026-09-13"
+    },
+    {
+      "id": "CC-PARENTESCO",
+      "title": "Código Civil — linhas e graus de parentesco",
+      "url": "https://www.planalto.gov.br/ccivil_03/leis/2002/l10406compilada.htm",
+      "scope": "Arts.1.591–1.595; exemplos de contagem consanguínea e limites próprios da afinidade.",
+      "checked_at": "2026-09-13"
     }
   ],
   "units": [
@@ -257,6 +271,439 @@
           "from": "RG-ING-ENAC-001",
           "type": "confusable_with",
           "to": "RG-ING-014-EXP"
+        }
+      ]
+    },
+    {
+      "id": "RG-ESPECIALIDADES-01",
+      "title": "Quem faz o quê — especialidades e limites de atuação",
+      "filename": "RG_ESPECIALIDADES_V0.1.md",
+      "scope": "Mapa inicial das especialidades e atribuições da Lei 8.935; núcleo para distinguir titular competente, finalidade do ato, exclusividade, território e condições de atuação. Cobertura orientadora: Regime jurídico e especialidades de N/R no edital atual. Ensino em partes; nenhuma frequência numérica atribuída.",
+      "exclusions": "Não esgota os atos de cada especialidade, competências eletrônicas, regras locais, acumulação/desacumulação ou procedimentos de mediação/arbitragem. O mapa não serve para decidir toda competência territorial ou registral. A regra já materializada RG-ATTR-AUTH-001 continua no recorte anterior e é referenciada, sem novo lar canônico.",
+      "provenance": "Questões conhecidas: ENAC 2025.1 T1 Q50/C e ENAC 2025.2 T1 Q29/D, conferidas nesta entrega. Art. 5º e contrastes dos arts. 8º/12 são expansão normativa de apoio. Comentários completos e fontes em research/REGIME_GERAL_SEIS_QUESTOES_2026-09-13.md.",
+      "foundations": [
+        {
+          "id": "RG-BASE-ATO",
+          "title": "Identifique o ato pedido, não apenas o objeto mencionado",
+          "text": "Uma dívida pode aparecer em documentos de várias especialidades. A palavra documento, sozinha, não torna o caso de Registro de Títulos e Documentos (RTD); a palavra imóvel, sozinha, não torna todo ato um registro imobiliário. Primeiro pergunte o que se pretende produzir: escritura, reconhecimento de assinatura, registro ou prova do descumprimento de uma obrigação. Depois localize a atribuição legal."
+        }
+      ],
+      "propositions": [
+        {
+          "id": "RG-ESPEC-005",
+          "title": "Mapa das especialidades",
+          "depth": "P1",
+          "source_ids": [
+            "LEI-8935-REGIME"
+          ],
+          "locator": "Art. 5º; arts. 6º–13",
+          "rule": "O art. 5º enumera sete grupos de titulares: notas; contratos marítimos; protesto; imóveis; títulos e documentos e pessoas jurídicas; pessoas naturais e interdições/tutelas; distribuição.",
+          "explanation": "Para se localizar: Notas formaliza e autentica nos termos dos arts. 6º–7º; Protesto atua sobre documentos de dívida no regime do art. 11; Registro de Imóveis (RI), Registro de Títulos e Documentos (RTD), Registro Civil de Pessoas Jurídicas (RCPJ) e Registro Civil de Pessoas Naturais (RCPN) praticam os atos que a legislação registral lhes atribui. Contratos marítimos têm o rol próprio do art. 10; distribuição atende ao art. 13. RTD e RCPJ aparecem juntos no inciso V, mas não são conceitos intercambiáveis. Não transformar a contagem de incisos em afirmação de que existem exatamente sete espécies de atos ou sete prédios de cartório. O detalhamento de cada procedimento virá no módulo pertinente.",
+          "recall_question": "Quais são os grupos do art. 5º e por que RTD e RCPJ não devem ser tratados como um único tipo de ato?"
+        },
+        {
+          "id": "RG-NOT-007-IV",
+          "title": "Função notarial e reconhecimento de firma",
+          "depth": "P1",
+          "source_ids": [
+            "LEI-8935-REGIME"
+          ],
+          "locator": "Arts. 6º, 7º caput e I–IV; contraste com art. 7º-A caput",
+          "rule": "A função notarial abrange formalizar juridicamente a vontade, intervir nos atos e negócios nos termos legais e autenticar fatos. Entre as competências exclusivas do tabelião de notas no art. 7º estão escrituras/procurações públicas, testamentos públicos/aprovação de cerrados, atas notariais e reconhecimento de firmas.",
+          "explanation": "O reconhecimento de firma é o ato relativo à assinatura. Não confundir com autenticação de cópia: esta última, e a comparação com quitação em Protesto, têm regra própria já ensinada em [RG-ATTR-AUTH-001](RG_AFASTAMENTO_INTERVENCAO_V0.1.md#rg-attr-auth-001). Aqui a palavra decisiva é exclusividade no rol do art. 7º. Isso não significa que toda atividade permitida a notas seja exclusiva: o art. 7º-A prevê atividades sem exclusividade, cujo procedimento fica fora deste bloco. Há também atribuições específicas marítimas no art. 10; não estender uma conclusão além da hipótese examinada.",
+          "recall_question": "Reconhecer firmas, no rol do art. 7º, é competência de qual especialidade e com qual qualificador?"
+        },
+        {
+          "id": "RG-NOT-007-DIL",
+          "title": "Diligências preparatórias e custo",
+          "depth": "P1",
+          "source_ids": [
+            "LEI-8935-REGIME"
+          ],
+          "locator": "Art.7º § 1º",
+          "rule": "O tabelião de notas pode realizar gestões e diligências necessárias ou convenientes ao preparo do ato, requerendo o que couber, sem ônus maiores que os emolumentos devidos por esse ato.",
+          "explanation": "Não separar a autorização de diligenciar do limite que a acompanha. A utilidade ou necessidade da diligência não cria, por si, uma cobrança adicional autorizada por esse parágrafo. Emolumentos são a remuneração legal dos atos; o valor e o regime da tabela exigem o módulo próprio. Este recorte não formula tese sobre toda despesa ou tributo que possa existir em um negócio.",
+          "recall_question": "O art. 7º § 1º permite acrescentar ônus aos emolumentos apenas porque a diligência preparatória foi necessária?"
+        },
+        {
+          "id": "RG-NOT-007-TEST",
+          "title": "Pessoa com deficiência e testemunhas",
+          "depth": "P1",
+          "source_ids": [
+            "LEI-8935-REGIME"
+          ],
+          "locator": "Art.7º § 2º",
+          "rule": "É vedado exigir testemunhas apenas porque o ato envolve pessoa com deficiência, salvo disposição em contrário.",
+          "explanation": "Observe a causa da exigência: a deficiência, isoladamente, não justifica acrescentar testemunhas. A ressalva preserva disposições específicas aplicáveis ao ato. Por isso a regra não equivale a abolir testemunhas de todos os atos em que participe pessoa com deficiência. No caso, investigar a existência de outra previsão é diferente de presumir uma incapacidade ou formalidade adicional.",
+          "recall_question": "A deficiência, por si só, permite exigir testemunhas? O que a ressalva legal preserva?"
+        },
+        {
+          "id": "RG-NOT-007-CONV",
+          "title": "Outros serviços remunerados por convênio",
+          "depth": "P1",
+          "source_ids": [
+            "LEI-8935-REGIME"
+          ],
+          "locator": "Art.7º § 5º",
+          "rule": "A lei autoriza outros serviços remunerados na forma de convênio com órgãos públicos, entidades e empresas interessadas, respeitados os requisitos de forma do Código Civil.",
+          "explanation": "A autorização tem condições: convênio pertinente e respeito à forma legal. O dispositivo não limita os parceiros a órgãos públicos nem formula proibição geral de empresas privadas. Também não permite concluir que qualquer contrato privado afaste as exigências do ato. Saber a classe de parceiro admitida é suficiente para o distrator examinado; a contratação concreta exige outras regras.",
+          "recall_question": "Os convênios do art. 7º § 5º estão restritos a órgãos públicos? Qual limite de forma permanece?"
+        },
+        {
+          "id": "RG-NOT-TERR-008",
+          "title": "Escolha do tabelião e local de atuação",
+          "depth": "P1",
+          "source_ids": [
+            "LEI-8935-REGIME"
+          ],
+          "locator": "Arts.8º–9º",
+          "rule": "A escolha do tabelião de notas é livre, independentemente do domicílio das partes ou da localização dos bens. O tabelião não pode praticar atos de seu ofício fora do município da delegação.",
+          "explanation": "São duas liberdades distintas: a pessoa pode escolher o tabelião; o tabelião não ganha, por isso, autorização para atuar fisicamente em outro município. Se uma pessoa domiciliada em A comparece ao tabelionato em B, sua origem não impede a escolha. Já deslocar o tabelião de B para praticar ato em A é outra hipótese. A lei não amplia automaticamente o território aos municípios vizinhos. Atos eletrônicos e suas normas específicas não são avaliados por este exemplo presencial.",
+          "recall_question": "O que é livre para o usuário e qual limite municipal continua incidindo sobre a atuação do tabelião?"
+        },
+        {
+          "id": "RG-COMP-011",
+          "title": "Documento de dívida para prova de descumprimento",
+          "depth": "P1",
+          "source_ids": [
+            "LEI-8935-REGIME"
+          ],
+          "locator": "Art. 11, I",
+          "rule": "Compete privativamente ao tabelião de protesto protocolar de imediato documentos de dívida para prova do descumprimento da obrigação.",
+          "explanation": "O que define esta hipótese é a finalidade jurídica indicada, não apenas existir um documento. Protocolar é receber e lançar a apresentação no controle pertinente; não significa que o protesto já foi lavrado. O art. 11 distingue protocolo, intimação, recebimento e lavratura. Não deduza do protocolo imediato que todas as demais etapas possam ser puladas.",
+          "recall_question": "Qual especialidade protocola o documento de dívida para prova do descumprimento, e esse protocolo já equivale à lavratura do protesto?"
+        },
+        {
+          "id": "RG-REG-012",
+          "title": "Registro, distribuição e circunscrição",
+          "depth": "P1",
+          "source_ids": [
+            "LEI-8935-REGIME"
+          ],
+          "locator": "Arts.11 parágrafo único,12 e13I",
+          "rule": "Os oficiais mencionados no art. 12 praticam os atos previstos na legislação registral independentemente de prévia distribuição; RI e RCPN se sujeitam às normas de circunscrição geográfica. Havendo mais de um tabelião de protestos na mesma localidade, o art. 11 exige distribuição prévia dos títulos.",
+          "explanation": "Distribuição é a alocação prévia de demandas entre serviços; circunscrição é a delimitação territorial aplicável. Uma regra não substitui a outra. Não copiar a livre escolha de Notas para RI/RCPN. O registro de distribuição tem atribuição própria quando a distribuição é exigida, conforme art. 13. A competência detalhada de cada ato registral depende da legislação específica.",
+          "recall_question": "Por que a regra de distribuição do Protesto não pode ser aplicada indistintamente a RI e RCPN?"
+        }
+      ],
+      "cases": [
+        {
+          "id": "GX-ESPEC-01",
+          "question": "Caso autoral. Um credor pede a protocolização de um documento de dívida para provar o descumprimento da obrigação. O atendente escolhe RTD apenas porque se trata de um documento. A escolha decorre corretamente da Lei 8.935? Indique a especialidade e explique por que a finalidade importa.",
+          "answer": "Não. A hipótese descrita pertence privativamente ao tabelião de protesto.",
+          "reasoning": "Art. 11, I: finalidade de prova do descumprimento e protocolo imediato. A palavra documento não decide a especialidade. Exigir os dois elementos — sujeito e finalidade — na explicação. Não exigir procedimento completo de protesto neste caso.",
+          "proposition_ids": [
+            "RG-COMP-011",
+            "RG-ESPEC-005"
+          ],
+          "editorial_review": {
+            "kind": "SAME_CONTEXT_EDITORIAL",
+            "checked_at": "2026-09-13",
+            "fingerprint": "6ec97eaef0fce119b8030c52c202c2dafab37a75f9ab1f93fd6fb1f6a9c10f3f"
+          }
+        },
+        {
+          "id": "GX-ESPEC-02",
+          "question": "Caso autoral presencial. Uma pessoa domiciliada em Alfa vai ao tabelionato de Beta para praticar ato relativo a bem situado em Gama. O tabelião de Beta afirma que não pode ser escolhido, mas que poderia ir a Alfa atuar porque os municípios são vizinhos. Avalie as duas afirmações apenas pelos arts. 8º–9º.",
+          "answer": "As duas afirmações estão erradas: o domicílio e a situação do bem não impedem a escolha; a vizinhança não amplia o município de atuação.",
+          "reasoning": "Na primeira parte, a pessoa compareceu a Beta. Na segunda, quem se deslocaria é o tabelião. Essa mudança de sujeito altera a análise. Não extrapolar o caso presencial para competência eletrônica.",
+          "proposition_ids": [
+            "RG-NOT-TERR-008"
+          ],
+          "editorial_review": {
+            "kind": "SAME_CONTEXT_EDITORIAL",
+            "checked_at": "2026-09-13",
+            "fingerprint": "68e2c939b718ef53d26de9c8780f55449788c55505e8d944ef70787b50218db3"
+          }
+        },
+        {
+          "id": "GX-ESPEC-03",
+          "question": "Caso autoral. Sem indicar qualquer outra disposição aplicável, o tabelionato exige testemunhas unicamente porque uma das pessoas tem deficiência. Para preparar o mesmo ato, pretende cobrar valor superior aos emolumentos devidos apenas por ter realizado diligência conveniente. Julgue separadamente as duas exigências.",
+          "answer": "As duas exigências contrariam os limites dos §§ 1º–2º do art. 7º nas premissas apresentadas.",
+          "reasoning": "A primeira acrescenta testemunhas pela deficiência isolada; a segunda usa a diligência como autorização de ônus maior. A ressalva sobre testemunhas não autoriza inventar disposição contrária. Não estender o resultado a tributos ou despesas de natureza distinta não narrados.",
+          "proposition_ids": [
+            "RG-NOT-007-TEST",
+            "RG-NOT-007-DIL"
+          ],
+          "editorial_review": {
+            "kind": "SAME_CONTEXT_EDITORIAL",
+            "checked_at": "2026-09-13",
+            "fingerprint": "79fc57deddd8d9aca70ffef4ce989d45fdb21e8a2e35f7db554cfe615bd0e5e7"
+          }
+        },
+        {
+          "id": "GX-ESPEC-04",
+          "question": "Produção curta autoral. Explique por que o reconhecimento de firmas está no rol exclusivo de Notas e por que isso não demonstra que toda atividade que a lei permite ao tabelião seja exclusiva.",
+          "answer": "O art. 7º inclui o reconhecimento de firmas no rol exclusivo; há outras atividades autorizadas sem exclusividade no art. 7º-A.",
+          "reasoning": "Conferir delimitação do rol e ausência de generalização. Aceitar paráfrase. Não exigir procedimento de mediação/arbitragem, cujo conteúdo não foi ensinado.",
+          "proposition_ids": [
+            "RG-NOT-007-IV"
+          ],
+          "editorial_review": {
+            "kind": "SAME_CONTEXT_EDITORIAL",
+            "checked_at": "2026-09-13",
+            "fingerprint": "5941229a6b8985f07e0ce4b83b997a8fb4ac3b567f410f6714c6220777e1d368"
+          }
+        }
+      ],
+      "edges": [
+        {
+          "from": "RG-COMP-011",
+          "type": "requires",
+          "to": "RG-BASE-ATO"
+        },
+        {
+          "from": "RG-NOT-TERR-008",
+          "type": "confusable_with",
+          "to": "RG-REG-012"
+        },
+        {
+          "from": "RG-NOT-007-IV",
+          "type": "requires",
+          "to": "RG-ESPEC-005"
+        },
+        {
+          "from": "RG-COMP-011",
+          "type": "confusable_with",
+          "to": "RG-NOT-007-IV"
+        }
+      ]
+    },
+    {
+      "id": "RG-CONDUTA-01",
+      "title": "Direitos, deveres e impedimentos — o que muda a resposta",
+      "filename": "RG_DIREITOS_IMPEDIMENTOS_V0.1.md",
+      "scope": "Direitos dos arts. 29I–II, deveres selecionados do art. 30, impedimento pessoal do art. 27 e contagem básica de parentesco para aplicá-lo. Conteúdo correspondente às famílias de questões efetivamente examinadas; não esgota o regime de conduta.",
+      "exclusions": "Não cobre integralmente os quinze deveres do art. 30, incompatibilidades do art. 25, impedimentos de prepostos, todos os efeitos da afinidade, casos de união estável ou conflitos de interesse regidos por outras fontes. A ausência do impedimento específico não é autorização geral de um ato.",
+      "provenance": "ENAC 2025.1 T1 Q39/B e ENAC 2026.1 T1 Q51/E e Q53/C. A contagem de parentesco é fundamento auxiliar do Código Civil, sem segunda incidência contada para a mesma questão. IDs de direitos, dever e impedimento reutilizam o ledger existente.",
+      "foundations": [
+        {
+          "id": "RG-BASE-CONDUTA",
+          "title": "Direito, dever e impedimento respondem a perguntas diferentes",
+          "text": "Direito é uma prerrogativa reconhecida ao titular; dever é uma conduta exigida; impedimento é uma vedação de atuar em determinada situação. Uma atividade pode ser juridicamente correta e, mesmo assim, não responder a uma pergunta sobre direitos, por pertencer à lista de deveres. Leia a categoria pedida antes de procurar uma frase familiar."
+        }
+      ],
+      "propositions": [
+        {
+          "id": "RG-DIR-029I",
+          "title": "Direito de opção",
+          "depth": "P1",
+          "source_ids": [
+            "LEI-8935-REGIME"
+          ],
+          "locator": "Art.29I",
+          "rule": "O notário ou registrador tem direito de exercer opção nos casos de desmembramento ou desdobramento de sua serventia.",
+          "explanation": "Para este recorte, desmembramento/desdobramento indicam formas de reorganização do serviço. A lei reconhece uma prerrogativa de opção nesse contexto; os critérios concretos da reorganização não estão resolvidos por essa frase. Não confundir o direito de opção com um dever operacional, como emitir recibo ou fiscalizar recolhimento de imposto.",
+          "recall_question": "Exercer opção em desmembramento/desdobramento é direito ou dever, e qual é a hipótese legal?"
+        },
+        {
+          "id": "RG-DIR-029II",
+          "title": "Associações e sindicatos",
+          "depth": "P1",
+          "source_ids": [
+            "LEI-8935-REGIME"
+          ],
+          "locator": "Art.29II",
+          "rule": "É direito organizar associações ou sindicatos de classe e deles participar.",
+          "explanation": "As duas formas organizativas são admitidas pela redação legal. Trocar o texto por proibição de uma delas altera a regra. Não importar, por analogia, uma restrição de outra categoria profissional. Neste momento, a pergunta é sobre a existência do direito; organização interna e funcionamento ficam fora do bloco.",
+          "recall_question": "A lei autoriza associação, sindicato ou somente uma dessas formas?"
+        },
+        {
+          "id": "RG-DEV-030V",
+          "title": "Dignificar a função também na vida privada",
+          "depth": "P1",
+          "source_ids": [
+            "LEI-8935-REGIME"
+          ],
+          "locator": "Art.30V",
+          "rule": "O dever de proceder de forma a dignificar a função alcança tanto as atividades profissionais quanto a vida privada.",
+          "explanation": "O limite não coincide com a porta do cartório nem apenas com o horário de atendimento. Isso não significa que toda conduta privada seja infração ou que a pena seja automática: a avaliação do fato e do regime disciplinar é própria. Para o item estudado, basta preservar os dois âmbitos da regra.",
+          "recall_question": "Em quais dois âmbitos incide o dever de dignificar a função?"
+        },
+        {
+          "id": "RG-DEV-030-RECIBO-DUVIDA",
+          "title": "Deveres operacionais: tabela, recibo e dúvida",
+          "depth": "P1",
+          "source_ids": [
+            "LEI-8935-REGIME"
+          ],
+          "locator": "Art.30VIII,IX eXIII",
+          "rule": "São deveres observar os emolumentos fixados, dar recibo dos emolumentos percebidos e encaminhar ao juízo competente as dúvidas levantadas pelos interessados segundo a sistemática legal.",
+          "explanation": "São obrigações no exercício do serviço, ainda que sua execução também assegure direitos ao usuário. A palavra dúvida aqui aponta para o procedimento jurídico pertinente, não para qualquer pergunta informal no balcão. O procedimento de dúvida registral tem ensino próprio em [RI — exigência e dúvida](RI_DUVIDA_V0.1.md); não é preciso reaprendê-lo para classificar este inciso.",
+          "recall_question": "Observar emolumentos, emitir recibo e encaminhar a dúvida legal são direitos do titular ou deveres?"
+        },
+        {
+          "id": "RG-DEV-030XI",
+          "title": "Fiscalizar o recolhimento de impostos",
+          "depth": "P1",
+          "source_ids": [
+            "LEI-8935-REGIME"
+          ],
+          "locator": "Art.30XI",
+          "rule": "O notário e o registrador devem fiscalizar o recolhimento dos impostos incidentes sobre os atos que devem praticar.",
+          "explanation": "A regra descreve dever ligado ao ato. Não conclua, somente por ela, quem é o contribuinte, qual imposto incide ou se há responsabilidade tributária do titular: essas perguntas exigem normas tributárias próprias. Assim a conexão com Tributário serve a uma decisão concreta, sem repetir um curso inteiro de tributos.",
+          "recall_question": "Fiscalizar o recolhimento dos impostos incidentes no ato é direito ou dever? O inciso define sozinho quem deve o tributo?"
+        },
+        {
+          "id": "CIV-PAR-1594",
+          "title": "Como contar o parentesco usado na questão",
+          "depth": "P1",
+          "source_ids": [
+            "CC-PARENTESCO"
+          ],
+          "locator": "CC arts. 1.591–1.595",
+          "rule": "Na linha reta, contam-se as gerações entre ascendentes e descendentes. Na colateral, sobe-se até o ascendente comum e desce-se até o outro parente, contando cada geração.",
+          "explanation": "Exemplos consanguíneos: pai/filho =1; avô/neto =2; irmãos =2; tio/sobrinho =3; primos-irmãos (filhos de irmãos) =4. De uma pessoa ao seu primo-irmão: pai/mãe (1), avô/avó comum (2), tio/tia (3), primo/prima (4). O ascendente comum não deve ser contado duas vezes. Afinidade tem regra própria no art. 1.595; não transportar automaticamente todos esses exemplos para parentes do cônjuge.",
+          "recall_question": "Qual é o percurso para contar tio/sobrinho e primos-irmãos, e quais graus resultam?"
+        },
+        {
+          "id": "RG-IMP-027",
+          "title": "Impedimento para a prática pessoal do ato",
+          "depth": "P1",
+          "source_ids": [
+            "LEI-8935-REGIME"
+          ],
+          "locator": "Arts.27 e31I",
+          "rule": "No serviço de que é titular, o notário ou registrador não pode praticar pessoalmente ato de interesse próprio, do cônjuge ou de parentes em linha reta ou colateral, consanguíneos ou afins, até o terceiro grau.",
+          "explanation": "O terceiro grau está incluído. A vedação não depende de vantagem ilícita recebida: o vínculo e o interesse descritos já importam para a regra. Por outro lado, um primo-irmão consanguíneo de quarto grau fica fora deste impedimento específico, sem que isso dispense verificar outros conflitos ou requisitos. A expressão pessoalmente deve ser preservada; o artigo não autoriza simulação, fraude ou uso de terceiros para burlar impedimentos. Não deduzir dele a regularidade de todo ato praticado por preposto.",
+          "recall_question": "Que vínculos e limite de grau impedem a prática pessoal do ato, e a regra exige vantagem ilícita?"
+        }
+      ],
+      "cases": [
+        {
+          "id": "GX-COND-01",
+          "question": "Caso autoral. Um roteiro chama de direitos do titular emitir recibo, observar a tabela e fiscalizar os impostos do ato. Em seguida chama de dever a opção em desmembramento da serventia. A classificação está correta? Corrija os quatro itens.",
+          "answer": "Não. Os três primeiros são deveres; a opção no desmembramento é direito.",
+          "reasoning": "Exigir classificação por fundamento, não pela utilidade social da conduta. Bases: art. 30VIII,IX,XI eart.29I. Se a pessoa acerta apenas parte, registrar quais foram confundidos; não atribuir erro global de atenção.",
+          "proposition_ids": [
+            "RG-DIR-029I",
+            "RG-DEV-030-RECIBO-DUVIDA",
+            "RG-DEV-030XI"
+          ],
+          "editorial_review": {
+            "kind": "SAME_CONTEXT_EDITORIAL",
+            "checked_at": "2026-09-13",
+            "fingerprint": "bfdd074e08fa4aebd52cc905b0c69f8de9ef2437bea8beb0fedfd12c7d6fd37b"
+          }
+        },
+        {
+          "id": "GX-COND-02",
+          "question": "Caso autoral. Um titular afirma: 'Posso organizar sindicato, mas a lei proíbe associação; devo dignificar a função, porém só durante a atividade profissional'. Quais correções são necessárias?",
+          "answer": "A lei admite tanto associações quanto sindicatos de classe e participação; o dever alcança também a vida privada.",
+          "reasoning": "Há dois erros independentes. Acertar um não basta para validar a frase composta. A correção não afirma que toda conduta privada leve automaticamente a sanção.",
+          "proposition_ids": [
+            "RG-DIR-029II",
+            "RG-DEV-030V"
+          ],
+          "editorial_review": {
+            "kind": "SAME_CONTEXT_EDITORIAL",
+            "checked_at": "2026-09-13",
+            "fingerprint": "356094eccd597d9b33b0c09ed37a310a66a673c838e9bdcb2fd0ac59e1266ef9"
+          }
+        },
+        {
+          "id": "GX-COND-03",
+          "question": "Caso autoral. Um notário pretende praticar pessoalmente ato de interesse de seu sobrinho consanguíneo. Não receberá vantagem ilícita. Calcule o parentesco e aplique o art. 27. Depois explique o que mudaria se fosse interesse de seu primo-irmão consanguíneo.",
+          "answer": "Sobrinho é colateral de terceiro grau e está incluído no impedimento; a ausência de vantagem não o elimina. Primo-irmão é quarto grau e fica fora desse impedimento específico.",
+          "reasoning": "Contagem do sobrinho: ascendente comum (avô do sobrinho/pai do notário), irmão/irmã do notário, sobrinho: três gerações a partir do notário. Exigir grau, inclusão no limite e papel irrelevante da vantagem para a vedação. Na variação, não concluir autorização geral nem ignorar outros requisitos.",
+          "proposition_ids": [
+            "CIV-PAR-1594",
+            "RG-IMP-027"
+          ],
+          "editorial_review": {
+            "kind": "SAME_CONTEXT_EDITORIAL",
+            "checked_at": "2026-09-13",
+            "fingerprint": "939afe16af874e58df63949434d6dea0f69adb5d870af670b2858851f9a0506f"
+          }
+        },
+        {
+          "id": "GX-COND-04",
+          "question": "Oral curta autoral. Explique por que saber que 'tio é terceiro grau' não basta para resolver toda questão sobre impedimento do titular. Diga o que ainda precisa conferir no caso.",
+          "answer": "É preciso conferir quem pratica o ato, se a atuação é pessoal, de quem é o interesse, o vínculo aplicável e o limite legal, além de outras regras pertinentes ao caso.",
+          "reasoning": "Aceitar resposta que preserve sujeito, atuação pessoal e interesse alcançado. Fluência sem essas condições não demonstra aplicação. A pergunta não exige decidir situações de prepostos ou companheiros, excluídas do bloco.",
+          "proposition_ids": [
+            "RG-IMP-027",
+            "CIV-PAR-1594"
+          ],
+          "editorial_review": {
+            "kind": "SAME_CONTEXT_EDITORIAL",
+            "checked_at": "2026-09-13",
+            "fingerprint": "e29d6b865e871a8f905e132749b59b7126c5cb8a12face6ea31946d59c8e1a8f"
+          }
+        }
+      ],
+      "edges": [
+        {
+          "from": "RG-DIR-029I",
+          "type": "confusable_with",
+          "to": "RG-DEV-030-RECIBO-DUVIDA"
+        },
+        {
+          "from": "RG-DIR-029II",
+          "type": "confusable_with",
+          "to": "RG-DEV-030V"
+        },
+        {
+          "from": "RG-IMP-027",
+          "type": "requires",
+          "to": "CIV-PAR-1594"
+        },
+        {
+          "from": "RG-IMP-027",
+          "type": "requires",
+          "to": "RG-BASE-CONDUTA"
+        }
+      ]
+    },
+    {
+      "id": "RG-PERDA-01",
+      "title": "Perda da delegação — decisão final e proteção durante a apuração",
+      "filename": "RG_PERDA_DELEGACAO_V0.1.md",
+      "scope": "Hipóteses legais do art. 35 caput e ligação expressa com o afastamento do § 1º já ensinado no recorte anterior. Preparação para objetiva e resposta escrita curta; não é todo o processo disciplinar.",
+      "exclusions": "Não cobre todo o procedimento, competências locais/CNJ, recursos, medidas judiciais de controle ou a classificação de toda infração. O afastamento do § 1º tem fonte editorial existente: não duplicar sua regra em novo ID.",
+      "provenance": "RG-LOSS-035 reutiliza o agrupador do ledger, agora materializado. ENAC 2025.2 T1 Q43/B conferida com gabarito definitivo; A/D exigem também RG-LOSS-035-AFASTAMENTO, já presente no workbook de afastamento.",
+      "foundations": [
+        {
+          "id": "RG-BASE-PERDA",
+          "title": "Investigar, afastar e perder a delegação",
+          "text": "Apurar uma falta, afastar provisoriamente o titular e decidir pela perda da delegação são situações diferentes. A abertura de uma investigação não se transforma sozinha em decisão final. Para a proteção durante a apuração, o tutor deve recuperar o trecho [RG-LOSS-035-AFASTAMENTO](RG_AFASTAMENTO_INTERVENCAO_V0.1.md#rg-loss-035-afastamento), já existente, antes de aplicar questões que o exijam."
+        }
+      ],
+      "propositions": [
+        {
+          "id": "RG-LOSS-035",
+          "title": "As duas vias previstas na lei",
+          "depth": "P1",
+          "source_ids": [
+            "LEI-8935-REGIME"
+          ],
+          "locator": "Art.35 caput, I–II",
+          "rule": "A perda da delegação depende de sentença judicial transitada em julgado ou de decisão decorrente de processo administrativo instaurado pelo juízo competente, assegurado amplo direito de defesa.",
+          "explanation": "O conectivo é alternativo: a lei não exige cumulativamente as duas decisões nem reserva a perda exclusivamente ao Judiciário em processo jurisdicional. Juízo competente também aparece como autoridade da via administrativa; não confunda a identidade da autoridade com a natureza do processo. Os dois anos de exercício não criam no art. 35 uma imunidade contra perda administrativa. A leitura deste caput não define, sozinha, o procedimento de afastamento provisório.",
+          "recall_question": "Quais são as duas vias legais de perda e por que não se exige que ocorram cumulativamente?"
+        }
+      ],
+      "cases": [
+        {
+          "id": "GX-PERDA-01",
+          "question": "Caso autoral. Um titular com dez anos de exercício sustenta que só poderia perder a delegação por sentença judicial transitada em julgado e que decisão administrativa nunca seria suficiente. A alegação corresponde ao art. 35? Justifique em três ou quatro frases.",
+          "answer": "Não. O art. 35 admite também decisão decorrente de processo administrativo instaurado pelo juízo competente, com amplo direito de defesa; o tempo de exercício indicado não elimina essa via.",
+          "reasoning": "Rubrica editorial: identificar as duas vias, preservar o trânsito em julgado na via judicial, a instauração competente e a ampla defesa na administrativa; rejeitar a imunidade temporal inventada. Não exigir uma peça ou rito que o bloco não ensinou.",
+          "proposition_ids": [
+            "RG-LOSS-035"
+          ],
+          "editorial_review": {
+            "kind": "SAME_CONTEXT_EDITORIAL",
+            "checked_at": "2026-09-13",
+            "fingerprint": "e387afdacb01ba2d943c5bcd7bd7dc605a430d5dd92950604e591bade5e2da3e"
+          }
+        }
+      ],
+      "edges": [
+        {
+          "from": "RG-LOSS-035",
+          "type": "requires",
+          "to": "RG-BASE-PERDA"
         }
       ]
     }

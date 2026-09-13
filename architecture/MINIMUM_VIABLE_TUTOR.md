@@ -22,7 +22,7 @@ Não executar seis leituras obrigatórias do mesmo conteúdo. MAP, MASTER, REVIE
 
 Primeiro percurso preservado: mapa das especialidades → art.236/delegação → regime geral → operações extrajudiciais simples. Base competitiva enferrujada; Notarial/Registral parte sem exposição prévia relevante. Fundamentos gerais entram quando necessários. Os recortes de afastamento e dúvida são ensaios da fábrica, não a primeira aula automática de um iniciante.
 
-Primeiro bloco concreto: `material/working/RG_NATUREZA_INGRESSO_V0.1.md`, derivado de `data/material/ingresso_v0.1.json`. Está em BUILD, com 8 regras e 5 exercícios, incluindo escrita e oral curtas. Ler `research/APROVACAO_PRIMEIRO_BLOCO_2026-09-13.md` para evidência de prova, rubricas, pesquisa e limites. Na sessão futura, expor somente a parte necessária e a pergunta, sem antecipar gabarito/repergunta. Uma peça completa entra no procedimento adequado, sem forçar esse formato em toda regra.
+Percurso concreto: `material/working/REGIME_GERAL_PERCURSO_INICIAL.md`, quatro partes derivadas de `data/material/ingresso_v0.1.json`. Está em BUILD, com 24 regras, 24 recuperações e 14 exercícios, incluindo escrita/oral curtas. Seis questões oficiais têm comentários e fundamento nos registros existentes do Question Lab. Na sessão futura, expor somente a parte necessária e a pergunta, sem antecipar gabarito/repergunta. Uma peça completa entra no procedimento adequado, sem forçar esse formato em toda regra.
 
 ## Rotina diária
 

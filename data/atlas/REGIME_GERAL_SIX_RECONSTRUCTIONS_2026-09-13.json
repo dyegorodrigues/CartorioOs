@@ -1,0 +1,200 @@
+{
+  "checked_at": "2026-09-13",
+  "state": "BUILD",
+  "review_kind": "SAME_CONTEXT_EDITORIAL",
+  "legal_snapshot": "SELECTED_CURRENT_STATUTES",
+  "independent_passes": 0,
+  "learner_attempts_created": 0,
+  "commentary": "research/REGIME_GERAL_SEIS_QUESTOES_2026-09-13.md",
+  "editorial_source": "data/material/ingresso_v0.1.json",
+  "questions": [
+    {
+      "id": "ENAC-2025.1-T1-Q39",
+      "edition": "ENAC 2025.1",
+      "type": 1,
+      "question": 39,
+      "key": "B",
+      "annulled": false,
+      "book_url": "https://conhecimento.fgv.br/sites/default/files/concursos/enac-t01.pdf",
+      "book_page": 13,
+      "answer_key_page": 1,
+      "commentary_anchor": "enac-2025-1-q39",
+      "proposition_ids": [
+        "RG-DIR-029I",
+        "RG-DEV-030-RECIBO-DUVIDA",
+        "RG-DEV-030XI"
+      ],
+      "material_files": [
+        "material/working/RG_DIREITOS_IMPEDIMENTOS_V0.1.md"
+      ],
+      "legal_locator": "Lei 8.935/1994, art.29I (direito de opção); art.30VIII,IX,XI,XIII (deveres).",
+      "notion_page": "https://app.notion.com/3d542424cdbc8127bbd3d562ea743f94",
+      "notion_basis_was_empty": true,
+      "notion_write_readback_verified": true
+    },
+    {
+      "id": "ENAC-2025.1-T1-Q50",
+      "edition": "ENAC 2025.1",
+      "type": 1,
+      "question": 50,
+      "key": "C",
+      "annulled": false,
+      "book_url": "https://conhecimento.fgv.br/sites/default/files/concursos/enac-t01.pdf",
+      "book_page": 16,
+      "answer_key_page": 1,
+      "commentary_anchor": "enac-2025-1-q50",
+      "proposition_ids": [
+        "RG-COMP-011",
+        "RG-ESPEC-005"
+      ],
+      "material_files": [
+        "material/working/RG_ESPECIALIDADES_V0.1.md"
+      ],
+      "legal_locator": "Lei 8.935/1994, art.11I: atribuição privativa do tabelião de protesto para o protocolo imediato com a finalidade descrita.",
+      "notion_page": "https://app.notion.com/3d542424cdbc8130b124d3fc98d363b0",
+      "notion_basis_was_empty": true,
+      "notion_write_readback_verified": true
+    },
+    {
+      "id": "ENAC-2025.2-T1-Q29",
+      "edition": "ENAC 2025.2",
+      "type": 1,
+      "question": 29,
+      "key": "D",
+      "annulled": false,
+      "book_url": "https://conhecimento.fgv.br/sites/default/files/concursos/2o-exame-nacional-dos-cartorios-enac-enac-25-tipo-1.pdf",
+      "book_page": 10,
+      "answer_key_page": 1,
+      "commentary_anchor": "enac-2025-2-q29",
+      "proposition_ids": [
+        "RG-NOT-007-CONV",
+        "RG-NOT-007-DIL",
+        "RG-NOT-TERR-008",
+        "RG-NOT-007-TEST",
+        "RG-NOT-007-IV"
+      ],
+      "material_files": [
+        "material/working/RG_ESPECIALIDADES_V0.1.md"
+      ],
+      "legal_locator": "Lei 8.935/1994, art.7º§5º (convênio); §1º (diligências/custo); art.9º (município); art.7º§2º (testemunhas); art.7ºIV (firmas).",
+      "notion_page": "https://app.notion.com/3d542424cdbc81d2825dfc75588a2282",
+      "notion_basis_was_empty": true,
+      "notion_write_readback_verified": true
+    },
+    {
+      "id": "ENAC-2025.2-T1-Q43",
+      "edition": "ENAC 2025.2",
+      "type": 1,
+      "question": 43,
+      "key": "B",
+      "annulled": false,
+      "book_url": "https://conhecimento.fgv.br/sites/default/files/concursos/2o-exame-nacional-dos-cartorios-enac-enac-25-tipo-1.pdf",
+      "book_page": 14,
+      "answer_key_page": 1,
+      "commentary_anchor": "enac-2025-2-q43",
+      "proposition_ids": [
+        "RG-LOSS-035",
+        "RG-LOSS-035-AFASTAMENTO"
+      ],
+      "material_files": [
+        "material/working/RG_PERDA_DELEGACAO_V0.1.md",
+        "material/working/RG_AFASTAMENTO_INTERVENCAO_V0.1.md"
+      ],
+      "legal_locator": "Lei 8.935/1994, art.35I–II (vias judicial/administrativa); §1º (afastamento até decisão final e interventor pelo juízo competente).",
+      "notion_page": "https://app.notion.com/3d542424cdbc8126b7e4f9a040360d95",
+      "notion_basis_was_empty": true,
+      "notion_write_readback_verified": true
+    },
+    {
+      "id": "ENAC-2026.1-T1-Q51",
+      "edition": "ENAC 2026.1",
+      "type": 1,
+      "question": 51,
+      "key": "E",
+      "annulled": false,
+      "book_url": "https://conhecimento.fgv.br/sites/default/files/concursos/enac-2026-1-enac-2026-1-tipo-1-2.pdf",
+      "book_page": 14,
+      "answer_key_page": 1,
+      "commentary_anchor": "enac-2026-1-q51",
+      "proposition_ids": [
+        "RG-DIR-029II",
+        "RG-DEV-030V"
+      ],
+      "material_files": [
+        "material/working/RG_DIREITOS_IMPEDIMENTOS_V0.1.md"
+      ],
+      "legal_locator": "Lei 8.935/1994, art.29II (organização associativa/sindical e participação) e art.30V (dever nas atividades profissionais e vida privada).",
+      "notion_page": "https://app.notion.com/3d542424cdbc81c8a00fdda6ae2608e7",
+      "notion_basis_was_empty": true,
+      "notion_write_readback_verified": true
+    },
+    {
+      "id": "ENAC-2026.1-T1-Q53",
+      "edition": "ENAC 2026.1",
+      "type": 1,
+      "question": 53,
+      "key": "C",
+      "annulled": false,
+      "book_url": "https://conhecimento.fgv.br/sites/default/files/concursos/enac-2026-1-enac-2026-1-tipo-1-2.pdf",
+      "book_page": 15,
+      "answer_key_page": 1,
+      "commentary_anchor": "enac-2026-1-q53",
+      "proposition_ids": [
+        "RG-IMP-027",
+        "CIV-PAR-1594"
+      ],
+      "material_files": [
+        "material/working/RG_DIREITOS_IMPEDIMENTOS_V0.1.md"
+      ],
+      "legal_locator": "Lei 8.935/1994, arts.27 e31I: prática pessoal, interesse e parentesco até terceiro grau. Apoio: Código Civil, arts.1.591–1.595; tio/sobrinho consanguíneo é terceiro grau.",
+      "notion_page": "https://app.notion.com/3d542424cdbc81d8b986c0b22f6198e0",
+      "notion_basis_was_empty": true,
+      "notion_write_readback_verified": true
+    }
+  ],
+  "notion_sync": {
+    "verified_rows": 6,
+    "existing_pages_only": true,
+    "unchanged_learner_properties": true,
+    "verification": "Fetch faithful rich-text; same-URL autolinks and br normalised for equality only."
+  },
+  "exposure": "All three ENAC editions and equivalent types are BUILD/CHALLENGE_ONLY. No reserved external pools opened.",
+  "source_files": [
+    {
+      "name": "enac1",
+      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/enac-t01.pdf",
+      "sha256": "82ba1ca5ad5700fb53f5a693b5bf7a0d391a14daf37b45e325d320c5ded6ed7b",
+      "bytes": 547826
+    },
+    {
+      "name": "enac1-key",
+      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/gabdefi_enac.pdf",
+      "sha256": "635ec0b865a1f6f86ec712b547c557d75b7c592ea8d991889c03f39659842854",
+      "bytes": 217070
+    },
+    {
+      "name": "enac3",
+      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/enac-2026-1-enac-2026-1-tipo-1-2.pdf",
+      "sha256": "dfc14cf463ff2f9955aaf6dc11654284391021b8f813d4b64e8347e89738be4b",
+      "bytes": 530071
+    },
+    {
+      "name": "enac3-key",
+      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/gabarito-definitivo-enac-2026.1.pdf",
+      "sha256": "798a8f18514837c240076683a476be1dcb9bf25341ed819545c665383822179e",
+      "bytes": 281248
+    },
+    {
+      "name": "enac2",
+      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/2o-exame-nacional-dos-cartorios-enac-enac-25-tipo-1.pdf",
+      "sha256": "6bfa5155b4ce6efea953d6f31939af69481ba79cf8877c5005f7ad109fd6666b",
+      "bytes": 556273
+    },
+    {
+      "name": "enac2-key",
+      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/gabdef_enca-v2.pdf",
+      "sha256": "4dabb9533670362fd92d3f8a46d07c891d245339c496da0dbeeb2942ae19cf01",
+      "bytes": 206969
+    }
+  ]
+}

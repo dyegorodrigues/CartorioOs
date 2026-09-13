@@ -6,7 +6,7 @@ Conferência legal delimitada: 2026-09-13. CURRENT_LAW; elegibilidade para edita
 
 Gerado por `scripts/compile_material.py` a partir de `data/material/ingresso_v0.1.json`. Edite a fonte editorial e regenere; não edite esta derivação.
 
-Fingerprint semântico da fonte: `d85576e3a857f4ec8022ca35540de1647eac3efe5a370f12da7d42e8868293ee`.
+Fingerprint semântico da fonte: `6e8c73946aa5ad7055a4941f75118602afb9334c14999b62c99c26907bfcef0d`.
 
 **Proveniência:** RG-NAT-001 e RG-NAT-002 já existem no ledger; RG-ING-014 permanece o agrupador dos requisitos, detalhado aqui em quatro filhos. ENAC 2025.2, Tipo 1, Q36/C é evidência conhecida de nacionalidade/não exigência de três anos; não evidencia todos os demais detalhes deste bloco. Casos GX autorais, revisados no mesmo contexto. Relatório: research/APROVACAO_PRIMEIRO_BLOCO_2026-09-13.md.
 

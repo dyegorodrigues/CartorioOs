@@ -1,18 +1,18 @@
 # GX Cartório OS — Estado Atual
 
-Atualizado em 13/09/2026 — primeiro bloco de conteúdo orientado à aprovação e revisão das evidências.
+Atualizado em 13/09/2026 — teoria ampliada e seis questões oficiais fundamentadas no material e no Notion.
 
-## Checkpoint mais recente — aprovação e conteúdo inicial
+## Checkpoint mais recente — teoria e questões de Regime Geral
 
-Objetivo reafirmado pelo usuário: aprovação e classificação competitiva em todas as etapas. Profundidade serve à cobrança, ao edital e aos pré-requisitos; não à formação profissional enciclopédica. O cockpit continua no ChatGPT, com uma tarefa por vez.
+Entrega focada no conteúdo. O percurso inicial tem quatro partes: natureza/ingresso, especialidades, direitos/deveres/impedimentos e perda da delegação. Índice: `material/working/REGIME_GERAL_PERCURSO_INICIAL.md`. São 24 regras/grupos, 24 recuperações e 14 casos autorais; nesta entrega foram acrescentadas 16 regras e 9 casos. Fonte editorial: `data/material/ingresso_v0.1.json`.
 
-Produzido `material/working/RG_NATUREZA_INGRESSO_V0.1.md`: 2 bases, 8 regras, 8 perguntas de recuperação e 5 casos autorais, incluindo escrita/oral curtas. Fonte: `data/material/ingresso_v0.1.json`. O gerador existente aceita fonte/saída explícitas e identifica corretamente o lote; não foi criada outra arquitetura.
+Conferidas seis questões oficiais e suas trinta alternativas: ENAC 2025.1 T1 Q39/B e Q50/C; 2025.2 T1 Q29/D e Q43/B; 2026.1 T1 Q51/E e Q53/C. Comentários: `research/REGIME_GERAL_SEIS_QUESTOES_2026-09-13.md`. O complemento necessário à Q43 está explicitamente ligado ao recorte anterior de afastamento.
 
-ENAC 2025.2 T1 Q36/C reconstruída com conferência de todas as alternativas; espelho TJES/FGV 2025 usado como evidência histórica de pontuação da peça, sem atribuir ao bloco capacidade de resolvê-la. Estudos primários de tutoria e seus repositórios reforçam a separação entre prática assistida e avaliação independente. Pesquisa, limites, fontes e rubricas: `research/APROVACAO_PRIMEIRO_BLOCO_2026-09-13.md`.
+**Seis registros existentes do Question Lab, antes sem fundamento, foram preenchidos e relidos.** Fontes, artigos, comentários e snapshots delimitados ficaram nos próprios registros; conteúdo anterior e dados do candidato preservados. Identidades/hashes/verificação: `data/atlas/REGIME_GERAL_SIX_RECONSTRUCTIONS_2026-09-13.json`.
 
-**42 testes passaram; 3 hashes congelados preservados; os 2 derivados anteriores e o novo conferidos.** Conferência jurídica/editorial delimitada no mesmo contexto; zero novos passes independentes, sem S2 ou respostas do candidato. Estudo real ainda não iniciado.
+Conferidos os quatro derivados deste lote, os dois anteriores, os três hashes congelados e os vínculos questão → regra → material. A revisão legal corrigiu a precisão do dever de recibo para emolumentos; o caso afetado foi revisto. Não houve alteração de código, criação de teste novo ou promoção de suficiência. Revisão no mesmo contexto; zero novo passe independente.
 
-Próximo marco: revisar externamente o material concreto e fechar as evidências pendentes dos pilotos; concluir integração mínima de sessão/retomada já prevista. Não criar arquitetura adicional nem esperar reconstruir todo o universo de provas para preparar o primeiro piloto. O bloco novo é BUILD e será oferecido em partes, somente depois da liberação prevista.
+Próximo marco: usar o conteúdo concreto na revisão externa já prevista e concluir integração mínima de sessão/retomada. Não ampliar arquitetura como condição de início. Estudo real continua não iniciado; não afirmar que o curso inteiro, os pilotos completos ou as 300 reconstruções ENAC foram concluídos. O usuário quer execução e linguagem simples; informar resultados de conteúdo, sem despejar terminologia interna.
 
 ## Checkpoint anterior — rotina no ChatGPT
 

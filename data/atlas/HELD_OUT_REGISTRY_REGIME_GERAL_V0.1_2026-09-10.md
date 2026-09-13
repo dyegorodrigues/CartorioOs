@@ -64,6 +64,6 @@ S2 permanece **NÃO ATINGIDO**. Não baixar o padrão só porque locators antigo
 Não abrir H1R/H4/H5. Próximo pool deve ser registrado antes da pesquisa do caderno.
 # Exposição adicional — 13/09/2026
 
-ENAC 2025.2: Q36/C Tipo 1 reconstruída, página 12 do caderno e página 1 completa do gabarito (tipos 1/2) vistas. Itens vizinhos também expostos. Todo o caderno e itens equivalentes em outros tipos ficam **BUILD/CHALLENGE_ONLY**; não há restante reservado artificialmente limpo. O item já era conhecido pela Wave 4. Espelho/caderno escrito TJES 2025 já eram BUILD na Wave 5. Os cinco casos GX-ING são autorais expostos, sem independência.
+Os três ENACs, cadernos Tipo1 e itens equivalentes de outros tipos, ficam integralmente **BUILD/CHALLENGE_ONLY**. Foram consultadas as páginas completas dos gabaritos tipos1/2; questões vizinhas também ficaram expostas. Q36/C de2025.2 foi reconstruída no lote anterior. Neste lote: 2025.1 Q39/B eQ50/C; 2025.2 Q29/D eQ43/B; 2026.1 Q51/E eQ53/C. Os itens já figuravam na Wave4; as seis reconstruções não são seis descobertas novas nem passes independentes.
 
-Proveniência, hashes e limites em `research/APROVACAO_PRIMEIRO_BLOCO_2026-09-13.md`. Nenhum pool reservado externo aberto; zero novos passes independentes e nenhum S2.
+Proveniência e hashes: `data/atlas/REGIME_GERAL_SIX_RECONSTRUCTIONS_2026-09-13.json`. Os casos GX novos são autorais expostos. Nenhum pool reservado externo foi aberto; zero novo passe independente, nenhum S2 ou desempenho do candidato. As páginas escritas do TJES já eram BUILD na Wave5.

@@ -108,3 +108,9 @@ Ainda S1 em construção. Multibanca melhorou, mas falta:
 Fonte editorial BUILD: `data/material/ingresso_v0.1.json`; derivação: `material/working/RG_NATUREZA_INGRESSO_V0.1.md`. Reutiliza `RG-NAT-001` e `RG-NAT-002`. O agrupador `RG-ING-014` é detalhado em `RG-ING-014-REQ`, `RG-ING-014-NAT`, `RG-ING-014-EXP` e `RG-ING-014-ORG`; não contar agrupador e filhos como ocorrências independentes. Complementos delimitados: `RG-ING-VAC-001` e `RG-ING-ENAC-001`.
 
 ENAC 2025.2 T1 Q36/C sustenta especificamente nacionalidade e ausência de três anos para bacharel. Outros detalhes têm fundamento normativo, sem atribuir a Q36 cobrança que não realizou. Relatório: `research/APROVACAO_PRIMEIRO_BLOCO_2026-09-13.md`. Sem nova frequência calculada, S2 ou desempenho do candidato.
+
+## Materialização complementar — especialidades e conduta — 13/09/2026
+
+O lote `data/material/ingresso_v0.1.json` agora contém quatro unidades e 24 regras/grupos. Os IDs existentes RG-COMP-011, RG-DIR-029I/II, RG-DEV-030V/XI, RG-IMP-027 e RG-LOSS-035 ganharam ensino, recuperação e aplicação. CIV-PAR-1594 fornece a contagem de parentesco que muda a aplicação do impedimento. Os novos discriminadores de Notas cobrem convênio, custo da diligência, testemunhas, território e exclusividade. A regra RG-ATTR-AUTH-001 e o afastamento RG-LOSS-035-AFASTAMENTO preservam o lar no lote anterior; remissões explícitas evitam duplicação.
+
+Seis questões oficiais receberam comentários e fundamento em seus registros existentes no Notion, sem novas questões ou evidência do candidato. O índice `data/atlas/REGIME_GERAL_SIX_RECONSTRUCTIONS_2026-09-13.json` relaciona cada item às proposições e ao material. Os contadores de frequência não foram recalculados nem os demais itens foram promovidos.
