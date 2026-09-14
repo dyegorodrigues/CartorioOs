@@ -1,9 +1,11 @@
 # ENAC 300 — Meta-análise preliminar
 
-Status: **DRAFT / não preditivo**
-Atualizado em 08/09/2026.
+> **SUPERSEDED FOR CURRENT READOUT — 14/09/2026.** Este arquivo permanece como histórico do draft de 08/09. Para o estado auditado atual, ler primeiro `research/ENAC_300_META_ANALYSIS.md`, depois `research/ENAC_300_STRUCTURED_QA_2026-09-14.md` e `research/ENAC_EDITAL_MEGA_TREE_META_ANALYSIS_2026-09-14.md`.
 
-Este documento cruza os três relatórios intraprova já completos. Ele deliberadamente separa fatos determinísticos de padrões qualitativos repetidos. Percentuais finos aguardam QA agregado do banco e passagem 2.
+Status: **DRAFT / não preditivo / histórico**
+Atualizado originalmente em 08/09/2026.
+
+Este documento cruza os três relatórios intraprova já completos. Ele deliberadamente separa fatos determinísticos de padrões qualitativos repetidos. Percentuais finos aguardavam QA agregado do banco e passagem 2. A auditoria estruturada de 14/09 foi posteriormente executada e está nos arquivos apontados acima.
 
 ## 1. Fatos já seguros
 
@@ -124,9 +126,9 @@ Portanto, a reconstrução da questão na passagem 2 terá hierarquia:
 
 A resposta a recurso da própria banca é especialmente útil para compreender a **rationale da FGV**, mas não substitui a verificação jurídica atual.
 
-## 6. Hipóteses quantitativas que aguardam dados agregados
+## 6. Hipóteses quantitativas que aguardavam dados agregados
 
-Não publicar números ainda para:
+O draft original não publicava números para:
 - distribuição de mecanismos de distrator;
 - frequência de CNJ vs lei vs jurisprudência vs doutrina;
 - tamanho médio de enunciado;
@@ -137,6 +139,8 @@ Não publicar números ainda para:
 - proximidade temporal da norma cobrada;
 - concentração de temas em clusters;
 - mudança de estilo entre 2025.1 e 2026.1.
+
+A auditoria de 14/09 passou a permitir estatísticas parciais com denominador explícito para fonte e distratores, mas ainda não promove estatísticas 300/300 nesses campos.
 
 ## 7. Consequências já autorizadas para o design do Material Mestre
 
@@ -151,11 +155,12 @@ Mesmo antes dos percentuais finos, a convergência das três provas autoriza:
 - transferência para discursiva/oral em temas de alta relevância estadual;
 - links cruzados entre disciplinas em vez de repetição de texto.
 
-## 8. Próximos passos
+## 8. Próximos passos históricos do draft
 
-1. QA agregado 300/300 quando a consulta Notion estiver disponível;
+A lista abaixo foi superada pelo checkpoint de 14/09, mas é preservada como trilha de decisão:
+1. QA agregado 300/300;
 2. passagem 2 começando por N/R + Civil de maior conectividade;
 3. incorporar resposta oficial a recursos quando acessível;
 4. medir padrões quantitativamente;
-5. somente então promover `ENAC_300_META_ANALYSIS.md` de DRAFT para canônico;
+5. promover meta-análise quando auditada;
 6. cruzar com corpus estadual e FGV L4/L3 para reduzir risco de overfit a apenas três ENACs.
