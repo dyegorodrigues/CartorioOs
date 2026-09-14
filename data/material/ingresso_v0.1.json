@@ -3,7 +3,7 @@
   "state": "BUILD",
   "legal_snapshot": "CURRENT_LAW",
   "exam_snapshot": "NOT_ASSESSED",
-  "checked_at": "2026-09-13",
+  "checked_at": "2026-09-14",
   "sources": [
     {
       "id": "CF-1988-ING",
@@ -39,6 +39,20 @@
       "url": "https://www.planalto.gov.br/ccivil_03/leis/2002/l10406compilada.htm",
       "scope": "Arts.1.591–1.595; exemplos de contagem consanguínea e limites próprios da afinidade.",
       "checked_at": "2026-09-13"
+    },
+    {
+      "id": "CPC-BASES-INICIAIS",
+      "title": "CPC — documento público, ata e coisa julgada",
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13105.htm",
+      "scope": "Arts. 384, 405, 427 e 502. Fundamentos introdutórios, sem esgotar prova documental e coisa julgada.",
+      "checked_at": "2026-09-14"
+    },
+    {
+      "id": "CC-BASES-INICIAIS",
+      "title": "Código Civil — escritura e registro",
+      "url": "https://www.planalto.gov.br/ccivil_03/leis/2002/l10406compilada.htm",
+      "scope": "Arts. 215 e 1.245, caput e § 1º; contraste introdutório na aquisição imobiliária entre vivos.",
+      "checked_at": "2026-09-14"
     }
   ],
   "units": [
@@ -59,6 +73,11 @@
           "id": "RG-BASE-HABILITACAO",
           "title": "Requisito, habilitação e outorga",
           "text": "Requisito é uma condição exigida para ingressar; habilitar-se é superar uma exigência de seleção; outorga é a atribuição da delegação. Satisfazer dois requisitos descritos no enunciado não dispensa os demais. Na questão, delimite se perguntam sobre um impedimento específico, participação no concurso, aprovação ou recebimento da delegação."
+        },
+        {
+          "id": "RG-BASE-FE-PUBLICA",
+          "title": "Fé pública: por que o documento merece confiança jurídica",
+          "text": "Fé pública é a confiança que o Direito atribui à atuação documentadora do profissional investido dessa qualidade. Não significa que ele seja infalível ou que qualquer narrativa feita por uma pessoa passe a ser verdade indiscutível. O CPC distingue a formação do documento e os fatos que o agente declara terem ocorrido em sua presença; também admite a declaração judicial de falsidade. Base: [Lei 8.935, art. 3º](https://www.planalto.gov.br/ccivil_03/leis/l8935.htm) e [CPC, arts. 405 e 427](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13105.htm).\n\nExemplo resolvido: o tabelião presencia Ana declarar que pagou uma dívida na semana passada, mas não presenciou o pagamento. Documentar que Ana fez essa declaração não equivale a atestar que ele viu o pagamento. O ponto a compreender é a diferença entre o fato presenciado e a narrativa da parte; não é necessário estudar agora todo o procedimento de prova documental."
         }
       ],
       "propositions": [
@@ -67,11 +86,12 @@
           "title": "Para que existem os serviços",
           "depth": "P1",
           "source_ids": [
-            "LEI-8935-ING"
+            "LEI-8935-ING",
+            "LEI-8935-REGIME"
           ],
-          "locator": "Art. 1º",
+          "locator": "Art. 1º; limite da publicidade exemplificado pelo art. 30, VI",
           "rule": "Os serviços notariais e de registro são organização técnica e administrativa voltada à publicidade, autenticidade, segurança e eficácia dos atos jurídicos.",
-          "explanation": "As quatro finalidades são elementos da definição legal. Compreender sua função ajuda a interpretar casos; recuperar a lista atende a uma pergunta de literalidade. Não deduza que todo ato produz imediatamente todos os efeitos possíveis: o efeito de cada escritura, registro ou averbação será estudado na respectiva regra.",
+          "explanation": "Publicidade permite que a informação jurídica seja conhecida nos limites legais; autenticidade diz respeito à certeza juridicamente atribuída à origem ou à formação documentada; segurança reduz a incerteza nas relações jurídicas; eficácia se refere à produção dos efeitos previstos em lei. São explicações introdutórias das quatro finalidades, não quatro efeitos automáticos de todo ato. A publicidade, por exemplo, convive com o sigilo da documentação reservada do art. 30, VI. Compreender essas funções ajuda a interpretar casos; recuperar a lista do art. 1º atende a uma pergunta de literalidade. O efeito específico de uma escritura, registro ou averbação será estudado na respectiva regra.",
           "recall_question": "Quais são as quatro finalidades dos serviços notariais e de registro no art. 1º?"
         },
         {
@@ -175,8 +195,8 @@
           ],
           "editorial_review": {
             "kind": "SAME_CONTEXT_EDITORIAL",
-            "checked_at": "2026-09-13",
-            "fingerprint": "fa9908955952e9fc19cf8005bdf5aff60da18d08c07c0194b1814473537d24fa"
+            "checked_at": "2026-09-14",
+            "fingerprint": "638bcbb3520985c7b400dc65e96edb5d6000842dca65bde368c7b506843fb672"
           }
         },
         {
@@ -190,8 +210,8 @@
           ],
           "editorial_review": {
             "kind": "SAME_CONTEXT_EDITORIAL",
-            "checked_at": "2026-09-13",
-            "fingerprint": "858f1bf669609956c350fde54e89a1f2ed8ab5c62d38f107ead81fc978d449c7"
+            "checked_at": "2026-09-14",
+            "fingerprint": "e16a786f73e066fb3fa4f43a5db6043b33884b43bc6ac9661138f21cd21e7258"
           }
         },
         {
@@ -204,8 +224,8 @@
           ],
           "editorial_review": {
             "kind": "SAME_CONTEXT_EDITORIAL",
-            "checked_at": "2026-09-13",
-            "fingerprint": "f8870b288280bba90eeb4e2d187a264aa24da3a37df735fe80ada68c0f5b0c29"
+            "checked_at": "2026-09-14",
+            "fingerprint": "3850a81f7660c92f0427d31d1de9b2b7774d122ea267851959048994c564d330"
           }
         },
         {
@@ -220,8 +240,8 @@
           ],
           "editorial_review": {
             "kind": "SAME_CONTEXT_EDITORIAL",
-            "checked_at": "2026-09-13",
-            "fingerprint": "0e7faff1ae808a230abdc0ffbab5d362d6b77542a6daea97c2d801e510c4b328"
+            "checked_at": "2026-09-14",
+            "fingerprint": "cb1cff90c391cc4b0e973daee09ab9c40d897f0837e6f3530d939b80544f7b18"
           }
         },
         {
@@ -236,8 +256,8 @@
           ],
           "editorial_review": {
             "kind": "SAME_CONTEXT_EDITORIAL",
-            "checked_at": "2026-09-13",
-            "fingerprint": "d654fc98233d54200dbd483d763d591ac87ea06c826ad3a2b4488eb08af39e2b"
+            "checked_at": "2026-09-14",
+            "fingerprint": "0c6649ee6567f6f4ecf795af8d5d8c8a94efd5cbdf13d3808338ab17b243ab70"
           }
         }
       ],
@@ -282,6 +302,11 @@
       "exclusions": "Não esgota os atos de cada especialidade, competências eletrônicas, regras locais, acumulação/desacumulação ou procedimentos de mediação/arbitragem. O mapa não serve para decidir toda competência territorial ou registral. A regra já materializada RG-ATTR-AUTH-001 continua no recorte anterior e é referenciada, sem novo lar canônico.",
       "provenance": "Questões conhecidas: ENAC 2025.1 T1 Q50/C e ENAC 2025.2 T1 Q29/D, conferidas nesta entrega. Art. 5º e contrastes dos arts. 8º/12 são expansão normativa de apoio. Comentários completos e fontes em research/REGIME_GERAL_SEIS_QUESTOES_2026-09-13.md.",
       "foundations": [
+        {
+          "id": "RG-BASE-INSTRUMENTOS",
+          "title": "Escritura, ata, firma, cópia e registro: o vocabulário antes da regra",
+          "text": "Escritura pública é um instrumento lavrado em notas de tabelião que documenta juridicamente o ato ou negócio. Ata notarial documenta a existência ou o modo de existir de um fato; por exemplo, o que o tabelião consegue constatar em uma página eletrônica. Reconhecimento de firma se refere à assinatura; autenticação de cópia se refere à correspondência da cópia com o documento apresentado. Registro é um lançamento realizado na especialidade competente, com o efeito que a lei atribui àquela inscrição. Bases: [Lei 8.935, arts. 6º e 7º](https://www.planalto.gov.br/ccivil_03/leis/l8935.htm), [CC, art. 215](https://www.planalto.gov.br/ccivil_03/leis/2002/l10406compilada.htm) e [CPC, art. 384](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13105.htm).\n\nExemplo resolvido: numa compra e venda imobiliária entre vivos, lavrar a escritura e registrar o título no Registro de Imóveis são atos diferentes. Pelo art. 1.245 do Código Civil, a propriedade se transfere mediante o registro do título translativo; enquanto não houver esse registro, o alienante continua a ser havido como dono. Logo, se a pergunta for sobre a transferência da propriedade nessa hipótese, saber apenas que houve escritura é insuficiente. Não generalize esse exemplo para todos os modos de aquisição. Base: [CC, art. 1.245, caput e § 1º](https://www.planalto.gov.br/ccivil_03/leis/2002/l10406compilada.htm)."
+        },
         {
           "id": "RG-BASE-ATO",
           "title": "Identifique o ato pedido, não apenas o objeto mencionado",
@@ -398,8 +423,8 @@
           ],
           "editorial_review": {
             "kind": "SAME_CONTEXT_EDITORIAL",
-            "checked_at": "2026-09-13",
-            "fingerprint": "6ec97eaef0fce119b8030c52c202c2dafab37a75f9ab1f93fd6fb1f6a9c10f3f"
+            "checked_at": "2026-09-14",
+            "fingerprint": "f7292620b4abeb43feaba0f2b6f6a0757d37f366cc27abe03f4de9ccedc84a9e"
           }
         },
         {
@@ -412,8 +437,8 @@
           ],
           "editorial_review": {
             "kind": "SAME_CONTEXT_EDITORIAL",
-            "checked_at": "2026-09-13",
-            "fingerprint": "68e2c939b718ef53d26de9c8780f55449788c55505e8d944ef70787b50218db3"
+            "checked_at": "2026-09-14",
+            "fingerprint": "529e9ad7e6837eaea39d81d4277c59083a411cbd28848baa9b830aa8b3aa5e9f"
           }
         },
         {
@@ -427,8 +452,8 @@
           ],
           "editorial_review": {
             "kind": "SAME_CONTEXT_EDITORIAL",
-            "checked_at": "2026-09-13",
-            "fingerprint": "79fc57deddd8d9aca70ffef4ce989d45fdb21e8a2e35f7db554cfe615bd0e5e7"
+            "checked_at": "2026-09-14",
+            "fingerprint": "8f5b02d04f5f3e4f2860ac58266a6843923080f4f9223428e0da5b594b74ed0d"
           }
         },
         {
@@ -441,8 +466,8 @@
           ],
           "editorial_review": {
             "kind": "SAME_CONTEXT_EDITORIAL",
-            "checked_at": "2026-09-13",
-            "fingerprint": "5941229a6b8985f07e0ce4b83b997a8fb4ac3b567f410f6714c6220777e1d368"
+            "checked_at": "2026-09-14",
+            "fingerprint": "447c4c1dd9c601ea64f4ff38204216db29bbc9dc36586840381f54a79d0dc8b0"
           }
         }
       ],
@@ -481,6 +506,11 @@
           "id": "RG-BASE-CONDUTA",
           "title": "Direito, dever e impedimento respondem a perguntas diferentes",
           "text": "Direito é uma prerrogativa reconhecida ao titular; dever é uma conduta exigida; impedimento é uma vedação de atuar em determinada situação. Uma atividade pode ser juridicamente correta e, mesmo assim, não responder a uma pergunta sobre direitos, por pertencer à lista de deveres. Leia a categoria pedida antes de procurar uma frase familiar."
+        },
+        {
+          "id": "RG-BASE-PARENTESCO",
+          "title": "Linhas de parentesco: o desenho que permite contar",
+          "text": "Na linha reta, uma pessoa descende da outra: pai e filho, avó e neto. Na colateral, as pessoas têm um ascendente comum, mas uma não descende da outra: irmãos, tio e sobrinho. Nos exemplos consanguíneos usados aqui, conte as gerações, não a quantidade de nomes escritos no papel. A afinidade é outro vínculo: liga cada cônjuge ou companheiro aos ascendentes, descendentes e irmãos do outro, conforme o art. 1.595, § 1º. Não transforme todos os parentes do cônjuge em parentes por afinidade. Base: [CC, arts. 1.591–1.595](https://www.planalto.gov.br/ccivil_03/leis/2002/l10406compilada.htm).\n\nEste apoio ensina a reconhecer e contar os vínculos que serão usados nos casos. A incidência de impedimento ainda exige conferir quem atua pessoalmente e de quem é o interesse. A existência de casamento ou de parentesco, sozinha, não resolve toda a questão."
         }
       ],
       "propositions": [
@@ -582,8 +612,8 @@
           ],
           "editorial_review": {
             "kind": "SAME_CONTEXT_EDITORIAL",
-            "checked_at": "2026-09-13",
-            "fingerprint": "bfdd074e08fa4aebd52cc905b0c69f8de9ef2437bea8beb0fedfd12c7d6fd37b"
+            "checked_at": "2026-09-14",
+            "fingerprint": "cc70132d29daeccc0bee46667f3bb9a4261a2a54ba3b539fa235cfd7627ed228"
           }
         },
         {
@@ -597,8 +627,8 @@
           ],
           "editorial_review": {
             "kind": "SAME_CONTEXT_EDITORIAL",
-            "checked_at": "2026-09-13",
-            "fingerprint": "356094eccd597d9b33b0c09ed37a310a66a673c838e9bdcb2fd0ac59e1266ef9"
+            "checked_at": "2026-09-14",
+            "fingerprint": "ddc99bc63ff62576a0a7b3069afcb037495fce80fbf8daab34be237e2ccc430f"
           }
         },
         {
@@ -612,8 +642,8 @@
           ],
           "editorial_review": {
             "kind": "SAME_CONTEXT_EDITORIAL",
-            "checked_at": "2026-09-13",
-            "fingerprint": "939afe16af874e58df63949434d6dea0f69adb5d870af670b2858851f9a0506f"
+            "checked_at": "2026-09-14",
+            "fingerprint": "b76120d6283c7ac4e3340dfb735d1e0e7f65f6aea2c429c32afbcd7935b41f67"
           }
         },
         {
@@ -627,8 +657,8 @@
           ],
           "editorial_review": {
             "kind": "SAME_CONTEXT_EDITORIAL",
-            "checked_at": "2026-09-13",
-            "fingerprint": "e29d6b865e871a8f905e132749b59b7126c5cb8a12face6ea31946d59c8e1a8f"
+            "checked_at": "2026-09-14",
+            "fingerprint": "4a285271e646fbffeab7717ffcb88a2c610850eced52a5a28cd502241e5511df"
           }
         }
       ],
@@ -664,6 +694,11 @@
       "provenance": "RG-LOSS-035 reutiliza o agrupador do ledger, agora materializado. ENAC 2025.2 T1 Q43/B conferida com gabarito definitivo; A/D exigem também RG-LOSS-035-AFASTAMENTO, já presente no workbook de afastamento.",
       "foundations": [
         {
+          "id": "RG-BASE-PROCESSO",
+          "title": "Decisão, recurso e defesa: os termos que mudam a resposta",
+          "text": "Sentença judicial transitada em julgado é aquela que não está mais sujeita a recurso. Não basta que uma sentença tenha sido proferida para presumir esse estado. Para uma decisão de mérito, o CPC associa a coisa julgada material à impossibilidade de novo recurso. Processo administrativo é a via de apuração e decisão no exercício de função administrativa; uma autoridade do Judiciário também pode atuar nessa função. Bases: [CPC, art. 502](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13105.htm) e [Lei 8.935, art. 35](https://www.planalto.gov.br/ccivil_03/leis/l8935.htm).\n\nContraditório e ampla defesa permitem conhecer e contestar o que é imputado e utilizar os meios de defesa pertinentes; a Constituição os assegura também no processo administrativo. Isso impede ler a via administrativa como perda automática ou sem defesa. Aqui o objetivo é distinguir as duas vias do art. 35, não memorizar todo o regime de recursos. Base: [Constituição, art. 5º, LV](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm)."
+        },
+        {
           "id": "RG-BASE-PERDA",
           "title": "Investigar, afastar e perder a delegação",
           "text": "Apurar uma falta, afastar provisoriamente o titular e decidir pela perda da delegação são situações diferentes. A abertura de uma investigação não se transforma sozinha em decisão final. Para a proteção durante a apuração, o tutor deve recuperar o trecho [RG-LOSS-035-AFASTAMENTO](RG_AFASTAMENTO_INTERVENCAO_V0.1.md#rg-loss-035-afastamento), já existente, antes de aplicar questões que o exijam."
@@ -694,8 +729,8 @@
           ],
           "editorial_review": {
             "kind": "SAME_CONTEXT_EDITORIAL",
-            "checked_at": "2026-09-13",
-            "fingerprint": "e387afdacb01ba2d943c5bcd7bd7dc605a430d5dd92950604e591bade5e2da3e"
+            "checked_at": "2026-09-14",
+            "fingerprint": "488acf91dc663b40e10b28148a6b4d040d8034bf7ab718217e179cb95c83faa8"
           }
         }
       ],

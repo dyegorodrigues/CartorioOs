@@ -1,12 +1,13 @@
 # START HERE — GX Cartório OS
 
-## Retomada rápida — 13/09/2026
+## Retomada rápida — 14/09/2026
 
 Entrada estável: repositório `dyegorodrigues/CartorioOs`, branch `chatgpt/gx-cartorio-v0.1`; não supor a branch padrão.
 
 1. Ler `STATUS.md`, priorizando o checkpoint mais recente. Em preparação, continuar preparação; não iniciar estudo nem inventar desempenho.
 2. Ler `architecture/MINIMUM_VIABLE_TUTOR.md`. Outros documentos conforme a tarefa; não abrir todo o histórico a cada retomada.
 3. Buscar o [Command Center no Notion](https://app.notion.com/p/3d442424cdbc81b4bac1f5a92ebe5e0f) e episódio pertinente. Ensaios fictícios não integram desempenho/Study Sessions.
+   O material inicial tem leitura nativa no [índice de Regime Geral](https://app.notion.com/p/3d642424cdbc812a881fdb73fd21ddaf). Identidades e fontes em `data/material/notion_regime_inicial_v0.1.json`; atualizar as páginas existentes, sem recriar a coleção ou pedir ao candidato que gerencie arquivos.
 4. Com estudo liberado: verificar salvamento/versão/freshness, retomar tarefa pendente ou entregar próxima ação. Pergunta antes do gabarito. O candidato não administra ferramentas.
 5. Persistir em blocos curtos e conferir leitura antes de anunciar salvo. Sem acesso, declarar o limite e não simular retomada personalizada.
 

@@ -24,6 +24,8 @@ Primeiro percurso preservado: mapa das especialidades → art.236/delegação �
 
 Percurso concreto: `material/working/REGIME_GERAL_PERCURSO_INICIAL.md`, quatro partes derivadas de `data/material/ingresso_v0.1.json`. Está em BUILD, com 24 regras, 24 recuperações e 14 exercícios, incluindo escrita/oral curtas. Seis questões oficiais têm comentários e fundamento nos registros existentes do Question Lab. Na sessão futura, expor somente a parte necessária e a pergunta, sem antecipar gabarito/repergunta. Uma peça completa entra no procedimento adequado, sem forçar esse formato em toda regra.
 
+Leitura nativa no Notion desde 14/09: https://app.notion.com/p/3d642424cdbc812a881fdb73fd21ddaf . Usar `data/material/notion_regime_inicial_v0.1.json` para atualizar as quatro páginas em lugar. O material já explica bases pressupostas e apresenta o alcance por item oficial. As relações temáticas não impõem estudar matérias inteiras como pré-requisitos. Não pedir ao candidato que certifique qualidade jurídica.
+
 ## Rotina diária
 
 - Retomar uma tarefa interrompida antes de abrir outra, rechecando o conteúdo.

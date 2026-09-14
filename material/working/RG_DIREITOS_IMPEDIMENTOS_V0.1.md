@@ -2,11 +2,11 @@
 
 **BUILD / NÃO VALIDADO / NÃO INICIAR ESTUDO.**
 
-Conferência legal delimitada: 2026-09-13. CURRENT_LAW; elegibilidade para edital específico não avaliada.
+Conferência legal delimitada: 2026-09-14. CURRENT_LAW; elegibilidade para edital específico não avaliada.
 
 Gerado por `scripts/compile_material.py` a partir de `data/material/ingresso_v0.1.json`. Edite a fonte editorial e regenere; não edite esta derivação.
 
-Fingerprint semântico da fonte: `6e8c73946aa5ad7055a4941f75118602afb9334c14999b62c99c26907bfcef0d`.
+Fingerprint semântico da fonte: `8ecfb64ae7ce6329ae09a8014c391189e1fd1746e9699d4ef798e766d61032b3`.
 
 **Proveniência:** ENAC 2025.1 T1 Q39/B e ENAC 2026.1 T1 Q51/E e Q53/C. A contagem de parentesco é fundamento auxiliar do Código Civil, sem segunda incidência contada para a mesma questão. IDs de direitos, dever e impedimento reutilizam o ledger existente.
 
@@ -34,6 +34,14 @@ P0 = pré-requisito; P1 = cobertura; P2 = discriminativo; P3 = produção avanç
 #### Direito, dever e impedimento respondem a perguntas diferentes
 
 Direito é uma prerrogativa reconhecida ao titular; dever é uma conduta exigida; impedimento é uma vedação de atuar em determinada situação. Uma atividade pode ser juridicamente correta e, mesmo assim, não responder a uma pergunta sobre direitos, por pertencer à lista de deveres. Leia a categoria pedida antes de procurar uma frase familiar.
+
+<a id="rg-base-parentesco"></a>
+
+#### Linhas de parentesco: o desenho que permite contar
+
+Na linha reta, uma pessoa descende da outra: pai e filho, avó e neto. Na colateral, as pessoas têm um ascendente comum, mas uma não descende da outra: irmãos, tio e sobrinho. Nos exemplos consanguíneos usados aqui, conte as gerações, não a quantidade de nomes escritos no papel. A afinidade é outro vínculo: liga cada cônjuge ou companheiro aos ascendentes, descendentes e irmãos do outro, conforme o art. 1.595, § 1º. Não transforme todos os parentes do cônjuge em parentes por afinidade. Base: [CC, arts. 1.591–1.595](https://www.planalto.gov.br/ccivil_03/leis/2002/l10406compilada.htm).
+
+Este apoio ensina a reconhecer e contar os vínculos que serão usados nos casos. A incidência de impedimento ainda exige conferir quem atua pessoalmente e de quem é o interesse. A existência de casamento ou de parentesco, sozinha, não resolve toda a questão.
 
 <a id="rg-dir-029i"></a>
 

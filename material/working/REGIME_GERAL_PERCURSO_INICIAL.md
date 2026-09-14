@@ -2,6 +2,8 @@
 
 Material em preparação, com teoria e exercícios prontos para revisão. O tutor conduz a sequência no chat; o candidato não precisa abrir estes arquivos nem administrar a fila.
 
+**Leitura organizada no Notion:** [Regime Geral — índice e alcance por item do edital](https://app.notion.com/p/3d642424cdbc812a881fdb73fd21ddaf). As quatro partes abaixo também estão ali, com respostas recolhidas. Revisão de 14/09/2026 acrescentou explicações de fé pública, instrumentos/registro, parentesco e processo antes dos detalhes.
+
 | Ordem | Conteúdo | O que você precisa conseguir fazer |
 |---|---|---|
 | 1 | [Natureza e ingresso](RG_NATUREZA_INGRESSO_V0.1.md) | Entender a delegação, distinguir requisitos e separar ENAC de outorga |
@@ -28,3 +30,5 @@ Antes da Q43, recuperar também o trecho de [afastamento até decisão final](RG
 ## Limite de conclusão
 
 A teoria e os exercícios deste percurso foram escritos e conferidos contra fontes oficiais. Ainda não há validação independente concluída nem sessão real do candidato. O próximo trabalho usa este material concreto para a revisão já prevista e finaliza a retomada mínima de sessão; não acrescenta outra arquitetura como condição de início.
+
+[Revisão do percurso e lacunas por subitem](../../research/REGIME_GERAL_REVISAO_INICIANTE_2026-09-14.md). Nenhum dos nove subitens completos de Regime Geral é declarado encerrado por este recorte.

@@ -2,11 +2,11 @@
 
 **BUILD / NÃO VALIDADO / NÃO INICIAR ESTUDO.**
 
-Conferência legal delimitada: 2026-09-13. CURRENT_LAW; elegibilidade para edital específico não avaliada.
+Conferência legal delimitada: 2026-09-14. CURRENT_LAW; elegibilidade para edital específico não avaliada.
 
 Gerado por `scripts/compile_material.py` a partir de `data/material/ingresso_v0.1.json`. Edite a fonte editorial e regenere; não edite esta derivação.
 
-Fingerprint semântico da fonte: `6e8c73946aa5ad7055a4941f75118602afb9334c14999b62c99c26907bfcef0d`.
+Fingerprint semântico da fonte: `8ecfb64ae7ce6329ae09a8014c391189e1fd1746e9699d4ef798e766d61032b3`.
 
 **Proveniência:** RG-NAT-001 e RG-NAT-002 já existem no ledger; RG-ING-014 permanece o agrupador dos requisitos, detalhado aqui em quatro filhos. ENAC 2025.2, Tipo 1, Q36/C é evidência conhecida de nacionalidade/não exigência de três anos; não evidencia todos os demais detalhes deste bloco. Casos GX autorais, revisados no mesmo contexto. Relatório: research/APROVACAO_PRIMEIRO_BLOCO_2026-09-13.md.
 
@@ -43,6 +43,14 @@ Serviço é a atividade organizada; serventia é a unidade em que ela é prestad
 
 Requisito é uma condição exigida para ingressar; habilitar-se é superar uma exigência de seleção; outorga é a atribuição da delegação. Satisfazer dois requisitos descritos no enunciado não dispensa os demais. Na questão, delimite se perguntam sobre um impedimento específico, participação no concurso, aprovação ou recebimento da delegação.
 
+<a id="rg-base-fe-publica"></a>
+
+#### Fé pública: por que o documento merece confiança jurídica
+
+Fé pública é a confiança que o Direito atribui à atuação documentadora do profissional investido dessa qualidade. Não significa que ele seja infalível ou que qualquer narrativa feita por uma pessoa passe a ser verdade indiscutível. O CPC distingue a formação do documento e os fatos que o agente declara terem ocorrido em sua presença; também admite a declaração judicial de falsidade. Base: [Lei 8.935, art. 3º](https://www.planalto.gov.br/ccivil_03/leis/l8935.htm) e [CPC, arts. 405 e 427](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13105.htm).
+
+Exemplo resolvido: o tabelião presencia Ana declarar que pagou uma dívida na semana passada, mas não presenciou o pagamento. Documentar que Ana fez essa declaração não equivale a atestar que ele viu o pagamento. O ponto a compreender é a diferença entre o fato presenciado e a narrativa da parte; não é necessário estudar agora todo o procedimento de prova documental.
+
 <a id="rg-nat-001"></a>
 
 ### Para que existem os serviços
@@ -51,9 +59,9 @@ Requisito é uma condição exigida para ingressar; habilitar-se é superar uma 
 
 Os serviços notariais e de registro são organização técnica e administrativa voltada à publicidade, autenticidade, segurança e eficácia dos atos jurídicos.
 
-As quatro finalidades são elementos da definição legal. Compreender sua função ajuda a interpretar casos; recuperar a lista atende a uma pergunta de literalidade. Não deduza que todo ato produz imediatamente todos os efeitos possíveis: o efeito de cada escritura, registro ou averbação será estudado na respectiva regra.
+Publicidade permite que a informação jurídica seja conhecida nos limites legais; autenticidade diz respeito à certeza juridicamente atribuída à origem ou à formação documentada; segurança reduz a incerteza nas relações jurídicas; eficácia se refere à produção dos efeitos previstos em lei. São explicações introdutórias das quatro finalidades, não quatro efeitos automáticos de todo ato. A publicidade, por exemplo, convive com o sigilo da documentação reservada do art. 30, VI. Compreender essas funções ajuda a interpretar casos; recuperar a lista do art. 1º atende a uma pergunta de literalidade. O efeito específico de uma escritura, registro ou averbação será estudado na respectiva regra.
 
-[LEI-8935-ING](https://www.planalto.gov.br/ccivil_03/leis/l8935.htm) — Art. 1º.
+[LEI-8935-ING](https://www.planalto.gov.br/ccivil_03/leis/l8935.htm); [LEI-8935-REGIME](https://www.planalto.gov.br/ccivil_03/leis/l8935.htm) — Art. 1º; limite da publicidade exemplificado pelo art. 30, VI.
 
 <a id="rg-nat-002"></a>
 
@@ -143,7 +151,7 @@ Essa distinção organiza a preparação: superar a etapa habilitante e obter de
 
 A síntese é autoral. Abra o texto oficial e localize os elementos pedidos; este roteiro não substitui a redação legal.
 
-**Para que existem os serviços** — [LEI-8935-ING](https://www.planalto.gov.br/ccivil_03/leis/l8935.htm) — Art. 1º.
+**Para que existem os serviços** — [LEI-8935-ING](https://www.planalto.gov.br/ccivil_03/leis/l8935.htm); [LEI-8935-REGIME](https://www.planalto.gov.br/ccivil_03/leis/l8935.htm) — Art. 1º; limite da publicidade exemplificado pelo art. 30, VI.
 
 Foco da leitura: Quais são as quatro finalidades dos serviços notariais e de registro no art. 1º?
 
@@ -179,7 +187,7 @@ Foco da leitura: Passar no ENAC significa receber uma delegação? Que distinç�
 
 Versão compacta: somente as regras canônicas, sem as explicações e os exemplos do MASTER.
 
-**Para que existem os serviços** (`RG-NAT-001`): Os serviços notariais e de registro são organização técnica e administrativa voltada à publicidade, autenticidade, segurança e eficácia dos atos jurídicos. [LEI-8935-ING](https://www.planalto.gov.br/ccivil_03/leis/l8935.htm) — Art. 1º.
+**Para que existem os serviços** (`RG-NAT-001`): Os serviços notariais e de registro são organização técnica e administrativa voltada à publicidade, autenticidade, segurança e eficácia dos atos jurídicos. [LEI-8935-ING](https://www.planalto.gov.br/ccivil_03/leis/l8935.htm); [LEI-8935-REGIME](https://www.planalto.gov.br/ccivil_03/leis/l8935.htm) — Art. 1º; limite da publicidade exemplificado pelo art. 30, VI.
 
 **Exercício privado, delegação pública e fiscalização** (`RG-NAT-002`): No regime comum constitucional, os serviços são exercidos em caráter privado por delegação do Poder Público. Notário/tabelião e oficial/registrador são profissionais do Direito dotados de fé pública; seus atos se sujeitam à fiscalização pelo Poder Judiciário. [CF-1988-ING](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm); [LEI-8935-ING](https://www.planalto.gov.br/ccivil_03/leis/l8935.htm) — CF art. 236 caput e § 1º; Lei 8.935 art. 3º.
 
@@ -201,7 +209,7 @@ Perguntas de recuperação para revisar o material internamente. As respostas ab
 
 ### Quais são as quatro finalidades dos serviços notariais e de registro no art. 1º?
 
-Os serviços notariais e de registro são organização técnica e administrativa voltada à publicidade, autenticidade, segurança e eficácia dos atos jurídicos. [LEI-8935-ING](https://www.planalto.gov.br/ccivil_03/leis/l8935.htm) — Art. 1º.
+Os serviços notariais e de registro são organização técnica e administrativa voltada à publicidade, autenticidade, segurança e eficácia dos atos jurídicos. [LEI-8935-ING](https://www.planalto.gov.br/ccivil_03/leis/l8935.htm); [LEI-8935-REGIME](https://www.planalto.gov.br/ccivil_03/leis/l8935.htm) — Art. 1º; limite da publicidade exemplificado pelo art. 30, VI.
 
 Referência: `RG-NAT-001`.
 

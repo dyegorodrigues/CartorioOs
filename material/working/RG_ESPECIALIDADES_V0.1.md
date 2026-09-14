@@ -2,11 +2,11 @@
 
 **BUILD / NÃO VALIDADO / NÃO INICIAR ESTUDO.**
 
-Conferência legal delimitada: 2026-09-13. CURRENT_LAW; elegibilidade para edital específico não avaliada.
+Conferência legal delimitada: 2026-09-14. CURRENT_LAW; elegibilidade para edital específico não avaliada.
 
 Gerado por `scripts/compile_material.py` a partir de `data/material/ingresso_v0.1.json`. Edite a fonte editorial e regenere; não edite esta derivação.
 
-Fingerprint semântico da fonte: `6e8c73946aa5ad7055a4941f75118602afb9334c14999b62c99c26907bfcef0d`.
+Fingerprint semântico da fonte: `8ecfb64ae7ce6329ae09a8014c391189e1fd1746e9699d4ef798e766d61032b3`.
 
 **Proveniência:** Questões conhecidas: ENAC 2025.1 T1 Q50/C e ENAC 2025.2 T1 Q29/D, conferidas nesta entrega. Art. 5º e contrastes dos arts. 8º/12 são expansão normativa de apoio. Comentários completos e fontes em research/REGIME_GERAL_SEIS_QUESTOES_2026-09-13.md.
 
@@ -28,6 +28,14 @@ P0 = pré-requisito; P1 = cobertura; P2 = discriminativo; P3 = produção avanç
 ## 2. MASTER
 
 ### Base necessária
+
+<a id="rg-base-instrumentos"></a>
+
+#### Escritura, ata, firma, cópia e registro: o vocabulário antes da regra
+
+Escritura pública é um instrumento lavrado em notas de tabelião que documenta juridicamente o ato ou negócio. Ata notarial documenta a existência ou o modo de existir de um fato; por exemplo, o que o tabelião consegue constatar em uma página eletrônica. Reconhecimento de firma se refere à assinatura; autenticação de cópia se refere à correspondência da cópia com o documento apresentado. Registro é um lançamento realizado na especialidade competente, com o efeito que a lei atribui àquela inscrição. Bases: [Lei 8.935, arts. 6º e 7º](https://www.planalto.gov.br/ccivil_03/leis/l8935.htm), [CC, art. 215](https://www.planalto.gov.br/ccivil_03/leis/2002/l10406compilada.htm) e [CPC, art. 384](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13105.htm).
+
+Exemplo resolvido: numa compra e venda imobiliária entre vivos, lavrar a escritura e registrar o título no Registro de Imóveis são atos diferentes. Pelo art. 1.245 do Código Civil, a propriedade se transfere mediante o registro do título translativo; enquanto não houver esse registro, o alienante continua a ser havido como dono. Logo, se a pergunta for sobre a transferência da propriedade nessa hipótese, saber apenas que houve escritura é insuficiente. Não generalize esse exemplo para todos os modos de aquisição. Base: [CC, art. 1.245, caput e § 1º](https://www.planalto.gov.br/ccivil_03/leis/2002/l10406compilada.htm).
 
 <a id="rg-base-ato"></a>
 

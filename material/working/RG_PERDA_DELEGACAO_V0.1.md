@@ -2,11 +2,11 @@
 
 **BUILD / NÃO VALIDADO / NÃO INICIAR ESTUDO.**
 
-Conferência legal delimitada: 2026-09-13. CURRENT_LAW; elegibilidade para edital específico não avaliada.
+Conferência legal delimitada: 2026-09-14. CURRENT_LAW; elegibilidade para edital específico não avaliada.
 
 Gerado por `scripts/compile_material.py` a partir de `data/material/ingresso_v0.1.json`. Edite a fonte editorial e regenere; não edite esta derivação.
 
-Fingerprint semântico da fonte: `6e8c73946aa5ad7055a4941f75118602afb9334c14999b62c99c26907bfcef0d`.
+Fingerprint semântico da fonte: `8ecfb64ae7ce6329ae09a8014c391189e1fd1746e9699d4ef798e766d61032b3`.
 
 **Proveniência:** RG-LOSS-035 reutiliza o agrupador do ledger, agora materializado. ENAC 2025.2 T1 Q43/B conferida com gabarito definitivo; A/D exigem também RG-LOSS-035-AFASTAMENTO, já presente no workbook de afastamento.
 
@@ -25,6 +25,14 @@ P0 = pré-requisito; P1 = cobertura; P2 = discriminativo; P3 = produção avanç
 ## 2. MASTER
 
 ### Base necessária
+
+<a id="rg-base-processo"></a>
+
+#### Decisão, recurso e defesa: os termos que mudam a resposta
+
+Sentença judicial transitada em julgado é aquela que não está mais sujeita a recurso. Não basta que uma sentença tenha sido proferida para presumir esse estado. Para uma decisão de mérito, o CPC associa a coisa julgada material à impossibilidade de novo recurso. Processo administrativo é a via de apuração e decisão no exercício de função administrativa; uma autoridade do Judiciário também pode atuar nessa função. Bases: [CPC, art. 502](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13105.htm) e [Lei 8.935, art. 35](https://www.planalto.gov.br/ccivil_03/leis/l8935.htm).
+
+Contraditório e ampla defesa permitem conhecer e contestar o que é imputado e utilizar os meios de defesa pertinentes; a Constituição os assegura também no processo administrativo. Isso impede ler a via administrativa como perda automática ou sem defesa. Aqui o objetivo é distinguir as duas vias do art. 35, não memorizar todo o regime de recursos. Base: [Constituição, art. 5º, LV](https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm).
 
 <a id="rg-base-perda"></a>
 

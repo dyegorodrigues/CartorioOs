@@ -1,0 +1,268 @@
+{
+  "checked_at": "2026-09-14",
+  "state": "BUILD",
+  "editorial_source": "data/material/ingresso_v0.1.json",
+  "supplement_source": "data/material/pilot_recortes_v0.1.json",
+  "notion_material_data_source": "collection://a294d82c-a485-4200-b0b1-9f8c0490f9f7",
+  "entry": "https://app.notion.com/p/3d642424cdbc812a881fdb73fd21ddaf",
+  "pages": [
+    {
+      "unit_id": "RG-ENTRADA-01",
+      "title": "01.1 — Natureza e ingresso: começando do zero",
+      "url": "https://app.notion.com/p/3db42424cdbc818e978de51579b0a699",
+      "page_id": "3db42424-cdbc-818e-978d-e51579b0a699",
+      "order": 2.1,
+      "file": "material/notion/RG-ENTRADA-01.notion.md",
+      "curriculum_nodes": [
+        {
+          "code": "NTR 1.7",
+          "title": "NTR 1.7 — Disciplina Constitucional da Atividade Notarial e Registral",
+          "url": "https://app.notion.com/3d542424cdbc811d80a8f9ebd1a2425c"
+        },
+        {
+          "code": "CONST 31",
+          "title": "CONST 31 — Regime jurídico constitucional dos serviços notariais e de registro",
+          "url": "https://app.notion.com/3d542424cdbc81e2861dd14701e141b4"
+        },
+        {
+          "code": "CONST 34",
+          "title": "CONST 34 — Nacionalidade",
+          "url": "https://app.notion.com/3d542424cdbc8169ad68de6fff68adb7"
+        },
+        {
+          "code": "ADM 2",
+          "title": "ADM 2 — Serviço público delegado e delegação notarial/registral",
+          "url": "https://app.notion.com/3d542424cdbc81ddbf27ec2e2e0b404e"
+        },
+        {
+          "code": "PCIV 5",
+          "title": "PCIV 5 — Prova: teoria geral e meios de prova",
+          "url": "https://app.notion.com/3d542424cdbc81c89832faf12897a4df"
+        }
+      ],
+      "question_ids": [],
+      "supplement_id": null,
+      "readback_verified": true,
+      "projection_sha256": "5ed2236242626d05b8f5857cab700de54a965cbbfe52947d4e2de64e00fd275b"
+    },
+    {
+      "unit_id": "RG-ESPECIALIDADES-01",
+      "title": "01.2 — Quem faz o quê: atos e especialidades",
+      "url": "https://app.notion.com/p/3db42424cdbc81219b2dcfc0203895c8",
+      "page_id": "3db42424-cdbc-8121-9b2d-cfc0203895c8",
+      "order": 2.2,
+      "file": "material/notion/RG-ESPECIALIDADES-01.notion.md",
+      "curriculum_nodes": [
+        {
+          "code": "NTR 4.1",
+          "title": "NTR 4.1 — O Tabelião de Notas",
+          "url": "https://app.notion.com/3d542424cdbc817cbd0ed202ff58e5f6"
+        },
+        {
+          "code": "NTR 4.5",
+          "title": "NTR 4.5 — Escrituras públicas",
+          "url": "https://app.notion.com/3d542424cdbc81cbbab4cbe87a27968c"
+        },
+        {
+          "code": "NTR 4.9",
+          "title": "NTR 4.9 — Atas notariais",
+          "url": "https://app.notion.com/3d542424cdbc814a84e6f1922ff32355"
+        },
+        {
+          "code": "NTR 4.15",
+          "title": "NTR 4.15 — Cópias e autenticações",
+          "url": "https://app.notion.com/3d542424cdbc8112a9e2e6588b9d1a3f"
+        },
+        {
+          "code": "NTR 4.16",
+          "title": "NTR 4.16 — Reconhecimento de firmas por semelhança e autenticidade",
+          "url": "https://app.notion.com/3d542424cdbc814a9190f5cd9ec9af0c"
+        },
+        {
+          "code": "NTR 5.2",
+          "title": "NTR 5.2 — Apresentação, distribuição e providências iniciais",
+          "url": "https://app.notion.com/3d542424cdbc812db3a1ea45c3ebb3fa"
+        },
+        {
+          "code": "NTR 5.3",
+          "title": "NTR 5.3 — Competência no protesto",
+          "url": "https://app.notion.com/3d542424cdbc8168bf73fb4775aafe94"
+        },
+        {
+          "code": "CIV 6",
+          "title": "CIV 6 — Fatos jurídicos e negócio jurídico",
+          "url": "https://app.notion.com/3d542424cdbc8136b5c0eedf500b434b"
+        },
+        {
+          "code": "NR 6",
+          "title": "NR 6 — Registro de Imóveis",
+          "url": "https://app.notion.com/3d442424cdbc81e086efff607feb8934"
+        }
+      ],
+      "question_ids": [
+        "ENAC-2025.1-T1-Q50",
+        "ENAC-2025.2-T1-Q29"
+      ],
+      "supplement_id": "RG-ATTR-AUTH-001",
+      "readback_verified": true,
+      "projection_sha256": "691d154a55832e3d02f83b2cca699fa1fd5bbf24857f858c3de412b9b633dd78"
+    },
+    {
+      "unit_id": "RG-CONDUTA-01",
+      "title": "01.3 — Direitos, deveres e impedimentos",
+      "url": "https://app.notion.com/p/3db42424cdbc812882dad39efb3a0e40",
+      "page_id": "3db42424-cdbc-8128-82da-d39efb3a0e40",
+      "order": 2.3,
+      "file": "material/notion/RG-CONDUTA-01.notion.md",
+      "curriculum_nodes": [
+        {
+          "code": "NTR 1.1",
+          "title": "NTR 1.1 — Aspectos administrativos, trabalhistas, fiscais e previdenciários",
+          "url": "https://app.notion.com/3d542424cdbc8124bac7c955c5b75dca"
+        },
+        {
+          "code": "NTR 1.2",
+          "title": "NTR 1.2 — Responsabilidade civil, penal e disciplinar",
+          "url": "https://app.notion.com/3d542424cdbc81b98012cf7eba6c8805"
+        },
+        {
+          "code": "CIV 13",
+          "title": "CIV 13 — Direito de família",
+          "url": "https://app.notion.com/3d542424cdbc81789ca5ec77bbab75f9"
+        },
+        {
+          "code": "TRIB 19",
+          "title": "TRIB 19 — Natureza jurídica dos emolumentos e competência",
+          "url": "https://app.notion.com/3d542424cdbc81e28339fd308d2205e4"
+        }
+      ],
+      "question_ids": [
+        "ENAC-2025.1-T1-Q39",
+        "ENAC-2026.1-T1-Q51",
+        "ENAC-2026.1-T1-Q53"
+      ],
+      "supplement_id": null,
+      "readback_verified": true,
+      "projection_sha256": "61ccf3cdcff849c5b5529d3c59a8b942d7c44dcd9324bc877f034a0e694e777b"
+    },
+    {
+      "unit_id": "RG-PERDA-01",
+      "title": "01.4 — Perda da delegação e afastamento",
+      "url": "https://app.notion.com/p/3db42424cdbc81c895d9fedb9be7aa8d",
+      "page_id": "3db42424-cdbc-81c8-95d9-fedb9be7aa8d",
+      "order": 2.4,
+      "file": "material/notion/RG-PERDA-01.notion.md",
+      "curriculum_nodes": [
+        {
+          "code": "NTR 1.2",
+          "title": "NTR 1.2 — Responsabilidade civil, penal e disciplinar",
+          "url": "https://app.notion.com/3d542424cdbc81b98012cf7eba6c8805"
+        },
+        {
+          "code": "NTR 1.3",
+          "title": "NTR 1.3 — Fiscalização dos serviços",
+          "url": "https://app.notion.com/3d542424cdbc81dcb1a2ebc34f85b26b"
+        },
+        {
+          "code": "PCIV 6",
+          "title": "PCIV 6 — Sentença, coisa julgada e efeitos",
+          "url": "https://app.notion.com/3d542424cdbc8108a464f96829ce2c5d"
+        },
+        {
+          "code": "CONST 21",
+          "title": "CONST 21 — Princípios de defesa na Constituição Federal",
+          "url": "https://app.notion.com/3d542424cdbc81bcb500e30174172ea6"
+        }
+      ],
+      "question_ids": [
+        "ENAC-2025.2-T1-Q43"
+      ],
+      "supplement_id": "RG-LOSS-035-AFASTAMENTO",
+      "readback_verified": true,
+      "projection_sha256": "b4a4b8681342d6d01f4237e077541610026279927f92672cc863bc39a353edad"
+    }
+  ],
+  "coverage_scope": "Only the four-part initial route, not the whole repository or full syllabus.",
+  "coverage": [
+    {
+      "code": "1.1",
+      "scope": "Deveres selecionados; ainda faltam o tratamento completo de pessoal, trabalho, obrigações fiscais e previdência.",
+      "status": "Parcial",
+      "title": "NTR 1.1 — Aspectos administrativos, trabalhistas, fiscais e previdenciários",
+      "url": "https://app.notion.com/3d542424cdbc8124bac7c955c5b75dca"
+    },
+    {
+      "code": "1.2",
+      "scope": "Impedimentos e vias de perda ensinados; responsabilidade civil/penal e demais sanções ainda exigem fechamento próprio.",
+      "status": "Parcial",
+      "title": "NTR 1.2 — Responsabilidade civil, penal e disciplinar",
+      "url": "https://app.notion.com/3d542424cdbc81b98012cf7eba6c8805"
+    },
+    {
+      "code": "1.3",
+      "scope": "Fiscalização constitucional e recorte de afastamento; faltam procedimentos e competências detalhados.",
+      "status": "Parcial",
+      "title": "NTR 1.3 — Fiscalização dos serviços",
+      "url": "https://app.notion.com/3d542424cdbc81dcb1a2ebc34f85b26b"
+    },
+    {
+      "code": "1.4",
+      "scope": "O termo e alguns deveres aparecem. Natureza jurídica, normas e regime completo dos emolumentos não estão ensinados aqui.",
+      "status": "Pendente neste percurso",
+      "title": "NTR 1.4 — Emolumentos: natureza jurídica e normas aplicáveis",
+      "url": "https://app.notion.com/3d542424cdbc817e994dd3daf1e312a5"
+    },
+    {
+      "code": "1.5",
+      "scope": "Autonomia de gestão ainda precisa de unidade própria com prepostos e limites.",
+      "status": "Pendente neste percurso",
+      "title": "NTR 1.5 — Independência do Notário e Registrador no gerenciamento da Serventia",
+      "url": "https://app.notion.com/3d542424cdbc8111b632c1ba22f5b2e4"
+    },
+    {
+      "code": "1.6",
+      "scope": "O mapa apresenta a ideia. Os procedimentos de desjudicialização têm módulos próprios.",
+      "status": "Pendente neste percurso",
+      "title": "NTR 1.6 — Papel do Notário e Registrador na Desjudicialização",
+      "url": "https://app.notion.com/3d542424cdbc81998d30f094ab4136e8"
+    },
+    {
+      "code": "1.7",
+      "scope": "Natureza, delegação, ingresso e prazo de abertura; a disciplina constitucional integral ainda precisa de fechamento.",
+      "status": "Parcial",
+      "title": "NTR 1.7 — Disciplina Constitucional da Atividade Notarial e Registral",
+      "url": "https://app.notion.com/3d542424cdbc811d80a8f9ebd1a2425c"
+    },
+    {
+      "code": "1.8",
+      "scope": "A referência ao CNJ não equivale a ensinar suas atribuições e normas.",
+      "status": "Pendente neste percurso",
+      "title": "NTR 1.8 — Conselho Nacional de Justiça e a Atividade Notarial e Registral",
+      "url": "https://app.notion.com/3d542424cdbc81c2abc7e65ff87ba88d"
+    },
+    {
+      "code": "1.9",
+      "scope": "A menção ao art. 7º-A não esgota mediação, conciliação e arbitragem.",
+      "status": "Pendente neste percurso",
+      "title": "NTR 1.9 — Mediação, Conciliação e Arbitragem",
+      "url": "https://app.notion.com/3d542424cdbc81c29bb5ea46975d2807"
+    }
+  ],
+  "independent_passes": 0,
+  "learner_attempts_created": 0,
+  "maintenance": "Edit semantic source first; regenerate working material, then update the four existing Notion pages in place. Native pages are reading projections, not competing sources. Preserve identities and learner properties.",
+  "source_sha256": {
+    "data/material/ingresso_v0.1.json": "7271308a8b0592fd3dcf5ba984a3b3e76bc5d72cb2cd30d5e3a25e6a356e7963",
+    "data/material/pilot_recortes_v0.1.json": "ea4abd754c391a6a5965bf78aa08c997272238b77253e78de5509d9923f5772e"
+  },
+  "verification": {
+    "native_pages_read_back": 4,
+    "foundations_rules_and_answers_preserved": true,
+    "native_toggle_blocks": 42,
+    "curriculum_relations": 22,
+    "question_relations": 6,
+    "old_percentages_cleared": 2,
+    "independent_passes": 0,
+    "learner_state_unchanged": true
+  }
+}

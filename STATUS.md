@@ -1,18 +1,18 @@
 # GX Cartório OS — Estado Atual
 
-Atualizado em 13/09/2026 — teoria ampliada e seis questões oficiais fundamentadas no material e no Notion.
+Atualizado em 14/09/2026 — bases para iniciante corrigidas e percurso de leitura publicado no Notion.
 
-## Checkpoint mais recente — teoria e questões de Regime Geral
+## Checkpoint mais recente — leitura, pré-requisitos e alcance real
 
-Entrega focada no conteúdo. O percurso inicial tem quatro partes: natureza/ingresso, especialidades, direitos/deveres/impedimentos e perda da delegação. Índice: `material/working/REGIME_GERAL_PERCURSO_INICIAL.md`. São 24 regras/grupos, 24 recuperações e 14 casos autorais; nesta entrega foram acrescentadas 16 regras e 9 casos. Fonte editorial: `data/material/ingresso_v0.1.json`.
+O usuário nunca estudou a matéria e não tem de avaliar suficiência ou administrar arquivos. Quatro partes estão publicadas na coleção Material Mestre do Notion, com teoria, exemplos, 24 perguntas recolhidas e 14 exercícios comentados. Entrada: https://app.notion.com/p/3d642424cdbc812a881fdb73fd21ddaf . Identidades e vínculos: `data/material/notion_regime_inicial_v0.1.json`.
 
-Conferidas seis questões oficiais e suas trinta alternativas: ENAC 2025.1 T1 Q39/B e Q50/C; 2025.2 T1 Q29/D e Q43/B; 2026.1 T1 Q51/E e Q53/C. Comentários: `research/REGIME_GERAL_SEIS_QUESTOES_2026-09-13.md`. O complemento necessário à Q43 está explicitamente ligado ao recorte anterior de afastamento.
+Corrigidos pré-requisitos pressupostos: fé pública e alcance do documento; escritura/ata/assinatura/cópia/registro; linhas de parentesco; trânsito em julgado e defesa. Explicadas as quatro finalidades dos serviços. As 24 regras/grupos permanecem; quatro bases e exemplos foram acrescentados à fonte `data/material/ingresso_v0.1.json`. Os 14 casos foram revistos editorialmente e ligados à versão de 14/09.
 
-**Seis registros existentes do Question Lab, antes sem fundamento, foram preenchidos e relidos.** Fontes, artigos, comentários e snapshots delimitados ficaram nos próprios registros; conteúdo anterior e dados do candidato preservados. Identidades/hashes/verificação: `data/atlas/REGIME_GERAL_SIX_RECONSTRUCTIONS_2026-09-13.json`.
+As seis reconstruções ENAC de 13/09 agora se ligam também às páginas de ensino. Não são seis novas reconstruções. Cópia/quitação e afastamento do art. 35 § 1º aparecem na própria leitura, derivados dos dois nós já existentes. Nada foi lançado como resposta, retenção ou mastery do candidato.
 
-Conferidos os quatro derivados deste lote, os dois anteriores, os três hashes congelados e os vínculos questão → regra → material. A revisão legal corrigiu a precisão do dever de recibo para emolumentos; o caso afetado foi revisto. Não houve alteração de código, criação de teste novo ou promoção de suficiência. Revisão no mesmo contexto; zero novo passe independente.
+O índice no Notion separa sequência pedagógica de numeração oficial e descreve os nove subitens 1.1–1.9. Nenhum é declarado integralmente encerrado pelo percurso. Removidos percentuais antigos sem medição demonstrada no hub/piloto; ressalvada referência Vunesp/SP não reconciliada. Revisão e fontes: `research/REGIME_GERAL_REVISAO_INICIANTE_2026-09-14.md`. Leitura de volta confirmou regras, respostas, bases, relações e toggles das quatro páginas; código inalterado, sem novo passe independente.
 
-Próximo marco: usar o conteúdo concreto na revisão externa já prevista e concluir integração mínima de sessão/retomada. Não ampliar arquitetura como condição de início. Estudo real continua não iniciado; não afirmar que o curso inteiro, os pilotos completos ou as 300 reconstruções ENAC foram concluídos. O usuário quer execução e linguagem simples; informar resultados de conteúdo, sem despejar terminologia interna.
+Próximo trabalho: revisão independente e retomada mínima já previstas; a pendência de conteúdo seguinte está localizada em gerenciamento/prepostos e responsabilidade. Não ampliar arquitetura ou transformar cobertura parcial em promessa de gabarito. Atualizar as páginas existentes em lugar, a partir da fonte editorial. Estudo real não iniciado. Comunicar avaliação e resultados em linguagem simples; não exigir avaliação jurídica do candidato.
 
 ## Checkpoint anterior — rotina no ChatGPT
 
