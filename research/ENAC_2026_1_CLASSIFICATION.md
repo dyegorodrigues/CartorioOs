@@ -1,5 +1,7 @@
 # ENAC 2026.1 — Classificação do corpus
 
+> **Governança 28/09/2026:** este arquivo preserva o checkpoint histórico da Passagem 1. Para completude relacional/taxonômica atual, usar `research/ENAC_300_META_ANALYSIS.md` e `research/ENAC_LINK_REPAIR_AND_BLIND_QA_2026-09-28.md`. Não executar como pendência atual os próximos passos antigos abaixo.
+
 Fonte canônica: prova oficial Tipo 1 + gabarito definitivo FGV/CNJ. Plataformas de questões podem auxiliar descoberta/parsing, mas não substituem a fonte oficial.
 
 ## Estado
