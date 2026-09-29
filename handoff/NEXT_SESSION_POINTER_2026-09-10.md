@@ -6,6 +6,29 @@ Retomar sem reabrir arquitetura, sem fingir validação e sem iniciar estudo pre
 ## Branch HOT
 `chatgpt/gx-cartorio-v0.1`
 
+## Addendum HOT — 28/09/2026 — ENAC 300
+
+Para a frente de meta-análise ENAC, este checkpoint prevalece sobre contagens históricas anteriores:
+
+- ENAC 2025.1: 100/100 vinculadas ao currículo;
+- ENAC 2025.2: 99/100 vinculadas; Q100 Conhecimentos Gerais permanece intencionalmente sem vínculo como MATRIX_DRIFT;
+- ENAC 2026.1: 100/100 vinculadas;
+- Família da fonte: 300/300 preenchida;
+- Mecanismo do distrator: 300/300 preenchido;
+- Validação Oficial: 300/300;
+- seis anuladas preservadas em camada própria.
+
+QA cego amostral estratificado contra os PDFs oficiais FGV não encontrou drift material nos itens conferidos. Isso não equivale a certificação jurídica 300/300.
+
+Ler primeiro:
+1. research/ENAC_LINK_REPAIR_AND_BLIND_QA_2026-09-28.md
+2. research/ENAC_300_META_ANALYSIS.md
+3. research/ENAC_EDITAL_MEGA_TREE_META_ANALYSIS_2026-09-14.md
+
+Próximo fluxo: recontagem 300/300 quando Query Data Source voltar → ampliar QA estratificado → heatmap por nó/subtema → Domain Incidence separado de FGV Bank Style → Reconstruction Cards/Depth Budgets.
+
+Restrição autoral permanece: NÃO INICIAR ESTUDO e não atribuir mastery.
+
 ## Retomada vigente — 14/09/2026
 
 Começar por `docs/START_HERE.md`, `STATUS.md` e `architecture/MINIMUM_VIABLE_TUTOR.md`. Ler demais documentos somente conforme a tarefa. O histórico abaixo preserva contexto, mas os checkpoints recentes e erratas prevalecem sobre conclusões antigas de PASS.
