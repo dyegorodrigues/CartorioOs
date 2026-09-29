@@ -64,11 +64,18 @@ Foram relacionados aos nós atuais, entre outros:
 - Q92 testamentos sucessivos/testamenteiro → CIV 14 + NTR 4.10;
 - Q99 flagrante/prisão especial → PPEN 4.
 
-## 4. Blind QA amostral contra caderno oficial FGV 2025.2
+## 4. Blind QA estratificado contra cadernos oficiais FGV
 
-A amostra foi relida diretamente no PDF oficial da FGV e visualmente conferida nas páginas do caderno, sem depender apenas dos títulos do banco.
+A amostra foi relida diretamente nos PDFs oficiais da FGV e visualmente conferida nas páginas dos cadernos, sem depender apenas dos títulos do banco.
 
-Itens conferidos neste lote:
+### 2025.1
+Conferidos, entre outros:
+- Q47 — usucapião extrajudicial;
+- Q63 — ADPF;
+- Q94 — recuperação judicial e alienação fiduciária de recebíveis (**anulada**, usada apenas para QA de tema/ambiguidade, não como resposta canônica).
+
+### 2025.2
+Conferidos:
 - Q43 — perda da delegação / Lei 8.935/1994;
 - Q44 — síndico / Lei 4.591/1964;
 - Q76 — revogação de benefício de ICMS e anterioridade;
@@ -81,9 +88,16 @@ Itens conferidos neste lote:
 - Q88 — preservação da vontade do testador;
 - Q90 — capacidade/emancipação em contrato.
 
-Resultado: **nenhum drift de tema material encontrado nessa amostra**. Os vínculos adicionados são compatíveis com o enunciado oficial.
+### 2026.1
+Conferidos, entre outros:
+- Q30 — execução extrajudicial de hipoteca;
+- Q34 — usucapião extrajudicial com impugnação;
+- Q42 — responsabilidade civil do notário/registrador;
+- Q48 — impedimentos para designação de interino.
 
-Isto é QA amostral, não certificação 300/300 do conteúdo jurídico.
+Resultado do recorte estratificado: **nenhum drift de tema material encontrado** entre os enunciados oficiais vistos e os vínculos/taxonomias correspondentes.
+
+Isto é QA amostral estratificado, não certificação 300/300 do conteúdo jurídico.
 
 ## 5. Próximo batch correto
 
