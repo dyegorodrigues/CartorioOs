@@ -1,6 +1,24 @@
 # GX Cartório OS — Estado Atual
 
-Atualizado em 14/09/2026 — bases para iniciante corrigidas e percurso de leitura publicado no Notion.
+Atualizado em 28/09/2026 — corpus ENAC 300 reparado estruturalmente; material learner-facing continua bloqueado.
+
+## Checkpoint mais recente — ENAC 300 reparado e QA amostral
+
+O `Question Intelligence Lab` foi recontado após o reparo relacional. Estado atual:
+- ENAC 2025.1: **100/100** com vínculo curricular;
+- ENAC 2025.2: **99/100** com vínculo;
+- ENAC 2026.1: **100/100** com vínculo;
+- único item sem vínculo: **2025.2 Q100**, Conhecimentos Gerais, preservado intencionalmente como `MATRIX_DRIFT` porque não pertence à matriz ENAC 2026.2.
+
+Os campos `Família da fonte` e `Mecanismo do distrator` estão **300/300 preenchidos**; `Validação = Oficial` também 300/300; anuladas = 6. O limite de `Query Data Source` do Notion foi atingido antes da recontagem agregada final por família/mecanismo, portanto percentuais 300/300 novos ainda não foram publicados.
+
+QA cego amostral foi iniciado no PDF oficial FGV 2025.2 e confirmou sem drift material os vínculos de Q43, Q44, Q76, Q77, Q78, Q79, Q84, Q86, Q87, Q88 e Q90. Não chamar isso de certificação jurídica 300/300.
+
+Artefatos:
+- `research/ENAC_LINK_REPAIR_AND_BLIND_QA_2026-09-28.md`;
+- `research/ENAC_300_META_ANALYSIS.md` atualizado.
+
+Próximo HOT: assim que a consulta estruturada voltar, recalcular os agregados 300/300; ampliar QA estratificado; então gerar heatmap quantitativo por nó e cruzar Domain Incidence x FGV Bank Style sem misturar os estimadores. **Estudo real continua não iniciado; não atribuir mastery.**
 
 ## Checkpoint mais recente — leitura, pré-requisitos e alcance real
 
