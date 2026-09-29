@@ -1,0 +1,2 @@
+# Motor mantido pelo projeto Open Spaced Repetition; sem serviço/API pagos.
+fsrs==6.3.2
