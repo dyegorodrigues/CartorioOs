@@ -1,7 +1,7 @@
 # ENAC 300 — Meta-análise auditada
 
-Data: 14/09/2026  
-Status: **CANÔNICO PARA FATOS MEDIDOS / PARCIAL PARA CAMPOS AINDA INCOMPLETOS**
+Data: 28/09/2026  
+Status: **CANÔNICO PARA FATOS MEDIDOS / TAGS ANALÍTICAS 300/300 / RELAÇÕES 299/300 COM 1 MATRIX-DRIFT INTENCIONAL**
 
 > Este documento substitui `ENAC_300_META_ANALYSIS_DRAFT.md` como ponto de leitura atual. O draft histórico permanece preservado.
 
@@ -79,67 +79,67 @@ Consequências:
 
 # 3. Estado de completude das anotações
 
-A auditoria direta no Question Intelligence Lab encontrou:
+Reparo relacional e taxonômico concluído em 28/09/2026, com recontagem estruturada antes do limite de consultas do workspace.
 
 ## 3.1 Relação questão → currículo
 
-| Edição | Ligadas | Órfãs |
+| Edição | Ligadas | sem vínculo |
 |---|---:|---:|
-| 2025.1 | 0 | **100** |
-| 2025.2 | 72 | **28** |
-| 2026.1 | 99 | **1** |
-| **Total** | **171** | **129** |
+| 2025.1 | **100** | 0 |
+| 2025.2 | **99** | **1** |
+| 2026.1 | **100** | 0 |
+| **Total** | **299** | **1** |
 
-Cobertura relacional: **57,0%**.
+O único item sem vínculo é **ENAC 2025.2 Q100 — Debate público sobre medicamentos para obesidade**. É um caso deliberado de `MATRIX_DRIFT`: Conhecimentos Gerais existia nas três edições históricas, mas não integra a matriz ENAC 2026.2. Não criar nó jurídico artificial apenas para zerar a coluna.
 
-Portanto ainda é proibido publicar um ranking quantitativo fino por nó da mega-árvore como se todo o corpus estivesse mapeado.
+Portanto:
+- cobertura bruta: **299/300 = 99,67%**;
+- cobertura dos itens juridicamente mapeáveis ao currículo atual neste corpus: **299/299 = 100%**;
+- 1 item permanece `INTENTIONAL_UNMAPPED / MATRIX_DRIFT`.
+
+A restrição anterior contra ranking quantitativo por nó motivada por 171 relações deixa de valer. Permanecem, porém, as restrições de tamanho amostral, dependência entre múltiplos vínculos e necessidade de QA jurídico.
 
 ## 3.2 Família da fonte
 
-Campo preenchido em 200/300; o ENAC 2026.1 ainda está 100/100 vazio nesse atributo.
+A recontagem de completude confirmou:
+- 2025.1: 100/100 preenchidas;
+- 2025.2: 100/100 preenchidas;
+- 2026.1: 100/100 preenchidas.
 
-Nos **200 itens efetivamente anotados** (2025.1 + 2025.2):
+Logo o campo está **300/300 preenchido**.
 
-| Família predominante | n | % de 200 |
-|---|---:|---:|
-| Constituição/lei/código | 77 | **38,5%** |
-| Mista | 43 | **21,5%** |
-| CNJ/Corregedoria | 33 | **16,5%** |
-| STF/STJ/TJ | 31 | **15,5%** |
-| Regulação operacional | 13 | **6,5%** |
-| Doutrina | 3 | **1,5%** |
-
-Isto não significa que somente 15,5% das questões “usem jurisprudência”. O campo registra a família predominante da passagem 1 e ainda não representa todas as fontes decisivas/auxiliares de cada item.
+Os percentuais antigos de 200 itens abaixo não devem mais ser usados como fotografia atual. A recontagem agregada 300/300 por família ficou pendente porque o workspace atingiu o limite de `Query Data Source` logo depois da verificação de completude. Até nova consulta, não publicar novos percentuais por família.
 
 ## 3.3 Mecanismo do distrator
 
-Campo preenchido em 200/300; ENAC 2026.1 ainda está 100/100 sem essa tag.
+A recontagem de completude confirmou:
+- 2025.1: 100/100 com tag;
+- 2025.2: 100/100 com tag;
+- 2026.1: 100/100 com tag.
 
-O campo é multi-select. Uma questão pode conter múltiplos mecanismos.
+Logo o campo está **300/300 preenchido**.
 
-| Mecanismo | Questões com a tag | % de 200 |
-|---|---:|---:|
-| Requisito | 155 | **77,5%** |
-| Efeito jurídico | 133 | **66,5%** |
-| Competência | 63 | **31,5%** |
-| Exceção | 57 | **28,5%** |
-| Conceito próximo | 56 | **28,0%** |
-| Literalidade/lista | 51 | **25,5%** |
-| Prazo/momento | 33 | **16,5%** |
-| Judicialização | 19 | **9,5%** |
-| Responsabilidade | 19 | **9,5%** |
-| Legitimidade | 10 | **5,0%** |
+O campo continua multi-select: uma questão pode conter múltiplos mecanismos. Os agregados antigos de 200 itens servem apenas como histórico de calibração, não como estatística final. A nova distribuição 300/300 deve ser recalculada quando a consulta estruturada estiver novamente disponível.
 
-### Sinal mais robusto até aqui
+## 3.4 Validação e anulações
 
-Nas duas edições anotadas separadamente, `Requisito` e `Efeito jurídico` permanecem em 1º e 2º lugares:
+Os três blocos permanecem 100/100 com `Validação = Oficial`.
 
-- 2025.1: requisito 82; efeito 74;
-- 2025.2: requisito 73; efeito 59.
+Anulações confirmadas na base:
+- 2025.1: 3;
+- 2025.2: 1;
+- 2026.1: 2;
+- total: **6/300**.
 
-Isso sustenta uma hipótese forte de desenho pedagógico: para grande parte do conteúdo, saber apenas “o conceito” é insuficiente. É preciso ensinar **regra → requisito → limite → consequência**.
+As anuladas permanecem úteis para conteúdo, ambiguidade e QA de banca, mas não fornecem resposta jurídica canônica.
 
-Ainda não rotular esses percentuais como `DNA 300` até anotar e revisar 2026.1.
+## 3.5 QA cego amostral
+
+Foi iniciada releitura diretamente no caderno oficial FGV 2025.2, inclusive conferência visual do PDF. A amostra deste lote incluiu Q43, Q44, Q76, Q77, Q78, Q79, Q84, Q86, Q87, Q88 e Q90.
+
+Resultado do recorte: **nenhum drift material de tema** foi encontrado entre o enunciado oficial e os vínculos curriculares adicionados.
+
+Isto é QA amostral, não certificação jurídica 300/300.
 
 ---
 
@@ -337,40 +337,43 @@ Uma regra pode ser rara, barata e fatal se esquecida: alta memória, baixa densi
 
 # 10. O que NÃO pode ser afirmado ainda
 
-Mesmo após este fechamento, permanecem proibidos:
+Mesmo após o reparo estrutural, permanecem proibidos:
 
 - “tema X tem 83% de chance de cair”;
-- ranking completo por 330 nós com base em apenas 171 relações;
-- porcentagem 300/300 de mecanismos de distrator;
-- porcentagem 300/300 de família de fonte;
 - tendência temporal forte com três edições;
+- tratar múltiplos vínculos de uma questão como observações estatisticamente independentes;
 - inferir irrelevância porque o tema não apareceu em três provas;
 - usar outra banca para fabricar amostra de estilo FGV;
 - usar questão histórica sem revalidar o Direito atual;
-- confundir indexação 300/300 com reconstrução jurídica 300/300.
+- confundir indexação/linkagem 300/300 com reconstrução jurídica 300/300;
+- chamar QA amostral de certificação integral;
+- forçar Conhecimentos Gerais histórico para dentro do currículo jurídico atual;
+- publicar novos percentuais 300/300 de fonte/distrator antes da recontagem agregada.
 
 ---
 
 # 11. Próximo lote empírico obrigatório
 
-A arquitetura da meta-análise está suficientemente fechada. O próximo ganho real vem de reparar dados e reconstruir itens, não de criar mais camadas conceituais.
+A arquitetura e o reparo estrutural estão suficientemente fechados. O ganho seguinte é transformar os 300 itens anotados em estatística confiável e depois em decisão pedagógica.
 
 Ordem operacional:
 
-1. relacionar os 129 itens órfãos aos nós curriculares;
-2. preencher família de fonte do ENAC 2026.1;
-3. preencher mecanismos de distrator do ENAC 2026.1;
-4. executar QA cego amostral contra cadernos oficiais;
-5. recalcular estatísticas 300/300;
-6. produzir Reconstruction Cards pelos clusters que entram no material;
-7. cruzar esses nós com FGV estadual e Cartório multibanca;
-8. criar Depth Budgets por proposição/cluster;
-9. manter held-out separado antes de validar material.
+1. quando `Query Data Source` voltar, recalcular agregados 300/300 de família de fonte e mecanismos de distrator;
+2. preservar Q100/2025.2 como `INTENTIONAL_UNMAPPED / MATRIX_DRIFT`;
+3. ampliar QA cego estratificado entre 2025.1, 2025.2 e 2026.1;
+4. produzir o primeiro heatmap quantitativo por nó/subtema, explicitando denominador e múltiplos vínculos;
+5. cruzar o **Domain Incidence Model** com cartório multibanca;
+6. cruzar separadamente o **FGV Bank Style Model** com FGV estadual/cartório e FGV comparável, com pesos distintos;
+7. gerar Reconstruction Cards para clusters materialmente prioritários;
+8. atribuir Depth Budgets por proposição/cluster;
+9. manter held-out separado antes de validar material learner-facing;
+10. continuar sem iniciar estudo real ou atribuir mastery.
 
 ---
 
 # 12. Artefatos relacionados
 
+- `research/ENAC_LINK_REPAIR_AND_BLIND_QA_2026-09-28.md` — checkpoint do reparo relacional, completude 300/300 e QA cego amostral;
 - `research/ENAC_EDITAL_MEGA_TREE_META_ANALYSIS_2026-09-14.md` — arquitetura consolidada da mega-árvore;
 - `research/ENAC_300_STRUCTURED_QA_2026-09-14.md` — auditoria exata do data source;
 - `research/ENAC_300_CORPUS_GATE.md` — limites e regra de Passagem 2;
