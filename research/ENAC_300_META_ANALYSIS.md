@@ -133,13 +133,18 @@ Anulações confirmadas na base:
 
 As anuladas permanecem úteis para conteúdo, ambiguidade e QA de banca, mas não fornecem resposta jurídica canônica.
 
-## 3.5 QA cego amostral
+## 3.5 QA cego amostral estratificado
 
-Foi iniciada releitura diretamente no caderno oficial FGV 2025.2, inclusive conferência visual do PDF. A amostra deste lote incluiu Q43, Q44, Q76, Q77, Q78, Q79, Q84, Q86, Q87, Q88 e Q90.
+A releitura foi ampliada para os três cadernos oficiais FGV, com conferência visual dos PDFs.
 
-Resultado do recorte: **nenhum drift material de tema** foi encontrado entre o enunciado oficial e os vínculos curriculares adicionados.
+Amostra vista:
+- 2025.1: Q47, Q63 e Q94, esta última anulada e usada apenas como QA de tema/ambiguidade;
+- 2025.2: Q43, Q44, Q76, Q77, Q78, Q79, Q84, Q86, Q87, Q88 e Q90;
+- 2026.1: Q30, Q34, Q42 e Q48.
 
-Isto é QA amostral, não certificação jurídica 300/300.
+Resultado do recorte estratificado: **nenhum drift material de tema** foi encontrado entre os enunciados oficiais vistos e os vínculos/taxonomias correspondentes.
+
+Isto é QA amostral estratificado, não certificação jurídica 300/300.
 
 ---
 
