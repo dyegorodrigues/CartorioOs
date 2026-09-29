@@ -1,5 +1,7 @@
 # ENAC 300 — QA estruturado do Question Intelligence Lab
 
+> **Governança 28/09/2026:** este arquivo preserva o checkpoint histórico da Passagem 1. Para completude relacional/taxonômica atual, usar `research/ENAC_300_META_ANALYSIS.md` e `research/ENAC_LINK_REPAIR_AND_BLIND_QA_2026-09-28.md`. Não executar como pendência atual os próximos passos antigos abaixo.
+
 Data: 14/09/2026  
 Status: **VERIFIED DATABASE QA / NÃO É AINDA META-ANÁLISE 300 COMPLETA**
 
