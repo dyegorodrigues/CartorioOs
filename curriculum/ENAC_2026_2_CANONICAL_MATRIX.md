@@ -1,6 +1,6 @@
-# ENAC 2026.2 — Matriz Canônica de Currículo (nível Tema)
+# ENAC 2026.2 — Matriz Canônica de Currículo (Tema + subtemas N/R)
 
-Status: **canônico no nível Tema; subtemas e microtemas ainda em decomposição**.
+Status: **canônico no nível Tema em todas as disciplinas e no nível Subtema para Direito Notarial e Registral; microtemas e decomposições úteis das demais disciplinas continuam derivados/iterativos**.
 
 Fonte primária: Edital de Abertura nº 2/2026, 4º ENAC 2026.2, Anexo I, FGV/CNJ.
 
@@ -37,7 +37,7 @@ Fonte primária: Edital de Abertura nº 2/2026, 4º ENAC 2026.2, Anexo I, FGV/CN
 10. Legislação atinente aos Registros Públicos e Direito Notarial.
 11. Resoluções do CNJ expressamente cobradas.
 
-**Observação:** este bloco contém dezenas de subitens expressos no edital. A próxima decomposição deve descer para Subtema/Microtema, especialmente nos temas 3 a 9.
+**Observação de governança (reconciliada em 28/09/2026):** os subitens expressos 1.1–11.2 já foram materializados no `Curriculum & Mastery Graph` como **138 nós de Subtema**, ocupando os `Node ID 193–330`. Não recriar essa camada. A decomposição ainda aberta é de Microtema/Proposição e de listas internas das demais disciplinas quando houver valor pedagógico ou analítico.
 
 ## Direito Civil
 
@@ -241,8 +241,10 @@ Fonte primária: Edital de Abertura nº 2/2026, 4º ENAC 2026.2, Anexo I, FGV/CN
 
 ## Estado de decomposição
 
-- Nível **Matéria**: completo (11/11).
-- Nível **Tema**: completo no Notion (181/181).
-- Direito Notarial e Registral: os 11 temas existem, mas os subitens 1.1–11.2 ainda precisam ser convertidos em Subtema/Microtema.
-- Demais disciplinas: diversos temas oficiais contêm listas internas que também deverão ser decompostas quando isso trouxer valor pedagógico ou analítico.
-- Nenhuma prioridade preditiva deve ser derivada apenas desta matriz; prioridade depende do cruzamento com corpus real de questões, dependências pedagógicas e desempenho individual.
+- Nível **Matéria**: completo (11/11), `Node ID 1–11`.
+- Nível **Tema**: completo (181/181), `Node ID 12–192`.
+- Nível **Subtema N/R**: completo para os subitens expressos 1.1–11.2 (**138/138**), `Node ID 193–330`.
+- Total estrutural materializado até essa camada: **330 nós** = 11 Matérias + 181 Temas + 138 Subtemas N/R.
+- **Microtema/Proposição**: camada derivada, ainda seletiva. Criar somente quando melhorar reconstrução de questão, pré-requisito, discriminação, procedimento, freshness ou output.
+- Demais disciplinas: listas internas de temas podem ser decompostas seletivamente quando trouxerem valor pedagógico/analítico; não inflar a contagem “oficial” sem distinguir item expresso de decomposição GX.
+- Nenhuma prioridade preditiva deve ser derivada apenas desta matriz; prioridade depende do cruzamento com corpus real, dependências pedagógicas, fase e, futuramente, desempenho individual.
