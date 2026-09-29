@@ -1,5 +1,7 @@
 # ENAC 2025.2 — Classification Complete (Passagem 1)
 
+> **Governança 28/09/2026:** este arquivo preserva o checkpoint histórico da Passagem 1. Para completude relacional/taxonômica atual, usar `research/ENAC_300_META_ANALYSIS.md` e `research/ENAC_LINK_REPAIR_AND_BLIND_QA_2026-09-28.md`. Não executar como pendência atual os próximos passos antigos abaixo.
+
 Atualizado em 08/09/2026.
 
 ## Fonte canônica
