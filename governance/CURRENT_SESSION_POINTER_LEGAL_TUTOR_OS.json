@@ -4,33 +4,24 @@
   "branch": "chatgpt/legal-tutor-os-core-2026-09-30",
   "phase": "EDITORIAL_RECALIBRATION_AFTER_USER_REJECTION",
   "pilot": "Introducao ao Direito Penal",
-  "status": "USER_REJECTED_MASTER_03_04_05_AS_STUDY_SURFACE",
-  "rejected_pages": [
-    "https://app.notion.com/p/3ec42424cdbc81c39d29efaa5e2840f8",
-    "https://app.notion.com/p/3ec42424cdbc81af83b3e6fdc149cac8",
-    "https://app.notion.com/p/3ec42424cdbc81588452c32cc0fa8fcd"
+  "status": "NEW_SINGLE_PAGE_CALIBRATED_PILOT_CREATED_AWAITING_USER_AUDIT",
+  "candidate_page": {
+    "title": "NOVO PILOTO CALIBRADO — 1. Conceito e Objeto do Direito Penal",
+    "notion_url": "https://app.notion.com/p/3ec42424cdbc816397fcf488d6575495"
+  },
+  "surface_rules": [
+    "uma pagina de estudo antes de criar camadas derivadas",
+    "sem IDs tecnicos, gates, provenance ou taxonomias na superficie",
+    "texto fluido em paragrafos curtos e modulares",
+    "destaques semanticos visuais",
+    "parenteses de reconexao naturais dentro da leitura",
+    "lei seca no ponto em que ganha significado",
+    "tabela apenas quando melhora discriminacao",
+    "teste de memoria curto no final",
+    "engenharia de banca e governanca ficam nos bastidores"
   ],
-  "rejection_reason": [
-    "material pouco fluido e confuso",
-    "arquitetura de engenharia vazou para a pagina de estudo",
-    "modularizacao visual e pedagogica insuficiente",
-    "destaques e hierarquia visual nao reproduziram os melhores especimes legados",
-    "usuario nao conseguiu aprender nem avaliar o que realmente cai em concurso"
-  ],
-  "next_step": "AUDITAR_OS_MELHORES_ESPECIMES_LEGADOS_E_RECONSTRUIR_UM_UNICO_MICROBLOCO_COM_EDICAO_CIRURGICA",
-  "method_change": [
-    "usar o melhor material antigo como molde de superficie, nao criar linguagem editorial nova",
-    "manter engenharia, IDs, provenance, gates e taxonomias fora da pagina de estudo",
-    "preservar texto fluido em paragrafos com destaques semanticos e tabelas estrategicas",
-    "usar parenteses de reconexao de forma natural",
-    "mostrar incidencia de prova de modo simples e pontual",
-    "validar um unico microbloco antes de gerar REVIEW RECALL EXAM e Oral"
-  ],
-  "do_not": [
-    "escalar novos masters",
-    "usar paginas 03 04 05 como padrao",
-    "expor IDs PEN.INT ao aluno",
-    "expor governanca tecnica na superficie de estudo",
-    "sobrescrever legado"
-  ]
+  "next_step": "WAIT_FOR_USER_EDITORIAL_AUDIT_OF_CANDIDATE_PAGE",
+  "if_approved": "REFINE_CANDIDATE_PATTERN_THEN_CONTINUE_INTRO_PENAL_SEQUENTIALLY",
+  "if_rejected": "DO_NOT_SCALE; COMPARE_USER_FEEDBACK_AGAINST_LEGACY_SPECIMENS_AND_PATCH_ONLY_THIS_PAGE",
+  "rejected_pages_remain_anti_pattern": true
 }
