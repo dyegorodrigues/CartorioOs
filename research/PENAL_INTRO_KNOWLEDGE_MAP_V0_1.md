@@ -85,3 +85,40 @@ A futura unidade provavelmente será **“Introdução ao Direito Penal”**, e 
 - Ciência Total;
 - conexões mínimas com bem jurídico/intervenção mínima;
 sem antecipar integralmente princípios, bem jurídico, escolas ou lei penal.
+
+
+## Addendum 2026-10-01 — alternative-level evidence
+
+### New current evidence
+- **TJPR 2026 / FGV / Juiz / official exam + definitive key:** a single question cross-tested insignificance, adequação social, fragmentariedade, ofensividade, tipicidade/culpabilidade and danger reasoning. Official key for type 1, question 32 = **C**.
+- **MPRJ 2026 / FGV / Promotor / official exam:** well-known foundational concepts (bem jurídico, danger classification, tutela antecipada) reappear embedded in applied criminal cases rather than as isolated definitions.
+- **TJPE 2026 / FGV / Juiz / objective 29/09/2026:** fresh September exam located. Initial semantic search found no direct use of the target introductory labels; the Penal block is application-heavy. Treat as current negative evidence, not as proof of low importance.
+
+### Critical semantic collision
+The word **subsidiariedade** maps to at least two legal constructs that must not be merged:
+
+1. **Subsidiariedade da intervenção penal / ultima ratio**
+   - connected to minimum intervention;
+   - asks when Penal law should intervene relative to less severe forms of protection.
+
+2. **Subsidiariedade no conflito aparente de normas**
+   - criterion for resolving overlap among criminal provisions;
+   - can be express or tacit;
+   - belongs canonically to application/interpretation of criminal law.
+
+This is a first-class **alias/confusion edge**, not merely a footnote.
+
+### First distractor taxonomy extracted from real items
+1. **Effect-for-function** — replaces the function of Penal law with a consequence (e.g., applying sanctions).
+2. **General-truth-wrong-label** — statement may be generally true but does not answer the doctrinal label requested.
+3. **Role swap** — Criminology, Policy Criminal and Dogmatics have their functions exchanged.
+4. **Epistemological inversion** — ser ↔ dever-ser; empirical ↔ normative.
+5. **Absolutization** — a nuanced relation becomes a universal rule.
+6. **Near-concept substitution** — fragmentarity ↔ subsidiarity; symbolic ↔ motivational/promotional.
+7. **Category error** — a principle is said to exclude culpability when it operates at another dogmatic level.
+8. **Postfactum-to-typicity** — later restitution is converted into automatic material atypicality.
+9. **Command-reference shift** — law, precedent, doctrine or named author are treated as if they were the same authority.
+10. **Homonym collision** — same word designates different institutes in different chapters.
+
+### Editorial consequence
+The future study unit must make **distinctions visible inside the fluent prose**, not by multiplying separate mini-pages. Tables/parentheses are justified where they prevent one of the distractor mechanisms above.
