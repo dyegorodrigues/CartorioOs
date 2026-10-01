@@ -1,42 +1,36 @@
 {
   "project": "Legal Tutor OS",
-  "date": "2026-09-30",
+  "date": "2026-10-01",
   "branch": "chatgpt/legal-tutor-os-core-2026-09-30",
-  "phase": "PRESERVACAO_RECONCILIACAO_PILOTO",
+  "phase": "EDITORIAL_RECALIBRATION_AFTER_USER_REJECTION",
   "pilot": "Introducao ao Direito Penal",
-  "status": "TRES_UNIDADES_MASTER_V0_1_CRIADAS_MASTER_05_HELD_OUT_PASS",
-  "current_units": [
-    {
-      "scope": ["PEN.INT.001","PEN.INT.002","PEN.INT.003"],
-      "notion_url": "https://app.notion.com/p/3ec42424cdbc81c39d29efaa5e2840f8",
-      "validation": "initial_pass"
-    },
-    {
-      "scope": ["PEN.INT.006","PEN.INT.007","PEN.INT.008","PEN.INT.009","PEN.INT.010","PEN.INT.011","PEN.INT.012","PEN.INT.013","PEN.INT.021","PEN.INT.022"],
-      "notion_url": "https://app.notion.com/p/3ec42424cdbc81af83b3e6fdc149cac8",
-      "validation": "initial_pass"
-    },
-    {
-      "scope": ["PEN.INT.014","PEN.INT.015","PEN.INT.016","PEN.INT.017","PEN.INT.018"],
-      "notion_url": "https://app.notion.com/p/3ec42424cdbc81588452c32cc0fa8fcd",
-      "validation": "held_out_pass"
-    }
+  "status": "USER_REJECTED_MASTER_03_04_05_AS_STUDY_SURFACE",
+  "rejected_pages": [
+    "https://app.notion.com/p/3ec42424cdbc81c39d29efaa5e2840f8",
+    "https://app.notion.com/p/3ec42424cdbc81af83b3e6fdc149cac8",
+    "https://app.notion.com/p/3ec42424cdbc81588452c32cc0fa8fcd"
   ],
-  "next_step": "USER_AUDIT_DO_PILOTO_ANTES_DE_ESCALAR_PRINCIPIOS",
-  "after_user_audit": "CONSTRUIR_PRINCIPIOS_PENAIS_COM_LEGALIDADE_E_INTERVENCAO_MINIMA_COMO_PROXIMA_UNIDADE",
-  "quality_gate": [
-    "preservar edital como arvore de cobertura",
-    "usar rota pedagogica separada quando necessario",
-    "separar doutrina jurisprudencia lei e banca",
-    "nao inferir baixa incidencia por amostra pequena",
-    "questoes historicas permanecem historicas",
-    "patches devem registrar causa"
+  "rejection_reason": [
+    "material pouco fluido e confuso",
+    "arquitetura de engenharia vazou para a pagina de estudo",
+    "modularizacao visual e pedagogica insuficiente",
+    "destaques e hierarquia visual nao reproduziram os melhores especimes legados",
+    "usuario nao conseguiu aprender nem avaliar o que realmente cai em concurso"
+  ],
+  "next_step": "AUDITAR_OS_MELHORES_ESPECIMES_LEGADOS_E_RECONSTRUIR_UM_UNICO_MICROBLOCO_COM_EDICAO_CIRURGICA",
+  "method_change": [
+    "usar o melhor material antigo como molde de superficie, nao criar linguagem editorial nova",
+    "manter engenharia, IDs, provenance, gates e taxonomias fora da pagina de estudo",
+    "preservar texto fluido em paragrafos com destaques semanticos e tabelas estrategicas",
+    "usar parenteses de reconexao de forma natural",
+    "mostrar incidencia de prova de modo simples e pontual",
+    "validar um unico microbloco antes de gerar REVIEW RECALL EXAM e Oral"
   ],
   "do_not": [
-    "sobrescrever legado",
-    "promover material secundario sem auditoria",
-    "misturar questao historica com estado juridico atual",
-    "duplicar MASTER editavel entre Notion e GitHub",
-    "escalar dezenas de capitulos antes da auditoria humana do piloto"
+    "escalar novos masters",
+    "usar paginas 03 04 05 como padrao",
+    "expor IDs PEN.INT ao aluno",
+    "expor governanca tecnica na superficie de estudo",
+    "sobrescrever legado"
   ]
 }
