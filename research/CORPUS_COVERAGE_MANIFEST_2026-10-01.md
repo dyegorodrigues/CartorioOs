@@ -61,3 +61,20 @@ Primary freshness window: **2023-01-01 through 2026-10-01**, with older question
 
 ## Current next action
 Enumerate target exams by career + bank + year for 2023–2026, then work through them systematically. The manifest, not assistant confidence language, determines whether coverage is complete.
+
+
+## Freshness addendum — TJPE/TJRS/PC-RS
+
+| Career | Exam | Bank | Latest relevant activity checked | Status | Notes |
+|---|---|---|---|---|---|
+| Magistratura | TJPE 2026 | FGV | Objective exam + preliminary key 29/09/2026; resource window 30/09/2026 | LOCATED_NOT_INGESTED | Fresh September 2026 objective corpus; initial semantic scan shows application-heavy Penal questions. |
+| Magistratura | TJRS 2026 | FGV | Competition opened Aug 2026; rectification/registration activity through 30/09/2026 | UPCOMING_NO_EXAM_YET | No objective exam published as of 01/10/2026; keep as LIVE event, not question corpus. |
+| Delegado | PC-RS 2025/2026 cycle | FUNDATEC | preliminary exam held Dec 2025; definitive results in 2026; oral preliminary result 14/09/2026; absence elimination 30/09/2026 | LOCATED_PARTLY_INGESTED | Official PC-RS page confirms the contest and its 2026 phases. Item provenance from third-party banks still needs official question-PDF archiving. |
+
+### Freshness lesson
+The first manifest pass missed recent/ongoing items. Before any COMPLETE status, run a second adversarial sweep by:
+- career;
+- bank;
+- state/federal scope;
+- objective/discursive/oral;
+- official page activity in the last 60 days.
