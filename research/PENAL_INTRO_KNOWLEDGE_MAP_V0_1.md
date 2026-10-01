@@ -42,7 +42,7 @@ A unidade de engenharia é a **proposição/conhecimento**, não o rótulo usado
 | Direito Penal promocional | Fundatec + materiais | DISCRIMINAÇÃO | atribuição/contexto |
 | Direito de intervenção / Hassemer | materiais; programas variados | REFERENCE/P2 | só subir com evidência de prova |
 | Velocidades do Direito Penal | DD; discursiva Delegado-ES/2019 relatada | OUTPUT/P2 | não colocar no primeiro núcleo sem confirmar corpus |
-| Escolas penais/evolução epistemológica | TJSC/FGV, programas | NÓ SEGUINTE / overlay Magistratura | não entupir “conceito” com história |
+| Escolas penais/evolução epistemológica | TJSC/FGV + **FGV PC-PI Delegado 2026 Q71** | NÓ CONECTADO / prioridade Delegado ↑ | Não entupir o primeiro parágrafo; porém já há cobrança atual direta de Escola Clássica, Beccaria, livre-arbítrio, racionalização do castigo e legalidade. |
 | Fontes/interpretação/analogia | MP-RJ/PF/AGU em bloco de lei/norma | RELOCATE | lar canônico em Norma/Lei Penal |
 | Constituição Penal/mandados | ENAM/PC-SC | NÓ conectado | não despejar no conceito; ponte constitucional |
 
@@ -122,3 +122,26 @@ This is a first-class **alias/confusion edge**, not merely a footnote.
 
 ### Editorial consequence
 The future study unit must make **distinctions visible inside the fluent prose**, not by multiplying separate mini-pages. Tables/parentheses are justified where they prevent one of the distractor mechanisms above.
+
+
+### PC-PI 2026 / FGV / Delegado — recalibration
+
+Current official evidence changes three prior assumptions:
+
+1. **Insignificância and minimum intervention are not merely “later principles”.**
+   - Q42 embeds legalidade, culpability, minimum intervention, insignificance and fragmentarity in one simple factual case.
+   - Editorial implication: Intro can pre-expose the network, while canonical depth remains in the Principles node.
+
+2. **Schools/evolution are not Magistratura-only.**
+   - Q71 directly tests Classical School, Beccaria, free will, rationalization of punishment and the historical connection to legalidade.
+   - Editorial implication: keep a separate coherent Schools/Evolution module, but raise its Delegado priority.
+
+3. **Critical criminology can collide with positive-law limits in one item.**
+   - Q72 combines minimalism, selectivity/criminalization and analogy/extinction of punishability.
+   - Official key = II only, while Strategy's commented exam considers I also defensible and flags appealability.
+   - Editorial implication: create an explicit boundary edge: critical diagnosis ≠ authorization to violate legality.
+
+### New evidence-type: contested official question
+The Evidence Graph must support fields for official answer, expert disagreement, doctrinal confidence, legal-positive constraint and question-defect status.
+
+A disputed question is not discarded. It becomes evidence about how banks formulate ambiguity, where doctrine diverges, and which wording must be taught with attribution.
