@@ -2,26 +2,40 @@
   "project": "Legal Tutor OS",
   "date": "2026-10-01",
   "branch": "chatgpt/legal-tutor-os-core-2026-09-30",
-  "phase": "EDITORIAL_RECALIBRATION_AFTER_USER_REJECTION",
-  "pilot": "Introducao ao Direito Penal",
-  "status": "NEW_SINGLE_PAGE_CALIBRATED_PILOT_CREATED_AWAITING_USER_AUDIT",
+  "phase": "QUESTION_DRIVEN_SUFFICIENCY_AUDIT",
+  "pilot": "Conceito, caracteres e funcao do Direito Penal para Delegado",
+  "status": "CALIBRATED_PAGE_MARKED_INSUFFICIENT_PENDING_FULL_CORPUS_AUDIT",
   "candidate_page": {
-    "title": "NOVO PILOTO CALIBRADO — 1. Conceito e Objeto do Direito Penal",
+    "title": "PILOTO EM AUDITORIA — 1. Conceito e Objeto do Direito Penal",
     "notion_url": "https://app.notion.com/p/3ec42424cdbc816397fcf488d6575495"
   },
-  "surface_rules": [
-    "uma pagina de estudo antes de criar camadas derivadas",
-    "sem IDs tecnicos, gates, provenance ou taxonomias na superficie",
-    "texto fluido em paragrafos curtos e modulares",
-    "destaques semanticos visuais",
-    "parenteses de reconexao naturais dentro da leitura",
-    "lei seca no ponto em que ganha significado",
-    "tabela apenas quando melhora discriminacao",
-    "teste de memoria curto no final",
-    "engenharia de banca e governanca ficam nos bastidores"
+  "audit_page": {
+    "title": "AUDITORIA DE SUFICIÊNCIA — Conceito, Caracteres e Função | Delegado",
+    "notion_url": "https://app.notion.com/p/3ec42424cdbc8164b737f35ad5c9b28e"
+  },
+  "initial_falsification": [
+    "VUNESP PC-SP 2023 exige funcao de protecao de bens juridicos",
+    "CEBRASPE PC-RO 2022 exige reconhecer funcao simbolica a partir de trecho doutrinario",
+    "FGV PC-SC 2024 exige Ciencia Total de von Liszt e Dogmatica x Criminologia x Politica Criminal",
+    "CEBRASPE PC-PB 2022 exige autor e funcoes dos tres pilares",
+    "FUNDATEC PC-RS 2025 combina funcao promocional, fragmentariedade, subsidiariedade e natureza sancionatoria",
+    "PC-SP oral DP-1/2022 inclui explicitamente conceito e caracteres"
   ],
-  "next_step": "WAIT_FOR_USER_EDITORIAL_AUDIT_OF_CANDIDATE_PAGE",
-  "if_approved": "REFINE_CANDIDATE_PATTERN_THEN_CONTINUE_INTRO_PENAL_SEQUENTIALLY",
-  "if_rejected": "DO_NOT_SCALE; COMPARE_USER_FEEDBACK_AGAINST_LEGACY_SPECIMENS_AND_PATCH_ONLY_THIS_PAGE",
-  "rejected_pages_remain_anti_pattern": true
+  "next_step": "BUILD_DEDUPLICATED_DELEGADO_INTRO_CORPUS_AND_ALTERNATIVE_LEVEL_KNOWLEDGE_MAP_BEFORE_REWRITE",
+  "corpus_policy": [
+    "prefer official exam and official answer key",
+    "use QConcursos TEC Gran and similar for discovery and commentary",
+    "do not trust subject tags as semantic ground truth",
+    "analyze every alternative/assertion as knowledge evidence",
+    "separate objective discursive and oral",
+    "separate bank career year and source-confidence",
+    "separate historical legal state from current law"
+  ],
+  "editorial_parenthesis_rule": "no labels Retome/Reconexao; embed compact memory cues naturally inside prose only when they improve retrieval",
+  "do_not": [
+    "rewrite candidate before corpus map",
+    "call candidate self-sufficient or master",
+    "scale other chapters",
+    "force statutes or precedents where the topic is doctrinal and they add no exam value"
+  ]
 }
