@@ -4,7 +4,7 @@
   "branch": "chatgpt/legal-tutor-os-core-2026-09-30",
   "phase": "QUESTION_DRIVEN_MULTICAREER_SUFFICIENCY_AUDIT",
   "pilot": "Introducao ao Direito Penal",
-  "status": "TARGET_EXAM_UNIVERSE_CREATED_AND_CURRENT_2026_EVIDENCE_INGESTION_CONTINUES",
+  "status": "TARGET_UNIVERSE_CREATED_DPERJ_TRF2_PCDF_2026_INGESTED_AT_CURRENT_SIGNAL_LEVEL",
   "notion": {
     "audit_page": "https://app.notion.com/p/3ec42424cdbc8164b737f35ad5c9b28e",
     "knowledge_map": "https://app.notion.com/p/3ec42424cdbc81829acece8a33db49c4",
@@ -28,9 +28,12 @@
     "DPE-RJ 2026 FGV Q55 decomposed: expansion / legislative inflation / critical criminology / punitive populism; official Type1 key E",
     "TRF2 Juiz Federal 2026 FGV initially scanned as current negative direct-label signal; Penal block application-heavy",
     "DPE-RJ 2026 distinguishes application date 30/08/2026 from publication date 31/08/2026",
-    "target exam universe now explicitly separates located, ingested, decomposed, QA and held-out statuses"
+    "target exam universe now explicitly separates located, ingested, decomposed, QA and held-out statuses",
+    "DPE-RJ 2026 FGV Q55 alternative-level: inflation/hipertrofia/expansion/populismo punitivo; official key E",
+    "TRF2 2026 FGV current negative direct-label signal in Penal objective block",
+    "PC-DF 2026 official retified application date 05/07; 23 Penal items indexed as application-heavy; TEC secondary metadata still stale at 14/06"
   ],
-  "next_step": "CONTINUE_ITEM_LEVEL_INGESTION_STARTING_CURRENT_2026_PRIORITY_A_THEN_BACKFILL_2025_2023",
+  "next_step": "CONTINUE_PRIORITY_A_2026_INGESTION_MPRJ_MPMT_TJBA_PGEAC_AND_PCDF_ITEM_TEXT_WHERE_AVAILABLE",
   "priority_order": [
     "PC-DF 2026 CEBRASPE",
     "MPRJ 2026 FGV objective+discursive",
@@ -55,5 +58,13 @@
     "treat located PDF as analyzed",
     "learn doctrine naively from official key",
     "silently normalize metadata or historical law"
-  ]
+  ],
+  "notions": {
+    "audit_page": "https://app.notion.com/p/3ec42424cdbc8164b737f35ad5c9b28e",
+    "knowledge_map": "https://app.notion.com/p/3ec42424cdbc81829acece8a33db49c4",
+    "alternative_distractor_matrix": "https://app.notion.com/p/3ec42424cdbc81ff85befcbc50a5afa1",
+    "question_qa_ledger": "https://app.notion.com/p/3ec42424cdbc81b48736c0086c4f9e89",
+    "terminology_aliases": "https://app.notion.com/p/3ec42424cdbc81ca9a8ff1359bfc9c36",
+    "target_exam_universe": "https://app.notion.com/p/3ec42424cdbc811d949cf63885019fe8"
+  }
 }
