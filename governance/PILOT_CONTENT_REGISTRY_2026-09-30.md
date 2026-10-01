@@ -69,3 +69,18 @@ Derivações:
 ### Validation 001–003
 - https://app.notion.com/p/3ec42424cdbc81be80b9f3ff6ac2a4a8
 - resultado: nenhuma lacuna crítica em PEN.INT.001–003; sinais externos alimentaram PEN.INT.006–013.
+
+
+## Master 04 validation
+- Validation Notion: https://app.notion.com/p/3ec42424cdbc8113a27cda193dfa926f
+- GitHub report: research/PENAL_MASTER_006_013_VALIDATION_V0_1.md
+
+## MASTER 05 — Teoria do Bem Jurídico
+- MASTER: https://app.notion.com/p/3ec42424cdbc81588452c32cc0fa8fcd
+- REVIEW: https://app.notion.com/p/3ec42424cdbc81a0aad5fda6b18280e0
+- RECALL: https://app.notion.com/p/3ec42424cdbc81cabe65fcfc37750331
+- EXAM Lab: https://app.notion.com/p/3ec42424cdbc8169b0bbdf4ff5a7f4e1
+- ORAL & DISCURSIVA: https://app.notion.com/p/3ec42424cdbc8131b471fc1589c2d0a0
+- Validation: https://app.notion.com/p/3ec42424cdbc810ab921ec824c470577
+- scope: PEN.INT.014–018
+- status: v0.1 / primeiro held-out independente PASS / não certificado definitivamente
