@@ -39,3 +39,13 @@
 | https://conhecimento.fgv.br/concursos/tjpe26 | official contest page | TJPE Juiz 2026 | VERIFIED_OFFICIAL | freshest 29/09/2026 objective corpus |
 | https://conhecimento.fgv.br/concursos/pgeac | official contest page | PGE-AC Procurador 2026 | VERIFIED_OFFICIAL | objective + discursive/parecer/peça |
 | https://conhecimento.fgv.br/concursos/concursopgmcmrioproc | official contest page | PGM/CMRJ Procurador 2026 | VERIFIED_OFFICIAL | current public-law career corpus |
+
+
+## PC-DF 2026 sources
+| Source | Type | Status | Use |
+|---|---|---|---|
+| https://cdn.cebraspe.org.br/concursos/PC_DF_26_DELEGADO/arquivos/CA3644FBD30FF411ECC872167ED6B5CB46092D9B2A33FD32D05BE5419D047A55.html | official Cebraspe location notice | VERIFIED_OFFICIAL | application date 05/07/2026 |
+| https://www.cebraspe.org.br/concursos/PC_DF_26_DELEGADO/ | official contest shell | VERIFIED_OFFICIAL | contest authority; JS limits public crawl |
+| https://www.qconcursos.com/questoes-de-concursos/provas/cespe-cebraspe-2026-pc-df-delegado-de-policia | secondary full exam index | VERIFIED_SECONDARY | 120 items; 23 classified as Penal; applied 05/07/2026 |
+| https://www.tecconcursos.com.br/concursos/delegado-de-policia-pc-df-2026 | secondary contest page | STALE_METADATA_FLAG | still shows pre-retification date 14/06/2026 |
+| https://www.tecconcursos.com.br/guias/pc-df-2026/delegado-de-policia-pc-df/-/-/direito-penal-para-delegado-pc-df-2026/id | secondary guide | DISCOVERY_ONLY | historical/question-pool taxonomy; not actual-exam semantic coverage |
