@@ -4,33 +4,39 @@
   "branch": "chatgpt/legal-tutor-os-core-2026-09-30",
   "phase": "PRESERVACAO_RECONCILIACAO_PILOTO",
   "pilot": "Introducao ao Direito Penal",
-  "status": "MASTER_001_003_VALIDADO_INICIALMENTE_E_MASTER_006_013_V0_1_CRIADO",
+  "status": "TRES_UNIDADES_MASTER_V0_1_CRIADAS_MASTER_05_HELD_OUT_PASS",
   "current_units": [
     {
       "scope": ["PEN.INT.001","PEN.INT.002","PEN.INT.003"],
       "notion_url": "https://app.notion.com/p/3ec42424cdbc81c39d29efaa5e2840f8",
-      "version": "v0.1",
-      "validation": "inicial_pass"
+      "validation": "initial_pass"
     },
     {
       "scope": ["PEN.INT.006","PEN.INT.007","PEN.INT.008","PEN.INT.009","PEN.INT.010","PEN.INT.011","PEN.INT.012","PEN.INT.013","PEN.INT.021","PEN.INT.022"],
       "notion_url": "https://app.notion.com/p/3ec42424cdbc81af83b3e6fdc149cac8",
-      "version": "v0.1",
-      "validation": "pending"
+      "validation": "initial_pass"
+    },
+    {
+      "scope": ["PEN.INT.014","PEN.INT.015","PEN.INT.016","PEN.INT.017","PEN.INT.018"],
+      "notion_url": "https://app.notion.com/p/3ec42424cdbc81588452c32cc0fa8fcd",
+      "validation": "held_out_pass"
     }
   ],
-  "next_step": "VALIDAR_MASTER_04_E_CONSTRUIR_BEM_JURIDICO_014_018",
+  "next_step": "USER_AUDIT_DO_PILOTO_ANTES_DE_ESCALAR_PRINCIPIOS",
+  "after_user_audit": "CONSTRUIR_PRINCIPIOS_PENAIS_COM_LEGALIDADE_E_INTERVENCAO_MINIMA_COMO_PROXIMA_UNIDADE",
   "quality_gate": [
-    "separar lacuna real de conteudo fora do escopo",
+    "preservar edital como arvore de cobertura",
+    "usar rota pedagogica separada quando necessario",
+    "separar doutrina jurisprudencia lei e banca",
     "nao inferir baixa incidencia por amostra pequena",
-    "manter questoes historicas congeladas",
-    "atribuir divergencias doutrinarias",
-    "nao expandir outras materias antes de validar o piloto"
+    "questoes historicas permanecem historicas",
+    "patches devem registrar causa"
   ],
   "do_not": [
     "sobrescrever legado",
     "promover material secundario sem auditoria",
     "misturar questao historica com estado juridico atual",
-    "duplicar MASTER editavel entre Notion e GitHub"
+    "duplicar MASTER editavel entre Notion e GitHub",
+    "escalar dezenas de capitulos antes da auditoria humana do piloto"
   ]
 }
