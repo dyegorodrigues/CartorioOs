@@ -14,6 +14,7 @@
 | Career | Exam | Bank | Latest relevant official activity checked | Status | Notes |
 |---|---|---|---|---|---|
 | Delegado | PC-PR 2026 | FGV | 22/09/2026 competition communication | UPCOMING_NO_EXAM_YET | Competition ongoing; no objective exam published yet on official page as of 01/10/2026. |
+| Delegado | PC-DF 2026 | CEBRASPE | Objective + discursive exams 05/07/2026; final objective + provisional discursive result 02/09/2026; final discursive result + oral call 30/09/2026; oral scheduled 08–11/10/2026 | LOCATED_NOT_INGESTED | Critical late-2026 corpus that was initially missing from the manifest; objective/discursive materials must be decomposed before any completeness claim. |
 | Delegado | PC-PI | FGV | Objective exam 27/01/2026; definitive objective key 24/02/2026; discursive exam 12/04/2026; discursive materials June/July 2026 | LOCATED_NOT_INGESTED | Needs full item/alternative decomposition. |
 | Delegado | PC-MG 2024 cycle | FGV | process updates through 23/09/2026 | LOCATED_NOT_INGESTED | Exam older than 2026 but process still active; relevant objective content not yet fully decomposed in this audit. |
 | Promotor | MPRJ 2026 | FGV | preambular 01/06/2026; Penal/Proc Penal discursive 03/08/2026; discursive results/resources through 09/09/2026 | LOCATED_NOT_INGESTED | Very high priority current 2026 corpus. |
@@ -39,6 +40,7 @@
 ## What is NOT complete yet
 As of 2026-10-01:
 - no claim of exhaustive coverage of all 2023–2026 legal-career questions;
+- PC-DF 2026 was found only after a second freshness sweep, demonstrating that the manifest itself must be adversarially rechecked before any completeness label;
 - 2026 official competitions listed above are not yet all decomposed item-by-item;
 - oral/discursive corpus is incomplete;
 - VUNESP/CEBRASPE/FCC/FUNDATEC 2026 legal-career sweep is incomplete;
