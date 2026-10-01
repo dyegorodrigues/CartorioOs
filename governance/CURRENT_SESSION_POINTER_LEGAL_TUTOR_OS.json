@@ -1,0 +1,24 @@
+{
+  "project": "Legal Tutor OS",
+  "date": "2026-09-30",
+  "branch": "chatgpt/legal-tutor-os-core-2026-09-30",
+  "phase": "PRESERVACAO_RECONCILIACAO_PILOTO",
+  "pilot": "Introducao ao Direito Penal",
+  "status": "MATRIZ_MICROCONTEUDOS_V0_1_CRIADA",
+  "next_step": "AUDITAR_E_CONSTRUIR_MASTER_PEN_INT_001_003",
+  "do_not": [
+    "expandir outras materias antes de validar o piloto",
+    "sobrescrever legado",
+    "promover material secundario sem auditoria",
+    "misturar questao historica com estado juridico atual"
+  ],
+  "required_inputs": [
+    "legado Notion Penal",
+    "DD Noções Iniciais e Princípios",
+    "DD Legis / Código Penal comentado",
+    "edital PF 2025",
+    "edital ENAM 2026.1",
+    "fontes oficiais vigentes",
+    "corpus de questões reais"
+  ]
+}
