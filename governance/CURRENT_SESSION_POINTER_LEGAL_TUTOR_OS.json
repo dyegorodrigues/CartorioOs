@@ -4,29 +4,45 @@
   "branch": "chatgpt/legal-tutor-os-core-2026-09-30",
   "phase": "QUESTION_DRIVEN_MULTICAREER_SUFFICIENCY_AUDIT",
   "pilot": "Introducao ao Direito Penal",
-  "status": "MULTICAREER_CORPUS_SEED_AND_PROPOSITION_LEVEL_KNOWLEDGE_MAP_CREATED",
+  "status": "ALTERNATIVE_LEVEL_MATRIX_QA_LEDGER_ALIAS_REGISTRY_AND_FRESH_2026_EVIDENCE_CREATED",
   "notion": {
     "audit_page": "https://app.notion.com/p/3ec42424cdbc8164b737f35ad5c9b28e",
-    "knowledge_map": "https://app.notion.com/p/3ec42424cdbc81829acece8a33db49c4"
+    "knowledge_map": "https://app.notion.com/p/3ec42424cdbc81829acece8a33db49c4",
+    "alternative_distractor_matrix": "https://app.notion.com/p/3ec42424cdbc81ff85befcbc50a5afa1",
+    "question_qa_ledger": "https://app.notion.com/p/3ec42424cdbc81b48736c0086c4f9e89",
+    "terminology_aliases": "https://app.notion.com/p/3ec42424cdbc81ca9a8ff1359bfc9c36"
   },
   "github": [
+    "research/CORPUS_COVERAGE_MANIFEST_2026-10-01.md",
     "research/PENAL_INTRO_MULTICAREER_AUDIT_V0_1.md",
     "research/PENAL_INTRO_QUESTION_CORPUS_SEED_V0_1.csv",
-    "research/PENAL_INTRO_KNOWLEDGE_MAP_V0_1.md"
+    "research/PENAL_INTRO_ALT_ASSERTION_MATRIX_V0_1.csv",
+    "research/PENAL_INTRO_KNOWLEDGE_MAP_V0_1.md",
+    "research/PENAL_INTRO_TERMINOLOGY_ALIAS_REGISTRY_V0_1.md",
+    "research/QUESTION_QA_CONFLICT_LEDGER_V0_1.md",
+    "research/SOURCE_REGISTRY_V0_1.md"
   ],
-  "key_findings": [
-    "intro Penal has high priority in Delegado, ENAM/Magistratura and MP, lower explicit priority in AGU Procurador Federal 2022",
-    "question-bank tags are not semantic ground truth",
-    "unit of engineering must be proposition/knowledge, not edital heading",
-    "current pretty candidate is readable but insufficient",
-    "future unit likely Intro ao Direito Penal, broader than Conceito e Objeto but narrower than an encyclopedic chapter"
+  "fresh_2026_findings": [
+    "PCPI official Q42 tests insignificance through legalidade culpability minimum intervention and fragmentarity",
+    "PCPI official Q71 proves Schools and historical evolution are current Delegado material, not Magistratura-only",
+    "PCPI official Q72 combines critical criminology selectivity and legality and has expert disagreement despite official key",
+    "TJPE objective was published 29/09/2026 and added as fresh current corpus",
+    "PCRS cycle remained active through oral phase in Sep 2026",
+    "official-source metadata can itself conflict, as in PCPI exam-date records"
   ],
-  "next_step": "EXPAND_DEDUPLICATED_CORPUS_AND_BUILD_ALTERNATIVE_LEVEL_DISTRACTOR_ALIAS_MATRIX",
+  "next_step": "ENUMERATE_2023_2026_TARGET_EXAMS_BY_CAREER_AND_BANK_THEN_CONTINUE_ITEM_LEVEL_INGESTION",
   "rewrite_blocked_until": [
-    "objective corpus expanded",
-    "oral/discursive corpus sampled",
-    "alternatives decomposed",
-    "aliases mapped",
-    "held-out reserved"
+    "target exam universe enumerated",
+    "recent objective corpus sufficiently ingested",
+    "oral/discursive sample ingested",
+    "aliases and homonym edges stabilized",
+    "real held-out set reserved before writing"
+  ],
+  "do_not": [
+    "rewrite the study chapter yet",
+    "claim exhaustive corpus",
+    "learn doctrine naively from official answer keys",
+    "treat question-bank tags as semantic truth",
+    "silently normalize conflicting dates or historical legal states"
   ]
 }
