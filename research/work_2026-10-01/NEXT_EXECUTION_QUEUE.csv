@@ -1,0 +1,13 @@
+order,gate,task,existing_artifacts,completion_evidence
+1,A,Reconciliar ciclos e aplicação2026 nas páginas atuais e avisos recentes,TARGET_EXAM_UNIVERSE_V0_2.csv;FRESHNESS_EVENTS_LAST60D.csv,Identidades de prova por carreira/banca/ano/fase com data e fonte oficial; futuros separados
+2,A,Fechar instituições e ciclos2023–2026 que os catálogos de banca não cobrem,INSTITUTION_YEAR_CLOSURE_GRID.csv;discovery/universe_gaps_*.json,Registro de busca institucional e estado conhecido ou desconhecido por célula; não inferir ausência
+3,B,Revisar integralmente cadernos2026 ainda não encerrados começando pelos mais recentes,sources/;SEMANTIC_REVIEW_LOG.csv,Log por bloco e questão incluindo negativas semânticas justificadas somente após leitura completa
+4,B,Obter fontes públicas alternativas de FCC/Vunesp/Fundatec e concursos próprios,OFFICIAL_DOCUMENT_CATALOGUE.csv;discovery/,Prova e chave oficiais ou proveniência secundária explícita; não acessar áreas restritas sem autorização existente
+5,C,Decompor novas ocorrências2026 e depois2025/2024/2023,QUESTION_CORPUS_V0_2.csv;ASSERTION_MATRIX_V0_2.csv,Alternativas/assertivas e quesitos com identidade completa e fonte datada
+6,C,Completar cotejo de autores e correntes da PF52–54 e MPMS14,KNOWLEDGE_ATOMS_V0_2.csv;QA_CONFLICT_LEDGER_V0_2.md,Proposição canônica atribuída com fonte primária e distinção de correntes
+7,C,Fechar controvérsia PCPIQ72 e gabaritos preliminares TJPE,LEGACY_MIGRATION_LEDGER.csv;QA_CONFLICT_LEDGER_V0_2.md,Resposta oficial final e dissenso documentado separadamente; defeito somente se demonstrado
+8,C,Revalidar legislação/jurisprudência dos casos e estados temporais,discovery/legal_primary_open.json;READINESS.json,Snapshot oficial por proposição e marco temporal; não adaptar questões históricas silenciosamente
+9,D,Reconciliar candidatos do mapa com átomos canônicos e três vistas,ATOM_ID_RECONCILIATION.csv;THREE_VIEWS_MAP.csv,Grafo sem duplicidade conceitual; observações de prova distintas de verdade jurídica
+10,E,Rever contaminação e ampliar diversidade da reserva sem usá-la no BUILD,HELD_OUT_LOCK.json;HELD_OUT_PROTOCOL.md,Reserva apta registrada antes do congelamento do texto
+11,F,Renderizar uma unidade somente após aprovação documentada deA–E,READINESS.json,Unidade integrada sem jargão de engenharia na superfície do aluno
+12,F,Validar suficiência held-out e depois legibilidade real,HELD_OUT_PROTOCOL.md,Resultados por item e passagem; feedback do usuário para legibilidade sem autoaprovação

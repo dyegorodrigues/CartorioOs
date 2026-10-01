@@ -1,0 +1,335 @@
+{
+  "baseline_commit": "11a00a95585b416992c29e3d2ece0c0f9817190d",
+  "baseline_tracked_files": 155,
+  "modified_or_missing": [],
+  "audited_originals": [
+    {
+      "path": "governance/ARCHITECTURE_ADDENDUM_EVENT_DRIVEN_LEGAL_TUTOR_OS_2026-10-01.md",
+      "sha256": "3419bd3171218ff646cd806d6658194b07af4befc57c6ba031e1f4630f1f8b3a"
+    },
+    {
+      "path": "governance/CURRENT_SESSION_POINTER_LEGAL_TUTOR_OS.json",
+      "sha256": "79adddc187c2a9852f39c8085c1c25d8c31ea37784603b4cccde70d50fbb4ac8"
+    },
+    {
+      "path": "governance/LEGAL_TUTOR_OS_CHECKPOINT_2026-09-30.md",
+      "sha256": "ab2443fda1d1fd54f81fd500726564586aa75297c0293e8ea9c8ee9bd3dbfaf0"
+    },
+    {
+      "path": "governance/PILOT_CONTENT_REGISTRY_2026-09-30.md",
+      "sha256": "61354075a5c14489218d252ac6a6620807dd12db5f025ce86bee271561911817"
+    },
+    {
+      "path": "governance/WORK_HANDOFF_2026-10-01.md",
+      "sha256": "edc49a587872b2d916620afe75f6d20ee145fa8eff876a3315bb943bfa35a5c2"
+    },
+    {
+      "path": "research/APROVACAO_PRIMEIRO_BLOCO_2026-09-13.md",
+      "sha256": "51fc8ce4e5475fdc7e8272527054c34ca08f3dc649dc8f58cac484d35cdf2d36"
+    },
+    {
+      "path": "research/AUDIT_REVIEW_2026-09-12.md",
+      "sha256": "c35a4b301b185bc6214948acbb5e8b1cb4256b9659ab36b2a3976637d2d0d797"
+    },
+    {
+      "path": "research/B0_MISSION_01_QA_FAILURE_2026_09_10.md",
+      "sha256": "f54d4d887a8898e0f4ad3a26a1ff4f01170cd4b107c8192ac69f1b5cee7db779"
+    },
+    {
+      "path": "research/BANK_DNA_PROTOCOL.md",
+      "sha256": "ea49887dec8e0f20c0a8d54de112c06ea930d752d108f544ecd69f58c0879eec"
+    },
+    {
+      "path": "research/CARTORIO_CONTEST_HISTORY_ATLAS_2026-09-11.md",
+      "sha256": "e9f80a71b6fcf9001a17f089f74b31ac39f7afaea7eb67f8b47b7dda1238c817"
+    },
+    {
+      "path": "research/CARTORIO_CONTEST_HISTORY_WAVE2_CONFIRMED_OUTORGAS_2026-09-11.md",
+      "sha256": "a871ee4f12a054e6d66cef86950dc976ddde92441c40b94f908f740f50e592cf"
+    },
+    {
+      "path": "research/CARTORIO_CONTEST_HISTORY_WAVE3_PR_GO_2026-09-11.md",
+      "sha256": "092b87e7f0524158dcce88eb2283f8444a4f7de0622f518220fc81a2b9359461"
+    },
+    {
+      "path": "research/CARTORIO_EXAM_ATLAS_PROTOCOL_2026.md",
+      "sha256": "d7dc2c2f3bac01b1bf39d59f6df05e549ab0474f7b690d3b37f59b5e115abeb3"
+    },
+    {
+      "path": "research/CARTORIO_EXAM_ATLAS_WAVE1_CURRENT_CENSUS_2026-09-10.md",
+      "sha256": "e5a5e000e22eab0cf2ca6827ed57e52713197be530feaf9ed3c4906830e5f4f1"
+    },
+    {
+      "path": "research/CARTORIO_EXAM_ATLAS_WAVE2_TJMS_FGV_2026_CROSS_PHASE.md",
+      "sha256": "3a872a89ca31a1af8e872cbcd906060b5bd341a0c49ff4bd8f6b45c22aef1968"
+    },
+    {
+      "path": "research/CARTORIO_EXAM_ATLAS_WAVE3_TJBA_CEBRASPE_2026_TRANSITION.md",
+      "sha256": "47f04d644fff01cc8d6db4f7970c9b06cb1c7479b0cf8640327447ebc73ab5cb"
+    },
+    {
+      "path": "research/CARTORIO_EXAM_ATLAS_WAVE4_ENAC_LEI8935_FIRST_PASS.md",
+      "sha256": "9ef8302d85dd3057b002703f21e9e0df61cd7b1dffac6aa529906d93b053f4e9"
+    },
+    {
+      "path": "research/CARTORIO_EXAM_ATLAS_WAVE5_OUTPUT_TRIANGULATION_FGV_CEBRASPE_2026.md",
+      "sha256": "0279dc4e99feb1443bfb50dbfc81f88d0f7ef7577f955221ea0eacdd53ac7a6d"
+    },
+    {
+      "path": "research/CARTORIO_EXAM_ATLAS_WAVE6_REGIME_GERAL_HEATMAP_2026-09-10.md",
+      "sha256": "628c58b3845f0bc23cd40013fab6138d27122782d0aa889c17156fc23a27032a"
+    },
+    {
+      "path": "research/CARTORIO_EXAM_ATLAS_WAVE7_LRP_OUTPUT_AND_BANK_FORM_2026-09-11.md",
+      "sha256": "e32fb1cbe6f75747f495d906165c84986ce3c61593df20c3ae9b18a299d0475f"
+    },
+    {
+      "path": "research/CARTORIO_EXAM_ATLAS_WAVE8_LRP_PROCEDURAL_CORE_2026-09-11.md",
+      "sha256": "6dab9993e645cf2b12b4d656302a5727a817cae044572195d1e8245a8e5d963f"
+    },
+    {
+      "path": "research/CARTORIO_ORAL_CORPUS_SEED_RES696_2026.md",
+      "sha256": "80a54ad631a2f13855519ca5ad94ecc71dd163f796b075460889883e863c0f75"
+    },
+    {
+      "path": "research/CARTORIO_PREP_ECOSYSTEM_DEEP_AUDIT_2026_09_10.md",
+      "sha256": "7ff9e6cd9edc56aabedff3353cfaf7a71a14867b08a7571db0e3f245eef2ac52"
+    },
+    {
+      "path": "research/CNN_CNJ_FRESHNESS_DELTA_MAP_2026-09-10.md",
+      "sha256": "defb43516b84481107a5467a867f6645a2f9fbdf8b2c6eb075e9c79d135a257d"
+    },
+    {
+      "path": "research/CONSTITUTIONAL_CONTROL_DEMO_AUDIT.md",
+      "sha256": "941a2cd57c622478ef16e11696906d1ab5c972784deee2f28f9fedb1048df5f9"
+    },
+    {
+      "path": "research/CORPUS_COVERAGE_MANIFEST_2026-10-01.md",
+      "sha256": "86886efbba1d307143c8a0bc6d1440ef285eb1718182f7332058168aa8bf0b05"
+    },
+    {
+      "path": "research/ENAC_2025_1_CLASSIFICATION.md",
+      "sha256": "fad7c15e3e81866abbdc2b1c983597d393ce9db22315b592bf24cf60cbae38d2"
+    },
+    {
+      "path": "research/ENAC_2025_2_CLASSIFICATION.md",
+      "sha256": "655bd5e65eabe545cc0e146c3d0eb41635f231e22de7f84409a9ad3022fcdbfb"
+    },
+    {
+      "path": "research/ENAC_2026_1_CLASSIFICATION.md",
+      "sha256": "4dd8bd551bcf4f260dd11b1c6fb9630ba15b98561603d7b39e025ab40b792c98"
+    },
+    {
+      "path": "research/ENAC_2026_1_TAXONOMY_REPAIR_2026-09-14.md",
+      "sha256": "41d2e6b5c5fd6ebf0c7989d8aad69e8fd8777060ce33aa2fc13606a9ed139adc"
+    },
+    {
+      "path": "research/ENAC_2026_2_OFFICIAL_BASELINE_REVERIFY_2026-09-28.md",
+      "sha256": "81865782276be72a628d511346830a400e04695913ab8c52d8c4ed19fecae3ab"
+    },
+    {
+      "path": "research/ENAC_300_CORPUS_GATE.md",
+      "sha256": "7ead937b87743a16a0b8f3eb481b46f373f26fb05e4d604b8de0c98b885b1f97"
+    },
+    {
+      "path": "research/ENAC_300_META_ANALYSIS.md",
+      "sha256": "233bbdb820958980f0451e0c85551d852bf39290d2b7fcebd436ea29ed282793"
+    },
+    {
+      "path": "research/ENAC_300_META_ANALYSIS_DRAFT.md",
+      "sha256": "2eace698425ccbe8e6ed882b3bae85920a5ca3011d9bbf33297b4e13c79a7bb9"
+    },
+    {
+      "path": "research/ENAC_300_RELATION_GRANULARITY_AUDIT_2026-09-28.md",
+      "sha256": "209f1c4cd14bb09046da5db0e5c5136b5da317563421898a6aa144fa27970ad6"
+    },
+    {
+      "path": "research/ENAC_300_STRUCTURED_QA_2026-09-14.md",
+      "sha256": "fc33f29fece895723cb208b0c54992e625749ace66d14394e6919706fcf329b7"
+    },
+    {
+      "path": "research/ENAC_DNA_CURRENT.md",
+      "sha256": "2e6a5c55cb51f8a4afeeb025b9fb1f0ad434266c651d486e613ffba61b4a90d0"
+    },
+    {
+      "path": "research/ENAC_EDITAL_MEGA_TREE_META_ANALYSIS_2026-09-14.md",
+      "sha256": "78dff8be32d74175ad081e23e07fb0ca40e4a5627a50ac699c23f093bf19829a"
+    },
+    {
+      "path": "research/ENAC_LINK_REPAIR_AND_BLIND_QA_2026-09-28.md",
+      "sha256": "499509e87040305f3bac93729bc11a0818c91c27ba4f85cccc2f79e5acc91474"
+    },
+    {
+      "path": "research/EXTERNAL_AUDIT_CROSS_REVIEW_2026_09_09.md",
+      "sha256": "dcb5fefbbed8912e2f96b0856fc1740cdf2c8eb1b64bccc07032a0c6969c068a"
+    },
+    {
+      "path": "research/FGV_TJES_THREE_QUESTIONS_RECONSTRUCTED_2026-09-12.md",
+      "sha256": "616946d6fc02efc408b0fb88252893c57b1ad015e090f64606d332d6047fb8ee"
+    },
+    {
+      "path": "research/GX_APPROVAL_SYSTEM_META_AUDIT_2026_09_10.md",
+      "sha256": "14dafaea84115f0199cc44a512f9a49fd02baf02d8258968c3b13782b316d1c5"
+    },
+    {
+      "path": "research/LEARNING_ENGINE_LEGAL_REASONING_EVIDENCE_2026-09-10.md",
+      "sha256": "31ac0af8780299601f0ee4a4a1d50b8a10a255997a257b78281f1d7598fed003"
+    },
+    {
+      "path": "research/LEARNING_METHOD_VALIDATION_2026_09_10.md",
+      "sha256": "563cf8fcf4f2036df0b3870ea76422d017e366b8b33cfa80b2e6572fa7095b86"
+    },
+    {
+      "path": "research/LEGACY_MATERIALS_RED_TEAM_AUDIT_2026_09_10.md",
+      "sha256": "c5a11b6cca639e7b251603fa3cb52f44bc1210efe820871ed45656a7fe221975"
+    },
+    {
+      "path": "research/LRP_RI_HELD_OUT_VALIDATION_H1_H2_H4_2026-09-12.md",
+      "sha256": "dfccc03c1cac331b0bdf84995a3508c63ec03304541d4846fdbe052f8a467a23"
+    },
+    {
+      "path": "research/LRP_RI_RETEST_V02_H5_TJES_2025_2026-09-12.md",
+      "sha256": "59d19c51684d89ba6dcad74e9d95d4693eefa13de45b3f645acee9d5a04abfb2"
+    },
+    {
+      "path": "research/MATERIAL_DERIVATION_REVIEW_2026-09-12.md",
+      "sha256": "b10386b301a6ca5aa3e18a14895845ea09006335512d8de6d70d20a2f9d13103"
+    },
+    {
+      "path": "research/MATERIAL_MARKET_AUDIT.md",
+      "sha256": "6dad805aeeebddb30b585fa1122dc24b2895f787b343801d124a8e7b2b4ad875"
+    },
+    {
+      "path": "research/MATERIAL_SOURCING_POLICY.md",
+      "sha256": "acf9945acb2ef499e75a9c969443dddc273e6f37f68931cb0225626a204ea4df"
+    },
+    {
+      "path": "research/MULTI_BANK_CORPUS.md",
+      "sha256": "7477868d09b90a394a3966def1fd0d384af2577a1c71548dc49837148d320b29"
+    },
+    {
+      "path": "research/ORAL_DISCURSIVE_CORPUS_PROTOCOL.md",
+      "sha256": "e0a7390bfeed55820741ff8eebecef37a50c85f67421fe6690a20c08dce02c5f"
+    },
+    {
+      "path": "research/PENAL_INTRO_ALT_ASSERTION_MATRIX_V0_1.csv",
+      "sha256": "b31f605f0a46fa8629b0ffb5e54b22a3d1062ac9f0391f14e87fe5e707273608"
+    },
+    {
+      "path": "research/PENAL_INTRO_KNOWLEDGE_MAP_V0_1.md",
+      "sha256": "bd5107d18eb29d5883fee2b8c4b11194715e5702fa30ccec800d48186c778cfb"
+    },
+    {
+      "path": "research/PENAL_INTRO_MICROCONTENT_MATRIX_V0_1.md",
+      "sha256": "04b762bbba86c23032a4f489f22adca54da79aa20f2a6cc8eeb3d18ef6a038d4"
+    },
+    {
+      "path": "research/PENAL_INTRO_MULTICAREER_AUDIT_V0_1.md",
+      "sha256": "1ae47a2a982603e27016c685f5049d8b3fc2ad5513ef7991a231b30d25cc142c"
+    },
+    {
+      "path": "research/PENAL_INTRO_QUESTION_CORPUS_SEED_V0_1.csv",
+      "sha256": "bb0afc5e629e131c575989ffb9ba5a2cb27c4187a314b9809e140a52c1ea09fd"
+    },
+    {
+      "path": "research/PENAL_INTRO_TERMINOLOGY_ALIAS_REGISTRY_V0_1.md",
+      "sha256": "531d268b648192e0a8efab2854af3a7cab19a3ba7ddcfb6e1d848b1a8b36e311"
+    },
+    {
+      "path": "research/PENAL_MASTER_001_003_VALIDATION_V0_1.md",
+      "sha256": "380b5e23bcda9124e3b335ccdc13e3821b5ac1ad61acdcabe64c0a845711eb5c"
+    },
+    {
+      "path": "research/PENAL_MASTER_006_013_VALIDATION_V0_1.md",
+      "sha256": "fb9164b9bedd668c0698fedf006fb707faae2a3f2d19a93deecdeb430d4430fb"
+    },
+    {
+      "path": "research/PENAL_MASTER_014_018_VALIDATION_V0_1.md",
+      "sha256": "1139e897029a3504b3acbf753079631accc67ad4a643e6c81b9fdd0078e60f7b"
+    },
+    {
+      "path": "research/PENAL_PILOT_CORPUS_SEED_V0_1.md",
+      "sha256": "3979936a42862be9dc86e5b4115b8d7034e45efb35fcd0d3698e54cb4874c800"
+    },
+    {
+      "path": "research/PILOT_POWER_CONSTITUENT_LEGACY_CANDIDATES.md",
+      "sha256": "a8782a8c488f78b707576a63700d9ceeef841228b1195ded2c3088e78f9e6a7e"
+    },
+    {
+      "path": "research/PILOT_POWER_CONSTITUENT_PROPOSITION_MAP.md",
+      "sha256": "dca9051806fac59f04204c8068c81476d39b92eb7dd1314e154dc91316b63743"
+    },
+    {
+      "path": "research/QUESTION_META_ANALYTICS_MODEL.md",
+      "sha256": "1a4b38c5f7eb1f794b5305ac363e58f7e01c021b97f2095944dd1b36e231eee4"
+    },
+    {
+      "path": "research/QUESTION_QA_CONFLICT_LEDGER_V0_1.md",
+      "sha256": "dd9a8707bbc7c44c4be3c8111ec84a80a4f2b4631606274dfa6e249796e5b596"
+    },
+    {
+      "path": "research/QUESTION_RESOLUTION_PROTOCOL.md",
+      "sha256": "dcd3d9543f0b42b22427bd22b7f554d8b912a04545c88d50e445d1449611003a"
+    },
+    {
+      "path": "research/REGIME_GERAL_CHALLENGE_RED_TEAM_2026-09-11.md",
+      "sha256": "922fd6fa910a3772996e124c872107fa2b7971e4e5759bedce32aff91c71e0bd"
+    },
+    {
+      "path": "research/REGIME_GERAL_CLUSTER_PILOT.md",
+      "sha256": "084dd2fc9935a4840d27571a57b10d8145257fb8c24a722cdf2a0759a2242bae"
+    },
+    {
+      "path": "research/REGIME_GERAL_HELD_OUT_VALIDATION_H7_TJSC_2023_2026-09-11.md",
+      "sha256": "4c2763fc10ec95023cf80bfeb01c41365aa4206352e5609ea9c99ca99862c324"
+    },
+    {
+      "path": "research/REGIME_GERAL_RETEST_V02_H8_H9_2026-09-11.md",
+      "sha256": "6a17459ed563917ddbe468d92e5e84c86d41fd399a9a399d87d56cc6f45fc7b5"
+    },
+    {
+      "path": "research/REGIME_GERAL_REVISAO_INICIANTE_2026-09-14.md",
+      "sha256": "8b1732cdde45123d7f30d70b63d8d66618109239703fcfe839850584513625ae"
+    },
+    {
+      "path": "research/REGIME_GERAL_SEIS_QUESTOES_2026-09-13.md",
+      "sha256": "41b33054825508056eefea2601f7f5d3b5048812b84d869b86a5bf5a8ebe60d5"
+    },
+    {
+      "path": "research/SOURCE_REGISTRY_V0_1.md",
+      "sha256": "9450cfa5a6110e5c1942353d4edcb0276f60052b866edb5b123cf8db54f218a4"
+    },
+    {
+      "path": "research/SPECIMEN_A_RED_TEAM_2026-09-10.md",
+      "sha256": "aba84dff5c493d7836a9a53b3530bd2bc0053a84047206c33c75739efbac9494"
+    },
+    {
+      "path": "research/TARGET_EXAM_UNIVERSE_2023_2026_V0_1.csv",
+      "sha256": "992dc83f4b08f4bf45b6f3edae4468e20c06ae5ea32dcea68a1d57b36d88dc68"
+    },
+    {
+      "path": "research/TUTOR_MINIMO_VALIDACAO_2026-09-13.md",
+      "sha256": "40ab0c0d67f7fa1e4f2c6046b236caabc0c873231dbd027d25b3a00caffa2b6f"
+    },
+    {
+      "path": "workflows/AUTONOMOUS_EXECUTION_PROTOCOL_2026-09-11.md",
+      "sha256": "9051afb3f294de3b6d79d67da080ddf69c366870853d3ceab76f0a357ae1d15b"
+    },
+    {
+      "path": "workflows/DAILY_STUDY_LOOP.md",
+      "sha256": "8de0fd619e01e129a7b14d8aad9c5ced4ad36dcae7e52077da378d7cb2bce5c8"
+    },
+    {
+      "path": "workflows/ROADMAP_TO_STUDY_START_2026-09-11.md",
+      "sha256": "684017862d60e083ccfec38601d888d2115397a13fe8f475725d25280cf0da85"
+    },
+    {
+      "path": "workflows/STUDY_MISSION_ORCHESTRATOR.md",
+      "sha256": "4a95cf9762bea6edacaf8832b0dbb45b90dfd95489a12421797e373efca31234"
+    },
+    {
+      "path": "workflows/WORK_ORDER_B_CALIBRATION_PILOT.md",
+      "sha256": "2b90063a1b9036a9ee321776d38d170c10fc929cbe6eb4b0d5560f1016ba4cc3"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "as_of": "2026-10-01",
+  "sources": [
+    {
+      "id": "HELDOUT_FGV_PAGE_054_60",
+      "exam_id": "FGV_PAGE_054",
+      "sha256": "2c876e34516ce707b439f2ab0c45334232ff1ec561cf37d2cd20bd6964362a38",
+      "path": "sources/HELDOUT_FGV_PAGE_054_60.pdf",
+      "role": "RESERVED_NOT_VALIDATED",
+      "content_read_in_this_run": false,
+      "relevance_after_freeze": "UNKNOWN",
+      "prior_session_contamination": "NOT_FULLY_AUDITED"
+    },
+    {
+      "id": "HELDOUT_FGV_PAGE_054_65",
+      "exam_id": "FGV_PAGE_054",
+      "sha256": "0807f919b54484c7bf3a01ad1e83c6c3c7e831bcc7c150df0a5d3c1cb854ab02",
+      "path": "sources/HELDOUT_FGV_PAGE_054_65.pdf",
+      "role": "RESERVED_NOT_VALIDATED",
+      "content_read_in_this_run": false,
+      "relevance_after_freeze": "UNKNOWN",
+      "prior_session_contamination": "NOT_FULLY_AUDITED"
+    },
+    {
+      "id": "HELDOUT_FGV_PAGE_037_71",
+      "exam_id": "FGV_PAGE_037",
+      "sha256": "010432238bbc6a496ccbc80f728f4c7e992c2576c47a45603a222f7cbda54ae8",
+      "path": "sources/HELDOUT_FGV_PAGE_037_71.pdf",
+      "role": "RESERVED_NOT_VALIDATED",
+      "content_read_in_this_run": false,
+      "relevance_after_freeze": "UNKNOWN",
+      "prior_session_contamination": "NOT_FULLY_AUDITED"
+    },
+    {
+      "id": "HELDOUT_FGV_PAGE_037_75",
+      "exam_id": "FGV_PAGE_037",
+      "sha256": "f42e646b3ddda8da67063541fda7a255c49a7dd41b29eb7836b0d6563bb99146",
+      "path": "sources/HELDOUT_FGV_PAGE_037_75.pdf",
+      "role": "RESERVED_NOT_VALIDATED",
+      "content_read_in_this_run": false,
+      "relevance_after_freeze": "UNKNOWN",
+      "prior_session_contamination": "NOT_FULLY_AUDITED"
+    },
+    {
+      "id": "HELDOUT_CEB_AGU_2023_ORAL_P6",
+      "exam_id": "CEB_AGU_22_PROCURADOR_FEDERAL",
+      "sha256": "c1a8b7c66676b076298e14ee92613a4551b1458c8780293a4e631504081bfdf7",
+      "path": "sources/HELDOUT_CEB_AGU_2023_ORAL_P6.pdf",
+      "role": "RESERVED_NOT_VALIDATED",
+      "content_read_in_this_run": false,
+      "relevance_after_freeze": "UNKNOWN",
+      "prior_session_contamination": "NOT_FULLY_AUDITED"
+    }
+  ],
+  "policy": "Freeze render version before opening; never use failed validation item to tune that same validation score. Replace contaminated items and start a new validation set.",
+  "validation_performed": false
+}

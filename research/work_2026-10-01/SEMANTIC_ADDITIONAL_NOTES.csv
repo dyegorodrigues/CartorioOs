@@ -1,0 +1,9 @@
+source_id,scope,finding,status
+FGV_PAGE_014_DOC_17,Perguntas1–4 da discursiva,Intervenção mínima em contratos não foi contada como intervenção penal.,PARTIAL_SEGMENT_REVIEW
+CEB_PREF_PORTO_VELHO_26_PROCURADOR_DOC_3,Comando sobre ADPF,Subsidiariedade da ADPF não é subsidiariedade penal.,LEXICAL_FALSE_POSITIVE
+CEB_DPE_AC_24_DEFENSOR_DOC_14,Uma pergunta oral/Penal/ponto1 completa,"Tráfico privilegiado/quantidade; adjacente, não decomposição da introdução neste lote.",ADJACENT_NOT_INCLUDED
+FGV_PAGE_010_DOC_33,ObjetivaQ51–61,Leitura parcial aplicada; nenhuma ausência do resto do caderno inferida.,PARTIAL_SEGMENT_REVIEW
+FGV_PAGE_072_DOC_36,ObjetivaQ41–50,Possível tensãoQ48 em filaWQA009; não promovida ao corpus.,PARTIAL_SEGMENT_REVIEW
+FGV_PAGE_076_DOC_33,ObjetivaQ14–21,Leitura parcial de casos/lei; não equivale a ausência semântica no exame.,PARTIAL_SEGMENT_REVIEW
+CEB_AGU_22_PROCURADOR_FEDERAL_DOC_13,ObjetivaQ87–90,"Restituição, evasão, licitações e trabalho escravo; não generalizar perfil da carreira.",PARTIAL_SEGMENT_REVIEW
+MPSC_2026_DOC_150,Início do espelho/Prova1,"Peça e imputação; leitura parcial, restante pendente.",PARTIAL_SEGMENT_REVIEW

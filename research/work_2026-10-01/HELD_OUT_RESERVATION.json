@@ -1,0 +1,77 @@
+{
+  "reserved_at": "2026-10-01T13:48:31.329281+00:00",
+  "status": "RESERVED_BEFORE_RENDER",
+  "policy": "Entire objective form and key sealed. Do not extract/read during BUILD. Relevance and sufficiency unknown until post-freeze validation. Prior-session contamination not fully audited; reserve-level, not yet clean validation claim.",
+  "sources": [
+    {
+      "id": "HELDOUT_FGV_PAGE_054_60",
+      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/tjscjuizsub2024_gabarito_definitivov2.pdf",
+      "exam_source_id": "FGV_PAGE_054",
+      "role": "SEALED_HELD_OUT",
+      "label": "Gabarito Oficial Definitivo da Prova Objetiva Seletiva (retificado em 14/11/2024)"
+    },
+    {
+      "id": "HELDOUT_FGV_PAGE_054_65",
+      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/juiz-substitutojz-subst-tipo-1.pdf",
+      "exam_source_id": "FGV_PAGE_054",
+      "role": "SEALED_HELD_OUT",
+      "label": "Tipo 1"
+    },
+    {
+      "id": "HELDOUT_FGV_PAGE_037_71",
+      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/defensor-publico.pdf",
+      "exam_source_id": "FGV_PAGE_037",
+      "role": "SEALED_HELD_OUT",
+      "label": "Gabarito Oficial Definitivo da Prova Objetiva"
+    },
+    {
+      "id": "HELDOUT_FGV_PAGE_037_75",
+      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/defensor-publicocns100-tipo-1.pdf",
+      "exam_source_id": "FGV_PAGE_037",
+      "role": "SEALED_HELD_OUT",
+      "label": "Tipo 1"
+    }
+  ],
+  "rejected_candidates": [
+    {
+      "id": "HELDOUT_FGV_PAGE_041_54",
+      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/gabarito-defintivo-dpe-ro_0.pdf",
+      "exam_source_id": "FGV_PAGE_041",
+      "role": "SEALED_HELD_OUT",
+      "label": "Gabarito Oficial Definitivo da Prova Objetiva",
+      "reason": "DPE-RO 2025 page is support staff; excluded from target-career held-out"
+    },
+    {
+      "id": "HELDOUT_FGV_PAGE_041_58",
+      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/tecnico-administrativo-classe-acnm001-tipo-1.pdf",
+      "exam_source_id": "FGV_PAGE_041",
+      "role": "SEALED_HELD_OUT",
+      "label": "Tipo 1",
+      "reason": "DPE-RO 2025 page is support staff; excluded from target-career held-out"
+    },
+    {
+      "id": "HELDOUT_FGV_PAGE_041_62",
+      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/tecnico-em-informatica-classe-acnm002-tipo-1.pdf",
+      "exam_source_id": "FGV_PAGE_041",
+      "role": "SEALED_HELD_OUT",
+      "label": "Tipo 1",
+      "reason": "DPE-RO 2025 page is support staff; excluded from target-career held-out"
+    },
+    {
+      "id": "HELDOUT_FGV_PAGE_041_68",
+      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/analista-em-administracao-classe-acns001-tipo-1.pdf",
+      "exam_source_id": "FGV_PAGE_041",
+      "role": "SEALED_HELD_OUT",
+      "label": "Tipo 1",
+      "reason": "DPE-RO 2025 page is support staff; excluded from target-career held-out"
+    },
+    {
+      "id": "HELDOUT_FGV_PAGE_041_70",
+      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/analista-juridico-classe-acns002-tipo-1.pdf",
+      "exam_source_id": "FGV_PAGE_041",
+      "role": "SEALED_HELD_OUT",
+      "label": "Tipo 1",
+      "reason": "DPE-RO 2025 page is support staff; excluded from target-career held-out"
+    }
+  ]
+}

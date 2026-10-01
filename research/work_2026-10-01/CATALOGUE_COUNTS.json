@@ -1,0 +1,11 @@
+{
+  "source_records": 263,
+  "verified_blobs": 254,
+  "pdf_blobs": 122,
+  "failed_downloads": 9,
+  "candidate_cycle_or_index_rows": 143,
+  "excluded_or_parent_rows": 9,
+  "objective_dates_verified": 16,
+  "official_document_links": 4449,
+  "institution_year_cells_unclosed": 540
+}

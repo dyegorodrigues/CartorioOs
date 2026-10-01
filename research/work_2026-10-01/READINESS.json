@@ -1,0 +1,48 @@
+{
+  "verdict": "NOT_READY_TO_RENDER",
+  "as_of": "2026-10-01",
+  "handoff": "governance/WORK_HANDOFF_2026-10-01.md",
+  "baseline_commit": "11a00a95585b416992c29e3d2ece0c0f9817190d",
+  "gates": [
+    {
+      "id": "A",
+      "status": "FAIL",
+      "name": "Universo enumerado",
+      "reason": "143 candidatos/índices catalogados; fechamento por instituição/ano não demonstrado. Segunda passagem realizada revelou novos candidatos. Não há saturação."
+    },
+    {
+      "id": "B",
+      "status": "FAIL",
+      "name": "Ingestão e revisão semântica integral",
+      "reason": "Prioridade 2026 executada em lote; PDFs adquiridos não foram todos semanticamente revisados. Bancas/carreiras e fases ainda têm lacunas."
+    },
+    {
+      "id": "C",
+      "status": "PARTIAL",
+      "name": "Decomposição",
+      "reason": "31 questões novas + 8 herdadas, 141 assertivas. Datas/identidades de alguns legados, fontes doutrinárias, legislação e dissenso sistemático pendentes."
+    },
+    {
+      "id": "D",
+      "status": "PARTIAL",
+      "name": "Evidence graph e overlays",
+      "reason": "Grafo auditável, reconciliação explícita de IDs, aliases e confusões criados. Átomos candidatos não promovidos a verdade jurídica; incidência global não calculável."
+    },
+    {
+      "id": "E",
+      "status": "RESERVED_NOT_VALIDATED",
+      "name": "Held-out",
+      "reason": "TJSC2024 e DPEPE2025 objetiva+chave; AGU oral ponto 6; 5 arquivos selados. Exposição anterior e suficiência ainda não validadas."
+    },
+    {
+      "id": "F",
+      "status": "BLOCKED_BY_A_TO_E",
+      "name": "Unidade de estudo",
+      "reason": "Não renderizada. Não houve teste de suficiência nem de legibilidade do usuário; nenhum deles será declarado aprovado por inferência."
+    }
+  ],
+  "study_unit_created": false,
+  "held_out_score": null,
+  "user_readability_validated": false,
+  "integrity_errors": []
+}

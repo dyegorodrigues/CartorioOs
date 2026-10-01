@@ -1,0 +1,23 @@
+{
+  "questions": 39,
+  "new_questions": 31,
+  "inherited_questions": 8,
+  "assertions": 141,
+  "atoms": 81,
+  "aliases": 15,
+  "confusion_edges": 12,
+  "graph_nodes": 539,
+  "graph_edges": 478,
+  "career_questions": {
+    "Ministerio_Publico": 12,
+    "Defensoria": 4,
+    "Magistratura": 3,
+    "Delegado": 19,
+    "Advocacia_Publica": 1
+  },
+  "phase_questions": {
+    "objetiva": 35,
+    "oral": 1,
+    "discursiva": 3
+  }
+}

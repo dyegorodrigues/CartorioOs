@@ -1,0 +1,17 @@
+{
+  "checked_at": "2026-10-01T14:28:20.583899+00:00",
+  "status": "PASS",
+  "errors": [],
+  "checks": [
+    "unique question/assertion IDs",
+    "question/assertion/source foreign keys",
+    "graph edges resolve",
+    "heldout acquired, not extracted, not used in matrix, no byte duplicate in build",
+    "baseline files byte-identical"
+  ],
+  "limits": [
+    "Does not prove semantic exhaustiveness",
+    "Does not establish legal truth or held-out sufficiency",
+    "Partial excerpts and source metadata may require visual recheck before render"
+  ]
+}

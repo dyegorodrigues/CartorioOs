@@ -1,0 +1,16 @@
+alias_id,terms,atom_id,relation,evidence_question_ids,scope_note
+ALIAS001,ultima ratio;última razão;subsidiariedade da intervenção,principle.subsidiarity_intervention,SYNONYM_IN_SCOPE,MPMS_2026_Q14;CEBRASPE_PCDF_2026_Q74,Não confundir com critério normativo.
+ALIAS002,subsidiariedade expressa;subsidiariedade tácita,subsidiarity.norms,SUBTYPES_NOT_FULL_SYNONYMS,MPPA_2023_DISC_SUBS,Conflito de normas; não tutela penal versus outros ramos.
+ALIAS003,ciência conjunta;ciência total;gesamte Strafrechtswissenschaft,science.total.structure,TERMINOLOGY_CANDIDATE,FGV_PCSC_2024_TOTAL,Liszt e terminologia alemã: legado; cotejo doutrinário direto pendente.
+ALIAS004,etiquetamento;labelling approach;labeling approach;reação social,criminology.labeling,SYNONYM_IN_SCOPE,FGV_DPERJ_2026_Q58,"Não confundir com associação diferencial, anomia ou subcultura."
+ALIAS005,janelas quebradas;broken windows,criminology.broken_windows,SYNONYM_IN_SCOPE,CEBRASPE_PF_2025_Q97,Teoria não é prova empírica automática de sucesso repressivo.
+ALIAS006,white-collar crime;crime de colarinho branco,criminology.white_collar,SYNONYM_IN_SCOPE,CEBRASPE_PF_2025_Q98,Não preencher autoria do enunciado por inferência.
+ALIAS007,retribuição;teorias absolutas,penalty.retribution,SYNONYM_IN_SCOPE,MPMS_2026_Q14,Kant e Hegel têm fundamentações distintas.
+ALIAS008,prevenção geral positiva fundamentadora,penalty.positive_prevention,SCOPED_LABEL,MPMS_2026_Q14,Não é sinônimo de prevenção positiva limitadora.
+ALIAS009,prevenção geral positiva limitadora,penalty.positive_prevention_limiting,SCOPED_LABEL,MPMS_2026_Q14,Hassemer: não importar Direito de Intervenção por associação de autor.
+ALIAS010,absorção;consunção,conflict.consumption,SYNONYM_IN_SCOPE,MPPA_2023_DISC_SUBS;MPMS_2026_Q19,Não reduzir a maior gravidade abstrata.
+ALIAS011,lex specialis;especialidade,conflict.speciality,SYNONYM_IN_SCOPE,CEBRASPE_PF_2026_ORAL_Q3,Comparar elementos; não confundir com subsidiariedade.
+ALIAS012,lex intermedia;lei intermediária,law.intermediate,SYNONYM_IN_SCOPE,MPMS_2026_Q15,Não combinar fragmentos de leis como se isso fosse extra-atividade.
+ALIAS013,continuidade típico-normativa;continuidade normativo-típica,law.continuity,SYNONYM_IN_SCOPE,FGV_TJPE_2026_Q48,Comparar conduta preservada versus abolida.
+ALIAS014,ofensividade;lesividade,principle.offensiveness,SYNONYM_WITH_CONTEXT,CEBRASPE_PF_2025_Q65;TJPR_2026_Q32,Não converter em proibição universal de crimes de perigo.
+ALIAS015,bem coletivo aparente;pseudobem coletivo,legal_good.apparent_collective,DOCTRINAL_TERMINOLOGY_TO_VALIDATE,CEBRASPE_PF_2025_Q53,Terminologia varia por autor; não fundir todo bem coletivo com bem aparente.
