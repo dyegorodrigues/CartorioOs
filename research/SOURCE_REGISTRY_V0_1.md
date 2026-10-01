@@ -26,3 +26,16 @@
 1. PC-PI official contest page says objective exam 27/01/2026, while official definitive-key PDF header says 25/01/2025; Strategy says 25/01/2026.
 2. Question-bank subject tags often place mixed questions under one label; semantic classification is rebuilt internally.
 3. PCRS functions item is currently verified as a real item by multiple banks and the official contest exists; exact official question PDF still pending archive.
+
+## Added 2026 official sources
+| Source | Type | Career / exam | Status | Use |
+|---|---|---|---|---|
+| https://conhecimento.fgv.br/concursos/dperj2026 | official contest page | DPE-RJ Defensor 2026 | VERIFIED_OFFICIAL | application/publication dates, official files |
+| https://conhecimento.fgv.br/sites/default/files/concursos/defensor-publico-do-estado-do-rio-de-janeiro-tipo-1.pdf | official exam PDF | DPE-RJ 2026 | INGESTED_PARTIAL | Q55 alternative-level; Q56-Q58 located |
+| https://conhecimento.fgv.br/sites/default/files/concursos/gabarito-defintivo-dpe-rj.pdf | official definitive key | DPE-RJ 2026 | VERIFIED_OFFICIAL | Q55=E; Q56=B; Q57=E; Q58=C |
+| https://conhecimento.fgv.br/concursos/trf2juiz | official contest page | TRF2 Juiz Federal 2026 | VERIFIED_OFFICIAL | current magistracy provenance |
+| https://conhecimento.fgv.br/sites/default/files/concursos/juiz-federal-substituto-da-2a-regiao-cns100-tipo-1.pdf | official exam PDF | TRF2 Juiz 2026 | SCANNED_INITIAL | current Penal block; direct intro-label search negative |
+| https://conhecimento.fgv.br/sites/default/files/concursos/gabarito-definitivo-trf2-juiz-substituto-v2.pdf | official definitive key | TRF2 Juiz 2026 | VERIFIED_OFFICIAL | key + application date 12/04/2026 |
+| https://conhecimento.fgv.br/concursos/tjpe26 | official contest page | TJPE Juiz 2026 | VERIFIED_OFFICIAL | freshest 29/09/2026 objective corpus |
+| https://conhecimento.fgv.br/concursos/pgeac | official contest page | PGE-AC Procurador 2026 | VERIFIED_OFFICIAL | objective + discursive/parecer/peça |
+| https://conhecimento.fgv.br/concursos/concursopgmcmrioproc | official contest page | PGM/CMRJ Procurador 2026 | VERIFIED_OFFICIAL | current public-law career corpus |
