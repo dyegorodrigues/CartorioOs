@@ -124,3 +124,26 @@ A real question can be:
 7. defective.
 
 Only category (1), after source validation, can be used as a clean training target without warning. The others remain valuable evidence, but must carry their status.
+
+---
+
+## QQA-006 — PC-DF 2026 / retified exam date vs stale secondary metadata
+**Status:** SECONDARY_SOURCE_CONFLICT
+
+### Evidence
+- Official Cebraspe location/retified schedule states objective + discursive application on **05/07/2026**.
+- QConcursos full exam page also records **05/07/2026**.
+- TEC contest/guide pages still display **14/06/2026**, corresponding to the earlier pre-retification schedule.
+
+### Handling
+- canonical application date = 05/07/2026, because official retified source prevails;
+- preserve TEC observation as stale-secondary metadata, not as alternate truth;
+- any incidence timeline imported from secondary banks must carry source/update timestamp.
+
+### Methodological impact
+Freshness is not only about legal content. **Contest metadata itself drifts after retifications.** The corpus pipeline needs source hierarchy and versioning even for dates.
+
+### Sources
+- Cebraspe official location notice / retified schedule.
+- QConcursos PC-DF 2026 full exam page.
+- TEC PC-DF 2026 guide/contest page.
