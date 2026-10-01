@@ -78,3 +78,18 @@ The first manifest pass missed recent/ongoing items. Before any COMPLETE status,
 - state/federal scope;
 - objective/discursive/oral;
 - official page activity in the last 60 days.
+
+
+## Additional verified 2026 universe — ingestion status
+
+| Career | Exam | Bank | Official exam state | Current ingestion |
+|---|---|---|---|---|
+| Defensoria | DPE-RJ 2026 | FGV | applied 30/08/2026; exam PDF published 31/08; definitive key 25/09 | Q55 decomposed alternative-by-alternative; adjacent Criminology Q56–Q58 located |
+| Magistratura Federal | TRF2 Juiz 2026 | FGV | applied 12/04/2026; definitive key 06/05 | initial semantic scan complete; no direct target-intro labels found; Penal block remains application-heavy |
+| Magistratura | TJPE Juiz 2026 | FGV | objective PDF + preliminary key 29/09/2026 | initial semantic scan; freshest current exam |
+| Advocacia Pública | PGE-AC 2026 | FGV | objective 27/05; definitive result Jul; discursive/peça/parecer 19/08 | located, not yet Penal-semantic ingested |
+| Advocacia Pública | PGM/CMRJ Procurador 2026 | FGV | advanced written/oral cycle through Sep 2026 | located, not yet Penal-semantic ingested |
+
+### Coverage-unit rule added
+“Located” and “ingested” are separate statuses.
+A competition does not count toward semantic coverage merely because its page/PDF was found.
