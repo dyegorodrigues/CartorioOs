@@ -50,3 +50,22 @@ MASTER 001–003 = v0.1 / não certificado.
 7. patch;
 8. snapshot GitHub;
 9. pedir auditoria humana do usuário.
+
+
+## Segunda unidade integrada criada
+
+### MASTER 04 — Dogmática, Criminologia, Política Criminal e Funções
+- https://app.notion.com/p/3ec42424cdbc81af83b3e6fdc149cac8
+- escopo principal: PEN.INT.006–013
+- aprofundamento controlado: PEN.INT.021–022
+- status: v0.1 / não certificado
+
+Derivações:
+- REVIEW: https://app.notion.com/p/3ec42424cdbc81d18847cae5c8010c30
+- RECALL: https://app.notion.com/p/3ec42424cdbc8163b084fbec41aa3d03
+- EXAM Lab: https://app.notion.com/p/3ec42424cdbc8158a9b7ec1d0a71b42f
+- ORAL & DISCURSIVA: https://app.notion.com/p/3ec42424cdbc81e2bce3fdf94038aafc
+
+### Validation 001–003
+- https://app.notion.com/p/3ec42424cdbc81be80b9f3ff6ac2a4a8
+- resultado: nenhuma lacuna crítica em PEN.INT.001–003; sinais externos alimentaram PEN.INT.006–013.
