@@ -4,18 +4,27 @@
   "branch": "chatgpt/legal-tutor-os-core-2026-09-30",
   "phase": "PRESERVACAO_RECONCILIACAO_PILOTO",
   "pilot": "Introducao ao Direito Penal",
-  "status": "MASTER_001_003_V0_1_E_CAMADAS_CRIADOS_VALIDACAO_EXTERNA_INICIADA",
-  "current_master": {
-    "scope": ["PEN.INT.001","PEN.INT.002","PEN.INT.003"],
-    "notion_url": "https://app.notion.com/p/3ec42424cdbc81c39d29efaa5e2840f8",
-    "version": "v0.1",
-    "certified": false
-  },
-  "next_step": "REGISTRAR_VALIDACAO_001_003_E_CONSTRUIR_PROXIMO_BLOCO_PEN_INT_006_011",
+  "status": "MASTER_001_003_VALIDADO_INICIALMENTE_E_MASTER_006_013_V0_1_CRIADO",
+  "current_units": [
+    {
+      "scope": ["PEN.INT.001","PEN.INT.002","PEN.INT.003"],
+      "notion_url": "https://app.notion.com/p/3ec42424cdbc81c39d29efaa5e2840f8",
+      "version": "v0.1",
+      "validation": "inicial_pass"
+    },
+    {
+      "scope": ["PEN.INT.006","PEN.INT.007","PEN.INT.008","PEN.INT.009","PEN.INT.010","PEN.INT.011","PEN.INT.012","PEN.INT.013","PEN.INT.021","PEN.INT.022"],
+      "notion_url": "https://app.notion.com/p/3ec42424cdbc81af83b3e6fdc149cac8",
+      "version": "v0.1",
+      "validation": "pending"
+    }
+  ],
+  "next_step": "VALIDAR_MASTER_04_E_CONSTRUIR_BEM_JURIDICO_014_018",
   "quality_gate": [
     "separar lacuna real de conteudo fora do escopo",
     "nao inferir baixa incidencia por amostra pequena",
     "manter questoes historicas congeladas",
+    "atribuir divergencias doutrinarias",
     "nao expandir outras materias antes de validar o piloto"
   ],
   "do_not": [
