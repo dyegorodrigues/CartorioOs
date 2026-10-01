@@ -1,0 +1,87 @@
+# MAPA DE CONHECIMENTOS v0.1 — INTRODUÇÃO AO DIREITO PENAL
+**Data:** 2026-10-01  
+**Status:** derivado de corpus inicial; ainda não exaustivo; NÃO é material de estudo final.
+
+## Regra
+A unidade de engenharia é a **proposição/conhecimento**, não o rótulo usado pelo site, edital ou professor.
+
+## Núcleo e profundidade preliminar
+
+| Conhecimento | Evidência encontrada | Prioridade comum | Tratamento provável |
+|---|---|---|---|
+| Direito Penal como ramo público / poder punitivo limitado | materiais de carreira + programas | CORE | explicação curta e clara |
+| Conceito: infrações + sanções + limites | programas Delegado/ENAM/MP/Magistratura | CORE | conceito operacional + oral |
+| Aspecto formal/estático | Estratégia/trilhas; recorrente em materiais | CORE pedagógico | curto; alias com DP objetivo |
+| Aspecto material | Estratégia/trilhas | CORE pedagógico | curto; ponte para bem jurídico/intervenção mínima |
+| Aspecto sociológico/dinâmico | Estratégia/trilhas | CORE pedagógico | curto; ponte para controle social/Criminologia |
+| Direito Penal objetivo / jus poenale | materiais + conexão processual | CORE | tabela curta |
+| Direito Penal subjetivo / jus puniendi | materiais + programas de poder estatal | CORE | tabela curta + limites |
+| Função de proteção de bens jurídicos | Vunesp PC-SP 2023; programas | CORE/DISCRIMINAÇÃO | precisa ser ensinada diretamente |
+| Função garantista/limitação do poder punitivo | programa PC-SC/FGV + base constitucional | CORE multicarreira | profundidade maior em Delegado/MP/Magistratura |
+| Ferrajoli / garantismo | programa PC-SC/FGV | OVERLAY/P2 | atribuição explícita; não universalizar |
+| Função simbólica | Cebraspe PC-RO 2022 | DISCRIMINAÇÃO alta | sinais semânticos + Cleber Masson + contraste |
+| Função promocional | Fundatec PC-RS 2025 + doutrina de concursos | DISCRIMINAÇÃO | ensinar controvérsia/atribuição |
+| Função motivadora | aparece como distrator na PC-RO | DISCRIMINAÇÃO | definição curta; contraste com simbólica |
+| Função ético-social | aparece como distrator PC-RO/material | P2 | definição curta se corpus ampliar |
+| Redução da violência estatal | DD / garantismo | P2 | ponte garantista, não bloco autônomo |
+| Fragmentariedade | PC-RS 2025; DPE-PR 2017; programas | CORE | distinguir de subsidiariedade |
+| Subsidiariedade / ultima ratio | PC-RS 2025; DPE-PR 2017 | CORE | distinguir de fragmentariedade |
+| Natureza sancionatória | PC-RS 2025 | DISCRIMINAÇÃO | ensinar nuance; evitar absolutização |
+| Natureza constitutiva (nuance) | doutrina/material | P2/AUDIT | só subir se corpus confirmar necessidade |
+| Dogmática Jurídico-Penal | FGV PC-SC 2024 | CORE em carreiras com criminologia | normativo/dever-ser |
+| Criminologia | FGV PC-SC; Cebraspe PC-PB; ENAM | CORE | empírico/interdisciplinar/ser |
+| Política Criminal | FGV PC-SC; Cebraspe PC-PB; PF/ENAM | CORE | estratégia/diretriz; não confundir com criminologia |
+| Ciência Total/Conjunta do Direito Penal | FGV PC-SC; Cebraspe PC-PB | DISCRIMINAÇÃO alta em Delegado | Franz von Liszt + três pilares |
+| Criminalização primária/secundária | ENAM/Criminologia; programas policiais | P2/overlay | manter próximo de política criminal |
+| Descriminalização/despenalização | ENAM 2026.1 | CORE Magistratura/FGV; P2 comum | distinção clara e curta |
+| Relações com outros ramos | PF/ENAM | CORE pedagógico | conexões curtas; evitar capítulo enciclopédico |
+| Bem jurídico | Vunesp função; PF/TJSC programas | PRE-EXPOSIÇÃO + NÓ PRÓPRIO | ensinar conceito mínimo aqui; aprofundar depois |
+| Intervenção mínima | PC-RS/DPE-PR/programas | CORE conectado | ponte para fragmentariedade/subsidiariedade |
+| Direito Penal do fato x autor | programas policiais antigos / criminologia | P2/overlay | não inserir automaticamente no primeiro bloco sem corpus específico |
+| Direito Penal simbólico/emergência | Cebraspe PC-RO + materiais | DISCRIMINAÇÃO | simbólico no core; emergência como conexão curta |
+| Direito Penal promocional | Fundatec + materiais | DISCRIMINAÇÃO | atribuição/contexto |
+| Direito de intervenção / Hassemer | materiais; programas variados | REFERENCE/P2 | só subir com evidência de prova |
+| Velocidades do Direito Penal | DD; discursiva Delegado-ES/2019 relatada | OUTPUT/P2 | não colocar no primeiro núcleo sem confirmar corpus |
+| Escolas penais/evolução epistemológica | TJSC/FGV, programas | NÓ SEGUINTE / overlay Magistratura | não entupir “conceito” com história |
+| Fontes/interpretação/analogia | MP-RJ/PF/AGU em bloco de lei/norma | RELOCATE | lar canônico em Norma/Lei Penal |
+| Constituição Penal/mandados | ENAM/PC-SC | NÓ conectado | não despejar no conceito; ponte constitucional |
+
+## Padrões de linguagem de banca já encontrados
+
+### Vunesp
+Pode formular a pergunta de modo direto e conceitual.
+**Risco:** subestimar porque parece simples; alternativa errada costuma deslocar a função para efeito/processo.
+
+### Cebraspe
+Pode citar autor/trecho e cobrar o rótulo preciso.
+**Risco:** saber “a ideia” sem reconhecer a nomenclatura usada pela doutrina citada.
+
+### FGV
+Pode cruzar história/autoria + epistemologia + distinções entre disciplinas.
+**Risco:** alternativa inteira parece erudita; um único termo (“dever-ser”) torna-a errada.
+
+### FUNDATEC
+Pode agrupar múltiplas proposições relacionadas em uma única questão.
+**Risco:** dominar 3/4 conceitos e cair numa assertiva doutrinária sutil.
+
+## Regra para a futura escrita
+Uma informação entra na rota principal se preencher pelo menos um destes critérios:
+1. cobrada diretamente em corpus relevante;
+2. necessária para discriminar alternativas recorrentes;
+3. pré-requisito para vários temas cobrados;
+4. necessária para produção oral/discursiva;
+5. necessária para compreender lei/jurisprudência de alta incidência.
+
+Se não preencher, vai para aprofundamento/referência até nova evidência.
+
+## Consequência
+A futura unidade provavelmente será **“Introdução ao Direito Penal”**, e não apenas “Conceito e Objeto”. Ela deverá ser fluida, mas conter:
+- conceito/objeto;
+- formal/material/sociológico;
+- objetivo/subjetivo;
+- funções relevantes;
+- caracteres discriminativos;
+- Dogmática/Criminologia/Política Criminal;
+- Ciência Total;
+- conexões mínimas com bem jurídico/intervenção mínima;
+sem antecipar integralmente princípios, bem jurídico, escolas ou lei penal.
