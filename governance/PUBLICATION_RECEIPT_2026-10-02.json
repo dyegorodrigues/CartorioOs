@@ -1,0 +1,28 @@
+{
+  "verified_at_utc": "2026-10-02",
+  "repository": "dyegorodrigues/CartorioOs",
+  "branch": "chatgpt/legal-tutor-os-core-2026-09-30",
+  "content_commit": "1a5e86ae48d078ecdbc9fddaceeb99b842db6e33",
+  "content_tree": "e2802cd802d53027f7612fa7f191c10da72e09af",
+  "github_readback": {
+    "counts": true,
+    "benchmark_synthesis": true,
+    "current_session_pointer": true
+  },
+  "notion": {
+    "page_id": "3ed42424-cdbc-8124-8d33-dc23ab4a3173",
+    "url": "https://app.notion.com/p/3ed42424cdbc81248d33dc23ab4a3173?pvs=204",
+    "readback": true,
+    "kind": "NEW_AUDIT_RESULT_NOT_BACKUP"
+  },
+  "extension": {
+    "questions": 18,
+    "assertion_or_rubric_rows": 73
+  },
+  "combined_selected": {
+    "questions": 57,
+    "assertion_or_rubric_rows": 214
+  },
+  "raw_archive": "NOT_FULLY_SYNCHRONIZED",
+  "readiness": "NOT_READY_TO_RENDER"
+}
