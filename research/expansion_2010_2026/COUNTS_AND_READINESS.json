@@ -1,0 +1,36 @@
+{
+  "extension_questions": 18,
+  "extension_assertion_or_rubric_rows": 73,
+  "extension_phase_counts": {
+    "discursiva": 3,
+    "pratica": 1,
+    "objetiva": 14
+  },
+  "extension_family_counts": {
+    "OAB": 4,
+    "Cartorios_ENAC": 1,
+    "Delegado": 4,
+    "Defensoria": 6,
+    "Magistratura": 3
+  },
+  "official_annulled_items": [
+    "CEBRASPE_PCGO2017_Q16",
+    "CESPE_DPU2010_Q60"
+  ],
+  "base_questions": 39,
+  "base_assertions": 141,
+  "combined_selected_questions_v02_plus_extension": 57,
+  "combined_assertion_or_rubric_rows": 214,
+  "new_to_enac_index": 0,
+  "all_rows_current_law_verified": false,
+  "universe_enumerated": false,
+  "integrity": "PASS",
+  "readiness": "NOT_READY_TO_RENDER",
+  "heldout_opened": false,
+  "notes": [
+    "ENAC2026Q98 already in ENAC300 pass1; extension adds decomposition, not a new discovered exam.",
+    "PCGO2017 exam result made ineffective in2018; retain historical key and separate exam-level validity.",
+    "Rubric rows do not all equal independent atomic propositions; alternative routes never add points.",
+    "35 earlier core reports published; full raw archive remains unsynchronized."
+  ]
+}

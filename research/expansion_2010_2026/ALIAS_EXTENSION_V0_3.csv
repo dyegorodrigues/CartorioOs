@@ -1,0 +1,7 @@
+terms,atom_ids,relation,evidence_question,editorial_rule
+analogia in malam partem;analogia prejudicial,legality.analogy,SCOPED_SYNONYM,FGV_OAB45_2026_Q2,Distinguir de interpretação extensiva e de interpretação analógica.
+modelo integrador;modelo restaurador,criminology.restoration,CONTEXTUAL_EQUIVALENCE_REQUIRES_DOCTRINE,CEBRASPE_PCGO2017_Q19,Não universalizar sinonímia entre autores.
+crime;contravenção;infração penal,classification.crime_contravention,GENUS_SPECIES_NOT_SYNONYMS,FGV_OAB46_2026_PECA,Ler a palavra exigida pelo tipo.
+etimologia;etiologia,criminology.empirical,LEXICAL_CONFUSION_NOT_SYNONYMS,CEBRASPE_PCGO2017_Q17,Origem de palavra versus explicação causal.
+atos preparatórios;desistência voluntária,iter_criminis.preparatory;iter_criminis.voluntary_desistance,NOT_SYNONYMS_ALTERNATIVE_RUBRIC_ROUTES,FGV_OAB46_2026_Q1,Não somar pontuações alternativas nem fundir pressupostos.
+atipicidade;desclassificação,typicity.formal;typicity.typification_financing,NOT_SYNONYMS,FGV_OAB45_2026_Q2,Atipicidade relativa ao tipo imputado pode coexistir com outro enquadramento.

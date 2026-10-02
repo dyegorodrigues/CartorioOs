@@ -66,5 +66,18 @@
     "question_qa_ledger": "https://app.notion.com/p/3ec42424cdbc81b48736c0086c4f9e89",
     "terminology_aliases": "https://app.notion.com/p/3ec42424cdbc81ca9a8ff1359bfc9c36",
     "target_exam_universe": "https://app.notion.com/p/3ec42424cdbc811d949cf63885019fe8"
+  },
+  "latest_continuation": {
+    "date_utc": "2026-10-02",
+    "checkpoint": "governance/CONTINUATION_CHECKPOINT_2026-10-02.md",
+    "report": "research/expansion_2010_2026/README.md",
+    "counts": "research/expansion_2010_2026/COUNTS_AND_READINESS.json",
+    "status": "NOT_READY_TO_RENDER",
+    "overrides_earlier_next_step": true,
+    "scope_window": "2010-01-01/2026-10-01",
+    "career_choice": "UNDECIDED",
+    "notion_originals": "CONSULT_ONLY_NO_NEW_BACKUP",
+    "drive_folders": "READ_ONLY_INCLUDING_SHARED_WITH_ME",
+    "resume": "Continue recent institutional/semantic gaps and primary-law QA; do not restart bulk archive transfer or benchmark architecture."
   }
 }

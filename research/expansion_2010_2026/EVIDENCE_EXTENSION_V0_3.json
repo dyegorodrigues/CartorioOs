@@ -1,0 +1,993 @@
+{
+  "scope": "selected extension only; not full corpus incidence",
+  "question_nodes": [
+    "FGV_OAB45_2026_Q2",
+    "FGV_OAB45_2026_Q3",
+    "FGV_OAB46_2026_PECA",
+    "FGV_OAB46_2026_Q1",
+    "FGV_ENAC2026_1_Q98",
+    "CEBRASPE_PCGO2017_Q16",
+    "CEBRASPE_PCGO2017_Q17",
+    "CEBRASPE_PCGO2017_Q18",
+    "CEBRASPE_PCGO2017_Q19",
+    "CEBRASPE_DPERN2015_Q85",
+    "CESPE_TRF2_2013_Q16",
+    "CESPE_TRF2_2013_Q17",
+    "CESPE_TRF2_2013_Q18",
+    "CESPE_DPU2010_Q58",
+    "CESPE_DPU2010_Q59",
+    "CESPE_DPU2010_Q60",
+    "CESPE_DPU2010_Q61",
+    "CESPE_DPU2010_Q70"
+  ],
+  "assertion_nodes": [
+    "FGV_OAB45_2026_Q2::A",
+    "FGV_OAB45_2026_Q2::B1",
+    "FGV_OAB45_2026_Q2::B2",
+    "FGV_OAB45_2026_Q3::A",
+    "FGV_OAB45_2026_Q3::B",
+    "FGV_OAB46_2026_PECA::1",
+    "FGV_OAB46_2026_PECA::2",
+    "FGV_OAB46_2026_PECA::3",
+    "FGV_OAB46_2026_PECA::4",
+    "FGV_OAB46_2026_PECA::5",
+    "FGV_OAB46_2026_PECA::6",
+    "FGV_OAB46_2026_PECA::7",
+    "FGV_OAB46_2026_PECA::8",
+    "FGV_OAB46_2026_PECA::9",
+    "FGV_OAB46_2026_PECA::10",
+    "FGV_OAB46_2026_PECA::11",
+    "FGV_OAB46_2026_PECA::12",
+    "FGV_OAB46_2026_PECA::13",
+    "FGV_OAB46_2026_Q1::A_route1",
+    "FGV_OAB46_2026_Q1::A_route2",
+    "FGV_OAB46_2026_Q1::B",
+    "FGV_ENAC2026_1_Q98::A",
+    "FGV_ENAC2026_1_Q98::B",
+    "FGV_ENAC2026_1_Q98::C",
+    "FGV_ENAC2026_1_Q98::D",
+    "FGV_ENAC2026_1_Q98::E",
+    "CEBRASPE_PCGO2017_Q16::A",
+    "CEBRASPE_PCGO2017_Q16::B",
+    "CEBRASPE_PCGO2017_Q16::C",
+    "CEBRASPE_PCGO2017_Q16::D",
+    "CEBRASPE_PCGO2017_Q16::E",
+    "CEBRASPE_PCGO2017_Q17::A",
+    "CEBRASPE_PCGO2017_Q17::B",
+    "CEBRASPE_PCGO2017_Q17::C",
+    "CEBRASPE_PCGO2017_Q17::D",
+    "CEBRASPE_PCGO2017_Q17::E",
+    "CEBRASPE_PCGO2017_Q18::A",
+    "CEBRASPE_PCGO2017_Q18::B",
+    "CEBRASPE_PCGO2017_Q18::C",
+    "CEBRASPE_PCGO2017_Q18::D",
+    "CEBRASPE_PCGO2017_Q18::E",
+    "CEBRASPE_PCGO2017_Q19::A",
+    "CEBRASPE_PCGO2017_Q19::B",
+    "CEBRASPE_PCGO2017_Q19::C",
+    "CEBRASPE_PCGO2017_Q19::D",
+    "CEBRASPE_PCGO2017_Q19::E",
+    "CEBRASPE_DPERN2015_Q85::A",
+    "CEBRASPE_DPERN2015_Q85::B",
+    "CEBRASPE_DPERN2015_Q85::C",
+    "CEBRASPE_DPERN2015_Q85::D",
+    "CEBRASPE_DPERN2015_Q85::E",
+    "CESPE_TRF2_2013_Q16::A",
+    "CESPE_TRF2_2013_Q16::B",
+    "CESPE_TRF2_2013_Q16::C",
+    "CESPE_TRF2_2013_Q16::D",
+    "CESPE_TRF2_2013_Q16::E",
+    "CESPE_TRF2_2013_Q17::A",
+    "CESPE_TRF2_2013_Q17::B",
+    "CESPE_TRF2_2013_Q17::C",
+    "CESPE_TRF2_2013_Q17::D",
+    "CESPE_TRF2_2013_Q17::E",
+    "CESPE_TRF2_2013_Q18::A",
+    "CESPE_TRF2_2013_Q18::B",
+    "CESPE_TRF2_2013_Q18::C",
+    "CESPE_TRF2_2013_Q18::D",
+    "CESPE_TRF2_2013_Q18::E",
+    "CESPE_DPU2010_Q58::ITEM",
+    "CESPE_DPU2010_Q59::ITEM",
+    "CESPE_DPU2010_Q60::ITEM",
+    "CESPE_DPU2010_Q61::ITEM",
+    "CESPE_DPU2010_Q70::1",
+    "CESPE_DPU2010_Q70::2",
+    "CESPE_DPU2010_Q70::3"
+  ],
+  "edges": [
+    {
+      "from": "FGV_OAB45_2026_Q2::A",
+      "to": "FGV_OAB45_2026_Q2",
+      "type": "ASSERTION_OF"
+    },
+    {
+      "from": "FGV_OAB45_2026_Q2::B1",
+      "to": "FGV_OAB45_2026_Q2",
+      "type": "ASSERTION_OF"
+    },
+    {
+      "from": "FGV_OAB45_2026_Q2::B2",
+      "to": "FGV_OAB45_2026_Q2",
+      "type": "ASSERTION_OF"
+    },
+    {
+      "from": "FGV_OAB45_2026_Q3::A",
+      "to": "FGV_OAB45_2026_Q3",
+      "type": "ASSERTION_OF"
+    },
+    {
+      "from": "FGV_OAB45_2026_Q3::B",
+      "to": "FGV_OAB45_2026_Q3",
+      "type": "ASSERTION_OF"
+    },
+    {
+      "from": "FGV_OAB46_2026_PECA::1",
+      "to": "FGV_OAB46_2026_PECA",
+      "type": "ASSERTION_OF"
+    },
+    {
+      "from": "FGV_OAB46_2026_PECA::2",
+      "to": "FGV_OAB46_2026_PECA",
+      "type": "ASSERTION_OF"
+    },
+    {
+      "from": "FGV_OAB46_2026_PECA::3",
+      "to": "FGV_OAB46_2026_PECA",
+      "type": "ASSERTION_OF"
+    },
+    {
+      "from": "FGV_OAB46_2026_PECA::4",
+      "to": "FGV_OAB46_2026_PECA",
+      "type": "ASSERTION_OF"
+    },
+    {
+      "from": "FGV_OAB46_2026_PECA::5",
+      "to": "FGV_OAB46_2026_PECA",
+      "type": "ASSERTION_OF"
+    },
+    {
+      "from": "FGV_OAB46_2026_PECA::6",
+      "to": "FGV_OAB46_2026_PECA",
+      "type": "ASSERTION_OF"
+    },
+    {
+      "from": "FGV_OAB46_2026_PECA::7",
+      "to": "FGV_OAB46_2026_PECA",
+      "type": "ASSERTION_OF"
+    },
+    {
+      "from": "FGV_OAB46_2026_PECA::8",
+      "to": "FGV_OAB46_2026_PECA",
+      "type": "ASSERTION_OF"
+    },
+    {
+      "from": "FGV_OAB46_2026_PECA::9",
+      "to": "FGV_OAB46_2026_PECA",
+      "type": "ASSERTION_OF"
+    },
+    {
+      "from": "FGV_OAB46_2026_PECA::10",
+      "to": "FGV_OAB46_2026_PECA",
+      "type": "ASSERTION_OF"
+    },
+    {
+      "from": "FGV_OAB46_2026_PECA::11",
+      "to": "FGV_OAB46_2026_PECA",
+      "type": "ASSERTION_OF"
+    },
+    {
+      "from": "FGV_OAB46_2026_PECA::12",
+      "to": "FGV_OAB46_2026_PECA",
+      "type": "ASSERTION_OF"
+    },
+    {
+      "from": "FGV_OAB46_2026_PECA::13",
+      "to": "FGV_OAB46_2026_PECA",
+      "type": "ASSERTION_OF"
+    },
+    {
+      "from": "FGV_OAB46_2026_Q1::A_route1",
+      "to": "FGV_OAB46_2026_Q1",
+      "type": "ASSERTION_OF"
+    },
+    {
+      "from": "FGV_OAB46_2026_Q1::A_route2",
+      "to": "FGV_OAB46_2026_Q1",
+      "type": "ASSERTION_OF"
+    },
+    {
+      "from": "FGV_OAB46_2026_Q1::B",
+      "to": "FGV_OAB46_2026_Q1",
+      "type": "ASSERTION_OF"
+    },
+    {
+      "from": "FGV_ENAC2026_1_Q98::A",
+      "to": "FGV_ENAC2026_1_Q98",
+      "type": "ASSERTION_OF"
+    },
+    {
+      "from": "FGV_ENAC2026_1_Q98::B",
+      "to": "FGV_ENAC2026_1_Q98",
+      "type": "ASSERTION_OF"
+    },
+    {
+      "from": "FGV_ENAC2026_1_Q98::C",
+      "to": "FGV_ENAC2026_1_Q98",
+      "type": "ASSERTION_OF"
+    },
+    {
+      "from": "FGV_ENAC2026_1_Q98::D",
+      "to": "FGV_ENAC2026_1_Q98",
+      "type": "ASSERTION_OF"
+    },
+    {
+      "from": "FGV_ENAC2026_1_Q98::E",
+      "to": "FGV_ENAC2026_1_Q98",
+      "type": "ASSERTION_OF"
+    },
+    {
+      "from": "CEBRASPE_PCGO2017_Q16::A",
+      "to": "CEBRASPE_PCGO2017_Q16",
+      "type": "ASSERTION_OF"
+    },
+    {
+      "from": "CEBRASPE_PCGO2017_Q16::B",
+      "to": "CEBRASPE_PCGO2017_Q16",
+      "type": "ASSERTION_OF"
+    },
+    {
+      "from": "CEBRASPE_PCGO2017_Q16::C",
+      "to": "CEBRASPE_PCGO2017_Q16",
+      "type": "ASSERTION_OF"
+    },
+    {
+      "from": "CEBRASPE_PCGO2017_Q16::D",
+      "to": "CEBRASPE_PCGO2017_Q16",
+      "type": "ASSERTION_OF"
+    },
+    {
+      "from": "CEBRASPE_PCGO2017_Q16::E",
+      "to": "CEBRASPE_PCGO2017_Q16",
+      "type": "ASSERTION_OF"
+    },
+    {
+      "from": "CEBRASPE_PCGO2017_Q17::A",
+      "to": "CEBRASPE_PCGO2017_Q17",
+      "type": "ASSERTION_OF"
+    },
+    {
+      "from": "CEBRASPE_PCGO2017_Q17::B",
+      "to": "CEBRASPE_PCGO2017_Q17",
+      "type": "ASSERTION_OF"
+    },
+    {
+      "from": "CEBRASPE_PCGO2017_Q17::C",
+      "to": "CEBRASPE_PCGO2017_Q17",
+      "type": "ASSERTION_OF"
+    },
+    {
+      "from": "CEBRASPE_PCGO2017_Q17::D",
+      "to": "CEBRASPE_PCGO2017_Q17",
+      "type": "ASSERTION_OF"
+    },
+    {
+      "from": "CEBRASPE_PCGO2017_Q17::E",
+      "to": "CEBRASPE_PCGO2017_Q17",
+      "type": "ASSERTION_OF"
+    },
+    {
+      "from": "CEBRASPE_PCGO2017_Q18::A",
+      "to": "CEBRASPE_PCGO2017_Q18",
+      "type": "ASSERTION_OF"
+    },
+    {
+      "from": "CEBRASPE_PCGO2017_Q18::B",
+      "to": "CEBRASPE_PCGO2017_Q18",
+      "type": "ASSERTION_OF"
+    },
+    {
+      "from": "CEBRASPE_PCGO2017_Q18::C",
+      "to": "CEBRASPE_PCGO2017_Q18",
+      "type": "ASSERTION_OF"
+    },
+    {
+      "from": "CEBRASPE_PCGO2017_Q18::D",
+      "to": "CEBRASPE_PCGO2017_Q18",
+      "type": "ASSERTION_OF"
+    },
+    {
+      "from": "CEBRASPE_PCGO2017_Q18::E",
+      "to": "CEBRASPE_PCGO2017_Q18",
+      "type": "ASSERTION_OF"
+    },
+    {
+      "from": "CEBRASPE_PCGO2017_Q19::A",
+      "to": "CEBRASPE_PCGO2017_Q19",
+      "type": "ASSERTION_OF"
+    },
+    {
+      "from": "CEBRASPE_PCGO2017_Q19::B",
+      "to": "CEBRASPE_PCGO2017_Q19",
+      "type": "ASSERTION_OF"
+    },
+    {
+      "from": "CEBRASPE_PCGO2017_Q19::C",
+      "to": "CEBRASPE_PCGO2017_Q19",
+      "type": "ASSERTION_OF"
+    },
+    {
+      "from": "CEBRASPE_PCGO2017_Q19::D",
+      "to": "CEBRASPE_PCGO2017_Q19",
+      "type": "ASSERTION_OF"
+    },
+    {
+      "from": "CEBRASPE_PCGO2017_Q19::E",
+      "to": "CEBRASPE_PCGO2017_Q19",
+      "type": "ASSERTION_OF"
+    },
+    {
+      "from": "CEBRASPE_DPERN2015_Q85::A",
+      "to": "CEBRASPE_DPERN2015_Q85",
+      "type": "ASSERTION_OF"
+    },
+    {
+      "from": "CEBRASPE_DPERN2015_Q85::B",
+      "to": "CEBRASPE_DPERN2015_Q85",
+      "type": "ASSERTION_OF"
+    },
+    {
+      "from": "CEBRASPE_DPERN2015_Q85::C",
+      "to": "CEBRASPE_DPERN2015_Q85",
+      "type": "ASSERTION_OF"
+    },
+    {
+      "from": "CEBRASPE_DPERN2015_Q85::D",
+      "to": "CEBRASPE_DPERN2015_Q85",
+      "type": "ASSERTION_OF"
+    },
+    {
+      "from": "CEBRASPE_DPERN2015_Q85::E",
+      "to": "CEBRASPE_DPERN2015_Q85",
+      "type": "ASSERTION_OF"
+    },
+    {
+      "from": "CESPE_TRF2_2013_Q16::A",
+      "to": "CESPE_TRF2_2013_Q16",
+      "type": "ASSERTION_OF"
+    },
+    {
+      "from": "CESPE_TRF2_2013_Q16::B",
+      "to": "CESPE_TRF2_2013_Q16",
+      "type": "ASSERTION_OF"
+    },
+    {
+      "from": "CESPE_TRF2_2013_Q16::C",
+      "to": "CESPE_TRF2_2013_Q16",
+      "type": "ASSERTION_OF"
+    },
+    {
+      "from": "CESPE_TRF2_2013_Q16::D",
+      "to": "CESPE_TRF2_2013_Q16",
+      "type": "ASSERTION_OF"
+    },
+    {
+      "from": "CESPE_TRF2_2013_Q16::E",
+      "to": "CESPE_TRF2_2013_Q16",
+      "type": "ASSERTION_OF"
+    },
+    {
+      "from": "CESPE_TRF2_2013_Q17::A",
+      "to": "CESPE_TRF2_2013_Q17",
+      "type": "ASSERTION_OF"
+    },
+    {
+      "from": "CESPE_TRF2_2013_Q17::B",
+      "to": "CESPE_TRF2_2013_Q17",
+      "type": "ASSERTION_OF"
+    },
+    {
+      "from": "CESPE_TRF2_2013_Q17::C",
+      "to": "CESPE_TRF2_2013_Q17",
+      "type": "ASSERTION_OF"
+    },
+    {
+      "from": "CESPE_TRF2_2013_Q17::D",
+      "to": "CESPE_TRF2_2013_Q17",
+      "type": "ASSERTION_OF"
+    },
+    {
+      "from": "CESPE_TRF2_2013_Q17::E",
+      "to": "CESPE_TRF2_2013_Q17",
+      "type": "ASSERTION_OF"
+    },
+    {
+      "from": "CESPE_TRF2_2013_Q18::A",
+      "to": "CESPE_TRF2_2013_Q18",
+      "type": "ASSERTION_OF"
+    },
+    {
+      "from": "CESPE_TRF2_2013_Q18::B",
+      "to": "CESPE_TRF2_2013_Q18",
+      "type": "ASSERTION_OF"
+    },
+    {
+      "from": "CESPE_TRF2_2013_Q18::C",
+      "to": "CESPE_TRF2_2013_Q18",
+      "type": "ASSERTION_OF"
+    },
+    {
+      "from": "CESPE_TRF2_2013_Q18::D",
+      "to": "CESPE_TRF2_2013_Q18",
+      "type": "ASSERTION_OF"
+    },
+    {
+      "from": "CESPE_TRF2_2013_Q18::E",
+      "to": "CESPE_TRF2_2013_Q18",
+      "type": "ASSERTION_OF"
+    },
+    {
+      "from": "CESPE_DPU2010_Q58::ITEM",
+      "to": "CESPE_DPU2010_Q58",
+      "type": "ASSERTION_OF"
+    },
+    {
+      "from": "CESPE_DPU2010_Q59::ITEM",
+      "to": "CESPE_DPU2010_Q59",
+      "type": "ASSERTION_OF"
+    },
+    {
+      "from": "CESPE_DPU2010_Q60::ITEM",
+      "to": "CESPE_DPU2010_Q60",
+      "type": "ASSERTION_OF"
+    },
+    {
+      "from": "CESPE_DPU2010_Q61::ITEM",
+      "to": "CESPE_DPU2010_Q61",
+      "type": "ASSERTION_OF"
+    },
+    {
+      "from": "CESPE_DPU2010_Q70::1",
+      "to": "CESPE_DPU2010_Q70",
+      "type": "ASSERTION_OF"
+    },
+    {
+      "from": "CESPE_DPU2010_Q70::2",
+      "to": "CESPE_DPU2010_Q70",
+      "type": "ASSERTION_OF"
+    },
+    {
+      "from": "CESPE_DPU2010_Q70::3",
+      "to": "CESPE_DPU2010_Q70",
+      "type": "ASSERTION_OF"
+    },
+    {
+      "from": "FGV_OAB45_2026_Q2::A",
+      "to": "procedure.adversarial_response",
+      "type": "EXAMINES",
+      "position": "ACCEPTED_BY_RUBRIC"
+    },
+    {
+      "from": "FGV_OAB45_2026_Q2::B1",
+      "to": "typicity.typification_financing",
+      "type": "EXAMINES",
+      "position": "ACCEPTED_BY_RUBRIC"
+    },
+    {
+      "from": "FGV_OAB45_2026_Q2::B1",
+      "to": "legality.strict",
+      "type": "EXAMINES",
+      "position": "ACCEPTED_BY_RUBRIC"
+    },
+    {
+      "from": "FGV_OAB45_2026_Q2::B2",
+      "to": "legality.analogy",
+      "type": "EXAMINES",
+      "position": "ACCEPTED_BY_RUBRIC"
+    },
+    {
+      "from": "FGV_OAB45_2026_Q2::B2",
+      "to": "legality.strict",
+      "type": "EXAMINES",
+      "position": "ACCEPTED_BY_RUBRIC"
+    },
+    {
+      "from": "FGV_OAB45_2026_Q3::A",
+      "to": "law.harsher_nonretroactivity",
+      "type": "EXAMINES",
+      "position": "ACCEPTED_BY_RUBRIC"
+    },
+    {
+      "from": "FGV_OAB45_2026_Q3::B",
+      "to": "procedure.reformatio_in_pejus",
+      "type": "EXAMINES",
+      "position": "ACCEPTED_BY_RUBRIC"
+    },
+    {
+      "from": "FGV_OAB46_2026_PECA::1",
+      "to": "procedure.response_accusation",
+      "type": "EXAMINES",
+      "position": "ACCEPTED_BY_RUBRIC"
+    },
+    {
+      "from": "FGV_OAB46_2026_PECA::2",
+      "to": "procedure.response_accusation",
+      "type": "EXAMINES",
+      "position": "ACCEPTED_BY_RUBRIC"
+    },
+    {
+      "from": "FGV_OAB46_2026_PECA::3",
+      "to": "procedure.response_accusation",
+      "type": "EXAMINES",
+      "position": "ACCEPTED_BY_RUBRIC"
+    },
+    {
+      "from": "FGV_OAB46_2026_PECA::4",
+      "to": "procedure.accusation_individualization",
+      "type": "EXAMINES",
+      "position": "ACCEPTED_BY_RUBRIC"
+    },
+    {
+      "from": "FGV_OAB46_2026_PECA::5",
+      "to": "procedure.digital_evidence",
+      "type": "EXAMINES",
+      "position": "ACCEPTED_BY_RUBRIC"
+    },
+    {
+      "from": "FGV_OAB46_2026_PECA::6",
+      "to": "legality.strict",
+      "type": "EXAMINES",
+      "position": "ACCEPTED_BY_RUBRIC"
+    },
+    {
+      "from": "FGV_OAB46_2026_PECA::6",
+      "to": "classification.crime_contravention",
+      "type": "EXAMINES",
+      "position": "ACCEPTED_BY_RUBRIC"
+    },
+    {
+      "from": "FGV_OAB46_2026_PECA::6",
+      "to": "typicity.formal",
+      "type": "EXAMINES",
+      "position": "ACCEPTED_BY_RUBRIC"
+    },
+    {
+      "from": "FGV_OAB46_2026_PECA::7",
+      "to": "procedure.digital_evidence",
+      "type": "EXAMINES",
+      "position": "ACCEPTED_BY_RUBRIC"
+    },
+    {
+      "from": "FGV_OAB46_2026_PECA::8",
+      "to": "procedure.accusation_individualization",
+      "type": "EXAMINES",
+      "position": "ACCEPTED_BY_RUBRIC"
+    },
+    {
+      "from": "FGV_OAB46_2026_PECA::9",
+      "to": "procedure.just_cause",
+      "type": "EXAMINES",
+      "position": "ACCEPTED_BY_RUBRIC"
+    },
+    {
+      "from": "FGV_OAB46_2026_PECA::10",
+      "to": "typicity.formal",
+      "type": "EXAMINES",
+      "position": "ACCEPTED_BY_RUBRIC"
+    },
+    {
+      "from": "FGV_OAB46_2026_PECA::10",
+      "to": "procedure.summary_acquittal",
+      "type": "EXAMINES",
+      "position": "ACCEPTED_BY_RUBRIC"
+    },
+    {
+      "from": "FGV_OAB46_2026_PECA::11",
+      "to": "procedure.witness_list",
+      "type": "EXAMINES",
+      "position": "ACCEPTED_BY_RUBRIC"
+    },
+    {
+      "from": "FGV_OAB46_2026_PECA::12",
+      "to": "procedure.deadline",
+      "type": "EXAMINES",
+      "position": "ACCEPTED_BY_RUBRIC"
+    },
+    {
+      "from": "FGV_OAB46_2026_PECA::13",
+      "to": "procedure.response_accusation",
+      "type": "EXAMINES",
+      "position": "ACCEPTED_BY_RUBRIC"
+    },
+    {
+      "from": "FGV_OAB46_2026_Q1::A_route1",
+      "to": "iter_criminis.voluntary_desistance",
+      "type": "EXAMINES",
+      "position": "ACCEPTED_ALTERNATIVE_NOT_CUMULATIVE"
+    },
+    {
+      "from": "FGV_OAB46_2026_Q1::A_route2",
+      "to": "iter_criminis.preparatory",
+      "type": "EXAMINES",
+      "position": "ACCEPTED_ALTERNATIVE_NOT_CUMULATIVE"
+    },
+    {
+      "from": "FGV_OAB46_2026_Q1::B",
+      "to": "legality.competence",
+      "type": "EXAMINES",
+      "position": "ACCEPTED_ALTERNATIVE_GROUNDS"
+    },
+    {
+      "from": "FGV_ENAC2026_1_Q98::A",
+      "to": "penalty.multiple_majorants",
+      "type": "EXAMINES",
+      "position": "ACCEPTED_BY_KEY"
+    },
+    {
+      "from": "FGV_ENAC2026_1_Q98::A",
+      "to": "legality.strict",
+      "type": "EXAMINES",
+      "position": "ACCEPTED_BY_KEY"
+    },
+    {
+      "from": "FGV_ENAC2026_1_Q98::B",
+      "to": "penalty.multiple_majorants",
+      "type": "EXAMINES",
+      "position": "REJECTED_BY_KEY"
+    },
+    {
+      "from": "FGV_ENAC2026_1_Q98::C",
+      "to": "penalty.multiple_majorants",
+      "type": "EXAMINES",
+      "position": "REJECTED_BY_KEY"
+    },
+    {
+      "from": "FGV_ENAC2026_1_Q98::D",
+      "to": "legality.strict",
+      "type": "EXAMINES",
+      "position": "REJECTED_BY_KEY"
+    },
+    {
+      "from": "FGV_ENAC2026_1_Q98::D",
+      "to": "penalty.multiple_majorants",
+      "type": "EXAMINES",
+      "position": "REJECTED_BY_KEY"
+    },
+    {
+      "from": "FGV_ENAC2026_1_Q98::E",
+      "to": "penalty.multiple_majorants",
+      "type": "EXAMINES",
+      "position": "REJECTED_BY_KEY"
+    },
+    {
+      "from": "CEBRASPE_PCGO2017_Q16::A",
+      "to": "criminology.vs_dogmatics",
+      "type": "EXAMINES",
+      "position": "NO_VALIDATED_OPTION_ANNULLED"
+    },
+    {
+      "from": "CEBRASPE_PCGO2017_Q16::B",
+      "to": "criminology.vs_dogmatics",
+      "type": "EXAMINES",
+      "position": "NO_VALIDATED_OPTION_ANNULLED"
+    },
+    {
+      "from": "CEBRASPE_PCGO2017_Q16::C",
+      "to": "criminology.vs_dogmatics",
+      "type": "EXAMINES",
+      "position": "NO_VALIDATED_OPTION_ANNULLED"
+    },
+    {
+      "from": "CEBRASPE_PCGO2017_Q16::D",
+      "to": "criminology.objects",
+      "type": "EXAMINES",
+      "position": "NO_VALIDATED_OPTION_ANNULLED"
+    },
+    {
+      "from": "CEBRASPE_PCGO2017_Q16::E",
+      "to": "criminology.objects",
+      "type": "EXAMINES",
+      "position": "NO_VALIDATED_OPTION_ANNULLED"
+    },
+    {
+      "from": "CEBRASPE_PCGO2017_Q17::A",
+      "to": "criminology.empirical",
+      "type": "EXAMINES",
+      "position": "REJECTED_BY_KEY"
+    },
+    {
+      "from": "CEBRASPE_PCGO2017_Q17::A",
+      "to": "policy_criminal.role",
+      "type": "EXAMINES",
+      "position": "REJECTED_BY_KEY"
+    },
+    {
+      "from": "CEBRASPE_PCGO2017_Q17::B",
+      "to": "criminology.empirical",
+      "type": "EXAMINES",
+      "position": "REJECTED_BY_KEY"
+    },
+    {
+      "from": "CEBRASPE_PCGO2017_Q17::C",
+      "to": "criminology.empirical",
+      "type": "EXAMINES",
+      "position": "REJECTED_BY_KEY"
+    },
+    {
+      "from": "CEBRASPE_PCGO2017_Q17::D",
+      "to": "criminology.empirical",
+      "type": "EXAMINES",
+      "position": "ACCEPTED_BY_KEY"
+    },
+    {
+      "from": "CEBRASPE_PCGO2017_Q17::E",
+      "to": "policy_criminal.role",
+      "type": "EXAMINES",
+      "position": "REJECTED_BY_KEY"
+    },
+    {
+      "from": "CEBRASPE_PCGO2017_Q18::A",
+      "to": "criminology.prevention_levels",
+      "type": "EXAMINES",
+      "position": "REJECTED_BY_KEY"
+    },
+    {
+      "from": "CEBRASPE_PCGO2017_Q18::B",
+      "to": "criminology.prevention_levels",
+      "type": "EXAMINES",
+      "position": "REJECTED_BY_KEY"
+    },
+    {
+      "from": "CEBRASPE_PCGO2017_Q18::C",
+      "to": "criminology.prevention_levels",
+      "type": "EXAMINES",
+      "position": "REJECTED_BY_KEY"
+    },
+    {
+      "from": "CEBRASPE_PCGO2017_Q18::D",
+      "to": "criminology.prevention_levels",
+      "type": "EXAMINES",
+      "position": "REJECTED_BY_KEY"
+    },
+    {
+      "from": "CEBRASPE_PCGO2017_Q18::E",
+      "to": "criminology.prevention_levels",
+      "type": "EXAMINES",
+      "position": "ACCEPTED_BY_KEY"
+    },
+    {
+      "from": "CEBRASPE_PCGO2017_Q19::A",
+      "to": "criminology.restoration",
+      "type": "EXAMINES",
+      "position": "REJECTED_BY_KEY"
+    },
+    {
+      "from": "CEBRASPE_PCGO2017_Q19::B",
+      "to": "criminology.resocialization",
+      "type": "EXAMINES",
+      "position": "REJECTED_BY_KEY"
+    },
+    {
+      "from": "CEBRASPE_PCGO2017_Q19::B",
+      "to": "penalty.general_prevention",
+      "type": "EXAMINES",
+      "position": "REJECTED_BY_KEY"
+    },
+    {
+      "from": "CEBRASPE_PCGO2017_Q19::C",
+      "to": "criminology.restoration",
+      "type": "EXAMINES",
+      "position": "ACCEPTED_BY_KEY"
+    },
+    {
+      "from": "CEBRASPE_PCGO2017_Q19::D",
+      "to": "criminology.resocialization",
+      "type": "EXAMINES",
+      "position": "REJECTED_BY_KEY"
+    },
+    {
+      "from": "CEBRASPE_PCGO2017_Q19::D",
+      "to": "penalty.general_prevention",
+      "type": "EXAMINES",
+      "position": "REJECTED_BY_KEY"
+    },
+    {
+      "from": "CEBRASPE_PCGO2017_Q19::E",
+      "to": "criminology.restoration",
+      "type": "EXAMINES",
+      "position": "REJECTED_BY_KEY"
+    },
+    {
+      "from": "CEBRASPE_PCGO2017_Q19::E",
+      "to": "penalty.general_prevention",
+      "type": "EXAMINES",
+      "position": "REJECTED_BY_KEY"
+    },
+    {
+      "from": "CEBRASPE_DPERN2015_Q85::A",
+      "to": "culpability.prohibition_error",
+      "type": "EXAMINES",
+      "position": "REJECTED_BY_KEY"
+    },
+    {
+      "from": "CEBRASPE_DPERN2015_Q85::B",
+      "to": "legal_good.copyright",
+      "type": "EXAMINES",
+      "position": "REJECTED_BY_KEY"
+    },
+    {
+      "from": "CEBRASPE_DPERN2015_Q85::C",
+      "to": "legal_good.copyright",
+      "type": "EXAMINES",
+      "position": "ACCEPTED_BY_KEY"
+    },
+    {
+      "from": "CEBRASPE_DPERN2015_Q85::D",
+      "to": "principle.social_adequacy",
+      "type": "EXAMINES",
+      "position": "REJECTED_BY_KEY"
+    },
+    {
+      "from": "CEBRASPE_DPERN2015_Q85::E",
+      "to": "principle.insignificance",
+      "type": "EXAMINES",
+      "position": "REJECTED_BY_KEY"
+    },
+    {
+      "from": "CESPE_TRF2_2013_Q16::A",
+      "to": "interpretation.methods",
+      "type": "EXAMINES",
+      "position": "ACCEPTED_BY_KEY"
+    },
+    {
+      "from": "CESPE_TRF2_2013_Q16::B",
+      "to": "interpretation.methods",
+      "type": "EXAMINES",
+      "position": "REJECTED_BY_KEY"
+    },
+    {
+      "from": "CESPE_TRF2_2013_Q16::B",
+      "to": "legality.analogy",
+      "type": "EXAMINES",
+      "position": "REJECTED_BY_KEY"
+    },
+    {
+      "from": "CESPE_TRF2_2013_Q16::C",
+      "to": "interpretation.methods",
+      "type": "EXAMINES",
+      "position": "REJECTED_BY_KEY"
+    },
+    {
+      "from": "CESPE_TRF2_2013_Q16::D",
+      "to": "legality.analogy",
+      "type": "EXAMINES",
+      "position": "REJECTED_BY_KEY"
+    },
+    {
+      "from": "CESPE_TRF2_2013_Q16::E",
+      "to": "interpretation.methods",
+      "type": "EXAMINES",
+      "position": "REJECTED_BY_KEY"
+    },
+    {
+      "from": "CESPE_TRF2_2013_Q17::A",
+      "to": "typicity.typification_administration",
+      "type": "EXAMINES",
+      "position": "REJECTED_BY_KEY"
+    },
+    {
+      "from": "CESPE_TRF2_2013_Q17::B",
+      "to": "typicity.typification_administration",
+      "type": "EXAMINES",
+      "position": "REJECTED_BY_KEY"
+    },
+    {
+      "from": "CESPE_TRF2_2013_Q17::C",
+      "to": "typicity.typification_administration",
+      "type": "EXAMINES",
+      "position": "REJECTED_BY_KEY"
+    },
+    {
+      "from": "CESPE_TRF2_2013_Q17::D",
+      "to": "principle.insignificance",
+      "type": "EXAMINES",
+      "position": "REJECTED_BY_KEY"
+    },
+    {
+      "from": "CESPE_TRF2_2013_Q17::E",
+      "to": "typicity.typification_administration",
+      "type": "EXAMINES",
+      "position": "ACCEPTED_BY_KEY"
+    },
+    {
+      "from": "CESPE_TRF2_2013_Q18::A",
+      "to": "law.historical_type_change",
+      "type": "EXAMINES",
+      "position": "REJECTED_BY_KEY"
+    },
+    {
+      "from": "CESPE_TRF2_2013_Q18::B",
+      "to": "legality.strict",
+      "type": "EXAMINES",
+      "position": "REJECTED_BY_KEY"
+    },
+    {
+      "from": "CESPE_TRF2_2013_Q18::C",
+      "to": "law.historical_type_change",
+      "type": "EXAMINES",
+      "position": "REJECTED_BY_KEY"
+    },
+    {
+      "from": "CESPE_TRF2_2013_Q18::D",
+      "to": "law.historical_type_change",
+      "type": "EXAMINES",
+      "position": "REJECTED_BY_KEY"
+    },
+    {
+      "from": "CESPE_TRF2_2013_Q18::E",
+      "to": "principle.insignificance",
+      "type": "EXAMINES",
+      "position": "ACCEPTED_BY_KEY"
+    },
+    {
+      "from": "CESPE_TRF2_2013_Q18::E",
+      "to": "legal_good.public_faith",
+      "type": "EXAMINES",
+      "position": "ACCEPTED_BY_KEY"
+    },
+    {
+      "from": "CESPE_DPU2010_Q58::ITEM",
+      "to": "iter_criminis.impossible_crime",
+      "type": "EXAMINES",
+      "position": "REJECTED_BY_KEY"
+    },
+    {
+      "from": "CESPE_DPU2010_Q59::ITEM",
+      "to": "culpability.theories",
+      "type": "EXAMINES",
+      "position": "ACCEPTED_BY_KEY"
+    },
+    {
+      "from": "CESPE_DPU2010_Q60::ITEM",
+      "to": "culpability.theories",
+      "type": "EXAMINES",
+      "position": "ANNULLED_NO_TRUTH_LABEL"
+    },
+    {
+      "from": "CESPE_DPU2010_Q61::ITEM",
+      "to": "culpability.theories",
+      "type": "EXAMINES",
+      "position": "ACCEPTED_BY_KEY"
+    },
+    {
+      "from": "CESPE_DPU2010_Q61::ITEM",
+      "to": "typicity.dolo",
+      "type": "EXAMINES",
+      "position": "ACCEPTED_BY_KEY"
+    },
+    {
+      "from": "CESPE_DPU2010_Q70::1",
+      "to": "liability.adolescent",
+      "type": "EXAMINES",
+      "position": "COMPOSITE_FALSE_COMPONENT_NOT_RESOLVED_BY_KEY"
+    },
+    {
+      "from": "CESPE_DPU2010_Q70::2",
+      "to": "liability.participation",
+      "type": "EXAMINES",
+      "position": "COMPOSITE_FALSE_COMPONENT_NOT_RESOLVED_BY_KEY"
+    },
+    {
+      "from": "CESPE_DPU2010_Q70::3",
+      "to": "principle.insignificance",
+      "type": "EXAMINES",
+      "position": "COMPOSITE_FALSE_COMPONENT_NOT_RESOLVED_BY_KEY"
+    },
+    {
+      "from": "CESPE_DPU2010_Q70::3",
+      "to": "legal_good.public_faith",
+      "type": "EXAMINES",
+      "position": "COMPOSITE_FALSE_COMPONENT_NOT_RESOLVED_BY_KEY"
+    }
+  ]
+}

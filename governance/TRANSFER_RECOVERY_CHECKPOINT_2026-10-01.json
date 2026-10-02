@@ -1,0 +1,11 @@
+{
+  "recorded_at": "2026-10-01T22:43:23-03:00",
+  "remote_verified_commit": "6c162735b3a8467649190b66ac546e0c3dbef8c1",
+  "remote_verified_reports": 35,
+  "text_batches_completed": null,
+  "intermediate_uncommitted_remote_tree": null,
+  "total_text_batches": 66,
+  "binary_archive_complete": false,
+  "status": "ARCHIVE_TRANSFER_PAUSED_PRIORITIZE_SUBSTANTIVE_ANALYSIS",
+  "note": "The remote intermediate tree is NOT the published branch. The branch was verified at the 35-report recovery commit. No new question decomposition is claimed for the expansion yet. Public ENAC 2025/2026 and DPU2010 PDFs and keys acquired locally; benchmark samples inspected."
+}
