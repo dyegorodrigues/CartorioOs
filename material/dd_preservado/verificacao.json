@@ -1,7 +1,10 @@
 {
   "edition": "v2",
   "source_blocks_mapped": 60,
-  "source_substantive_passages_present_html_and_pdf": true,
+  "declared_display_passages_present_html_and_pdf": true,
+  "semantic_completeness_established": false,
+  "known_semantic_omission": "dd-04: formal definitions focus on law and sanction removed as editorial preface",
+  "pedagogical_review": "USER_FOUND_V2_CONFUSING_AND_INCOMPLETE",
   "editorial_numbering_and_metadata_changes_traced": true,
   "sections": 3,
   "numbered_units": 18,

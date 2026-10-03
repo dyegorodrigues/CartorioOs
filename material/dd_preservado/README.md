@@ -1,12 +1,12 @@
 # DD organizado — conceito, características e bens jurídicos
 
-Edição v2, 03/10/2026. Corrige a mistura de numerações, a ausência de títulos visíveis e as referências editoriais repetidas apontadas pelo usuário. Ainda não foi avaliada por ele. A amostra anterior `material/penal_inicio` permanece rejeitada.
+Edição v2, 03/10/2026. **Retorno posterior, 10h02 BRT: o usuário considerou a leitura confusa e incompleta; houve melhora visual parcial. Ver `DIAGNOSTICO_PEDAGOGICO_2026-10-03.md`, que corrige as alegações de preservação abaixo.** Corrige a mistura de numerações, a ausência de títulos visíveis e as referências editoriais repetidas apontadas pelo usuário. Foi avaliada pelo usuário e não foi aprovada como material autossuficiente. A amostra anterior `material/penal_inicio` permanece rejeitada.
 
 ## Conteúdo e organização
 
-O recorte conserva a substância de 60 blocos da amostra teórica DD: seções a–c, PDF pp. 5–7; antiga seção 7.1.1, pp. 26–29. Não cobre toda a apostila de 58 páginas. A fonte normalizada, com 2.478 palavras, permanece intacta em `fonte.json`.
+O recorte foi construído a partir de 60 blocos da amostra teórica DD: seções a–c, PDF pp. 5–7; antiga seção 7.1.1, pp. 26–29. Não cobre toda a apostila de 58 páginas. A fonte normalizada, com 2.478 palavras, permanece intacta em `fonte.json`.
 
-`apresentacao.json` estabelece três assuntos e 18 unidades com uma única hierarquia. A antiga 7.1.1 foi incorporada a 3.3, depois das definições e dos limites constitucionais. As letras a/b/c e a numeração interna da origem deixaram de competir com os títulos. `destinos_editoriais.json` registra o destino dos 60 blocos, os trechos substantivos exibidos e cada prefixo editorial removido ou deslocado. Não se afirma preservação literal de cabeçalhos e metatexto: as explicações foram mantidas e organizadas; títulos, referências e comandos foram tratados como elementos de apresentação.
+`apresentacao.json` estabelece três assuntos e 18 unidades com uma única hierarquia. A antiga 7.1.1 foi incorporada a 3.3, depois das definições e dos limites constitucionais. As letras a/b/c e a numeração interna da origem deixaram de competir com os títulos. `destinos_editoriais.json` registra o destino dos 60 blocos, os trechos substantivos exibidos e cada prefixo editorial removido ou deslocado. Não se afirma preservação literal de cabeçalhos e metatexto: a maior parte das explicações selecionadas foi mantida; porém, a revisão posterior identificou em dd-04 a perda da explicação que classifica as definições dos autores como formais. Títulos, referências e comandos receberam tratamento editorial, e a validade desse tratamento precisa de conferência semântica.
 
 Sete tabelas apresentam autores, aspectos formal/material/sociológico, características, resultado jurídico/ofensividade, objeto jurídico/material, bens individuais/coletivos e coletivos reais/aparentes. Lei seca, dicas e notas de precisão têm papéis e cores distintos. As páginas de origem aparecem discretamente nos títulos; as referências ficam recolhíveis no fim.
 
@@ -22,7 +22,7 @@ As fontes de conteúdo são a amostra teórica DD, o cotejo dos arts. 32 e 96 co
 
 HTML autônomo: capítulos e lei seca recolhíveis; respostas ocultas; três itens C/E com correção; retorno ao trecho pertinente; impressão abre temporariamente o conteúdo e restaura o estado anterior. PDF estático: 11 páginas, sete tabelas e 29 marcadores de navegação. Os dois formatos derivam do mesmo modelo.
 
-`verificar.py` conferiu o destino de todos os 60 blocos, a presença dos trechos substantivos nos dois formatos, a hierarquia, 75 vínculos internos, os três gabaritos e os limites do texto no PDF. Todas as páginas do PDF foram renderizadas e inspecionadas; tabelas, bens jurídicos, questões e recuperação também foram vistos em tamanho maior. Os controles JavaScript foram exercitados em ambiente simulado: abrir/fechar, retorno ao assunto, ausência/acerto/erro da resposta e abertura/restauração para impressão. Não houve validação visual do HTML em navegador real.
+`verificar.py` conferiu o destino de todos os 60 blocos, a presença dos trechos declarados em `display_passages` nos dois formatos; essa seleção não é uma conferência semântica independente, a hierarquia, 75 vínculos internos, os três gabaritos e os limites do texto no PDF. Todas as páginas do PDF foram renderizadas e inspecionadas; tabelas, bens jurídicos, questões e recuperação também foram vistos em tamanho maior. Os controles JavaScript foram exercitados em ambiente simulado: abrir/fechar, retorno ao assunto, ausência/acerto/erro da resposta e abertura/restauração para impressão. Não houve validação visual do HTML em navegador real.
 
 O cotejo dos sumários e a fila de revisão estão em `MAPA_SUMARIO_E_COTEJO_2026-10-03.md`. A revisão jurídica integral e a suficiência para concursos não foram estabelecidas. As provas reservadas de avaliação não foram abertas.
 

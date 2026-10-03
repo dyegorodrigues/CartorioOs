@@ -4,7 +4,7 @@
   "branch": "chatgpt/legal-tutor-os-core-2026-09-30",
   "phase": "DD_BASED_SOURCE_RECONCILIATION_AND_QUESTION_ALIGNMENT",
   "pilot": "Introducao ao Direito Penal",
-  "status": "DD_HIERARCHY_AND_VISUAL_REVISION_V2_CREATED_GENERAL_COURSE_IN_PROGRESS",
+  "status": "V2_PEDAGOGICAL_REVIEW_FAILED_CHAPTER_RECONSTRUCTION_PENDING",
   "notion": {
     "audit_page": "https://app.notion.com/p/3ec42424cdbc8164b737f35ad5c9b28e",
     "knowledge_map": "https://app.notion.com/p/3ec42424cdbc81829acece8a33db49c4",
@@ -33,7 +33,7 @@
     "TRF2 2026 FGV current negative direct-label signal in Penal objective block",
     "PC-DF 2026 official retified application date 05/07; 23 Penal items indexed as application-heavy; TEC secondary metadata still stale at 14/06"
   ],
-  "next_step": "CONTINUE_DD_EDITORIAL_REVIEW_AND_QUESTION_ALIGNMENT_TOPIC_BY_TOPIC",
+  "next_step": "RECONSTRUCT_FIRST_DD_CHAPTER_WITH_EXPLANATORY_CONTINUITY_AND_GROUPED_REVIEW",
   "priority_order": [
     "PC-DF 2026 CEBRASPE",
     "MPRJ 2026 FGV objective+discursive",
@@ -108,10 +108,10 @@
       "muito difícil"
     ],
     "coverage_claim": "This round compared DD sections a-c on PDF pages5-7; reread matching passages9-15,26-29 and CP3-4; no all-bank/all-question claim.",
-    "learning_material_state": "BOUNDED_EDITORIAL_V2_CREATED_USER_REVIEW_PENDING",
+    "learning_material_state": "V2_VISUALLY_IMPROVED_BUT_CONFUSING_AND_INCOMPLETE_PER_USER",
     "corpus_sufficiency": "NOT_ESTABLISHED",
     "held_out": "NOT_OPENED_OR_USED",
-    "next": "Resolve documented old/new topic differences, continue evolution/functions/divisions, and expand topic-specific question comparison; do not treat v2 presentation as whole-booklet review.",
+    "next": "Reconstruct complete first chapter from the supplied source, restore explanatory links including dd-04, map laws and exceptions to topics, and replace fragmented trivia with grouped review. Do not merely recolor or regenerate v2.",
     "latest_application": {
       "date_local": "2026-10-03",
       "source": "material/dd_preservado/fonte.json",
@@ -123,24 +123,27 @@
       "pdf_pages": 11,
       "legal_qa": "CP32/96,CF22I,PF2025Q52-54 checked; old/new summaries compared; selected old pp23-25 read; complete doctrinal review still pending",
       "global_course_ready": false,
-      "user_reviewed": false,
+      "user_reviewed": true,
       "browser_visual_validation": false,
       "held_out": "NOT_OPENED_OR_USED",
       "rule": "If source content is perfect, retain its wording intact and improve only organization/design/navigation; textual changes require an identifiable reason.",
       "edition": "v2",
-      "source_substantive_passages_preserved": true,
+      "source_substantive_passages_preserved": false,
       "editorial_prefixes_and_attributions_disposition": "material/dd_preservado/destinos_editoriais.json",
       "numbered_units": 18,
       "comparison_tables": 7,
-      "pdf_bookmarks": 29
+      "pdf_bookmarks": 29,
+      "user_acceptance": "PARTIAL_VISUAL_IMPROVEMENT_ONLY",
+      "semantic_omission_detected": "dd-04 explanatory classification of the four authors as formal definitions centered on law and sanction was removed"
     },
     "current_user_feedback": {
-      "date_utc": "2026-10-03",
-      "instruction": "One coherent heading hierarchy, bold subtopics, comparative tables, discreet page provenance, keep functional wording, useful atomic oral-style recovery questions, question data separate and connected.",
-      "notion_content_imported": false,
-      "whole_booklet_review_complete": false,
-      "sumario_comparison": "material/dd_preservado/MAPA_SUMARIO_E_COTEJO_2026-10-03.md",
-      "old_new_gaps": "Older Greco definition and expansion critique identified; original-author check and inclusion decision pending."
+      "date_local": "2026-10-03",
+      "time_local": "10:02:13",
+      "timezone": "America/Sao_Paulo",
+      "instruction": "Keep full theoretical density and explanatory sequence. Group retrieval questions into progressive thematic reviews with explained answers. Gran is a semantic visual reference. Compare full chapter, Legis, law/sumulas and questions. A count of preserved selected blocks is not evidence of completeness or clarity.",
+      "diagnostic": "material/dd_preservado/DIAGNOSTICO_PEDAGOGICO_2026-10-03.md",
+      "user_has_explained_sufficiently": true,
+      "html_pdf_rebuilt_this_round": false
     }
   },
   "editorial_history": [
@@ -170,6 +173,14 @@
       "iteration": "dd_preservado_v1",
       "user_feedback": "HTML interactivity useful, but mixed source numbering, flat headings, repeated provenance prose and insufficient tables make content confusing; reorganize rather than paraphrase.",
       "state": "SUPERSEDED_BY_V2_STRUCTURE_REVISION"
+    },
+    {
+      "date_local": "2026-10-03",
+      "time_local": "10:02:13",
+      "edition": "v2",
+      "finding": "User found content confusing/incomplete. Review confirmed source selection excludes evolution/functions/classifications and the disposition audit removed a substantive explanatory link as an editorial preface. Mechanical text presence checks do not establish semantic preservation.",
+      "state": "PEDAGOGICAL_RECONSTRUCTION_REQUIRED",
+      "diagnostic": "material/dd_preservado/DIAGNOSTICO_PEDAGOGICO_2026-10-03.md"
     }
   ],
   "previous_global_rewrite_block": [
