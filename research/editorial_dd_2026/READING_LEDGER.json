@@ -1,0 +1,218 @@
+{
+  "date": "2026-10-02",
+  "page_convention": "1-based PDF page, not printed folio",
+  "files": [
+    {
+      "key": "dd_penal",
+      "pages": 58,
+      "chars": 164018,
+      "sha256": "953eccbf3bca8a10cc76b142090d3a96902c24ec8b591b1bf7a6056861351ef0",
+      "drive_id": "1eOcrfOuLyOJYnXTwUaAvyovG7tPZZxhy",
+      "text_extracted": "ALL_PAGES",
+      "editorially_read_pages": [
+        [
+          1,
+          58
+        ]
+      ],
+      "visually_inspected_pages": [
+        13,
+        29,
+        55
+      ],
+      "legal_validation": "TARGETED_CHECKS_ONLY_SEE_FINDINGS",
+      "note": "Content reading is not whole-page visual QA or certification of current law. Cover/legal notice are not counted as study content."
+    },
+    {
+      "key": "dd_cp",
+      "pages": 282,
+      "chars": 645740,
+      "sha256": "2aa1a759a4c55bc2e4fd9e58a259f3d00d35696a8c68ff8083e2bc7394013531",
+      "drive_id": "1_1M60DUZlC62tVcDONJ77PXOt6s16bEa",
+      "text_extracted": "ALL_PAGES",
+      "editorially_read_pages": [
+        [
+          1,
+          8
+        ]
+      ],
+      "visually_inspected_pages": [
+        3,
+        4
+      ],
+      "legal_validation": "TARGETED_CHECKS_ONLY_SEE_FINDINGS",
+      "note": "Content reading is not whole-page visual QA or certification of current law. Cover/legal notice are not counted as study content."
+    },
+    {
+      "key": "gran_principios",
+      "pages": 11,
+      "chars": 18304,
+      "sha256": "58cee5e40443fba16355fb1af7fe90ab9c30a18c8ed4e0e710abc2b7aab35585",
+      "drive_id": "13bgt4B9hD0TWgRk_9aukQMJo3NBrHCUe",
+      "text_extracted": "ALL_PAGES",
+      "editorially_read_pages": [
+        [
+          1,
+          11
+        ]
+      ],
+      "visually_inspected_pages": [
+        4,
+        6,
+        8
+      ],
+      "legal_validation": "TARGETED_CHECKS_ONLY_SEE_FINDINGS",
+      "note": "Content reading is not whole-page visual QA or certification of current law. Cover/legal notice are not counted as study content."
+    },
+    {
+      "key": "gran_ciencias",
+      "pages": 23,
+      "chars": 53487,
+      "sha256": "0f11919f5a6128f1d9aa9b3d770a1a1205eecfafe3feaf525729f68795dd8d92",
+      "drive_id": "13a1b6h5qZPJHg3oqbX1z0bEavZCv5bvJ",
+      "text_extracted": "ALL_PAGES",
+      "editorially_read_pages": [
+        [
+          1,
+          23
+        ]
+      ],
+      "visually_inspected_pages": [
+        7,
+        12
+      ],
+      "legal_validation": "TARGETED_CHECKS_ONLY_SEE_FINDINGS",
+      "note": "Content reading is not whole-page visual QA or certification of current law. Cover/legal notice are not counted as study content."
+    },
+    {
+      "key": "dd_juris",
+      "pages": 15,
+      "chars": 30793,
+      "sha256": "94091321620bb7b77125aa38d671be1db103bdadc71afc53cb80d903f7143ddb",
+      "drive_id": "1ZIUepJGdKD6ZqJzUzXWyzjlzfjlahh1f",
+      "text_extracted": "ALL_PAGES",
+      "editorially_read_pages": [
+        [
+          1,
+          15
+        ]
+      ],
+      "visually_inspected_pages": [
+        5,
+        7
+      ],
+      "legal_validation": "TARGETED_CHECKS_ONLY_SEE_FINDINGS",
+      "note": "Content reading is not whole-page visual QA or certification of current law. Cover/legal notice are not counted as study content."
+    },
+    {
+      "key": "dd_sumulas",
+      "pages": 13,
+      "chars": 19920,
+      "sha256": "d18749fccb14b0c374ca91006b9d602f500ad085468386f89ac3c61429ed2366",
+      "drive_id": "1GE6HmrM26-0jVYQhmM37jc_ybBTPBuVp",
+      "text_extracted": "ALL_PAGES",
+      "editorially_read_pages": [
+        [
+          3,
+          13
+        ]
+      ],
+      "visually_inspected_pages": [],
+      "legal_validation": "TARGETED_CHECKS_ONLY_SEE_FINDINGS",
+      "note": "Content reading is not whole-page visual QA or certification of current law. Cover/legal notice are not counted as study content."
+    },
+    {
+      "key": "orientacoes",
+      "pages": 6,
+      "chars": 14674,
+      "sha256": "ab61d1ba55ffd4175cc0de8a584da22b0961090b789422cfc6715e29e08abb51",
+      "drive_id": "1MeUUE3uxvVCp4YOFUi2HtXiqs3jSBKcg",
+      "text_extracted": "ALL_PAGES",
+      "editorially_read_pages": [
+        [
+          1,
+          6
+        ]
+      ],
+      "visually_inspected_pages": [],
+      "legal_validation": "TARGETED_CHECKS_ONLY_SEE_FINDINGS",
+      "note": "Content reading is not whole-page visual QA or certification of current law. Cover/legal notice are not counted as study content."
+    },
+    {
+      "key": "metas",
+      "pages": 2,
+      "chars": 1666,
+      "sha256": "af32ecca8e5e2881614c4a3759b01ffd654443591bd59e460593ed72cf3e8262",
+      "drive_id": "1YEZF-HzhdhUFMMLyuucGNMkbtlRaoGjj",
+      "text_extracted": "ALL_PAGES",
+      "editorially_read_pages": [
+        [
+          1,
+          2
+        ]
+      ],
+      "visually_inspected_pages": [],
+      "legal_validation": "TARGETED_CHECKS_ONLY_SEE_FINDINGS",
+      "note": "Content reading is not whole-page visual QA or certification of current law. Cover/legal notice are not counted as study content."
+    },
+    {
+      "key": "old_penal",
+      "pages": 57,
+      "chars": 154919,
+      "sha256": "9d40d7084cc5b5becb353ebddec47e65185a8b82c8696fec52a3fe34f5b891b0",
+      "drive_id": "1b9gpvPr7AMI9JTFlfvI3veynEDNlyxwN",
+      "text_extracted": "ALL_PAGES",
+      "editorially_read_pages": [
+        [
+          11,
+          15
+        ]
+      ],
+      "visually_inspected_pages": [
+        5
+      ],
+      "legal_validation": "TARGETED_CHECKS_ONLY_SEE_FINDINGS",
+      "note": "Content reading is not whole-page visual QA or certification of current law. Cover/legal notice are not counted as study content."
+    },
+    {
+      "key": "old_cp",
+      "pages": 265,
+      "chars": 591117,
+      "sha256": "0ab58a71b1a48d846fb6d660cbe7b6b5796d878619a7349540219e231db929be",
+      "drive_id": "1Tva0KKz6kkgCvbAaQ8_RSKfGqRsgh4X2",
+      "text_extracted": "ALL_PAGES",
+      "editorially_read_pages": [
+        [
+          3,
+          4
+        ]
+      ],
+      "visually_inspected_pages": [],
+      "legal_validation": "TARGETED_CHECKS_ONLY_SEE_FINDINGS",
+      "note": "Content reading is not whole-page visual QA or certification of current law. Cover/legal notice are not counted as study content."
+    },
+    {
+      "key": "old_mapa",
+      "pages": 155,
+      "chars": 366043,
+      "sha256": "708babbbc20f981b26bbc6c58f8d0201e89d5aec08486e1492b61fcc244d36b5",
+      "drive_id": "1IRkZjGkJAm0tSZX1pWi-GXnCXznpdygs",
+      "text_extracted": "ALL_PAGES",
+      "editorially_read_pages": [
+        [
+          4,
+          9
+        ]
+      ],
+      "visually_inspected_pages": [
+        8
+      ],
+      "legal_validation": "TARGETED_CHECKS_ONLY_SEE_FINDINGS",
+      "note": "Content reading is not whole-page visual QA or certification of current law. Cover/legal notice are not counted as study content."
+    }
+  ],
+  "previous_benchmark_comparison": {
+    "result": "All 58 page text bodies match earlier local DD Penal sample after whitespace/footer normalization. Binary hashes differ. Earlier inspection had been partial.",
+    "comparison_not_against": "This is not the 57-page Extensivo 2025 theory sample."
+  }
+}

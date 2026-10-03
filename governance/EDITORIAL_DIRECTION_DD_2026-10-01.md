@@ -42,3 +42,8 @@ O formato impresso passa a requisito explícito: leitura contínua, tabelas leg�
 O foco original do DD em Delegado **não significa escolha pessoal definitiva dessa carreira**. Manter base comum e identificar complementos de MP estadual/federal, Delegado estadual/PF, Magistratura, Defensoria, Advocacia Pública, cartórios/ENAC e OAB, conforme evidência pertinente. Os grafos continuam como estrutura interna de relações e rastreabilidade; o aluno recebe texto fluente e utilizável.
 
 Não iniciar agora uma dissecação imaginária das novas amostras nem produzir capítulo supostamente baseado nelas. O usuário informou que vai preparar e trazer os materiais. A pesquisa e os registros já feitos permanecem aproveitáveis; o novo direcionamento reduz a indefinição editorial. Não existe nova exigência de compra de curso, assinatura, reorganização do Drive ou backup do Notion.
+
+
+## Atualização em 02/10/2026: materiais recebidos
+
+A pasta Dedicação Delta 2026 G foi localizada e inventariada (39 PDFs, seis subpastas). O acesso ao Extensivo 2025 e ao Mapa da Lei Seca pela conta Russgod também foi confirmado. O estado de espera acima é histórico; consultar `research/editorial_dd_2026/DIAGNOSTICO_E_PROPOSTA.md` e seu registro de páginas para a análise efetivamente concluída. Gran passa a referência complementar de diagramação. O estado de suficiência curricular permanece NOT_READY_TO_RENDER; não houve liberação de capítulo.

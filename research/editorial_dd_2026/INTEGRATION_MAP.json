@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-02",
+  "status": "EDITORIAL_MAPPING_NOT_CURRICULUM_APPROVAL",
+  "page_convention": "1-based PDF page",
+  "topics": [
+    {"topic":"Conceitos e características", "theory_pages":"5-7", "gran_ciencias_pages":"7-8", "old_theory_pages":"5-6 (visual/metadata only in this round)", "action":"Preservar desenvolvimento; explicitar os três aspectos e a diferença entre ciência finalista e teoria finalista da ação; esta última precisa de validação doutrinária."},
+    {"topic":"Ciências penais", "theory_pages":"13-15", "gran_ciencias_pages":"6-7,11-13,19-20", "old_theory_pages":"11-13", "old_mapa_pages":"6-7", "action":"Uma explicação e uma tabela comparativa; exemplo contínuo visto pelas três disciplinas; preservar diferenças de objeto e método.", "existing_candidate_questions":["CEBRASPE_PCGO2017_Q17"], "question_warning":"Questão histórica já registrada; concurso encerrado e validação jurídica não concluída."},
+    {"topic":"Funções e bens jurídicos", "theory_pages":"7-12,26-29", "gran_ciencias_pages":"9-11", "action":"Consolidar definição repetida; preservar atribuições a Roxin/Jakobs; ligar itens PF2025 às fontes doutrinárias, com comentários a validar."},
+    {"topic":"Criminalização e seletividade", "theory_pages":"14-17", "old_theory_pages":"12-14", "action":"Separar processo, agência e objeto; conectar ao bloco de Criminologia sem repetir integralmente."},
+    {"topic":"Garantismo, inimigo e velocidades", "theory_pages":"17-21", "gran_ciencias_pages":"13-19", "action":"Preservar aprofundamento com atribuição teórica e crítica; resolver inconsistência sobre autoria da quarta velocidade antes da redação."},
+    {"topic":"Fontes, costumes e legalidade", "theory_pages":"21-25,50-52", "legis_cp_pages":"3-4", "gran_principios_pages":"6", "old_mapa_pages":"8-9", "action":"Integrar teoria ao art.1º; quadro das quatro garantias; corrigir CPP para CP no exemplo do art.233; manter índice por artigo."},
+    {"topic":"Intervenção mínima", "theory_pages":"29-32", "gran_principios_pages":"8", "action":"Distinguir fragmentariedade e subsidiariedade; não misturar com subsidiariedade entre tipos penais."},
+    {"topic":"Conflito aparente de normas", "theory_pages":"32-34", "action":"Transformar aprofundamento em bloco próprio com pré-requisitos e retorno à intervenção mínima; discursiva PF2021 precisa cotejo do espelho original."},
+    {"topic":"Insignificância", "theory_pages":"34-48", "juris_pages":"4-15", "sumulas_pages":"11-12", "gran_principios_pages":"9-10", "action":"Matriz fato/regra/ressalva/tribunal/data; corrigir a cadeia da referência Tema1205; completar lacuna Tema1143 no resumo do Gran; evitar estatística a partir das repetições."},
+    {"topic":"Adequação social", "theory_pages":"53-54", "sumulas_pages":"8", "gran_principios_pages":"8", "action":"Distinguir tese doutrinária, orientação jurisprudencial e aplicação a direitos autorais.", "existing_candidate_questions":["CEBRASPE_DPERN2015_Q85"], "question_warning":"Já decomposta no corpus; direito atual ainda não inteiramente validado."},
+    {"topic":"Responsabilidade e limites das penas", "theory_pages":"54-58", "gran_principios_pages":"7,9-10", "sumulas_pages":"5", "action":"Integrar texto constitucional, desenvolvimento, exceções e retomadas; preservar distinção de responsabilidade subjetiva e culpabilidade; links para dosimetria e teoria do crime."}
+  ],
+  "cross_career_policy":"Preserve separate career and phase denominators; DD Delegado coverage is not evidence of MP/Cartorio completeness.",
+  "sufficiency_status":"NOT_READY_TO_RENDER"
+}
