@@ -87,5 +87,20 @@
     "editorial_inventory": "research/editorial_dd_2026/INVENTORY.json",
     "editorial_reading_ledger": "research/editorial_dd_2026/READING_LEDGER.json",
     "editorial_integration_map": "research/editorial_dd_2026/INTEGRATION_MAP.json"
+  },
+  "latest_editorial_correction": {
+    "date_utc": "2026-10-03",
+    "user_correction": "Rejected previous seven-page proposal and artificial recall marker; requested actual organic sequential study booklet with PDF and expandable practice.",
+    "current_focus": "Delegado estadual e PF; preserve other career expansion",
+    "previous_proposal_status": "REJECTED_NOT_APPROVED_TEMPLATE",
+    "study_sample": "material/penal_inicio/README.md",
+    "canonical_content": "material/penal_inicio/conteudo.json",
+    "builder": "material/penal_inicio/construir.py",
+    "scope": "DD theory PDF pp5–7: concept, characteristics, protected legal interests; 12 exercises, 11 authored and 1 identified official-question paraphrase",
+    "curriculum_readiness": "NOT_READY_TO_RENDER_FULL_VALIDATED_UNIT",
+    "sample_status": "CREATED_LIMITED_SAMPLE_USER_FORMAT_REVIEW_PENDING",
+    "override": "Latest user request authorizes a bounded study sample now; older gates still apply to claims of complete curriculum and exam sufficiency.",
+    "held_out": "NOT_OPENED_OR_USED",
+    "next": "Continue the booklet in DD learning sequence, enriching passages with legally checked material and appropriate exam evidence; do not return to a generic integration proposal or require a platform build before usable content."
   }
 }

@@ -47,3 +47,10 @@ Não iniciar agora uma dissecação imaginária das novas amostras nem produzir 
 ## Atualização em 02/10/2026: materiais recebidos
 
 A pasta Dedicação Delta 2026 G foi localizada e inventariada (39 PDFs, seis subpastas). O acesso ao Extensivo 2025 e ao Mapa da Lei Seca pela conta Russgod também foi confirmado. O estado de espera acima é histórico; consultar `research/editorial_dd_2026/DIAGNOSTICO_E_PROPOSTA.md` e seu registro de páginas para a análise efetivamente concluída. Gran passa a referência complementar de diagramação. O estado de suficiência curricular permanece NOT_READY_TO_RENDER; não houve liberação de capítulo.
+
+
+## Correção de direção em 03/10/2026
+
+O usuário rejeitou a proposta de sete páginas e a demonstração que começava por restituição/insignificância. O uso do marcador artificial de retomada contrariou uma preferência já registrada. Não tratar essa proposta como formato aprovado. O usuário quer ver o próprio material: explicação suficiente para aprender, sequência orgânica apoiada no DD, diagramação confortável e perguntas recolhíveis.
+
+Foi produzido um trecho limitado e estudável do começo do DD: conceito, características e objeto de proteção, na mesma ordem das páginas 5–7. Texto próprio, PDF e leitor HTML a partir de um único conteúdo editorial; prática e respostas identificadas. Ver `material/penal_inicio/README.md`. A produção desta amostra está autorizada pela instrução mais recente; não significa encerramento dos gates nem unidade integral validada. A versão visual também aguarda avaliação do usuário. O foco atual passa a Delegado estadual/PF, sem eliminar expansão a outras carreiras. Não presumir próximos editais de MT/GO/SC.
