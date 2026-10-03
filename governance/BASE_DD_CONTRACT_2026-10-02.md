@@ -82,3 +82,15 @@ A próxima reconstrução parte do capítulo inteiro da apostila, preservando se
 O usuário esclareceu que “aprovado e autorizado” se referia ao GitHub. Não há aprovação do material, do formato ou da proposta pedagógica. O aviso anterior de aprovação expirada não identifica, por si, a operação afetada. Não atribuir a essa frase autorização para merge, publicação de site ou aceitação do conteúdo.
 
 A v3 reconstrói o capítulo inicial (DD, pp. 5–13) e conserva o aprofundamento de bens jurídicos (pp. 26–29) após a sequência introdutória. Restitui dd-04, acrescenta evolução/funções/classificações, adota destaques por passagem e 18 perguntas agrupadas. O PDF tem 23 páginas; HTML e PDF permanecem em revisão. O mapa e as correções estão em `material/dd_preservado/destinos_editoriais_v3.json` e `decisoes_v3.json`. Questões, integralidade do curso e revisão das fontes antigas continuam com os limites expressos no README.
+
+## HTMLs externos V1/V2 e correção de escopo — 03/10/2026
+
+O usuário forneceu dois HTMLs do Claude e uma imagem do planejamento interrompido de uma V3. A V3 do Claude não foi recebida. O objetivo é a apostila completa e interativa; o trabalho por capítulo é apenas uma forma de execução. A edição anterior do Codex, limitada ao capítulo inicial e a um aprofundamento, não atende por si ao escopo pretendido.
+
+A comparação recomenda a V2 como base de preservação da teoria, recuperando da V1 comparações por critérios, destaques internos e complementos pertinentes. Preservar também as correções já fundamentadas na nossa edição. Não copiar automaticamente nenhum conjunto de perguntas nem confundir correspondência textual com integralidade semântica.
+
+A orientação atual permite usar o Gran também como complemento explicativo, quando melhora a compreensão e permanece pertinente, além da referência visual. A concisão do Gran continua sem autorizar redução da profundidade do DD. Fontes e páginas devem ficar discretas; correções e divergências materiais continuam identificáveis.
+
+As revisões seguem a progressão da matéria, com perguntas que recuperam unidades coerentes e respostas explicadas. A lista global da V2 começa por súmulas de insignificância antes dos fundamentos: essa ordem não deve ser mantida automaticamente. Quadros devem comparar critérios, preservando o desenvolvimento necessário fora das células quando for mais legível.
+
+Relatório persistente: `Comparacao_DD_Claude_V1_V2.md`, Library `libfile_b8d422c50680819185c36803fa06f35b`. Registro de evidências: `research/COMPARACAO_CLAUDE_V1_V2_2026-10-03.md`. Os arquivos fornecidos não foram alterados. Nenhuma nova apostila foi gerada nesta rodada. Permanece a autorização para operações no GitHub, sem aprovação do conteúdo/formato e sem nova autorização para merge ou publicação.

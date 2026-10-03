@@ -4,7 +4,7 @@
   "branch": "chatgpt/legal-tutor-os-core-2026-09-30",
   "phase": "DD_BASED_SOURCE_RECONCILIATION_AND_QUESTION_ALIGNMENT",
   "pilot": "Introducao ao Direito Penal",
-  "status": "V3_FIRST_CHAPTER_RECONSTRUCTED_USER_REVIEW_PENDING",
+  "status": "CLAUDE_V1_V2_COMPARED_FULL_BOOKLET_EDITION_PENDING",
   "notion": {
     "audit_page": "https://app.notion.com/p/3ec42424cdbc8164b737f35ad5c9b28e",
     "knowledge_map": "https://app.notion.com/p/3ec42424cdbc81829acece8a33db49c4",
@@ -33,7 +33,7 @@
     "TRF2 2026 FGV current negative direct-label signal in Penal objective block",
     "PC-DF 2026 official retified application date 05/07; 23 Penal items indexed as application-heavy; TEC secondary metadata still stale at 14/06"
   ],
-  "next_step": "CONTINUE_SOURCE_COMPARISON_AND_QUESTION_EXPANSION_WITHOUT_ASSUMING_MATERIAL_APPROVAL",
+  "next_step": "EDIT_FULL_DD_BOOKLET_FROM_V2_PRESERVATION_BASE_RESTORING_V1_DIDACTIC_FEATURES_AND_VERIFIED_CORRECTIONS",
   "priority_order": [
     "PC-DF 2026 CEBRASPE",
     "MPRJ 2026 FGV objective+discursive",
@@ -248,5 +248,37 @@
     "material_approved": false,
     "expired_approval_operation_identified": false,
     "instruction": "Não interpretar autorização operacional como aprovação de conteúdo ou formato."
+  },
+  "latest_user_reference_review": {
+    "date": "2026-10-03",
+    "report": {
+      "library_file_id": "libfile_b8d422c50680819185c36803fa06f35b",
+      "file_id": "file_0000000004e4820e939c355808e5b386",
+      "current_version_number": 0,
+      "file_name": "Comparacao_DD_Claude_V1_V2.md",
+      "path": "/IA Educacional Tutor OS/Comparacao_DD_Claude_V1_V2.md"
+    },
+    "content_approved": false,
+    "github_authorization_only": true,
+    "supplied_versions": [
+      "Claude V1",
+      "Claude V2"
+    ],
+    "claude_v3_received": false,
+    "findings": [
+      "Previous Codex v3 covers chapter 1 plus supplement, not complete booklet; do not continue treating the recrop as the intended final product.",
+      "Use V2 as preservation starting point, V1 for comparisons and meaningful highlights; reconcile existing grounded corrections.",
+      "Gran may contribute clearer complementary explanations, not only styling, without reducing DD depth.",
+      "V1/V2 theory tables 69/38; revision items 50/80; training records 37/46. Counts do not certify quality or authenticity.",
+      "Text screening on DD PDF pp5-58: exact 8-word sequence matching 14.9%/93.7%; not percentages of semantic content preserved.",
+      "PC-CE 2025 Q22 in V2 reordered and shortened despite complete label; correct proposition B there corresponds to E in official booklet 084_PC_CE_001_01.",
+      "Both supplied HTMLs lack persistent study state and print-specific handling; no browser visual verification this round."
+    ],
+    "next_action": "Inventory and edit the complete booklet by chapter; preserve semantic explanations; restore useful comparisons; integrate relevant Legis/Juris; revise progressive questions; verify original exam wording and print/interactions.",
+    "retained_limits": [
+      "No full semantic audit of theory + Legis + Juris",
+      "No all-question validation",
+      "No new booklet edition produced in this comparison round"
+    ]
   }
 }
