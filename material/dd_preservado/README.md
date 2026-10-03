@@ -1,27 +1,33 @@
-# DD preservado - conceito, características e bens jurídicos
+# DD organizado — conceito, características e bens jurídicos
 
-Edição de trabalho em 03/10/2026. O usuário ainda não avaliou este resultado. A amostra anterior `material/penal_inicio` continua rejeitada.
+Edição v2, 03/10/2026. Corrige a mistura de numerações, a ausência de títulos visíveis e as referências editoriais repetidas apontadas pelo usuário. Ainda não foi avaliada por ele. A amostra anterior `material/penal_inicio` permanece rejeitada.
 
-## Trabalho efetivamente executado
+## Conteúdo e organização
 
-- Seleção literal da amostra DD fornecida: seções a-c, páginas 5-7; seção 7.1.1, páginas 26-29. São 60 blocos e 2.478 palavras da fonte. Espaços, quebras de linha e travessões da extração foram normalizados; nenhum bloco selecionado foi eliminado ou reescrito.
-- Passagens sobre bens jurídicos reunidas na mesma seção. Conservam-se as repetições nesta primeira edição para verificar a preservação antes de qualquer eventual redução.
-- Tabela original reconstruída sem eliminar células, autores e definições mantidos; enunciados e comentários do DD deslocados para exercícios sem perda de texto.
-- CP 32/96 e CF 22, I incorporados nos pontos pertinentes e conferidos na redação oficial. Não há súmula ou precedente colocado nesta introdução apenas para ilustrar integração.
-- PF 2025 itens 52, 53 e 54 já existentes no DD, confrontados com o caderno oficial 106_PF_001_01 e o gabarito definitivo de Cargo 1, Delegado. Não são questões novas acrescidas ao DD. Referência AM/2022 continua abreviada e não é contada como questão completa conferida.
-- 18 perguntas autorais de recuperação, com dificuldade pedagógica estimada e vínculo com blocos de conteúdo.
-- HTML autônomo: leitura contínua, assuntos recolhíveis, respostas ocultas, retorno às explicações, impressão com abertura temporária de todo o conteúdo. PDF de 10 páginas: 7 de conteúdo/questões e 3 de recuperação/fontes. PDF e HTML derivam do mesmo modelo.
+O recorte conserva a substância de 60 blocos da amostra teórica DD: seções a–c, PDF pp. 5–7; antiga seção 7.1.1, pp. 26–29. Não cobre toda a apostila de 58 páginas. A fonte normalizada, com 2.478 palavras, permanece intacta em `fonte.json`.
 
-## Revisão e limites
+`apresentacao.json` estabelece três assuntos e 18 unidades com uma única hierarquia. A antiga 7.1.1 foi incorporada a 3.3, depois das definições e dos limites constitucionais. As letras a/b/c e a numeração interna da origem deixaram de competir com os títulos. `destinos_editoriais.json` registra o destino dos 60 blocos, os trechos substantivos exibidos e cada prefixo editorial removido ou deslocado. Não se afirma preservação literal de cabeçalhos e metatexto: as explicações foram mantidas e organizadas; títulos, referências e comandos foram tratados como elementos de apresentação.
 
-As notas sobre terceira via, penas diferentes de prisão, sentido de “finalista” e atribuição doutrinária estão separadas do texto-base. A precisão de leitura do item 52 registra a simplificação histórica do comentário do DD, sem substituir esse comentário silenciosamente. A conferência doutrinária integral permanece pendente; não se afirma atualização integral da apostila, cobertura suficiente de concursos ou conclusão do banco de questões. Provas reservadas de avaliação não foram abertas.
+Sete tabelas apresentam autores, aspectos formal/material/sociológico, características, resultado jurídico/ofensividade, objeto jurídico/material, bens individuais/coletivos e coletivos reais/aparentes. Lei seca, dicas e notas de precisão têm papéis e cores distintos. As páginas de origem aparecem discretamente nos títulos; as referências ficam recolhíveis no fim.
 
-`verificar.py` conferiu os 60 blocos literalmente no HTML (com recolocação do gabarito) e todos os trechos no PDF; conferiu 65 links internos e ausência de dados pessoais extraídos da marca d'água. O PDF foi renderizado e todas as páginas foram inspecionadas. Não houve teste visual do HTML em navegador real; a sintaxe do JavaScript e a estrutura do documento foram verificadas.
+As fontes de conteúdo são a amostra teórica DD, o cotejo dos arts. 32 e 96 com DD Legis CP e legislação oficial, CF 22, I, e as autoridades identificadas nas notas. As pp. 38 e 81 do DD Legis foram lidas para localizar os artigos; sua jurisprudência adjacente não foi incorporada em bloco. Gran serviu como referência visual. Notion não foi importado para este recorte, nem se afirma fusão completa de teoria/Legis/Juris ou revisão integral das apostilas antigas.
 
-## Reprodução
+## Prática
 
-`fonte.json` contém a seleção de texto fornecida pelo usuário e sua origem. `recuperacao.json` contém apenas perguntas autorais. `construir.py` gera os dois formatos em `output/pdf/` no workspace que contém o repositório. `verificar.py` confere o resultado.
+`banco_questoes.json` separa três itens reais do texto de estudo: PF 2025, Delegado, itens 52/53/54, gabaritos definitivos E/C/E, confrontados com o caderno e o gabarito oficiais. Já constavam do DD; não são três questões novas acrescentadas ao material. A referência AM/2022 permanece abreviada e não entra na contagem de questões completas conferidas.
 
-`preparar.py` reproduz a seleção a partir de `dd_review_2026/dd_penal.json` e `dd_penal.pdf`, quando os originais estiverem disponíveis. A construção cotidiana não depende desses PDFs, pois usa `fonte.json`.
+`recuperacao.json` reúne 30 perguntas autorais mais delimitadas, com resposta esperada, elementos essenciais e retorno ao subtópico. São treino de recuperação, inclusive em voz alta; não são questões oficiais de prova oral nem instrumento validado de prontidão. As dificuldades são estimativas pedagógicas. A expansão do banco por banca/ano, o cotejo de alternativas e a preparação para todas as fases continuam pendentes.
 
-A hipótese expressa do usuário governa a continuação: se uma apostila estivesse perfeita, a redação poderia permanecer inteira, com mudanças exclusivamente de organização e apresentação. Não reescrever para novidade. Alterações futuras precisam de motivo identificável e conferência do destino de todos os elementos úteis.
+## Formatos e conferência
+
+HTML autônomo: capítulos e lei seca recolhíveis; respostas ocultas; três itens C/E com correção; retorno ao trecho pertinente; impressão abre temporariamente o conteúdo e restaura o estado anterior. PDF estático: 11 páginas, sete tabelas e 29 marcadores de navegação. Os dois formatos derivam do mesmo modelo.
+
+`verificar.py` conferiu o destino de todos os 60 blocos, a presença dos trechos substantivos nos dois formatos, a hierarquia, 75 vínculos internos, os três gabaritos e os limites do texto no PDF. Todas as páginas do PDF foram renderizadas e inspecionadas; tabelas, bens jurídicos, questões e recuperação também foram vistos em tamanho maior. Os controles JavaScript foram exercitados em ambiente simulado: abrir/fechar, retorno ao assunto, ausência/acerto/erro da resposta e abertura/restauração para impressão. Não houve validação visual do HTML em navegador real.
+
+O cotejo dos sumários e a fila de revisão estão em `MAPA_SUMARIO_E_COTEJO_2026-10-03.md`. A revisão jurídica integral e a suficiência para concursos não foram estabelecidas. As provas reservadas de avaliação não foram abertas.
+
+## Reprodução e histórico
+
+Executar, em ordem, `organizar.py`, `revisar_perguntas.py`, `construir.py` e `verificar.py`. A construção não depende dos PDFs originais porque parte de `fonte.json`; `preparar.py` reproduz essa seleção quando eles estão disponíveis. HTML/PDF são gerados em `output/pdf/`, no workspace que contém o repositório.
+
+`historico/` conserva o construtor, as perguntas e a verificação da v1. A hipótese do usuário continua sendo a regra: se a redação funciona, melhorar organização e apresentação sem reescrever por novidade. Alterações de conteúdo precisam de um motivo identificável e conferência da fonte.

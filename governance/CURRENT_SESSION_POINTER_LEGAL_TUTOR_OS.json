@@ -1,10 +1,10 @@
 {
   "project": "Legal Tutor OS",
-  "date": "2026-10-01",
+  "date": "2026-10-03",
   "branch": "chatgpt/legal-tutor-os-core-2026-09-30",
   "phase": "DD_BASED_SOURCE_RECONCILIATION_AND_QUESTION_ALIGNMENT",
   "pilot": "Introducao ao Direito Penal",
-  "status": "BOUNDED_DD_PRESERVATION_EDITION_CREATED_GENERAL_COURSE_IN_PROGRESS",
+  "status": "DD_HIERARCHY_AND_VISUAL_REVISION_V2_CREATED_GENERAL_COURSE_IN_PROGRESS",
   "notion": {
     "audit_page": "https://app.notion.com/p/3ec42424cdbc8164b737f35ad5c9b28e",
     "knowledge_map": "https://app.notion.com/p/3ec42424cdbc81829acece8a33db49c4",
@@ -108,26 +108,39 @@
       "muito difícil"
     ],
     "coverage_claim": "This round compared DD sections a-c on PDF pages5-7; reread matching passages9-15,26-29 and CP3-4; no all-bank/all-question claim.",
-    "learning_material_state": "BOUNDED_LITERAL_SOURCE_EDITION_CREATED_NOT_YET_USER_REVIEWED",
+    "learning_material_state": "BOUNDED_EDITORIAL_V2_CREATED_USER_REVIEW_PENDING",
     "corpus_sufficiency": "NOT_ESTABLISHED",
     "held_out": "NOT_OPENED_OR_USED",
-    "next": "Complete topic-level doctrinal/exam checks and continue the DD course sequence, starting with evolution and functions. Expand corpus by bank and year without claiming exhaustive coverage.",
+    "next": "Resolve documented old/new topic differences, continue evolution/functions/divisions, and expand topic-specific question comparison; do not treat v2 presentation as whole-booklet review.",
     "latest_application": {
       "date_local": "2026-10-03",
       "source": "material/dd_preservado/fonte.json",
       "scope": "DD a-c pp5-7 and7.1.1 pp26-29",
       "blocks": 60,
       "source_words": 2478,
-      "all_selected_source_blocks_preserved": true,
       "real_questions": 3,
-      "authored_recovery_questions": 18,
-      "pdf_pages": 10,
-      "legal_qa": "CP32/96,CF22I,PF2025Q52-54 checked; full doctrinal review pending",
+      "authored_recovery_questions": 30,
+      "pdf_pages": 11,
+      "legal_qa": "CP32/96,CF22I,PF2025Q52-54 checked; old/new summaries compared; selected old pp23-25 read; complete doctrinal review still pending",
       "global_course_ready": false,
       "user_reviewed": false,
       "browser_visual_validation": false,
       "held_out": "NOT_OPENED_OR_USED",
-      "rule": "If source content is perfect, retain its wording intact and improve only organization/design/navigation; textual changes require an identifiable reason."
+      "rule": "If source content is perfect, retain its wording intact and improve only organization/design/navigation; textual changes require an identifiable reason.",
+      "edition": "v2",
+      "source_substantive_passages_preserved": true,
+      "editorial_prefixes_and_attributions_disposition": "material/dd_preservado/destinos_editoriais.json",
+      "numbered_units": 18,
+      "comparison_tables": 7,
+      "pdf_bookmarks": 29
+    },
+    "current_user_feedback": {
+      "date_utc": "2026-10-03",
+      "instruction": "One coherent heading hierarchy, bold subtopics, comparative tables, discreet page provenance, keep functional wording, useful atomic oral-style recovery questions, question data separate and connected.",
+      "notion_content_imported": false,
+      "whole_booklet_review_complete": false,
+      "sumario_comparison": "material/dd_preservado/MAPA_SUMARIO_E_COTEJO_2026-10-03.md",
+      "old_new_gaps": "Older Greco definition and expansion critique identified; original-author check and inclusion decision pending."
     }
   },
   "editorial_history": [
@@ -151,6 +164,12 @@
       "date": "2026-10-03",
       "previous_status": "TARGET_UNIVERSE_CREATED_DPERJ_TRF2_PCDF_2026_INGESTED_AT_CURRENT_SIGNAL_LEVEL",
       "previous_next_step": "EDIT_SOURCE_UNION_WITH_DD_DEPTH_FLOOR_AND_TOPIC_QUESTION_REQUIREMENTS"
+    },
+    {
+      "date_utc": "2026-10-03",
+      "iteration": "dd_preservado_v1",
+      "user_feedback": "HTML interactivity useful, but mixed source numbering, flat headings, repeated provenance prose and insufficient tables make content confusing; reorganize rather than paraphrase.",
+      "state": "SUPERSEDED_BY_V2_STRUCTURE_REVISION"
     }
   ],
   "previous_global_rewrite_block": [

@@ -1,0 +1,99 @@
+{
+  "status": "INITIAL_TOPIC_BANK_NOT_COMPLETE",
+  "questions": [
+    {
+      "id": "PF-2025-DELEGADO-52",
+      "kind": "real",
+      "exam": "Polícia Federal",
+      "role": "Delegado",
+      "year": 2025,
+      "date": "2025-07-27",
+      "bank": "Cebraspe",
+      "booklet": "106_PF_001_01",
+      "number": 52,
+      "stem": "O conceito de bem jurídico foi criado por Johann Birnbaum, segundo o qual a enunciação do bem jurídico correspondente ao modelo proibitivo de conduta é um critério de interpretação da norma, confundindo-se com a ratio legis.",
+      "answer": "E",
+      "comment": "O item está errado porque Birnbaum não confundiu o bem jurídico com a ratio legis. Para ele, o bem jurídico é o valor ou interesse social protegido pela norma penal, enquanto a ratio legis representa a razão específica da criação daquela norma. Portanto, o conceito de bem jurídico não é critério de mera interpretação normativa, mas sim fundamento material que legitima a intervenção penal.",
+      "precision": "A discussão histórica exige cuidado: Paiva distingue a ideia de bem em Birnbaum da expressão bem jurídico em Binding e registra interpretações divergentes sobre a função limitadora da primeira. A síntese acima não resolve toda a evolução da teoria.",
+      "topic": "bens",
+      "subtopic": "bens-definicao",
+      "source_block_ids": [
+        "dd-56",
+        "dd-57"
+      ],
+      "exam_url": "https://cdn.cebraspe.org.br/concursos/PF_25/arquivos/106_PF_001_01.pdf",
+      "key_url": "https://cdn.cebraspe.org.br/concursos/PF_25/arquivos/D202E48A0B1EBF5039E398F0B49D0186DD625DFF53498E36EE4D88DE4501E3A8.pdf",
+      "source_state": "OFFICIAL_STATEMENT_AND_FINAL_KEY_CHECKED",
+      "difficulty": "Difícil",
+      "difficulty_basis": "Estimativa pedagógica; não calibrada por desempenho",
+      "requirements": [
+        "origem da noção de bem jurídico",
+        "bem jurídico e ratio legis",
+        "função crítica e interpretativa"
+      ]
+    },
+    {
+      "id": "PF-2025-DELEGADO-53",
+      "kind": "real",
+      "exam": "Polícia Federal",
+      "role": "Delegado",
+      "year": 2025,
+      "date": "2025-07-27",
+      "bank": "Cebraspe",
+      "booklet": "106_PF_001_01",
+      "number": 53,
+      "stem": "Segundo doutrinadores em direito penal, expressões como \"segurança pública\" e \"paz pública\" não aludem a bens jurídicos reais, mas apenas a bens jurídicos aparentes, seja porque correspondem à soma de bens jurídicos individuais verdadeiros, que, todavia, não cria um bem jurídico coletivo, seja porque a sua indeterminação não permite que a teoria do bem jurídico cumpra sua função crítica.",
+      "answer": "C",
+      "comment": null,
+      "precision": "O enunciado delimita a posição com “Segundo doutrinadores em direito penal”. A banca considerou correta essa formulação no gabarito definitivo.",
+      "topic": "bens",
+      "subtopic": "bens-aparentes",
+      "source_block_ids": [
+        "dd-58"
+      ],
+      "exam_url": "https://cdn.cebraspe.org.br/concursos/PF_25/arquivos/106_PF_001_01.pdf",
+      "key_url": "https://cdn.cebraspe.org.br/concursos/PF_25/arquivos/D202E48A0B1EBF5039E398F0B49D0186DD625DFF53498E36EE4D88DE4501E3A8.pdf",
+      "source_state": "OFFICIAL_STATEMENT_AND_FINAL_KEY_CHECKED",
+      "difficulty": "Difícil",
+      "difficulty_basis": "Estimativa pedagógica; não calibrada por desempenho",
+      "requirements": [
+        "coletivo real/aparente",
+        "soma de interesses individuais",
+        "indeterminação e função crítica",
+        "atribuição doutrinária"
+      ]
+    },
+    {
+      "id": "PF-2025-DELEGADO-54",
+      "kind": "real",
+      "exam": "Polícia Federal",
+      "role": "Delegado",
+      "year": 2025,
+      "date": "2025-07-27",
+      "bank": "Cebraspe",
+      "booklet": "106_PF_001_01",
+      "number": 54,
+      "stem": "Modernamente, defende-se que os bens jurídicos penais emanam da Constituição, de modo que todos os interesses ou valores constitucionalmente contemplados exigem proteção penal, ainda que essa tutela represente uma forma de paternalismo rígido e direto.",
+      "answer": "E",
+      "comment": "A proteção conferida pelo Direito Penal deve ser sempre proporcional e criteriosa, pois se trata de um instrumento excepcional de controle social. Por isso, não é correto afirmar que todos os interesses ou valores previstos na Constituição necessitam automaticamente de tutela penal, especialmente diante de um paternalismo rígido e direto. A doutrina penal sustenta que a tutela penal deve ser utilizada como último recurso, somente quando os demais meios de controle social se mostrarem insuficientes para a proteção do bem jurídico. Assim, o Direito Penal é a ultima ratio, razão pela qual seria desproporcional estender sua proteção a todos os interesses ou valores constitucionalmente consagrados.",
+      "precision": null,
+      "topic": "bens",
+      "subtopic": "bens-constituicao",
+      "source_block_ids": [
+        "dd-54",
+        "dd-55"
+      ],
+      "exam_url": "https://cdn.cebraspe.org.br/concursos/PF_25/arquivos/106_PF_001_01.pdf",
+      "key_url": "https://cdn.cebraspe.org.br/concursos/PF_25/arquivos/D202E48A0B1EBF5039E398F0B49D0186DD625DFF53498E36EE4D88DE4501E3A8.pdf",
+      "source_state": "OFFICIAL_STATEMENT_AND_FINAL_KEY_CHECKED",
+      "difficulty": "Médio",
+      "difficulty_basis": "Estimativa pedagógica; não calibrada por desempenho",
+      "requirements": [
+        "valores constitucionais",
+        "seleção penal",
+        "ultima ratio",
+        "paternalismo"
+      ]
+    }
+  ]
+}
