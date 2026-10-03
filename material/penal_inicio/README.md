@@ -1,5 +1,9 @@
 # Primeiros fundamentos de Direito Penal
 
+**REJEITADA PELO USUÁRIO em 02/10/2026, 23h44 BRT.** O HTML apresentou uma possibilidade de navegação útil, mas o texto foi considerado inferior ao DD: prolixo, menos completo e pouco eficiente para aprender. Não continuar este texto nem usar sua profundidade como padrão. O conteúdo e as verificações abaixo são registro histórico da entrega rejeitada.
+
+Instrução atual: `governance/BASE_DD_CONTRACT_2026-10-02.md`. Comparação das perdas: `research/rebase_dd_2026/BASELINE_COVERAGE.csv`. União por assunto: `research/rebase_dd_2026/UNION_MAP.json`. O gerador recusa publicar esta amostra como versão corrente; uma versão nova deve partir da base preservada e conferida.
+
 03/10/2026. Amostra real de estudo criada após a rejeição da proposta anterior pelo usuário. Referência principal: início da apostila teórica DD, páginas 5–7 do PDF de 58 páginas da pasta Dedicação Delta 2026 G.
 
 ## Resultado

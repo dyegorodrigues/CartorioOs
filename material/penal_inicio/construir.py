@@ -143,6 +143,8 @@ def build_html(path):
 
 
 def main():
+    if DATA.get('editorial_status') == 'REJECTED_BY_USER':
+        raise SystemExit('Amostra rejeitada: não regenerar como material corrente. Consulte governance/BASE_DD_CONTRACT_2026-10-02.md.')
     parser=argparse.ArgumentParser();parser.add_argument('--output',type=Path,required=True);args=parser.parse_args()
     args.output.mkdir(parents=True,exist_ok=True)
     pdf=args.output/'Penal_primeiros_fundamentos.pdf';web=args.output/'Penal_primeiros_fundamentos.html'

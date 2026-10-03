@@ -2,7 +2,7 @@
   "project": "Legal Tutor OS",
   "date": "2026-10-01",
   "branch": "chatgpt/legal-tutor-os-core-2026-09-30",
-  "phase": "QUESTION_DRIVEN_MULTICAREER_SUFFICIENCY_AUDIT",
+  "phase": "DD_BASED_SOURCE_RECONCILIATION_AND_QUESTION_ALIGNMENT",
   "pilot": "Introducao ao Direito Penal",
   "status": "TARGET_UNIVERSE_CREATED_DPERJ_TRF2_PCDF_2026_INGESTED_AT_CURRENT_SIGNAL_LEVEL",
   "notion": {
@@ -33,7 +33,7 @@
     "TRF2 2026 FGV current negative direct-label signal in Penal objective block",
     "PC-DF 2026 official retified application date 05/07; 23 Penal items indexed as application-heavy; TEC secondary metadata still stale at 14/06"
   ],
-  "next_step": "CONTINUE_PRIORITY_A_2026_INGESTION_MPRJ_MPMT_TJBA_PGEAC_AND_PCDF_ITEM_TEXT_WHERE_AVAILABLE",
+  "next_step": "EDIT_SOURCE_UNION_WITH_DD_DEPTH_FLOOR_AND_TOPIC_QUESTION_REQUIREMENTS",
   "priority_order": [
     "PC-DF 2026 CEBRASPE",
     "MPRJ 2026 FGV objective+discursive",
@@ -47,17 +47,15 @@
     "2025-2023 backfill and non-FGV bank diversification"
   ],
   "rewrite_blocked_until": [
-    "priority-A recent objective corpus substantially ingested",
-    "oral/discursive sample ingested",
-    "alias and conflict graph stabilized",
-    "held-out set reserved before writing"
+    "For a bounded topic: account for supplied DD substance, document source union, verify legal statements used, and disclose unresolved evidence; do not claim whole-course sufficiency from a sample."
   ],
   "do_not": [
-    "rewrite study chapter yet",
     "claim exhaustive corpus",
     "treat located PDF as analyzed",
     "learn doctrine naively from official key",
-    "silently normalize metadata or historical law"
+    "silently normalize metadata or historical law",
+    "rewrite away source depth or omit authors/nomenclature without documented treatment",
+    "continue or regenerate material/penal_inicio as current study text"
   ],
   "notions": {
     "audit_page": "https://app.notion.com/p/3ec42424cdbc8164b737f35ad5c9b28e",
@@ -82,7 +80,7 @@
     "editorial_direction": "governance/EDITORIAL_DIRECTION_DD_2026-10-01.md",
     "primary_editorial_reference": "Dedicação Delta: newer theoretical booklet + DD Legis, integrated for printable personal study",
     "editorial_materials_status": "RECEIVED_AND_AUDITED_IN_DECLARED_SCOPE_2026-10-02; 39 PDFs inventoried; 7 new files content-read; new CP pages1-8; old sources sampled",
-    "next_editorial_action": "Use editorial_dd_2026 integration map; close recent exam and legal QA gaps under original gates; produce one pilot only after required gates, then visual review. Do not re-inventory unchanged 39 PDFs.",
+    "next_editorial_action": "Superseded by governance/BASE_DD_CONTRACT_2026-10-02.md: DD depth floor, source union, topic-level question alignment. Prior sample rejected; do not resume rejected rewrite.",
     "editorial_report": "research/editorial_dd_2026/DIAGNOSTICO_E_PROPOSTA.md",
     "editorial_inventory": "research/editorial_dd_2026/INVENTORY.json",
     "editorial_reading_ledger": "research/editorial_dd_2026/READING_LEDGER.json",
@@ -90,17 +88,53 @@
   },
   "latest_editorial_correction": {
     "date_utc": "2026-10-03",
-    "user_correction": "Rejected previous seven-page proposal and artificial recall marker; requested actual organic sequential study booklet with PDF and expandable practice.",
-    "current_focus": "Delegado estadual e PF; preserve other career expansion",
-    "previous_proposal_status": "REJECTED_NOT_APPROVED_TEMPLATE",
-    "study_sample": "material/penal_inicio/README.md",
-    "canonical_content": "material/penal_inicio/conteudo.json",
-    "builder": "material/penal_inicio/construir.py",
-    "scope": "DD theory PDF pp5–7: concept, characteristics, protected legal interests; 12 exercises, 11 authored and 1 identified official-question paraphrase",
-    "curriculum_readiness": "NOT_READY_TO_RENDER_FULL_VALIDATED_UNIT",
-    "sample_status": "CREATED_LIMITED_SAMPLE_USER_FORMAT_REVIEW_PENDING",
-    "override": "Latest user request authorizes a bounded study sample now; older gates still apply to claims of complete curriculum and exam sufficiency.",
+    "date_local": "2026-10-02",
+    "time_local": "23:44:37",
+    "timezone": "America/Sao_Paulo",
+    "user_correction": "DD is the minimum depth/content; preserve and improve the supplied material and fuse theory/Legis/Juris with exam evidence. Rejected the rewritten 12-page sample as inferior despite useful HTML interactivity.",
+    "active_instruction": "governance/BASE_DD_CONTRACT_2026-10-02.md",
+    "baseline_audit": "research/rebase_dd_2026/BASELINE_COVERAGE.csv",
+    "source_union_map": "research/rebase_dd_2026/UNION_MAP.json",
+    "previous_sample_status": "REJECTED_BY_USER_DO_NOT_CONTINUE",
+    "current_focus": "Delegado estadual/PF with bank diversity; retain expansion to other careers",
+    "gran_role": "Visual design reference, not depth ceiling",
+    "depth_policy": "Source DD substance is the floor; preserve definitions, authors, terminology, theories, exceptions, examples and practice unless documented correction/redundancy/scope treatment.",
+    "question_policy": "Compare every relevant alternative/assertion with the explanation that enables its resolution; past source mentions do not equal new exam analysis.",
+    "question_difficulty_levels": [
+      "muito fácil",
+      "fácil",
+      "médio",
+      "difícil",
+      "muito difícil"
+    ],
+    "coverage_claim": "This round compared DD sections a-c on PDF pages5-7; reread matching passages9-15,26-29 and CP3-4; no all-bank/all-question claim.",
+    "learning_material_state": "NOT_REBUILT_THIS_ROUND",
+    "corpus_sufficiency": "NOT_ESTABLISHED",
     "held_out": "NOT_OPENED_OR_USED",
-    "next": "Continue the booklet in DD learning sequence, enriching passages with legally checked material and appropriate exam evidence; do not return to a generic integration proposal or require a platform build before usable content."
-  }
+    "next": "Edit the documented source union topic by topic, preserving minimum DD depth and enriching by demonstrated requirements. Research the topic corpus in parallel with editing; whole multi-career universe closure is not a prerequisite for bounded source corrections."
+  },
+  "editorial_history": [
+    {
+      "date_utc": "2026-10-03",
+      "user_correction": "Rejected previous seven-page proposal and artificial recall marker; requested actual organic sequential study booklet with PDF and expandable practice.",
+      "current_focus": "Delegado estadual e PF; preserve other career expansion",
+      "previous_proposal_status": "REJECTED_NOT_APPROVED_TEMPLATE",
+      "study_sample": "material/penal_inicio/README.md",
+      "canonical_content": "material/penal_inicio/conteudo.json",
+      "builder": "material/penal_inicio/construir.py",
+      "scope": "DD theory PDF pp5–7: concept, characteristics, protected legal interests; 12 exercises, 11 authored and 1 identified official-question paraphrase",
+      "curriculum_readiness": "NOT_READY_TO_RENDER_FULL_VALIDATED_UNIT",
+      "sample_status": "CREATED_LIMITED_SAMPLE_USER_FORMAT_REVIEW_PENDING",
+      "override": "Latest user request authorizes a bounded study sample now; older gates still apply to claims of complete curriculum and exam sufficiency.",
+      "held_out": "NOT_OPENED_OR_USED",
+      "next": "Continue the booklet in DD learning sequence, enriching passages with legally checked material and appropriate exam evidence; do not return to a generic integration proposal or require a platform build before usable content.",
+      "state": "SUPERSEDED_AND_SAMPLE_REJECTED_2026-10-02_23:44_BRT"
+    }
+  ],
+  "previous_global_rewrite_block": [
+    "priority-A recent objective corpus substantially ingested",
+    "oral/discursive sample ingested",
+    "alias and conflict graph stabilized",
+    "held-out set reserved before writing"
+  ]
 }

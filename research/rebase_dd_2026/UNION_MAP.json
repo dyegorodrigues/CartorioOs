@@ -1,0 +1,85 @@
+{
+  "date_local": "2026-10-02",
+  "timezone": "America/Sao_Paulo",
+  "state": "SOURCE_UNION_PLAN_NOT_FINISHED_STUDY_MATERIAL",
+  "primary_depth_floor": "User-provided DD theoretical booklet, with all substantive elements traced before editing",
+  "question_analysis_scope": "Selected existing items only; not all Delegado questions or all banks",
+  "units": [
+    {
+      "unit": "Conceito e características",
+      "dd_theory_pdf_pages": "5-7, sections a-b",
+      "baseline_ledger": "BASELINE_COVERAGE.csv: C01-C15 and K01-K08",
+      "keep": ["Definição e princípios/regras", "Crime e contravenção", "Sanção, pena e medida de segurança", "Primeira, segunda e terceira vias", "Direito Público e posição do Estado", "Liszt, Mezger, Welzel e Juarez Cirino: definições e contexto", "Direito Penal/Direito Criminal e CF22I", "Formal, material, sociológico/dinâmico", "Ciência e dogmática", "Cultural, normativa/Direito positivo, valorativa, finalista", "Predominância sancionatória e explicação da dimensão constitutiva", "Fragmentariedade"],
+      "normative_connections": ["CF art.22 I: terminologia e competência; não inserir todo o tema competência legislativa sem justificativa", "CP art.32: ressalva ao trecho que sugere pena privativa de liberdade como única consequência", "CP art.96: referência às medidas de segurança sem substituir seu regime de estudo"],
+      "doctrine_connection": {"topic":"Reparação como terceira via", "primary_source":"Claus Roxin, Pena y reparación, ADPCP LII, pp5-15, seçãoIV.1, p13 impressa/p9 do PDF", "url":"https://revistas.mjusticia.gob.es/index.php/ADPCP/article/download/404/404/400", "required_context":"Proposta doutrinária situada; não apresentar como terceira espécie já inserida no rol do art.32 CP"},
+      "candidate_existing_questions": ["FUNDATEC_PCRS_2025_FUNCTIONS"],
+      "question_dependency": "O item RS também cobra funções e subsidiariedade; não forçar resolução integral antes desses conteúdos.",
+      "pending": ["Fechar proveniência oficial do item RS e sua íntegra", "Conferir atribuições doutrinárias da constitutividade", "Ampliar busca de itens diretos das demais bancas"]
+    },
+    {
+      "unit": "Objeto de proteção e teoria do bem jurídico",
+      "dd_theory_pdf_pages": "7 section c; 26-29 subsection7.1.1",
+      "baseline_ledger": "BASELINE_COVERAGE.csv: B01-B05, mais conteúdo de aprofundamento das páginas26-29",
+      "keep": ["Pacelli e Roxin: definições e atribuições", "Seleção de bens e limites constitucionais", "Função orientadora/limitadora e mandados de criminalização", "Proteção como finalidade e princípio; distinção de moral/ideologia", "Bem jurídico ou objeto jurídico versus objeto material", "Conceito material do crime e resultado jurídico", "Ofensividade e relevância da afetação", "Bens individuais e coletivos/supraindividuais/transindividuais", "Espiritualização ou liquefação e antecipação da tutela", "Bens jurídicos coletivos reais e aparentes", "Atribuição a Martinelli e Schmitt de Bem", "Birnbaum, ratio legis e função crítica: conferir contextos doutrinários", "Reconhecimento constitucional versus necessidade de criminalizar", "Itens PF2025 52,53,54 e referência AM2022"],
+      "sequence_rule": "Relacionar a introdução e o aprofundamento dentro do mesmo assunto; conservar a progressão e explicar os pré-requisitos. Não descartar a introdução nem despejar todas as controvérsias antes do conceito.",
+      "normative_connections": ["CF direitos fundamentais e comandos específicos de criminalização, como art.5 XLII", "Tipos penais usados nos exemplos precisam de texto vigente e referência correta"],
+      "official_existing_questions": [
+        {"id":"CEBRASPE_PF_2025_Q52", "key":"E", "need":"Distinguir origem histórica, concepção metodológica/interpretativa e ratio legis; nome e teoria não podem desaparecer da explicação", "dd_pdf_page":29},
+        {"id":"CEBRASPE_PF_2025_Q53", "key":"C", "need":"Distinguir bens coletivos reais/aparentes e função crítica no âmbito da corrente mencionada; não converter em negação universal de bens coletivos", "dd_pdf_pages":"28-29"},
+        {"id":"CEBRASPE_PF_2025_Q54", "key":"E", "need":"Distinguir referência constitucional e criminalização de todos os valores; reconhecer o alcance da proposição e o contexto do paternalismo", "dd_pdf_pages":"28-29"}
+      ],
+      "official_source_id":"CEB_PF_25_DOC_43",
+      "official_key_id":"CEB_PF_25_DOC_22",
+      "official_exam_url":"https://cdn.cebraspe.org.br/concursos/PF_25/arquivos/106_PF_001_01.pdf",
+      "official_key_url":"https://cdn.cebraspe.org.br/concursos/PF_25/arquivos/D202E48A0B1EBF5039E398F0B49D0186DD625DFF53498E36EE4D88DE4501E3A8.pdf",
+      "note":"Esses itens já estão na fonte-base. Ganho editorial exige comentário, ligação ou complemento demonstrável; não registrar inserção do Q54 como descoberta inédita.",
+      "pending":["Cotejo primário das formulações sobre Birnbaum e funções do bem jurídico", "Comentário completo das três assertivas", "Conferência da referência AM2022 e seu caderno", "Ampliação da diversidade de questões e autores"]
+    },
+    {
+      "unit": "Funções do Direito Penal",
+      "dd_theory_pdf_pages": "9-12",
+      "keep":["Missões mediata e imediata", "Controle social/paz pública e garantia", "Liszt e limitação punitiva", "Roxin: funcionalismo teleológico/moderado", "Jakobs: funcionalismo sistêmico/radical", "Características e aliases de cada funcionalismo", "Separar teoria apresentada de validade constitucional do Direito Penal do Inimigo", "Funções criadora/modificadora de costumes, simbólica, motivadora, redução da violência estatal e promocional", "Controvérsias e autoria das classificações", "Referências SP2023 e RO2022"],
+      "candidate_existing_questions":["VUNESP_PCSP_2023_FUNC","FUNDATEC_PCRS_2025_FUNCTIONS"],
+      "pending":["Proveniente do legado: número e caderno oficial SP2023 ainda não fechados", "Item RS não usar como doutrina incontroversa", "Conferir formulações simplificadas sobre Jakobs e limites", "Conferir íntegra oficial da referência RO2022"]
+    },
+    {
+      "unit": "Ciências penais e criminalização",
+      "dd_theory_pdf_pages": "13-15; continuação correspondente em15-17",
+      "dd_old_mapa_pdf_pages": "6-7: comparação auxiliar, não regra vigente presumida",
+      "keep":["Enciclopédia das ciências penais e Cerezo Mir", "Dogmática versus dogmatismo", "Criminologia: empírica, interdisciplinar; crime, criminoso, vítima e controle social", "Política criminal: estratégias, avaliação e reforma", "Direito Penal/Criminologia/Política Criminal: norma/fato/valor e exemplos", "Vitimologia e conexões normativas pertinentes", "Criminalização primária e secundária", "Zaffaroni: seletividade, vulnerabilidade e aliases do labeling approach", "Agências, aplicação e execução", "Sistemas paralelo e subterrâneo: conservar explicações da continuação"],
+      "candidate_existing_questions":["CEBRASPE_PCGO2017_Q17","FGV_PCSC_2024_TOTAL","FGV_PCPI_2026_Q72"],
+      "pending":["Não herdar PCGO2018 da legenda como data de outro caderno sem cotejo", "Questionamento do gabarito PI2026 Q72 exige tratamento próprio", "Completar fontes e assertivas das demais referências citadas pela apostila", "Cotejo dos exemplos normativos de vitimologia no ponto de uso"]
+    },
+    {
+      "unit": "Fontes e legalidade",
+      "dd_theory_pdf_pages": "21-25 and50-52",
+      "dd_legis_cp_pdf_pages": "3-4, art.1 and corresponding notes only; art.2 belongs to law-in-time topic",
+      "keep":["Fontes formais/materiais e classificações", "Constituição, tratados e costumes no contexto próprio", "Lei penal escrita, estrita, prévia e certa", "Lex scripta, stricta, praevia, certa e taxatividade", "Reserva legal versus legalidade geral", "Legalidade formal/material", "Fundamentos e discussão terminológica", "Função integrativa/hermenêutica dos costumes", "Autores mencionados e exemplo do ato obsceno", "Perguntas, tabelas e diferenças das duas fontes"],
+      "known_correction":"No exemplo dos costumes, art.233 é do CP, não do CPP. A correção já foi conferida; conservar o exemplo com diploma correto.",
+      "normative_connections":["CP art.1", "CF art.5 II/XXXIX", "CF art.22 I/parágrafo único na competência correspondente"],
+      "candidate_existing_questions":["FGV_OAB46_2026_Q1","FGV_OAB45_2026_Q2","FGV_TJPE_2026_Q41","CESPE_TRF2_2013_Q16"],
+      "pending":["Separar conteúdo de cada alternativa que depende de outros assuntos", "Conferir limites dos instrumentos normativos; não reproduzir tabela simplificada como autorização indiscriminada", "Manter data histórica e divergência/ambiguidade TRF2", "Não fundir art.2 e questões de sucessão de leis sem bloco próprio"]
+    },
+    {
+      "unit": "Insignificância",
+      "dd_theory_pdf_pages": "34-48",
+      "dd_juris_pdf_pages": "4-15",
+      "dd_sumulas_pdf_pages": "11-12 plus other relevant entries with exact attribution",
+      "keep":["Fundamentos e natureza dogmática", "Requisitos e situação fática", "Regras de aplicação e não aplicação", "Distinções entre tribunais, crime, valor, contexto e reiteração", "Jurisprudência e súmulas com âmbito próprio", "Perguntas e questões originais; critérios da resposta"],
+      "known_corrections":["Restituição: Tema1205, não Tema1208/RMS68504", "Resumo Gran: cigarros, Tema1143, com limites e alcance temporal, sem reduzir tratamento DD"],
+      "candidate_existing_questions":["FGV_PCPI_2026_Q42","TJPR_2026_Q32","CESPE_TRF2_2013_Q17","CESPE_TRF2_2013_Q18","CEBRASPE_DPERN2015_Q85"],
+      "sequence_rule":"Conservar desenvolvimento completo no bloco correspondente; não colocar esta matéria na abertura apenas para mostrar uma referência de jurisprudência.",
+      "pending":["Union sem perda das ressalvas de teoria e Juris", "Conferência atual de todas as teses usadas", "Questões antigas preservadas com atualização separada", "Comentários por alternativa e fonte dos itens citados"]
+    }
+  ],
+  "public_benchmark": {
+    "name":"CÉREBRO do Magistrar",
+    "public_indexed_page":"https://t.magistrarcursos.com.br/cerebro-juridico-c/?_v=C",
+    "observation":"Descrição pública indexada conecta edital/subtópicos, lei, jurisprudência, questões, flashcards e revisão; relaciona item, dificuldade e abertura do conteúdo correspondente.",
+    "access_scope":"Public search description only; direct page extraction returned a contact form. Paid academic content and performance claims not inspected or verified.",
+    "use":"Organization benchmark, not legal authority or evidence that a new platform has been implemented"
+  },
+  "held_out":"Not opened or used",
+  "platform_state":"Not implemented by this source map",
+  "next_work":"Edit the source union unit by unit, preserving DD depth; fill evidence gaps and check current authority before claims of validated study sufficiency"
+}

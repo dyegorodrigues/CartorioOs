@@ -1,4 +1,8 @@
 {
+  "editorial_status": "REJECTED_BY_USER",
+  "rejected_at_local": "2026-10-02T23:44:37-03:00",
+  "rejection_reason": "Mais prolixo e menos completo que o DD; profundidade não preservada; o usuário aprovou apenas a ideia de interatividade, não o material.",
+  "superseding_instruction": "governance/BASE_DD_CONTRACT_2026-10-02.md",
   "title": "Direito Penal: os primeiros fundamentos",
   "subtitle": "Conceito, características e objeto de proteção",
   "edition": "Trecho inicial de estudo · versão de trabalho · 03/10/2026",
