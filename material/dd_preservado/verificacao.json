@@ -1,22 +1,39 @@
 {
-  "edition": "v2",
-  "source_blocks_mapped": 60,
-  "declared_display_passages_present_html_and_pdf": true,
-  "semantic_completeness_established": false,
-  "known_semantic_omission": "dd-04: formal definitions focus on law and sanction removed as editorial preface",
-  "pedagogical_review": "USER_FOUND_V2_CONFUSING_AND_INCOMPLETE",
-  "editorial_numbering_and_metadata_changes_traced": true,
-  "sections": 3,
-  "numbered_units": 18,
-  "comparison_tables": 7,
-  "authored_retrieval_questions": 30,
-  "real_exam_questions": 3,
-  "internal_links": 75,
-  "pdf_pages": 11,
-  "pdf_bookmarks": 29,
+  "edition": "v3-em-revisao",
+  "approval_scope": "GitHub operation only; material remains unapproved",
+  "chapter_source_pages": [
+    5,
+    13
+  ],
+  "supplement_source_pages": [
+    26,
+    29
+  ],
+  "legacy_source_blocks_accounted_for": 60,
+  "new_contiguous_source_spans": 40,
+  "declared_model_passages_present_in_both_outputs": 213,
+  "dd04_explanatory_link_restored": true,
+  "semantic_completeness_independently_certified": false,
+  "sections": 7,
+  "units": 34,
+  "grouped_review_questions": 18,
+  "full_official_items": 3,
+  "additional_official_reference": "PC/CE 2025 Q22, alternative E, official booklet/key matched; only source excerpt reproduced",
+  "pdf_pages": 23,
+  "pdf_bookmarks": 54,
+  "html_ids_unique": true,
+  "internal_links_valid": true,
   "browser_visual_validation": false,
-  "held_out_opened": false,
+  "pdf_visual_review": "all pages inspected as contact sheets; representative full-size pages also inspected",
   "full_booklet_review_complete": false,
-  "all_questions_sufficiency_established": false,
-  "pdf_sha256": "99efb91f6e4023a337742f444793cb942e795341683dc96af1e222303c4d2fef"
+  "exam_corpus_sufficiency_established": false,
+  "notion_content_imported": false,
+  "held_out_opened": false,
+  "pending": [
+    "Revisão doutrinária aprofundada do modelo de Hassemer, em especial autoridade judicial.",
+    "Cotejo oficial dos excertos SP/2023, RO/2022 e AM/2022.",
+    "Restante da amostra de 58 páginas e comparação integral com apostilas antigas.",
+    "Ampliação do banco por banca/ano: ainda não realizada nesta edição."
+  ],
+  "pdf_sha256": "ef4f39da5d41c9c8819610771a11a18a030337cb258af8023ca5a50d84ebecfb"
 }

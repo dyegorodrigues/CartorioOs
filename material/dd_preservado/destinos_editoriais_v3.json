@@ -1,0 +1,756 @@
+{
+  "edition": "v3-em-revisao",
+  "source_to_destination": {
+    "dd-01": [
+      {
+        "unit": "conceito-definicao",
+        "number": "1.1",
+        "node": "dd-01"
+      }
+    ],
+    "dd-03": [
+      {
+        "unit": "conceito-definicao",
+        "number": "1.1",
+        "node": "dd-03"
+      }
+    ],
+    "dd-09": [
+      {
+        "unit": "conceito-definicao",
+        "number": "1.1",
+        "node": "dd-09"
+      }
+    ],
+    "dd-02": [
+      {
+        "unit": "conceito-sancoes",
+        "number": "1.2",
+        "node": "dd-02"
+      }
+    ],
+    "dd-10": [
+      {
+        "unit": "conceito-aspectos",
+        "number": "1.3",
+        "node": "dd-10"
+      }
+    ],
+    "dd-11": [
+      {
+        "unit": "conceito-aspectos",
+        "number": "1.3",
+        "node": "tabela-aspectos"
+      }
+    ],
+    "dd-12": [
+      {
+        "unit": "conceito-aspectos",
+        "number": "1.3",
+        "node": "tabela-aspectos"
+      }
+    ],
+    "dd-13": [
+      {
+        "unit": "conceito-aspectos",
+        "number": "1.3",
+        "node": "tabela-aspectos"
+      }
+    ],
+    "dd-04": [
+      {
+        "unit": "conceito-autores",
+        "number": "1.4",
+        "node": "dd-04"
+      }
+    ],
+    "dd-05": [
+      {
+        "unit": "conceito-autores",
+        "number": "1.4",
+        "node": "tabela-autores"
+      }
+    ],
+    "dd-06": [
+      {
+        "unit": "conceito-autores",
+        "number": "1.4",
+        "node": "tabela-autores"
+      }
+    ],
+    "dd-07": [
+      {
+        "unit": "conceito-autores",
+        "number": "1.4",
+        "node": "tabela-autores"
+      }
+    ],
+    "dd-08": [
+      {
+        "unit": "conceito-autores",
+        "number": "1.4",
+        "node": "tabela-autores"
+      }
+    ],
+    "dd-14": [
+      {
+        "unit": "conceito-controle",
+        "number": "1.5",
+        "node": "dd-14"
+      }
+    ],
+    "dd-15": [
+      {
+        "unit": "caracteristicas-quadro",
+        "number": "2.1",
+        "node": "dd-15"
+      }
+    ],
+    "dd-16": [
+      {
+        "unit": "caracteristicas-quadro",
+        "number": "2.1",
+        "node": "tabela-caracteristicas"
+      }
+    ],
+    "dd-17": [
+      {
+        "unit": "caracteristicas-quadro",
+        "number": "2.1",
+        "node": "tabela-caracteristicas"
+      }
+    ],
+    "dd-18": [
+      {
+        "unit": "caracteristicas-quadro",
+        "number": "2.1",
+        "node": "tabela-caracteristicas"
+      }
+    ],
+    "dd-19": [
+      {
+        "unit": "caracteristicas-quadro",
+        "number": "2.1",
+        "node": "tabela-caracteristicas"
+      }
+    ],
+    "dd-20": [
+      {
+        "unit": "caracteristicas-quadro",
+        "number": "2.1",
+        "node": "tabela-caracteristicas"
+      }
+    ],
+    "dd-21": [
+      {
+        "unit": "caracteristicas-quadro",
+        "number": "2.1",
+        "node": "tabela-caracteristicas"
+      }
+    ],
+    "dd-22": [
+      {
+        "unit": "caracteristicas-quadro",
+        "number": "2.1",
+        "node": "tabela-caracteristicas"
+      }
+    ],
+    "dd-24": [
+      {
+        "unit": "bens-introducao",
+        "number": "3.1",
+        "node": "dd-24"
+      }
+    ],
+    "dd-25": [
+      {
+        "unit": "bens-constituicao",
+        "number": "3.2",
+        "node": "dd-25"
+      }
+    ],
+    "dd-26": [
+      {
+        "unit": "bens-constituicao",
+        "number": "3.2",
+        "node": "dd-26"
+      }
+    ],
+    "dd-27": [
+      {
+        "unit": "bens-constituicao",
+        "number": "3.2",
+        "node": "limites-constitucionais"
+      }
+    ],
+    "dd-28": [
+      {
+        "unit": "bens-constituicao",
+        "number": "3.2",
+        "node": "limites-constitucionais"
+      }
+    ],
+    "evo-abertura": [
+      {
+        "unit": "evolucao-origem",
+        "number": "4.1",
+        "node": "evo-abertura"
+      }
+    ],
+    "evo-privada": [
+      {
+        "unit": "evolucao-vingancas",
+        "number": "4.2",
+        "node": "quadro-vingancas"
+      }
+    ],
+    "evo-divina": [
+      {
+        "unit": "evolucao-vingancas",
+        "number": "4.2",
+        "node": "quadro-vingancas"
+      }
+    ],
+    "evo-publica": [
+      {
+        "unit": "evolucao-vingancas",
+        "number": "4.2",
+        "node": "quadro-vingancas"
+      }
+    ],
+    "evo-humanitario": [
+      {
+        "unit": "evolucao-humanitario",
+        "number": "4.3",
+        "node": "evo-humanitario"
+      }
+    ],
+    "evo-cientifico": [
+      {
+        "unit": "evolucao-humanitario",
+        "number": "4.3",
+        "node": "evo-cientifico"
+      }
+    ],
+    "escola-classica": [
+      {
+        "unit": "evolucao-escolas",
+        "number": "4.4",
+        "node": "escola-classica"
+      }
+    ],
+    "escola-positiva": [
+      {
+        "unit": "evolucao-escolas",
+        "number": "4.4",
+        "node": "escola-positiva"
+      }
+    ],
+    "escola-ecletica": [
+      {
+        "unit": "evolucao-escolas",
+        "number": "4.4",
+        "node": "escola-ecletica"
+      }
+    ],
+    "prova-ce": [
+      {
+        "unit": "evolucao-escolas",
+        "number": "4.4",
+        "node": "prova-ce"
+      }
+    ],
+    "evo-contemporaneo": [
+      {
+        "unit": "evolucao-contemporanea",
+        "number": "4.5",
+        "node": "evo-contemporaneo"
+      }
+    ],
+    "evo-brasil": [
+      {
+        "unit": "evolucao-contemporanea",
+        "number": "4.5",
+        "node": "evo-brasil"
+      }
+    ],
+    "func-intro": [
+      {
+        "unit": "funcoes-mediatas",
+        "number": "5.1",
+        "node": "func-intro"
+      }
+    ],
+    "func-mediata": [
+      {
+        "unit": "funcoes-mediatas",
+        "number": "5.1",
+        "node": "func-mediata"
+      }
+    ],
+    "func-imediata": [
+      {
+        "unit": "funcoes-imediatas",
+        "number": "5.2",
+        "node": "func-imediata"
+      }
+    ],
+    "func-roxin": [
+      {
+        "unit": "funcoes-imediatas",
+        "number": "5.2",
+        "node": "func-roxin"
+      }
+    ],
+    "prova-sp": [
+      {
+        "unit": "funcoes-imediatas",
+        "number": "5.2",
+        "node": "prova-sp"
+      }
+    ],
+    "func-jakobs": [
+      {
+        "unit": "funcoes-imediatas",
+        "number": "5.2",
+        "node": "func-jakobs"
+      },
+      {
+        "unit": "funcoes-inimigo",
+        "number": "5.3",
+        "node": "func-jakobs-inimigo"
+      }
+    ],
+    "func-tabela": [
+      {
+        "unit": "funcoes-imediatas",
+        "number": "5.2",
+        "node": "func-tabela"
+      }
+    ],
+    "func-costumes": [
+      {
+        "unit": "funcoes-costumes",
+        "number": "5.4",
+        "node": "func-costumes"
+      }
+    ],
+    "func-simbolica": [
+      {
+        "unit": "funcoes-simbolica",
+        "number": "5.5",
+        "node": "func-simbolica"
+      }
+    ],
+    "prova-ro": [
+      {
+        "unit": "funcoes-simbolica",
+        "number": "5.5",
+        "node": "prova-ro"
+      }
+    ],
+    "func-motivadora": [
+      {
+        "unit": "funcoes-outras",
+        "number": "5.6",
+        "node": "outras-funcoes"
+      }
+    ],
+    "func-reducao": [
+      {
+        "unit": "funcoes-outras",
+        "number": "5.6",
+        "node": "outras-funcoes"
+      }
+    ],
+    "func-promocional": [
+      {
+        "unit": "funcoes-outras",
+        "number": "5.6",
+        "node": "outras-funcoes"
+      }
+    ],
+    "class-1": [
+      {
+        "unit": "class-sistema",
+        "number": "6.1",
+        "node": "quadro-class-sistema"
+      }
+    ],
+    "class-2": [
+      {
+        "unit": "class-sistema",
+        "number": "6.1",
+        "node": "quadro-class-sistema"
+      }
+    ],
+    "class-3": [
+      {
+        "unit": "class-destinatarios",
+        "number": "6.2",
+        "node": "quadro-class-destinatarios"
+      }
+    ],
+    "class-4": [
+      {
+        "unit": "class-destinatarios",
+        "number": "6.2",
+        "node": "quadro-class-destinatarios"
+      }
+    ],
+    "class-5": [
+      {
+        "unit": "class-territorio",
+        "number": "6.3",
+        "node": "quadro-class-territorio"
+      }
+    ],
+    "class-6": [
+      {
+        "unit": "class-territorio",
+        "number": "6.3",
+        "node": "quadro-class-territorio"
+      }
+    ],
+    "class-7": [
+      {
+        "unit": "class-objetivo",
+        "number": "6.4",
+        "node": "quadro-class-objetivo"
+      }
+    ],
+    "class-8": [
+      {
+        "unit": "class-objetivo",
+        "number": "6.4",
+        "node": "quadro-class-objetivo"
+      }
+    ],
+    "class-9": [
+      {
+        "unit": "class-substantivo",
+        "number": "6.5",
+        "node": "quadro-class-substantivo"
+      }
+    ],
+    "class-10": [
+      {
+        "unit": "class-substantivo",
+        "number": "6.5",
+        "node": "quadro-class-substantivo"
+      }
+    ],
+    "intervencao": [
+      {
+        "unit": "class-intervencao",
+        "number": "6.6",
+        "node": "intervencao"
+      }
+    ],
+    "intervencao-sintese": [
+      {
+        "unit": "class-intervencao",
+        "number": "6.6",
+        "node": "intervencao-sintese"
+      }
+    ],
+    "dd-31": [
+      {
+        "unit": "bens-definicao",
+        "number": "7.1",
+        "node": "dd-31"
+      }
+    ],
+    "dd-32": [
+      {
+        "unit": "bens-definicao",
+        "number": "7.1",
+        "node": "dd-32"
+      }
+    ],
+    "dd-33": [
+      {
+        "unit": "bens-definicao",
+        "number": "7.1",
+        "node": "perspectivas-bem"
+      }
+    ],
+    "dd-34": [
+      {
+        "unit": "bens-definicao",
+        "number": "7.1",
+        "node": "perspectivas-bem"
+      }
+    ],
+    "dd-35": [
+      {
+        "unit": "bens-definicao",
+        "number": "7.1",
+        "node": "perspectivas-bem"
+      }
+    ],
+    "dd-36": [
+      {
+        "unit": "bens-definicao",
+        "number": "7.1",
+        "node": "dd-36"
+      }
+    ],
+    "dd-29": [
+      {
+        "unit": "bens-protecao",
+        "number": "7.2",
+        "node": "dd-29"
+      }
+    ],
+    "dd-30": [
+      {
+        "unit": "bens-protecao",
+        "number": "7.2",
+        "node": "dd-30"
+      }
+    ],
+    "dd-37": [
+      {
+        "unit": "bens-protecao",
+        "number": "7.2",
+        "node": "dd-37"
+      }
+    ],
+    "dd-38": [
+      {
+        "unit": "bens-protecao",
+        "number": "7.2",
+        "node": "dd-38"
+      }
+    ],
+    "dd-39": [
+      {
+        "unit": "bens-protecao",
+        "number": "7.2",
+        "node": "dd-39"
+      }
+    ],
+    "dd-40": [
+      {
+        "unit": "bens-crime",
+        "number": "7.3",
+        "node": "dd-40"
+      }
+    ],
+    "dd-41": [
+      {
+        "unit": "bens-crime",
+        "number": "7.3",
+        "node": "dd-41"
+      }
+    ],
+    "dd-42": [
+      {
+        "unit": "bens-crime",
+        "number": "7.3",
+        "node": "tabela-ofensa"
+      }
+    ],
+    "dd-43": [
+      {
+        "unit": "bens-crime",
+        "number": "7.3",
+        "node": "tabela-ofensa"
+      }
+    ],
+    "dd-44": [
+      {
+        "unit": "bens-objetos",
+        "number": "7.4",
+        "node": "dd-44"
+      }
+    ],
+    "dd-45": [
+      {
+        "unit": "bens-objetos",
+        "number": "7.4",
+        "node": "dd-45"
+      }
+    ],
+    "dd-46": [
+      {
+        "unit": "bens-objetos",
+        "number": "7.4",
+        "node": "dd-46"
+      }
+    ],
+    "dd-47": [
+      {
+        "unit": "bens-classificacao",
+        "number": "7.5",
+        "node": "dd-47"
+      }
+    ],
+    "dd-48": [
+      {
+        "unit": "bens-classificacao",
+        "number": "7.5",
+        "node": "tabela-especies"
+      }
+    ],
+    "dd-49": [
+      {
+        "unit": "bens-classificacao",
+        "number": "7.5",
+        "node": "tabela-especies"
+      }
+    ],
+    "dd-50": [
+      {
+        "unit": "bens-espiritualizacao",
+        "number": "7.6",
+        "node": "dd-50"
+      }
+    ],
+    "dd-52": [
+      {
+        "unit": "bens-aparentes",
+        "number": "7.7",
+        "node": "dd-52"
+      }
+    ],
+    "dd-53": [
+      {
+        "unit": "bens-aparentes",
+        "number": "7.7",
+        "node": "tabela-reais-aparentes"
+      },
+      {
+        "unit": "bens-aparentes",
+        "number": "7.7",
+        "node": "dd-53-c"
+      }
+    ],
+    "dd-51": [
+      {
+        "unit": "bens-aparentes",
+        "number": "7.7",
+        "node": "dd-51"
+      }
+    ],
+    "dd-54": [
+      {
+        "unit": "bens-questoes",
+        "number": "7.8",
+        "node": "questoes"
+      }
+    ],
+    "dd-55": [
+      {
+        "unit": "bens-questoes",
+        "number": "7.8",
+        "node": "questoes"
+      }
+    ],
+    "dd-56": [
+      {
+        "unit": "bens-questoes",
+        "number": "7.8",
+        "node": "questoes"
+      }
+    ],
+    "dd-57": [
+      {
+        "unit": "bens-questoes",
+        "number": "7.8",
+        "node": "questoes"
+      }
+    ],
+    "dd-58": [
+      {
+        "unit": "bens-questoes",
+        "number": "7.8",
+        "node": "questoes"
+      }
+    ],
+    "dd-59": [
+      {
+        "unit": "bens-questoes",
+        "number": "7.8",
+        "node": "dd-59"
+      }
+    ],
+    "dd-60": [
+      {
+        "unit": "bens-sintese",
+        "number": "7.9",
+        "node": "dd-60"
+      }
+    ]
+  },
+  "title_destinations": {
+    "dd-23": "3. OBJETO DE PROTEÇÃO: BENS JURÍDICOS",
+    "evo-transicao": "4.4 Escolas penais",
+    "func-outras": "5.4 a 5.6",
+    "class-titulo": "6. CLASSIFICAÇÕES"
+  },
+  "documented_changes": [
+    {
+      "id": "dd-14",
+      "reason": "Corrigida a restrição da consequência penal à prisão: CP, arts. 32 e 96. Mantida a explicação de controle social."
+    },
+    {
+      "id": "dd-04",
+      "reason": "Restaurada a ligação entre os autores e o enfoque formal (lei e sanção); referência de Batista permanece no rodapé bibliográfico."
+    },
+    {
+      "id": "escola-classica",
+      "reason": "Removida apenas a expressão metatextual “como aponta seu documento”."
+    },
+    {
+      "id": "escola-ecletica",
+      "reason": "Corrigida a equivalência indiscriminada escolas ecléticas = Terza Scuola e o vínculo simplista ao livre-arbítrio. Horta e Romero, TRF1 2024, p. 91."
+    },
+    {
+      "id": "evo-transicao",
+      "reason": "Chamamento promocional substituído pelo subtítulo Escolas penais; sem conteúdo doutrinário suprimido."
+    },
+    {
+      "id": "func-tabela",
+      "reason": "Reorganização por critério, com as características de ambas as correntes. A fórmula “não tem direitos” recebe qualificação constitucional em 5.3, e não é reproduzida como regra brasileira. Rótulos radical/monista não significam poder penal brasileiro ilimitado."
+    },
+    {
+      "id": "func-imediata",
+      "reason": "Removido o chamamento “anote esses nomes na testa”; função de ponte mantida."
+    },
+    {
+      "id": "func-outras",
+      "reason": "Rótulo convertido nos subtítulos 5.4–5.6; autoria Masson mantida na referência de origem."
+    },
+    {
+      "id": "class-8",
+      "reason": "Explicitada a diferença entre poder punitivo em abstrato e pretensão relativa ao caso; evitar impressão de inexistência do poder legislativo penal antes do crime."
+    },
+    {
+      "id": "class-9",
+      "reason": "Corrigida leitura que restringia o Direito Penal material ao Código; inclui legislação especial."
+    },
+    {
+      "id": "intervencao",
+      "reason": "Texto-base mantido com ressalva de que se trata de proposta. Formulação “sob autoridade judicial” permanece como apresentação didática da fonte, com revisão doutrinária aprofundada pendente."
+    },
+    {
+      "id": "dd-41",
+      "reason": "Corrigida impropriedade textual: quem deve ser legítima é a criminalização, não a conduta ilícita."
+    },
+    {
+      "id": "dd-48",
+      "reason": "Retirada equivalência entre titular determinável e disponibilidade; a vida exemplifica a necessidade da ressalva."
+    },
+    {
+      "id": "dd-51",
+      "reason": "Substituída afirmação genérica de modinha por descrição do pequeno conjunto efetivamente examinado, sem inferir frequência estatística."
+    },
+    {
+      "id": "dd-53-b",
+      "reason": "Correção de concordância: autenticidade das moedas."
+    }
+  ],
+  "meaning": "Mapping of source passages and editorial dispositions; not an independent semantic certification."
+}

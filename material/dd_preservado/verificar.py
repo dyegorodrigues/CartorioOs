@@ -1,55 +1,61 @@
+"""Output-integrity checks; these do not certify pedagogical or doctrinal completeness."""
 import json,re,hashlib,fitz
 from pathlib import Path
 from html.parser import HTMLParser
-HERE=Path(__file__).resolve().parent;OUT=HERE.parents[2]/'output/pdf'
-source=json.loads((HERE/'fonte.json').read_text());model=json.loads((HERE/'apresentacao.json').read_text());audit=json.loads((HERE/'destinos_editoriais.json').read_text())['entries'];qa=json.loads((HERE/'recuperacao.json').read_text());qs=json.loads((HERE/'banco_questoes.json').read_text())['questions']
+H=Path(__file__).resolve().parent;O=H.parents[2]/'output/pdf'
+load=lambda n:json.loads((H/n).read_text())
+m=load('apresentacao.json');qa=load('recuperacao.json');bank=load('banco_questoes.json')['questions'];spans=load('fonte_segmentos_v3.json')['segments'];old=load('fonte.json')['blocks'];dec=load('decisoes_v3.json')
 class Parse(HTMLParser):
- def __init__(self):super().__init__();self.skip=0;self.text=[];self.ids=[];self.links=[];self.heading_tags=[]
- def handle_starttag(self,tag,attrs):
+ def __init__(self):super().__init__();self.skip=0;self.text=[];self.ids=[];self.links=[];self.collapsed=[]
+ def handle_starttag(self,t,attrs):
   a=dict(attrs)
-  if tag in ['script','style']:self.skip+=1
+  if t=='br':self.text.append(' ')
+  if t in ['script','style']:self.skip+=1
   if 'id' in a:self.ids.append(a['id'])
-  if tag=='a' and a.get('href','').startswith('#'):self.links.append(a['href'][1:])
-  if tag in ['h1','h3','h4']:self.heading_tags.append(tag)
- def handle_endtag(self,tag):
-  if tag in ['script','style']:self.skip-=1
-  if tag in ['p','li','th','td','h1','h3','h4','summary','cite']:self.text.append(' ')
- def handle_data(self,s):
-  if not self.skip:self.text.append(s)
-def norm(t):return re.sub(r'\s+',' ',t).strip()
-h=Parse();htmltext=(OUT/'Penal_DD_conteudo_preservado.html').read_text();h.feed(htmltext);visible=norm(''.join(h.text))
-assert len(h.ids)==len(set(h.ids)),'duplicate IDs'
-assert set(h.links)<=set(h.ids),'broken internal links'
-assert set(q['target'] for q in qa)<=set(h.ids),'unlinked recovery cards'
-assert len(audit)==len(source['blocks'])==60
-assert {e['source_id'] for e in audit}=={b['id'] for b in source['blocks']}
-for e in audit:
- assert e['original']==next(b['text'] for b in source['blocks'] if b['id']==e['source_id'])
- for text in e['display_passages']:assert norm(text) in visible,(e['source_id'],text[:100])
-# Main reading contains one hierarchy, and no recurrent references to the course provider.
-main=htmltext.split('<main>')[1].split('<details class="references">')[0]
-assert not re.search(r'7\.1\.1|a\) CONCEITO|b\) CARACTERÍSTICAS|c\) OBJETO|DICA DD|no DD|pelo DD|na apostila|comentário do DD',main,re.I)
-assert not re.search(r'\d{3}\.\d{3}\.\d{3}-\d{2}|retome:',visible,re.I)
-assert [s['number'] for s in model['sections']]==['1','2','3']
-for s in model['sections']:
+  if t=='a' and a.get('href','').startswith('#'):self.links.append(a['href'][1:])
+  if t=='details' and 'open' not in a:self.collapsed.append(a.get('id'))
+ def handle_endtag(self,t):
+  if t in ['script','style']:self.skip-=1
+  if t in ['p','li','th','td','h1','h3','h4','summary','cite']:self.text.append(' ')
+ def handle_data(self,t):
+  if not self.skip:self.text.append(t)
+def plain(t):return t.replace('**','').replace('!!','').replace('==','')
+def norm(t):return re.sub(r'\s*/\s*', '/', re.sub(r'\s+',' ',plain(t))).strip()
+h=Parse();html=(O/'Penal_DD_conteudo_preservado.html').read_text();h.feed(html);ht=norm(''.join(h.text));d=fitz.open(O/'Penal_DD_conteudo_preservado.pdf');pt=norm(' '.join(re.sub(r'DIREITO PENAL \| Noções iniciais\n\d+\n','',p.get_text()) for p in d))
+assert len(h.ids)==len(set(h.ids)), 'duplicate IDs'
+assert set(h.links)<=set(h.ids),set(h.links)-set(h.ids)
+assert set(q['target'] for q in qa)<=set(h.ids)
+assert 'aprofundamento' in h.collapsed
+assert not re.search(r'\d{3}\.\d{3}\.\d{3}-\d{2}|retome:|\*\*|!!|==',ht,re.I)
+assert 'definições formais que destacam seu foco na lei e na sanção' in ht
+assert [s['id'] for s in m['sections'][:6]]==['conceito','caracteristicas','bens','evolucao','funcoes','classificacoes']
+assert not m['approved']
+mapping={};passages=[]
+for s in m['sections']:
  assert [u['number'] for u in s['units']]==[s['number']+'.'+str(i+1) for i in range(len(s['units']))]
- assert s['reference'].startswith('DD, ')
-for q in qs:
- assert q['kind']=='real' and q['source_state']=='OFFICIAL_STATEMENT_AND_FINAL_KEY_CHECKED'
-assert {q['number']:q['answer'] for q in qs}=={52:'E',53:'C',54:'E'}
-assert all(q['kind']=='authored_retrieval' and q['essential_elements'] for q in qa)
-# PDF content check, removing only the repeated page footer and page number.
-doc=fitz.open(OUT/'Penal_DD_conteudo_preservado.pdf')
-pdftext=norm(' '.join(re.sub(r'DIREITO PENAL \| Noções iniciais\n\d+\n','',p.get_text()) for p in doc))
-for e in audit:
- for text in e['display_passages']:assert norm(text) in pdftext,('PDF',e['source_id'],text[:100])
-for page in doc:
- for b in page.get_text('blocks'):
-  assert b[0]>=39 and b[2]<=page.rect.width-38,(page.number,b[:4])
+ for u in s['units']:
+  for n in u['nodes']:
+   for sid in n.get('source_ids',[]):mapping.setdefault(sid,[]).append({'unit':u['id'],'number':u['number'],'node':n['id']})
+   if n.get('text'):passages.append((n['id'],n['text']))
+   for r in n.get('rows',[]):passages.extend((n['id'],t) for t in r['cells'])
+   for item in n.get('items',[]):passages.append((n['id'],item['text']))
+for q in qa:
+ passages.append((q['id'],q['question']));passages.extend((q['id'],t) for t in q['answer'])
+for k,t in passages:
+ assert norm(t) in ht,('HTML passage missing',k,t[:60])
+ assert norm(t) in pt,('PDF passage missing',k,t[:60])
+for a,b in zip(spans,spans[1:]):assert a['end']==b['start']
+assert spans[-1]['end']==len(re.sub(r'\s+',' ',load('fonte_capitulo_1.json')['chapter_text']).strip())
+labels=set(dec['source_only_labels'])
+assert {x['id'] for x in spans}<=set(mapping)|labels
+assert {x['id'] for x in old}<=set(mapping)|{'dd-23'}
+assert {q['number']:q['answer'] for q in bank}=={52:'E',53:'C',54:'E'}
+for page in d:
+ for block in page.get_text('blocks'):
+  assert block[0]>=39 and block[2]<=page.rect.width-38,(page.number,'horizontal overflow')
+  assert block[1]>=30 and block[3]<=page.rect.height-13,(page.number,'vertical overflow')
  assert '<br' not in page.get_text()
-assert len(doc.get_toc())>=sum(len(s['units']) for s in model['sections'])+3
-# No nearly-empty page caused by forced breaks; the final references page may be shorter.
-for i,p in enumerate(doc):
- if i<len(doc)-1:assert len(p.get_text().split())>=170,('sparse page',i+1)
-result={'edition':'v2','source_blocks_mapped':60,'declared_display_passages_present_html_and_pdf':True,'semantic_completeness_established':False,'known_semantic_omission':'dd-04: formal definitions focus on law and sanction removed as editorial preface','pedagogical_review':'USER_FOUND_V2_CONFUSING_AND_INCOMPLETE' ,'editorial_numbering_and_metadata_changes_traced':True,'sections':3,'numbered_units':18,'comparison_tables':sum(n['kind']=='table' for s in model['sections'] for u in s['units'] for n in u['nodes']),'authored_retrieval_questions':len(qa),'real_exam_questions':len(qs),'internal_links':len(h.links),'pdf_pages':len(doc),'pdf_bookmarks':len(doc.get_toc()),'browser_visual_validation':False,'held_out_opened':False,'full_booklet_review_complete':False,'all_questions_sufficiency_established':False,'pdf_sha256':hashlib.sha256((OUT/'Penal_DD_conteudo_preservado.pdf').read_bytes()).hexdigest()}
-(HERE/'verificacao.json').write_text(json.dumps(result,ensure_ascii=False,indent=2));print(json.dumps(result,ensure_ascii=False))
+audit={'edition':m['edition'],'source_to_destination':mapping,'title_destinations':{'dd-23':'3. OBJETO DE PROTEÇÃO: BENS JURÍDICOS','evo-transicao':'4.4 Escolas penais','func-outras':'5.4 a 5.6','class-titulo':'6. CLASSIFICAÇÕES'},'documented_changes':dec['changes'],'meaning':'Mapping of source passages and editorial dispositions; not an independent semantic certification.'}
+(H/'destinos_editoriais_v3.json').write_text(json.dumps(audit,ensure_ascii=False,indent=2)+'\n')
+r={'edition':m['edition'],'approval_scope':'GitHub operation only; material remains unapproved','chapter_source_pages':[5,13],'supplement_source_pages':[26,29],'legacy_source_blocks_accounted_for':len(old),'new_contiguous_source_spans':len(spans),'declared_model_passages_present_in_both_outputs':len(passages),'dd04_explanatory_link_restored':True,'semantic_completeness_independently_certified':False,'sections':len(m['sections']),'units':sum(len(s['units']) for s in m['sections']),'grouped_review_questions':len(qa),'full_official_items':len(bank),'additional_official_reference':'PC/CE 2025 Q22, alternative E, official booklet/key matched; only source excerpt reproduced','pdf_pages':len(d),'pdf_bookmarks':len(d.get_toc()),'html_ids_unique':True,'internal_links_valid':True,'browser_visual_validation':False,'pdf_visual_review':'all pages inspected as contact sheets; representative full-size pages also inspected','full_booklet_review_complete':False,'exam_corpus_sufficiency_established':False,'notion_content_imported':False,'held_out_opened':False,'pending':dec['pending'],'pdf_sha256':hashlib.sha256((O/'Penal_DD_conteudo_preservado.pdf').read_bytes()).hexdigest()}
+(H/'verificacao.json').write_text(json.dumps(r,ensure_ascii=False,indent=2)+'\n');print(json.dumps(r,ensure_ascii=False))

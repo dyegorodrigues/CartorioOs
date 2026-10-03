@@ -1,0 +1,407 @@
+[
+  {
+    "id": "R01",
+    "section": "conceito",
+    "target": "conceito-definicao",
+    "level": "Muito fácil",
+    "kind": "authored_retrieval",
+    "question": "O que é Direito Penal?",
+    "answer": "É o conjunto de princípios e regras destinados a combater o crime e a contravenção penal, mediante a imposição de sanção penal.",
+    "essential_elements": [
+      "princípios e regras",
+      "crime e contravenção",
+      "sanção penal"
+    ]
+  },
+  {
+    "id": "R02",
+    "section": "conceito",
+    "target": "conceito-sancoes",
+    "level": "Muito fácil",
+    "kind": "authored_retrieval",
+    "question": "Sanção penal é gênero ou espécie? Quais são suas espécies?",
+    "answer": "Sanção penal é gênero. Suas espécies são penas e medidas de segurança.",
+    "essential_elements": [
+      "gênero",
+      "penas",
+      "medidas de segurança"
+    ]
+  },
+  {
+    "id": "R03",
+    "section": "conceito",
+    "target": "conceito-sancoes",
+    "level": "Fácil",
+    "kind": "authored_retrieval",
+    "question": "Quais são as três vias do Direito Penal?",
+    "answer": "Primeira via: pena. Segunda via: medida de segurança. Terceira via: reparação do dano, como proposta doutrinária.",
+    "essential_elements": [
+      "pena",
+      "medida de segurança",
+      "reparação do dano"
+    ]
+  },
+  {
+    "id": "R04",
+    "section": "conceito",
+    "target": "conceito-sancoes",
+    "level": "Médio",
+    "kind": "authored_retrieval",
+    "question": "A terceira via acrescenta uma espécie de pena ao art. 32 do CP?",
+    "answer": "Não. A terceira via é uma proposta doutrinária. O art. 32 prevê penas privativas de liberdade, restritivas de direitos e multa.",
+    "essential_elements": [
+      "proposta doutrinária",
+      "rol do art. 32"
+    ]
+  },
+  {
+    "id": "R05",
+    "section": "conceito",
+    "target": "conceito-definicao",
+    "level": "Fácil",
+    "kind": "authored_retrieval",
+    "question": "Por que o Direito Penal é ramo do Direito Público?",
+    "answer": "Porque suas normas são indisponíveis, impostas e dirigidas a todas as pessoas; o Estado é titular do direito de punir.",
+    "essential_elements": [
+      "normas indisponíveis",
+      "Estado titular do direito de punir"
+    ]
+  },
+  {
+    "id": "R06",
+    "section": "conceito",
+    "target": "conceito-definicao",
+    "level": "Fácil",
+    "kind": "authored_retrieval",
+    "question": "O Estado deixa de ser sujeito passivo quando a infração atinge diretamente um particular?",
+    "answer": "Não. O Estado figura como sujeito passivo das infrações penais, ao menos de forma mediata.",
+    "essential_elements": [
+      "sujeito passivo",
+      "forma mediata"
+    ]
+  },
+  {
+    "id": "R07",
+    "section": "conceito",
+    "target": "conceito-autores",
+    "level": "Médio",
+    "kind": "authored_retrieval",
+    "question": "Como Liszt relaciona crime e pena em sua definição formal?",
+    "answer": "As prescrições emanadas do Estado ligam o crime, como fato, às penas, como consequência.",
+    "essential_elements": [
+      "prescrições estatais",
+      "crime como fato",
+      "pena como consequência"
+    ]
+  },
+  {
+    "id": "R08",
+    "section": "conceito",
+    "target": "conceito-autores",
+    "level": "Médio",
+    "kind": "authored_retrieval",
+    "question": "Quais são o pressuposto e a consequência na definição de Mezger?",
+    "answer": "O delito é o pressuposto; a pena é a consequência. As normas jurídicas regulam o exercício do poder punitivo estatal.",
+    "essential_elements": [
+      "delito como pressuposto",
+      "pena como consequência",
+      "poder punitivo estatal"
+    ]
+  },
+  {
+    "id": "R09",
+    "section": "conceito",
+    "target": "conceito-autores",
+    "level": "Médio",
+    "kind": "authored_retrieval",
+    "question": "Que consequências jurídicas aparecem na definição de Welzel?",
+    "answer": "A parte do ordenamento que determina as ações de natureza criminal vincula a elas uma pena ou medida de segurança.",
+    "essential_elements": [
+      "ações de natureza criminal",
+      "pena ou medida de segurança"
+    ]
+  },
+  {
+    "id": "R10",
+    "section": "conceito",
+    "target": "conceito-autores",
+    "level": "Médio",
+    "kind": "authored_retrieval",
+    "question": "Quais três operações aparecem na definição de Cirino dos Santos?",
+    "answer": "Definir crimes, cominar penas e prever medidas de segurança aplicáveis aos autores das ações incriminadas.",
+    "essential_elements": [
+      "definir crimes",
+      "cominar penas",
+      "prever medidas de segurança"
+    ]
+  },
+  {
+    "id": "R11",
+    "section": "conceito",
+    "target": "conceito-aspectos",
+    "level": "Fácil",
+    "kind": "authored_retrieval",
+    "question": "O que o aspecto formal do Direito Penal considera?",
+    "answer": "O conjunto de normas que qualifica comportamentos como infrações penais, define agentes e fixa sanções.",
+    "essential_elements": [
+      "normas",
+      "infrações",
+      "agentes",
+      "sanções"
+    ]
+  },
+  {
+    "id": "R12",
+    "section": "conceito",
+    "target": "conceito-aspectos",
+    "level": "Fácil",
+    "kind": "authored_retrieval",
+    "question": "O que o aspecto material do Direito Penal considera?",
+    "answer": "Comportamentos altamente reprováveis ou danosos que afetam bens jurídicos indispensáveis à conservação e ao progresso da sociedade.",
+    "essential_elements": [
+      "reprovabilidade ou dano",
+      "bens jurídicos indispensáveis"
+    ]
+  },
+  {
+    "id": "R13",
+    "section": "conceito",
+    "target": "conceito-aspectos",
+    "level": "Fácil",
+    "kind": "authored_retrieval",
+    "question": "O que o aspecto sociológico do Direito Penal considera?",
+    "answer": "O Direito Penal como instrumento de controle social de comportamentos desviados, destinado à disciplina e à convivência social.",
+    "essential_elements": [
+      "controle social",
+      "comportamentos desviados"
+    ]
+  },
+  {
+    "id": "R14",
+    "section": "conceito",
+    "target": "conceito-nomenclatura",
+    "level": "Muito fácil",
+    "kind": "authored_retrieval",
+    "question": "Qual expressão o art. 22, I, da Constituição emprega?",
+    "answer": "Direito Penal. O dispositivo atribui à União a competência privativa para legislar sobre essa matéria.",
+    "essential_elements": [
+      "Direito Penal",
+      "União",
+      "competência privativa"
+    ]
+  },
+  {
+    "id": "R15",
+    "section": "caracteristicas",
+    "target": "caracteristicas-quadro",
+    "level": "Fácil",
+    "kind": "authored_retrieval",
+    "question": "Quais características são enumeradas por Masson?",
+    "answer": "Ciência, cultural, normativa, valorativa, finalista, predominantemente sancionatória e fragmentária.",
+    "essential_elements": [
+      "as sete características"
+    ]
+  },
+  {
+    "id": "R16",
+    "section": "caracteristicas",
+    "target": "caracteristicas-quadro",
+    "level": "Médio",
+    "kind": "authored_retrieval",
+    "question": "Diferencie cultural, normativa e valorativa.",
+    "answer": "Cultural: ciência do dever ser. Normativa: estuda a lei penal, o Direito positivo. Valorativa: aplica uma escala de valores, segundo critérios e princípios próprios.",
+    "essential_elements": [
+      "dever ser",
+      "lei penal",
+      "escala de valores"
+    ]
+  },
+  {
+    "id": "R17",
+    "section": "caracteristicas",
+    "target": "caracteristicas-finalista",
+    "level": "Médio",
+    "kind": "authored_retrieval",
+    "question": "A característica finalista e o finalismo de Welzel significam a mesma coisa?",
+    "answer": "Não. A característica indica a finalidade prática de proteção de bens jurídicos; o finalismo de Welzel diz respeito à teoria da ação.",
+    "essential_elements": [
+      "finalidade de proteção",
+      "teoria da ação"
+    ]
+  },
+  {
+    "id": "R18",
+    "section": "caracteristicas",
+    "target": "caracteristicas-quadro",
+    "level": "Médio",
+    "kind": "authored_retrieval",
+    "question": "Por que a natureza sancionatória é predominante, e não exclusiva?",
+    "answer": "Em regra, acrescenta proteção penal a bens regulados por outros ramos. Pode ter natureza constitutiva ao proteger interesses não regulados por outras áreas.",
+    "essential_elements": [
+      "proteção adicional",
+      "natureza constitutiva possível"
+    ]
+  },
+  {
+    "id": "R19",
+    "section": "caracteristicas",
+    "target": "caracteristicas-quadro",
+    "level": "Fácil",
+    "kind": "authored_retrieval",
+    "question": "O que significa a característica fragmentária?",
+    "answer": "O Direito Penal tutela apenas os valores ou interesses mais importantes, e não todos eles.",
+    "essential_elements": [
+      "seleção",
+      "valores mais importantes"
+    ]
+  },
+  {
+    "id": "R20",
+    "section": "caracteristicas",
+    "target": "caracteristicas-quadro",
+    "level": "Fácil",
+    "kind": "authored_retrieval",
+    "question": "Em que sentido as regras e os princípios penais formam uma ciência?",
+    "answer": "Eles formam a dogmática jurídico-penal.",
+    "essential_elements": [
+      "regras e princípios",
+      "dogmática jurídico-penal"
+    ]
+  },
+  {
+    "id": "R21",
+    "section": "bens",
+    "target": "bens-definicao",
+    "level": "Fácil",
+    "kind": "authored_retrieval",
+    "question": "O que é bem jurídico?",
+    "answer": "É o interesse ou valor que a norma penal visa proteger, servindo de fundamento e limite ao poder punitivo.",
+    "essential_elements": [
+      "interesse ou valor",
+      "fundamento e limite"
+    ]
+  },
+  {
+    "id": "R22",
+    "section": "bens",
+    "target": "bens-constituicao",
+    "level": "Médio",
+    "kind": "authored_retrieval",
+    "question": "Quais são as duas funções da Constituição na seleção dos bens jurídicos?",
+    "answer": "Orientar o legislador na escolha dos valores indispensáveis, incluindo mandados de criminalização; impedir violações de direitos fundamentais.",
+    "essential_elements": [
+      "orientar a seleção",
+      "mandados de criminalização",
+      "limitar o legislador"
+    ]
+  },
+  {
+    "id": "R23",
+    "section": "bens",
+    "target": "bens-constituicao",
+    "level": "Médio",
+    "kind": "authored_retrieval",
+    "question": "Todo interesse constitucionalmente reconhecido exige automaticamente tutela penal?",
+    "answer": "Não. A tutela penal é excepcional, proporcional e criteriosa; não decorre automaticamente da presença de um valor na Constituição.",
+    "essential_elements": [
+      "ausência de automatismo",
+      "excepcionalidade",
+      "proporcionalidade"
+    ]
+  },
+  {
+    "id": "R24",
+    "section": "bens",
+    "target": "bens-protecao",
+    "level": "Médio",
+    "kind": "authored_retrieval",
+    "question": "Qual é a exigência do princípio da exclusiva proteção de bens jurídicos?",
+    "answer": "A criminalização legítima deve proteger um bem jurídico relevante contra lesão ou perigo de lesão.",
+    "essential_elements": [
+      "bem relevante",
+      "lesão ou perigo de lesão"
+    ]
+  },
+  {
+    "id": "R25",
+    "section": "bens",
+    "target": "bens-protecao",
+    "level": "Médio",
+    "kind": "authored_retrieval",
+    "question": "É suficiente criminalizar uma conduta apenas por contrariar uma convicção moral ou religiosa?",
+    "answer": "Não, à luz do princípio estudado. A criminalização precisa visar à proteção de um bem jurídico relevante, e não apenas de uma convicção moral ou religiosa.",
+    "essential_elements": [
+      "princípio da proteção exclusiva",
+      "bem jurídico relevante"
+    ]
+  },
+  {
+    "id": "R26",
+    "section": "bens",
+    "target": "bens-crime",
+    "level": "Médio",
+    "kind": "authored_retrieval",
+    "question": "O que é resultado jurídico?",
+    "answer": "É a lesão ou a exposição a perigo de lesão do bem jurídico protegido pela lei penal.",
+    "essential_elements": [
+      "lesão ou perigo",
+      "bem protegido"
+    ]
+  },
+  {
+    "id": "R27",
+    "section": "bens",
+    "target": "bens-objetos",
+    "level": "Fácil",
+    "kind": "authored_retrieval",
+    "question": "No homicídio, diferencie objeto jurídico e objeto material.",
+    "answer": "Objeto jurídico: vida humana, interesse protegido. Objeto material: o ser humano sobre o qual incide a conduta.",
+    "essential_elements": [
+      "vida humana",
+      "pessoa atingida"
+    ]
+  },
+  {
+    "id": "R28",
+    "section": "bens",
+    "target": "bens-classificacao",
+    "level": "Médio",
+    "kind": "authored_retrieval",
+    "question": "Diferencie bens individuais e coletivos, indicando os nomes equivalentes destes últimos.",
+    "answer": "Individuais: titulares determináveis. Coletivos, supraindividuais ou transindividuais: titulares indetermináveis, como meio ambiente e ordem econômica.",
+    "essential_elements": [
+      "titularidade",
+      "supraindividuais/transindividuais",
+      "exemplos"
+    ]
+  },
+  {
+    "id": "R29",
+    "section": "bens",
+    "target": "bens-espiritualizacao",
+    "level": "Difícil",
+    "kind": "authored_retrieval",
+    "question": "O que são espiritualização ou liquefação dos bens jurídicos?",
+    "answer": "A tendência de proteção de interesses metaindividuais e de antecipação da tutela penal por crimes de perigo concreto ou abstrato.",
+    "essential_elements": [
+      "interesses metaindividuais",
+      "antecipação da tutela",
+      "crimes de perigo"
+    ]
+  },
+  {
+    "id": "R30",
+    "section": "bens",
+    "target": "bens-aparentes",
+    "level": "Difícil",
+    "kind": "authored_retrieval",
+    "question": "Na posição de Martinelli e Schmitt de Bem, o que distingue um bem coletivo real de um aparente?",
+    "answer": "O real não se reduz à soma de bens individuais. O aparente pode ocultar a ausência de um bem autônomo ou corresponder a uma soma de interesses individuais; a indeterminação também pode comprometer a função crítica.",
+    "essential_elements": [
+      "atribuição doutrinária",
+      "autonomia",
+      "soma de bens individuais",
+      "função crítica"
+    ]
+  }
+]

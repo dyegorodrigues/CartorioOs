@@ -75,3 +75,10 @@ A melhora visual foi parcial; o usuário não aprovou o conteúdo como material 
 Há uma perda semântica demonstrada: dd-04 explica que as definições dos autores são formais e centradas na lei e na sanção. Essa relação foi retirada como se fosse apenas metatexto bibliográfico. A verificação anterior comparava a saída com os trechos escolhidos para exibição e não detectava omissões nessa escolha. O resultado foi renomeado para presença dos trechos declarados, sem certificar completude semântica.
 
 A próxima reconstrução parte do capítulo inteiro da apostila, preservando sequência explicativa e profundidade, com normas/súmulas no assunto pertinente. Perguntas devem compor revisão progressiva por núcleos de compreensão, com comparações e respostas explicadas; não converter automaticamente cada autor ou frase em um cartão. Critérios de avaliação não são listas de palavras avulsas. Grifos devem destacar relações e distinções dentro de cada passagem, não decorrer apenas de busca global por palavras. Esta rodada fez diagnóstico e registrou exemplo de revisão agrupada; os HTML/PDF v2 não foram reconstruídos.
+
+
+## Autorização operacional e edição v3 — 03/10/2026
+
+O usuário esclareceu que “aprovado e autorizado” se referia ao GitHub. Não há aprovação do material, do formato ou da proposta pedagógica. O aviso anterior de aprovação expirada não identifica, por si, a operação afetada. Não atribuir a essa frase autorização para merge, publicação de site ou aceitação do conteúdo.
+
+A v3 reconstrói o capítulo inicial (DD, pp. 5–13) e conserva o aprofundamento de bens jurídicos (pp. 26–29) após a sequência introdutória. Restitui dd-04, acrescenta evolução/funções/classificações, adota destaques por passagem e 18 perguntas agrupadas. O PDF tem 23 páginas; HTML e PDF permanecem em revisão. O mapa e as correções estão em `material/dd_preservado/destinos_editoriais_v3.json` e `decisoes_v3.json`. Questões, integralidade do curso e revisão das fontes antigas continuam com os limites expressos no README.

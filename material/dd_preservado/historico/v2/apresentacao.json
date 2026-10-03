@@ -1,0 +1,776 @@
+{
+  "edition": "v2",
+  "title": "Direito Penal - Fundamentos",
+  "sections": [
+    {
+      "id": "conceito",
+      "number": "1",
+      "title": "CONCEITO DE DIREITO PENAL",
+      "reference": "DD, pp. 5-6",
+      "units": [
+        {
+          "id": "conceito-definicao",
+          "number": "1.1",
+          "title": "Definição e natureza jurídica",
+          "nodes": [
+            {
+              "kind": "paragraph",
+              "id": "dd-01",
+              "text": "O Direito Penal é o conjunto de princípios e regras destinados a combater o crime e a contravenção penal, mediante a imposição de sanção penal. É o conjunto das normas jurídicas que regulam a atuação estatal nesse combate ao crime, por meio de medidas aplicadas aos criminosos, definindo os fatos puníveis e cominando as respectivas sanções - os tipos penais e as sanções. Segundo o autor Cleber Masson (2017, p. 3) é “o conjunto de princípios e regras destinados a combater o crime e a contravenção penal, mediante a imposição de sanção penal”. Importa salientar que “sanção penal” é gênero, do qual são espécies as penas e as medidas de segurança.",
+              "source_ids": [
+                "dd-01"
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "id": "dd-03",
+              "text": "É um ramo do Direito Público, vez que suas normas são indisponíveis, impostas e dirigidas a todas as pessoas. Além disso, o Estado é o titular do direito de punir e por isso sempre figura como sujeito passivo das infrações penais, ainda que de forma mediata.",
+              "source_ids": [
+                "dd-03"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "conceito-sancoes",
+          "number": "1.2",
+          "title": "Sanções penais e as três vias",
+          "nodes": [
+            {
+              "kind": "tip",
+              "id": "dd-02",
+              "text": "Diz-se que a pena é a 1ª via do direito penal, a medida de segurança é a 2ª e a reparação do dano é a 3ª.",
+              "source_ids": [
+                "dd-02"
+              ]
+            },
+            {
+              "kind": "callout",
+              "id": "nota-vias",
+              "title": "Distinga as classificações",
+              "text": "A terceira via é uma proposta doutrinária de reparação e reconciliação, tratada por Roxin ao lado da pena e das medidas de segurança. Não é uma terceira espécie de pena no rol do art. 32 do CP.",
+              "source_ids": []
+            },
+            {
+              "kind": "law",
+              "id": "lei-32",
+              "title": "CP, art. 32 - espécies de pena",
+              "text": "Art. 32 - As penas são:\nI - privativas de liberdade;\nII - restritivas de direitos;\nIII - de multa.",
+              "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm",
+              "source_ids": []
+            },
+            {
+              "kind": "law",
+              "id": "lei-96",
+              "title": "CP, art. 96 - medidas de segurança",
+              "text": "Art. 96. As medidas de segurança são:\nI - Internação em hospital de custódia e tratamento psiquiátrico ou, à falta, em outro estabelecimento adequado;\nII - sujeição a tratamento ambulatorial.\nParágrafo único - Extinta a punibilidade, não se impõe medida de segurança nem subsiste a que tenha sido imposta.",
+              "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm",
+              "source_ids": []
+            }
+          ]
+        },
+        {
+          "id": "conceito-autores",
+          "number": "1.3",
+          "title": "Definições doutrinárias",
+          "nodes": [
+            {
+              "kind": "table",
+              "id": "tabela-autores",
+              "headers": [
+                "Autor e corrente",
+                "Definição"
+              ],
+              "rows": [
+                {
+                  "id": "dd-05",
+                  "cells": [
+                    "Franz von Liszt (período causal-naturalista)",
+                    "definiu-o como \"o conjunto de prescrições emanadas do Estado que ligam ao crime, como fato, as penas como consequência\"."
+                  ]
+                },
+                {
+                  "id": "dd-06",
+                  "cells": [
+                    "Edmund Mezger (período neoclássico)",
+                    "via o Direito Penal como \"o conjunto de normas jurídicas que regulava o exercício do poder punitivo do Estado, associando ao delito, como seu pressuposto, a pena como sua consequência\"."
+                  ]
+                },
+                {
+                  "id": "dd-07",
+                  "cells": [
+                    "Hans Welzel (finalismo)",
+                    "o definiu como \"a parte do ordenamento jurídico que determina as ações de natureza criminal e a elas vincula uma pena ou medida de segurança\"."
+                  ]
+                },
+                {
+                  "id": "dd-08",
+                  "cells": [
+                    "Juarez Cirino dos Santos",
+                    "define-o como \"o setor do ordenamento jurídico que define crimes, comina penas e prevê as medidas de segurança aplicáveis aos autores das ações incriminadas\"."
+                  ]
+                }
+              ],
+              "source_ids": [
+                "dd-05",
+                "dd-06",
+                "dd-07",
+                "dd-08"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "conceito-aspectos",
+          "number": "1.4",
+          "title": "Aspectos formal, material e sociológico",
+          "nodes": [
+            {
+              "kind": "table",
+              "id": "tabela-aspectos",
+              "headers": [
+                "Aspecto",
+                "Conteúdo"
+              ],
+              "rows": [
+                {
+                  "id": "dd-11",
+                  "cells": [
+                    "ASPECTO FORMAL",
+                    "o direito penal é um conjunto de normas que qualifica certos comportamentos humanos como infrações penais, define os seus agentes e fixa as sanções a serem aplicadas."
+                  ]
+                },
+                {
+                  "id": "dd-12",
+                  "cells": [
+                    "ASPECTO MATERIAL",
+                    "o Direito Penal se refere a comportamentos considerados altamente reprováveis ou danosos ao organismo social, afetando bens jurídicos indispensáveis à própria conservação e progresso da sociedade."
+                  ]
+                },
+                {
+                  "id": "dd-13",
+                  "cells": [
+                    "ASPECTO SOCIOLÓGICO",
+                    "o direito penal é mais um instrumento do controle social de comportamentos desviados, visando a assegurar a necessária disciplina social. Em suma, sob aspecto dinâmico, o Direito Penal é mais um instrumento de controle social visando assegurar a necessária disciplina para a harmônica convivência dos membros da sociedade."
+                  ]
+                }
+              ],
+              "source_ids": [
+                "dd-11",
+                "dd-12",
+                "dd-13"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "conceito-controle",
+          "number": "1.5",
+          "title": "Direito Penal como controle social",
+          "nodes": [
+            {
+              "kind": "paragraph",
+              "id": "dd-14",
+              "text": "A manutenção da paz social demanda a existência de normas destinadas a estabelecer diretrizes (regras). Quando violadas as regras de conduta, surge para o Estado o dever de aplicar sanções civis ou penais (infrações). Nessa tarefa de controle social atuam vários ramos do Direito. Quando a conduta atenta contra bens jurídicos especialmente tutelados, merece reação mais severa por parte do Estado, valendo-se do Direito Penal (soldado de reserva). O que diferencia a norma penal das demais é a espécie de consequência jurídica (pena privativa de liberdade).",
+              "source_ids": [
+                "dd-14"
+              ]
+            },
+            {
+              "kind": "callout",
+              "id": "nota-sancao",
+              "title": "A sanção penal não se limita à prisão",
+              "text": "A pena privativa de liberdade exemplifica a resposta penal mais severa. O art. 32 do CP também prevê penas restritivas de direitos e multa.",
+              "source_ids": []
+            }
+          ]
+        },
+        {
+          "id": "conceito-nomenclatura",
+          "number": "1.6",
+          "title": "Direito Penal e Direito Criminal",
+          "nodes": [
+            {
+              "kind": "tip",
+              "id": "dd-09",
+              "text": "Embora haja discussão doutrinária entre os termos \"Direito Penal\" e \"Direito Criminal\", a expressão Direito Penal é a preferida no Brasil e em muitos países ocidentais. A Constituição Federal de 1988, em seu art. 22, I, adota a expressão \"Direito Penal\"",
+              "source_ids": [
+                "dd-09"
+              ]
+            },
+            {
+              "kind": "law",
+              "id": "lei-22",
+              "title": "CF, art. 22, I - nomenclatura e competência",
+              "text": "Art. 22. Compete privativamente à União legislar sobre:\nI - direito civil, comercial, penal, processual, eleitoral, agrário, marítimo, aeronáutico, espacial e do trabalho;",
+              "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+              "source_ids": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "caracteristicas",
+      "number": "2",
+      "title": "CARACTERÍSTICAS DO DIREITO PENAL",
+      "reference": "DD, pp. 6-7",
+      "units": [
+        {
+          "id": "caracteristicas-quadro",
+          "number": "2.1",
+          "title": "Características e seus significados",
+          "nodes": [
+            {
+              "kind": "paragraph",
+              "id": "dd-15",
+              "text": "De acordo com Cleber Masson (2017, p. 5), o Direito Penal é uma ciência cultural, normativa, valorativa, finalista, de natureza predominantemente sancionatória, e fragmentária.",
+              "source_ids": [
+                "dd-15"
+              ]
+            },
+            {
+              "kind": "table",
+              "id": "tabela-caracteristicas",
+              "headers": [
+                "Característica",
+                "Significado"
+              ],
+              "rows": [
+                {
+                  "id": "dd-16",
+                  "cells": [
+                    "Ciência",
+                    "suas regras estão contidas em normas e princípios que, por sua vez, formam a dogmática jurídico-penal;"
+                  ]
+                },
+                {
+                  "id": "dd-17",
+                  "cells": [
+                    "Cultural",
+                    "o Direito Penal é uma ciência do “dever ser”, ao contrário das ciências naturais, que cultuam o “ser”;"
+                  ]
+                },
+                {
+                  "id": "dd-18",
+                  "cells": [
+                    "Normativa",
+                    "o objeto principal é o estudo da lei penal (Direito positivo);"
+                  ]
+                },
+                {
+                  "id": "dd-19",
+                  "cells": [
+                    "Valorativa",
+                    "sua aplicação não está pautada em regras matemáticas de certo ou errado, mas sim em uma escala de valores que são sopesados a partir de critérios e princípios próprios do Direito Penal. Dessa forma, esse ramo do direito valoriza hierarquicamente as suas normas;"
+                  ]
+                },
+                {
+                  "id": "dd-20",
+                  "cells": [
+                    "Finalista",
+                    "o objetivo do direito penal é a proteção de bens jurídicos fundamentais, o que torna a sua missão prática, e não simplesmente teórica;"
+                  ]
+                },
+                {
+                  "id": "dd-21",
+                  "cells": [
+                    "Sancionatória",
+                    "o Direito Penal é predominantemente sancionador porque não cria bens jurídicos, mas acrescenta proteção penal aos bens jurídicos disciplinados por outros ramos do Direito. No entanto, é possível que ele seja também constitutivo, quando protege interesses não regulados por outras áreas do Direito;"
+                  ]
+                },
+                {
+                  "id": "dd-22",
+                  "cells": [
+                    "Fragmentária",
+                    "o Direito Penal não tutela todos os valores ou interesses, mas somente os mais importantes para a manutenção e o desenvolvimento dos indivíduos e da sociedade."
+                  ]
+                }
+              ],
+              "source_ids": [
+                "dd-16",
+                "dd-17",
+                "dd-18",
+                "dd-19",
+                "dd-20",
+                "dd-21",
+                "dd-22"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "caracteristicas-finalista",
+          "number": "2.2",
+          "title": "Cuidado com a palavra “finalista”",
+          "nodes": [
+            {
+              "kind": "callout",
+              "id": "nota-finalista",
+              "title": "Finalidade de proteção ≠ teoria da ação",
+              "text": "Neste quadro de características, “finalista” indica a finalidade de proteger bens jurídicos. Isso não se confunde com a teoria finalista da ação de Welzel.",
+              "source_ids": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bens",
+      "number": "3",
+      "title": "BENS JURÍDICOS E SUA PROTEÇÃO",
+      "reference": "DD, p. 7 e pp. 26-29",
+      "units": [
+        {
+          "id": "bens-definicao",
+          "number": "3.1",
+          "title": "Conceito e natureza do bem jurídico",
+          "nodes": [
+            {
+              "kind": "paragraph",
+              "id": "dd-31",
+              "text": "Mas o que é bem jurídico? R.: Trata-se de um tema extremamente controvertido, de modo que vamos tentar simplificá-lo de forma objetiva para melhor compreensão. O Bem Jurídico é o conceito central e o elemento material do Direito Penal, sendo definido como o interesse ou valor que a norma penal visa proteger. Ele representa o fundamento e o limite do poder punitivo estatal. O conceito pode ser detalhado sob as seguintes perspectivas (Masson):",
+              "source_ids": [
+                "dd-31"
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "id": "dd-32",
+              "text": "O bem jurídico é um valor ou interesse reconhecido pelo Direito e considerado imprescindível para a satisfação do indivíduo ou da sociedade. É o resultado de um juízo de valor positivo acerca de um determinado objeto ou situação social, reconhecendo a sua importância para o desenvolvimento do ser humano. Em termos mais técnicos, o bem jurídico:",
+              "source_ids": [
+                "dd-32"
+              ]
+            },
+            {
+              "kind": "quote",
+              "id": "dd-24",
+              "text": "“(...) é a coisa, o valor, o atributo espiritual ou intelectual cujo usufruto e gozo são reconhecidos como significativamente relevantes. Primeiro, para o efetivo desenvolvimento pessoal de seu titular e, depois e em consequência, para todo o corpo social, de que é exemplo o meio ambiente ecologicamente equilibrado”. (PACELLI, 2017, p. 61)",
+              "source_ids": [
+                "dd-24"
+              ]
+            },
+            {
+              "kind": "list",
+              "id": "perspectivas-bem",
+              "items": [
+                {
+                  "id": "dd-33",
+                  "text": "É o objeto jurídico, ou seja, o interesse ou valor protegido pela norma penal."
+                },
+                {
+                  "id": "dd-34",
+                  "text": "Em uma perspectiva constitucional, relaciona-se aos direitos fundamentais constitucionalmente assegurados e representa o conteúdo material do injusto."
+                },
+                {
+                  "id": "dd-35",
+                  "text": "É a relação reconhecida pelo direito que envolve o sujeito e o objeto material."
+                }
+              ],
+              "source_ids": [
+                "dd-33",
+                "dd-34",
+                "dd-35"
+              ]
+            },
+            {
+              "kind": "quote",
+              "id": "dd-36",
+              "text": "Claus Roxin o define como as \"circunstâncias reais dadas ou finalidades necessárias para uma vida segura e livre\", que garantem todos os direitos humanos e fundamentais de cada indivíduo na sociedade ou para o funcionamento de um sistema estatal baseado nesses objetivos.",
+              "source_ids": [
+                "dd-36"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "bens-constituicao",
+          "number": "3.2",
+          "title": "Constituição: orientação e limites",
+          "nodes": [
+            {
+              "kind": "quote",
+              "id": "dd-25",
+              "text": "O legislador seleciona os bens jurídicos a serem defendidos pelo Direito Penal. Para Claus Roxin: “um conceito de bem jurídico vinculante político-criminalmente só pode derivar dos valores garantidos na Lei Fundamental, do nosso Estado de Direito baseado na liberdade do indivíduo, através dos quais são marcados os limites da atividade punitiva do Estado”.",
+              "source_ids": [
+                "dd-25"
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "id": "dd-26",
+              "text": "No entanto, NÃO se pode falar em discricionariedade ampla e irrestrita, pois os bens jurídicos mais importantes são tratados na Constituição. Logo, a Constituição possui a seguinte missão:",
+              "source_ids": [
+                "dd-26"
+              ]
+            },
+            {
+              "kind": "list",
+              "id": "limites-constitucionais",
+              "items": [
+                {
+                  "id": "dd-27",
+                  "text": "Orienta o legislador, ao eleger valores considerados indispensáveis à manutenção da sociedade. Importa destacar que há os mandados de criminalização indicam matérias sobre as quais o legislador ordinário não tem a faculdade de legislar, mas a obrigatoriedade de tratar, protegendo determinados bens ou interesses de forma adequada e, dentro do possível, integral."
+                },
+                {
+                  "id": "dd-28",
+                  "text": "Impede que o legislador viole direitos fundamentais atribuídos a toda pessoa humana (Visão Garantista Do Direito Penal)."
+                }
+              ],
+              "source_ids": [
+                "dd-27",
+                "dd-28"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "bens-protecao",
+          "number": "3.3",
+          "title": "Princípio da exclusiva proteção de bens jurídicos",
+          "nodes": [
+            {
+              "kind": "paragraph",
+              "id": "dd-29",
+              "text": "O Direito Penal deve servir apenas e tão somente para proteger bens jurídicos relevantes (Roxin). Ademais, nenhuma criminalização é legítima se não busca evitar a lesão ou o perigo de lesão a um bem juridicamente determinado. Impede que o Estado utilize o Direito Penal para a proteção de bens ilegítimos.",
+              "source_ids": [
+                "dd-29"
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "id": "dd-30",
+              "text": "Assim, não pode incriminar pensamentos ou intenções, questões morais, éticas, ideológicas, religiosas ou finalidades políticas. Para a teoria constitucional do Direito Penal, aliás, a referida eleição de bens jurídicos deve refletir os valores constitucionais, a exemplo do homicídio, que tutela o direito fundamental à vida. Dessa forma, o princípio da proteção aos bens jurídicos defende que o direito penal deve servir apenas para proteger bens jurídicos relevantes, bens jurídicos indispensáveis ao convívio em sociedade.",
+              "source_ids": [
+                "dd-30"
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "id": "dd-37",
+              "text": "A proteção de bens jurídicos é a missão precípua, que fundamenta e confere legitimidade ao Direito Penal. A atuação do Direito Penal é finalista, uma vez que se preocupa com a proteção de bens jurídicos fundamentais.",
+              "source_ids": [
+                "dd-37"
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "id": "dd-38",
+              "text": "A missão do Direito Penal moderno consiste em tutelar os bens jurídicos mais relevantes. Em decorrência disso, a intervenção penal deve ter o caráter fragmentário, protegendo apenas os bens jurídicos mais importantes e em casos de lesões de maior gravidade.",
+              "source_ids": [
+                "dd-38"
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "id": "dd-39",
+              "text": "O conceito de bem jurídico desempenha uma função de limitação do poder punitivo do Estado. O Direito Penal se destina à tutela desses bens e não pode ser usado para resguardar questões de ordem moral, ética, ideológica, religiosa, política ou semelhantes.",
+              "source_ids": [
+                "dd-39"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "bens-crime",
+          "number": "3.4",
+          "title": "Bem jurídico, crime e ofensividade",
+          "nodes": [
+            {
+              "kind": "paragraph",
+              "id": "dd-40",
+              "text": "O bem jurídico é fundamental para o critério material ou substancial do crime: crime é toda ação ou omissão humana que lesa ou expõe a perigo de lesão bens jurídicos penalmente tutelados.",
+              "source_ids": [
+                "dd-40"
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "id": "dd-41",
+              "text": "Para que uma conduta seja considerada penalmente ilícita e legítima em um Estado Democrático de Direito, ela deve apresentar relevância jurídico-penal, mediante a provocação de dano ou ao menos exposição à situação de perigo em relação a bens jurídicos penalmente relevantes.",
+              "source_ids": [
+                "dd-41"
+              ]
+            },
+            {
+              "kind": "table",
+              "id": "tabela-ofensa",
+              "headers": [
+                "Conceito",
+                "Significado"
+              ],
+              "rows": [
+                {
+                  "id": "dd-42",
+                  "cells": [
+                    "Resultado jurídico",
+                    "É a lesão ou exposição a perigo de lesão do bem jurídico protegido pela lei penal, sendo a violação do valor ou interesse por ela tutelado. Não há crime sem resultado jurídico."
+                  ]
+                },
+                {
+                  "id": "dd-43",
+                  "cells": [
+                    "Ofensividade",
+                    "A punição penal só se legitima com a verificação de uma ofensa a bem jurídico-penal. A legitimidade do direito de punir tem por pressuposto a afetação de um bem jurídico."
+                  ]
+                }
+              ],
+              "source_ids": [
+                "dd-42",
+                "dd-43"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "bens-objetos",
+          "number": "3.5",
+          "title": "Objeto jurídico × objeto material",
+          "nodes": [
+            {
+              "kind": "paragraph",
+              "id": "dd-44",
+              "text": "É essencial diferenciar o bem jurídico do objeto material:",
+              "source_ids": [
+                "dd-44"
+              ]
+            },
+            {
+              "kind": "table",
+              "id": "dd-45",
+              "headers": [
+                "Conceito",
+                "Descrição",
+                "Exemplo: homicídio"
+              ],
+              "rows": [
+                {
+                  "id": null,
+                  "cells": [
+                    "Objeto Jurídico (Bem Jurídico)",
+                    "O interesse ou valor abstrato de ordem social protegido pela norma penal.",
+                    "A vida humana."
+                  ]
+                },
+                {
+                  "id": null,
+                  "cells": [
+                    "Objeto Material",
+                    "A pessoa ou a coisa que suporta a conduta criminosa (sobre a qual incide a ação ofensiva).",
+                    "O ser humano que teve sua vida ceifada."
+                  ]
+                }
+              ],
+              "source_ids": [
+                "dd-45"
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "id": "dd-46",
+              "text": "O bem jurídico não deve ser compreendido como um bem material, mas sim como o valor abstrato extraído das relações das pessoas com esses bens.",
+              "source_ids": [
+                "dd-46"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "bens-classificacao",
+          "number": "3.6",
+          "title": "Bens individuais e coletivos",
+          "nodes": [
+            {
+              "kind": "paragraph",
+              "id": "dd-47",
+              "text": "Os bens jurídicos são classificados em categorias:",
+              "source_ids": [
+                "dd-47"
+              ]
+            },
+            {
+              "kind": "table",
+              "id": "tabela-especies",
+              "headers": [
+                "Categoria",
+                "Titularidade e exemplos"
+              ],
+              "rows": [
+                {
+                  "id": "dd-48",
+                  "cells": [
+                    "Bens Jurídicos Individuais",
+                    "Aqueles que se reportam a titulares determináveis (a pessoa que pode dispor dele), como a vida, a integridade física, e o patrimônio."
+                  ]
+                },
+                {
+                  "id": "dd-49",
+                  "cells": [
+                    "Bens Jurídicos Coletivos (Supraindividuais/Transindividuais)",
+                    "Pertencem à coletividade (titulares indetermináveis), servindo às condições de vida das pessoas. Exemplos incluem o meio ambiente equilibrado, a Administração da Justiça, e a ordem econômica."
+                  ]
+                }
+              ],
+              "source_ids": [
+                "dd-48",
+                "dd-49"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "bens-espiritualizacao",
+          "number": "3.7",
+          "title": "Espiritualização ou liquefação",
+          "nodes": [
+            {
+              "kind": "paragraph",
+              "id": "dd-50",
+              "text": "A Espiritualização (ou Liquefação) dos Bens Jurídicos é a tendência moderna de inclusão, no Direito Penal, de proteção a interesses metaindividuais e a incriminação de condutas limitadas à causação de perigo (crimes de perigo concreto e abstrato), visando a antecipação da tutela penal.",
+              "source_ids": [
+                "dd-50"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "bens-aparentes",
+          "number": "3.8",
+          "title": "Bens coletivos reais e aparentes",
+          "nodes": [
+            {
+              "kind": "quote",
+              "id": "dd-52",
+              "text": "“A noção de ‘bem jurídico aparente’ identifica-se com as hipóteses nas quais, por meio do uso reificante da linguagem e da adoção de uma perspectiva distanciada, acaba-se por ocultar a ausência de um efetivo bem jurídico tutelado pela norma.”",
+              "citation": "Martinelli e Schmitt de Bem, Direito Penal - Lições Fundamentais, D’Plácido, p. 171.",
+              "source_ids": [
+                "dd-52"
+              ]
+            },
+            {
+              "kind": "table",
+              "id": "tabela-reais-aparentes",
+              "headers": [
+                "Categoria",
+                "Explicação e exemplos"
+              ],
+              "rows": [
+                {
+                  "id": "dd-53-a",
+                  "cells": [
+                    "Coletivo aparente",
+                    "... protege-se um somatório de integridades físicas individuais (...) no que tange à incolumidade pública como um bem jurídico coletivo apenas na aparência significa dizer que a proteção desses bens jurídicos não poderá ser realizada independentemente dos particulares, mas deverá ser instrumental ou dirigir-se à realização dos interesses individuais de todos os membros sociais."
+                  ]
+                },
+                {
+                  "id": "dd-53-b",
+                  "cells": [
+                    "Coletivo real",
+                    "Por outro lado, o meio ambiente, a administração estatal da Justiça, a ordem econômica e a autenticidades das moedas são considerados verdadeiros bens jurídicos coletivos, pois não podem ser fracionados em bens individuais somados."
+                  ]
+                }
+              ],
+              "source_ids": [
+                "dd-53"
+              ]
+            },
+            {
+              "kind": "paragraph",
+              "id": "dd-53-c",
+              "text": "Em síntese, é impossível, por exemplo, conceber o meio ambiente como a soma de vários bens jurídicos individuais.",
+              "source_ids": [
+                "dd-53"
+              ]
+            },
+            {
+              "kind": "callout",
+              "id": "nota-corrente",
+              "title": "Delimitação da posição doutrinária",
+              "text": "No item 53 da PF 2025, a banca empregou “Segundo doutrinadores em direito penal”. A distinção acima deve ser apresentada com a atribuição doutrinária correspondente, sem convertê-la em definição universal.",
+              "source_ids": []
+            },
+            {
+              "kind": "tip",
+              "id": "dd-51",
+              "text": "Atenção! Temática “bem jurídico” tem sido a “modinha” dos certames e, por isso, deve o candidato estar atento às nuances.",
+              "source_ids": [
+                "dd-51"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "bens-questoes",
+          "number": "3.9",
+          "title": "Questões de concurso",
+          "nodes": [
+            {
+              "kind": "question_bank",
+              "id": "questoes",
+              "source_ids": [
+                "dd-54",
+                "dd-55",
+                "dd-56",
+                "dd-57",
+                "dd-58"
+              ]
+            },
+            {
+              "kind": "partial_exam",
+              "id": "dd-59",
+              "text": "Assinale a opção que corresponde a bem jurídico coletivo aparente: Incolumidade pública.",
+              "source_ids": [
+                "dd-59"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "bens-sintese",
+          "number": "3.10",
+          "title": "Síntese do assunto",
+          "nodes": [
+            {
+              "kind": "tip",
+              "id": "dd-60",
+              "text": "O bem jurídico é o farol que orienta o legislador na criação de crimes e o escudo que protege o cidadão contra o arbítrio estatal, garantindo que o Direito Penal só intervenha para tutelar os valores mais importantes para a convivência social, e somente nos casos de ofensa concreta ou potencial a esses valores.",
+              "source_ids": [
+                "dd-60"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "label": "Texto-base: DD - Noções iniciais e princípios, pp. 5-7 e 26-29.",
+      "url": null
+    },
+    {
+      "label": "DD Legis CP: arts. 32 e 96, pp. 38 e 81, cotejados com a legislação oficial.",
+      "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+    },
+    {
+      "label": "Nilo Batista, Introdução crítica ao direito penal brasileiro, 2007, pp. 44-49: referência para as definições formais.",
+      "url": null
+    },
+    {
+      "label": "CF, art. 22, I.",
+      "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+    },
+    {
+      "label": "Roxin, Pena y reparación, seção IV.1.",
+      "url": "https://revistas.mjusticia.gob.es/index.php/ADPCP/article/download/404/404/400"
+    },
+    {
+      "label": "PF 2025, caderno de Delegado e gabarito definitivo.",
+      "url": "https://cdn.cebraspe.org.br/concursos/PF_25/arquivos/106_PF_001_01.pdf"
+    },
+    {
+      "label": "Paiva, A efetividade da teoria do bem jurídico, Delictae 18/2025.",
+      "url": "https://periodicos.pucminas.br/delictae/article/download/36614/24124"
+    }
+  ]
+}

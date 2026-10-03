@@ -1,0 +1,325 @@
+{
+  "scope": "Porção d) evolução até o fim do capítulo, pp. 7–13",
+  "segments": [
+    {
+      "id": "evo-abertura",
+      "start": 6561,
+      "anchor": "d) EVOLUÇÃO DO DIREITO PENAL:",
+      "end": 7402,
+      "text": "d) EVOLUÇÃO DO DIREITO PENAL: Com o decorrer das relações humanas, o homem compreendeu que, para o regular convívio em sociedade, seriam necessárias determinadas regras de conduta para regular e estruturar de maneira harmônica a vida em comunidade. Logo, a partir de tal consenso, apresenta-se o embrião do que hoje se entende por Direito Penal. Para entender o nascedouro dessa ciência, é necessário partir do pressuposto de que a ideia de punição das pessoas que se comportam de maneira inadequada, isto é, contrariamente aos costumes implicados a época, está intrínseca nos primórdios da humanidade. Assim, conclui-se que o Direito Penal surge essencialmente com o próprio homem e evolui conjuntamente com este. Nesse contexto, é de suma importância depreender os principais períodos da referida ciência a fim de apregoar sua cronologia.",
+      "sha256": "d4e9999f3f7f493dac29e8dad1cf19951c0e8f5fab3bfd4d45517f869a0130ac"
+    },
+    {
+      "id": "evo-privada",
+      "start": 7402,
+      "anchor": "O primeiro período diz respeito",
+      "end": 7655,
+      "text": "O primeiro período diz respeito à vingança privada, a qual correspondia a resposta da vítima quando da ocorrência do crime. Este período resultava numa reação desproporcional em que até mesmo o grupo social do vitimado acabava agindo contra o agressor.",
+      "sha256": "1818719e2d93f1fdc154f78e262670cf830256bee2817c6ce7a4ceb0f4fb6010"
+    },
+    {
+      "id": "evo-divina",
+      "start": 7655,
+      "anchor": "O segundo período refere-se",
+      "end": 7978,
+      "text": "O segundo período refere-se à vingança divina, que se entende como a robusta influência da religião e da crença na vida dos povos antigos. Assim, os sacerdotes eram os sujeitos de direito que aplicavam e atribuíam as penas que possuíam caráter cruel, desumano e severo, bem como tinham como objetivo a purificação da alma.",
+      "sha256": "2eea15a837b06ebe45baf01c532707fb594ce4659f5b2088ebbcec3a3cb3d016"
+    },
+    {
+      "id": "evo-publica",
+      "start": 7978,
+      "anchor": "O terceiro e último período",
+      "end": 8434,
+      "text": "O terceiro e último período concerne à vingança pública, que carrega em seu bojo ainda os resquícios da fase religiosa, todavia, passa a ter como protagonista o monarca. Nesse sentido, Cezar Roberto Bitencourt (2009, p. 31), explica que “a primeira finalidade reconhecida desta fase era garantir a segurança do soberano, por meio da aplicação da sanção penal, ainda que dominada pela crueldade e desumanidade, característica do direito criminal da época”.",
+      "sha256": "42069eba740b0c83c3c3be23a041418a813310a75e8184cdbfa354e31497c2cd"
+    },
+    {
+      "id": "evo-humanitario",
+      "start": 8434,
+      "anchor": "Como resposta direta à barbárie",
+      "end": 8852,
+      "text": "Como resposta direta à barbárie do período de vingança pública, surge o chamado Período Humanitário, século XVIII. Influenciado pelo Iluminismo, critica-se a crueldade e o arbítrio das penas. Pensadores como Cesare Beccaria, com 'Dos Delitos e das Penas', defendem a humanização das penas, a proporcionalidade, a legalidade, a publicidade e a moderação. A pena deve ter finalidade preventiva e não apenas retributiva.",
+      "sha256": "3734dee73c811551a95175928d380d3f762ee5dab8cf8c9f322dd7fe9ce6a4f3"
+    },
+    {
+      "id": "evo-cientifico",
+      "start": 8852,
+      "anchor": "Depois, surge o Período Científico",
+      "end": 9094,
+      "text": "Depois, surge o Período Científico, século XIX em diante. Este período marca a busca por uma compreensão mais racional e científica do crime e do criminoso, dividindo-se entre a Escola Clássica e a Positivista, e posteriormente as ecléticas.",
+      "sha256": "0caa8d7a786f5fa57ee7bd6a257b5b2aa4ca74033824952e959882403d8161b4"
+    },
+    {
+      "id": "evo-transicao",
+      "start": 9094,
+      "anchor": "Aprofundando...",
+      "end": 9181,
+      "text": "Aprofundando... ATENÇÃO, concurseiros!! Tema que cai bastante em criminologia também!!",
+      "sha256": "41e2212739a5c3d20a239130d80d0b340c2850e453c567b8028e6e2dbdfcd4d2"
+    },
+    {
+      "id": "escola-classica",
+      "start": 9181,
+      "anchor": "A Escola Clássica,",
+      "end": 9846,
+      "text": "A Escola Clássica, como aponta seu documento, surge como uma consolidação e aprofundamento dos princípios humanitários. Ela se baseia no livre-arbítrio, ou seja, na ideia de que o ser humano é um agente moral capaz de fazer escolhas. O crime, para os clássicos, é um \"ente jurídico\", uma violação da lei moral e jurídica, e é resultado da vontade livre do indivíduo. A pena tem um caráter essencialmente retributivo, como um \"pagamento\" pelo mal causado, devendo ser proporcional ao delito. Francesco Carrara é um dos seus maiores expoentes, defendendo o princípio da legalidade (não há crime nem pena sem lei anterior), a culpabilidade e a responsabilidade moral.",
+      "sha256": "a57ad004e64fbb041a627e6a4b2102e880dd581804aa444cb6bb04868ef40c93"
+    },
+    {
+      "id": "escola-positiva",
+      "start": 9846,
+      "anchor": "A Escola Positivista",
+      "end": 10262,
+      "text": "A Escola Positivista aplica métodos das ciências naturais ao estudo do crime e do criminoso. Nega o livre-arbítrio, vendo o crime como um fenômeno determinado por fatores biológicos, psicológicos e sociais. O foco passa do crime para o criminoso, que é perigoso e necessita de tratamento. A pena é uma medida de defesa social, visando à readaptação. Representantes: Cesare Lombroso, Enrico Ferri, Raffaele Garofalo.",
+      "sha256": "963a8af670dea0de40cd83d6fd1ebf0b1e97ba52fff11b73c6523d1d98fa8af8"
+    },
+    {
+      "id": "escola-ecletica",
+      "start": 10262,
+      "anchor": "Já as Escolas Ecléticas",
+      "end": 10598,
+      "text": "Já as Escolas Ecléticas (ou Terza Scuola) buscam conciliar os aspectos positivos da Escola Clássica e da Positivista. Admitem a responsabilidade moral do indivíduo (livre-arbítrio) mas consideram a importância dos fatores sociais e biológicos na gênese do crime. A pena tem caráter retributivo, mas também preventivo e ressocializador.",
+      "sha256": "352abb3b8218585142956126270b493d793d4cb12d49746f0d8a1ba9d6253157"
+    },
+    {
+      "id": "evo-contemporaneo",
+      "start": 10598,
+      "anchor": "Período Contemporâneo:",
+      "end": 10948,
+      "text": "Período Contemporâneo: Caracterizado pela constitucionalização do Direito Penal, buscando conciliar a eficácia do sistema com a proteção dos direitos fundamentais. A pena assume um papel multifuncional, com ênfase na ressocialização. Debates sobre minimalismo penal, expansionismo penal, direito penal do inimigo e a busca por alternativas à prisão.",
+      "sha256": "fb312508d06aae6dd3200eec069697fac791be11876ed82573ae86593f398b3b"
+    },
+    {
+      "id": "evo-brasil",
+      "start": 10948,
+      "anchor": "No que concerne à evolução",
+      "end": 11559,
+      "text": "No que concerne à evolução do tema no campo do Brasil, antes de se tornar colônia de Portugal, o país vivia sob a égide dos ensinamentos dos mais velhos. Logo, os ensinamentos e regras de convívio social eram transmitidos através das gerações e a punição se dava pela vingança privada, como exposto acima. Após a colonização, foram empregadas as regras vigentes em Portugal, ou seja, vigoraram no Brasil as Ordenações Afonsinas que posteriormente foram substituídas pelas Ordenações Manuelinas e logo após as Ordenações Filipinas (BITENCOURT, Cezar Roberto. Novas penas alternativas. São Paulo: Saraiva, 1999).",
+      "sha256": "00ec12260be3f285d0194a2686f7976bd501eba23a56deb3121f4c1ef6b2ebaf"
+    },
+    {
+      "id": "prova-ce",
+      "start": 11559,
+      "anchor": "Caiu em prova Delegado PC/CE 2025!",
+      "end": 11938,
+      "text": "Caiu em prova Delegado PC/CE 2025! Em relação às escolas penais e a sua evolução histórica e metodológica, assinale a opção correta. A terceira escola, também chamada de escola eclética, buscou superar o antagonismo entre as escolas clássica e positiva, mantendo a estrutura dogmática da imputabilidade e introduzindo as medidas de segurança para os inimputáveis. (item correto)",
+      "sha256": "f1d707f192e3eef48389081f37c2ff301d3b28b41ddf8c817c735a530bb81471"
+    },
+    {
+      "id": "func-intro",
+      "start": 11938,
+      "anchor": "e) FUNÇÕES DO DIREITO PENAL:",
+      "end": 12048,
+      "text": "e) FUNÇÕES DO DIREITO PENAL: Na atualidade, a doutrina divide a missão do direito penal em duas, quais sejam:",
+      "sha256": "c35d852b5db90abd3e3a8c2babcd2431f0274eeaac56b5650412046db1e2cb68"
+    },
+    {
+      "id": "func-mediata",
+      "start": 12048,
+      "anchor": "a) Missão mediata:",
+      "end": 12668,
+      "text": "a) Missão mediata: Instrumento de Controle Social ou de preservação da paz pública (Papel intimidador); Limitação ao poder de punir estatal ou Função de Garantia – garantia dos cidadãos contra o arbítrio estatal, vez que só podem ser punidos por atos previstos como infração penal e por pena também determinada em lei. Para Franz Von Liszt “o Código Penal é a Magna Carta do delinquente”. Se, de um lado, o Estado controla o cidadão, impondo-lhe limites para a vida em sociedade, de outro lado, é necessário também limitar o seu próprio poder de controle, evitando a punição abusiva (fugindo da hipertrofia da punição).",
+      "sha256": "654eb48a4198df4c3ce031bbc6d625a6d1331e2cbee144a2fe874bf81bbf54ef"
+    },
+    {
+      "id": "func-imediata",
+      "start": 12668,
+      "anchor": "b) Missão imediata:",
+      "end": 12829,
+      "text": "b) Missão imediata: Aqui, é necessário lembrar do funcionalismo penal, que trará as duas correntes de mais destaque acerca do tema (anote esses nomes na testa):",
+      "sha256": "69d9912427af0a493bfa993c2c415d1cfc4c1f2394e4443f4fa15a7e13e3d499"
+    },
+    {
+      "id": "func-roxin",
+      "start": 12829,
+      "anchor": "Funcionalismo teleológico (moderado)",
+      "end": 13320,
+      "text": "Funcionalismo teleológico (moderado) – Claus Roxin (Predomina) A missão do Direito Penal é a proteção dos bens jurídicos mais relevantes; Se a proteção de determinado bem jurídico não é indispensável ao indivíduo e à manutenção da sociedade, não deve incidir o direito penal, mas outros ramos do direito; Para Roxin, o Direito Penal não veio para trazer valores éticos, morais; Ele entende que essa seria a função exclusiva; É chamado teleológico porque busca a finalidade do direito penal.",
+      "sha256": "47567cec9522b94bb67f380b61efab705ec44563e03039d41809461b23ae26fb"
+    },
+    {
+      "id": "prova-sp",
+      "start": 13320,
+      "anchor": "Caiu em prova Delegado SP/2023!",
+      "end": 13448,
+      "text": "Caiu em prova Delegado SP/2023! A função do direito penal é proteger bens jurídicos relevantes para a sociedade (item correto).",
+      "sha256": "a2e25fa040fcaa518a08c2ffd3457cdb7007c7baad73193790a73c006b901f67"
+    },
+    {
+      "id": "func-jakobs",
+      "start": 13448,
+      "anchor": "Funcionalismo sistêmico (radical)",
+      "end": 14851,
+      "text": "Funcionalismo sistêmico (radical) – Günter Jakobs A missão do Direito Penal é assegurar a vigência do sistema, protegendo o império da norma; Ele discorda de Roxin por entender que, quando o indivíduo é punido pela infração penal praticada, o bem jurídico já foi violado, ou seja, não está protegido, não sendo esta, portanto, a função do direito penal. Sua função seria a de demonstrar que a norma continua vigorando e deve ser obedecida; Assim, “o bem não deve ser representado como um objeto físico ou algo do gênero, e sim, como norma, como expectativa garantida”. (Direito Penal e Funcionalismo, 2005, p. 33-34); E, ainda, entende ele que quem deliberada e reiteradamente viola a lei penal, de forma grave e duradoura, deve ser tratado como “não-cidadão”, como inimigo da sociedade, por não cumprir sua função no corpo social, não fazendo jus às garantias previstas pela norma a qual tal sujeito infringe; Ao delinquente-cidadão, seria aplicado o direito penal do cidadão, ao passo que ao delinquente inimigo, seria aplicado o Direito Penal do Inimigo; Essa vertente do direito penal também visa combater o próprio indivíduo que adota a postura de quem se desviou da ordem jurídica de modo virtualmente duradouro. Para isso, a meta é eliminar o risco que essa pessoa traz, castigando-a antes mesmo de ela cometer novos atos, ou seja, é uma punição que olha para o futuro e age de forma preventiva.",
+      "sha256": "063edb25bdba66d97761ea32087448d593a4be22427b33cc3e2298b2015d6519"
+    },
+    {
+      "id": "func-tabela",
+      "start": 14851,
+      "anchor": "APROFUNDANDO: vamos a uma tabelinha",
+      "end": 16312,
+      "text": "APROFUNDANDO: vamos a uma tabelinha com mais características das duas vertentes do funcionalismo para fixar as diferenças? FUNCIONALISMO PENAL FUNCIONALISMO TELEOLÓGICO (Características: Moderado, dualista, de política criminal ou racional teleológico) ROXIN Finalidade do Direito Penal: proteção de bens jurídicos indispensáveis. Não veio para trazer valores éticos, morais; Moderado: o direito penal tem limites impostos pelo próprio direito penal e demais ramos do direito; Dualista: convive em harmonia com os demais ramos do Direito. Reconhece o sistema jurídico em geral; De política criminal: aplica a lei de acordo com os anseios da sociedade. Se adapta à sociedade em que ele se insere; Racional teleológico: movido pela razão e em busca de sua finalidade. FUNCIONALISMO SISTÊMICO (Características: Radical, monista e sistêmico) JAKOBS Finalidade do Direito Penal: é a proteção das normas penais, assegurar o império da norma. É punir. Aplicar a lei; Direito Penal do Inimigo A sociedade que deve se ajustar ao Direito Penal; Para ele, o Direito Penal é: - Radical: só reconhece os limites impostos por ele mesmo; - Monista: é um sistema próprio de regras e de valores que independe dos demais; - Sistêmico: é autônomo (independe dos demais ramos), autorreferente (todas as referências e conceitos que precisa buscar do próprio direito penal) e se autoproduz; Quem viola reiterada e deliberadamente a norma = não- cidadão / inimigo = não tem direitos.",
+      "sha256": "5e7a3e12ae604282339957db3a711164c35b59109211d514698bf8d75f6d52cf"
+    },
+    {
+      "id": "func-outras",
+      "start": 16312,
+      "anchor": "Outras funções do Direito Penal (Masson):",
+      "end": 16354,
+      "text": "Outras funções do Direito Penal (Masson):",
+      "sha256": "39161540069f2250a42c62de2fcd458f8fac990a894fea71c8fb01f51f49ca46"
+    },
+    {
+      "id": "func-costumes",
+      "start": 16354,
+      "anchor": "Função criadora ou modificadora de costumes.",
+      "end": 16956,
+      "text": "Função criadora ou modificadora de costumes. Disseminação ético-social de valores. Efeito “moralizador”. Visa garantir o mínimo ético que deve existir em toda coletividade: É uma função educativa, que visa estimular os cidadãos a se conscientizarem e protegerem bens que ainda não foram tidos pela sociedade como fundamentais (ex.: crimes contra o meio ambiente). Esta função é bastante discutida, pelo fato de a doutrina divergir se o estado deveria ou não se utilizar do direito penal como meio de educação. Há quem entenda que tal objetivo deve ser alcançado pela interação social e não por coação.",
+      "sha256": "07a488412f5c3a5da5fe13a98072e92d8467d1c685d9e01b3d1798cde035c644"
+    },
+    {
+      "id": "func-simbolica",
+      "start": 16956,
+      "anchor": "Simbólica –",
+      "end": 17819,
+      "text": "Simbólica – não produz efeitos externos, mas somente na mente dos cidadãos e governantes, sendo uma função inerente a todas as leis, não apenas ao Direito Penal; Enquanto os governados pensam que a contenção da criminalidade e as medidas necessárias para tanto estão sob o controle das autoridades, os governantes ficam com a sensação de terem feito algo e adiam a efetiva resolução do problema, retirando, ao longo do tempo, a credibilidade do direito penal. Geralmente é manifestada pelo “direito penal do terror”, que se apresenta de duas formas: Inflação legislativa (direito penal de emergência) – em que são criados tipos penais desnecessários para dar resposta a qualquer tipo de problema; Hipertrofia do Direito Penal – aumentando desproporcional e injustificadamente as penas em casos pontuais, como se isso, por si só, fosse impedir a prática do crime.",
+      "sha256": "03ef54dd314ab2b459f63aba13bcbbb8215ecc2e99de85971a7c6e8e53213eee"
+    },
+    {
+      "id": "prova-ro",
+      "start": 17819,
+      "anchor": "CAIU na prova de Delegado de Polícia PCRO/2022",
+      "end": 18715,
+      "text": "CAIU na prova de Delegado de Polícia PCRO/2022 e foi considerada a alternativa correta: “Ao tratar de determinada função do direito penal, Cleber Masson esclarece que esta é “inerente a todas as leis, não dizendo respeito somente às de cunho penal. Não produz efeitos externos, mas somente na mente dos governantes e dos cidadãos. (...) Manifesta-se, comumente, no direito penal do terror, que se verifica com a inflação legislativa (direito penal de emergência), criando-se exageradamente figuras penais desnecessárias, ou então com o aumento desproporcional e injustificado das penas para os casos pontuais (hipertrofia do direito penal).” O autor ainda conclui que a função deve ser afastada, pois cumpre funções governamentais, ou seja, tarefas que não podem ser atribuídas ao direito penal. No texto apresentado anteriormente, Cleber Masson está se referindo à função denominada SIMBÓLICA”.",
+      "sha256": "1df1e611a0f8c68be3bd078e42dfdbe2410650c1a5a66af40f4f342a059d62e4"
+    },
+    {
+      "id": "func-motivadora",
+      "start": 18715,
+      "anchor": "Motivadora de comportamento",
+      "end": 18892,
+      "text": "Motivadora de comportamento conforme a norma – a ameaça de imposição de sanções motiva os indivíduos a se comportarem de acordo com a lei, para que não sofram suas penalidades;",
+      "sha256": "cb205ce3cdb87547eaaa77df96ccd14338e83bed71ea5607b6e615089473faf6"
+    },
+    {
+      "id": "func-reducao",
+      "start": 18892,
+      "anchor": "Redução da violência estatal",
+      "end": 19075,
+      "text": "Redução da violência estatal – pois, embora legítima e necessária, a pena não deixa de ser uma agressão ao indivíduo, devendo, portanto, restringir-se aos casos necessários e legais.",
+      "sha256": "b9752f93f1afd6b6c1c6185aa471199c1114f078c435bfa4aa15568106e723b6"
+    },
+    {
+      "id": "func-promocional",
+      "start": 19075,
+      "anchor": "Promocional de transformação social",
+      "end": 19177,
+      "text": "Promocional de transformação social – auxiliando em mudanças que garantirão a evolução da comunidade.",
+      "sha256": "253c30cb5d4723e14b386df1350b6b97a9d8ca442cb8d465dd78d6e72c58b315"
+    },
+    {
+      "id": "class-titulo",
+      "start": 19177,
+      "anchor": "B) CLASSIFICAÇÕES DO DIREITO PENAL",
+      "end": 19212,
+      "text": "B) CLASSIFICAÇÕES DO DIREITO PENAL",
+      "sha256": "4ca6b51275229dab4f9d5129dc18467a0347346bac5921f7ed9e70d740f08bfe"
+    },
+    {
+      "id": "class-1",
+      "start": 19212,
+      "anchor": "1. Direito Penal Fundamental",
+      "end": 19594,
+      "text": "1. Direito Penal Fundamental (Primário): é o conjunto de normas e princípios do Direito Penal aplicáveis genericamente, inclusive às leis penais especiais. É composto pelas normas da Parte Geral do Código Penal e, excepcionalmente, algumas normas de amplo conteúdo previstas na Parte Especial, como os conceitos de domicílio (art. 150, §§ 4º e 5º) e funcionário público (art. 327);",
+      "sha256": "a39ff035abf3589dcb61c5aa2eff49174d86c9051f25bca4a5d331d940175fe9"
+    },
+    {
+      "id": "class-2",
+      "start": 19594,
+      "anchor": "2. Direito Penal Complementar",
+      "end": 19683,
+      "text": "2. Direito Penal Complementar (Secundário): corresponde à legislação penal extravagante;",
+      "sha256": "72efd0b7722359bade863a9d1f2fa0f3ebb1dae142fbabd268ad544fdfc270f0"
+    },
+    {
+      "id": "class-3",
+      "start": 19683,
+      "anchor": "3. Direito Penal Comum",
+      "end": 19804,
+      "text": "3. Direito Penal Comum: é o conjunto de normas penais aplicável indistintamente a todas as pessoas, como o Código Penal;",
+      "sha256": "6ab80b2e29bd4cd2ac4553a9f96b2d045f5a97cd09a86b391cecebbe004c3f0c"
+    },
+    {
+      "id": "class-4",
+      "start": 19804,
+      "anchor": "4. Direito Penal Especial",
+      "end": 20048,
+      "text": "4. Direito Penal Especial: é o conjunto de normas penais aplicável apenas a pessoas determinadas que preencham certas condições legais. São exemplos o Código Penal Militar e o Decreto-lei nº 201/1967 (crimes de responsabilidade dos prefeitos);",
+      "sha256": "ae42cc7590af740d758cb2b91f980a09cdfbce36ddf854e4d5c9b2c8529f6b4c"
+    },
+    {
+      "id": "class-5",
+      "start": 20048,
+      "anchor": "5. Direito Penal Geral",
+      "end": 20219,
+      "text": "5. Direito Penal Geral: é o conjunto de normas penais aplicáveis em todo o território nacional. Essas normas são produzidas privativamente pela União (art. 22, I, da CF);",
+      "sha256": "7c0770f9bd097f49aba9ddb1e2c84ea1822f264a4a779f85d1ae331adca49702"
+    },
+    {
+      "id": "class-6",
+      "start": 20219,
+      "anchor": "6. Direito Penal Local",
+      "end": 20542,
+      "text": "6. Direito Penal Local: é o conjunto de normas penais aplicáveis somente a determinada parte do território nacional. A existência dessas normas somente é possível se houver autorização da União por lei complementar para que os Estados legislem sobre questões específicas de Direito Penal (art. 22, parágrafo único, da CF);",
+      "sha256": "3c725f7f345cd90f241137894139918cf9d7dd4132a9fa9a1a1d65c99801b348"
+    },
+    {
+      "id": "class-7",
+      "start": 20542,
+      "anchor": "7. Direito Penal Objetivo",
+      "end": 20607,
+      "text": "7. Direito Penal Objetivo: é o conjunto de leis penais em vigor;",
+      "sha256": "4ead2a0a00b30f442ffce89641c3fceb382ece276a2b42cfba84fdff0ddce7e3"
+    },
+    {
+      "id": "class-8",
+      "start": 20607,
+      "anchor": "8. Direito Penal Subjetivo",
+      "end": 20750,
+      "text": "8. Direito Penal Subjetivo: é o direito de punir (ius puniendi), que pertence exclusivamente ao Estado e nasce quando uma lei penal é violada;",
+      "sha256": "0dd011b0caa03f7ff5d4b028fdc1b30db5bc528c04647263f407af1a8afaf3b6"
+    },
+    {
+      "id": "class-9",
+      "start": 20750,
+      "anchor": "9. Direito Penal Substantivo",
+      "end": 20859,
+      "text": "9. Direito Penal Substantivo: é o direito penal material, propriamente dito. É o que consta no Código Penal;",
+      "sha256": "f0c46f6111c3a8724d3d7a37b0ed869397c62894ce52e4504eaea695a5a991d0"
+    },
+    {
+      "id": "class-10",
+      "start": 20859,
+      "anchor": "10. Direito Penal Adjetivo",
+      "end": 20970,
+      "text": "10. Direito Penal Adjetivo: também chamado de “formal” (grave as nomenclaturas), é o direito processual penal.",
+      "sha256": "463c3c10136ef10cd7359ae2ecdde5596ad5ca00afed84bddffb528e06079d20"
+    },
+    {
+      "id": "intervencao",
+      "start": 20970,
+      "anchor": "#DICA DD: O Direito Penal de Intervenção",
+      "end": 21788,
+      "text": "#DICA DD: O Direito Penal de Intervenção (ou Direito Intervencionista), proposto por Hassemer, defende que o Direito Penal deve tutelar apenas bens jurídicos individuais (como vida e patrimônio) e infrações com perigo concreto. Crimes que protegem apenas bens jurídicos difusos, coletivos ou abstratos não deveriam ser infrações penais, mas regulados por um sistema intermediário, chamado Direito de Intervenção. Esse sistema, superior ao Direito Administrativo, mas inferior ao Direito Penal, aplicaria sanções mais brandas, sem privação de liberdade, mas ainda sob autoridade judicial, garantindo maior celeridade e efetividade. No Brasil, um exemplo seria a Lei de Improbidade Administrativa (Lei 8.429/92). A proposta enfrenta críticas sobre sua legitimidade e efetividade na proteção de bens coletivos e difusos.",
+      "sha256": "6fd59f91978876fdad575048054ab2f208c4b895cc12a066f48bb8d4656a4bba"
+    },
+    {
+      "id": "intervencao-sintese",
+      "start": 21788,
+      "anchor": "Em suma, o objetivo é transferir",
+      "end": 22106,
+      "text": "Em suma, o objetivo é transferir ilícitos, como os ambientais e econômicos, para um regime mais flexível e célere (o Direito de Intervenção), permitindo que sejam combatidos com sanções diversas, sem sobrecarregar o Direito Penal clássico e sem comprometer as garantias individuais reservadas ao seu núcleo mais grave.",
+      "sha256": "32ce33444c10aa1e5f106231f3de3c5758da79c9962d3aa362fbe52d51f3743d"
+    }
+  ]
+}

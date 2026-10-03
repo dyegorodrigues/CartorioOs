@@ -1,0 +1,76 @@
+{
+  "approval_scope": "Autorização de operação no GitHub; conteúdo e formato NÃO aprovados.",
+  "changes": [
+    {
+      "id": "dd-14",
+      "reason": "Corrigida a restrição da consequência penal à prisão: CP, arts. 32 e 96. Mantida a explicação de controle social."
+    },
+    {
+      "id": "dd-04",
+      "reason": "Restaurada a ligação entre os autores e o enfoque formal (lei e sanção); referência de Batista permanece no rodapé bibliográfico."
+    },
+    {
+      "id": "escola-classica",
+      "reason": "Removida apenas a expressão metatextual “como aponta seu documento”."
+    },
+    {
+      "id": "escola-ecletica",
+      "reason": "Corrigida a equivalência indiscriminada escolas ecléticas = Terza Scuola e o vínculo simplista ao livre-arbítrio. Horta e Romero, TRF1 2024, p. 91."
+    },
+    {
+      "id": "evo-transicao",
+      "reason": "Chamamento promocional substituído pelo subtítulo Escolas penais; sem conteúdo doutrinário suprimido."
+    },
+    {
+      "id": "func-tabela",
+      "reason": "Reorganização por critério, com as características de ambas as correntes. A fórmula “não tem direitos” recebe qualificação constitucional em 5.3, e não é reproduzida como regra brasileira. Rótulos radical/monista não significam poder penal brasileiro ilimitado."
+    },
+    {
+      "id": "func-imediata",
+      "reason": "Removido o chamamento “anote esses nomes na testa”; função de ponte mantida."
+    },
+    {
+      "id": "func-outras",
+      "reason": "Rótulo convertido nos subtítulos 5.4–5.6; autoria Masson mantida na referência de origem."
+    },
+    {
+      "id": "class-8",
+      "reason": "Explicitada a diferença entre poder punitivo em abstrato e pretensão relativa ao caso; evitar impressão de inexistência do poder legislativo penal antes do crime."
+    },
+    {
+      "id": "class-9",
+      "reason": "Corrigida leitura que restringia o Direito Penal material ao Código; inclui legislação especial."
+    },
+    {
+      "id": "intervencao",
+      "reason": "Texto-base mantido com ressalva de que se trata de proposta. Formulação “sob autoridade judicial” permanece como apresentação didática da fonte, com revisão doutrinária aprofundada pendente."
+    },
+    {
+      "id": "dd-41",
+      "reason": "Corrigida impropriedade textual: quem deve ser legítima é a criminalização, não a conduta ilícita."
+    },
+    {
+      "id": "dd-48",
+      "reason": "Retirada equivalência entre titular determinável e disponibilidade; a vida exemplifica a necessidade da ressalva."
+    },
+    {
+      "id": "dd-51",
+      "reason": "Substituída afirmação genérica de modinha por descrição do pequeno conjunto efetivamente examinado, sem inferir frequência estatística."
+    },
+    {
+      "id": "dd-53-b",
+      "reason": "Correção de concordância: autenticidade das moedas."
+    }
+  ],
+  "source_only_labels": [
+    "evo-transicao",
+    "func-outras",
+    "class-titulo"
+  ],
+  "pending": [
+    "Revisão doutrinária aprofundada do modelo de Hassemer, em especial autoridade judicial.",
+    "Cotejo oficial dos excertos SP/2023, RO/2022 e AM/2022.",
+    "Restante da amostra de 58 páginas e comparação integral com apostilas antigas.",
+    "Ampliação do banco por banca/ano: ainda não realizada nesta edição."
+  ]
+}

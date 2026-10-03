@@ -1,33 +1,42 @@
-# DD organizado — conceito, características e bens jurídicos
+# Direito Penal — capítulo inicial, v3 em revisão
 
-Edição v2, 03/10/2026. **Retorno posterior, 10h02 BRT: o usuário considerou a leitura confusa e incompleta; houve melhora visual parcial. Ver `DIAGNOSTICO_PEDAGOGICO_2026-10-03.md`, que corrige as alegações de preservação abaixo.** Corrige a mistura de numerações, a ausência de títulos visíveis e as referências editoriais repetidas apontadas pelo usuário. Foi avaliada pelo usuário e não foi aprovada como material autossuficiente. A amostra anterior `material/penal_inicio` permanece rejeitada.
+A autorização dada pelo usuário refere-se à operação no GitHub. **Conteúdo e formato não estão aprovados.** Esta edição substitui a v2 para avaliação; não apaga as críticas nem declara o curso pronto.
 
-## Conteúdo e organização
+## O que foi reconstruído
 
-O recorte foi construído a partir de 60 blocos da amostra teórica DD: seções a–c, PDF pp. 5–7; antiga seção 7.1.1, pp. 26–29. Não cobre toda a apostila de 58 páginas. A fonte normalizada, com 2.478 palavras, permanece intacta em `fonte.json`.
+A sequência agora abrange os seis assuntos do primeiro capítulo da amostra DD: conceito, características, objeto de proteção, evolução, funções e classificações (páginas 5–13). O aprofundamento sobre bens jurídicos das páginas 26–29 permanece depois do capítulo, recolhido inicialmente no HTML. A ligação entre as definições formais dos autores, omitida em dd-04, foi restaurada.
 
-`apresentacao.json` estabelece três assuntos e 18 unidades com uma única hierarquia. A antiga 7.1.1 foi incorporada a 3.3, depois das definições e dos limites constitucionais. As letras a/b/c e a numeração interna da origem deixaram de competir com os títulos. `destinos_editoriais.json` registra o destino dos 60 blocos, os trechos substantivos exibidos e cada prefixo editorial removido ou deslocado. Não se afirma preservação literal de cabeçalhos e metatexto: a maior parte das explicações selecionadas foi mantida; porém, a revisão posterior identificou em dd-04 a perda da explicação que classifica as definições dos autores como formais. Títulos, referências e comandos receberam tratamento editorial, e a validade desse tratamento precisa de conferência semântica.
+São 34 unidades numeradas e 18 perguntas autorais agrupadas, com respostas explicativas. Os destaques são escolhidos por passagem, não por substituição global de palavras. As tabelas comparam aspectos, autores, características, períodos, correntes e classificações. Normas aparecem nos assuntos correspondentes. Não foi importado conteúdo do Notion.
 
-Sete tabelas apresentam autores, aspectos formal/material/sociológico, características, resultado jurídico/ofensividade, objeto jurídico/material, bens individuais/coletivos e coletivos reais/aparentes. Lei seca, dicas e notas de precisão têm papéis e cores distintos. As páginas de origem aparecem discretamente nos títulos; as referências ficam recolhíveis no fim.
+As três questões completas da PF 2025 já presentes na base permanecem conectadas à teoria. A referência à PC/CE 2025, questão 22, foi conferida no caderno 084_PC_CE_001_01 e no gabarito definitivo: alternativa E. Reproduz-se apenas o excerto já existente no material fornecido, com link para a questão completa. Os excertos SP/2023, RO/2022 e AM/2022 continuam identificados como pendentes de cotejo integral.
 
-As fontes de conteúdo são a amostra teórica DD, o cotejo dos arts. 32 e 96 com DD Legis CP e legislação oficial, CF 22, I, e as autoridades identificadas nas notas. As pp. 38 e 81 do DD Legis foram lidas para localizar os artigos; sua jurisprudência adjacente não foi incorporada em bloco. Gran serviu como referência visual. Notion não foi importado para este recorte, nem se afirma fusão completa de teoria/Legis/Juris ou revisão integral das apostilas antigas.
+## Preservação e correções
 
-## Prática
+- `fonte.json` conserva os 60 blocos originais da seleção anterior.
+- `fonte_capitulo_1.json` registra a extração do capítulo inicial; o texto anterior ao título e o capítulo seguinte não entram no recorte.
+- `fonte_segmentos_v3.json` divide a porção acrescentada em 40 segmentos contíguos.
+- `destinos_editoriais_v3.json` aponta seus destinos; `decisoes_v3.json` justifica correções e identifica pendências.
+- `historico/v2` conserva o modelo, a revisão, o construtor e a verificação anteriores.
 
-`banco_questoes.json` separa três itens reais do texto de estudo: PF 2025, Delegado, itens 52/53/54, gabaritos definitivos E/C/E, confrontados com o caderno e o gabarito oficiais. Já constavam do DD; não são três questões novas acrescentadas ao material. A referência AM/2022 permanece abreviada e não entra na contagem de questões completas conferidas.
+Correções documentadas incluem a relação gênero/espécie das sanções, a Terza Scuola, a distinção entre descrição do Direito Penal do Inimigo e direito constitucional brasileiro, titularidade versus disponibilidade de bens individuais e uma impropriedade textual sobre legitimidade da criminalização. A nota sobre “modinha” foi substituída por uma descrição limitada às questões efetivamente usadas, sem inventar tendência estatística.
 
-`recuperacao.json` reúne 30 perguntas autorais mais delimitadas, com resposta esperada, elementos essenciais e retorno ao subtópico. São treino de recuperação, inclusive em voz alta; não são questões oficiais de prova oral nem instrumento validado de prontidão. As dificuldades são estimativas pedagógicas. A expansão do banco por banca/ano, o cotejo de alternativas e a preparação para todas as fases continuam pendentes.
+## Produção e conferência
 
-## Formatos e conferência
+Execute, nesta ordem, a partir da raiz do repositório:
 
-HTML autônomo: capítulos e lei seca recolhíveis; respostas ocultas; três itens C/E com correção; retorno ao trecho pertinente; impressão abre temporariamente o conteúdo e restaura o estado anterior. PDF estático: 11 páginas, sete tabelas e 29 marcadores de navegação. Os dois formatos derivam do mesmo modelo.
+```sh
+python3 material/dd_preservado/reconstruir_capitulo.py
+python3 material/dd_preservado/revisao_agrupada.py
+python3 material/dd_preservado/construir.py
+python3 material/dd_preservado/verificar.py
+```
 
-`verificar.py` conferiu o destino de todos os 60 blocos, a presença dos trechos declarados em `display_passages` nos dois formatos; essa seleção não é uma conferência semântica independente, a hierarquia, 75 vínculos internos, os três gabaritos e os limites do texto no PDF. Todas as páginas do PDF foram renderizadas e inspecionadas; tabelas, bens jurídicos, questões e recuperação também foram vistos em tamanho maior. Os controles JavaScript foram exercitados em ambiente simulado: abrir/fechar, retorno ao assunto, ausência/acerto/erro da resposta e abertura/restauração para impressão. Não houve validação visual do HTML em navegador real.
+O construtor usa ReportLab e DejaVu Sans; a verificação usa PyMuPDF. As saídas HTML e PDF derivam do mesmo modelo. O PDF tem 23 páginas e 54 marcadores. Todas as páginas foram inspecionadas visualmente, com ampliação de páginas representativas. Os controles de abrir/fechar, navegação por âncora, correção C/E e impressão foram exercitados em DOM simulado; **não houve validação visual em navegador**.
 
-O cotejo dos sumários e a fila de revisão estão em `MAPA_SUMARIO_E_COTEJO_2026-10-03.md`. A revisão jurídica integral e a suficiência para concursos não foram estabelecidas. As provas reservadas de avaliação não foram abertas.
+Os 213 trechos declarados para exibição estão presentes nas duas saídas. Esse teste verifica integridade de renderização; **não certifica completude semântica nem eficácia pedagógica**. O mapa de origem é o instrumento de cotejo e não substitui leitura crítica.
 
-## Reprodução e histórico
+## O que continua pendente
 
-Executar, em ordem, `organizar.py`, `revisar_perguntas.py`, `construir.py` e `verificar.py`. A construção não depende dos PDFs originais porque parte de `fonte.json`; `preparar.py` reproduz essa seleção quando eles estão disponíveis. HTML/PDF são gerados em `output/pdf/`, no workspace que contém o repositório.
+Revisão doutrinária aprofundada da apresentação do Direito de Intervenção, especialmente a referência a autoridade judicial; cotejo integral dos excertos de provas assinalados; restante da amostra de 58 páginas; comparação página a página com apostilas antigas; ampliação do banco por banca, ano e fase. Não há alegação de análise de todas as questões ou suficiência para gabaritar.
 
-`historico/` conserva o construtor, as perguntas e a verificação da v1. A hipótese do usuário continua sendo a regra: se a redação funciona, melhorar organização e apresentação sem reescrever por novidade. Alterações de conteúdo precisam de um motivo identificável e conferência da fonte.
+As versões HTML/PDF foram salvas mantendo a identidade dos arquivos existentes, agora na versão 2. Não houve publicação de site, merge ou alteração do Notion nesta rodada.

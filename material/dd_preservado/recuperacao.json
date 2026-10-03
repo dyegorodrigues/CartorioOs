@@ -3,405 +3,198 @@
     "id": "R01",
     "section": "conceito",
     "target": "conceito-definicao",
-    "level": "Muito fácil",
-    "kind": "authored_retrieval",
-    "question": "O que é Direito Penal?",
-    "answer": "É o conjunto de princípios e regras destinados a combater o crime e a contravenção penal, mediante a imposição de sanção penal.",
-    "essential_elements": [
-      "princípios e regras",
-      "crime e contravenção",
-      "sanção penal"
+    "level": "Fundamentos",
+    "question": "Como você definiria o Direito Penal e explicaria sua natureza pública? Onde entram crime, contravenção, pena e medida de segurança?",
+    "answer": [
+      "O **Direito Penal** reúne princípios e regras que definem infrações penais e disciplinam a resposta estatal. Abrange **crimes e contravenções penais**, aos quais se associam sanções previstas em lei. A expressão **sanção penal é o gênero**: penas e medidas de segurança são espécies. Portanto, não se deve empregar “pena” como se abrangesse toda e qualquer sanção penal.",
+      "É ramo do **Direito Público** porque envolve o poder estatal de punir e normas impostas no interesse público. Mesmo quando a infração atinge diretamente uma pessoa determinada, o Estado é considerado sujeito passivo mediato, pois a violação também afeta a ordem jurídica que ele deve proteger."
     ]
   },
   {
     "id": "R02",
     "section": "conceito",
-    "target": "conceito-sancoes",
-    "level": "Muito fácil",
-    "kind": "authored_retrieval",
-    "question": "Sanção penal é gênero ou espécie? Quais são suas espécies?",
-    "answer": "Sanção penal é gênero. Suas espécies são penas e medidas de segurança.",
-    "essential_elements": [
-      "gênero",
-      "penas",
-      "medidas de segurança"
+    "target": "conceito-aspectos",
+    "level": "Comparação",
+    "question": "O que muda quando o Direito Penal é definido pelos aspectos formal, material e sociológico? Como as definições de Liszt, Mezger, Welzel e Cirino se encaixam nessa comparação?",
+    "answer": [
+      "O aspecto **formal** descreve a estrutura normativa: quais comportamentos são infrações, quem são seus agentes e quais sanções lhes correspondem. O **material** destaca o conteúdo das condutas: sua gravidade e a afetação de bens indispensáveis à sociedade. O **sociológico** situa o Direito Penal entre os instrumentos de controle social, voltados à disciplina da convivência.",
+      "As definições dos quatro autores apresentadas no capítulo têm **enfoque formal**. Liszt liga o crime, como fato, à pena, como consequência. Mezger destaca as normas que regulam o poder punitivo, com o delito como pressuposto da pena. Welzel inclui as ações criminais e a vinculação a pena ou medida de segurança. Cirino reúne a definição dos crimes, a cominação de penas e a previsão de medidas de segurança. A comparação serve para reconhecer o enfoque e as diferenças de formulação, sem transformar cada autor em uma pergunta isolada."
     ]
   },
   {
     "id": "R03",
     "section": "conceito",
     "target": "conceito-sancoes",
-    "level": "Fácil",
-    "kind": "authored_retrieval",
-    "question": "Quais são as três vias do Direito Penal?",
-    "answer": "Primeira via: pena. Segunda via: medida de segurança. Terceira via: reparação do dano, como proposta doutrinária.",
-    "essential_elements": [
-      "pena",
-      "medida de segurança",
-      "reparação do dano"
+    "level": "Aplicação",
+    "question": "Explique as três vias e compare essa construção com os arts. 32 e 96 do Código Penal. Toda resposta penal envolve prisão?",
+    "answer": [
+      "Na formulação doutrinária estudada, **pena é a primeira via**, **medida de segurança é a segunda** e **reparação do dano é a terceira**. Essa organização descreve modelos de resposta ao delito; a terceira via, associada à reparação e reconciliação, não acrescenta uma espécie ao rol de penas do art. 32.",
+      "O **art. 32** enumera penas privativas de liberdade, restritivas de direitos e multa. O **art. 96** trata de internação e tratamento ambulatorial como medidas de segurança. Assim, !!sanção penal não é sinônimo de prisão!!. Na ideia de controle social, o Direito Penal é a resposta mais severa, acionada como “soldado de reserva”, mas continua limitado pelas hipóteses e consequências previstas no ordenamento."
     ]
   },
   {
     "id": "R04",
-    "section": "conceito",
-    "target": "conceito-sancoes",
-    "level": "Médio",
-    "kind": "authored_retrieval",
-    "question": "A terceira via acrescenta uma espécie de pena ao art. 32 do CP?",
-    "answer": "Não. A terceira via é uma proposta doutrinária. O art. 32 prevê penas privativas de liberdade, restritivas de direitos e multa.",
-    "essential_elements": [
-      "proposta doutrinária",
-      "rol do art. 32"
+    "section": "caracteristicas",
+    "target": "caracteristicas-quadro",
+    "level": "Compreensão",
+    "question": "Por que o Direito Penal é uma ciência cultural, normativa, valorativa e finalista? Explique a relação entre esses atributos.",
+    "answer": [
+      "É **ciência** porque suas normas e princípios formam um conjunto organizado, estudado pela dogmática jurídico-penal. É **cultural** porque trabalha com padrões de conduta — o “dever ser” —, e **normativa** porque tem a lei penal positiva como objeto central. É **valorativa** porque seleciona e hierarquiza interesses segundo critérios e princípios, em vez de funcionar como uma operação matemática.",
+      "É **finalista**, nesse quadro, porque sua atividade se orienta à proteção de bens jurídicos fundamentais: existe uma finalidade prática. Esse uso da palavra não equivale à **teoria finalista da ação de Welzel**. A primeira afirmação descreve uma característica do ramo jurídico; a segunda nomeia uma teoria sobre a ação humana."
     ]
   },
   {
     "id": "R05",
-    "section": "conceito",
-    "target": "conceito-definicao",
-    "level": "Fácil",
-    "kind": "authored_retrieval",
-    "question": "Por que o Direito Penal é ramo do Direito Público?",
-    "answer": "Porque suas normas são indisponíveis, impostas e dirigidas a todas as pessoas; o Estado é titular do direito de punir.",
-    "essential_elements": [
-      "normas indisponíveis",
-      "Estado titular do direito de punir"
+    "section": "caracteristicas",
+    "target": "caracteristicas-quadro",
+    "level": "Distinção",
+    "question": "O que significam natureza predominantemente sancionatória e caráter fragmentário? Por que os termos “predominantemente” e “fragmentário” são importantes?",
+    "answer": [
+      "O Direito Penal é **predominantemente sancionatório** porque acrescenta proteção penal a bens já disciplinados em outros ramos. A palavra “predominantemente” deixa espaço para atuação **constitutiva**, quando protege interesses ainda não regulados por outras áreas. Ser sancionador não significa que só existam penas de prisão.",
+      "É **fragmentário** porque seleciona os interesses mais relevantes e as ofensas que justificam intervenção penal, em vez de punir toda conduta inconveniente ou todo ilícito. Logo, reconhecer a importância de um interesse não basta, por si só, para justificar qualquer criminalização ou qualquer intensidade de pena."
     ]
   },
   {
     "id": "R06",
-    "section": "conceito",
-    "target": "conceito-definicao",
-    "level": "Fácil",
-    "kind": "authored_retrieval",
-    "question": "O Estado deixa de ser sujeito passivo quando a infração atinge diretamente um particular?",
-    "answer": "Não. O Estado figura como sujeito passivo das infrações penais, ao menos de forma mediata.",
-    "essential_elements": [
-      "sujeito passivo",
-      "forma mediata"
+    "section": "bens",
+    "target": "bens-constituicao",
+    "level": "Compreensão",
+    "question": "O que é um bem jurídico e como a Constituição orienta e limita a escolha dos bens protegidos pelo Direito Penal?",
+    "answer": [
+      "O **bem jurídico** é o interesse ou valor relevante para o desenvolvimento da pessoa ou para a vida coletiva que recebe proteção do Direito. Não se resume a um objeto físico: vida, liberdade e meio ambiente ilustram interesses protegidos. Sua relevância oferece fundamento à proteção e, ao mesmo tempo, limita o poder punitivo.",
+      "A Constituição exerce uma função **positiva**, ao indicar valores e estabelecer mandados de criminalização, e uma função **limitadora**, ao impedir que a atividade legislativa viole direitos fundamentais. Por isso, o legislador não tem liberdade ampla e irrestrita para escolher qualquer objeto de criminalização. O aprofundamento ao final retoma as distinções entre objeto jurídico, objeto material e bens coletivos."
     ]
   },
   {
     "id": "R07",
-    "section": "conceito",
-    "target": "conceito-autores",
-    "level": "Médio",
-    "kind": "authored_retrieval",
-    "question": "Como Liszt relaciona crime e pena em sua definição formal?",
-    "answer": "As prescrições emanadas do Estado ligam o crime, como fato, às penas, como consequência.",
-    "essential_elements": [
-      "prescrições estatais",
-      "crime como fato",
-      "pena como consequência"
+    "section": "evolucao",
+    "target": "evolucao-vingancas",
+    "level": "Sequência",
+    "question": "Reconstrua o percurso das vinganças privada, divina e pública até os períodos humanitário e científico. O que muda na justificativa da punição?",
+    "answer": [
+      "Na **vingança privada**, a reação parte da vítima ou de seu grupo e tende à desproporção. Na **divina**, a punição é associada à religião, aplicada por sacerdotes e justificada pela purificação. Na **pública**, o monarca assume o protagonismo e a sanção protege também a segurança do soberano, ainda sob forte crueldade.",
+      "O **período humanitário**, ligado ao Iluminismo do século XVIII e a Beccaria, reage ao arbítrio e defende humanidade, proporcionalidade, legalidade, publicidade e moderação das penas. O **período científico**, a partir do século XIX, amplia o debate sobre crime e criminoso e dá lugar ao confronto entre escolas. Essa sequência é uma ferramenta didática; não exige supor que todas as sociedades tenham passado por fases estanques e idênticas."
     ]
   },
   {
     "id": "R08",
-    "section": "conceito",
-    "target": "conceito-autores",
-    "level": "Médio",
-    "kind": "authored_retrieval",
-    "question": "Quais são o pressuposto e a consequência na definição de Mezger?",
-    "answer": "O delito é o pressuposto; a pena é a consequência. As normas jurídicas regulam o exercício do poder punitivo estatal.",
-    "essential_elements": [
-      "delito como pressuposto",
-      "pena como consequência",
-      "poder punitivo estatal"
+    "section": "evolucao",
+    "target": "evolucao-escolas",
+    "level": "Comparação",
+    "question": "Compare as escolas Clássica, Positiva e eclética quanto ao fundamento da responsabilidade, ao foco de estudo e à resposta ao delito.",
+    "answer": [
+      "A **Clássica**, representada por Carrara, trabalha com livre-arbítrio e responsabilidade moral. O crime é ente jurídico e a pena tem sentido retributivo e proporcional. A **Positiva**, ligada a Lombroso, Ferri e Garofalo, usa métodos das ciências naturais, enfatiza fatores biológicos, psicológicos e sociais e desloca o foco para o criminoso e sua periculosidade. A resposta é pensada como defesa social e readaptação.",
+      "Entre as tendências **ecléticas**, a Terza Scuola procura conciliar responsabilidade e periculosidade mediante penas e medidas de segurança. Na PC/CE 2025, a alternativa correta destaca a conservação da imputabilidade e a introdução de medidas de segurança para inimputáveis. A distinção decisiva é compreender essa combinação, sem atribuir à Escola Positiva o livre-arbítrio clássico."
     ]
   },
   {
     "id": "R09",
-    "section": "conceito",
-    "target": "conceito-autores",
-    "level": "Médio",
-    "kind": "authored_retrieval",
-    "question": "Que consequências jurídicas aparecem na definição de Welzel?",
-    "answer": "A parte do ordenamento que determina as ações de natureza criminal vincula a elas uma pena ou medida de segurança.",
-    "essential_elements": [
-      "ações de natureza criminal",
-      "pena ou medida de segurança"
+    "section": "evolucao",
+    "target": "evolucao-contemporanea",
+    "level": "Conexão",
+    "question": "Quais preocupações marcam o período contemporâneo e qual sequência de ordenações aparece no recorte brasileiro?",
+    "answer": [
+      "O período contemporâneo é marcado pela **constitucionalização do Direito Penal**, pela proteção dos direitos fundamentais e pelo debate sobre funções da pena, ressocialização, minimalismo, expansão penal e alternativas à prisão. Essas preocupações conectam a história às discussões atuais sobre limites do poder de punir.",
+      "No recorte colonial apresentado, a sequência é **Ordenações Afonsinas, Manuelinas e Filipinas**. Esse trecho não representa toda a história penal brasileira. A descrição genérica de costumes anteriores à colonização também deve ser lida com cuidado, pois não resume a diversidade das sociedades indígenas."
     ]
   },
   {
     "id": "R10",
-    "section": "conceito",
-    "target": "conceito-autores",
-    "level": "Médio",
-    "kind": "authored_retrieval",
-    "question": "Quais três operações aparecem na definição de Cirino dos Santos?",
-    "answer": "Definir crimes, cominar penas e prever medidas de segurança aplicáveis aos autores das ações incriminadas.",
-    "essential_elements": [
-      "definir crimes",
-      "cominar penas",
-      "prever medidas de segurança"
+    "section": "funcoes",
+    "target": "funcoes-mediatas",
+    "level": "Compreensão",
+    "question": "Quais são as missões mediatas do Direito Penal? Como ele pode controlar o cidadão e, ao mesmo tempo, proteger o cidadão contra o Estado?",
+    "answer": [
+      "Uma missão é o **controle social**, com preservação da paz pública e intimidação de condutas proibidas. A outra é a **função de garantia**, que limita o poder estatal de punir. As normas penais, portanto, não dirigem limites apenas ao cidadão; também estabelecem condições que o Estado precisa respeitar.",
+      "O **princípio da legalidade** concretiza essa garantia: não há crime sem lei anterior que o defina nem pena sem prévia cominação legal. A frase de Liszt sobre o Código Penal como “Magna Carta do delinquente” exprime essa proteção contra punições arbitrárias. Ela não significa aprovação do delito, mas submissão da resposta estatal a limites jurídicos."
     ]
   },
   {
     "id": "R11",
-    "section": "conceito",
-    "target": "conceito-aspectos",
-    "level": "Fácil",
-    "kind": "authored_retrieval",
-    "question": "O que o aspecto formal do Direito Penal considera?",
-    "answer": "O conjunto de normas que qualifica comportamentos como infrações penais, define agentes e fixa sanções.",
-    "essential_elements": [
-      "normas",
-      "infrações",
-      "agentes",
-      "sanções"
+    "section": "funcoes",
+    "target": "funcoes-imediatas",
+    "level": "Comparação",
+    "question": "Compare a missão imediata do Direito Penal em Roxin e Jakobs. Explique os nomes teleológico e sistêmico e o cuidado necessário ao estudar o Direito Penal do Inimigo.",
+    "answer": [
+      "Em **Roxin**, o Direito Penal se orienta à proteção de bens jurídicos indispensáveis. É teleológico porque parte de uma finalidade e é apresentado como moderado, dualista e aberto à política criminal. A criminalização não serve simplesmente para impor moral ou ética.",
+      "Em **Jakobs**, a ênfase está na **vigência da norma** e na estabilização das expectativas normativas: a pena reafirma a validade da norma violada. A corrente é chamada sistêmica e descrita como radical e monista. A teoria do **Direito Penal do Inimigo**, também associada ao autor, distingue cidadão e inimigo e admite antecipação da reação e redução de garantias. Estudar essa tese não autoriza tratá-la como regra que elimina direitos fundamentais no Brasil; a Constituição continua limitando a atuação estatal."
     ]
   },
   {
     "id": "R12",
-    "section": "conceito",
-    "target": "conceito-aspectos",
-    "level": "Fácil",
-    "kind": "authored_retrieval",
-    "question": "O que o aspecto material do Direito Penal considera?",
-    "answer": "Comportamentos altamente reprováveis ou danosos que afetam bens jurídicos indispensáveis à conservação e ao progresso da sociedade.",
-    "essential_elements": [
-      "reprovabilidade ou dano",
-      "bens jurídicos indispensáveis"
+    "section": "funcoes",
+    "target": "funcoes-simbolica",
+    "level": "Aplicação",
+    "question": "Uma lei eleva penas de forma desproporcional para transmitir a sensação de que a criminalidade está sob controle. Qual função aparece? Diferencie-a da função educativa e das demais funções estudadas.",
+    "answer": [
+      "A situação expressa a **função simbólica**: a medida produz sensação de resposta, mas pode adiar o enfrentamento efetivo do problema. O aumento desproporcional corresponde à **hipertrofia**; a criação excessiva de tipos desnecessários corresponde à **inflação legislativa**, também associada ao Direito Penal de emergência.",
+      "A função **criadora ou modificadora de costumes** busca conscientizar e disseminar valores, mas é controvertida porque a educação social não se confunde com coação penal. A função **motivadora** se apoia na ameaça de sanção para estimular conformidade à norma. A de **redução da violência estatal** limita a própria pena aos casos necessários e legais. A **promocional** é apresentada como auxílio à transformação social. Essas classificações descrevem papéis distintos, e não uma autorização irrestrita para criminalizar."
     ]
   },
   {
     "id": "R13",
-    "section": "conceito",
-    "target": "conceito-aspectos",
-    "level": "Fácil",
-    "kind": "authored_retrieval",
-    "question": "O que o aspecto sociológico do Direito Penal considera?",
-    "answer": "O Direito Penal como instrumento de controle social de comportamentos desviados, destinado à disciplina e à convivência social.",
-    "essential_elements": [
-      "controle social",
-      "comportamentos desviados"
+    "section": "classificacoes",
+    "target": "class-sistema",
+    "level": "Comparação",
+    "question": "Como distinguir Direito Penal fundamental e complementar, comum e especial? Explique por que são classificações diferentes.",
+    "answer": [
+      "O par **fundamental/complementar** considera a posição e o alcance das normas: o fundamental reúne princípios e regras de aplicação geral, sobretudo da Parte Geral do CP e, excepcionalmente, conceitos da Parte Especial, como domicílio e funcionário público. O complementar corresponde à legislação penal extravagante.",
+      "O par **comum/especial** considera os destinatários: o comum aplica-se indistintamente às pessoas; o especial exige condições legais específicas, como no Código Penal Militar e nos crimes de prefeitos do Decreto-lei 201/1967. Uma lei estar fora do Código Penal não basta, nesse critério, para concluir que seus destinatários formam necessariamente um grupo especial."
     ]
   },
   {
     "id": "R14",
-    "section": "conceito",
-    "target": "conceito-nomenclatura",
-    "level": "Muito fácil",
-    "kind": "authored_retrieval",
-    "question": "Qual expressão o art. 22, I, da Constituição emprega?",
-    "answer": "Direito Penal. O dispositivo atribui à União a competência privativa para legislar sobre essa matéria.",
-    "essential_elements": [
-      "Direito Penal",
-      "União",
-      "competência privativa"
+    "section": "classificacoes",
+    "target": "class-territorio",
+    "level": "Aplicação",
+    "question": "Direito Penal geral e local se distinguem de objetivo e subjetivo e de substantivo e adjetivo. Explique cada par e diga se um Estado pode legislar livremente sobre Direito Penal.",
+    "answer": [
+      "**Geral/local** considera o âmbito territorial. A regra constitucional é a competência privativa da União; lei complementar pode autorizar Estados a legislar sobre questões específicas. Portanto, não há autorização estadual genérica e independente.",
+      "**Objetivo/subjetivo** distingue o conjunto de normas penais do poder de punir do Estado. A infração faz surgir uma pretensão referente ao caso concreto. **Substantivo/adjetivo** distingue Direito Penal material e Direito Processual Penal. “Formal”, nessa última classificação, significa processual, enquanto “aspecto formal” na definição inicial se refere ao enfoque em normas, infrações e sanções."
     ]
   },
   {
     "id": "R15",
-    "section": "caracteristicas",
-    "target": "caracteristicas-quadro",
-    "level": "Fácil",
-    "kind": "authored_retrieval",
-    "question": "Quais características são enumeradas por Masson?",
-    "answer": "Ciência, cultural, normativa, valorativa, finalista, predominantemente sancionatória e fragmentária.",
-    "essential_elements": [
-      "as sete características"
+    "section": "classificacoes",
+    "target": "class-intervencao",
+    "level": "Compreensão",
+    "question": "O que pretende a proposta de Direito de Intervenção de Hassemer? Como entender a referência à Lei de Improbidade sem confundi-la com o Direito Penal vigente?",
+    "answer": [
+      "A proposta procura reservar o núcleo penal à proteção de bens individuais e a situações de perigo concreto, deslocando parte da tutela de interesses coletivos para um **regime intermediário de intervenção**, com sanções menos severas e sem prisão. Busca conciliar efetividade, rapidez e preservação das garantias ligadas à intervenção penal mais grave.",
+      "A referência à **Lei de Improbidade Administrativa** é uma aproximação didática a uma resposta sancionatória sem privação de liberdade. A proposta não altera sozinha a legislação: não permite afirmar que crimes ambientais e econômicos deixaram de existir nem que sanção administrativa equivale a pena. Sua legitimidade e sua capacidade de proteger bens coletivos permanecem objeto de discussão."
     ]
   },
   {
     "id": "R16",
-    "section": "caracteristicas",
-    "target": "caracteristicas-quadro",
-    "level": "Médio",
-    "kind": "authored_retrieval",
-    "question": "Diferencie cultural, normativa e valorativa.",
-    "answer": "Cultural: ciência do dever ser. Normativa: estuda a lei penal, o Direito positivo. Valorativa: aplica uma escala de valores, segundo critérios e princípios próprios.",
-    "essential_elements": [
-      "dever ser",
-      "lei penal",
-      "escala de valores"
+    "section": "aprofundamento",
+    "target": "bens-objetos",
+    "level": "Fundamentos",
+    "question": "Diferencie bem jurídico, objeto material e resultado jurídico. Use o homicídio para explicar a diferença.",
+    "answer": [
+      "O **bem jurídico** é o interesse protegido: no homicídio, a vida humana. O **objeto material** é a pessoa ou coisa sobre a qual recai a conduta: nesse exemplo, a pessoa atingida. O valor protegido não deve ser confundido com seu suporte físico.",
+      "O **resultado jurídico** é a lesão ou exposição a perigo do bem tutelado. Na perspectiva da ofensividade, a legitimidade da punição pressupõe ofensa a bem jurídico-penal. Esse conceito é diferente de resultado naturalístico: o primeiro descreve a afetação jurídica do interesse protegido, e não apenas uma transformação observável no mundo físico."
     ]
   },
   {
     "id": "R17",
-    "section": "caracteristicas",
-    "target": "caracteristicas-finalista",
-    "level": "Médio",
-    "kind": "authored_retrieval",
-    "question": "A característica finalista e o finalismo de Welzel significam a mesma coisa?",
-    "answer": "Não. A característica indica a finalidade prática de proteção de bens jurídicos; o finalismo de Welzel diz respeito à teoria da ação.",
-    "essential_elements": [
-      "finalidade de proteção",
-      "teoria da ação"
+    "section": "aprofundamento",
+    "target": "bens-classificacao",
+    "level": "Comparação",
+    "question": "Diferencie bens individuais, coletivos reais e coletivos aparentes. Como evitar a ideia de que todo bem individual é disponível?",
+    "answer": [
+      "Os **individuais** têm titulares determináveis, como vida, integridade física e patrimônio. A titularidade individual não implica, por si só, livre disponibilidade: a vida é individual e isso não autoriza sua disposição irrestrita. Os **coletivos** pertencem à coletividade e se ligam às condições da vida social.",
+      "Na distinção doutrinária estudada, bens coletivos **reais**, como o meio ambiente, não são reduzidos a uma soma de bens individuais. Nos **aparentes**, a formulação coletiva encobre interesses individuais agregados; a incolumidade pública aparece como exemplo nessa corrente. A qualificação depende do referencial doutrinário empregado, por isso deve ser atribuída à corrente, como faz a questão 53 da PF 2025."
     ]
   },
   {
     "id": "R18",
-    "section": "caracteristicas",
-    "target": "caracteristicas-quadro",
-    "level": "Médio",
-    "kind": "authored_retrieval",
-    "question": "Por que a natureza sancionatória é predominante, e não exclusiva?",
-    "answer": "Em regra, acrescenta proteção penal a bens regulados por outros ramos. Pode ter natureza constitutiva ao proteger interesses não regulados por outras áreas.",
-    "essential_elements": [
-      "proteção adicional",
-      "natureza constitutiva possível"
-    ]
-  },
-  {
-    "id": "R19",
-    "section": "caracteristicas",
-    "target": "caracteristicas-quadro",
-    "level": "Fácil",
-    "kind": "authored_retrieval",
-    "question": "O que significa a característica fragmentária?",
-    "answer": "O Direito Penal tutela apenas os valores ou interesses mais importantes, e não todos eles.",
-    "essential_elements": [
-      "seleção",
-      "valores mais importantes"
-    ]
-  },
-  {
-    "id": "R20",
-    "section": "caracteristicas",
-    "target": "caracteristicas-quadro",
-    "level": "Fácil",
-    "kind": "authored_retrieval",
-    "question": "Em que sentido as regras e os princípios penais formam uma ciência?",
-    "answer": "Eles formam a dogmática jurídico-penal.",
-    "essential_elements": [
-      "regras e princípios",
-      "dogmática jurídico-penal"
-    ]
-  },
-  {
-    "id": "R21",
-    "section": "bens",
-    "target": "bens-definicao",
-    "level": "Fácil",
-    "kind": "authored_retrieval",
-    "question": "O que é bem jurídico?",
-    "answer": "É o interesse ou valor que a norma penal visa proteger, servindo de fundamento e limite ao poder punitivo.",
-    "essential_elements": [
-      "interesse ou valor",
-      "fundamento e limite"
-    ]
-  },
-  {
-    "id": "R22",
-    "section": "bens",
-    "target": "bens-constituicao",
-    "level": "Médio",
-    "kind": "authored_retrieval",
-    "question": "Quais são as duas funções da Constituição na seleção dos bens jurídicos?",
-    "answer": "Orientar o legislador na escolha dos valores indispensáveis, incluindo mandados de criminalização; impedir violações de direitos fundamentais.",
-    "essential_elements": [
-      "orientar a seleção",
-      "mandados de criminalização",
-      "limitar o legislador"
-    ]
-  },
-  {
-    "id": "R23",
-    "section": "bens",
-    "target": "bens-constituicao",
-    "level": "Médio",
-    "kind": "authored_retrieval",
-    "question": "Todo interesse constitucionalmente reconhecido exige automaticamente tutela penal?",
-    "answer": "Não. A tutela penal é excepcional, proporcional e criteriosa; não decorre automaticamente da presença de um valor na Constituição.",
-    "essential_elements": [
-      "ausência de automatismo",
-      "excepcionalidade",
-      "proporcionalidade"
-    ]
-  },
-  {
-    "id": "R24",
-    "section": "bens",
-    "target": "bens-protecao",
-    "level": "Médio",
-    "kind": "authored_retrieval",
-    "question": "Qual é a exigência do princípio da exclusiva proteção de bens jurídicos?",
-    "answer": "A criminalização legítima deve proteger um bem jurídico relevante contra lesão ou perigo de lesão.",
-    "essential_elements": [
-      "bem relevante",
-      "lesão ou perigo de lesão"
-    ]
-  },
-  {
-    "id": "R25",
-    "section": "bens",
-    "target": "bens-protecao",
-    "level": "Médio",
-    "kind": "authored_retrieval",
-    "question": "É suficiente criminalizar uma conduta apenas por contrariar uma convicção moral ou religiosa?",
-    "answer": "Não, à luz do princípio estudado. A criminalização precisa visar à proteção de um bem jurídico relevante, e não apenas de uma convicção moral ou religiosa.",
-    "essential_elements": [
-      "princípio da proteção exclusiva",
-      "bem jurídico relevante"
-    ]
-  },
-  {
-    "id": "R26",
-    "section": "bens",
-    "target": "bens-crime",
-    "level": "Médio",
-    "kind": "authored_retrieval",
-    "question": "O que é resultado jurídico?",
-    "answer": "É a lesão ou a exposição a perigo de lesão do bem jurídico protegido pela lei penal.",
-    "essential_elements": [
-      "lesão ou perigo",
-      "bem protegido"
-    ]
-  },
-  {
-    "id": "R27",
-    "section": "bens",
-    "target": "bens-objetos",
-    "level": "Fácil",
-    "kind": "authored_retrieval",
-    "question": "No homicídio, diferencie objeto jurídico e objeto material.",
-    "answer": "Objeto jurídico: vida humana, interesse protegido. Objeto material: o ser humano sobre o qual incide a conduta.",
-    "essential_elements": [
-      "vida humana",
-      "pessoa atingida"
-    ]
-  },
-  {
-    "id": "R28",
-    "section": "bens",
-    "target": "bens-classificacao",
-    "level": "Médio",
-    "kind": "authored_retrieval",
-    "question": "Diferencie bens individuais e coletivos, indicando os nomes equivalentes destes últimos.",
-    "answer": "Individuais: titulares determináveis. Coletivos, supraindividuais ou transindividuais: titulares indetermináveis, como meio ambiente e ordem econômica.",
-    "essential_elements": [
-      "titularidade",
-      "supraindividuais/transindividuais",
-      "exemplos"
-    ]
-  },
-  {
-    "id": "R29",
-    "section": "bens",
+    "section": "aprofundamento",
     "target": "bens-espiritualizacao",
-    "level": "Difícil",
-    "kind": "authored_retrieval",
-    "question": "O que são espiritualização ou liquefação dos bens jurídicos?",
-    "answer": "A tendência de proteção de interesses metaindividuais e de antecipação da tutela penal por crimes de perigo concreto ou abstrato.",
-    "essential_elements": [
-      "interesses metaindividuais",
-      "antecipação da tutela",
-      "crimes de perigo"
-    ]
-  },
-  {
-    "id": "R30",
-    "section": "bens",
-    "target": "bens-aparentes",
-    "level": "Difícil",
-    "kind": "authored_retrieval",
-    "question": "Na posição de Martinelli e Schmitt de Bem, o que distingue um bem coletivo real de um aparente?",
-    "answer": "O real não se reduz à soma de bens individuais. O aparente pode ocultar a ausência de um bem autônomo ou corresponder a uma soma de interesses individuais; a indeterminação também pode comprometer a função crítica.",
-    "essential_elements": [
-      "atribuição doutrinária",
-      "autonomia",
-      "soma de bens individuais",
-      "função crítica"
+    "level": "Conexão",
+    "question": "Como espiritualização ou liquefação dos bens jurídicos se relaciona com a antecipação da tutela? Qual cuidado isso exige na leitura de questões?",
+    "answer": [
+      "A **espiritualização ou liquefação** descreve a expansão da tutela para interesses metaindividuais e para condutas de perigo, inclusive crimes de perigo abstrato. A **antecipação** significa que a intervenção pode ocorrer antes de um dano efetivo ao interesse final protegido.",
+      "Isso exige distinguir o objeto tutelado, a técnica de incriminação e a corrente teórica adotada. Não se deve concluir que todo interesse coletivo é aparente ou que a tutela de perigo dispensa qualquer fundamento de legitimidade. Nos itens de prova, expressões como “segundo doutrinadores” e a oposição entre interesse individual e coletivo alteram a extensão da afirmação."
     ]
   }
 ]

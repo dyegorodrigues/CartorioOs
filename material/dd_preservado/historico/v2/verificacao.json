@@ -1,0 +1,22 @@
+{
+  "edition": "v2",
+  "source_blocks_mapped": 60,
+  "declared_display_passages_present_html_and_pdf": true,
+  "semantic_completeness_established": false,
+  "known_semantic_omission": "dd-04: formal definitions focus on law and sanction removed as editorial preface",
+  "pedagogical_review": "USER_FOUND_V2_CONFUSING_AND_INCOMPLETE",
+  "editorial_numbering_and_metadata_changes_traced": true,
+  "sections": 3,
+  "numbered_units": 18,
+  "comparison_tables": 7,
+  "authored_retrieval_questions": 30,
+  "real_exam_questions": 3,
+  "internal_links": 75,
+  "pdf_pages": 11,
+  "pdf_bookmarks": 29,
+  "browser_visual_validation": false,
+  "held_out_opened": false,
+  "full_booklet_review_complete": false,
+  "all_questions_sufficiency_established": false,
+  "pdf_sha256": "99efb91f6e4023a337742f444793cb942e795341683dc96af1e222303c4d2fef"
+}
