@@ -4,7 +4,7 @@
   "branch": "chatgpt/legal-tutor-os-core-2026-09-30",
   "phase": "DD_BASED_SOURCE_RECONCILIATION_AND_QUESTION_ALIGNMENT",
   "pilot": "Introducao ao Direito Penal",
-  "status": "TARGET_UNIVERSE_CREATED_DPERJ_TRF2_PCDF_2026_INGESTED_AT_CURRENT_SIGNAL_LEVEL",
+  "status": "BOUNDED_DD_PRESERVATION_EDITION_CREATED_GENERAL_COURSE_IN_PROGRESS",
   "notion": {
     "audit_page": "https://app.notion.com/p/3ec42424cdbc8164b737f35ad5c9b28e",
     "knowledge_map": "https://app.notion.com/p/3ec42424cdbc81829acece8a33db49c4",
@@ -33,7 +33,7 @@
     "TRF2 2026 FGV current negative direct-label signal in Penal objective block",
     "PC-DF 2026 official retified application date 05/07; 23 Penal items indexed as application-heavy; TEC secondary metadata still stale at 14/06"
   ],
-  "next_step": "EDIT_SOURCE_UNION_WITH_DD_DEPTH_FLOOR_AND_TOPIC_QUESTION_REQUIREMENTS",
+  "next_step": "CONTINUE_DD_EDITORIAL_REVIEW_AND_QUESTION_ALIGNMENT_TOPIC_BY_TOPIC",
   "priority_order": [
     "PC-DF 2026 CEBRASPE",
     "MPRJ 2026 FGV objective+discursive",
@@ -108,10 +108,27 @@
       "muito difícil"
     ],
     "coverage_claim": "This round compared DD sections a-c on PDF pages5-7; reread matching passages9-15,26-29 and CP3-4; no all-bank/all-question claim.",
-    "learning_material_state": "NOT_REBUILT_THIS_ROUND",
+    "learning_material_state": "BOUNDED_LITERAL_SOURCE_EDITION_CREATED_NOT_YET_USER_REVIEWED",
     "corpus_sufficiency": "NOT_ESTABLISHED",
     "held_out": "NOT_OPENED_OR_USED",
-    "next": "Edit the documented source union topic by topic, preserving minimum DD depth and enriching by demonstrated requirements. Research the topic corpus in parallel with editing; whole multi-career universe closure is not a prerequisite for bounded source corrections."
+    "next": "Complete topic-level doctrinal/exam checks and continue the DD course sequence, starting with evolution and functions. Expand corpus by bank and year without claiming exhaustive coverage.",
+    "latest_application": {
+      "date_local": "2026-10-03",
+      "source": "material/dd_preservado/fonte.json",
+      "scope": "DD a-c pp5-7 and7.1.1 pp26-29",
+      "blocks": 60,
+      "source_words": 2478,
+      "all_selected_source_blocks_preserved": true,
+      "real_questions": 3,
+      "authored_recovery_questions": 18,
+      "pdf_pages": 10,
+      "legal_qa": "CP32/96,CF22I,PF2025Q52-54 checked; full doctrinal review pending",
+      "global_course_ready": false,
+      "user_reviewed": false,
+      "browser_visual_validation": false,
+      "held_out": "NOT_OPENED_OR_USED",
+      "rule": "If source content is perfect, retain its wording intact and improve only organization/design/navigation; textual changes require an identifiable reason."
+    }
   },
   "editorial_history": [
     {
@@ -129,6 +146,11 @@
       "held_out": "NOT_OPENED_OR_USED",
       "next": "Continue the booklet in DD learning sequence, enriching passages with legally checked material and appropriate exam evidence; do not return to a generic integration proposal or require a platform build before usable content.",
       "state": "SUPERSEDED_AND_SAMPLE_REJECTED_2026-10-02_23:44_BRT"
+    },
+    {
+      "date": "2026-10-03",
+      "previous_status": "TARGET_UNIVERSE_CREATED_DPERJ_TRF2_PCDF_2026_INGESTED_AT_CURRENT_SIGNAL_LEVEL",
+      "previous_next_step": "EDIT_SOURCE_UNION_WITH_DD_DEPTH_FLOOR_AND_TOPIC_QUESTION_REQUIREMENTS"
     }
   ],
   "previous_global_rewrite_block": [

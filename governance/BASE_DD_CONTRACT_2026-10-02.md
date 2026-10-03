@@ -53,3 +53,9 @@ Um trecho pode ser apresentado como trabalho em elaboração depois dessa confer
 4. O próximo trabalho é editar a união documentada dos assuntos, mantendo a profundidade do DD e conferindo exigências das questões. Não continuar ampliando o texto reescrito rejeitado.
 
 GitHub conserva fonte, evidências e histórico. HTML/PDF apresentam o material de estudo. As ferramentas não substituem o trabalho de edição e conferência de conteúdo.
+
+## Esclarecimento expresso em 03/10/2026
+
+O exemplo hipotético de uma apostila perfeita determina a regra: sua redação poderia permanecer integralmente intacta, com mudanças apenas de organização, apresentação e navegação. O material antigo fornece a cobertura mais ampla; as amostras novas orientam a evolução do padrão, sem presumir acesso ao curso novo completo. Alterações textuais ou acréscimos exigem problema ou lacuna identificável, atualização jurídica ou necessidade de prova. Doutrina adicional só entra para resolver uma necessidade demonstrada, não para ampliar por prestígio. O núcleo permanece comum; foco em banca/estado ajusta seleção e ênfase, sobretudo na reta final.
+
+A primeira aplicação com preservação literal está em `material/dd_preservado`: 60 blocos das seções a-c e 7.1.1, reunidos em uma leitura digital e PDF. É edição de trabalho, ainda sem avaliação do usuário e sem revisão doutrinária integral. Não altera a rejeição da amostra anterior nem transforma a cobertura geral em concluída.
