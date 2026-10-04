@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "title": "Tutor OS — currículo modular",
+  "subjects": [
+    {
+      "id": "PEN",
+      "title": "Direito Penal"
+    }
+  ],
+  "booklets": [
+    {
+      "id": "PEN-DP01",
+      "subject_id": "PEN",
+      "title": "Noções iniciais e princípios",
+      "module_ids": [
+        "PEN-DP01-C01",
+        "PEN-DP01-C02",
+        "PEN-DP01-C03",
+        "PEN-DP01-C04",
+        "PEN-DP01-C05",
+        "PEN-DP01-C06",
+        "PEN-DP01-C07"
+      ]
+    }
+  ],
+  "modules": [
+    {
+      "id": "PEN-DP01-C01",
+      "path": "content/modules/penal/dp01/c01/module.json"
+    },
+    {
+      "id": "PEN-DP01-C02",
+      "path": "content/modules/penal/dp01/c02/module.json"
+    },
+    {
+      "id": "PEN-DP01-C03",
+      "path": "content/modules/penal/dp01/c03/module.json"
+    },
+    {
+      "id": "PEN-DP01-C04",
+      "path": "content/modules/penal/dp01/c04/module.json"
+    },
+    {
+      "id": "PEN-DP01-C05",
+      "path": "content/modules/penal/dp01/c05/module.json"
+    },
+    {
+      "id": "PEN-DP01-C06",
+      "path": "content/modules/penal/dp01/c06/module.json"
+    },
+    {
+      "id": "PEN-DP01-C07",
+      "path": "content/modules/penal/dp01/c07/module.json"
+    }
+  ],
+  "delivery": {
+    "web": "manifest + separate module payloads; load on demand",
+    "pdf": "export chapter or assemble booklet after editorial completion",
+    "docx": "optional export"
+  },
+  "next_subject": "Direito Constitucional — ainda não inventariado neste catálogo"
+}

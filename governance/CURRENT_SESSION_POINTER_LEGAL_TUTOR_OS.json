@@ -2,9 +2,9 @@
   "project": "Legal Tutor OS",
   "date": "2026-10-03",
   "branch": "chatgpt/legal-tutor-os-core-2026-09-30",
-  "phase": "DD_BASED_SOURCE_RECONCILIATION_AND_QUESTION_ALIGNMENT",
+  "phase": "GRAN_PRIMARY_DD_CURRICULUM_MODULAR_BUILD",
   "pilot": "Introducao ao Direito Penal",
-  "status": "CLAUDE_V1_V2_COMPARED_FULL_BOOKLET_EDITION_PENDING",
+  "status": "SOURCES_ARCHIVED_MODULE_CATALOG_CREATED_CONTENT_PENDING",
   "notion": {
     "audit_page": "https://app.notion.com/p/3ec42424cdbc8164b737f35ad5c9b28e",
     "knowledge_map": "https://app.notion.com/p/3ec42424cdbc81829acece8a33db49c4",
@@ -33,7 +33,7 @@
     "TRF2 2026 FGV current negative direct-label signal in Penal objective block",
     "PC-DF 2026 official retified application date 05/07; 23 Penal items indexed as application-heavy; TEC secondary metadata still stale at 14/06"
   ],
-  "next_step": "EDIT_FULL_DD_BOOKLET_FROM_V2_PRESERVATION_BASE_RESTORING_V1_DIDACTIC_FEATURES_AND_VERIFIED_CORRECTIONS",
+  "next_step": "Edit PEN-DP01-C01 using Gran as primary study material and DD curriculum/depth; research and verify progressive questions per topic.",
   "priority_order": [
     "PC-DF 2026 CEBRASPE",
     "MPRJ 2026 FGV objective+discursive",
@@ -66,21 +66,21 @@
     "target_exam_universe": "https://app.notion.com/p/3ec42424cdbc811d949cf63885019fe8"
   },
   "latest_continuation": {
-    "date_utc": "2026-10-02",
-    "checkpoint": "governance/CONTINUATION_CHECKPOINT_2026-10-02.md",
+    "date_utc": "2026-10-04",
+    "checkpoint": "governance/GRAN_MODULAR_DIRECTION_2026-10-03.md",
     "report": "research/expansion_2010_2026/README.md",
     "counts": "research/expansion_2010_2026/COUNTS_AND_READINESS.json",
-    "status": "NOT_READY_TO_RENDER",
+    "status": "ARCHIVE_AND_MODULE_STRUCTURE_CREATED",
     "overrides_earlier_next_step": true,
     "scope_window": "2010-01-01/2026-10-01",
     "career_choice": "UNDECIDED",
     "notion_originals": "CONSULT_ONLY_NO_NEW_BACKUP",
-    "drive_folders": "READ_ONLY_INCLUDING_SHARED_WITH_ME",
+    "drive_folders": "WRITE_AUTHORIZED_FOR_STUDY_ARCHIVE_ON_2026-10-03; existing source folders preserved",
     "resume": "Continue recent institutional/semantic gaps and primary-law QA; do not restart bulk archive transfer or benchmark architecture.",
     "editorial_direction": "governance/EDITORIAL_DIRECTION_DD_2026-10-01.md",
-    "primary_editorial_reference": "Dedicação Delta: newer theoretical booklet + DD Legis, integrated for printable personal study",
+    "primary_editorial_reference": "Gran Sintético primary study text; DD curriculum and theoretical depth",
     "editorial_materials_status": "RECEIVED_AND_AUDITED_IN_DECLARED_SCOPE_2026-10-02; 39 PDFs inventoried; 7 new files content-read; new CP pages1-8; old sources sampled",
-    "next_editorial_action": "Superseded by governance/BASE_DD_CONTRACT_2026-10-02.md: DD depth floor, source union, topic-level question alignment. Prior sample rejected; do not resume rejected rewrite.",
+    "next_editorial_action": "Edit PEN-DP01-C01 using Gran as primary study material and DD curriculum/depth; research and verify progressive questions per topic.",
     "editorial_report": "research/editorial_dd_2026/DIAGNOSTICO_E_PROPOSTA.md",
     "editorial_inventory": "research/editorial_dd_2026/INVENTORY.json",
     "editorial_reading_ledger": "research/editorial_dd_2026/READING_LEDGER.json",
@@ -92,12 +92,12 @@
     "time_local": "23:44:37",
     "timezone": "America/Sao_Paulo",
     "user_correction": "DD is the minimum depth/content; preserve and improve the supplied material and fuse theory/Legis/Juris with exam evidence. Rejected the rewritten 12-page sample as inferior despite useful HTML interactivity.",
-    "active_instruction": "governance/BASE_DD_CONTRACT_2026-10-02.md",
+    "active_instruction": "governance/GRAN_MODULAR_DIRECTION_2026-10-03.md",
     "baseline_audit": "research/rebase_dd_2026/BASELINE_COVERAGE.csv",
     "source_union_map": "research/rebase_dd_2026/UNION_MAP.json",
     "previous_sample_status": "REJECTED_BY_USER_DO_NOT_CONTINUE",
     "current_focus": "Delegado estadual/PF with bank diversity; retain expansion to other careers",
-    "gran_role": "Visual design reference, not depth ceiling",
+    "gran_role": "Primary material to reuse, improve, expand and update; DD supplies curriculum and depth",
     "depth_policy": "Source DD substance is the floor; preserve definitions, authors, terminology, theories, exceptions, examples and practice unless documented correction/redundancy/scope treatment.",
     "question_policy": "Compare every relevant alternative/assertion with the explanation that enables its resolution; past source mentions do not equal new exam analysis.",
     "question_difficulty_levels": [
@@ -234,6 +234,12 @@
       "edition": "v3",
       "state": "RECONSTRUCTED_DRAFT_NOT_APPROVED",
       "change": "Completed bounded first-chapter sequence, restored dd-04, explicit semantic emphasis, grouped retrieval, traceable corrections. Approval was GitHub only."
+    },
+    {
+      "date_local": "2026-10-03",
+      "previous_status": "CLAUDE_V1_V2_COMPARED_FULL_BOOKLET_EDITION_PENDING",
+      "previous_next_step": "EDIT_FULL_DD_BOOKLET_FROM_V2_PRESERVATION_BASE_RESTORING_V1_DIDACTIC_FEATURES_AND_VERIFIED_CORRECTIONS",
+      "superseded_by": "governance/GRAN_MODULAR_DIRECTION_2026-10-03.md"
     }
   ],
   "previous_global_rewrite_block": [
@@ -264,7 +270,7 @@
       "Claude V1",
       "Claude V2"
     ],
-    "claude_v3_received": false,
+    "claude_v3_received": true,
     "findings": [
       "Previous Codex v3 covers chapter 1 plus supplement, not complete booklet; do not continue treating the recrop as the intended final product.",
       "Use V2 as preservation starting point, V1 for comparisons and meaningful highlights; reconcile existing grounded corrections.",
@@ -280,5 +286,15 @@
       "No all-question validation",
       "No new booklet edition produced in this comparison round"
     ]
+  },
+  "active_instruction": "governance/GRAN_MODULAR_DIRECTION_2026-10-03.md",
+  "current_modular_state": {
+    "catalog": "content/catalog.json",
+    "archive": "33 Gran PDFs + DD introductory 2026 + recovered history/V3; private Drive, metadata readback completed",
+    "module_count": 7,
+    "module_content_status": "planned_not_written",
+    "question_bank_status": "empty_pending_editorial_selection",
+    "github_actions": "structural_validation_and_module_bundle_only",
+    "new_public_private_source_copies": false
   }
 }

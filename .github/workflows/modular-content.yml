@@ -1,0 +1,38 @@
+name: Validate modular study content
+
+on:
+  push:
+    paths:
+      - 'content/**'
+      - 'scripts/*modular.py'
+      - 'tests/test_modular.py'
+      - '.github/workflows/modular-content.yml'
+  pull_request:
+    paths:
+      - 'content/**'
+      - 'scripts/*modular.py'
+      - 'tests/test_modular.py'
+      - '.github/workflows/modular-content.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate-and-package:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate curriculum and references
+        run: python3 scripts/validate_modular.py
+      - name: Exercise broken-reference and review checks
+        run: python3 -m unittest discover -s tests -p 'test_modular.py'
+      - name: Build separate module files
+        run: python3 scripts/build_modular.py --output dist/modular
+      - uses: actions/upload-artifact@v4
+        with:
+          name: tutor-os-modular-${{ github.sha }}
+          path: dist/modular/
+          retention-days: 14
+          if-no-files-found: error

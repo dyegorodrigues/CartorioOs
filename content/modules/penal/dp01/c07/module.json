@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "id": "PEN-DP01-C07",
+  "title": "Princípios do Direito Penal",
+  "subject_id": "PEN",
+  "booklet_id": "PEN-DP01",
+  "order": 7,
+  "status": "planned",
+  "curriculum_source": {
+    "source_id": "DD-2026-PEN-DP01",
+    "pages": [
+      26,
+      57
+    ],
+    "mapping_status": "initial_outline_not_full_microtopic_audit"
+  },
+  "prerequisite_ids": [
+    "PEN-DP01-C01"
+  ],
+  "related_module_ids": [],
+  "source_ids": [
+    "DD-2026-PEN-DP01",
+    "GRAN-ENAM-PEN-04"
+  ],
+  "topics": [
+    {
+      "id": "PEN-DP01-C07-T01",
+      "title": "Princípios relacionados à missão",
+      "coverage_status": "pending"
+    },
+    {
+      "id": "PEN-DP01-C07-T02",
+      "title": "Proteção de bens jurídicos",
+      "coverage_status": "pending"
+    },
+    {
+      "id": "PEN-DP01-C07-T03",
+      "title": "Intervenção mínima, fragmentariedade e subsidiariedade",
+      "coverage_status": "pending"
+    },
+    {
+      "id": "PEN-DP01-C07-T04",
+      "title": "Insignificância e casuística",
+      "coverage_status": "pending"
+    },
+    {
+      "id": "PEN-DP01-C07-T05",
+      "title": "Princípios relacionados ao fato",
+      "coverage_status": "pending"
+    },
+    {
+      "id": "PEN-DP01-C07-T06",
+      "title": "Ofensividade e alteridade",
+      "coverage_status": "pending"
+    },
+    {
+      "id": "PEN-DP01-C07-T07",
+      "title": "Exteriorização do fato",
+      "coverage_status": "pending"
+    },
+    {
+      "id": "PEN-DP01-C07-T08",
+      "title": "Legalidade, mandados de criminalização e anterioridade",
+      "coverage_status": "pending"
+    },
+    {
+      "id": "PEN-DP01-C07-T09",
+      "title": "Vedação ao bis in idem e adequação social",
+      "coverage_status": "pending"
+    },
+    {
+      "id": "PEN-DP01-C07-T10",
+      "title": "Princípios relacionados ao agente",
+      "coverage_status": "pending"
+    }
+  ],
+  "reading_file": null,
+  "questions_file": "questions.jsonl",
+  "legal_checked_at": null,
+  "editorial_notes": "Roteiro de trabalho. Texto e perguntas ainda não editados. Índice detalhado será completado a partir do cotejo das fontes."
+}

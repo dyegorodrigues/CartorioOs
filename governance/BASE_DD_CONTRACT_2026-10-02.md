@@ -1,3 +1,5 @@
+> Direção vigente desde 03/10/2026: consultar `GRAN_MODULAR_DIRECTION_2026-10-03.md`. Gran Sintético passa a ser o material principal; DD conserva currículo e profundidade. O registro abaixo é histórico onde houver conflito.
+
 # Correção de base: lapidar e reunir o DD
 
 Instrução do usuário em 02/10/2026, 23h44 BRT. Esta instrução substitui a interpretação editorial que produziu `material/penal_inicio`. O usuário gostou da possibilidade de navegação do HTML, mas rejeitou o conteúdo: menos completo que a apostila, prolixo, pouco direto e insuficiente para aprender.

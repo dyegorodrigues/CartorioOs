@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "id": "PEN-DP01-C06",
+  "title": "Fontes do Direito Penal",
+  "subject_id": "PEN",
+  "booklet_id": "PEN-DP01",
+  "order": 6,
+  "status": "planned",
+  "curriculum_source": {
+    "source_id": "DD-2026-PEN-DP01",
+    "pages": [
+      21,
+      25
+    ],
+    "mapping_status": "initial_outline_not_full_microtopic_audit"
+  },
+  "prerequisite_ids": [
+    "PEN-DP01-C01"
+  ],
+  "related_module_ids": [],
+  "source_ids": [
+    "DD-2026-PEN-DP01"
+  ],
+  "topics": [
+    {
+      "id": "PEN-DP01-C06-T01",
+      "title": "Fontes: classificação e distinções",
+      "coverage_status": "pending"
+    }
+  ],
+  "reading_file": null,
+  "questions_file": "questions.jsonl",
+  "legal_checked_at": null,
+  "editorial_notes": "Roteiro de trabalho. Texto e perguntas ainda não editados. Índice detalhado será completado a partir do cotejo das fontes."
+}

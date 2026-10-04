@@ -1,0 +1,143 @@
+{
+  "schema_version": 1,
+  "candidates": [
+    {
+      "source_id": "BS-LUCAS-INTRO",
+      "module_ids": [
+        "PEN-DP01-C01",
+        "PEN-DP01-C02",
+        "PEN-DP01-C04",
+        "PEN-DP01-C05",
+        "PEN-DP01-C06",
+        "PEN-DP01-C07"
+      ],
+      "state": "sample_read",
+      "disposition": "candidate_not_approved",
+      "checked_at": "2026-10-04",
+      "note": "Sequência conceitual e respostas explicativas. Auditar terminologia e dependências antes de selecionar.",
+      "next_action": "Conferir perguntas por tópico DD; registrar lacuna, sequência, clareza, fundamento e atualização. Selecionar apenas depois do cotejo."
+    },
+    {
+      "source_id": "BS-JONATAS-INTRO",
+      "module_ids": [
+        "PEN-DP01-C01",
+        "PEN-DP01-C02",
+        "PEN-DP01-C04",
+        "PEN-DP01-C05",
+        "PEN-DP01-C06"
+      ],
+      "state": "sample_read",
+      "disposition": "candidate_not_approved",
+      "checked_at": "2026-10-04",
+      "note": "Comparações e perguntas integradoras; reorganizar pré-requisitos quando necessário.",
+      "next_action": "Conferir perguntas por tópico DD; registrar lacuna, sequência, clareza, fundamento e atualização. Selecionar apenas depois do cotejo."
+    },
+    {
+      "source_id": "BS-SERGIO-VELOCIDADES",
+      "module_ids": [
+        "PEN-DP01-C05"
+      ],
+      "state": "located",
+      "disposition": "candidate_not_approved",
+      "checked_at": "2026-10-04",
+      "note": "Leitura e cotejo integral pendentes.",
+      "next_action": "Conferir perguntas por tópico DD; registrar lacuna, sequência, clareza, fundamento e atualização. Selecionar apenas depois do cotejo."
+    },
+    {
+      "source_id": "BS-SERGIO-INSIGNIFICANCIA",
+      "module_ids": [
+        "PEN-DP01-C07"
+      ],
+      "state": "located",
+      "disposition": "candidate_not_approved",
+      "checked_at": "2026-10-04",
+      "note": "Casuística exige conferência temporal em fontes oficiais.",
+      "next_action": "Conferir perguntas por tópico DD; registrar lacuna, sequência, clareza, fundamento e atualização. Selecionar apenas depois do cotejo."
+    },
+    {
+      "source_id": "BS-JULIO-PENAL",
+      "module_ids": [
+        "PEN-DP01-C01",
+        "PEN-DP01-C05",
+        "PEN-DP01-C06",
+        "PEN-DP01-C07"
+      ],
+      "state": "index_read",
+      "disposition": "candidate_not_approved",
+      "checked_at": "2026-10-04",
+      "note": "Índice separa história, fontes, velocidades e princípios. Há entradas vazias; contagem de decks não comprova cobertura.",
+      "next_action": "Conferir perguntas por tópico DD; registrar lacuna, sequência, clareza, fundamento e atualização. Selecionar apenas depois do cotejo."
+    },
+    {
+      "source_id": "BS-FJ-INTRO",
+      "module_ids": [
+        "PEN-DP01-C01",
+        "PEN-DP01-C02",
+        "PEN-DP01-C04",
+        "PEN-DP01-C05",
+        "PEN-DP01-C06",
+        "PEN-DP01-C07"
+      ],
+      "state": "sample_read",
+      "disposition": "candidate_not_approved",
+      "checked_at": "2026-10-04",
+      "note": "Primeiros cartões consultados: lacunas, definições e classificações. Respostas curtas podem exigir explicação para aprender do zero.",
+      "next_action": "Conferir perguntas por tópico DD; registrar lacuna, sequência, clareza, fundamento e atualização. Selecionar apenas depois do cotejo."
+    },
+    {
+      "source_id": "BS-GABRIEL-PENAL",
+      "module_ids": [
+        "PEN-DP01-C01",
+        "PEN-DP01-C05",
+        "PEN-DP01-C06",
+        "PEN-DP01-C07"
+      ],
+      "state": "index_read",
+      "disposition": "candidate_not_approved",
+      "checked_at": "2026-10-04",
+      "note": "Coleção organizada por aulas. Candidato para continuidade da Parte Geral; cartões ainda não auditados.",
+      "next_action": "Conferir perguntas por tópico DD; registrar lacuna, sequência, clareza, fundamento e atualização. Selecionar apenas depois do cotejo."
+    },
+    {
+      "source_id": "BS-OAB-JURISCARDS",
+      "module_ids": [
+        "PEN-DP01-C01",
+        "PEN-DP01-C02",
+        "PEN-DP01-C06",
+        "PEN-DP01-C07"
+      ],
+      "state": "located",
+      "disposition": "candidate_not_approved",
+      "checked_at": "2026-10-04",
+      "note": "Candidato para fundamentos; adaptar exigência ao currículo de Delegado, sem presumir suficiência.",
+      "next_action": "Conferir perguntas por tópico DD; registrar lacuna, sequência, clareza, fundamento e atualização. Selecionar apenas depois do cotejo."
+    },
+    {
+      "source_id": "PASSO-QRA-2022",
+      "module_ids": [
+        "PEN-DP01-C01",
+        "PEN-DP01-C06",
+        "PEN-DP01-C07"
+      ],
+      "state": "sample_read",
+      "disposition": "candidate_not_approved",
+      "checked_at": "2026-10-04",
+      "note": "pp. 37–38 anteriormente consultadas como formato de explicação comparativa; não confirmação do Direito vigente.",
+      "next_action": "Conferir perguntas por tópico DD; registrar lacuna, sequência, clareza, fundamento e atualização. Selecionar apenas depois do cotejo."
+    },
+    {
+      "source_id": "PASSO-DELEGADO-HIST",
+      "module_ids": [
+        "PEN-DP01-C01",
+        "PEN-DP01-C06",
+        "PEN-DP01-C07"
+      ],
+      "state": "located",
+      "disposition": "candidate_not_approved",
+      "checked_at": "2026-10-04",
+      "note": "Link recuperado; leitura integral e seleção ainda pendentes.",
+      "next_action": "Conferir perguntas por tópico DD; registrar lacuna, sequência, clareza, fundamento e atualização. Selecionar apenas depois do cotejo."
+    }
+  ],
+  "coverage_claim": "triagem inicial; não representa varredura integral nem banco aprovado"
+}

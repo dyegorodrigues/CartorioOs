@@ -1,3 +1,5 @@
+> **Entrada atual — Tutor OS / Delegado:** [direção Gran + DD e módulos](governance/GRAN_MODULAR_DIRECTION_2026-10-03.md), [estrutura de conteúdo](content/README.md). O texto abaixo conserva a origem Cartório OS; a direção atual e os estados estão no checkpoint de governança.
+
 # GX Cartório OS
 
 Sistema operacional pessoal de preparação para ENAC e concursos de delegações notariais e registrais.
