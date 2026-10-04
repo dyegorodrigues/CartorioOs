@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-10-04",
+  "timezone": "America/Sao_Paulo",
+  "phase": "governance_recalibration_before_new_content",
+  "branch": "chatgpt/legal-tutor-os-core-2026-09-30",
+  "current_subject_id": "PEN",
+  "current_booklet_id": "PEN-DP01",
+  "current_module_id": "PEN-DP01-C01",
+  "current_module_path": "content/modules/penal/dp01/c01/module.json",
+  "current_slice": [
+    "conceito e aspectos",
+    "características",
+    "objeto",
+    "evolução histórica e escolas"
+  ],
+  "source_roles": {
+    "DD": "curriculum_and_delegate_depth",
+    "GRAN_SINTETICO": "editorial_visual_base_to_improve",
+    "PASSO": "question_architecture_reference",
+    "BRAINSCAPE": "progression_and_gap_mining_reference",
+    "OFFICIAL_LAW_COURTS": "legal_authority_and_freshness",
+    "REAL_EXAMS": "coverage_and_application_audit",
+    "LEI_SECA_PLATFORMS": "interaction_pattern_reference"
+  },
+  "human_feedback": {
+    "claude_v3_status": "rejected_as_main_model",
+    "reasons": [
+      "overcompressed",
+      "vague_or_insufficient_explanations",
+      "poor_or_unjustified_questions",
+      "imprecise_short_answers",
+      "visual_structure_better_than_pedagogical_structure"
+    ],
+    "salvage_rule": "reuse_only_individually_validated_visual_or_interaction_insights"
+  },
+  "hard_rules": [
+    "do_not_paraphrase_away_exam_terminology",
+    "preserve_exam_synonyms_and_aliases",
+    "no_question_without_node_and_purpose",
+    "no_summary_for_summary_sake",
+    "tables_may_be_dense_when_density_improves_learning",
+    "source_pdfs_remain_immutable",
+    "public_repo_contains_no_commercial_pdfs_or_private_drive_links",
+    "do_not_scale_before_pilot_passes_acceptance_gates"
+  ],
+  "next_actions": [
+    "build_atomic_coverage_matrix_for_PEN-DP01-C01",
+    "map_DD_2026_vs_Gran_modules_vs_exam_terms",
+    "identify_missing_or_weak_microtopics_before_writing",
+    "design_question_tree_macro_to_micro_from_verified_content",
+    "audit_slice_against_recent_delegate_and_legal-career_questions",
+    "render_small_editorial_prototype_only_after_content_gate"
+  ],
+  "completion_gate": "first_slice_teaches_from_zero_and_resolves_target_real_questions_without_hidden_source_dependency",
+  "repository_notes": "CartorioOs is public; keep only public-safe architecture, original/derived content, code and metadata. Commercial source files remain in Drive."
+}
