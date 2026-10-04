@@ -5,7 +5,7 @@
   "subject_id": "PEN",
   "booklet_id": "PEN-DP01",
   "order": 1,
-  "status": "planned",
+  "status": "drafting",
   "curriculum_source": {
     "source_id": "DD-2026-PEN-DP01",
     "pages": [
@@ -58,8 +58,8 @@
       "coverage_status": "atomic_map_v1_created_not_validated"
     }
   ],
-  "reading_file": null,
-  "questions_file": "questions.jsonl",
-  "legal_checked_at": null,
-  "editorial_notes": "Matriz atômica v1 criada em 04/10/2026. Ainda não promover conteúdo: faltam varredura cruzada dos 33 sintéticos, corpus oficial de questões, auditoria de aliases e fontes oficiais sensíveis ao tempo."
+  "reading_file": "reading.v0.2.md",
+  "questions_file": "questions.v0.1.jsonl",
+  "legal_checked_at": "2026-10-04",
+  "editorial_notes": "Matriz atômica v1 + crosswalk Gran + corpus oficial seed + reading v0.2 autoauditado + 8 perguntas candidatas. Ainda não aprovado: Terza Scuola/livre-arbítrio; sancionatória/constitutiva; comentário doutrinário PC-PI Q71; classificações/divisões restantes."
 }
