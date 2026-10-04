@@ -24,36 +24,40 @@
     {
       "id": "PEN-DP01-C01-T01",
       "title": "Conceito e aspectos",
-      "coverage_status": "pending"
+      "coverage_status": "mapped"
     },
     {
       "id": "PEN-DP01-C01-T02",
       "title": "Características",
-      "coverage_status": "pending"
+      "coverage_status": "mapped"
     },
     {
       "id": "PEN-DP01-C01-T03",
       "title": "Objeto",
-      "coverage_status": "pending"
+      "coverage_status": "mapped"
     },
     {
       "id": "PEN-DP01-C01-T04",
       "title": "Evolução histórica e escolas",
-      "coverage_status": "pending"
+      "coverage_status": "mapped"
     },
     {
       "id": "PEN-DP01-C01-T05",
       "title": "Funções",
-      "coverage_status": "pending"
+      "coverage_status": "mapped"
     },
     {
       "id": "PEN-DP01-C01-T06",
       "title": "Divisões",
-      "coverage_status": "pending"
+      "coverage_status": "mapped"
     }
   ],
   "reading_file": null,
   "questions_file": "questions.jsonl",
   "legal_checked_at": null,
-  "editorial_notes": "Roteiro de trabalho. Texto e perguntas ainda não editados. Índice detalhado será completado a partir do cotejo das fontes."
+  "editorial_notes": "Cobertura Gran/DD de C01 mapeada em source_map.json. Claims V2 iniciados em claims.jsonl; conteúdo ainda requer revisão editorial e, nos pontos mistos/normativos, conferência oficial antes de promoção.",
+  "pipeline_status": "mapped",
+  "source_map_file": "source_map.json",
+  "claims_file": "claims.jsonl",
+  "claim_schema_version": 2
 }
