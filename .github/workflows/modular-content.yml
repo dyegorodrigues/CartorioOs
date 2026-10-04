@@ -10,8 +10,8 @@ on:
   pull_request:
     paths:
       - 'content/**'
-      - 'scripts/*modular.py'
-      - 'tests/test_modular.py'
+      - 'scripts/*.py'
+      - 'tests/test_*.py'
       - '.github/workflows/modular-content.yml'
   workflow_dispatch:
 
