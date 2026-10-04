@@ -2,7 +2,7 @@
   "schema_version": 1,
   "updated_at": "2026-10-04",
   "timezone": "America/Sao_Paulo",
-  "phase": "governance_recalibration_before_new_content",
+  "phase": "governance_prepared_ready_for_atomic_coverage_matrix",
   "branch": "chatgpt/legal-tutor-os-core-2026-09-30",
   "current_subject_id": "PEN",
   "current_booklet_id": "PEN-DP01",
@@ -53,5 +53,16 @@
     "render_small_editorial_prototype_only_after_content_gate"
   ],
   "completion_gate": "first_slice_teaches_from_zero_and_resolves_target_real_questions_without_hidden_source_dependency",
-  "repository_notes": "CartorioOs is public; keep only public-safe architecture, original/derived content, code and metadata. Commercial source files remain in Drive."
+  "repository_notes": "CartorioOs is public; keep only public-safe architecture, original/derived content, code and metadata. Commercial source files remain in Drive.",
+  "infrastructure": {
+    "notion_start_here": "LEGAL TUTOR OS — START HERE · Governança V3",
+    "drive_root": "Tutor OS - Acervo de Estudos",
+    "drive_operational_zones": [
+      "04 - Corpus Oficial e Pesquisa",
+      "05 - Trabalho Editorial - Canonico",
+      "06 - Exportacoes e Entregas",
+      "99 - Rejeitados e Quarentena"
+    ],
+    "github_start_here": "START_HERE_LEGAL_TUTOR_OS.md"
+  }
 }
