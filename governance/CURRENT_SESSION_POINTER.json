@@ -2,7 +2,7 @@
   "schema_version": 1,
   "updated_at": "2026-10-04",
   "timezone": "America/Sao_Paulo",
-  "phase": "atomic_coverage_matrix_v1_created_research_and_exam_validation_in_progress",
+  "phase": "c01_canonical_reading_v0_2_created_exam_and_doctrine_audit_next",
   "branch": "chatgpt/legal-tutor-os-pen-dp01-pilot-2026-10-04",
   "current_subject_id": "PEN",
   "current_booklet_id": "PEN-DP01",
@@ -45,11 +45,12 @@
     "do_not_scale_before_pilot_passes_acceptance_gates"
   ],
   "next_actions": [
-    "cross_search_33_gran_synthetics_for_missing_C01_atoms",
-    "build_verified_exam_corpus_for_C01",
-    "audit_technical_aliases_and_exam_formulations",
-    "promote_or_reject_question_groups_after_source_and_exam_check",
-    "draft_first_canonical_slice_only_after_mapping_gate"
+    "resolve_Terza_Scuola_doctrinal_conflict_with_independent_sources",
+    "cross_check_sanctioning_vs_constitutive_characteristic",
+    "verify_remaining_delegate_exam_candidates_PCRO_PCRS_PCSP",
+    "extend_C01_reading_with_functions_and_classifications_after_audit",
+    "validate_each_question_candidate_against_content_and_exam_need",
+    "build_first_visual_render_only_after_content_gate"
   ],
   "completion_gate": "first_slice_teaches_from_zero_and_resolves_target_real_questions_without_hidden_source_dependency",
   "repository_notes": "CartorioOs is public; keep only public-safe architecture, original/derived content, code and metadata. Commercial source files remain in Drive.",
@@ -69,6 +70,13 @@
     "registered_dd_theory_legis_juris_sumulas_revision_ecosystem",
     "catalogued_multiple_brainscape_decks",
     "created_43_atom_coverage_matrix_v1",
-    "created_grouped_question_architecture_candidates"
+    "created_grouped_question_architecture_candidates",
+    "crosswalked_gran_01_04_09_for_C01",
+    "verified_selected_official_exam_items_and_keys",
+    "detected_PCPI_Q71_legacy_key_conflict",
+    "detected_Terza_Scuola_source_conflict",
+    "created_DD_2025_2026_diff",
+    "created_reading_v0_2_after_self_audit",
+    "created_8_question_candidates_with_nuclear_and_explained_answers"
   ]
 }
