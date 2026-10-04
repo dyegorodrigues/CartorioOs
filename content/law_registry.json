@@ -1,5 +1,32 @@
 {
-  "schema_version": 1,
-  "provisions": [],
-  "note": "Dispositivos serão vinculados por ID e versão normativa após conferência literal. Não preencher com texto aproximado."
+  "schema_version": 2,
+  "provisions": [
+    {
+      "id": "CF88-ART22-I-2026-10-04",
+      "instrument": "Constituição da República Federativa do Brasil de 1988",
+      "article": "Art. 22, I",
+      "version": "vigente-conferida-2026-10-04",
+      "text": "I - direito civil, comercial, penal, processual, eleitoral, agrário, marítimo, aeronáutico, espacial e do trabalho;",
+      "official_url": "https://www4.planalto.gov.br/legislacao/legis-federal/constituicao",
+      "checked_at": "2026-10-04",
+      "topic_ids": [
+        "PEN-DP01-C01-T06"
+      ],
+      "note": "Competência privativa da União para legislar sobre direito penal."
+    },
+    {
+      "id": "CF88-ART22-PU-2026-10-04",
+      "instrument": "Constituição da República Federativa do Brasil de 1988",
+      "article": "Art. 22, parágrafo único",
+      "version": "vigente-conferida-2026-10-04",
+      "text": "Parágrafo único. Lei complementar poderá autorizar os Estados a legislar sobre questões específicas das matérias relacionadas neste artigo.",
+      "official_url": "https://www4.planalto.gov.br/legislacao/legis-federal/constituicao",
+      "checked_at": "2026-10-04",
+      "topic_ids": [
+        "PEN-DP01-C01-T06"
+      ],
+      "note": "Exceção constitucional relevante para a classificação Direito Penal geral/local."
+    }
+  ],
+  "note": "Registro literal conferido em fonte oficial. Comentários e síntese permanecem separados do texto normativo."
 }
