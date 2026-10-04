@@ -12,48 +12,54 @@
       5,
       13
     ],
-    "mapping_status": "initial_outline_not_full_microtopic_audit"
+    "mapping_status": "atomic_matrix_v1_created_exam_validation_pending"
   },
   "prerequisite_ids": [],
   "related_module_ids": [],
   "source_ids": [
     "DD-2026-PEN-DP01",
-    "GRAN-ENAM-PEN-01"
+    "DD-2026-LEGIS",
+    "DD-2026-JURIS",
+    "DD-2026-SUMULAS",
+    "DD-2026-REVISAO-FINAL",
+    "GRAN-ENAM-PEN-01",
+    "PASSO-2025-2026-INTRO",
+    "BRAINSCAPE-MULTI-INTRO"
   ],
   "topics": [
     {
       "id": "PEN-DP01-C01-T01",
       "title": "Conceito e aspectos",
-      "coverage_status": "pending"
+      "coverage_status": "atomic_map_v1_created_not_validated"
     },
     {
       "id": "PEN-DP01-C01-T02",
       "title": "Características",
-      "coverage_status": "pending"
+      "coverage_status": "atomic_map_v1_created_not_validated"
     },
     {
       "id": "PEN-DP01-C01-T03",
       "title": "Objeto",
-      "coverage_status": "pending"
+      "coverage_status": "atomic_map_v1_created_not_validated"
     },
     {
       "id": "PEN-DP01-C01-T04",
       "title": "Evolução histórica e escolas",
-      "coverage_status": "pending"
+      "coverage_status": "atomic_map_v1_created_not_validated"
     },
     {
       "id": "PEN-DP01-C01-T05",
       "title": "Funções",
-      "coverage_status": "pending"
+      "coverage_status": "atomic_map_v1_created_not_validated"
     },
     {
       "id": "PEN-DP01-C01-T06",
       "title": "Divisões",
-      "coverage_status": "pending"
+      "coverage_status": "atomic_map_v1_created_not_validated"
     }
   ],
   "reading_file": null,
   "questions_file": "questions.jsonl",
   "legal_checked_at": null,
-  "editorial_notes": "Roteiro de trabalho. Texto e perguntas ainda não editados. Índice detalhado será completado a partir do cotejo das fontes."
+  "editorial_notes": "Matriz atômica v1 criada em 04/10/2026. Ainda não promover conteúdo: faltam varredura cruzada dos 33 sintéticos, corpus oficial de questões, auditoria de aliases e fontes oficiais sensíveis ao tempo."
 }
