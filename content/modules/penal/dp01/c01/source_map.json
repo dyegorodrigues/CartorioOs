@@ -192,23 +192,36 @@
       "topic_id": "PEN-DP01-C01-T06",
       "title": "Divisões do Direito Penal",
       "freshness_class": "stable_doctrine",
-      "coverage_status": "locator_pending",
+      "coverage_status": "mapped_dd_depth",
       "sources": [
         {
           "source_id": "DD-2026-PEN-DP01",
-          "locator": "a confirmar no corpo da seção 1",
+          "locator": "pp. 11-12",
+          "role": "depth_audit"
+        }
+      ]
+    },
+    {
+      "id": "PEN-DP01-C01-M12",
+      "topic_id": "PEN-DP01-C01-T06",
+      "title": "Direito Penal de Intervenção (Hassemer)",
+      "freshness_class": "stable_doctrine",
+      "coverage_status": "mapped_dd_depth",
+      "sources": [
+        {
+          "source_id": "DD-2026-PEN-DP01",
+          "locator": "p. 12",
           "role": "depth_audit"
         }
       ],
-      "gap": "Não promover conteúdo deste microtópico antes de confirmar o localizador e a cobertura."
+      "note": "Tratar como aprofundamento doutrinário; exemplos jurídicos concretos exigem conferência própria."
     }
   ],
   "next_actions": [
-    "criar claims autorais para M01-M10",
-    "confirmar localizador e conteúdo de M11",
+    "criar claims autorais para M01-M12",
     "ligar artigos apenas após conferência oficial",
     "localizar questões oficiais de Delegado por microtópico",
     "auditar Brainscape/Passo como padrões de pergunta",
-    "gerar primeira leitura sintética somente depois do fechamento da cobertura"
+    "gerar leitura sintética a partir dos claims depois da primeira revisão editorial"
   ]
 }
