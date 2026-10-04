@@ -1,0 +1,214 @@
+{
+  "schema_version": 2,
+  "module_id": "PEN-DP01-C01",
+  "purpose": "Mapa de cobertura para a primeira vertical slice. Não contém transcrição das fontes.",
+  "strategy": {
+    "primary_reading": "Gran quando houver cobertura suficiente",
+    "depth_and_gap_audit": "Dedicação Delta",
+    "volatile_facts": "fontes oficiais antes de promoção",
+    "copyright": "apenas metadados, localizadores e síntese autoral no repositório público"
+  },
+  "microtopics": [
+    {
+      "id": "PEN-DP01-C01-M01",
+      "topic_id": "PEN-DP01-C01-T01",
+      "title": "Conceito de Direito Penal e sanção penal",
+      "freshness_class": "stable_doctrine",
+      "coverage_status": "mapped",
+      "sources": [
+        {
+          "source_id": "GRAN-ENAM-PEN-01",
+          "locator": "pp. 7-8",
+          "role": "primary_study"
+        },
+        {
+          "source_id": "DD-2026-PEN-DP01",
+          "locator": "pp. 5-6",
+          "role": "depth_audit"
+        }
+      ]
+    },
+    {
+      "id": "PEN-DP01-C01-M02",
+      "topic_id": "PEN-DP01-C01-T01",
+      "title": "Aspectos formal, material e sociológico",
+      "freshness_class": "stable_doctrine",
+      "coverage_status": "mapped",
+      "sources": [
+        {
+          "source_id": "GRAN-ENAM-PEN-01",
+          "locator": "pp. 7-8",
+          "role": "primary_study"
+        },
+        {
+          "source_id": "DD-2026-PEN-DP01",
+          "locator": "pp. 5-6",
+          "role": "depth_audit"
+        }
+      ]
+    },
+    {
+      "id": "PEN-DP01-C01-M03",
+      "topic_id": "PEN-DP01-C01-T02",
+      "title": "Características do Direito Penal",
+      "freshness_class": "stable_doctrine",
+      "coverage_status": "mapped",
+      "sources": [
+        {
+          "source_id": "GRAN-ENAM-PEN-01",
+          "locator": "p. 8",
+          "role": "primary_study"
+        },
+        {
+          "source_id": "DD-2026-PEN-DP01",
+          "locator": "pp. 6-7",
+          "role": "depth_audit"
+        }
+      ]
+    },
+    {
+      "id": "PEN-DP01-C01-M04",
+      "topic_id": "PEN-DP01-C01-T03",
+      "title": "Objeto de proteção e bens jurídicos penais",
+      "freshness_class": "mixed",
+      "coverage_status": "mapped_depth_first",
+      "sources": [
+        {
+          "source_id": "DD-2026-PEN-DP01",
+          "locator": "pp. 6-7",
+          "role": "depth_audit"
+        },
+        {
+          "source_id": "GRAN-ENAM-PEN-01",
+          "locator": "pp. 9-10",
+          "role": "primary_study"
+        }
+      ],
+      "note": "A leitura final deve separar conceito de bem jurídico, seleção constitucional e função de proteção."
+    },
+    {
+      "id": "PEN-DP01-C01-M05",
+      "topic_id": "PEN-DP01-C01-T04",
+      "title": "Períodos históricos: vinganças, humanitário e científico",
+      "freshness_class": "stable_doctrine",
+      "coverage_status": "mapped_dd_depth",
+      "sources": [
+        {
+          "source_id": "DD-2026-PEN-DP01",
+          "locator": "pp. 7-8",
+          "role": "depth_audit"
+        }
+      ],
+      "gap": "Gran 01 não é suficiente como espinha para este microtópico; produzir síntese autoral compacta."
+    },
+    {
+      "id": "PEN-DP01-C01-M06",
+      "topic_id": "PEN-DP01-C01-T04",
+      "title": "Escola Clássica, Escola Positiva e escolas ecléticas",
+      "freshness_class": "stable_doctrine",
+      "coverage_status": "mapped_dd_depth",
+      "sources": [
+        {
+          "source_id": "DD-2026-PEN-DP01",
+          "locator": "pp. 7-9",
+          "role": "depth_audit"
+        }
+      ],
+      "exam_evidence": "DD registra cobrança recente de Delegado sobre Terza Scuola; questão oficial deve ser localizada e validada antes de entrar no corpus oficial."
+    },
+    {
+      "id": "PEN-DP01-C01-M07",
+      "topic_id": "PEN-DP01-C01-T04",
+      "title": "Evolução do Direito Penal no Brasil",
+      "freshness_class": "stable_doctrine",
+      "coverage_status": "mapped_dd_depth",
+      "sources": [
+        {
+          "source_id": "DD-2026-PEN-DP01",
+          "locator": "p. 8",
+          "role": "depth_audit"
+        }
+      ]
+    },
+    {
+      "id": "PEN-DP01-C01-M08",
+      "topic_id": "PEN-DP01-C01-T05",
+      "title": "Funções mediatas: controle social e limitação do poder punitivo",
+      "freshness_class": "stable_doctrine",
+      "coverage_status": "mapped",
+      "sources": [
+        {
+          "source_id": "GRAN-ENAM-PEN-01",
+          "locator": "pp. 9-10",
+          "role": "primary_study"
+        },
+        {
+          "source_id": "DD-2026-PEN-DP01",
+          "locator": "pp. 9-10",
+          "role": "depth_audit"
+        }
+      ]
+    },
+    {
+      "id": "PEN-DP01-C01-M09",
+      "topic_id": "PEN-DP01-C01-T05",
+      "title": "Funções imediatas: Roxin e Jakobs",
+      "freshness_class": "stable_doctrine",
+      "coverage_status": "mapped",
+      "sources": [
+        {
+          "source_id": "GRAN-ENAM-PEN-01",
+          "locator": "pp. 9-10",
+          "role": "primary_study"
+        },
+        {
+          "source_id": "DD-2026-PEN-DP01",
+          "locator": "pp. 9-11",
+          "role": "depth_audit"
+        }
+      ]
+    },
+    {
+      "id": "PEN-DP01-C01-M10",
+      "topic_id": "PEN-DP01-C01-T05",
+      "title": "Outras funções cobradas: garantia, ético-social e simbólica",
+      "freshness_class": "stable_doctrine",
+      "coverage_status": "mapped",
+      "sources": [
+        {
+          "source_id": "GRAN-ENAM-PEN-01",
+          "locator": "pp. 9-10",
+          "role": "primary_study"
+        },
+        {
+          "source_id": "DD-2026-PEN-DP01",
+          "locator": "pp. 9-12",
+          "role": "depth_audit"
+        }
+      ]
+    },
+    {
+      "id": "PEN-DP01-C01-M11",
+      "topic_id": "PEN-DP01-C01-T06",
+      "title": "Divisões do Direito Penal",
+      "freshness_class": "stable_doctrine",
+      "coverage_status": "locator_pending",
+      "sources": [
+        {
+          "source_id": "DD-2026-PEN-DP01",
+          "locator": "a confirmar no corpo da seção 1",
+          "role": "depth_audit"
+        }
+      ],
+      "gap": "Não promover conteúdo deste microtópico antes de confirmar o localizador e a cobertura."
+    }
+  ],
+  "next_actions": [
+    "criar claims autorais para M01-M10",
+    "confirmar localizador e conteúdo de M11",
+    "ligar artigos apenas após conferência oficial",
+    "localizar questões oficiais de Delegado por microtópico",
+    "auditar Brainscape/Passo como padrões de pergunta",
+    "gerar primeira leitura sintética somente depois do fechamento da cobertura"
+  ]
+}
