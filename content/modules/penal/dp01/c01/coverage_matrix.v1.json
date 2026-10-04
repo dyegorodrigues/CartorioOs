@@ -1,0 +1,1056 @@
+{
+  "schema_version": 1,
+  "module_id": "PEN-DP01-C01",
+  "title": "Conceito, características, objeto, evolução, funções e divisões",
+  "status": "mapping_in_progress",
+  "mapped_at": "2026-10-04",
+  "source_basis": [
+    {
+      "id": "DD-2026-PEN-DP01",
+      "role": "curriculum_and_delegate_depth",
+      "scope": "chapter 1"
+    },
+    {
+      "id": "GRAN-ENAM-PEN-01",
+      "role": "editorial_visual_base",
+      "scope": "concept/aspects/characteristics/functions; related criminal sciences/policy"
+    },
+    {
+      "id": "BRAINSCAPE-MULTI",
+      "role": "question_architecture_research",
+      "scope": "multiple user decks"
+    },
+    {
+      "id": "PASSO-2025-2026-A00",
+      "role": "subjective_revision_pattern_and_incidence_reference",
+      "scope": "principles/concept/sources"
+    }
+  ],
+  "caveats": [
+    "Gran coverage flags refer to Gran module 01 only unless explicitly stated otherwise.",
+    "DD markers saying a topic 'caiu em prova' are not treated as official verification until the original exam/gabarito is checked.",
+    "Brainscape/Passo are architecture/mining references, not legal authorities.",
+    "No atom is considered publication-ready yet."
+  ],
+  "atoms": [
+    {
+      "id": "A001",
+      "title": "Conceito geral de Direito Penal",
+      "aliases": [
+        "Direito Penal",
+        "Direito Criminal"
+      ],
+      "priority": "core",
+      "source_coverage": {
+        "dd_2026_theory": "full",
+        "gran_sintetico_01": "full"
+      },
+      "verification": {
+        "official_law": "pending_where_applicable",
+        "doctrine": "pending",
+        "real_exam": "pending_except_dd_internal_markers",
+        "jurisprudence": "not_applicable_or_pending"
+      },
+      "editorial_status": "mapped_from_primary_course_sources_not_yet_promoted"
+    },
+    {
+      "id": "A002",
+      "title": "Natureza de ramo do Direito Público",
+      "aliases": [
+        "Direito Público"
+      ],
+      "priority": "core",
+      "source_coverage": {
+        "dd_2026_theory": "full",
+        "gran_sintetico_01": "full"
+      },
+      "verification": {
+        "official_law": "pending_where_applicable",
+        "doctrine": "pending",
+        "real_exam": "pending_except_dd_internal_markers",
+        "jurisprudence": "not_applicable_or_pending"
+      },
+      "editorial_status": "mapped_from_primary_course_sources_not_yet_promoted"
+    },
+    {
+      "id": "A003",
+      "title": "Sanção penal como gênero e espécies",
+      "aliases": [
+        "pena",
+        "medida de segurança",
+        "3ª via/reparação do dano"
+      ],
+      "priority": "core",
+      "source_coverage": {
+        "dd_2026_theory": "full",
+        "gran_sintetico_01": "full"
+      },
+      "verification": {
+        "official_law": "pending_where_applicable",
+        "doctrine": "pending",
+        "real_exam": "pending_except_dd_internal_markers",
+        "jurisprudence": "not_applicable_or_pending"
+      },
+      "editorial_status": "mapped_from_primary_course_sources_not_yet_promoted"
+    },
+    {
+      "id": "A004",
+      "title": "Aspectos do conceito — visão panorâmica",
+      "aliases": [
+        "formal/estático",
+        "material",
+        "sociológico/dinâmico"
+      ],
+      "priority": "core",
+      "source_coverage": {
+        "dd_2026_theory": "full",
+        "gran_sintetico_01": "full"
+      },
+      "verification": {
+        "official_law": "pending_where_applicable",
+        "doctrine": "pending",
+        "real_exam": "pending_except_dd_internal_markers",
+        "jurisprudence": "not_applicable_or_pending"
+      },
+      "editorial_status": "mapped_from_primary_course_sources_not_yet_promoted"
+    },
+    {
+      "id": "A005",
+      "title": "Aspecto formal ou estático",
+      "aliases": [
+        "formal",
+        "estático"
+      ],
+      "priority": "core",
+      "source_coverage": {
+        "dd_2026_theory": "full",
+        "gran_sintetico_01": "full"
+      },
+      "verification": {
+        "official_law": "pending_where_applicable",
+        "doctrine": "pending",
+        "real_exam": "pending_except_dd_internal_markers",
+        "jurisprudence": "not_applicable_or_pending"
+      },
+      "editorial_status": "mapped_from_primary_course_sources_not_yet_promoted"
+    },
+    {
+      "id": "A006",
+      "title": "Aspecto material",
+      "aliases": [
+        "material"
+      ],
+      "priority": "core",
+      "source_coverage": {
+        "dd_2026_theory": "full",
+        "gran_sintetico_01": "full"
+      },
+      "verification": {
+        "official_law": "pending_where_applicable",
+        "doctrine": "pending",
+        "real_exam": "pending_except_dd_internal_markers",
+        "jurisprudence": "not_applicable_or_pending"
+      },
+      "editorial_status": "mapped_from_primary_course_sources_not_yet_promoted"
+    },
+    {
+      "id": "A007",
+      "title": "Aspecto sociológico ou dinâmico",
+      "aliases": [
+        "sociológico",
+        "dinâmico",
+        "controle social"
+      ],
+      "priority": "core",
+      "source_coverage": {
+        "dd_2026_theory": "full",
+        "gran_sintetico_01": "full"
+      },
+      "verification": {
+        "official_law": "pending_where_applicable",
+        "doctrine": "pending",
+        "real_exam": "pending_except_dd_internal_markers",
+        "jurisprudence": "not_applicable_or_pending"
+      },
+      "editorial_status": "mapped_from_primary_course_sources_not_yet_promoted"
+    },
+    {
+      "id": "A008",
+      "title": "Características — mapa geral",
+      "aliases": [
+        "ciência",
+        "cultural",
+        "normativa",
+        "valorativa",
+        "finalista",
+        "sancionatória",
+        "fragmentária"
+      ],
+      "priority": "core",
+      "source_coverage": {
+        "dd_2026_theory": "full",
+        "gran_sintetico_01": "partial"
+      },
+      "verification": {
+        "official_law": "pending_where_applicable",
+        "doctrine": "pending",
+        "real_exam": "pending_except_dd_internal_markers",
+        "jurisprudence": "not_applicable_or_pending"
+      },
+      "editorial_status": "mapped_from_primary_course_sources_not_yet_promoted"
+    },
+    {
+      "id": "A009",
+      "title": "Ciência cultural / dever-ser",
+      "aliases": [
+        "ciência cultural",
+        "dever-ser"
+      ],
+      "priority": "core",
+      "source_coverage": {
+        "dd_2026_theory": "full",
+        "gran_sintetico_01": "full"
+      },
+      "verification": {
+        "official_law": "pending_where_applicable",
+        "doctrine": "pending",
+        "real_exam": "pending_except_dd_internal_markers",
+        "jurisprudence": "not_applicable_or_pending"
+      },
+      "editorial_status": "mapped_from_primary_course_sources_not_yet_promoted"
+    },
+    {
+      "id": "A010",
+      "title": "Caráter normativo",
+      "aliases": [
+        "normativa"
+      ],
+      "priority": "core",
+      "source_coverage": {
+        "dd_2026_theory": "full",
+        "gran_sintetico_01": "full"
+      },
+      "verification": {
+        "official_law": "pending_where_applicable",
+        "doctrine": "pending",
+        "real_exam": "pending_except_dd_internal_markers",
+        "jurisprudence": "not_applicable_or_pending"
+      },
+      "editorial_status": "mapped_from_primary_course_sources_not_yet_promoted"
+    },
+    {
+      "id": "A011",
+      "title": "Caráter valorativo",
+      "aliases": [
+        "valorativa",
+        "axiológica"
+      ],
+      "priority": "core",
+      "source_coverage": {
+        "dd_2026_theory": "full",
+        "gran_sintetico_01": "full"
+      },
+      "verification": {
+        "official_law": "pending_where_applicable",
+        "doctrine": "pending",
+        "real_exam": "pending_except_dd_internal_markers",
+        "jurisprudence": "not_applicable_or_pending"
+      },
+      "editorial_status": "mapped_from_primary_course_sources_not_yet_promoted"
+    },
+    {
+      "id": "A012",
+      "title": "Caráter finalista",
+      "aliases": [
+        "finalista"
+      ],
+      "priority": "core",
+      "source_coverage": {
+        "dd_2026_theory": "full",
+        "gran_sintetico_01": "full"
+      },
+      "verification": {
+        "official_law": "pending_where_applicable",
+        "doctrine": "pending",
+        "real_exam": "pending_except_dd_internal_markers",
+        "jurisprudence": "not_applicable_or_pending"
+      },
+      "editorial_status": "mapped_from_primary_course_sources_not_yet_promoted"
+    },
+    {
+      "id": "A013",
+      "title": "Natureza predominantemente sancionatória e excepcionalmente constitutiva",
+      "aliases": [
+        "sancionatória",
+        "constitutiva"
+      ],
+      "priority": "core",
+      "source_coverage": {
+        "dd_2026_theory": "full",
+        "gran_sintetico_01": "not_identified_in_gran01"
+      },
+      "verification": {
+        "official_law": "pending_where_applicable",
+        "doctrine": "pending",
+        "real_exam": "pending_except_dd_internal_markers",
+        "jurisprudence": "not_applicable_or_pending"
+      },
+      "editorial_status": "mapped_from_primary_course_sources_not_yet_promoted"
+    },
+    {
+      "id": "A014",
+      "title": "Fragmentariedade como característica",
+      "aliases": [
+        "fragmentária",
+        "fragmentariedade"
+      ],
+      "priority": "core",
+      "source_coverage": {
+        "dd_2026_theory": "full",
+        "gran_sintetico_01": "not_identified_in_gran01"
+      },
+      "verification": {
+        "official_law": "pending_where_applicable",
+        "doctrine": "pending",
+        "real_exam": "pending_except_dd_internal_markers",
+        "jurisprudence": "not_applicable_or_pending"
+      },
+      "editorial_status": "mapped_from_primary_course_sources_not_yet_promoted"
+    },
+    {
+      "id": "A015",
+      "title": "Objeto de proteção — bens jurídicos penais",
+      "aliases": [
+        "bem jurídico",
+        "bem jurídico penal"
+      ],
+      "priority": "core",
+      "source_coverage": {
+        "dd_2026_theory": "full",
+        "gran_sintetico_01": "partial"
+      },
+      "verification": {
+        "official_law": "pending_where_applicable",
+        "doctrine": "pending",
+        "real_exam": "pending_except_dd_internal_markers",
+        "jurisprudence": "not_applicable_or_pending"
+      },
+      "editorial_status": "mapped_from_primary_course_sources_not_yet_promoted"
+    },
+    {
+      "id": "A016",
+      "title": "Constituição como limite/orientação na seleção de bens jurídicos",
+      "aliases": [
+        "mandados de criminalização",
+        "limites constitucionais"
+      ],
+      "priority": "advanced_core",
+      "source_coverage": {
+        "dd_2026_theory": "full",
+        "gran_sintetico_01": "partial"
+      },
+      "verification": {
+        "official_law": "pending_where_applicable",
+        "doctrine": "pending",
+        "real_exam": "pending_except_dd_internal_markers",
+        "jurisprudence": "not_applicable_or_pending"
+      },
+      "editorial_status": "mapped_from_primary_course_sources_not_yet_promoted"
+    },
+    {
+      "id": "A017",
+      "title": "Evolução histórica — mapa de períodos",
+      "aliases": [
+        "vinganças",
+        "humanitário",
+        "científico",
+        "contemporâneo"
+      ],
+      "priority": "core",
+      "source_coverage": {
+        "dd_2026_theory": "full",
+        "gran_sintetico_01": "not_identified_in_gran01"
+      },
+      "verification": {
+        "official_law": "pending_where_applicable",
+        "doctrine": "pending",
+        "real_exam": "pending_except_dd_internal_markers",
+        "jurisprudence": "not_applicable_or_pending"
+      },
+      "editorial_status": "mapped_from_primary_course_sources_not_yet_promoted"
+    },
+    {
+      "id": "A018",
+      "title": "Vingança privada",
+      "aliases": [
+        "vingança privada"
+      ],
+      "priority": "core",
+      "source_coverage": {
+        "dd_2026_theory": "full",
+        "gran_sintetico_01": "not_identified_in_gran01"
+      },
+      "verification": {
+        "official_law": "pending_where_applicable",
+        "doctrine": "pending",
+        "real_exam": "pending_except_dd_internal_markers",
+        "jurisprudence": "not_applicable_or_pending"
+      },
+      "editorial_status": "mapped_from_primary_course_sources_not_yet_promoted"
+    },
+    {
+      "id": "A019",
+      "title": "Vingança divina",
+      "aliases": [
+        "vingança divina"
+      ],
+      "priority": "core",
+      "source_coverage": {
+        "dd_2026_theory": "full",
+        "gran_sintetico_01": "not_identified_in_gran01"
+      },
+      "verification": {
+        "official_law": "pending_where_applicable",
+        "doctrine": "pending",
+        "real_exam": "pending_except_dd_internal_markers",
+        "jurisprudence": "not_applicable_or_pending"
+      },
+      "editorial_status": "mapped_from_primary_course_sources_not_yet_promoted"
+    },
+    {
+      "id": "A020",
+      "title": "Vingança pública",
+      "aliases": [
+        "vingança pública"
+      ],
+      "priority": "core",
+      "source_coverage": {
+        "dd_2026_theory": "full",
+        "gran_sintetico_01": "not_identified_in_gran01"
+      },
+      "verification": {
+        "official_law": "pending_where_applicable",
+        "doctrine": "pending",
+        "real_exam": "pending_except_dd_internal_markers",
+        "jurisprudence": "not_applicable_or_pending"
+      },
+      "editorial_status": "mapped_from_primary_course_sources_not_yet_promoted"
+    },
+    {
+      "id": "A021",
+      "title": "Período Humanitário",
+      "aliases": [
+        "Iluminismo",
+        "Beccaria"
+      ],
+      "priority": "core",
+      "source_coverage": {
+        "dd_2026_theory": "full",
+        "gran_sintetico_01": "not_identified_in_gran01"
+      },
+      "verification": {
+        "official_law": "pending_where_applicable",
+        "doctrine": "pending",
+        "real_exam": "pending_except_dd_internal_markers",
+        "jurisprudence": "not_applicable_or_pending"
+      },
+      "editorial_status": "mapped_from_primary_course_sources_not_yet_promoted"
+    },
+    {
+      "id": "A022",
+      "title": "Período Científico",
+      "aliases": [
+        "período científico"
+      ],
+      "priority": "core",
+      "source_coverage": {
+        "dd_2026_theory": "full",
+        "gran_sintetico_01": "not_identified_in_gran01"
+      },
+      "verification": {
+        "official_law": "pending_where_applicable",
+        "doctrine": "pending",
+        "real_exam": "pending_except_dd_internal_markers",
+        "jurisprudence": "not_applicable_or_pending"
+      },
+      "editorial_status": "mapped_from_primary_course_sources_not_yet_promoted"
+    },
+    {
+      "id": "A023",
+      "title": "Escola Clássica",
+      "aliases": [
+        "Clássica",
+        "livre-arbítrio",
+        "ente jurídico",
+        "Carrara"
+      ],
+      "priority": "core",
+      "source_coverage": {
+        "dd_2026_theory": "full",
+        "gran_sintetico_01": "not_identified_in_gran01"
+      },
+      "verification": {
+        "official_law": "pending_where_applicable",
+        "doctrine": "pending",
+        "real_exam": "pending_except_dd_internal_markers",
+        "jurisprudence": "not_applicable_or_pending"
+      },
+      "editorial_status": "mapped_from_primary_course_sources_not_yet_promoted"
+    },
+    {
+      "id": "A024",
+      "title": "Escola Positiva",
+      "aliases": [
+        "Positiva",
+        "determinismo",
+        "Lombroso",
+        "Ferri",
+        "Garofalo"
+      ],
+      "priority": "core",
+      "source_coverage": {
+        "dd_2026_theory": "full",
+        "gran_sintetico_01": "not_identified_in_gran01"
+      },
+      "verification": {
+        "official_law": "pending_where_applicable",
+        "doctrine": "pending",
+        "real_exam": "pending_except_dd_internal_markers",
+        "jurisprudence": "not_applicable_or_pending"
+      },
+      "editorial_status": "mapped_from_primary_course_sources_not_yet_promoted"
+    },
+    {
+      "id": "A025",
+      "title": "Escolas Ecléticas / Terza Scuola",
+      "aliases": [
+        "Eclética",
+        "Terza Scuola",
+        "terceira escola"
+      ],
+      "priority": "core",
+      "source_coverage": {
+        "dd_2026_theory": "full",
+        "gran_sintetico_01": "not_identified_in_gran01"
+      },
+      "verification": {
+        "official_law": "pending_where_applicable",
+        "doctrine": "pending",
+        "real_exam": "pending_except_dd_internal_markers",
+        "jurisprudence": "not_applicable_or_pending"
+      },
+      "editorial_status": "mapped_from_primary_course_sources_not_yet_promoted"
+    },
+    {
+      "id": "A026",
+      "title": "Período Contemporâneo",
+      "aliases": [
+        "constitucionalização",
+        "minimalismo",
+        "expansionismo"
+      ],
+      "priority": "advanced_core",
+      "source_coverage": {
+        "dd_2026_theory": "full",
+        "gran_sintetico_01": "partial_elsewhere_gran01"
+      },
+      "verification": {
+        "official_law": "pending_where_applicable",
+        "doctrine": "pending",
+        "real_exam": "pending_except_dd_internal_markers",
+        "jurisprudence": "not_applicable_or_pending"
+      },
+      "editorial_status": "mapped_from_primary_course_sources_not_yet_promoted"
+    },
+    {
+      "id": "A027",
+      "title": "Evolução histórica no Brasil",
+      "aliases": [
+        "Ordenações Afonsinas",
+        "Manuelinas",
+        "Filipinas"
+      ],
+      "priority": "secondary",
+      "source_coverage": {
+        "dd_2026_theory": "full",
+        "gran_sintetico_01": "not_identified_in_gran01"
+      },
+      "verification": {
+        "official_law": "pending_where_applicable",
+        "doctrine": "pending",
+        "real_exam": "pending_except_dd_internal_markers",
+        "jurisprudence": "not_applicable_or_pending"
+      },
+      "editorial_status": "mapped_from_primary_course_sources_not_yet_promoted"
+    },
+    {
+      "id": "A028",
+      "title": "Funções/missões — visão panorâmica",
+      "aliases": [
+        "missão mediata",
+        "missão imediata"
+      ],
+      "priority": "core",
+      "source_coverage": {
+        "dd_2026_theory": "full",
+        "gran_sintetico_01": "full"
+      },
+      "verification": {
+        "official_law": "pending_where_applicable",
+        "doctrine": "pending",
+        "real_exam": "pending_except_dd_internal_markers",
+        "jurisprudence": "not_applicable_or_pending"
+      },
+      "editorial_status": "mapped_from_primary_course_sources_not_yet_promoted"
+    },
+    {
+      "id": "A029",
+      "title": "Missão mediata — controle social/preservação da paz pública",
+      "aliases": [
+        "controle social",
+        "paz pública"
+      ],
+      "priority": "core",
+      "source_coverage": {
+        "dd_2026_theory": "full",
+        "gran_sintetico_01": "full"
+      },
+      "verification": {
+        "official_law": "pending_where_applicable",
+        "doctrine": "pending",
+        "real_exam": "pending_except_dd_internal_markers",
+        "jurisprudence": "not_applicable_or_pending"
+      },
+      "editorial_status": "mapped_from_primary_course_sources_not_yet_promoted"
+    },
+    {
+      "id": "A030",
+      "title": "Missão mediata — limitação do poder punitivo/função de garantia",
+      "aliases": [
+        "função de garantia",
+        "limitação ao ius puniendi"
+      ],
+      "priority": "core",
+      "source_coverage": {
+        "dd_2026_theory": "full",
+        "gran_sintetico_01": "full"
+      },
+      "verification": {
+        "official_law": "pending_where_applicable",
+        "doctrine": "pending",
+        "real_exam": "pending_except_dd_internal_markers",
+        "jurisprudence": "not_applicable_or_pending"
+      },
+      "editorial_status": "mapped_from_primary_course_sources_not_yet_promoted"
+    },
+    {
+      "id": "A031",
+      "title": "Missão imediata — Roxin",
+      "aliases": [
+        "funcionalismo teleológico",
+        "moderado",
+        "Roxin",
+        "proteção de bens jurídicos"
+      ],
+      "priority": "core",
+      "source_coverage": {
+        "dd_2026_theory": "full",
+        "gran_sintetico_01": "full"
+      },
+      "verification": {
+        "official_law": "pending_where_applicable",
+        "doctrine": "pending",
+        "real_exam": "pending_except_dd_internal_markers",
+        "jurisprudence": "not_applicable_or_pending"
+      },
+      "editorial_status": "mapped_from_primary_course_sources_not_yet_promoted"
+    },
+    {
+      "id": "A032",
+      "title": "Missão imediata — Jakobs",
+      "aliases": [
+        "funcionalismo sistêmico",
+        "radical",
+        "Jakobs",
+        "vigência da norma"
+      ],
+      "priority": "core",
+      "source_coverage": {
+        "dd_2026_theory": "full",
+        "gran_sintetico_01": "full"
+      },
+      "verification": {
+        "official_law": "pending_where_applicable",
+        "doctrine": "pending",
+        "real_exam": "pending_except_dd_internal_markers",
+        "jurisprudence": "not_applicable_or_pending"
+      },
+      "editorial_status": "mapped_from_primary_course_sources_not_yet_promoted"
+    },
+    {
+      "id": "A033",
+      "title": "Função simbólica",
+      "aliases": [
+        "simbólica",
+        "direito penal do terror",
+        "inflação legislativa",
+        "hipertrofia"
+      ],
+      "priority": "exam_relevant",
+      "source_coverage": {
+        "dd_2026_theory": "full",
+        "gran_sintetico_01": "partial"
+      },
+      "verification": {
+        "official_law": "pending_where_applicable",
+        "doctrine": "pending",
+        "real_exam": "pending_except_dd_internal_markers",
+        "jurisprudence": "not_applicable_or_pending"
+      },
+      "editorial_status": "mapped_from_primary_course_sources_not_yet_promoted"
+    },
+    {
+      "id": "A034",
+      "title": "Função motivadora de comportamento conforme a norma",
+      "aliases": [
+        "motivadora"
+      ],
+      "priority": "secondary",
+      "source_coverage": {
+        "dd_2026_theory": "full",
+        "gran_sintetico_01": "pending"
+      },
+      "verification": {
+        "official_law": "pending_where_applicable",
+        "doctrine": "pending",
+        "real_exam": "pending_except_dd_internal_markers",
+        "jurisprudence": "not_applicable_or_pending"
+      },
+      "editorial_status": "mapped_from_primary_course_sources_not_yet_promoted"
+    },
+    {
+      "id": "A035",
+      "title": "Função de redução da violência estatal",
+      "aliases": [
+        "redução da violência estatal"
+      ],
+      "priority": "secondary",
+      "source_coverage": {
+        "dd_2026_theory": "full",
+        "gran_sintetico_01": "pending"
+      },
+      "verification": {
+        "official_law": "pending_where_applicable",
+        "doctrine": "pending",
+        "real_exam": "pending_except_dd_internal_markers",
+        "jurisprudence": "not_applicable_or_pending"
+      },
+      "editorial_status": "mapped_from_primary_course_sources_not_yet_promoted"
+    },
+    {
+      "id": "A036",
+      "title": "Função promocional de transformação social",
+      "aliases": [
+        "promocional"
+      ],
+      "priority": "secondary",
+      "source_coverage": {
+        "dd_2026_theory": "full",
+        "gran_sintetico_01": "pending"
+      },
+      "verification": {
+        "official_law": "pending_where_applicable",
+        "doctrine": "pending",
+        "real_exam": "pending_except_dd_internal_markers",
+        "jurisprudence": "not_applicable_or_pending"
+      },
+      "editorial_status": "mapped_from_primary_course_sources_not_yet_promoted"
+    },
+    {
+      "id": "A037",
+      "title": "Classificações — mapa geral",
+      "aliases": [
+        "divisões",
+        "classificações"
+      ],
+      "priority": "core",
+      "source_coverage": {
+        "dd_2026_theory": "full",
+        "gran_sintetico_01": "not_identified_in_gran01"
+      },
+      "verification": {
+        "official_law": "pending_where_applicable",
+        "doctrine": "pending",
+        "real_exam": "pending_except_dd_internal_markers",
+        "jurisprudence": "not_applicable_or_pending"
+      },
+      "editorial_status": "mapped_from_primary_course_sources_not_yet_promoted"
+    },
+    {
+      "id": "A038",
+      "title": "Fundamental/Primário × Complementar/Secundário",
+      "aliases": [
+        "fundamental",
+        "primário",
+        "complementar",
+        "secundário"
+      ],
+      "priority": "core",
+      "source_coverage": {
+        "dd_2026_theory": "full",
+        "gran_sintetico_01": "not_identified_in_gran01"
+      },
+      "verification": {
+        "official_law": "pending_where_applicable",
+        "doctrine": "pending",
+        "real_exam": "pending_except_dd_internal_markers",
+        "jurisprudence": "not_applicable_or_pending"
+      },
+      "editorial_status": "mapped_from_primary_course_sources_not_yet_promoted"
+    },
+    {
+      "id": "A039",
+      "title": "Comum × Especial",
+      "aliases": [
+        "comum",
+        "especial"
+      ],
+      "priority": "core",
+      "source_coverage": {
+        "dd_2026_theory": "full",
+        "gran_sintetico_01": "not_identified_in_gran01"
+      },
+      "verification": {
+        "official_law": "pending_where_applicable",
+        "doctrine": "pending",
+        "real_exam": "pending_except_dd_internal_markers",
+        "jurisprudence": "not_applicable_or_pending"
+      },
+      "editorial_status": "mapped_from_primary_course_sources_not_yet_promoted"
+    },
+    {
+      "id": "A040",
+      "title": "Geral × Local",
+      "aliases": [
+        "geral",
+        "local"
+      ],
+      "priority": "core",
+      "source_coverage": {
+        "dd_2026_theory": "full",
+        "gran_sintetico_01": "not_identified_in_gran01"
+      },
+      "verification": {
+        "official_law": "pending_where_applicable",
+        "doctrine": "pending",
+        "real_exam": "pending_except_dd_internal_markers",
+        "jurisprudence": "not_applicable_or_pending"
+      },
+      "editorial_status": "mapped_from_primary_course_sources_not_yet_promoted"
+    },
+    {
+      "id": "A041",
+      "title": "Objetivo × Subjetivo",
+      "aliases": [
+        "objetivo",
+        "subjetivo",
+        "ius puniendi"
+      ],
+      "priority": "core",
+      "source_coverage": {
+        "dd_2026_theory": "full",
+        "gran_sintetico_01": "not_identified_in_gran01"
+      },
+      "verification": {
+        "official_law": "pending_where_applicable",
+        "doctrine": "pending",
+        "real_exam": "pending_except_dd_internal_markers",
+        "jurisprudence": "not_applicable_or_pending"
+      },
+      "editorial_status": "mapped_from_primary_course_sources_not_yet_promoted"
+    },
+    {
+      "id": "A042",
+      "title": "Substantivo/Material × Adjetivo/Formal",
+      "aliases": [
+        "substantivo",
+        "material",
+        "adjetivo",
+        "formal"
+      ],
+      "priority": "core",
+      "source_coverage": {
+        "dd_2026_theory": "full",
+        "gran_sintetico_01": "not_identified_in_gran01"
+      },
+      "verification": {
+        "official_law": "pending_where_applicable",
+        "doctrine": "pending",
+        "real_exam": "pending_except_dd_internal_markers",
+        "jurisprudence": "not_applicable_or_pending"
+      },
+      "editorial_status": "mapped_from_primary_course_sources_not_yet_promoted"
+    },
+    {
+      "id": "A043",
+      "title": "Direito de Intervenção de Hassemer",
+      "aliases": [
+        "Direito de Intervenção",
+        "Direito Intervencionista",
+        "Hassemer"
+      ],
+      "priority": "advanced_exam",
+      "source_coverage": {
+        "dd_2026_theory": "full",
+        "gran_sintetico_01": "not_identified_in_gran01"
+      },
+      "verification": {
+        "official_law": "pending_where_applicable",
+        "doctrine": "pending",
+        "real_exam": "pending_except_dd_internal_markers",
+        "jurisprudence": "not_applicable_or_pending"
+      },
+      "editorial_status": "mapped_from_primary_course_sources_not_yet_promoted"
+    }
+  ],
+  "group_questions_draft": [
+    {
+      "id": "QG01",
+      "function": "panorama_then_discrimination",
+      "covers": [
+        "A001",
+        "A004",
+        "A005",
+        "A006",
+        "A007"
+      ],
+      "candidate_prompt": "Quais são os aspectos sob os quais o Direito Penal pode ser conceituado e em que consiste cada um?",
+      "status": "candidate_not_final"
+    },
+    {
+      "id": "QG02",
+      "function": "precision",
+      "covers": [
+        "A002",
+        "A003"
+      ],
+      "candidate_prompt": "Por que o Direito Penal integra o Direito Público e quais são as espécies de sanção penal?",
+      "status": "candidate_not_final"
+    },
+    {
+      "id": "QG03",
+      "function": "comparison",
+      "covers": [
+        "A008",
+        "A009",
+        "A010",
+        "A011",
+        "A012",
+        "A013",
+        "A014"
+      ],
+      "candidate_prompt": "Quais são as principais características do Direito Penal e o que significa cada uma?",
+      "status": "candidate_not_final"
+    },
+    {
+      "id": "QG04",
+      "function": "conceptual_connection",
+      "covers": [
+        "A015",
+        "A016"
+      ],
+      "candidate_prompt": "Qual é o objeto de proteção do Direito Penal e qual é o papel da Constituição na seleção e limitação dos bens jurídicos penalmente tutelados?",
+      "status": "candidate_not_final"
+    },
+    {
+      "id": "QG05",
+      "function": "panorama",
+      "covers": [
+        "A017",
+        "A018",
+        "A019",
+        "A020",
+        "A021",
+        "A022",
+        "A026"
+      ],
+      "candidate_prompt": "Quais são os principais períodos da evolução histórica do Direito Penal e o que caracteriza cada um?",
+      "status": "candidate_not_final"
+    },
+    {
+      "id": "QG06",
+      "function": "high_value_comparison",
+      "covers": [
+        "A023",
+        "A024",
+        "A025"
+      ],
+      "candidate_prompt": "Diferencie Escola Clássica, Escola Positiva e escolas ecléticas quanto ao método, concepção de crime, livre-arbítrio/determinismo, responsabilidade e finalidade da pena.",
+      "status": "candidate_not_final"
+    },
+    {
+      "id": "QG07",
+      "function": "chronology",
+      "covers": [
+        "A027"
+      ],
+      "candidate_prompt": "Quais foram os principais marcos da evolução histórica do Direito Penal no Brasil no período colonial?",
+      "status": "candidate_not_final"
+    },
+    {
+      "id": "QG08",
+      "function": "panorama_then_comparison",
+      "covers": [
+        "A028",
+        "A029",
+        "A030",
+        "A031",
+        "A032"
+      ],
+      "candidate_prompt": "Quais são as missões mediatas e imediatas do Direito Penal e como Roxin e Jakobs divergem quanto à missão imediata?",
+      "status": "candidate_not_final"
+    },
+    {
+      "id": "QG09",
+      "function": "precision_exam",
+      "covers": [
+        "A033",
+        "A034",
+        "A035",
+        "A036"
+      ],
+      "candidate_prompt": "Quais outras funções são atribuídas ao Direito Penal e como se identifica a função simbólica?",
+      "status": "candidate_not_final"
+    },
+    {
+      "id": "QG10",
+      "function": "classification_matrix",
+      "covers": [
+        "A037",
+        "A038",
+        "A039",
+        "A040",
+        "A041",
+        "A042"
+      ],
+      "candidate_prompt": "Quais são as principais classificações do Direito Penal e como se distinguem seus pares?",
+      "status": "candidate_not_final"
+    },
+    {
+      "id": "QG11",
+      "function": "advanced_precision",
+      "covers": [
+        "A043"
+      ],
+      "candidate_prompt": "Em que consiste o Direito de Intervenção proposto por Hassemer e que posição ele ocupa entre o Direito Penal e o Direito Administrativo?",
+      "status": "candidate_not_final"
+    }
+  ],
+  "next_steps": [
+    "cross-search all Gran synthetics for atoms marked not_identified_in_gran01",
+    "audit aliases and formulations against recent real exams",
+    "read DD Legis/Juris/Sumulas only for nodes with actual linkage",
+    "build official exam corpus for C01",
+    "promote candidate questions only after answer and exam-validation review"
+  ]
+}
