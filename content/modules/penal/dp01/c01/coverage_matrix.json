@@ -1,86 +1,52 @@
 {
   "schema_version": 1,
-  "matrix_id": "PEN-DP01-C01-COVERAGE-V1",
+  "id": "PEN-DP01-C01-COVERAGE-V1",
   "updated_at": "2026-10-04",
-  "scope": {
-    "subject_id": "PEN",
-    "booklet_id": "PEN-DP01",
-    "module_id": "PEN-DP01-C01",
-    "title": "Conceito, características, objeto, evolução, funções e divisões"
-  },
   "status": "initial_atomic_mapping",
-  "source_policy": "Commercial sources inform internal mapping; public repo stores only original summaries, metadata and non-infringing abstractions.",
-  "source_roles": {
-    "DD-2026-PEN-DP01": "curriculum_depth_primary",
-    "GRAN-ENAM-PEN-01": "editorial_didactic_primary",
-    "BRAINS-CORPUS": "question_progression_mining_untrusted",
-    "PASSO-CORPUS": "integrative_question_pattern_reference",
-    "OFFICIAL-EXAMS": "external_validation",
-    "OFFICIAL-LAW-COURTS": "authority_freshness"
-  },
+  "module_id": "PEN-DP01-C01",
   "nodes": [
-    {
-      "id": "PEN-DP01-C01-N001",
-      "title": "Conceito geral de Direito Penal",
-      "aliases": [
+    [
+      "N001",
+      "Conceito geral de Direito Penal",
+      [
         "Direito Penal",
-        "Direito Criminal (distinção/uso terminológico)"
+        "Direito Criminal"
       ],
-      "dd_coverage": "deep",
-      "gran_coverage": "present",
-      "exam_relevance": "core",
-      "notes": "Preservar definição técnica e natureza de ramo do Direito Público; sanção penal como gênero.",
-      "question_roles": [
-        "panorama",
-        "definition",
-        "distinction"
-      ],
-      "validation_status": "source_mapped"
-    },
-    {
-      "id": "PEN-DP01-C01-N002",
-      "title": "Sanção penal e vias do Direito Penal",
-      "aliases": [
+      "core",
+      "DD deep; Gran present",
+      "Preservar definição técnica, ramo do Direito Público e sanção penal como gênero."
+    ],
+    [
+      "N002",
+      "Sanção penal e vias",
+      [
         "pena",
         "medida de segurança",
-        "terceira via",
-        "reparação do dano"
+        "terceira via"
       ],
-      "dd_coverage": "present",
-      "gran_coverage": "partial_or_not_central",
-      "exam_relevance": "secondary",
-      "notes": "DD registra pena como 1ª via, medida de segurança como 2ª e reparação do dano como 3ª; exigir auditoria doutrinária antes da redação final.",
-      "question_roles": [
-        "precision"
+      "secondary",
+      "DD present; Gran partial",
+      "Auditar doutrina antes da redação final."
+    ],
+    [
+      "N003",
+      "Aspectos do conceito",
+      [
+        "formal",
+        "estático",
+        "material",
+        "sociológico",
+        "dinâmico"
       ],
-      "validation_status": "needs_doctrine_audit"
-    },
-    {
-      "id": "PEN-DP01-C01-N003",
-      "title": "Aspectos do conceito de Direito Penal",
-      "aliases": [
-        "aspecto formal",
-        "aspecto estático",
-        "aspecto material",
-        "aspecto sociológico",
-        "aspecto dinâmico"
-      ],
-      "dd_coverage": "deep",
-      "gran_coverage": "present",
-      "exam_relevance": "core",
-      "notes": "Obrigatório registrar pares formal/estático e sociológico/dinâmico. Material relaciona-se a gravidade e bens jurídicos.",
-      "question_roles": [
-        "panorama",
-        "discrimination",
-        "precision"
-      ],
-      "validation_status": "source_mapped"
-    },
-    {
-      "id": "PEN-DP01-C01-N004",
-      "title": "Características do Direito Penal",
-      "aliases": [
-        "ciência cultural",
+      "core",
+      "DD deep; Gran present",
+      "Registrar explicitamente formal/estático e sociológico/dinâmico."
+    ],
+    [
+      "N004",
+      "Características do Direito Penal",
+      [
+        "cultural",
         "normativa",
         "valorativa",
         "finalista",
@@ -88,402 +54,268 @@
         "constitutiva",
         "fragmentária"
       ],
-      "dd_coverage": "deep",
-      "gran_coverage": "present",
-      "exam_relevance": "core",
-      "notes": "Não reduzir a lista a mnemônico. Cada característica precisa de conceito funcional e distinções relevantes.",
-      "question_roles": [
-        "panorama",
-        "discrimination",
-        "precision"
-      ],
-      "validation_status": "source_mapped"
-    },
-    {
-      "id": "PEN-DP01-C01-N005",
-      "title": "Objeto de proteção do Direito Penal",
-      "aliases": [
+      "core",
+      "DD deep; Gran present",
+      "Não reduzir a lista a mnemônico; explicar função de cada característica."
+    ],
+    [
+      "N005",
+      "Objeto de proteção",
+      [
         "bem jurídico penal",
-        "bens jurídicos fundamentais",
         "proteção de bens jurídicos"
       ],
-      "dd_coverage": "deep",
-      "gran_coverage": "present_in_functions",
-      "exam_relevance": "core_connected",
-      "notes": "Nó conectado à função de Roxin, princípios e teoria geral do crime. Edital PF 2025 também cobra 'bem jurídico' expressamente em 3.2.",
-      "question_roles": [
-        "definition",
-        "connection",
-        "application"
-      ],
-      "validation_status": "needs_official_and_doctrine_audit"
-    },
-    {
-      "id": "PEN-DP01-C01-N006",
-      "title": "Constituição e seleção de bens jurídicos",
-      "aliases": [
+      "core_connected",
+      "DD deep; Gran via funções",
+      "Nó conectado a Roxin, princípios e teoria geral do crime."
+    ],
+    [
+      "N006",
+      "Constituição e seleção de bens jurídicos",
+      [
         "mandados de criminalização",
-        "limites constitucionais ao legislador penal",
-        "visão garantista"
+        "limites constitucionais"
       ],
-      "dd_coverage": "present",
-      "gran_coverage": "not_identified_in_core_module",
-      "exam_relevance": "advanced_connected",
-      "notes": "Separar orientação constitucional, mandados de criminalização e limites de direitos fundamentais.",
-      "question_roles": [
-        "connection",
-        "application"
+      "advanced",
+      "DD present; Gran not identified",
+      "Separar orientação constitucional, mandados e limites."
+    ],
+    [
+      "N007",
+      "Fases de vingança",
+      [
+        "privada",
+        "divina",
+        "pública"
       ],
-      "validation_status": "needs_official_audit"
-    },
-    {
-      "id": "PEN-DP01-C01-N007",
-      "title": "Evolução histórica: fases de vingança",
-      "aliases": [
-        "vingança privada",
-        "vingança divina",
-        "vingança pública"
-      ],
-      "dd_coverage": "deep",
-      "gran_coverage": "not_identified",
-      "exam_relevance": "validated_by_delegate_criminology_overlap",
-      "notes": "Usar linha do tempo. Não misturar fases com escolas penais.",
-      "question_roles": [
-        "panorama",
-        "sequence",
-        "discrimination"
-      ],
-      "validation_status": "source_mapped"
-    },
-    {
-      "id": "PEN-DP01-C01-N008",
-      "title": "Período Humanitário",
-      "aliases": [
+      "validated",
+      "DD deep; Gran not identified",
+      "Usar linha do tempo; não misturar fases e escolas."
+    ],
+    [
+      "N008",
+      "Período Humanitário",
+      [
         "Iluminismo",
-        "humanização das penas",
-        "Cesare Beccaria"
+        "Beccaria",
+        "humanização das penas"
       ],
-      "dd_coverage": "present",
-      "gran_coverage": "not_identified",
-      "exam_relevance": "connected_to_schools",
-      "notes": "Ensinar ruptura com crueldade/arbitrariedade, legalidade, proporcionalidade e prevenção.",
-      "question_roles": [
-        "sequence",
-        "cause_effect",
-        "precision"
-      ],
-      "validation_status": "source_mapped"
-    },
-    {
-      "id": "PEN-DP01-C01-N009",
-      "title": "Período Científico e Escolas Penais",
-      "aliases": [
-        "Escola Clássica",
-        "Escola Positiva",
-        "Escolas Ecléticas",
+      "connected",
+      "DD present; Gran not identified",
+      "Ensinar ruptura com crueldade/arbitrariedade."
+    ],
+    [
+      "N009",
+      "Período Científico e Escolas Penais",
+      [
+        "Clássica",
+        "Positiva",
+        "Ecléticas",
         "Terza Scuola"
       ],
-      "dd_coverage": "deep",
-      "gran_coverage": "not_identified",
-      "exam_relevance": "high_recent_delegate",
-      "notes": "PC-CE Delegado 2025 cobrou diretamente escola clássica, positivista e terceira escola/eclética.",
-      "question_roles": [
-        "panorama",
-        "comparison",
-        "application"
-      ],
-      "validation_status": "externally_validated"
-    },
-    {
-      "id": "PEN-DP01-C01-N010",
-      "title": "Escola Clássica",
-      "aliases": [
+      "high_recent_delegate",
+      "DD deep; Gran not identified",
+      "PC-CE Delegado 2025 cobrou diretamente."
+    ],
+    [
+      "N010",
+      "Escola Clássica",
+      [
         "livre-arbítrio",
         "responsabilidade moral",
-        "crime como ente jurídico",
-        "Carrara"
+        "Carrara",
+        "crime como ente jurídico"
       ],
-      "dd_coverage": "present",
-      "gran_coverage": "not_identified",
-      "exam_relevance": "high_recent_delegate",
-      "notes": "Comparar método, concepção de crime, responsabilidade e finalidade da pena.",
-      "question_roles": [
-        "precision",
-        "comparison",
-        "application"
-      ],
-      "validation_status": "externally_validated"
-    },
-    {
-      "id": "PEN-DP01-C01-N011",
-      "title": "Escola Positiva",
-      "aliases": [
+      "high_recent_delegate",
+      "DD present",
+      "Comparar método, crime, responsabilidade e pena."
+    ],
+    [
+      "N011",
+      "Escola Positiva",
+      [
         "determinismo",
         "periculosidade",
         "Lombroso",
         "Ferri",
         "Garofalo"
       ],
-      "dd_coverage": "present",
-      "gran_coverage": "not_identified",
-      "exam_relevance": "high_recent_delegate",
-      "notes": "Evitar respostas telegráficas; banca troca livre-arbítrio/determinismo, retribuição/defesa social e método lógico/empírico.",
-      "question_roles": [
-        "precision",
-        "comparison",
-        "application"
-      ],
-      "validation_status": "externally_validated"
-    },
-    {
-      "id": "PEN-DP01-C01-N012",
-      "title": "Escolas Ecléticas / Terceira Escola",
-      "aliases": [
+      "high_recent_delegate",
+      "DD present",
+      "Banca troca livre-arbítrio/determinismo e retribuição/defesa social."
+    ],
+    [
+      "N012",
+      "Terceira Escola / Eclética",
+      [
         "Terza Scuola",
-        "escola eclética",
-        "terceira escola"
+        "escola eclética"
       ],
-      "dd_coverage": "present",
-      "gran_coverage": "not_identified",
-      "exam_relevance": "high_recent_delegate",
-      "notes": "PC-CE Delegado 2025 validou cobrança sobre superação do antagonismo Clássica × Positiva e medidas de segurança.",
-      "question_roles": [
-        "precision",
-        "comparison",
-        "application"
+      "high_recent_delegate",
+      "DD present",
+      "PC-CE 2025 validou cobrança."
+    ],
+    [
+      "N013",
+      "Período Contemporâneo",
+      [
+        "constitucionalização",
+        "minimalismo",
+        "expansionismo"
       ],
-      "validation_status": "externally_validated"
-    },
-    {
-      "id": "PEN-DP01-C01-N013",
-      "title": "Período Contemporâneo",
-      "aliases": [
-        "constitucionalização do Direito Penal",
-        "minimalismo penal",
-        "expansionismo penal",
-        "alternativas à prisão"
-      ],
-      "dd_coverage": "present",
-      "gran_coverage": "partial_in_policy_criminal",
-      "exam_relevance": "connected",
-      "notes": "Provável ponte para módulos posteriores; evitar sobrecarregar primeira leitura.",
-      "question_roles": [
-        "panorama",
-        "connection"
-      ],
-      "validation_status": "needs_exam_weighting"
-    },
-    {
-      "id": "PEN-DP01-C01-N014",
-      "title": "Evolução histórica no Brasil",
-      "aliases": [
+      "connected",
+      "DD present; Gran partial",
+      "Ponte para módulos posteriores."
+    ],
+    [
+      "N014",
+      "Evolução no Brasil",
+      [
         "Ordenações Afonsinas",
-        "Ordenações Manuelinas",
-        "Ordenações Filipinas"
+        "Manuelinas",
+        "Filipinas"
       ],
-      "dd_coverage": "present",
-      "gran_coverage": "not_identified",
-      "exam_relevance": "uncertain",
-      "notes": "Manter em camada secundária até incidência ser quantificada.",
-      "question_roles": [
-        "sequence",
-        "precision"
-      ],
-      "validation_status": "needs_exam_weighting"
-    },
-    {
-      "id": "PEN-DP01-C01-N015",
-      "title": "Missões mediatas do Direito Penal",
-      "aliases": [
+      "uncertain",
+      "DD present",
+      "Manter em camada secundária até medir incidência."
+    ],
+    [
+      "N015",
+      "Missões mediatas",
+      [
         "controle social",
-        "preservação da paz pública",
+        "paz pública",
         "função de garantia",
-        "limitação do poder punitivo"
+        "limitação do ius puniendi"
       ],
-      "dd_coverage": "deep",
-      "gran_coverage": "present",
-      "exam_relevance": "core",
-      "notes": "Vincular função de garantia ao limite do ius puniendi; não inventar formulações fora da doutrina cobrada.",
-      "question_roles": [
-        "panorama",
-        "discrimination",
-        "application"
-      ],
-      "validation_status": "source_mapped"
-    },
-    {
-      "id": "PEN-DP01-C01-N016",
-      "title": "Missão imediata: funcionalismo teleológico",
-      "aliases": [
-        "Claus Roxin",
-        "funcionalismo moderado",
+      "core",
+      "DD deep; Gran present",
+      "Vincular garantia ao limite do poder punitivo."
+    ],
+    [
+      "N016",
+      "Funcionalismo teleológico",
+      [
+        "Roxin",
+        "moderado",
         "dualista",
-        "racional-teleológico",
-        "política criminal"
+        "racional-teleológico"
       ],
-      "dd_coverage": "deep",
-      "gran_coverage": "present",
-      "exam_relevance": "high",
-      "notes": "Função: proteção dos bens jurídicos relevantes. DD reporta cobrança Delegado SP/2023.",
-      "question_roles": [
-        "definition",
-        "comparison",
-        "application"
-      ],
-      "validation_status": "needs_official_exam_confirmation"
-    },
-    {
-      "id": "PEN-DP01-C01-N017",
-      "title": "Missão imediata: funcionalismo sistêmico",
-      "aliases": [
-        "Günther Jakobs",
-        "funcionalismo radical",
+      "high",
+      "DD deep; Gran present",
+      "Função: proteção de bens jurídicos relevantes."
+    ],
+    [
+      "N017",
+      "Funcionalismo sistêmico",
+      [
+        "Jakobs",
+        "radical",
         "monista",
-        "sistêmico",
-        "proteção da vigência da norma"
+        "sistêmico"
       ],
-      "dd_coverage": "deep",
-      "gran_coverage": "present",
-      "exam_relevance": "high",
-      "notes": "Separar função sistêmica de Direito Penal do Inimigo, embora conectados.",
-      "question_roles": [
-        "definition",
-        "comparison",
-        "application"
-      ],
-      "validation_status": "source_mapped"
-    },
-    {
-      "id": "PEN-DP01-C01-N018",
-      "title": "Funções complementares do Direito Penal",
-      "aliases": [
-        "função ético-social",
-        "função simbólica",
+      "high",
+      "DD deep; Gran present",
+      "Separar função sistêmica de Direito Penal do Inimigo."
+    ],
+    [
+      "N018",
+      "Funções complementares",
+      [
+        "ético-social",
+        "simbólica",
         "motivadora",
         "redução da violência estatal",
         "promocional"
       ],
-      "dd_coverage": "deep",
-      "gran_coverage": "partial",
-      "exam_relevance": "validated_recent",
-      "notes": "PC-RO Delegado 2022 cobrou diretamente função simbólica, inclusive inflação legislativa e hipertrofia penal.",
-      "question_roles": [
-        "panorama",
-        "precision",
-        "application"
-      ],
-      "validation_status": "externally_validated"
-    },
-    {
-      "id": "PEN-DP01-C01-N019",
-      "title": "Classificações do Direito Penal",
-      "aliases": [
+      "validated",
+      "DD deep; Gran partial",
+      "PC-RO Delegado 2022 cobrou função simbólica."
+    ],
+    [
+      "N019",
+      "Classificações do Direito Penal",
+      [
         "fundamental/primário",
         "complementar/secundário",
         "comum/especial",
         "geral/local",
         "objetivo/subjetivo",
-        "substantivo/adjetivo/formal"
+        "substantivo/adjetivo"
       ],
-      "dd_coverage": "deep",
-      "gran_coverage": "not_identified_in_core_module",
-      "exam_relevance": "mixed",
-      "notes": "Grande risco de confusão terminológica. Necessita tabela estratégica densa e priorização por incidência.",
-      "question_roles": [
-        "panorama",
-        "comparison",
-        "precision"
-      ],
-      "validation_status": "needs_exam_weighting"
-    },
-    {
-      "id": "PEN-DP01-C01-N020",
-      "title": "Direito Penal objetivo × subjetivo",
-      "aliases": [
+      "mixed",
+      "DD deep; Gran not identified",
+      "Exige tabela estratégica e priorização por incidência."
+    ],
+    [
+      "N020",
+      "Direito Penal objetivo × subjetivo",
+      [
         "ius poenale",
         "ius puniendi"
       ],
-      "dd_coverage": "present",
-      "gran_coverage": "not_identified_in_core_module",
-      "exam_relevance": "foundational",
-      "notes": "Manter como fundação curta; checar incidência recente.",
-      "question_roles": [
-        "discrimination",
-        "precision"
+      "foundational",
+      "DD present",
+      "Fundação curta; medir incidência recente."
+    ],
+    [
+      "N021",
+      "Substantivo × adjetivo",
+      [
+        "material",
+        "processual",
+        "formal em sentido adjetivo"
       ],
-      "validation_status": "needs_exam_weighting"
-    },
-    {
-      "id": "PEN-DP01-C01-N021",
-      "title": "Direito Penal substantivo × adjetivo",
-      "aliases": [
-        "direito material",
-        "direito processual penal",
-        "formal (no sentido adjetivo)"
-      ],
-      "dd_coverage": "present",
-      "gran_coverage": "not_identified",
-      "exam_relevance": "terminology_trap",
-      "notes": "Cuidado: 'formal' também aparece em 'aspecto formal/estático' do conceito. Explicitar que são classificações diferentes.",
-      "question_roles": [
-        "discrimination",
-        "precision"
-      ],
-      "validation_status": "source_mapped"
-    },
-    {
-      "id": "PEN-DP01-C01-N022",
-      "title": "Direito de Intervenção",
-      "aliases": [
-        "Direito Penal de Intervenção",
+      "terminology_trap",
+      "DD present",
+      "Explicitar que 'formal' aqui não é o aspecto formal/estático do conceito."
+    ],
+    [
+      "N022",
+      "Direito de Intervenção",
+      [
         "Direito Intervencionista",
         "Hassemer"
       ],
-      "dd_coverage": "present",
-      "gran_coverage": "not_identified",
-      "exam_relevance": "advanced",
-      "notes": "Camada P2/REFERENCE até incidência justificar promoção.",
-      "question_roles": [
-        "definition",
-        "connection"
-      ],
-      "validation_status": "needs_exam_weighting"
-    }
+      "advanced",
+      "DD present",
+      "Camada P2/REFERENCE até incidência justificar promoção."
+    ]
   ],
   "external_evidence": [
-    {
-      "id": "EX-PF-2025-EDITAL",
-      "supports": [
-        "PEN-DP01-C01-N001",
-        "PEN-DP01-C01-N004",
-        "PEN-DP01-C01-N015",
-        "PEN-DP01-C01-N005"
+    [
+      "PF-2025-EDITAL",
+      [
+        "N001",
+        "N004",
+        "N015",
+        "N005"
       ],
-      "note": "Edital oficial PF 2025 cobra Introdução ao Direito Penal: conceito, caracteres e função; também cobra bem jurídico em Teoria Geral do Crime."
-    },
-    {
-      "id": "EX-PCCE-2025-Q22",
-      "supports": [
-        "PEN-DP01-C01-N009",
-        "PEN-DP01-C01-N010",
-        "PEN-DP01-C01-N011",
-        "PEN-DP01-C01-N012"
+      "Edital oficial cobra conceito, caracteres e função; bem jurídico em teoria geral do crime."
+    ],
+    [
+      "PC-CE-2025-Q22",
+      [
+        "N009",
+        "N010",
+        "N011",
+        "N012"
       ],
-      "note": "Delegado PC-CE 2025 cobrou escolas penais e evolução histórica/metodológica; alternativa correta sobre terceira escola/eclética."
-    },
-    {
-      "id": "EX-PCRO-2022-Q26",
-      "supports": [
-        "PEN-DP01-C01-N018"
+      "Questão de Delegado sobre escolas penais e evolução histórica/metodológica."
+    ],
+    [
+      "PC-RO-2022-Q26",
+      [
+        "N018"
       ],
-      "note": "Delegado PC-RO 2022 cobrou função simbólica do Direito Penal."
-    }
+      "Questão de Delegado sobre função simbólica."
+    ]
   ],
   "next_research": [
-    "Quantificar incidência 2018-2026 de classificações do Direito Penal e evolução brasileira.",
-    "Confirmar prova Delegado SP 2023 citada pelo DD para função de Roxin.",
-    "Auditar doutrina sobre terceira via/reparação do dano e Direito de Intervenção.",
-    "Mapear questões FGV/Cebraspe/Vunesp/Fundatec sobre aspectos formal/material/sociológico.",
-    "Separar conceitos do C01 que devem migrar para C02 Enciclopédia das Ciências Penais para evitar duplicação."
+    "Quantificar incidência 2018-2026 de classificações e evolução brasileira.",
+    "Confirmar prova Delegado SP 2023 citada pelo DD para Roxin.",
+    "Auditar doutrina sobre terceira via e Direito de Intervenção.",
+    "Mapear questões sobre aspectos formal/material/sociológico.",
+    "Decidir fronteira C01 × C02 para evitar duplicação."
   ]
 }
