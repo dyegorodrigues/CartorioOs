@@ -1,0 +1,219 @@
+{
+  "schema_version": 1,
+  "subject_id": "PEN",
+  "generated_at": "2026-10-04",
+  "scope": "Triagem inicial de alterações legislativas federais de 2025-2026 que atingem o Código Penal. Não é inventário exaustivo.",
+  "rule": "Nenhum item altera automaticamente claims. O pipeline deve localizar artigos atingidos, mapear módulos/claims, produzir diff e exigir revisão antes da promoção.",
+  "official_indexes": [
+    "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/_leis2025.htm",
+    "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/lei/_leis2026.htm"
+  ],
+  "items": [
+    {
+      "law": "Lei 15.123/2025",
+      "date": "2025-04-24",
+      "summary": "Altera o art. 147-B do Código Penal e cria causa de aumento ligada ao uso de IA ou recurso tecnológico na violência psicológica contra a mulher.",
+      "affected_articles": [
+        "147-B"
+      ],
+      "status": "official_index_located",
+      "detail_review": "pending"
+    },
+    {
+      "law": "Lei 15.134/2025",
+      "date": "2025-05-06",
+      "summary": "Recrudesce tratamento penal de homicídio e lesão dolosa contra determinados agentes do sistema de Justiça e pessoas relacionadas, além de alterações correlatas.",
+      "affected_articles": [
+        "121",
+        "129"
+      ],
+      "status": "official_detail_located",
+      "detail_review": "pending",
+      "official_url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/l15134.htm"
+    },
+    {
+      "law": "Lei 15.159/2025",
+      "date": "2025-07-03",
+      "summary": "Recrudesce tratamento penal de crimes praticados em dependências de instituição de ensino e altera também a Lei dos Crimes Hediondos.",
+      "affected_articles": [
+        "61",
+        "121"
+      ],
+      "status": "official_detail_located",
+      "detail_review": "pending",
+      "official_url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/l15159.htm"
+    },
+    {
+      "law": "Lei 15.160/2025",
+      "date": "2025-07-03",
+      "summary": "Modifica os arts. 65 e 115 do Código Penal em matéria de atenuante e prescrição relacionada a crimes de violência sexual contra a mulher.",
+      "affected_articles": [
+        "65",
+        "115"
+      ],
+      "status": "official_index_located",
+      "detail_review": "pending"
+    },
+    {
+      "law": "Lei 15.163/2025",
+      "date": "2025-07-03",
+      "summary": "Modifica as penas dos crimes de abandono de incapaz e maus-tratos e altera diplomas protetivos correlatos.",
+      "affected_articles": [
+        "133",
+        "136"
+      ],
+      "status": "official_detail_located",
+      "detail_review": "pending",
+      "official_url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/l15163.htm"
+    },
+    {
+      "law": "Lei 15.181/2025",
+      "date": "2025-07-28",
+      "summary": "Altera furto, roubo, receptação e interrupção/perturbação de serviços, com foco também em fios, cabos e equipamentos; alcança ainda a Lei de Lavagem.",
+      "affected_articles": [
+        "155",
+        "157",
+        "180",
+        "266"
+      ],
+      "status": "official_detail_located",
+      "detail_review": "pending",
+      "official_url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/l15181.htm"
+    },
+    {
+      "law": "Lei 15.229/2025",
+      "date": "2025-10-02",
+      "summary": "Prevê ação penal pública incondicionada no estelionato cometido contra pessoa com deficiência.",
+      "affected_articles": [
+        "171"
+      ],
+      "status": "official_detail_located",
+      "detail_review": "pending",
+      "official_url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/l15229.htm"
+    },
+    {
+      "law": "Lei 15.245/2025",
+      "date": "2025-10-29",
+      "summary": "Altera associação criminosa e cria mudanças relacionadas ao combate à obstrução de ações contra o crime organizado.",
+      "affected_articles": [
+        "288"
+      ],
+      "status": "official_detail_located",
+      "detail_review": "pending",
+      "official_url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/l15245.htm"
+    },
+    {
+      "law": "Lei 15.280/2025",
+      "date": "2025-12-05",
+      "summary": "Agrava penas de crimes contra a dignidade sexual de pessoa vulnerável e produz alterações correlatas em CPP, LEP, ECA e Estatuto da Pessoa com Deficiência.",
+      "affected_articles": [
+        "217-A"
+      ],
+      "status": "official_detail_located",
+      "detail_review": "pending",
+      "official_url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/l15280.htm"
+    },
+    {
+      "law": "Lei 15.353/2026",
+      "date": "2026-03-08",
+      "summary": "Altera o art. 217-A para explicitar presunção absoluta de vulnerabilidade e aplicação das penas independentemente de experiência sexual ou gravidez.",
+      "affected_articles": [
+        "217-A"
+      ],
+      "status": "official_detail_located",
+      "detail_review": "pending",
+      "official_url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/lei/l15353.htm"
+    },
+    {
+      "law": "Lei 15.384/2026",
+      "date": "2026-04-09",
+      "summary": "Cria o tipo penal de vicaricídio e promove alterações correlatas na Lei Maria da Penha e na Lei dos Crimes Hediondos.",
+      "affected_articles": [
+        "to_map"
+      ],
+      "status": "official_detail_located",
+      "detail_review": "pending",
+      "official_url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/lei/l15384.htm"
+    },
+    {
+      "law": "Lei 15.397/2026",
+      "date": "2026-04-30",
+      "summary": "Majora penas e altera furto, roubo, estelionato, receptação, receptação de animal e interrupção/perturbação de serviço, além de tipificar receptação de animal doméstico e fraude bancária.",
+      "affected_articles": [
+        "155",
+        "157",
+        "171",
+        "180",
+        "180-A",
+        "266"
+      ],
+      "status": "official_detail_located",
+      "detail_review": "pending",
+      "official_url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/lei/l15397.htm"
+    },
+    {
+      "law": "Lei 15.402/2026",
+      "date": "2026-05-08",
+      "summary": "Cria regras específicas no capítulo dos crimes contra o Estado Democrático de Direito e altera também a LEP.",
+      "affected_articles": [
+        "359-M-A",
+        "359-M-B"
+      ],
+      "status": "official_detail_located",
+      "detail_review": "pending",
+      "official_url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/lei/l15402.htm"
+    },
+    {
+      "law": "Lei 15.425/2026",
+      "date": "2026-06-03",
+      "summary": "Altera o art. 282 para tipificar o exercício ilegal da medicina veterinária.",
+      "affected_articles": [
+        "282"
+      ],
+      "status": "official_detail_located",
+      "detail_review": "pending",
+      "official_url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/lei/l15425.htm"
+    },
+    {
+      "law": "Lei 15.438/2026",
+      "date": "2026-06-18",
+      "summary": "Aumenta prazo decadencial do direito de queixa ou representação em crimes praticados no âmbito de violência doméstica e familiar contra a mulher e altera CP, Lei Maria da Penha e CPP.",
+      "affected_articles": [
+        "to_map"
+      ],
+      "status": "official_detail_located",
+      "detail_review": "pending",
+      "official_url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/lei/l15438.htm"
+    },
+    {
+      "law": "Lei 15.455/2026",
+      "date": "2026-07-01",
+      "summary": "Altera o § 9º do art. 129 e diplomas correlatos no contexto de proteção de trabalhadoras e trabalhadores domésticos.",
+      "affected_articles": [
+        "129 §9º"
+      ],
+      "status": "official_detail_located",
+      "detail_review": "pending",
+      "official_url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/lei/l15455.htm"
+    },
+    {
+      "law": "Lei 15.517/2026",
+      "date": "2026-09-22",
+      "summary": "Altera Código Penal e Lei 8.176/1991 para furto/roubo de combustíveis e cria crimes contra a ordem econômica.",
+      "affected_articles": [
+        "to_map"
+      ],
+      "status": "official_detail_located",
+      "detail_review": "pending",
+      "official_url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/lei/l15517.htm"
+    }
+  ],
+  "next_steps": [
+    "expandir a busca até exaustão nos índices oficiais de 2025 e 2026",
+    "abrir cada lei e extrair o diff artigo por artigo",
+    "mapear cada alteração a topic_ids/claim_ids",
+    "comparar com DD 2025, DD 2026 e Gran correspondente",
+    "marcar questões e flashcards dependentes para revisão",
+    "não reescrever PDFs comerciais"
+  ]
+}
