@@ -2,7 +2,7 @@
   "schema_version": 1,
   "module_id": "PEN-DP01-C01",
   "title": "Conceito, características, objeto, evolução, funções e divisões",
-  "status": "mapping_in_progress",
+  "status": "mapping_v1_plus_initial_official_exam_evidence",
   "mapped_at": "2026-10-04",
   "source_basis": [
     {
@@ -315,7 +315,14 @@
         "real_exam": "pending_except_dd_internal_markers",
         "jurisprudence": "not_applicable_or_pending"
       },
-      "editorial_status": "mapped_from_primary_course_sources_not_yet_promoted"
+      "editorial_status": "mapped_from_primary_course_sources_not_yet_promoted",
+      "evidence": [
+        {
+          "kind": "gran",
+          "source": "GRAN-ENAM-PEN-04",
+          "status": "confirmed"
+        }
+      ]
     },
     {
       "id": "A015",
@@ -335,7 +342,19 @@
         "real_exam": "pending_except_dd_internal_markers",
         "jurisprudence": "not_applicable_or_pending"
       },
-      "editorial_status": "mapped_from_primary_course_sources_not_yet_promoted"
+      "editorial_status": "mapped_from_primary_course_sources_not_yet_promoted",
+      "evidence": [
+        {
+          "kind": "gran",
+          "source": "GRAN-ENAM-PEN-04",
+          "status": "confirmed"
+        },
+        {
+          "kind": "official_exam",
+          "source": "PF-2025 items 52-54",
+          "status": "question_text_verified_key_pending"
+        }
+      ]
     },
     {
       "id": "A016",
@@ -355,7 +374,19 @@
         "real_exam": "pending_except_dd_internal_markers",
         "jurisprudence": "not_applicable_or_pending"
       },
-      "editorial_status": "mapped_from_primary_course_sources_not_yet_promoted"
+      "editorial_status": "mapped_from_primary_course_sources_not_yet_promoted",
+      "evidence": [
+        {
+          "kind": "gran",
+          "source": "GRAN-ENAM-PEN-04",
+          "status": "confirmed"
+        },
+        {
+          "kind": "official_exam",
+          "source": "PF-2025 item 54",
+          "status": "question_text_verified_key_pending"
+        }
+      ]
     },
     {
       "id": "A017",
@@ -495,7 +526,26 @@
         "real_exam": "pending_except_dd_internal_markers",
         "jurisprudence": "not_applicable_or_pending"
       },
-      "editorial_status": "mapped_from_primary_course_sources_not_yet_promoted"
+      "editorial_status": "mapped_from_primary_course_sources_not_yet_promoted",
+      "evidence": [
+        {
+          "kind": "gran",
+          "source": "GRAN-ENAM-PEN-09",
+          "status": "confirmed"
+        },
+        {
+          "kind": "official_exam",
+          "source": "PC-SC 2024 Q87 Tipo1",
+          "key": "B",
+          "status": "verified"
+        },
+        {
+          "kind": "official_exam",
+          "source": "PC-PI cycle 2025/2026 Q71 Tipo1",
+          "key": "D",
+          "status": "verified_key_doctrinal_commentary_pending"
+        }
+      ]
     },
     {
       "id": "A024",
@@ -518,7 +568,26 @@
         "real_exam": "pending_except_dd_internal_markers",
         "jurisprudence": "not_applicable_or_pending"
       },
-      "editorial_status": "mapped_from_primary_course_sources_not_yet_promoted"
+      "editorial_status": "mapped_from_primary_course_sources_not_yet_promoted",
+      "evidence": [
+        {
+          "kind": "gran",
+          "source": "GRAN-ENAM-PEN-09",
+          "status": "confirmed"
+        },
+        {
+          "kind": "official_exam",
+          "source": "PC-SC 2024 Q87 Tipo1",
+          "key": "B",
+          "status": "verified"
+        },
+        {
+          "kind": "official_exam",
+          "source": "PC-PI cycle 2025/2026 Q71 Tipo1",
+          "key": "D",
+          "status": "verified_key_doctrinal_commentary_pending"
+        }
+      ]
     },
     {
       "id": "A025",
@@ -539,7 +608,14 @@
         "real_exam": "pending_except_dd_internal_markers",
         "jurisprudence": "not_applicable_or_pending"
       },
-      "editorial_status": "mapped_from_primary_course_sources_not_yet_promoted"
+      "editorial_status": "mapped_from_primary_course_sources_not_yet_promoted",
+      "evidence": [
+        {
+          "kind": "gran",
+          "source": "GRAN-ENAM-PEN-09",
+          "status": "confirmed"
+        }
+      ]
     },
     {
       "id": "A026",
@@ -707,7 +783,14 @@
         "real_exam": "pending_except_dd_internal_markers",
         "jurisprudence": "not_applicable_or_pending"
       },
-      "editorial_status": "mapped_from_primary_course_sources_not_yet_promoted"
+      "editorial_status": "mapped_from_primary_course_sources_not_yet_promoted",
+      "evidence": [
+        {
+          "kind": "gran",
+          "source": "GRAN-ENAM-PEN-01",
+          "status": "confirmed"
+        }
+      ]
     },
     {
       "id": "A034",
@@ -1052,5 +1135,10 @@
     "read DD Legis/Juris/Sumulas only for nodes with actual linkage",
     "build official exam corpus for C01",
     "promote candidate questions only after answer and exam-validation review"
+  ],
+  "research_files": [
+    "research/gran/PEN-DP01-C01_CROSSWALK_v1.json",
+    "research/exams/PEN-DP01-C01_CORPUS_v1.json",
+    "research/brainscape/INTRO_PENAL_CANDIDATES_2026-10-04.json"
   ]
 }
