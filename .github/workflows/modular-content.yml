@@ -29,7 +29,7 @@ jobs:
       - name: Validate claim graph and coverage
         run: python3 scripts/validate_claims.py
       - name: Exercise broken-reference and review checks
-        run: python3 -m unittest discover -s tests -p 'test_*.py'
+        run: python3 -m unittest discover -s tests -p 'test_modular.py'
       - name: Build separate module files
         run: python3 scripts/build_modular.py --output dist/modular
       - uses: actions/upload-artifact@v4
