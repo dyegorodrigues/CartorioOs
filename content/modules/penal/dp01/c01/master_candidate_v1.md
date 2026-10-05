@@ -108,7 +108,7 @@ A banca pode perguntar pelo nome da característica ou descrevê-la e exigir que
 | **Valorativa** | Realiza juízos jurídicos de valor e seleciona/hierarquiza bens e interesses relevantes. | **valor** | Não é uma licença para moralismo livre do intérprete. |
 | **Finalista** | Possui uma **finalidade prática**, e não meramente acadêmica. | **finalidade** | Não confundir com a **teoria finalista da ação** de Welzel. |
 | **Predominantemente sancionatória** | Em regra, acrescenta proteção penal a bens/interesses reconhecidos pelo sistema jurídico. | **reforço** | “Predominantemente” não significa “exclusivamente”. |
-| **Constitutiva** | Em hipóteses apontadas pela doutrina, a tutela penal pode conferir proteção própria a interesse sem disciplina equivalente em outro ramo. | **tutela própria** | Surge justamente para impedir a absolutização da natureza sancionatória. |
+| **Constitutiva** | Parte da doutrina admite atuação constitutiva em hipóteses específicas, mas isso **não** significa que o Direito Penal possa criar livremente novos bens jurídicos fora do sistema constitucional. | **tutela própria** | A banca pode explorar a tensão **sancionatória × constitutiva**. |
 | **Fragmentária** | O Direito Penal não tutela todo bem nem toda ofensa. Seleciona os fragmentos mais relevantes. | **seleção** | Não confundir com **subsidiariedade**. |
 
 ## Fragmentariedade × subsidiariedade
@@ -312,7 +312,7 @@ Antes da colonização, os materiais contextualizam formas de regulação e puni
 | Complementar | Simbólica | efeitos perceptivos, inflação/hipertrofia e sensação de resposta |
 | Complementar | Motivadora | ameaça da sanção estimula conformidade |
 | Complementar | Redução da violência estatal | limitar o uso da própria resposta penal |
-| Complementar | Promocional | Direito Penal como instrumento de transformação social |
+| Complementar | Promocional | Formulação doutrinária **controvertida** sobre transformação social; não é missão central consensual |
 
 ---
 
@@ -407,11 +407,15 @@ Por isso, a intervenção penal deve ser:
 
 ## 8.5 Promocional
 
-Enxerga o Direito Penal como instrumento capaz de colaborar com **transformações sociais** e promoção de comportamentos considerados desejáveis.
+Alguns materiais doutrinários mencionam uma função **promocional**, associada ao uso do Direito Penal como instrumento de transformação social e promoção de determinados comportamentos.
 
-📍 **Delegado PC-RS/2025:** uma mesma questão integrou função promocional, fragmentariedade, subsidiariedade e natureza sancionatória. Isso mostra que a banca pode cruzar vários nós do capítulo em uma única alternativa.
+Mas essa formulação **não deve ser tratada como missão central consensual**.
 
-**Cue:** TRANSFORMAÇÃO SOCIAL.
+📍 **Delegado PC-RS/2025:** a FUNDATEC considerou incorreta a assertiva que apresentava o sistema punitivo como instrumento de transformação social e incentivo a comportamentos desejados pelo Estado, **superando** a proteção de bens jurídicos.
+
+🔴 **Leitura de prova:** se a alternativa transformar a função promocional em missão primária, ampla ou superior à proteção de bens jurídicos, acenda o alerta.
+
+**Cue:** TRANSFORMAÇÃO SOCIAL, mas com **CONTROVÉRSIA/LIMITE**.
 
 ---
 
