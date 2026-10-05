@@ -553,6 +553,65 @@
       "url": "https://pt.scribd.com/document/899262042/Delegado",
       "reading_status": "located",
       "legal_review_status": "pending"
+    },
+    {
+      "id": "DD-2025-PEN-DP01",
+      "kind": "curricular_depth_reference",
+      "title": "DD 2025 — Direito Penal: Noções iniciais e princípios",
+      "pages": null,
+      "storage": "private_drive",
+      "archive_status": "available_private",
+      "reading_status": "c01_read",
+      "reading_scope": "C01 — conceito, características, objeto, evolução, funções e divisões",
+      "legal_review_status": "secondary_source_only"
+    },
+    {
+      "id": "OFFICIAL-DL-3914-1941",
+      "kind": "official_legislation",
+      "title": "Decreto-Lei nº 3.914/1941 — Lei de Introdução ao Código Penal e à Lei de Contravenções Penais",
+      "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3914.htm",
+      "reading_status": "art1_checked",
+      "legal_review_status": "current_checked_2026-10-05"
+    },
+    {
+      "id": "OFFICIAL-CP-BR",
+      "kind": "official_legislation",
+      "title": "Código Penal — Decreto-Lei nº 2.848/1940, compilado",
+      "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm",
+      "reading_status": "arts96_98_checked",
+      "legal_review_status": "current_checked_2026-10-05"
+    },
+    {
+      "id": "ACADEMIC-USP-TERZA",
+      "kind": "academic_doctrine",
+      "title": "Pesquisa acadêmica USP — Terza Scuola, livre-arbítrio e determinismo psicológico",
+      "url": "https://teses.usp.br/teses/disponiveis/2/2136/tde-10072020-164509/publico/9739528_Dissertacao_Original.pdf",
+      "reading_status": "relevant_passage_checked",
+      "legal_review_status": "doctrinal_crosscheck_2026-10-05"
+    },
+    {
+      "id": "IBCCRIM-ROXIN-TERCEIRA-VIA-2026",
+      "kind": "academic_doctrine",
+      "title": "A funcionalidade da reparação do dano na teoria da pena de Claus Roxin — Boletim IBCCRIM 2026",
+      "url": "https://publicacoes.ibccrim.org.br/index.php/boletim_1993/article/view/2840",
+      "reading_status": "abstract_checked",
+      "legal_review_status": "doctrinal_crosscheck_2026-10-05"
+    },
+    {
+      "id": "UFERSA-TERCEIRA-VIA-2017",
+      "kind": "academic_doctrine",
+      "title": "Reparação do dano como terceira via de punibilidade — Revista Jurídica da UFERSA",
+      "url": "https://periodicos.ufersa.edu.br/rejur/article/view/6956",
+      "reading_status": "abstract_checked",
+      "legal_review_status": "doctrinal_crosscheck_2026-10-05"
+    },
+    {
+      "id": "CEBRASPE-PF-2025-PROVA",
+      "kind": "official_exam",
+      "title": "Polícia Federal — Delegado 2025 — prova objetiva oficial",
+      "url": "https://cdn.cebraspe.org.br/concursos/PF_25/arquivos/106_PF_001_01.pdf",
+      "reading_status": "C01_relevant_items_checked",
+      "legal_review_status": "official_exam"
     }
   ]
 }
