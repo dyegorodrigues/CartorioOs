@@ -1,5 +1,67 @@
 {
   "schema_version": 1,
-  "provisions": [],
+  "provisions": [
+    {
+      "id": "LAW-DL3914-ART1-CURRENT",
+      "instrument": "Decreto-Lei nº 3.914/1941",
+      "article": "Art. 1º",
+      "version": "vigente conferida em 2026-10-05",
+      "text": "Considera-se crime a infração penal que a lei comina pena de reclusão ou de detenção, quer isoladamente, quer alternativa ou cumulativamente com a pena de multa; contravenção, a infração penal a que a lei comina, isoladamente, pena de prisão simples ou de multa, ou ambas, alternativa ou cumulativamente.",
+      "official_url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3914.htm",
+      "checked_at": "2026-10-05",
+      "topic_ids": [
+        "PEN-DP01-C01-T01"
+      ]
+    },
+    {
+      "id": "LAW-CP-ART97-CURRENT",
+      "instrument": "Código Penal — Decreto-Lei nº 2.848/1940",
+      "article": "Art. 97",
+      "version": "vigente conferida em 2026-10-05",
+      "text": "Se o agente for inimputável, o juiz determinará sua internação (art. 26). Se, todavia, o fato previsto como crime for punível com detenção, poderá o juiz submetê-lo a tratamento ambulatorial.",
+      "official_url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm",
+      "checked_at": "2026-10-05",
+      "topic_ids": [
+        "PEN-DP01-C01-T01"
+      ]
+    },
+    {
+      "id": "LAW-CP-ART98-CURRENT",
+      "instrument": "Código Penal — Decreto-Lei nº 2.848/1940",
+      "article": "Art. 98",
+      "version": "vigente conferida em 2026-10-05",
+      "text": "Na hipótese do parágrafo único do art. 26 deste Código e necessitando o condenado de especial tratamento curativo, a pena privativa de liberdade pode ser substituída pela internação, ou tratamento ambulatorial, pelo prazo mínimo de 1 (um) a 3 (três) anos, nos termos do artigo anterior e respectivos §§ 1º a 4º.",
+      "official_url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm",
+      "checked_at": "2026-10-05",
+      "topic_ids": [
+        "PEN-DP01-C01-T01"
+      ]
+    },
+    {
+      "id": "LAW-CF88-ART22-I-CURRENT",
+      "instrument": "Constituição da República Federativa do Brasil de 1988",
+      "article": "Art. 22, I",
+      "version": "texto compilado conferido em 2026-10-05",
+      "text": "Compete privativamente à União legislar sobre: I - direito civil, comercial, penal, processual, eleitoral, agrário, marítimo, aeronáutico, espacial e do trabalho;",
+      "official_url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+      "checked_at": "2026-10-05",
+      "topic_ids": [
+        "PEN-DP01-C01-T01",
+        "PEN-DP01-C01-T06"
+      ]
+    },
+    {
+      "id": "LAW-CF88-ART22-PU-CURRENT",
+      "instrument": "Constituição da República Federativa do Brasil de 1988",
+      "article": "Art. 22, parágrafo único",
+      "version": "texto compilado conferido em 2026-10-05",
+      "text": "Lei complementar poderá autorizar os Estados a legislar sobre questões específicas das matérias relacionadas neste artigo.",
+      "official_url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+      "checked_at": "2026-10-05",
+      "topic_ids": [
+        "PEN-DP01-C01-T06"
+      ]
+    }
+  ],
   "note": "Dispositivos serão vinculados por ID e versão normativa após conferência literal. Não preencher com texto aproximado."
 }
