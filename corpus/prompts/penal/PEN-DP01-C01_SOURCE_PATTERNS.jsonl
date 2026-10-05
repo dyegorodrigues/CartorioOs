@@ -1,0 +1,6 @@
+{"prompt_id":"PROMPT-SEED-001","source_id":"BS-PACK-MATEUS-15982308","module_id":"PEN-DP01-C01","function":"learning","topic":"conceito","pattern":"direct_definition","decision":"mine_pattern"}
+{"prompt_id":"PROMPT-SEED-002","source_id":"BS-PACK-MATEUS-15982308","module_id":"PEN-DP01-C01","function":"recall_parent","topic":"aspectos_do_conceito","pattern":"enumerate_and_explain_categories","decision":"mine_pattern"}
+{"prompt_id":"PROMPT-SEED-003","source_id":"BS-PACK-JONATAS-13422979","module_id":"PEN-DP01-C01","function":"contrast","topic":"escolas_penais","pattern":"compare_school_method_free_will_crime_penalty","decision":"mine_pattern"}
+{"prompt_id":"PROMPT-SEED-004","source_id":"BS-PACK-JULIO-23844093","module_id":"PEN-DP01-C01","function":"recall_precision","topic":"conceito_caracteristicas","pattern":"compact_cue_after_full_answer","decision":"mine_pattern"}
+{"prompt_id":"PROMPT-SEED-005","source_id":"BS-PACK-TRUTAS-22879943","module_id":"PEN-DP01-C01","function":"true_false","topic":"intro_penal","pattern":"assertion_plus_explanatory_commentary","decision":"mine_pattern"}
+{"prompt_id":"PROMPT-SEED-006","source_id":"MRC-PENAL-APKG","module_id":"PEN-DP01-C01","function":"true_false","topic":"intro_penal","pattern":"assertion_plus_legal_reason","decision":"mine_pattern"}
