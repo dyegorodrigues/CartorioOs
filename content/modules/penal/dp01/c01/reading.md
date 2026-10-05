@@ -1,3 +1,7 @@
+# ⚠️ NÃO ESTUDAR — PROTÓTIPO EDITORIAL EM AUDITORIA
+
+> Este arquivo é histórico de construção. **Não é material aprovado para estudo.** A redação foi interrompida após feedback do usuário. O novo material só será produzido depois da árvore curricular e da engenharia de perguntas serem auditadas.
+
 # PEN-DP01-C01 — Conceito e características do Direito Penal
 **Status editorial:** draft canônico v0.1 · conteúdo antes do layout  
 **Escopo desta passagem:** PEN-DP01-C01-N001 a N004
