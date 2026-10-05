@@ -45,13 +45,14 @@
     "do_not_scale_before_pilot_passes_acceptance_gates"
   ],
   "next_actions": [
-    "ingest_delegate_exam_cycles_integrally_not_only_C01_hits",
-    "map_each_penal_item_to_curriculum_claims_and_distractor_mechanisms",
-    "use_TEC_QConcursos_Gran_and_other_banks_for_discovery_comments_and_cross_classification",
-    "prefer_official_exam_key_mirror_when_available",
-    "expand_transfer_corpus_ENAM_ENAC_magistracy_MP_defensoria_after_delegate_priority",
-    "continue_deep_brainscape_passo_MRC_sweep",
-    "do_not_redraft_student_material_until_research_gate_closes"
+    "continue_C01_deep_research_under_module_factory",
+    "finish_delegate_exam_census_ingestion",
+    "deep_sweep_C01_brainscape_passo_MRC",
+    "complete_DD2025_DD2026_Gran_Legis_crosswalk",
+    "audit_current_law_and_case_law",
+    "build_question_tree_v1",
+    "prove_C01_with_held_out_questions",
+    "only_after_C01_approval_instantiate_factory_for_next_penal_module"
   ],
   "completion_gate": "first_slice_teaches_from_zero_and_resolves_target_real_questions_without_hidden_source_dependency",
   "repository_notes": "CartorioOs is public; keep only public-safe architecture, original/derived content, code and metadata. Commercial source files remain in Drive.",
@@ -115,5 +116,9 @@
       "backfill_2010_2014",
       "pre_2010_if_digitally_usable"
     ]
-  }
+  },
+  "module_factory": "architecture/MODULE_FACTORY_V1.md",
+  "versioning_freshness_policy": "governance/VERSIONING_FRESHNESS_POLICY_V1.md",
+  "module_research_template": "templates/MODULE_RESEARCH_TEMPLATE.md",
+  "scaling_rule": "future modules instantiate factory; architecture is not redesigned per booklet unless new evidence forces a versioned governance change"
 }
