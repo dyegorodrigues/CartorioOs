@@ -24,43 +24,46 @@
     {
       "id": "PEN-DP01-C01-T01",
       "title": "Conceito e aspectos",
-      "coverage_status": "pending"
+      "coverage_status": "mapped"
     },
     {
       "id": "PEN-DP01-C01-T02",
       "title": "Características",
-      "coverage_status": "pending"
+      "coverage_status": "mapped"
     },
     {
       "id": "PEN-DP01-C01-T03",
       "title": "Objeto",
-      "coverage_status": "pending"
+      "coverage_status": "mapped"
     },
     {
       "id": "PEN-DP01-C01-T04",
       "title": "Evolução histórica e escolas",
-      "coverage_status": "pending"
+      "coverage_status": "mapped"
     },
     {
       "id": "PEN-DP01-C01-T05",
       "title": "Funções",
-      "coverage_status": "pending"
+      "coverage_status": "mapped"
     },
     {
       "id": "PEN-DP01-C01-T06",
       "title": "Divisões",
-      "coverage_status": "pending"
+      "coverage_status": "mapped"
     }
   ],
   "reading_file": null,
   "questions_file": "questions.jsonl",
   "legal_checked_at": null,
-  "editorial_notes": "Módulo em pesquisa/engenharia. Nenhum material atual é study_ready. Redação do aluno bloqueada até fechamento de cobertura, corpus de perguntas e evidência de prova.",
+  "editorial_notes": "Cobertura e Claim graph v1 consolidados. Correções de Terza Scuola, terceira via e medida de segurança registradas. MASTER candidato pode ser redigido, mas ainda não é study_ready até segunda revisão e prova de fogo.",
   "coverage_matrix_file": "coverage_matrix.json",
   "research_files": [
     "research/PEN-DP01-C01_BRAINSCAPE_PASSO_SWEEP_2026-10-04.md",
     "research/DD_SOURCE_FAMILIES_INVENTORY_2026-10-04.md"
   ],
-  "pipeline_status": "mapped",
-  "source_map_file": "source_map.json"
+  "pipeline_status": "drafting",
+  "source_map_file": "source_map.json",
+  "claims_file": "claims.jsonl",
+  "curriculum_tree_file": "curriculum_tree_v3.md",
+  "doctrinal_audit_file": "../../../research/audits/PEN-DP01-C01_DOCTRINAL_AUDIT_2026-10-05.md"
 }
