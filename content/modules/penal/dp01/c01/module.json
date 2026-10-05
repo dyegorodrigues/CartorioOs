@@ -5,7 +5,7 @@
   "subject_id": "PEN",
   "booklet_id": "PEN-DP01",
   "order": 1,
-  "status": "mapped",
+  "status": "draft",
   "curriculum_source": {
     "source_id": "DD-2026-PEN-DP01",
     "pages": [
@@ -55,10 +55,12 @@
   "reading_file": null,
   "questions_file": "questions.jsonl",
   "legal_checked_at": null,
-  "editorial_notes": "Cobertura atômica V1 criada. Próxima fase: redação canônica do primeiro slice com auditoria terminológica e teste por questões antes do layout final.",
+  "editorial_notes": "Módulo em pesquisa/engenharia. Nenhum material atual é study_ready. Redação do aluno bloqueada até fechamento de cobertura, corpus de perguntas e evidência de prova.",
   "coverage_matrix_file": "coverage_matrix.json",
   "research_files": [
     "research/PEN-DP01-C01_BRAINSCAPE_PASSO_SWEEP_2026-10-04.md",
     "research/DD_SOURCE_FAMILIES_INVENTORY_2026-10-04.md"
-  ]
+  ],
+  "pipeline_status": "mapped",
+  "source_map_file": "source_map.json"
 }
