@@ -1,0 +1,142 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-10-05",
+  "purpose": "Brainscape source-level registry for research and prompt engineering. User-generated content is not legal authority.",
+  "packs": [
+    {
+      "id": "BS-PACK-SERGIO-16966160",
+      "url": "https://www.brainscape.com/packs/direito-penal-16966160",
+      "creator": "Sérgio Henrique Santana",
+      "public_index_status": "located",
+      "role_scores": {
+        "conceptual_sequence": 3,
+        "vertical_depth": 5,
+        "true_false_application": 3,
+        "quick_review": 3
+      },
+      "current_use": [
+        "precision_questions",
+        "advanced_connections",
+        "gap_detection"
+      ],
+      "audit_rule": "card-level legal audit before adaptation"
+    },
+    {
+      "id": "BS-PACK-JONATAS-13422979",
+      "url": "https://www.brainscape.com/packs/jo-direito-penal-13422979",
+      "creator": "Jônatas Romero",
+      "public_index_status": "located",
+      "observed_decks": 31,
+      "c01_signal": "initial concepts/object/theories/evolution deck has 52 cards",
+      "role_scores": {
+        "conceptual_sequence": 4,
+        "vertical_depth": 4,
+        "true_false_application": 2,
+        "quick_review": 3
+      },
+      "current_use": [
+        "parent_questions",
+        "schools_comparison",
+        "coverage_gap_detection"
+      ]
+    },
+    {
+      "id": "BS-PACK-TRUTAS-22879943",
+      "url": "https://www.brainscape.com/packs/trutas-2025-direito-penal-22879943",
+      "creator": "Bruno Bezerra",
+      "public_index_status": "located",
+      "observed_decks": 29,
+      "c01_signal": "intro deck has 104 cards",
+      "role_scores": {
+        "conceptual_sequence": 2,
+        "vertical_depth": 4,
+        "true_false_application": 5,
+        "quick_review": 3
+      },
+      "current_use": [
+        "true_false",
+        "application",
+        "commentary_patterns",
+        "jurisprudence_candidates"
+      ],
+      "freshness_risk": "high_for_case_law_and_legislation"
+    },
+    {
+      "id": "BS-PACK-18163876",
+      "url": "https://www.brainscape.com/packs/direito-penal-18163876",
+      "creator": null,
+      "public_index_status": "pending_resolution",
+      "role_scores": null,
+      "current_use": [
+        "discovery_queue"
+      ]
+    },
+    {
+      "id": "BS-PACK-JULIO-23844093",
+      "url": "https://www.brainscape.com/packs/penal-23844093",
+      "creator": "JULIO CARLOS",
+      "public_index_status": "located",
+      "observed_decks": 28,
+      "role_scores": {
+        "conceptual_sequence": 4,
+        "vertical_depth": 3,
+        "true_false_application": 2,
+        "quick_review": 5
+      },
+      "current_use": [
+        "quick_answer_patterns",
+        "topic_decomposition",
+        "aliases"
+      ]
+    },
+    {
+      "id": "BS-PACK-MATEUS-15982308",
+      "url": "https://www.brainscape.com/packs/direito-penal-parte-geral-15982308",
+      "creator": "Mateus Carvalho",
+      "public_index_status": "located",
+      "observed_decks": 17,
+      "observed_cards_approx": 978,
+      "role_scores": {
+        "conceptual_sequence": 5,
+        "vertical_depth": 4,
+        "true_false_application": 2,
+        "quick_review": 3
+      },
+      "current_use": [
+        "opening_sequence",
+        "parent_questions",
+        "medium_density_answers"
+      ]
+    },
+    {
+      "id": "BS-PACK-OAB-12334845",
+      "url": "https://www.brainscape.com/l/dashboard/oab-penal-12334845/decks",
+      "creator": null,
+      "public_index_status": "public_pack_pages_located_dashboard_requires_session",
+      "observed_decks": 28,
+      "role_scores": {
+        "conceptual_sequence": 2,
+        "vertical_depth": 2,
+        "true_false_application": 5,
+        "quick_review": 5
+      },
+      "current_use": [
+        "law_literal",
+        "true_false",
+        "fill_blank",
+        "mnemonics_after_comprehension"
+      ]
+    }
+  ],
+  "comparison_dimensions": [
+    "question_clarity",
+    "progression",
+    "answer_sufficiency",
+    "exam_language",
+    "legal_precision",
+    "granularity",
+    "review_speed",
+    "first_learning_suitability",
+    "freshness_risk"
+  ]
+}
