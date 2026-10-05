@@ -636,6 +636,38 @@
       "url": "https://cdn.cebraspe.org.br/concursos/PF_25/arquivos/D202E48A0B1EBF5039E398F0B49D0186DD625DFF53498E36EE4D88DE4501E3A8.pdf",
       "reading_status": "items52_54_checked",
       "legal_review_status": "official_exam"
+    },
+    {
+      "id": "OFFICIAL-CF88",
+      "kind": "official_legislation",
+      "title": "Constituição da República Federativa do Brasil de 1988 — texto compilado",
+      "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+      "reading_status": "art22_checked",
+      "legal_review_status": "current_checked_2026-10-05"
+    },
+    {
+      "id": "OFFICIAL-PC-RS-DELEGADO-2025",
+      "kind": "official_exam_portal",
+      "title": "PC-RS — Concurso Público para Delegado de Polícia 2025",
+      "url": "https://www4.pc.rs.gov.br/concurso-publico-para-delegado-de-policia-2025",
+      "reading_status": "exam_cycle_and_definitive_key_availability_checked",
+      "legal_review_status": "official_exam_portal"
+    },
+    {
+      "id": "SECONDARY-ESTRATEGIA-PC-RS-2025-COMMENTED",
+      "kind": "course_commentary",
+      "title": "Estratégia Carreiras Jurídicas — Prova comentada PC-RS Delegado 2025",
+      "url": "https://cj.estrategia.com/portal/wp-content/uploads/2025/12/24073434/Prova-comentada-PC-RS.pdf",
+      "reading_status": "functions_characteristics_question_checked",
+      "legal_review_status": "secondary_commentary_crosschecked_2026-10-05"
+    },
+    {
+      "id": "SECONDARY-QC-PCMS-2021-Q1856528",
+      "kind": "question_bank",
+      "title": "QConcursos — PC-MS Delegado 2021 — questão sobre conceito/finalidade/fontes do processo penal",
+      "url": "https://www.qconcursos.com/questoes-de-concursos/disciplinas/direito-direito-processual-penal/sistemas-processuais/questoes?has_professor_commentaries=true",
+      "reading_status": "question_q1856528_checked",
+      "legal_review_status": "secondary_exam_reproduction"
     }
   ]
 }
