@@ -35,3 +35,18 @@ Progressão preferencial: pergunta que ensina a base → distinção → justifi
 Novas perguntas podem incluir `claim_ids`, apontando apenas para as proposições que fundamentam a resposta. Durante a migração, `topic_ids` continua obrigatório e `claim_ids` é progressivo; um módulo só poderá alcançar `study_ready` quando seus itens de estudo estiverem ligados aos Claims pertinentes.
 
 O `basis_digest` atual continua sendo a proteção de compatibilidade do V1. Para o V2, a revisão será migrada para um digest cirúrgico composto pela própria pergunta + `claim_ids` + `law_ids` + metadados oficiais necessários, evitando invalidar itens por edição não relacionada no mesmo capítulo. Até essa migração, perguntas V2 permanecem `draft` ou `needs_review`.
+
+
+## V3 — resposta em duas velocidades
+
+Para itens conceituais relevantes, o Tutor OS pode adicionar:
+- `quick_answer`: resposta-relâmpago para revisão posterior;
+- `commentary`: explicação complementar, nuances, distinções e erros frequentes;
+- `distractor_notes`: mecanismos de alternativas erradas quando derivados de prova;
+- `response_modes`: quais saídas fazem sentido (`study`, `quick_review`, `oral`, `discursive`).
+
+Regras:
+1. `quick_answer` nunca substitui `answer` + `explanation` na primeira aprendizagem.
+2. pergunta-mãe pode cobrir vários Claims; não criar microcartões só para aumentar contagem.
+3. pergunta de contraste só entra depois de os dois conceitos terem sido ensinados.
+4. perguntas oriundas de terceiros são padrões/candidatos; o item final deve ser auditado e ter redação própria quando não for questão oficial.
