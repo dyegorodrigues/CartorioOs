@@ -80,3 +80,9 @@ Consequência: **nenhum material é promovido por estar bonito, curto ou organiz
 - Leitura digital aprovada.
 - Exportação/impressão aprovada.
 - Feedback humano incorporado.
+
+
+## Execução vigente
+- Checklist operacional: `governance/EXECUTION_CHECKLIST_C01_2026-10-05.md`
+- Princípios de produto: `governance/PRODUCT_PRINCIPLES_2026-10-05.md`
+- Estado exato: `governance/CURRENT_SESSION_POINTER.json`
