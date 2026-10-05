@@ -18,7 +18,13 @@
   "related_module_ids": [],
   "source_ids": [
     "DD-2026-PEN-DP01",
-    "GRAN-ENAM-PEN-01"
+    "DD-2025-PEN-DP01",
+    "GRAN-ENAM-PEN-01",
+    "OFFICIAL-DL-3914-1941",
+    "OFFICIAL-CP-BR",
+    "OFFICIAL-CF88",
+    "CEBRASPE-PF-2025-PROVA",
+    "OFFICIAL-PC-RS-DELEGADO-2025"
   ],
   "topics": [
     {
@@ -52,18 +58,19 @@
       "coverage_status": "mapped"
     }
   ],
-  "reading_file": null,
+  "reading_file": "master_candidate_v1.md",
   "questions_file": "questions.jsonl",
-  "legal_checked_at": null,
-  "editorial_notes": "Cobertura e Claim graph v1 consolidados. Correções de Terza Scuola, terceira via e medida de segurança registradas. MASTER candidato pode ser redigido, mas ainda não é study_ready até segunda revisão e prova de fogo.",
+  "legal_checked_at": "2026-10-05",
+  "editorial_notes": "Research/content gate PASS após segunda revisão. MASTER candidato e Question Tree V1 estão prontos para calibração humana; módulo permanece draft/review e não study_ready até aprovação de fluidez/layout.",
   "coverage_matrix_file": "coverage_matrix.json",
   "research_files": [
     "research/PEN-DP01-C01_BRAINSCAPE_PASSO_SWEEP_2026-10-04.md",
     "research/DD_SOURCE_FAMILIES_INVENTORY_2026-10-04.md"
   ],
-  "pipeline_status": "drafting",
+  "pipeline_status": "review",
   "source_map_file": "source_map.json",
   "claims_file": "claims.jsonl",
   "curriculum_tree_file": "curriculum_tree_v3.md",
-  "doctrinal_audit_file": "../../../research/audits/PEN-DP01-C01_DOCTRINAL_AUDIT_2026-10-05.md"
+  "doctrinal_audit_file": "../../../research/audits/PEN-DP01-C01_DOCTRINAL_AUDIT_2026-10-05.md",
+  "review2_file": "../../../research/validation/PEN-DP01-C01_REVIEW2_2026-10-05.md"
 }
