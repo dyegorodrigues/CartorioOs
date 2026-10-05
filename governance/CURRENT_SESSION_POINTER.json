@@ -2,8 +2,8 @@
   "schema_version": 1,
   "updated_at": "2026-10-05",
   "timezone": "America/Sao_Paulo",
-  "phase": "coverage_and_question_research_before_student_redraft",
-  "branch": "chatgpt/legal-tutor-os-core-2026-09-30",
+  "phase": "integrated_research_gate_c01",
+  "branch": "chatgpt/legal-tutor-os-integrated-2026-10-05",
   "current_subject_id": "PEN",
   "current_booklet_id": "PEN-DP01",
   "current_module_id": "PEN-DP01-C01",
@@ -45,13 +45,13 @@
     "do_not_scale_before_pilot_passes_acceptance_gates"
   ],
   "next_actions": [
-    "expand_exam_evidence_by_bank_and_career",
-    "expand_brainscape_and_passo_corpus_by_subblock",
-    "classify_curriculum_nodes_CORE_ADVANCED_REFERENCE",
-    "audit_bridge_infraction_penal_genus_crime_contravention",
-    "audit_third_way_reparation_and_hassemer",
-    "build_student_question_tree_v1_with_two_speed_answers",
-    "only_then_redraft_student_material"
+    "expand_C01_exam_corpus_by_board_role_and_phase",
+    "deep_sweep_user_brainscape_links_card_by_card_for_C01",
+    "classify_MRC_penal_C01_cards_as_assertion_law_jurisprudence_commentary",
+    "reconcile_curriculum_tree_with_DD_2026_and_official_editals",
+    "audit_doctrinal_conflicts_Terza_Scuola_third_way_Hassemer",
+    "build_student_question_tree_v1_with_explained_and_lightning_answers",
+    "do_not_redraft_student_material_until_research_gate_closes"
   ],
   "completion_gate": "first_slice_teaches_from_zero_and_resolves_target_real_questions_without_hidden_source_dependency",
   "repository_notes": "CartorioOs is public; keep only public-safe architecture, original/derived content, code and metadata. Commercial source files remain in Drive.",
@@ -79,5 +79,14 @@
     "current_reading_md": "DO_NOT_STUDY",
     "current_question_candidates": "DEPRECATED",
     "next_student_artifact": "question_tree_v1_after_research_gate"
-  }
+  },
+  "branch_reconciliation": "governance/BRANCH_RECONCILIATION_2026-10-05.md",
+  "new_inputs": [
+    "research/apkg/MRC_APKG_AUDIT_2026-10-05.md",
+    "research/brainscape/USER_LINKS_SWEEP_2026-10-05.md",
+    "research/exams/PEN-DP01-C01_CORPUS_v1.json",
+    "research/dd/PEN-DP01-C01_DD_2025_2026_DIFF_v1.md",
+    "research/gran/PEN-DP01-C01_CROSSWALK_v1.json",
+    "governance/QUESTION_ARCHITECTURE_LAB_V1.md"
+  ]
 }
