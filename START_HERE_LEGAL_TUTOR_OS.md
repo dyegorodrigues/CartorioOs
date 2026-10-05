@@ -23,6 +23,12 @@ Construir materiais jurídicos de alta performance para concursos, começando po
 
 Se houver conflito, prevalece: instrução expressa mais recente do usuário > governança V3 > ponteiro atual > documentos antigos.
 
+## Branch ativa
+
+`chatgpt/legal-tutor-os-integrated-2026-10-05`
+
+Branches anteriores ficam preservadas como histórico e fonte de comparação. A linha integrada é a única linha ativa para novas mudanças.
+
 ## Estado editorial atual
 
 - **Matéria:** Direito Penal.
