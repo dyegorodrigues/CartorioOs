@@ -86,3 +86,9 @@ Consequência: **nenhum material é promovido por estar bonito, curto ou organiz
 - Checklist operacional: `governance/EXECUTION_CHECKLIST_C01_2026-10-05.md`
 - Princípios de produto: `governance/PRODUCT_PRINCIPLES_2026-10-05.md`
 - Estado exato: `governance/CURRENT_SESSION_POINTER.json`
+
+
+## Escala e manutenção
+- Fábrica reutilizável de módulos: `architecture/MODULE_FACTORY_V1.md`
+- Política de versionamento/freshness: `governance/VERSIONING_FRESHNESS_POLICY_V1.md`
+- Template de pesquisa: `templates/MODULE_RESEARCH_TEMPLATE.md`
