@@ -2,7 +2,7 @@
   "schema_version": 1,
   "updated_at": "2026-10-05",
   "timezone": "America/Sao_Paulo",
-  "phase": "corpus_ingestion_and_style_calibration_design",
+  "phase": "deep_research_execution_c01",
   "branch": "chatgpt/legal-tutor-os-integrated-2026-10-05",
   "current_subject_id": "PEN",
   "current_booklet_id": "PEN-DP01",
@@ -45,13 +45,13 @@
     "do_not_scale_before_pilot_passes_acceptance_gates"
   ],
   "next_actions": [
-    "deep_read_C01_relevant_cards_from_registered_brainscape_packs",
-    "map_prompt_candidates_to_curriculum_microtopics_and_claims",
-    "expand_official_exam_index_across_delegado_and_transfer_careers",
-    "separate_exam_incidence_from_bank_style",
-    "reconcile_DD_as_curriculum_anchor_not_ceiling_with_editals_and_exam_evidence",
-    "prepare_calibration_set_only_after_research_sample_is_representative",
-    "build_student_question_tree_v1_after_corpus_gate"
+    "deep_sweep_C01_brainscape_registered_sources",
+    "expand_official_exam_corpus_by_priority_certame",
+    "map_DD_2026_line_by_line_to_curriculum_tree_and_source_map",
+    "map_Gran_and_DD_Legis_to_same_microtopics",
+    "classify_CORE_ADVANCED_REFERENCE",
+    "audit_authoritative_law_and_case_law",
+    "build_question_tree_v1_only_after_research_gate"
   ],
   "completion_gate": "first_slice_teaches_from_zero_and_resolves_target_real_questions_without_hidden_source_dependency",
   "repository_notes": "CartorioOs is public; keep only public-safe architecture, original/derived content, code and metadata. Commercial source files remain in Drive.",
@@ -94,5 +94,15 @@
     "research/dd/PEN-DP01-C01_DD_2025_2026_DIFF_v1.md",
     "research/gran/PEN-DP01-C01_CROSSWALK_v1.json",
     "governance/QUESTION_ARCHITECTURE_LAB_V1.md"
-  ]
+  ],
+  "execution_checklist": "governance/EXECUTION_CHECKLIST_C01_2026-10-05.md",
+  "product_principles": "governance/PRODUCT_PRINCIPLES_2026-10-05.md",
+  "environment_review": {
+    "branch": "ok",
+    "pointer": "ok",
+    "legacy_isolation": "ok",
+    "contracts": "ok",
+    "workflow_definition": "reconciled",
+    "ci_status": "no_commit_status_reported_via_connector_do_not_treat_as_pass"
+  }
 }
