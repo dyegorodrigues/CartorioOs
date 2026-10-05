@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "purpose": "research candidates for question architecture; not authority",
+  "researched_at": "2026-10-04",
+  "candidates": [
+    {
+      "label": "Jônatas Romero — Conceitos, Objeto, Teorias e Evolução do Direito Penal",
+      "url": "https://www.brainscape.com/flashcards/conceitos-objeto-teorias-e-evolucao-do-d-8039069/packs/13422979",
+      "observed_cards": 52,
+      "strengths": [
+        "questions by conceptual block",
+        "schools compared by method/free will/crime/penalty",
+        "advanced topics mixed with foundations"
+      ],
+      "risks": [
+        "user-generated content",
+        "some answers require legal/doctrinal audit",
+        "mixes topics beyond C01"
+      ]
+    },
+    {
+      "label": "Lucas Marques — Introdução ao Direito Penal",
+      "url": "https://www.brainscape.com/flashcards/introducao-ao-direito-penal-20301292/packs/23039457",
+      "observed_cards": 170,
+      "strengths": [
+        "broad progressive coverage",
+        "history and schools decomposed into smaller retrieval units",
+        "explicit compare/contrast prompts"
+      ],
+      "risks": [
+        "high atomization",
+        "some answers simplify doctrinal disputes",
+        "requires pruning"
+      ]
+    },
+    {
+      "label": "Sérgio Henrique Santana — Velocidades do Direito Penal",
+      "url": "https://www.brainscape.com/flashcards/velocidades-do-direito-penal-9670166/packs/16966160",
+      "observed_cards": 17,
+      "strengths": [
+        "deep single-topic decomposition",
+        "contrast between speeds and Hassemer",
+        "examples/application"
+      ],
+      "risks": [
+        "advanced for first-pass C01",
+        "must verify terminology and examples"
+      ]
+    },
+    {
+      "label": "JULIO CARLOS — Conceito, Objeto e Características",
+      "url": "https://www.brainscape.com/flashcards/conceito-objeto-e-caracteristicas-do-dir-21913781/packs/23844093",
+      "observed_cards": 24,
+      "strengths": [
+        "quick comparison cues",
+        "explicit aliases such as objetivo/subjetivo and substantivo/adjetivo",
+        "compact recall style"
+      ],
+      "risks": [
+        "some formulations are too simplified",
+        "'turbo' layer cannot replace full answer",
+        "user-generated"
+      ]
+    },
+    {
+      "label": "JULIO CARLOS — Evolução Histórica",
+      "url": "https://www.brainscape.com/flashcards/evolucao-historica-21921722/packs/23844093",
+      "observed_cards": 7,
+      "strengths": [
+        "periodization candidate",
+        "compact chronology"
+      ],
+      "risks": [
+        "full page fetch pending",
+        "must audit against DD and doctrine"
+      ]
+    }
+  ],
+  "synthesis_rule": "mine patterns and gaps, never copy deck wholesale; final questions are original and source-audited"
+}
