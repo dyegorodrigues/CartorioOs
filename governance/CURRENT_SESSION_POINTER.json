@@ -2,7 +2,7 @@
   "schema_version": 1,
   "updated_at": "2026-10-05",
   "timezone": "America/Sao_Paulo",
-  "phase": "delegate_exam_census_and_c01_deep_research",
+  "phase": "c01_research_content_gate_pass_human_calibration_next",
   "branch": "chatgpt/legal-tutor-os-integrated-2026-10-05",
   "current_subject_id": "PEN",
   "current_booklet_id": "PEN-DP01",
@@ -45,14 +45,12 @@
     "do_not_scale_before_pilot_passes_acceptance_gates"
   ],
   "next_actions": [
-    "continue_C01_deep_research_under_module_factory",
-    "finish_delegate_exam_census_ingestion",
-    "deep_sweep_C01_brainscape_passo_MRC",
-    "complete_DD2025_DD2026_Gran_Legis_crosswalk",
-    "audit_current_law_and_case_law",
-    "build_question_tree_v1",
-    "prove_C01_with_held_out_questions",
-    "only_after_C01_approval_instantiate_factory_for_next_penal_module"
+    "present_MASTER_candidate_and_calibration_samples_to_user",
+    "collect_human_feedback_on_fluency_density_and_question_answer_styles",
+    "apply_editorial_visual_profile",
+    "run_final_structural_validation",
+    "promote_to_study_ready_only_after_human_approval",
+    "then_instantiate_Module_Factory_for_next_penal_module"
   ],
   "completion_gate": "first_slice_teaches_from_zero_and_resolves_target_real_questions_without_hidden_source_dependency",
   "repository_notes": "CartorioOs is public; keep only public-safe architecture, original/derived content, code and metadata. Commercial source files remain in Drive.",
@@ -79,13 +77,25 @@
     "brainscape_source_registry_v1",
     "c01_official_exam_seed_index",
     "c01_prompt_pattern_seed",
-    "question_contract_two_speed_answers"
+    "question_contract_two_speed_answers",
+    "c01_curriculum_tree_v3_audited",
+    "c01_claim_graph_48_claims",
+    "c01_question_tree_v1_25_questions",
+    "verified_law_registry_core_provisions",
+    "c01_master_candidate_v1",
+    "c01_second_review",
+    "exam_validation_round2",
+    "promotional_function_conflict_corrected",
+    "terza_scuola_conflict_corrected",
+    "beccaria_prevention_trap_added",
+    "measure_security_semi_imputable_precision_added"
   ],
   "student_facing_status": {
     "approved_material_exists": false,
-    "current_reading_md": "DO_NOT_STUDY",
-    "current_question_candidates": "DEPRECATED",
-    "next_student_artifact": "question_tree_v1_after_research_gate"
+    "candidate_material": "content/modules/penal/dp01/c01/master_candidate_v1.md",
+    "candidate_question_tree": "content/modules/penal/dp01/c01/questions.jsonl",
+    "current_gate": "research_content_passed_waiting_human_calibration",
+    "do_not_mark_study_ready_until": "user_approves_fluency_density_and_editorial_rendering"
   },
   "branch_reconciliation": "governance/BRANCH_RECONCILIATION_2026-10-05.md",
   "new_inputs": [
@@ -104,7 +114,7 @@
     "legacy_isolation": "ok",
     "contracts": "ok",
     "workflow_definition": "reconciled",
-    "ci_status": "no_commit_status_reported_via_connector_do_not_treat_as_pass"
+    "ci_status": "workflow_definition_present_but_no_commit_status_reported_by_connector; structural promotion therefore not claimed as CI-passed"
   },
   "delegate_exam_scope": {
     "policy": "all_locatable_delegate_exams_all_phases_no_hard_cutoff",
