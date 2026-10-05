@@ -4,14 +4,14 @@ on:
   push:
     paths:
       - 'content/**'
-      - 'scripts/*modular.py'
-      - 'tests/test_modular.py'
+      - 'scripts/*.py'
+      - 'tests/test_*.py'
       - '.github/workflows/modular-content.yml'
   pull_request:
     paths:
       - 'content/**'
-      - 'scripts/*modular.py'
-      - 'tests/test_modular.py'
+      - 'scripts/*.py'
+      - 'tests/test_*.py'
       - '.github/workflows/modular-content.yml'
   workflow_dispatch:
 
@@ -26,6 +26,8 @@ jobs:
       - uses: actions/checkout@v4
       - name: Validate curriculum and references
         run: python3 scripts/validate_modular.py
+      - name: Validate claim graph and coverage
+        run: python3 scripts/validate_claims.py
       - name: Exercise broken-reference and review checks
         run: python3 -m unittest discover -s tests -p 'test_modular.py'
       - name: Build separate module files
