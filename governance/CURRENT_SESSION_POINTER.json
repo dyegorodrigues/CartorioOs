@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-04",
+  "updated_at": "2026-10-05",
   "timezone": "America/Sao_Paulo",
-  "phase": "drafting_first_canonical_slice",
+  "phase": "coverage_and_question_research_before_student_redraft",
   "branch": "chatgpt/legal-tutor-os-core-2026-09-30",
   "current_subject_id": "PEN",
   "current_booklet_id": "PEN-DP01",
@@ -45,13 +45,13 @@
     "do_not_scale_before_pilot_passes_acceptance_gates"
   ],
   "next_actions": [
-    "audit_N001_N004_against_real_exam_questions",
-    "draft_N005_object_and_constitutional_connections",
-    "draft_N007_N014_evolution_and_schools_with_timeline_and_comparison",
-    "expand_brainscape_passo_corpus_before_final_question_promotion",
-    "map_DD_legis_and_juris_only_where_relevant_to_C01",
-    "promote_questions_from_candidate_to_validated_after_exam_test",
-    "render_visual_prototype_only_after_content_audit"
+    "expand_exam_evidence_by_bank_and_career",
+    "expand_brainscape_and_passo_corpus_by_subblock",
+    "classify_curriculum_nodes_CORE_ADVANCED_REFERENCE",
+    "audit_bridge_infraction_penal_genus_crime_contravention",
+    "audit_third_way_reparation_and_hassemer",
+    "build_student_question_tree_v1_with_two_speed_answers",
+    "only_then_redraft_student_material"
   ],
   "completion_gate": "first_slice_teaches_from_zero_and_resolves_target_real_questions_without_hidden_source_dependency",
   "repository_notes": "CartorioOs is public; keep only public-safe architecture, original/derived content, code and metadata. Commercial source files remain in Drive.",
@@ -67,10 +67,17 @@
     "github_start_here": "START_HERE_LEGAL_TUTOR_OS.md"
   },
   "completed_since_last_pointer": [
-    "atomic_coverage_matrix_v1",
-    "dd_source_family_inventory",
-    "brainscape_passo_initial_sweep",
-    "canonical_reading_draft_N001_N004",
-    "question_candidates_N001_N004"
-  ]
+    "deprecated_previous_reading_as_DO_NOT_STUDY",
+    "deprecated_initial_question_candidates",
+    "human_curriculum_tree_v2",
+    "question_engineering_corpus_v1",
+    "initial_exam_evidence_v1",
+    "dd_2025_vs_2026_structural_comparison_started"
+  ],
+  "student_facing_status": {
+    "approved_material_exists": false,
+    "current_reading_md": "DO_NOT_STUDY",
+    "current_question_candidates": "DEPRECATED",
+    "next_student_artifact": "question_tree_v1_after_research_gate"
+  }
 }
