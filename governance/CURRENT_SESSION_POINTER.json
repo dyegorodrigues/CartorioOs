@@ -2,7 +2,7 @@
   "schema_version": 1,
   "updated_at": "2026-10-05",
   "timezone": "America/Sao_Paulo",
-  "phase": "integrated_research_gate_c01",
+  "phase": "corpus_ingestion_and_style_calibration_design",
   "branch": "chatgpt/legal-tutor-os-integrated-2026-10-05",
   "current_subject_id": "PEN",
   "current_booklet_id": "PEN-DP01",
@@ -45,13 +45,13 @@
     "do_not_scale_before_pilot_passes_acceptance_gates"
   ],
   "next_actions": [
-    "expand_C01_exam_corpus_by_board_role_and_phase",
-    "deep_sweep_user_brainscape_links_card_by_card_for_C01",
-    "classify_MRC_penal_C01_cards_as_assertion_law_jurisprudence_commentary",
-    "reconcile_curriculum_tree_with_DD_2026_and_official_editals",
-    "audit_doctrinal_conflicts_Terza_Scuola_third_way_Hassemer",
-    "build_student_question_tree_v1_with_explained_and_lightning_answers",
-    "do_not_redraft_student_material_until_research_gate_closes"
+    "deep_read_C01_relevant_cards_from_registered_brainscape_packs",
+    "map_prompt_candidates_to_curriculum_microtopics_and_claims",
+    "expand_official_exam_index_across_delegado_and_transfer_careers",
+    "separate_exam_incidence_from_bank_style",
+    "reconcile_DD_as_curriculum_anchor_not_ceiling_with_editals_and_exam_evidence",
+    "prepare_calibration_set_only_after_research_sample_is_representative",
+    "build_student_question_tree_v1_after_corpus_gate"
   ],
   "completion_gate": "first_slice_teaches_from_zero_and_resolves_target_real_questions_without_hidden_source_dependency",
   "repository_notes": "CartorioOs is public; keep only public-safe architecture, original/derived content, code and metadata. Commercial source files remain in Drive.",
@@ -72,7 +72,13 @@
     "human_curriculum_tree_v2",
     "question_engineering_corpus_v1",
     "initial_exam_evidence_v1",
-    "dd_2025_vs_2026_structural_comparison_started"
+    "dd_2025_vs_2026_structural_comparison_started",
+    "question_corpus_architecture_v1",
+    "style_calibration_protocol_v1",
+    "brainscape_source_registry_v1",
+    "c01_official_exam_seed_index",
+    "c01_prompt_pattern_seed",
+    "question_contract_two_speed_answers"
   ],
   "student_facing_status": {
     "approved_material_exists": false,
