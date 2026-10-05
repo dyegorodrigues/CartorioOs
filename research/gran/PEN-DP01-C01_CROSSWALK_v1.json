@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "module_id": "PEN-DP01-C01",
+  "created_at": "2026-10-04",
+  "scope": "Gran 33-PDF set; first-pass crosswalk for C01. 'not_confirmed' does not mean globally absent.",
+  "sources": [
+    {
+      "id": "GRAN-ENAM-PEN-01",
+      "title": "Direito Penal, Criminologia e Política Criminal",
+      "confirmed_atoms": [
+        "A001",
+        "A002",
+        "A003",
+        "A004",
+        "A005",
+        "A006",
+        "A007",
+        "A008",
+        "A009",
+        "A010",
+        "A011",
+        "A012",
+        "A028",
+        "A029",
+        "A030",
+        "A031",
+        "A032",
+        "A033",
+        "A034",
+        "A035",
+        "A036"
+      ],
+      "editorial_value": [
+        "concept/aspects already presented in compact comparative structure",
+        "functions are unusually broad for a synthetic module",
+        "ser/dever-ser distinction useful for Criminal Sciences"
+      ],
+      "gaps_or_limits": [
+        "does not confirm sanctioning/constitutive characteristic",
+        "does not confirm fragmentarity as characteristic",
+        "does not teach historical periods/schools in this module",
+        "does not confirm objective/subj and substantive/adjective classifications"
+      ]
+    },
+    {
+      "id": "GRAN-ENAM-PEN-04",
+      "title": "Princípios do Direito Penal",
+      "confirmed_atoms": [
+        "A014",
+        "A015",
+        "A016"
+      ],
+      "editorial_value": [
+        "fragmentarity connected to relevant legal goods",
+        "defines bem jurídico",
+        "connects Constitution to criminalization mandates"
+      ],
+      "note": "Content is located under principles, but parts must be reused/reconnected in C01 without duplicating the later Principles module."
+    },
+    {
+      "id": "GRAN-ENAM-PEN-09",
+      "title": "Teoria Geral da Pena",
+      "confirmed_atoms": [
+        "A023",
+        "A024",
+        "A025"
+      ],
+      "additional_school_material": [
+        "Escola Penal Humanista",
+        "Escola Técnico-jurídica",
+        "Escola Moderna Alemã",
+        "Escola Correcionalista",
+        "Escola da Nova Defesa Social"
+      ],
+      "editorial_value": [
+        "provides compact school comparison in relation to purpose of punishment"
+      ],
+      "note": "School material is pedagogically misplaced for first learning if only encountered in Teoria Geral da Pena; C01 should introduce/reconnect it at the historical-schools node."
+    }
+  ],
+  "not_confirmed_yet_in_current_33_pdf_cross_search": [
+    "A013 sanctioning/exceptionally constitutive characteristic",
+    "A017-A022 complete historical period sequence",
+    "A027 Brazilian historical Orders chronology",
+    "A037-A042 DD classification matrix",
+    "A043 Hassemer Direito de Intervenção as a dedicated concept"
+  ],
+  "search_quality_note": "Drive semantic search produced false positives for generic phrases; promotion requires direct fetch/inspection of candidate PDF."
+}
