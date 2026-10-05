@@ -1,0 +1,190 @@
+{
+  "schema_version": 1,
+  "module_id": "PEN-DP01-C01",
+  "created_at": "2026-10-04",
+  "status": "seed_with_officially_verified_items_and_candidates",
+  "rules": {
+    "official_exam_required_for_promotion": true,
+    "official_final_key_required_when_available": true,
+    "preserve_historical_key": true,
+    "doctrinal_disagreement_does_not_overwrite_official_key": true,
+    "old_notion_records_are_candidates_not_authority": true
+  },
+  "official_curriculum_evidence": [
+    {
+      "id": "CUR-PF-2025",
+      "exam": "Polícia Federal — Delegado 2025",
+      "board": "Cebraspe",
+      "official_url": "https://cdn.cebraspe.org.br/concursos/PF_25/arquivos/Ed_1_PF_25_Abertura.html",
+      "evidence": [
+        "Introdução ao Direito Penal: conceito, caracteres e função",
+        "princípios básicos",
+        "relações com outros ramos",
+        "Direito Penal e política criminal",
+        "bem jurídico expressamente no item 3.2"
+      ],
+      "verification": "official_edit_notice_verified"
+    },
+    {
+      "id": "CUR-TJSC-2024",
+      "exam": "TJSC — Magistratura — Edital 44/2024",
+      "board": "FGV",
+      "official_url": "https://conhecimento.fgv.br/sites/default/files/concursos/sei_8359560_edital.pdf",
+      "evidence": [
+        "conceito, funções e caracteres",
+        "escola clássica, positiva, crítica, moderna alemã, humanista, técnico-jurídica, correcionalista e defesa social",
+        "evolução epistemológica",
+        "bem jurídico-penal"
+      ],
+      "use": "supplementary_legal_career_depth",
+      "verification": "official_edit_notice_verified"
+    }
+  ],
+  "questions": [
+    {
+      "id": "EX-PF25-052-054",
+      "exam": "PF 2025 — Delegado",
+      "board": "Cebraspe",
+      "type": "official_true_false_block",
+      "source_url": "https://cdn.cebraspe.org.br/concursos/PF_25/arquivos/106_PF_001_01.pdf",
+      "question_numbers": [
+        52,
+        53,
+        54
+      ],
+      "nodes": [
+        "A015",
+        "A016"
+      ],
+      "mechanisms": [
+        "origem/evolução do conceito de bem jurídico",
+        "bens jurídicos aparentes",
+        "relação Constituição × tutela penal"
+      ],
+      "question_text_verified": true,
+      "final_key_verified": false,
+      "prior_recorded_key": [
+        "E",
+        "C",
+        "E"
+      ],
+      "prior_key_source": "legacy_notion_candidate_only",
+      "status": "question_official_key_pending_official_archive"
+    },
+    {
+      "id": "EX-PCSC24-086",
+      "exam": "PC-SC — Delegado — prova aplicada 28/01/2024",
+      "board": "FGV",
+      "booklet": "Tipo 1 — Branca",
+      "source_url": "https://conhecimento.fgv.br/sites/default/files/concursos/delegado-objetivacns100-tipo-1.pdf",
+      "final_key_url": "https://conhecimento.fgv.br/sites/default/files/concursos/pcscdelegado2024_gabarito_definitivo_20240220.pdf",
+      "question_number": 86,
+      "official_key": "E",
+      "nodes": [
+        "RELATED-CIENCIAS-PENAIS"
+      ],
+      "mechanisms": [
+        "Ciência Total/Conjunta do Direito Penal de Franz von Liszt",
+        "Dogmática × Criminologia × Política Criminal",
+        "dever-ser × empírico"
+      ],
+      "status": "official_question_and_final_key_verified"
+    },
+    {
+      "id": "EX-PCSC24-087",
+      "exam": "PC-SC — Delegado — prova aplicada 28/01/2024",
+      "board": "FGV",
+      "booklet": "Tipo 1 — Branca",
+      "source_url": "https://conhecimento.fgv.br/sites/default/files/concursos/delegado-objetivacns100-tipo-1.pdf",
+      "final_key_url": "https://conhecimento.fgv.br/sites/default/files/concursos/pcscdelegado2024_gabarito_definitivo_20240220.pdf",
+      "question_number": 87,
+      "official_key": "B",
+      "nodes": [
+        "A023",
+        "A024"
+      ],
+      "mechanisms": [
+        "Escola Clássica: delito como ente jurídico",
+        "distinção de objetos entre escolas criminológicas"
+      ],
+      "status": "official_question_and_final_key_verified"
+    },
+    {
+      "id": "EX-PCPI26-042",
+      "exam": "PC-PI — Delegado — ciclo 2025/2026",
+      "board": "FGV",
+      "booklet": "Tipo 1 — Branca",
+      "source_url": "https://conhecimento.fgv.br/sites/default/files/concursos/delegado-de-policia-cns100-tipo-1.pdf",
+      "final_key_url": "https://conhecimento.fgv.br/sites/default/files/concursos/pcpi-delegado-gabarito-definitivo.pdf",
+      "question_number": 42,
+      "official_key": "D",
+      "nodes": [
+        "RELATED-PRINCIPIOS",
+        "A015"
+      ],
+      "mechanisms": [
+        "insignificância em caso concreto",
+        "confusão tipicidade × culpabilidade",
+        "intervenção mínima/fragmentariedade"
+      ],
+      "status": "official_question_and_final_key_verified"
+    },
+    {
+      "id": "EX-PCPI26-071",
+      "exam": "PC-PI — Delegado — ciclo 2025/2026",
+      "board": "FGV",
+      "booklet": "Tipo 1 — Branca",
+      "source_url": "https://conhecimento.fgv.br/sites/default/files/concursos/delegado-de-policia-cns100-tipo-1.pdf",
+      "final_key_url": "https://conhecimento.fgv.br/sites/default/files/concursos/pcpi-delegado-gabarito-definitivo.pdf",
+      "question_number": 71,
+      "command": "assinale a afirmativa incorreta",
+      "official_key": "D",
+      "nodes": [
+        "A021",
+        "A023",
+        "A024"
+      ],
+      "mechanisms": [
+        "livre-arbítrio",
+        "racionalização/humanização do castigo",
+        "Beccaria",
+        "legalidade",
+        "defesa social e comparação com positivismo"
+      ],
+      "qa_conflict": {
+        "legacy_notion_recorded_key": "C",
+        "official_final_key": "D",
+        "action": "preserve conflict; doctrinally audit alternatives before using as teaching key"
+      },
+      "metadata_conflict": {
+        "competition_page_timeline": "objective exam files published 27/01/2026",
+        "final_key_pdf_header": "prova aplicada no dia 25/01/2025",
+        "action": "preserve discrepancy; do not infer date silently"
+      },
+      "status": "official_question_and_key_verified_doctrinal_commentary_required"
+    }
+  ],
+  "unverified_candidates": [
+    {
+      "exam": "PC-RO — Delegado 2022",
+      "board": "Cebraspe",
+      "topic": "função simbólica",
+      "legacy_signal": "Notion prior research",
+      "status": "official_question_and_key_pending"
+    },
+    {
+      "exam": "PC-RS — Delegado 2025",
+      "board": "FUNDATEC",
+      "topic": "função promocional + fragmentariedade + subsidiariedade + natureza sancionatória",
+      "legacy_signal": "Notion prior research",
+      "status": "official_question_and_key_pending"
+    },
+    {
+      "exam": "PC-SP — Delegado 2023",
+      "board": "Vunesp",
+      "topic": "proteção de bens jurídicos / funções",
+      "legacy_signal": "Notion prior research",
+      "status": "official_question_and_key_pending"
+    }
+  ]
+}
