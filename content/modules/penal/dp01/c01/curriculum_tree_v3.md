@@ -185,8 +185,9 @@
 - aproximação com intervenção mínima
 
 #### Promocional
-- Direito Penal como instrumento de transformação social
-- cobrança integrada PC-RS/Delegado 2025
+- formulação doutrinária controvertida sobre transformação social
+- não tratar como missão central consensual
+- PC-RS/Delegado 2025 rejeitou formulação que a colocava como instrumento de transformação social superando a proteção de bens jurídicos
 
 ## 6. Classificações / divisões
 
