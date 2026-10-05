@@ -612,6 +612,30 @@
       "url": "https://cdn.cebraspe.org.br/concursos/PF_25/arquivos/106_PF_001_01.pdf",
       "reading_status": "C01_relevant_items_checked",
       "legal_review_status": "official_exam"
+    },
+    {
+      "id": "ACADEMIC-PUCMINAS-BEM-JURIDICO-2025",
+      "kind": "academic_doctrine",
+      "title": "A efetividade da teoria do bem jurídico — Delictae, 2025",
+      "url": "https://periodicos.pucminas.br/delictae/article/download/36614/24124",
+      "reading_status": "relevant_passage_checked",
+      "legal_review_status": "doctrinal_crosscheck_2026-10-05"
+    },
+    {
+      "id": "ACADEMIC-CONPEDI-BENS-APARENTES",
+      "kind": "academic_doctrine",
+      "title": "Falsos Bens Jurídicos e Política Criminal de Drogas — Conpedi Law Review",
+      "url": "https://indexlaw.org/index.php/conpedireview/article/view/3394",
+      "reading_status": "abstract_checked",
+      "legal_review_status": "doctrinal_crosscheck_2026-10-05"
+    },
+    {
+      "id": "CEBRASPE-PF-2025-KEY",
+      "kind": "official_exam_key",
+      "title": "Polícia Federal 2025 — Delegado — gabarito oficial definitivo",
+      "url": "https://cdn.cebraspe.org.br/concursos/PF_25/arquivos/D202E48A0B1EBF5039E398F0B49D0186DD625DFF53498E36EE4D88DE4501E3A8.pdf",
+      "reading_status": "items52_54_checked",
+      "legal_review_status": "official_exam"
     }
   ]
 }
