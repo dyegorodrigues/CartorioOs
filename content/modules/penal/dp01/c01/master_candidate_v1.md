@@ -223,6 +223,8 @@ O século XVIII e o **Iluminismo** impulsionam forte crítica ao sistema penal a
 
 A importância de Beccaria é histórica e conceitual. Em concursos, ele também pode aparecer aproximado da tradição da **Escola Clássica**, dependendo da classificação adotada pela banca/material.
 
+🔴 **Pegadinha recente:** não atribua a Beccaria uma pena puramente retributiva e “sem finalidade específica”. A construção beccariana possui forte caráter **preventivo/utilitário**, razão pela qual a banca pode tornar falsa uma alternativa que generalize para Beccaria a ideia de retribuição sem finalidade.
+
 ---
 
 # 5. ESCOLAS PENAIS
