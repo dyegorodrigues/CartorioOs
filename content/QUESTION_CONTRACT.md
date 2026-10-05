@@ -29,3 +29,9 @@ Perguntas orais/discursivas exigem `rubric`: elementos esperados, relações exp
 Lei seca: cada registro em `law_registry.json` exige `id`, `instrument`, `article`, `version`, `text`, `official_url`, `checked_at`, `topic_ids`. `text` é literal; comentários entram em campo separado. Uma lei pode se relacionar a vários módulos. Versões históricas conservam IDs próprios.
 
 Progressão preferencial: pergunta que ensina a base → distinção → justificativa → exemplo → exceção → aplicação → produção. Revisão espaçada posterior usa o mesmo item; não precisa de outra cópia da explicação para cada tela.
+
+## V2 — vínculo por Claim
+
+Novas perguntas podem incluir `claim_ids`, apontando apenas para as proposições que fundamentam a resposta. Durante a migração, `topic_ids` continua obrigatório e `claim_ids` é progressivo; um módulo só poderá alcançar `study_ready` quando seus itens de estudo estiverem ligados aos Claims pertinentes.
+
+O `basis_digest` atual continua sendo a proteção de compatibilidade do V1. Para o V2, a revisão será migrada para um digest cirúrgico composto pela própria pergunta + `claim_ids` + `law_ids` + metadados oficiais necessários, evitando invalidar itens por edição não relacionada no mesmo capítulo. Até essa migração, perguntas V2 permanecem `draft` ou `needs_review`.
