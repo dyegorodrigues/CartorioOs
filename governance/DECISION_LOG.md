@@ -36,3 +36,20 @@
 ## 2026-10-04 — GOV-009 · Repositório público com conteúdo public-safe
 **Decisão:** enquanto o cérebro reside no repositório público `CartorioOs`, não versionar PDFs comerciais, transcrições pessoais nem links privados do Drive.  
 **Motivo:** proteção de conteúdo e privacidade. Uma futura migração para repositório privado pode ampliar o que é versionado.
+
+
+## 2026-10-04 — GOV-010 · Separar artefato de engenharia de material do aluno
+**Decisão:** coverage_matrix.json, metadados e question_candidates.jsonl são bastidores internos. Não devem ser apresentados ao usuário como material de estudo nem avaliados visualmente como apostila.
+**Motivo:** a exposição dos campos internos (`deep`, `present`, `answer_scope` etc.) gerou confusão legítima e não representa a experiência final do aluno.
+
+## 2026-10-04 — GOV-011 · Resposta de recall precisa ter duas velocidades
+**Decisão:** pergunta promovida ao banco do aluno deve possuir, quando o conteúdo justificar, uma resposta explicativa/comentada e uma resposta-relâmpago para revisão posterior. `answer_scope` é apenas metadado interno e nunca substitui a resposta.
+**Motivo:** respostas telegráficas não ensinam nem reconstroem a matéria; respostas longas únicas tornam a revisão lenta.
+
+## 2026-10-04 — GOV-012 · Perguntas seguem a progressão da matéria, não a criatividade da IA
+**Decisão:** o primeiro banco deve acompanhar a sequência pedagógica do conteúdo e reutilizar padrões empiricamente bons encontrados em Passo/Brainscape/provas. Perguntas metalinguísticas como “quais aliases acompanham...” ficam fora da camada do aluno.
+**Motivo:** o enunciado deve soar como estudo jurídico/prova, não como documentação de software.
+
+## 2026-10-04 — GOV-013 · Recuperar a gramática das tabelas estratégicas antigas
+**Decisão:** reutilizar do acervo Notion o padrão de tabelas com célula de conceito detalhado/foco de prova, destaques e conexões, sem importar erros de conteúdo das versões antigas.
+**Motivo:** o usuário aprende melhor por estruturas relacionais densas e legíveis; tabela não é sinônimo de resposta mínima.
