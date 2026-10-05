@@ -14,7 +14,7 @@
       "topic_id": "PEN-DP01-C01-T01",
       "title": "Conceito de Direito Penal e sanção penal",
       "freshness_class": "stable_doctrine",
-      "coverage_status": "mapped",
+      "coverage_status": "audited_v1",
       "sources": [
         {
           "source_id": "GRAN-ENAM-PEN-01",
@@ -25,6 +25,16 @@
           "source_id": "DD-2026-PEN-DP01",
           "locator": "pp. 5-6",
           "role": "depth_audit"
+        },
+        {
+          "source_id": "OFFICIAL-DL-3914-1941",
+          "locator": "art. 1º",
+          "role": "official_authority"
+        },
+        {
+          "source_id": "OFFICIAL-CP-BR",
+          "locator": "arts. 97-98",
+          "role": "official_authority"
         }
       ]
     },
@@ -71,7 +81,7 @@
       "topic_id": "PEN-DP01-C01-T03",
       "title": "Objeto de proteção e bens jurídicos penais",
       "freshness_class": "mixed",
-      "coverage_status": "mapped_depth_first",
+      "coverage_status": "audited_core_plus_advanced",
       "sources": [
         {
           "source_id": "DD-2026-PEN-DP01",
@@ -82,6 +92,11 @@
           "source_id": "GRAN-ENAM-PEN-01",
           "locator": "pp. 9-10",
           "role": "primary_study"
+        },
+        {
+          "source_id": "CEBRASPE-PF-2025-PROVA",
+          "locator": "itens 52-54",
+          "role": "exam_evidence"
         }
       ],
       "note": "A leitura final deve separar conceito de bem jurídico, seleção constitucional e função de proteção."
@@ -106,11 +121,16 @@
       "topic_id": "PEN-DP01-C01-T04",
       "title": "Escola Clássica, Escola Positiva e escolas ecléticas",
       "freshness_class": "stable_doctrine",
-      "coverage_status": "mapped_dd_depth",
+      "coverage_status": "audited_with_doctrinal_correction",
       "sources": [
         {
           "source_id": "DD-2026-PEN-DP01",
           "locator": "pp. 7-9",
+          "role": "depth_audit"
+        },
+        {
+          "source_id": "ACADEMIC-USP-TERZA",
+          "locator": "passagem auditada sobre Carnevale/Terza Scuola",
           "role": "depth_audit"
         }
       ],
@@ -171,9 +191,9 @@
     {
       "id": "PEN-DP01-C01-M10",
       "topic_id": "PEN-DP01-C01-T05",
-      "title": "Outras funções cobradas: garantia, ético-social e simbólica",
+      "title": "Outras funções cobradas: ético-social, simbólica, motivadora, redução da violência estatal e promocional",
       "freshness_class": "stable_doctrine",
-      "coverage_status": "mapped",
+      "coverage_status": "audited_with_exam_conflict_note",
       "sources": [
         {
           "source_id": "GRAN-ENAM-PEN-01",
@@ -184,6 +204,11 @@
           "source_id": "DD-2026-PEN-DP01",
           "locator": "pp. 9-12",
           "role": "depth_audit"
+        },
+        {
+          "source_id": "OFFICIAL-PC-RS-DELEGADO-2025",
+          "locator": "prova/gabarito do ciclo 2025",
+          "role": "exam_evidence"
         }
       ]
     },
@@ -192,12 +217,17 @@
       "topic_id": "PEN-DP01-C01-T06",
       "title": "Divisões do Direito Penal",
       "freshness_class": "stable_doctrine",
-      "coverage_status": "mapped_dd_depth",
+      "coverage_status": "audited_v1",
       "sources": [
         {
           "source_id": "DD-2026-PEN-DP01",
           "locator": "pp. 11-12",
           "role": "depth_audit"
+        },
+        {
+          "source_id": "OFFICIAL-CF88",
+          "locator": "art. 22, I e parágrafo único",
+          "role": "official_authority"
         }
       ]
     },
@@ -218,10 +248,10 @@
     }
   ],
   "next_actions": [
-    "criar claims autorais para M01-M12",
-    "ligar artigos apenas após conferência oficial",
-    "localizar questões oficiais de Delegado por microtópico",
-    "auditar Brainscape/Passo como padrões de pergunta",
-    "gerar leitura sintética a partir dos claims depois da primeira revisão editorial"
+    "human_calibrate_MASTER_and_question_styles",
+    "apply_visual_editorial_profile",
+    "run_final_structural_validation",
+    "only_after_human_approval_promote_pipeline_to_study_ready",
+    "continue_global_exam_census_in_parallel_without_blocking_C01_calibration"
   ]
 }
