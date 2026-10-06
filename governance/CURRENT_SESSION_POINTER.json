@@ -55,13 +55,12 @@
     "do_not_scale_before_pilot_passes_acceptance_gates"
   ],
   "next_actions": [
-    "build_C01_V2_topic_by_topic_using_student_format_v2",
-    "triage_Brainscape_Passo_Claude_MRC_prompts_by_microtopic",
-    "promote_only_audited_questions_into_student_flow",
-    "preserve_questions_in_two_layers_progressive_and_parent",
-    "integrate_exam_questions_as_sufficiency_QA",
-    "render_topic1_v2_visual_prototype",
-    "human_validate_topic1_before_full_chapter_render"
+    "rebuild_topic1_v2_with_inline_reconnection_anchors",
+    "apply_home_pedagogica_and_pre_exposure_rules_to_bem_juridico",
+    "tier_authors_by_exam_oral_discursive_value",
+    "integrate_brainscape_passo_prompts_after_theory_not_as_detached_appendix",
+    "render_topic1_v2_for_human_validation",
+    "only_then_expand_full_C01_v2"
   ],
   "completion_gate": "first_slice_teaches_from_zero_and_resolves_target_real_questions_without_hidden_source_dependency",
   "repository_notes": "CartorioOs is public; keep only public-safe architecture, original/derived content, code and metadata. Commercial source files remain in Drive.",
@@ -142,5 +141,6 @@
   "versioning_freshness_policy": "governance/VERSIONING_FRESHNESS_POLICY_V1.md",
   "module_research_template": "templates/MODULE_RESEARCH_TEMPLATE.md",
   "scaling_rule": "future modules instantiate factory; architecture is not redesigned per booklet unless new evidence forces a versioned governance change",
-  "brainscape_integration": "architecture/BRAINSCAPE_PASSO_INTEGRATION_V2.md"
+  "brainscape_integration": "architecture/BRAINSCAPE_PASSO_INTEGRATION_V2.md",
+  "cognitive_reconnections": "architecture/COGNITIVE_RECONNECTIONS_V1.md"
 }
