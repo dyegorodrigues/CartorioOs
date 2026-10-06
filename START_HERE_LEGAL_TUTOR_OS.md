@@ -92,3 +92,7 @@ Consequência: **nenhum material é promovido por estar bonito, curto ou organiz
 - Fábrica reutilizável de módulos: `architecture/MODULE_FACTORY_V1.md`
 - Política de versionamento/freshness: `governance/VERSIONING_FRESHNESS_POLICY_V1.md`
 - Template de pesquisa: `templates/MODULE_RESEARCH_TEMPLATE.md`
+
+
+## Handoff crítico atual
+- `governance/HANDOFF_NEXT_CHAT_2026-10-06.md`
