@@ -58,19 +58,22 @@
       "coverage_status": "mapped"
     }
   ],
-  "reading_file": "master_candidate_v1.md",
+  "reading_file": null,
   "questions_file": "questions.jsonl",
   "legal_checked_at": "2026-10-05",
-  "editorial_notes": "Research/content gate PASS após segunda revisão. MASTER candidato e Question Tree V1 estão prontos para calibração humana; módulo permanece draft/review e não study_ready até aprovação de fluidez/layout.",
+  "editorial_notes": "MASTER candidato V1 rejeitado como experiência principal do aluno após feedback humano e comparação com artefato Claude. Conteúdo/Claims/auditorias permanecem válidos como backend. Redação V2 deve seguir architecture/STUDENT_MATERIAL_FORMAT_V2.md.",
   "coverage_matrix_file": "coverage_matrix.json",
   "research_files": [
     "research/PEN-DP01-C01_BRAINSCAPE_PASSO_SWEEP_2026-10-04.md",
     "research/DD_SOURCE_FAMILIES_INVENTORY_2026-10-04.md"
   ],
-  "pipeline_status": "review",
+  "pipeline_status": "drafting",
   "source_map_file": "source_map.json",
   "claims_file": "claims.jsonl",
   "curriculum_tree_file": "curriculum_tree_v3.md",
   "doctrinal_audit_file": "../../../research/audits/PEN-DP01-C01_DOCTRINAL_AUDIT_2026-10-05.md",
-  "review2_file": "../../../research/validation/PEN-DP01-C01_REVIEW2_2026-10-05.md"
+  "review2_file": "../../../research/validation/PEN-DP01-C01_REVIEW2_2026-10-05.md",
+  "superseded_student_candidate": "master_candidate_v1.md",
+  "student_format": "../../../../../architecture/STUDENT_MATERIAL_FORMAT_V2.md",
+  "claude_artifact_audit": "../../../../../research/validation/CLAUDE_C01_ARTIFACT_AUDIT_2026-10-05.md"
 }
