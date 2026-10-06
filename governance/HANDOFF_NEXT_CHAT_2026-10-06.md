@@ -541,3 +541,57 @@ Nem tudo merece o mesmo peso na primeira passagem.
 # 14. PROMPT CURTO PARA COLAR NO NOVO CHAT
 
 “Retome o Legal Tutor OS a partir do handoff `governance/HANDOFF_NEXT_CHAT_2026-10-06.md` na branch `chatgpt/legal-tutor-os-integrated-2026-10-05` do repo `dyegorodrigues/CartorioOs`. O repo `dyegorodrigues/delegado-os` é READ-ONLY. Primeiro responda integralmente minha última dúvida sobre integrar Decorando Lei Seca / Estudo Lei Seca / DD Legis ao banco de questões com artigo/inciso/parágrafo por questão e, quando útil, por alternativa, além de súmulas/jurisprudência, sem criar overengineering. Depois continue exatamente os próximos passos registrados no handoff, sem reinventar a arquitetura.”
+
+
+---
+
+# 16. CORREÇÃO CRÍTICA APÓS INTERRUPÇÃO DO USUÁRIO — NÃO DESVIAR PARA O DRIVE
+
+O usuário corrigiu explicitamente um desvio de escopo desta sessão.
+
+## O que NÃO foi pedido
+A menção à conta **Russgod** e ao fato de o Claude/"Cláudio" não conseguir acessá-la era apenas contexto comparativo de acesso. **Não era um pedido para pesquisar, catalogar ou organizar os documentos dessa conta.**
+
+Portanto, na próxima conversa:
+- NÃO iniciar nova varredura do Google Drive;
+- NÃO transformar DD LEGIS / Russgod em frente principal;
+- NÃO responder como se a tarefa central fosse localizar documentos;
+- NÃO abrir novas pesquisas paralelas antes de retomar o fio pedagógico já construído.
+
+## Qual era o fio real que estava fluindo
+O centro da conversa era a comparação entre o protótipo do Tutor OS e o material produzido pelo Claude, com esta conclusão já aceita:
+
+**Gran/Claude na gramática visual e pedagógica + DD como piso de cobertura/profundidade + auditoria jurídica própria + Brainscape/Passo/MRC na engenharia de perguntas + provas reais como teste de suficiência.**
+
+O que o Claude fez melhor e deve ser preservado como referência:
+- experiência de estudo muito mais fluida;
+- backend invisível para o aluno;
+- bloco "EM 1 MINUTO";
+- tabelas que podem carregar a própria teoria;
+- aliases juntos no rótulo;
+- perguntas progressivas imediatamente após cada tópico;
+- fechamento com perguntas-mãe, questões comentadas e C/E;
+- renderer HTML/CSS/componentes capaz de gerar PDF/CSV sem editar tudo manualmente.
+
+O que NÃO deve ser copiado cegamente:
+- erros ou simplificações jurídicas;
+- cobertura excessiva só porque algo aparece no DD;
+- quantidade de perguntas sem filtragem de função cognitiva;
+- qualquer conteúdo sem auditoria por fonte oficial/prova.
+
+## Próximo passo correto
+**Retomar o C01 V2 / Tópico 1 concreto.**
+Não abrir nova rodada abstrata de arquitetura e não fazer inventário de Drive.
+
+A camada de Lei Seca Ativa continua válida, mas apenas como dimensão relacional do mesmo sistema. Ela deve ser incorporada quando útil ao tópico/questão, sem sequestrar o fluxo editorial.
+
+## Regra para interpretar a última pergunta do usuário
+Quando o usuário pergunta se vincular artigo/inciso/parágrafo, jurisprudência e súmula por questão/alternativa é útil ou faraônico, a resposta deve ser conectada ao fluxo acima:
+- SIM, é útil;
+- NÃO, não deve virar tarefa obrigatória exaustiva para toda alternativa na ingestão;
+- usar enriquecimento incremental;
+- manter a complexidade no backend e a experiência simples na superfície;
+- depois voltar imediatamente ao desenvolvimento do material V2.
+
+## Frase-guia para a retomada
+**Não estamos criando outro projeto de lei seca nem outro inventário documental. Estamos melhorando o mesmo material de estudo e o mesmo corpus para que teoria, perguntas, lei, jurisprudência e prova se encontrem no ponto certo.**
