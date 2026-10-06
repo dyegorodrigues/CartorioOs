@@ -2,7 +2,7 @@
   "schema_version": 1,
   "updated_at": "2026-10-06",
   "timezone": "America/Sao_Paulo",
-  "phase": "awaiting_user_complaints_then_v2_decision_matrix",
+  "phase": "evidence_weighted_learning_surface_design",
   "branch": "chatgpt/legal-tutor-os-integrated-2026-10-05",
   "current_subject_id": "PEN",
   "current_booklet_id": "PEN-DP01",
@@ -55,12 +55,12 @@
     "do_not_scale_before_pilot_passes_acceptance_gates"
   ],
   "next_actions": [
-    "ingest_user_complaints_on_delegado_os_v11",
-    "create_block_level_keep_fix_demote_move_expand_test_matrix",
-    "do_not_full_rewrite_before_matrix",
-    "deepen_card_level_brainscape_crosswalk",
-    "preserve_exam_census_and_freshness_work",
-    "decide_single_canonical_product_repo_after_calibration"
+    "ingest_user_feedback_without_modifying_delegado_os",
+    "build_evidence_weight_matrix_for_C01_blocks",
+    "deepen_brainscape_card_level_mining_and_deduplication",
+    "build_oral_discursive_corpus_for_delegado",
+    "separate_coverage_floor_from_attention_priority",
+    "prototype_question_table_first_learning_surface"
   ],
   "completion_gate": "first_slice_teaches_from_zero_and_resolves_target_real_questions_without_hidden_source_dependency",
   "repository_notes": "CartorioOs is public; keep only public-safe architecture, original/derived content, code and metadata. Commercial source files remain in Drive.",
@@ -147,5 +147,12 @@
     "version": "DP-01 Cap 1 v1.1",
     "audit": "research/validation/DELEGADO_OS_V11_AUDIT_2026-10-06.md",
     "status": "strong_student_experience_reference_not_canonical_authority"
+  },
+  "external_comparator_policy": "governance/EXTERNAL_COMPARATOR_DELEGADO_OS.md",
+  "external_comparator_write_policy": "READ_ONLY_NO_COMMITS_NO_PRS",
+  "drive_capability": {
+    "dyego_drive": "available",
+    "russgod_drive": "available",
+    "note": "Tutor OS can search both connected Drive accounts; use them as source vaults. Do not assume Claude has equivalent access."
   }
 }
