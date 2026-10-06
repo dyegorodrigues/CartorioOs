@@ -2,7 +2,7 @@
   "schema_version": 1,
   "updated_at": "2026-10-05",
   "timezone": "America/Sao_Paulo",
-  "phase": "c01_v2_content_rebuild_with_filtered_active_recall",
+  "phase": "c01_v2_topic1_human_validation",
   "branch": "chatgpt/legal-tutor-os-integrated-2026-10-05",
   "current_subject_id": "PEN",
   "current_booklet_id": "PEN-DP01",
@@ -55,12 +55,11 @@
     "do_not_scale_before_pilot_passes_acceptance_gates"
   ],
   "next_actions": [
-    "rebuild_topic1_v2_with_inline_reconnection_anchors",
-    "apply_home_pedagogica_and_pre_exposure_rules_to_bem_juridico",
-    "tier_authors_by_exam_oral_discursive_value",
-    "integrate_brainscape_passo_prompts_after_theory_not_as_detached_appendix",
-    "render_topic1_v2_for_human_validation",
-    "only_then_expand_full_C01_v2"
+    "collect_human_feedback_on_topic1_v2",
+    "fix_flow_density_and_visual_grammar",
+    "render_topic1_visual_pdf_html_after_content_shape_is_approved",
+    "expand_same_pattern_to_characteristics_object_evolution_functions_classifications",
+    "continue_exam_and_prompt_corpus_in_parallel"
   ],
   "completion_gate": "first_slice_teaches_from_zero_and_resolves_target_real_questions_without_hidden_source_dependency",
   "repository_notes": "CartorioOs is public; keep only public-safe architecture, original/derived content, code and metadata. Commercial source files remain in Drive.",
@@ -102,10 +101,9 @@
   ],
   "student_facing_status": {
     "approved_material_exists": false,
-    "rejected_candidate": "content/modules/penal/dp01/c01/master_candidate_v1.md",
-    "next_candidate": "C01 Student Material V2",
-    "format_contract": "architecture/STUDENT_MATERIAL_FORMAT_V2.md",
-    "comparison_audit": "research/validation/CLAUDE_C01_ARTIFACT_AUDIT_2026-10-05.md"
+    "current_candidate": "content/modules/penal/dp01/c01/student_v2_topic01.md",
+    "scope": "C01 Topic 1 — Conceito de Direito Penal",
+    "purpose": "human validation of flow, density, table strategy, reconnection anchors and integrated questions before full C01 expansion"
   },
   "branch_reconciliation": "governance/BRANCH_RECONCILIATION_2026-10-05.md",
   "new_inputs": [
