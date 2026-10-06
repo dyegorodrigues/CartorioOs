@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-05",
+  "updated_at": "2026-10-06",
   "timezone": "America/Sao_Paulo",
-  "phase": "c01_v2_topic1_human_validation",
+  "phase": "awaiting_user_complaints_then_v2_decision_matrix",
   "branch": "chatgpt/legal-tutor-os-integrated-2026-10-05",
   "current_subject_id": "PEN",
   "current_booklet_id": "PEN-DP01",
@@ -55,11 +55,12 @@
     "do_not_scale_before_pilot_passes_acceptance_gates"
   ],
   "next_actions": [
-    "collect_human_feedback_on_topic1_v2",
-    "fix_flow_density_and_visual_grammar",
-    "render_topic1_visual_pdf_html_after_content_shape_is_approved",
-    "expand_same_pattern_to_characteristics_object_evolution_functions_classifications",
-    "continue_exam_and_prompt_corpus_in_parallel"
+    "ingest_user_complaints_on_delegado_os_v11",
+    "create_block_level_keep_fix_demote_move_expand_test_matrix",
+    "do_not_full_rewrite_before_matrix",
+    "deepen_card_level_brainscape_crosswalk",
+    "preserve_exam_census_and_freshness_work",
+    "decide_single_canonical_product_repo_after_calibration"
   ],
   "completion_gate": "first_slice_teaches_from_zero_and_resolves_target_real_questions_without_hidden_source_dependency",
   "repository_notes": "CartorioOs is public; keep only public-safe architecture, original/derived content, code and metadata. Commercial source files remain in Drive.",
@@ -140,5 +141,11 @@
   "module_research_template": "templates/MODULE_RESEARCH_TEMPLATE.md",
   "scaling_rule": "future modules instantiate factory; architecture is not redesigned per booklet unless new evidence forces a versioned governance change",
   "brainscape_integration": "architecture/BRAINSCAPE_PASSO_INTEGRATION_V2.md",
-  "cognitive_reconnections": "architecture/COGNITIVE_RECONNECTIONS_V1.md"
+  "cognitive_reconnections": "architecture/COGNITIVE_RECONNECTIONS_V1.md",
+  "external_comparator": {
+    "repo": "dyegorodrigues/delegado-os",
+    "version": "DP-01 Cap 1 v1.1",
+    "audit": "research/validation/DELEGADO_OS_V11_AUDIT_2026-10-06.md",
+    "status": "strong_student_experience_reference_not_canonical_authority"
+  }
 }
