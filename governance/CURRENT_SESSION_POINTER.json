@@ -2,7 +2,7 @@
   "schema_version": 1,
   "updated_at": "2026-10-06",
   "timezone": "America/Sao_Paulo",
-  "phase": "evidence_weighted_learning_surface_design",
+  "phase": "handoff_created_due_to_chat_limit",
   "branch": "chatgpt/legal-tutor-os-integrated-2026-10-05",
   "current_subject_id": "PEN",
   "current_booklet_id": "PEN-DP01",
@@ -162,5 +162,7 @@
     "cp_comentado": "D_CP Comentado completo (atualizado até 08.12.25)",
     "mapa_lei_seca": "MAPA DA LEI SECA — Delegado de Polícia",
     "caderno_lei_seca": "Caderno de Lei Seca / preparação extensiva Delegado e MP"
-  }
+  },
+  "handoff": "governance/HANDOFF_NEXT_CHAT_2026-10-06.md",
+  "next_chat_first_task": "Answer active-law/normative-graph question completely, then implement handoff next steps."
 }
