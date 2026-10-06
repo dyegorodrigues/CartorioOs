@@ -2,7 +2,7 @@
   "schema_version": 1,
   "updated_at": "2026-10-05",
   "timezone": "America/Sao_Paulo",
-  "phase": "c01_student_format_v2_rebuild_after_human_feedback",
+  "phase": "c01_v2_content_rebuild_with_filtered_active_recall",
   "branch": "chatgpt/legal-tutor-os-integrated-2026-10-05",
   "current_subject_id": "PEN",
   "current_booklet_id": "PEN-DP01",
@@ -55,13 +55,13 @@
     "do_not_scale_before_pilot_passes_acceptance_gates"
   ],
   "next_actions": [
-    "rebuild_C01_student_material_v2_using_Claude_like_grammar_plus_TutorOS_audited_content",
-    "merge_75_style_progressive_learning_questions_with_question_corpus_without_blind_atomization",
-    "integrate_aliases_into_labels_not_separate_columns",
-    "preserve_high_density_tables_and_reconnection_callouts",
-    "re_audit_all_Claude_specific_claims_before_reuse",
-    "render_visual_candidate",
-    "human_calibrate_topic1_before_scaling"
+    "build_C01_V2_topic_by_topic_using_student_format_v2",
+    "triage_Brainscape_Passo_Claude_MRC_prompts_by_microtopic",
+    "promote_only_audited_questions_into_student_flow",
+    "preserve_questions_in_two_layers_progressive_and_parent",
+    "integrate_exam_questions_as_sufficiency_QA",
+    "render_topic1_v2_visual_prototype",
+    "human_validate_topic1_before_full_chapter_render"
   ],
   "completion_gate": "first_slice_teaches_from_zero_and_resolves_target_real_questions_without_hidden_source_dependency",
   "repository_notes": "CartorioOs is public; keep only public-safe architecture, original/derived content, code and metadata. Commercial source files remain in Drive.",
@@ -141,5 +141,6 @@
   "module_factory": "architecture/MODULE_FACTORY_V1.md",
   "versioning_freshness_policy": "governance/VERSIONING_FRESHNESS_POLICY_V1.md",
   "module_research_template": "templates/MODULE_RESEARCH_TEMPLATE.md",
-  "scaling_rule": "future modules instantiate factory; architecture is not redesigned per booklet unless new evidence forces a versioned governance change"
+  "scaling_rule": "future modules instantiate factory; architecture is not redesigned per booklet unless new evidence forces a versioned governance change",
+  "brainscape_integration": "architecture/BRAINSCAPE_PASSO_INTEGRATION_V2.md"
 }
