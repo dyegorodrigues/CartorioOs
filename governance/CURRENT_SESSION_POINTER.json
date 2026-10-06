@@ -55,12 +55,13 @@
     "do_not_scale_before_pilot_passes_acceptance_gates"
   ],
   "next_actions": [
-    "ingest_user_feedback_without_modifying_delegado_os",
-    "build_evidence_weight_matrix_for_C01_blocks",
-    "deepen_brainscape_card_level_mining_and_deduplication",
-    "build_oral_discursive_corpus_for_delegado",
-    "separate_coverage_floor_from_attention_priority",
-    "prototype_question_table_first_learning_surface"
+    "keep_delegado_os_read_only",
+    "build_block_level_decision_matrix_for_C01_v11",
+    "add_primary_legal_basis_and_case_law_links_to_exam_corpus_incrementally",
+    "mine_DD_LEGIS_structure_for_student_law_mode",
+    "deepen_brainscape_card_level_mining",
+    "build_real_oral_exam_corpus",
+    "prototype_simple_article_to_questions_view_without_exposing_backend_complexity"
   ],
   "completion_gate": "first_slice_teaches_from_zero_and_resolves_target_real_questions_without_hidden_source_dependency",
   "repository_notes": "CartorioOs is public; keep only public-safe architecture, original/derived content, code and metadata. Commercial source files remain in Drive.",
@@ -154,5 +155,12 @@
     "dyego_drive": "available",
     "russgod_drive": "available",
     "note": "Tutor OS can search both connected Drive accounts; use them as source vaults. Do not assume Claude has equivalent access."
+  },
+  "law_evidence_graph": "architecture/LAW_EVIDENCE_GRAPH_V1.md",
+  "drive_source_discovery": {
+    "russgod_dd_legis_folder": "DD LEGIS",
+    "cp_comentado": "D_CP Comentado completo (atualizado até 08.12.25)",
+    "mapa_lei_seca": "MAPA DA LEI SECA — Delegado de Polícia",
+    "caderno_lei_seca": "Caderno de Lei Seca / preparação extensiva Delegado e MP"
   }
 }
