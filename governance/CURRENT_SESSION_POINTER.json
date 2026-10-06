@@ -2,7 +2,7 @@
   "schema_version": 1,
   "updated_at": "2026-10-06",
   "timezone": "America/Sao_Paulo",
-  "phase": "handoff_created_due_to_chat_limit",
+  "phase": "handoff_corrected_after_scope_drift",
   "branch": "chatgpt/legal-tutor-os-integrated-2026-10-05",
   "current_subject_id": "PEN",
   "current_booklet_id": "PEN-DP01",
@@ -56,12 +56,13 @@
   ],
   "next_actions": [
     "keep_delegado_os_read_only",
-    "build_block_level_decision_matrix_for_C01_v11",
-    "add_primary_legal_basis_and_case_law_links_to_exam_corpus_incrementally",
-    "mine_DD_LEGIS_structure_for_student_law_mode",
-    "deepen_brainscape_card_level_mining",
-    "build_real_oral_exam_corpus",
-    "prototype_simple_article_to_questions_view_without_exposing_backend_complexity"
+    "resume_C01_V2_topic01_as_the_primary_workstream",
+    "preserve_Claude_Gran_student_experience_strengths_without_copying_legal_errors",
+    "use_DD_as_coverage_and_depth_floor_not_as_attention_priority_or_ceiling",
+    "integrate_brainscape_passo_mrc_question_patterns_into_the_same_learning_flow",
+    "use_real_exam_questions_as_content_sufficiency_QA",
+    "add_law_case_law_links_incrementally_when_they_help_the_current_topic_or_question",
+    "do_not_start_new_drive_inventory_or_source_hunt_unless_the_user_explicitly_requests_it"
   ],
   "completion_gate": "first_slice_teaches_from_zero_and_resolves_target_real_questions_without_hidden_source_dependency",
   "repository_notes": "CartorioOs is public; keep only public-safe architecture, original/derived content, code and metadata. Commercial source files remain in Drive.",
@@ -154,15 +155,22 @@
   "drive_capability": {
     "dyego_drive": "available",
     "russgod_drive": "available",
-    "note": "Tutor OS can search both connected Drive accounts; use them as source vaults. Do not assume Claude has equivalent access."
+    "note": "Access capability is context only. The user did NOT request a Russgod/Drive inventory. Do not search or organize Drive unless explicitly requested for the active task."
   },
   "law_evidence_graph": "architecture/LAW_EVIDENCE_GRAPH_V1.md",
   "drive_source_discovery": {
-    "russgod_dd_legis_folder": "DD LEGIS",
-    "cp_comentado": "D_CP Comentado completo (atualizado até 08.12.25)",
-    "mapa_lei_seca": "MAPA DA LEI SECA — Delegado de Polícia",
-    "caderno_lei_seca": "Caderno de Lei Seca / preparação extensiva Delegado e MP"
+    "status": "context_only_not_active_workstream",
+    "note": "Previously found DD Legis references may remain as known context, but do not continue Drive discovery unless explicitly requested."
   },
   "handoff": "governance/HANDOFF_NEXT_CHAT_2026-10-06.md",
-  "next_chat_first_task": "Answer active-law/normative-graph question completely, then implement handoff next steps."
+  "next_chat_first_task": "Resume the pedagogical/product thread: reconcile what Claude/Gran did well with Tutor OS audit and continue C01 V2 Topic 1. Treat active-law links as an incremental feature of the same corpus, not as a new Drive research project.",
+  "scope_correction_2026_10_06": {
+    "user_clarification": "Russgod was mentioned only to explain Claude access limitations; no Drive research was requested.",
+    "primary_thread": "C01 V2 student material and integrated question-learning experience",
+    "forbidden_drift": [
+      "new Drive inventory",
+      "turning DD Legis discovery into the main task",
+      "reopening abstract architecture before producing the concrete C01 V2 pilot"
+    ]
+  }
 }
