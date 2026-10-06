@@ -2,7 +2,7 @@
   "schema_version": 1,
   "updated_at": "2026-10-05",
   "timezone": "America/Sao_Paulo",
-  "phase": "c01_research_content_gate_pass_human_calibration_next",
+  "phase": "c01_student_format_v2_rebuild_after_human_feedback",
   "branch": "chatgpt/legal-tutor-os-integrated-2026-10-05",
   "current_subject_id": "PEN",
   "current_booklet_id": "PEN-DP01",
@@ -32,7 +32,17 @@
       "imprecise_short_answers",
       "visual_structure_better_than_pedagogical_structure"
     ],
-    "salvage_rule": "reuse_only_individually_validated_visual_or_interaction_insights"
+    "salvage_rule": "reuse_only_individually_validated_visual_or_interaction_insights",
+    "master_v1_status": "rejected_as_student_material",
+    "master_v1_reasons": [
+      "too_concise_for_first_learning",
+      "organization_felt_engineering_driven",
+      "question_bank_not_visible_in_study_experience",
+      "strategic_tables_not_dense_or_complete_enough",
+      "aliases_and_keywords_not_optimally_presented",
+      "could_not_confidently_solve_exam_questions_from_material_alone"
+    ],
+    "claude_artifact_status": "use_as_editorial_reference_not_legal_authority"
   },
   "hard_rules": [
     "do_not_paraphrase_away_exam_terminology",
@@ -45,12 +55,13 @@
     "do_not_scale_before_pilot_passes_acceptance_gates"
   ],
   "next_actions": [
-    "present_MASTER_candidate_and_calibration_samples_to_user",
-    "collect_human_feedback_on_fluency_density_and_question_answer_styles",
-    "apply_editorial_visual_profile",
-    "run_final_structural_validation",
-    "promote_to_study_ready_only_after_human_approval",
-    "then_instantiate_Module_Factory_for_next_penal_module"
+    "rebuild_C01_student_material_v2_using_Claude_like_grammar_plus_TutorOS_audited_content",
+    "merge_75_style_progressive_learning_questions_with_question_corpus_without_blind_atomization",
+    "integrate_aliases_into_labels_not_separate_columns",
+    "preserve_high_density_tables_and_reconnection_callouts",
+    "re_audit_all_Claude_specific_claims_before_reuse",
+    "render_visual_candidate",
+    "human_calibrate_topic1_before_scaling"
   ],
   "completion_gate": "first_slice_teaches_from_zero_and_resolves_target_real_questions_without_hidden_source_dependency",
   "repository_notes": "CartorioOs is public; keep only public-safe architecture, original/derived content, code and metadata. Commercial source files remain in Drive.",
@@ -92,10 +103,10 @@
   ],
   "student_facing_status": {
     "approved_material_exists": false,
-    "candidate_material": "content/modules/penal/dp01/c01/master_candidate_v1.md",
-    "candidate_question_tree": "content/modules/penal/dp01/c01/questions.jsonl",
-    "current_gate": "research_content_passed_waiting_human_calibration",
-    "do_not_mark_study_ready_until": "user_approves_fluency_density_and_editorial_rendering"
+    "rejected_candidate": "content/modules/penal/dp01/c01/master_candidate_v1.md",
+    "next_candidate": "C01 Student Material V2",
+    "format_contract": "architecture/STUDENT_MATERIAL_FORMAT_V2.md",
+    "comparison_audit": "research/validation/CLAUDE_C01_ARTIFACT_AUDIT_2026-10-05.md"
   },
   "branch_reconciliation": "governance/BRANCH_RECONCILIATION_2026-10-05.md",
   "new_inputs": [
