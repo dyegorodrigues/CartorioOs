@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8">
+<title>DP-01 · Capítulo 1 · Edição de estudo</title>
+<style>
+@font-face{font-family:Inter;src:url({{FONTS}}/Inter-Regular.otf);font-weight:400}
+@font-face{font-family:Inter;src:url({{FONTS}}/Inter-Italic.otf);font-weight:400;font-style:italic}
+@font-face{font-family:Inter;src:url({{FONTS}}/Inter-Medium.otf);font-weight:500}
+@font-face{font-family:Inter;src:url({{FONTS}}/Inter-SemiBold.otf);font-weight:600}
+@font-face{font-family:Inter;src:url({{FONTS}}/Inter-Bold.otf);font-weight:700}
+@font-face{font-family:Inter;src:url({{FONTS}}/Inter-ExtraBold.otf);font-weight:800}
+@font-face{font-family:Inter;src:url({{FONTS}}/Inter-Black.otf);font-weight:900}
+@page{size:A4;margin:17mm 15mm 15mm 15mm}
+*{box-sizing:border-box}
+body{font:10.4pt/1.56 Inter,"DejaVu Sans",Arial,sans-serif;color:#22252b;margin:0}
+b,strong{font-weight:700}
+p{margin:0 0 2.4mm}
+ul,ol{margin:1mm 0 2.4mm;padding-left:6mm} li{margin:.8mm 0}
+.az{color:#1658c4;font-weight:600}
+.vm{color:#cc2229;font-weight:700}
+.mk{background:#ffe066;padding:0 1px;-webkit-box-decoration-break:clone;box-decoration-break:clone}
+.au{font-weight:700;color:#1d2a52}
+.small{font-size:8.8pt;color:#6a6f7a}
+/* ---------- capa ---------- */
+.cover{page-break-after:always}
+.cover .band{background:#1d2a52;color:#fff;padding:7mm 9mm 6.5mm;border-bottom:6px solid #ffd23f}
+.cover .k{font:800 9pt Inter;letter-spacing:.16em;text-transform:uppercase;color:#ffd23f}
+.cover h1{font:900 24pt/1.1 Inter;margin:3mm 0 2.5mm}
+.cover h2{font:500 12.5pt/1.35 Inter;margin:0;color:#dfe5f5}
+.cover .what{margin:5mm 2mm 0;font-size:10pt}
+.cover .what h3{font:800 9.5pt Inter;letter-spacing:.1em;text-transform:uppercase;color:#1d2a52;margin:0 0 2mm}
+.mapa{width:100%;border-collapse:collapse;font-size:9.6pt;margin:0}
+.mapa td{border:none;border-bottom:1px solid #e1e3e8;padding:1.3mm 2mm;vertical-align:top}
+.mapa td.n{width:9mm;font:900 13pt Inter;color:#1658c4;text-align:center}
+.mapa td.t{font-weight:800;color:#1d2a52;width:46mm}
+.mapa td.c{width:30mm;text-align:right;color:#6a6f7a;font-size:8.6pt;white-space:nowrap}
+.uso{margin:4.5mm 2mm 0;border:1.2px solid #1d2a52;border-radius:2mm;padding:3.5mm 5mm}
+.uso h3{font:800 9.5pt Inter;letter-spacing:.1em;text-transform:uppercase;color:#1d2a52;margin:0 0 2mm}
+.uso ol{margin:0;padding-left:5mm;font-size:9.8pt}
+.leg{display:flex;flex-wrap:wrap;gap:1.5mm 5mm;margin-top:2.5mm;font-size:9pt}
+.cover .foot{margin-top:4mm;font-size:8.4pt;color:#6a6f7a;border-top:1px solid #e1e3e8;padding-top:2.5mm}
+/* ---------- tópico ---------- */
+.topic{page-break-before:always}
+.th{display:flex;align-items:flex-end;justify-content:space-between;border-bottom:3px solid #ffd23f;padding:2.5mm 0 1.5mm;margin:0 0 3.5mm}
+.th h2{font:900 15pt/1.4 Inter;color:#1658c4;margin:0;text-transform:uppercase;letter-spacing:.01em}
+.th h2 span{color:#1d2a52}
+.th .pos{font:700 8.4pt Inter;color:#8a8f99;white-space:nowrap;margin-left:4mm}
+h3.s{font:800 11.2pt Inter;color:#1658c4;margin:5mm 0 2mm;text-transform:uppercase;letter-spacing:.01em;page-break-after:avoid;break-after:avoid}
+h3.s .n{color:#1d2a52}
+h4{font:800 10.2pt Inter;color:#1d2a52;margin:3.5mm 0 1.5mm;page-break-after:avoid}
+.min1{background:#fff8d6;border-left:5px solid #1d2a52;padding:2.6mm 4mm;margin:0 0 4mm;font-size:10.4pt;page-break-inside:avoid}
+.min1 b.l{display:block;font:900 8.6pt Inter;letter-spacing:.12em;text-transform:uppercase;color:#1d2a52;margin-bottom:.8mm}
+/* quadro com rótulo (padrão Gran) */
+table{border-collapse:collapse;width:100%;margin:2.5mm 0 3.5mm;font-size:9.8pt}
+tr{page-break-inside:avoid}
+td,th{border:1px solid #b9bcc4;padding:1.8mm 2.4mm;vertical-align:top}
+table.lt th{background:#ffd84d;color:#1d2124;font:800 9pt/1.3 Inter;text-transform:uppercase;text-align:center;vertical-align:middle;width:27%}
+table.cmp thead th{background:#1d2a52;color:#fff;font:800 9pt Inter;text-transform:uppercase;text-align:center}
+table.cmp tbody th{background:#fff1b0;font:800 8.8pt Inter;text-transform:uppercase;text-align:left;width:19%}
+table.cmp td{font-size:9.5pt}
+/* blocos */
+.atc{border-top:1.5px dashed #9aa0aa;border-bottom:1.5px dashed #9aa0aa;padding:2mm 0 2.4mm;margin:4mm 0;page-break-inside:avoid}
+.atc .t{display:flex;justify-content:flex-end;align-items:center;gap:1.5mm;font:900 11pt Inter;color:#cc2229;letter-spacing:.04em;margin-bottom:1mm}
+.atc .t svg{width:5mm;height:5mm}
+.comp{border-left:4px solid #7a5cc7;background:#f5f2fc;padding:2.2mm 3.5mm;margin:3.5mm 0;page-break-inside:avoid;font-size:10pt}
+.comp>b.l{display:block;font:900 8.2pt Inter;letter-spacing:.12em;text-transform:uppercase;color:#5a3fb0;margin-bottom:.6mm}
+.dlg{border:1.3px dashed #1d2a52;background:#f2f4fa;padding:2.2mm 3.5mm;margin:3.5mm 0;page-break-inside:avoid;font-size:10pt}
+.dlg>b.l{display:block;font:900 8.2pt Inter;letter-spacing:.12em;text-transform:uppercase;color:#1d2a52;margin-bottom:.6mm}
+.dica{border-left:4px solid #c08a00;background:#fff6dc;padding:2.2mm 3.5mm;margin:3.5mm 0;page-break-inside:avoid;font-size:10pt}
+.dica>b.l{display:block;font:900 8.2pt Inter;letter-spacing:.12em;text-transform:uppercase;color:#8a6200;margin-bottom:.6mm}
+.nc{border:1.5px solid #cc2229;border-radius:2mm;padding:2.2mm 3.5mm;margin:3.5mm 0;page-break-inside:avoid;font-size:10pt}
+.nc>b.l{display:block;font:900 8.2pt Inter;letter-spacing:.12em;text-transform:uppercase;color:#cc2229;margin-bottom:.6mm}
+.caiu{background:#eef0f3;border-radius:2mm;padding:2.2mm 3.5mm;margin:3.5mm 0;page-break-inside:avoid;font-size:9.8pt}
+.caiu>b.l{display:block;font:900 8.2pt Inter;letter-spacing:.12em;text-transform:uppercase;color:#b4461a;margin-bottom:.6mm}
+.lembra{background:#1d2a52;color:#fff;border-radius:2mm;padding:2.4mm 4mm;margin:3.5mm 0;page-break-inside:avoid;font-size:10pt}
+.lembra>b.l{display:block;font:900 8.2pt Inter;letter-spacing:.12em;text-transform:uppercase;color:#ffd23f;margin-bottom:.6mm}
+.lembra .mk{color:#1d2124}
+.src{font-size:8.2pt;color:#8a8f99;border-top:1px solid #e6e8ec;padding-top:1.2mm;margin-top:4mm}
+.tl{display:grid;grid-template-columns:22mm 1fr;gap:0;margin:2mm 0 3mm;font-size:9.8pt}
+.tl div{padding:1.4mm 2mm;border-bottom:1px solid #e1e3e8}
+.tl .y{font:800 9.4pt Inter;color:#1658c4;text-align:right;border-right:3px solid #ffd23f}
+.flow{display:flex;align-items:stretch;gap:1.2mm;margin:2.5mm 0 3.5mm;font-size:9.2pt;page-break-inside:avoid}
+.flow>div{flex:1;border:1.2px solid #1d2a52;border-radius:1.5mm;padding:1.6mm 2mm;background:#fff}
+.flow>div>b:first-child{display:block;color:#1658c4;font-size:9.4pt;margin-bottom:.4mm}
+.flow>i{align-self:center;font-style:normal;color:#1d2a52;font-weight:900}
+/* perguntas do tópico */
+.cards{margin-top:5mm}
+.cards .hd{background:#1d2a52;color:#ffd23f;font:900 9.4pt Inter;letter-spacing:.12em;text-transform:uppercase;padding:1.8mm 3.5mm;border-radius:1.5mm 1.5mm 0 0;page-break-after:avoid;break-after:avoid}
+.cards .hd span{color:#c9d2ea;font-weight:600;letter-spacing:0;text-transform:none;font-size:8.6pt;margin-left:2mm}
+.card{border:1px solid #d5d9e2;margin-top:-1px;padding:2.2mm 3.5mm 2.4mm;page-break-inside:avoid}
+.cards .hd+.card{margin-top:0}
+.card .q{font-weight:700;color:#1d2a52}
+.card .q .pn{display:inline-block;min-width:9mm;font:900 8.4pt Inter;color:#fff;background:#1658c4;border-radius:1mm;text-align:center;padding:.3mm 1mm;margin-right:1.8mm;vertical-align:1px}
+.card .a{margin-top:1mm;padding:1.4mm 2.6mm;background:#f6f7f9;border-left:3px solid #ffd23f;font-size:9.9pt}
+.card .a p{margin:0 0 1mm}.card .a p:last-child{margin:0}
+.tag{display:inline-block;font:800 7.2pt Inter;letter-spacing:.06em;text-transform:uppercase;border-radius:1mm;padding:0 1.4mm;margin-left:1.5mm;vertical-align:1px}
+.tag.d{background:#e7ebf6;color:#1d2a52}.tag.c{background:#efe9fb;color:#5a3fb0}
+/* fim do capítulo */
+.part{page-break-before:always}
+.ph{background:#1d2a52;color:#fff;border-bottom:5px solid #ffd23f;padding:4mm 5mm;margin:0 0 4mm;border-radius:1.5mm}
+.ph .k{font:800 8.6pt Inter;letter-spacing:.14em;text-transform:uppercase;color:#ffd23f}
+.ph h2{font:900 15pt Inter;margin:1mm 0 0}
+.ph p{margin:1.2mm 0 0;color:#dfe5f5;font-size:9.6pt}
+ol.ql{padding-left:7mm} ol.ql li{margin:1.6mm 0;font-weight:600;color:#1d2a52}
+.pq{margin:0 0 4.5mm}
+.pq .q{font-weight:800;color:#1d2a52;margin-bottom:1mm;page-break-after:avoid;break-after:avoid}
+.pq .q .pn{color:#1658c4;margin-right:1.5mm}
+h3.s,h4,.min1 b.l{page-break-after:avoid;break-after:avoid}
+.pq .a{border-left:3px solid #ffd23f;padding:.5mm 0 .5mm 3.5mm}
+.qx{border:1px solid #d5d9e2;border-radius:2mm;padding:3mm 4mm;margin:0 0 5mm}
+.qx .gab,.qx ol.alt{page-break-inside:avoid}
+.qx .h{font:800 8.8pt Inter;letter-spacing:.06em;text-transform:uppercase;color:#b4461a;margin-bottom:1.2mm}
+.qx .h .ad{color:#5a3fb0}
+.qx .st{font-weight:600;margin-bottom:1.5mm}
+.qx ol.alt{list-style:none;padding-left:0;margin:0 0 2mm}
+.qx ol.alt li{padding-left:6mm;text-indent:-6mm;margin:1mm 0}
+.qx ol.alt li b{display:inline-block;width:6mm;text-indent:0}
+.qx .gab{background:#f6f7f9;border-left:3px solid #137a43;padding:2mm 3mm;font-size:9.8pt}
+.qx .gab .g{font-weight:900;color:#137a43}
+.ce{border:1px solid #d5d9e2;border-radius:2mm;margin:0 0 3mm;page-break-inside:avoid}
+.ce .st{padding:2mm 3.5mm;font-weight:600}
+.ce .r{padding:1.6mm 3.5mm;background:#f6f7f9;border-top:1px solid #e1e3e8;font-size:9.8pt}
+.ce .r .c{font-weight:900;color:#137a43}.ce .r .e{font-weight:900;color:#cc2229}
+.resumo ol{padding-left:6mm}.resumo li{margin:1.6mm 0}
+</style></head><body>
