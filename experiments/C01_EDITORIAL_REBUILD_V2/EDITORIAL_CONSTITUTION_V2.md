@@ -258,3 +258,87 @@ Construir somente **Bem jurídico** como espécime V2, porque força o sistema a
 - visual sem poluição.
 
 Se esse espécime não for claramente superior ao Gran puro e à v1.0, NÃO escalar.
+
+
+---
+
+# 13. Correção após confronto com o Notion antigo e corpus real
+
+## 13.1 Fonte-base pedagógica adicional
+
+O **material antigo do Notion** passa a ser tratado como **inventário rico de conteúdo + laboratório pedagógico**. Ele não é autoridade jurídica final, mas contém mecanismos que funcionavam melhor para o aluno:
+- microexplicações inline;
+- uso semântico de cor;
+- marca-texto para pontos realmente recuperáveis;
+- negrito para palavras-chave;
+- tabelas comparativas densas;
+- questões reais dentro da teoria;
+- distinções objetivas;
+- explicações com parênteses e travessões naturais.
+
+A reconstrução atual do Notion NÃO substitui o original como benchmark pedagógico.
+
+## 13.2 Voz editorial
+
+A voz desejada é mais próxima da primeira edição Gran/Claude:
+- explicação fluida;
+- professor fala com o aluno;
+- microexplicação integrada por parêntese ou travessão;
+- evitar rótulos visíveis como “RETOME:”, “MICROCONEXÃO:” ou “ÂNCORA:”.
+
+Exemplos:
+- `ratio legis` **— razão ou finalidade da norma —**
+- teleológico **(`telos` = finalidade)**
+- `ius puniendi` **(direito de punir do Estado)**
+
+O nome técnico “âncora de reconexão” fica no backend.
+
+## 13.3 Cores voltam a ter função cognitiva
+
+- **Azul:** conceito, regra, estrutura.
+- **Vermelho:** exceção, negação, armadilha, vedação.
+- **Amarelo/marca-texto:** informação de alta recuperação / ponto-chave.
+- **Negrito:** unidade lexical que o aluno deve capturar.
+- Verde/laranja/roxo somente quando houver função semântica real.
+
+O objetivo não é minimalismo visual. É **hierarquia visual útil**.
+
+## 13.4 Regra contra prosa filosófica excessiva
+
+Texto didático próprio pode ser usado para criar sentido, mas não pode:
+- substituir microconteúdo técnico necessário;
+- ocupar mais espaço que a matéria de prova;
+- criar a impressão de que uma construção editorial é conteúdo de edital;
+- elevar todas as etapas históricas/doutrinárias ao mesmo peso.
+
+A explicação é **servente da matéria**.
+
+## 13.5 Bem jurídico: cobertura mínima do espécime
+
+Antes de ser aprovado, o tópico deve ensinar de forma suficiente:
+1. conceito e função;
+2. fundamento e limite do poder punitivo;
+3. objeto jurídico × objeto material;
+4. relação com critério material do crime;
+5. resultado jurídico e ofensividade na medida necessária;
+6. Constituição como orientação e limite;
+7. bens individuais × coletivos;
+8. espiritualização/liquefação;
+9. bens coletivos aparentes;
+10. incolumidade pública como exemplo cobrado;
+11. Birnbaum × concepção metodológica / `ratio legis`;
+12. paternalismo no nível necessário para questão;
+13. interface com Roxin/Jakobs quando exigida pelo corpus;
+14. questões reais integradas.
+
+## 13.6 Gate de suficiência por prova
+
+O espécime não é aprovado por “ficar bonito”.
+Ele deve resolver ou preparar suficientemente o aluno para o espectro relevante do corpus, distinguindo:
+- Delegado;
+- outras carreiras jurídicas como fronteira;
+- cobrança direta;
+- reconhecimento;
+- conteúdo transversal que deve ser roteado a outro capítulo.
+
+Se uma questão relevante exigir uma distinção ausente, o MASTER é incompleto.
