@@ -1,0 +1,372 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>DP-01 · Conceito de Direito Penal · Piloto vivo</title>
+<style>
+:root{
+ --bg:#f5f4f0;--card:#fff;--ink:#20242c;--soft:#66707d;--line:#dddcd5;
+ --navy:#16244a;--blue:#1560bd;--bluebg:#eaf2fd;--red:#b93131;--redbg:#fceaea;
+ --green:#19784b;--greenbg:#e8f5ed;--purple:#7442a8;--purplebg:#f2ebfa;
+ --yellow:#ffe066;--amber:#8a5a00;--amberbg:#fff4dc;--gray:#f1f1ef;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.62 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Inter,Arial,sans-serif}
+.shell{max-width:1080px;margin:auto;padding:24px 18px 72px}
+.hero{background:var(--navy);color:#fff;border-radius:18px;padding:26px 28px;margin-bottom:16px}
+.hero .k{font-size:.78rem;text-transform:uppercase;letter-spacing:.11em;opacity:.78;font-weight:800}
+.hero h1{margin:7px 0 5px;font-size:2rem;line-height:1.15}
+.hero p{margin:0;opacity:.85}
+.tabs{position:sticky;top:0;z-index:20;display:flex;gap:7px;overflow:auto;padding:10px 0;background:linear-gradient(var(--bg) 78%,transparent)}
+.tab{border:1px solid var(--line);background:#fff;border-radius:999px;padding:9px 14px;font-weight:800;color:var(--navy);white-space:nowrap;cursor:pointer}
+.tab.on{background:var(--navy);color:#fff;border-color:var(--navy)}
+.pane{display:none}.pane.on{display:block}
+.card{background:#fff;border:1px solid var(--line);border-radius:16px;padding:24px 26px;margin:13px 0}
+h2{color:var(--navy);font-size:1.43rem;margin:4px 0 15px}
+h3{color:var(--navy);font-size:1.08rem;margin:28px 0 10px}
+p{margin:0 0 14px}
+b,strong{color:var(--navy)}
+.az{color:var(--blue);font-weight:800}.vm{color:var(--red);font-weight:800}.vd{color:var(--green);font-weight:800}.rx{color:var(--purple);font-weight:800}
+mark{background:linear-gradient(transparent 48%,var(--yellow) 48%);padding:0 .05em;font-weight:800;color:var(--navy)}
+.micro{color:#4d5663;background:#f4f6f8;border-radius:5px;padding:1px 5px;font-size:.96em}
+.call{border-left:5px solid var(--blue);background:var(--bluebg);padding:14px 16px;margin:17px 0;border-radius:0 10px 10px 0}
+.call.red{border-color:var(--red);background:var(--redbg)}
+.call.green{border-color:var(--green);background:var(--greenbg)}
+.call.amber{border-color:#d1a624;background:var(--amberbg)}
+.call.purple{border-color:var(--purple);background:var(--purplebg)}
+.call .label{display:block;text-transform:uppercase;letter-spacing:.08em;font-size:.73rem;font-weight:900;margin-bottom:4px;color:var(--navy)}
+.tbl{overflow:auto;border:1px solid var(--line);border-radius:12px;margin:16px 0}
+table{width:100%;border-collapse:collapse;min-width:720px;background:#fff}
+th{background:var(--navy);color:#fff;text-align:left;padding:11px 12px;font-size:.86rem}
+td{padding:12px;border-top:1px solid var(--line);vertical-align:top}
+tr:nth-child(even) td{background:#fbfbfa}
+td:first-child{font-weight:850;color:var(--navy);width:20%}
+.small{font-size:.91rem;color:var(--soft)}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.mini{border:1px solid var(--line);border-radius:12px;padding:14px;background:#fff}
+.mini h4{margin:0 0 6px;color:var(--navy)}
+details.qa{border-top:1px solid var(--line)}
+details.qa:last-child{border-bottom:1px solid var(--line)}
+details.qa summary{cursor:pointer;list-style:none;padding:14px 3px;font-weight:800;color:var(--navy)}
+details.qa summary::-webkit-details-marker{display:none}
+details.qa summary:before{content:"+";display:inline-block;width:23px;color:var(--blue);font-weight:900}
+details.qa[open] summary:before{content:"−"}
+.ans{padding:0 4px 16px 27px;color:#39414b}
+.answer-core{color:var(--navy);font-weight:800}
+.alt{border:1px solid var(--line);border-radius:11px;padding:12px 14px;margin:9px 0}
+.alt.ok{border-left:5px solid var(--green);background:var(--greenbg)}
+.alt.no{border-left:5px solid var(--red);background:#fff}
+.alt .tag{font-weight:900;margin-right:6px}
+.qbox{border:1px solid var(--line);border-top:5px solid var(--yellow);border-radius:12px;padding:17px 18px;background:#fff;margin:16px 0}
+.qbox .meta{font-size:.78rem;font-weight:900;color:var(--soft);text-transform:uppercase;letter-spacing:.07em}
+.law{font-family:Georgia,"Times New Roman",serif;background:#f8f8f6;border:1px solid var(--line);border-radius:10px;padding:15px 17px}
+.badge{display:inline-block;padding:3px 7px;border-radius:999px;background:#eef1f5;color:var(--navy);font-size:.76rem;font-weight:850}
+.source{font-size:.84rem;color:var(--soft);border-top:1px dashed var(--line);margin-top:24px;padding-top:13px}
+@media(max-width:760px){.hero{padding:22px 19px}.hero h1{font-size:1.65rem}.card{padding:19px 17px}.grid2{grid-template-columns:1fr}.shell{padding:14px 11px 60px}.tabs{top:0}}
+</style>
+</head>
+<body>
+<div class="shell">
+  <div class="hero">
+    <div class="k">Direito Penal · DP-01 · Piloto editorial vivo</div>
+    <h1>1. Conceito de Direito Penal</h1>
+    <p>Uma mesma matéria em camadas diferentes: aprender, revisar, recuperar, enfrentar prova e produzir resposta.</p>
+  </div>
+
+  <div class="tabs">
+    <button class="tab on" data-p="estudo">Estudar</button>
+    <button class="tab" data-p="tabela">Tabela estratégica</button>
+    <button class="tab" data-p="recall">Perguntas</button>
+    <button class="tab" data-p="questao">Questão real</button>
+    <button class="tab" data-p="oral">Oral / discursiva</button>
+    <button class="tab" data-p="lei">Lei seca</button>
+  </div>
+
+  <section class="pane on" id="estudo">
+    <div class="card">
+      <h2>Conceito</h2>
+      <p>Como ponto de partida, a formulação usada pelo Dedicação Delta, apoiada em Cleber Masson, apresenta o Direito Penal como o <mark>conjunto de princípios e regras destinado ao enfrentamento do crime e da contravenção penal mediante sanção penal</mark>.</p>
+
+      <p>A frase fica muito mais fácil quando se abre o que está comprimido dentro dela:</p>
+
+      <div class="grid2">
+        <div class="mini">
+          <h4><span class="az">Princípios e regras</span></h4>
+          <p>O Direito Penal não é apenas uma lista de crimes. Há <b>regras</b> e também <b>princípios</b> que estruturam, interpretam e limitam a atuação punitiva.</p>
+        </div>
+        <div class="mini">
+          <h4><span class="az">Infração penal</span></h4>
+          <p>No sistema brasileiro, é expressão que abrange <b>crime ou delito</b> e <b>contravenção penal</b>. A Lei de Introdução ao Código Penal diferencia as duas espécies pela sanção cominada.</p>
+        </div>
+        <div class="mini">
+          <h4><span class="az">Sanção penal</span></h4>
+          <p>Na apresentação doutrinária clássica, compreende <b>pena</b> e <b>medida de segurança</b>. A primeira se conecta à culpabilidade; a segunda, à periculosidade, tema desenvolvido depois.</p>
+        </div>
+        <div class="mini">
+          <h4><span class="az">Poder de punir</span></h4>
+          <p>O <i>ius puniendi</i> <span class="micro">(direito de punir do Estado)</span> explica por que o Direito Penal é tradicionalmente situado no <b>Direito Público</b>.</p>
+        </div>
+      </div>
+
+      <div class="call amber">
+        <span class="label">Não confunda</span>
+        <p><b>Infração penal</b> não é sinônimo de crime. No modelo bipartido brasileiro, <b>crime/delito</b> e <b>contravenção penal</b> são espécies distintas de infração penal.</p>
+      </div>
+
+      <h3>Uma segunda formulação útil para prova</h3>
+      <p>O Direito Penal também pode ser apresentado como o ramo do Direito Público que define infrações penais, estabelece suas consequências e disciplina os pressupostos de incidência das normas penais. Essa forma de dizer aparece em linguagem de prova e evita a impressão de que a disciplina se resume à Parte Especial do Código Penal.</p>
+
+      <div class="call green">
+        <span class="label">Por que isso importa?</span>
+        <p>Em prova de Delegado, a banca já descreveu o Direito Penal como ciência <b>jurídica e normativa</b>, contrapondo-o à Criminologia, que trabalha empiricamente com o fenômeno criminal. A definição precisa, portanto, servir também para diferenciar <b>norma</b>, <b>fato</b> e <b>estratégia político-criminal</b>.</p>
+      </div>
+
+      <h3>Direito Penal como ramo do Direito Público</h3>
+      <p>O Estado é titular do <i>ius puniendi</i> <span class="micro">(poder de punir)</span>, e as normas penais são indisponíveis para os particulares. Mesmo quando a iniciativa da persecução depende do ofendido, <b>o poder de aplicar a sanção penal continua estatal</b>.</p>
+
+      <p class="small">A competência para legislar sobre Direito Penal é privativa da União, nos termos do art. 22, I, da Constituição. Isso é uma regra de competência legislativa; não se confunde com a classificação doutrinária “Direito Penal objetivo × subjetivo”, estudada em tópico próprio.</p>
+
+      <h3>Aspectos ou acepções do conceito</h3>
+      <p>Uma mesma disciplina pode ser observada por ângulos diferentes. No material-base de Delegado aparecem três enfoques particularmente úteis:</p>
+
+      <div class="tbl">
+        <table>
+          <thead><tr><th>Aspecto / nome usado</th><th>O que significa</th><th>Palavra-chave para prova</th></tr></thead>
+          <tbody>
+            <tr>
+              <td>Formal <span class="small">/ estático</span></td>
+              <td>Direito Penal como <b>conjunto de normas</b> que qualifica comportamentos como infrações penais, disciplina seus agentes e prevê as consequências jurídicas correspondentes.</td>
+              <td><span class="az">norma</span></td>
+            </tr>
+            <tr>
+              <td>Material</td>
+              <td>Olha para o <b>conteúdo</b> da intervenção penal: comportamentos especialmente graves que atingem ou colocam em risco bens jurídicos relevantes.</td>
+              <td><span class="az">bem jurídico / gravidade</span></td>
+            </tr>
+            <tr>
+              <td>Sociológico <span class="small">/ dinâmico</span></td>
+              <td>Enxerga o Direito Penal como um dos instrumentos formais de <b>controle social</b>. Ele não é o único mecanismo de controle e, em perspectiva de intervenção mínima, não deve ser o primeiro recurso para todo conflito.</td>
+              <td><span class="az">controle social</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="call red">
+        <span class="label">Pegadinha de nomenclatura</span>
+        <p><b>Formal</b>, aqui, é um <b>aspecto do conceito de Direito Penal</b>. Em outra classificação, “Direito Penal formal ou adjetivo” é expressão tradicional para o <b>Direito Processual Penal</b>. A palavra é a mesma; o contexto muda.</p>
+      </div>
+
+      <h3>Outra organização doutrinária que pode aparecer</h3>
+      <p>Salim e Azevedo organizam a introdução por <b>conceito formal</b> e <b>conceito social</b>. O formal trabalha o conjunto de normas e os pressupostos da sanção; o social situa o Direito Penal como forma de controle social e ressalta sua atuação subsidiária. Não é uma “quarta teoria”: é outra forma de organizar ideias próximas.</p>
+
+      <div class="call purple">
+        <span class="label">Reconhecimento, não decoreba</span>
+        <p>Autores e cursos podem mudar a taxonomia. Para a prova, mais importante que decorar o título do quadro é reconhecer a operação: <b>norma</b> → enfoque formal; <b>bem protegido e gravidade</b> → enfoque material; <b>controle social</b> → enfoque sociológico/social.</p>
+      </div>
+
+      <div class="source">
+        Base desta camada: material DD 2026 fornecido pelo usuário; DP-01 antigo do Notion/HTML; Sinopses para Concursos, Salim/Azevedo, como referência de organização; Direito Penal Esquematizado, Estefam/Gonçalves, como referência de linguagem e classificações; questão oficial PC-MS/2021; CF, art. 22, I; DL 3.914/1941, art. 1º.
+      </div>
+    </div>
+  </section>
+
+  <section class="pane" id="tabela">
+    <div class="card">
+      <h2>Tabela estratégica de revisão</h2>
+      <p class="small">Esta camada não substitui a leitura. Ela deve funcionar sozinha depois que a teoria já foi compreendida.</p>
+
+      <div class="tbl">
+        <table>
+          <thead><tr><th>Ponto</th><th>Explicação suficiente para revisão</th><th>Não confunda</th></tr></thead>
+          <tbody>
+            <tr>
+              <td>Conceito-base</td>
+              <td>Conjunto de <b>princípios e regras</b> destinado a disciplinar infrações penais e suas consequências. Na formulação de Masson usada pelo DD: combate crime e contravenção mediante sanção penal.</td>
+              <td>Direito Penal não é só catálogo de crimes.</td>
+            </tr>
+            <tr>
+              <td>Infração penal</td>
+              <td>Expressão abrangente que, no sistema brasileiro, compreende <b>crime/delito</b> e <b>contravenção penal</b>.</td>
+              <td><span class="vm">Crime ≠ infração penal inteira.</span></td>
+            </tr>
+            <tr>
+              <td>Sanção penal</td>
+              <td>Na apresentação clássica: <b>pena</b> e <b>medida de segurança</b>. A reparação do dano aparece em parte da doutrina como “terceira via”, mas não deve embaralhar o núcleo inicial.</td>
+              <td>Pena e medida de segurança não têm o mesmo fundamento.</td>
+            </tr>
+            <tr>
+              <td>Direito Público</td>
+              <td>O Estado detém o <i>ius puniendi</i> <span class="micro">(poder de punir)</span>; normas penais são indisponíveis para os particulares.</td>
+              <td>Ação penal privada não transfere o poder de punir ao ofendido.</td>
+            </tr>
+            <tr>
+              <td>Formal / estático</td>
+              <td>Olha o Direito Penal como <b>norma</b>: define infrações, agentes, pressupostos e consequências.</td>
+              <td>Não confundir com “formal/adjetivo” = Processo Penal.</td>
+            </tr>
+            <tr>
+              <td>Material</td>
+              <td>Olha o <b>conteúdo</b>: intervenção sobre comportamentos graves que atingem bens jurídicos relevantes.</td>
+              <td>Não significa que todo dano social vira crime.</td>
+            </tr>
+            <tr>
+              <td>Sociológico / dinâmico</td>
+              <td>Direito Penal como instrumento formal de <b>controle social</b>.</td>
+              <td>Criminologia estuda empiricamente o fenômeno; Política Criminal propõe estratégias.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="call green">
+        <span class="label">Leitura panorâmica</span>
+        <p><mark>norma</mark> = formal/estático · <mark>bem jurídico e gravidade</mark> = material · <mark>controle social</mark> = sociológico/dinâmico.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="pane" id="recall">
+    <div class="card">
+      <h2>Perguntas progressivas</h2>
+      <p class="small">A ordem começa do fundamento. A resposta não é mero gabarito: ela precisa permitir aprender e reparar erro.</p>
+
+      <details class="qa"><summary>1. O que é Direito Penal?</summary>
+        <div class="ans"><span class="answer-core">É o conjunto de princípios e regras que disciplina infrações penais e suas consequências jurídicas.</span> Na formulação de Masson usada pelo DD, é o conjunto destinado a combater crime e contravenção mediante sanção penal. A definição deve ser entendida de modo amplo: o Direito Penal também contém normas sobre aplicação da lei, teoria do crime, causas de exclusão e limites do poder punitivo.</div>
+      </details>
+
+      <details class="qa"><summary>2. O que significa “infração penal”?</summary>
+        <div class="ans"><span class="answer-core">É a expressão que abrange crime ou delito e contravenção penal.</span> O art. 1º do Decreto-Lei 3.914/1941 distingue as duas espécies a partir da natureza da sanção cominada. Por isso, dizer “crime” quando se pretende falar de todo o gênero pode ser tecnicamente impreciso.</div>
+      </details>
+
+      <details class="qa"><summary>3. Crime e delito são espécies diferentes?</summary>
+        <div class="ans"><span class="answer-core">Não, no uso jurídico brasileiro crime e delito são empregados como equivalentes.</span> A bipartição relevante é <b>crime/delito × contravenção penal</b>.</div>
+      </details>
+
+      <details class="qa"><summary>4. O que é sanção penal?</summary>
+        <div class="ans"><span class="answer-core">É a consequência jurídico-penal imposta nos casos previstos pelo ordenamento.</span> Na classificação clássica trabalhada pelos materiais de concurso, suas espécies centrais são <b>pena</b> e <b>medida de segurança</b>. A distinção entre elas será aprofundada em tópico próprio.</div>
+      </details>
+
+      <details class="qa"><summary>5. Por que o Direito Penal é ramo do Direito Público?</summary>
+        <div class="ans"><span class="answer-core">Porque o poder de punir pertence ao Estado.</span> O <i>ius puniendi</i> <span class="micro">(direito de punir)</span> é estatal e seu exercício é condicionado por normas e garantias. O particular não pode dispor livremente da incidência da lei penal.</div>
+      </details>
+
+      <details class="qa"><summary>6. Quais são os três aspectos clássicos do conceito no material-base?</summary>
+        <div class="ans"><span class="answer-core">Formal/estático, material e sociológico/dinâmico.</span> O primeiro olha a <b>norma</b>; o segundo, o <b>conteúdo e os bens jurídicos relevantes</b>; o terceiro, a função de <b>controle social</b>.</div>
+      </details>
+
+      <details class="qa"><summary>7. O que significa o aspecto formal ou estático?</summary>
+        <div class="ans"><span class="answer-core">É o Direito Penal visto como conjunto normativo.</span> Ele define infrações penais, disciplina agentes, pressupostos e consequências. A palavra “formal” aqui descreve um enfoque do conceito, não o Direito Processual Penal.</div>
+      </details>
+
+      <details class="qa"><summary>8. O que significa o aspecto material?</summary>
+        <div class="ans"><span class="answer-core">É o Direito Penal observado a partir do conteúdo das condutas que justificam tutela penal.</span> O foco está em comportamentos especialmente graves que lesionam ou expõem a perigo bens jurídicos relevantes. Isso se conecta depois à fragmentariedade e à intervenção mínima.</div>
+      </details>
+
+      <details class="qa"><summary>9. O que significa o aspecto sociológico ou dinâmico?</summary>
+        <div class="ans"><span class="answer-core">É o Direito Penal visto como instrumento formal de controle social.</span> A expressão “dinâmico” destaca seu funcionamento na vida social. Isso não transforma o Direito Penal em Criminologia: a Criminologia é empírica; o Direito Penal é jurídico-normativo.</div>
+      </details>
+
+      <details class="qa"><summary>10. Qual contraste resolve boa parte das questões entre Direito Penal e Criminologia?</summary>
+        <div class="ans"><span class="answer-core">Direito Penal trabalha predominantemente no plano normativo do “dever-ser”; Criminologia investiga empiricamente o “ser”.</span> A Política Criminal, por sua vez, formula estratégias de prevenção e reação ao fenômeno criminal.</div>
+      </details>
+    </div>
+  </section>
+
+  <section class="pane" id="questao">
+    <div class="card">
+      <h2>Questão real comentada alternativa por alternativa</h2>
+
+      <div class="qbox">
+        <div class="meta">Delegado PC-MS · FAPEC · 2021</div>
+        <p><b>Considerando os conceitos doutrinários de Direito Penal, de Criminologia e de Política Criminal, assinale a alternativa INCORRETA.</b></p>
+      </div>
+
+      <div class="alt no"><span class="tag">A ✅</span>
+        <b>Correta.</b> A alternativa descreve adequadamente o Direito Penal como sistema normativo que prevê crimes e sanções e também disciplina incidência, validade, estrutura geral do crime e aplicação das consequências jurídicas. <span class="az">Ponto de revisão:</span> o Direito Penal não se reduz à definição dos tipos da Parte Especial.
+      </div>
+
+      <div class="alt ok"><span class="tag">B ❌</span>
+        <b>Incorreta e, portanto, gabarito.</b> O erro está em chamar a Criminologia de disciplina <span class="vm">preponderantemente dogmática</span>. A Criminologia é ciência <b>empírica e interdisciplinar</b>; trabalha com observação da realidade criminal. A dogmática é própria do estudo jurídico-normativo.
+      </div>
+
+      <div class="alt no"><span class="tag">C ✅</span>
+        <b>Correta.</b> A referência a informação válida e confiável obtida por método <b>empírico</b> é justamente uma marca da Criminologia. <span class="az">Ponto de revisão:</span> empírico = observa a realidade; normativo = trabalha com o dever-ser jurídico.
+      </div>
+
+      <div class="alt no"><span class="tag">D ✅</span>
+        <b>Correta.</b> Franz von Liszt é associado ao modelo de ciência penal conjunta que aproxima <b>Dogmática Penal, Criminologia e Política Criminal</b>. Aqui a banca testa autor + arquitetura das ciências penais.
+      </div>
+
+      <div class="alt no"><span class="tag">E ✅</span>
+        <b>Correta.</b> Resume o contraste metodológico: a Criminologia procura <b>conhecer e explicar a realidade</b>; o Direito Penal <b>valora, ordena e orienta juridicamente</b> essa realidade.
+      </div>
+
+      <div class="call red">
+        <span class="label">Mecanismo da pegadinha</span>
+        <p>A banca não distorceu a definição inteira. Ela trocou <b>um adjetivo metodológico</b>: “empírica” por “dogmática”. Esse tipo de questão exige que tu saiba a oposição estrutural, não uma frase decorada.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="pane" id="oral">
+    <div class="card">
+      <h2>Treino oral e discursivo em progressão</h2>
+      <p class="small">Aqui a sequência é pedagógica. Provas reais de oral devem ficar em outra coleção, preservadas com origem e ano.</p>
+
+      <details class="qa"><summary>Oral 1 · Conceitue Direito Penal.</summary>
+        <div class="ans"><b>Modelo curto:</b> Direito Penal é o ramo do Direito Público formado por princípios e regras que disciplinam as infrações penais e suas consequências jurídicas, além de estabelecer os pressupostos e limites do exercício do poder punitivo estatal.</div>
+      </details>
+
+      <details class="qa"><summary>Oral 2 · O que se entende por infração penal no sistema brasileiro?</summary>
+        <div class="ans"><b>Modelo:</b> Infração penal é a expressão abrangente utilizada para crime ou delito e contravenção penal. O Decreto-Lei 3.914/1941 diferencia essas espécies segundo a natureza da sanção cominada: reclusão ou detenção para crimes; prisão simples ou multa, nas formas legais, para contravenções.</div>
+      </details>
+
+      <details class="qa"><summary>Oral 3 · Explique os aspectos formal, material e sociológico do Direito Penal.</summary>
+        <div class="ans"><b>Modelo:</b> No aspecto formal ou estático, o Direito Penal é visto como conjunto de normas que define infrações e consequências. No material, o foco recai sobre os comportamentos de maior gravidade que atingem bens jurídicos relevantes. No sociológico ou dinâmico, ele aparece como instrumento formal de controle social. As classificações são complementares, pois observam o mesmo ramo por perspectivas distintas.</div>
+      </details>
+
+      <details class="qa"><summary>Discursiva curta · Diferencie Direito Penal, Criminologia e Política Criminal.</summary>
+        <div class="ans"><b>Estrutura de resposta:</b> Direito Penal é ciência jurídico-normativa, voltada à interpretação e aplicação do sistema penal. Criminologia é empírica e interdisciplinar, estudando crime, autor, vítima e controle social na realidade. Política Criminal trabalha com escolhas e estratégias de prevenção e reação ao delito, funcionando como ponte entre conhecimento empírico e desenho normativo.</div>
+      </details>
+    </div>
+  </section>
+
+  <section class="pane" id="lei">
+    <div class="card">
+      <h2>Lei seca conectada à teoria</h2>
+
+      <h3>Decreto-Lei 3.914/1941, art. 1º</h3>
+      <div class="law">
+        Considera-se crime a infração penal a que a lei comina pena de reclusão ou de detenção, quer isoladamente, quer alternativa ou cumulativamente com a pena de multa; contravenção, a infração penal a que a lei comina, isoladamente, pena de prisão simples ou de multa, ou ambas, alternativa ou cumulativamente.
+      </div>
+      <p class="small"><b>O que extrair:</b> o texto legal trabalha crime e contravenção como formas de infração penal e os diferencia pela espécie de sanção prevista.</p>
+
+      <h3>Constituição Federal, art. 22, I</h3>
+      <div class="law">
+        Compete privativamente à União legislar sobre direito civil, comercial, <b>penal</b>, processual, eleitoral, agrário, marítimo, aeronáutico, espacial e do trabalho.
+      </div>
+      <p class="small"><b>O que extrair:</b> competência legislativa em matéria penal pertence privativamente à União, sem confundir esse ponto com titularidade do <i>ius puniendi</i>.</p>
+
+      <div class="call amber">
+        <span class="label">Pergunta de lei seca</span>
+        <p><b>Qual é o critério usado pelo art. 1º da Lei de Introdução para distinguir crime de contravenção?</b><br>A natureza da sanção cominada: reclusão/detenção para crime; prisão simples/multa, nos termos do dispositivo, para contravenção.</p>
+      </div>
+    </div>
+  </section>
+</div>
+
+<script>
+document.querySelectorAll('.tab').forEach(btn=>{
+ btn.addEventListener('click',()=>{
+  document.querySelectorAll('.tab').forEach(x=>x.classList.remove('on'));
+  document.querySelectorAll('.pane').forEach(x=>x.classList.remove('on'));
+  btn.classList.add('on');
+  document.getElementById(btn.dataset.p).classList.add('on');
+ });
+});
+</script>
+</body>
+</html>
