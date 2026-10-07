@@ -1,0 +1,376 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>DP-01 · Bem jurídico · Specimen V2</title>
+<style>
+:root{
+  --ink:#20242c;
+  --navy:#172642;
+  --blue:#245fae;
+  --yellow:#f2cf48;
+  --red:#b73732;
+  --muted:#69717d;
+  --line:#dfe4ea;
+  --soft:#f5f7f9;
+  --paper:#ffffff;
+}
+*{box-sizing:border-box}
+body{
+  margin:0;
+  background:#edf0f3;
+  color:var(--ink);
+  font-family:Inter,system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;
+  line-height:1.62;
+  font-size:17px;
+}
+.page{
+  max-width:920px;
+  margin:0 auto;
+  background:var(--paper);
+  padding:54px 66px 90px;
+  box-shadow:0 10px 36px rgba(20,35,60,.08);
+}
+.kicker{
+  font-size:.78rem;
+  font-weight:800;
+  letter-spacing:.12em;
+  text-transform:uppercase;
+  color:var(--blue);
+  margin-bottom:8px;
+}
+h1{
+  color:var(--navy);
+  font-size:2.2rem;
+  line-height:1.12;
+  margin:0 0 12px;
+  letter-spacing:-.02em;
+}
+.subtitle{
+  color:var(--muted);
+  font-size:1rem;
+  margin-bottom:30px;
+}
+.rule{height:5px;background:var(--yellow);width:88px;margin:0 0 34px}
+h2{
+  color:var(--navy);
+  font-size:1.45rem;
+  line-height:1.22;
+  margin:42px 0 14px;
+}
+h3{
+  color:var(--blue);
+  font-size:1.08rem;
+  margin:28px 0 10px;
+}
+p{margin:0 0 15px}
+strong{color:var(--navy)}
+.lead{
+  font-size:1.08rem;
+  color:#2b3039;
+}
+.minute{
+  border-left:5px solid var(--yellow);
+  background:#fffaf0;
+  padding:17px 20px;
+  margin:0 0 30px;
+}
+.minute b.label{
+  display:block;
+  color:var(--navy);
+  font-size:.77rem;
+  letter-spacing:.11em;
+  text-transform:uppercase;
+  margin-bottom:5px;
+}
+.anchor{
+  background:#eef3f8;
+  border-radius:4px;
+  padding:1px 5px;
+  white-space:normal;
+}
+.anchor em{font-style:normal;color:var(--blue);font-weight:700}
+.term{font-style:italic}
+.mark{background:linear-gradient(transparent 55%,#ffe98c 55%);font-weight:700;color:var(--navy)}
+.side{
+  border-left:3px solid #b9c2cc;
+  padding:9px 0 9px 16px;
+  color:#4f5864;
+  margin:20px 0;
+  font-size:.96rem;
+}
+.side b{
+  display:block;
+  color:var(--navy);
+  font-size:.76rem;
+  text-transform:uppercase;
+  letter-spacing:.09em;
+  margin-bottom:3px;
+}
+.exam{
+  border:1px solid var(--line);
+  border-top:4px solid var(--yellow);
+  padding:16px 18px;
+  margin:24px 0;
+  background:#fff;
+}
+.exam .label{
+  font-size:.77rem;
+  font-weight:850;
+  letter-spacing:.09em;
+  text-transform:uppercase;
+  color:var(--red);
+  margin-bottom:5px;
+}
+.danger{
+  color:var(--red);
+  font-weight:750;
+}
+table{
+  width:100%;
+  border-collapse:collapse;
+  margin:18px 0 24px;
+  font-size:.94rem;
+}
+th{
+  background:var(--navy);
+  color:#fff;
+  text-align:left;
+  padding:11px 12px;
+  font-size:.84rem;
+  letter-spacing:.02em;
+}
+td{
+  border:1px solid var(--line);
+  padding:11px 12px;
+  vertical-align:top;
+}
+tbody tr:nth-child(even){background:#fafbfc}
+td:first-child{width:23%;font-weight:800;color:var(--navy)}
+.reconnect{
+  color:var(--muted);
+  font-size:.91rem;
+  margin-top:-4px;
+}
+.reconnect::before{content:"↳ ";color:var(--blue);font-weight:800}
+.flow{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:10px;
+  margin:18px 0 26px;
+}
+.flow div{
+  border:1px solid var(--line);
+  border-radius:8px;
+  padding:13px 14px;
+  background:#fff;
+}
+.flow b{display:block;margin-bottom:5px}
+.flow .arrow{display:none}
+hr{
+  border:0;
+  border-top:1px solid var(--line);
+  margin:42px 0;
+}
+.qblock{
+  margin-top:24px;
+  border-top:1px solid var(--line);
+  padding-top:6px;
+}
+.qtitle{
+  margin:24px 0 10px;
+  color:var(--navy);
+  font-weight:850;
+}
+details{
+  border-bottom:1px solid var(--line);
+  padding:0;
+}
+summary{
+  cursor:pointer;
+  list-style:none;
+  padding:13px 2px;
+  font-weight:750;
+  color:var(--navy);
+}
+summary::-webkit-details-marker{display:none}
+summary:before{
+  content:"+";
+  display:inline-block;
+  width:22px;
+  color:var(--blue);
+  font-weight:900;
+}
+details[open] summary:before{content:"−"}
+.answer{
+  padding:0 2px 14px 24px;
+  color:#3f4751;
+}
+.quick{
+  color:var(--blue);
+  font-weight:800;
+}
+.footer-note{
+  margin-top:40px;
+  padding-top:16px;
+  border-top:1px solid var(--line);
+  color:var(--muted);
+  font-size:.84rem;
+}
+@media(max-width:720px){
+  body{font-size:16px}
+  .page{padding:28px 20px 60px}
+  h1{font-size:1.78rem}
+  .flow{grid-template-columns:1fr}
+  table{font-size:.9rem}
+  th,td{padding:9px}
+}
+@media print{
+  body{background:#fff}
+  .page{box-shadow:none;max-width:none;padding:12mm 13mm 18mm}
+  details .answer{display:block}
+  summary:before{display:none}
+  .exam,.minute,table{break-inside:avoid}
+}
+</style>
+</head>
+<body>
+<main class="page">
+<div class="kicker">Direito Penal · DP-01 · Capítulo 1 · Espécime editorial V2</div>
+<h1>Bem jurídico</h1>
+<div class="subtitle">Objeto de proteção, limite da criminalização e evolução da teoria</div>
+<div class="rule"></div>
+
+<div class="minute">
+  <b class="label">Em 90 segundos</b>
+  O Direito Penal não existe para punir tudo que seja imoral, desagradável ou socialmente reprovado. Ele seleciona ataques a <strong>bens jurídicos relevantes</strong>, como vida, liberdade, patrimônio ou meio ambiente. O legislador faz essa seleção, mas não livremente: a <strong>Constituição orienta e limita</strong> a criminalização. O conceito também funciona como filtro crítico: se não existe um bem suficientemente relevante a proteger, a legitimidade da intervenção penal fica enfraquecida.
+</div>
+
+<h2>1. Primeiro, o que é um bem jurídico?</h2>
+<p class="lead">Bem jurídico é o <strong>valor, interesse ou condição relevante</strong> que o ordenamento considera digno de proteção. No Direito Penal, ele ajuda a responder uma pergunta básica: <strong>por que esta conduta merece a forma mais grave de intervenção estatal?</strong></p>
+
+<p>Vida, integridade física, liberdade e patrimônio são exemplos fáceis. O meio ambiente mostra que o conceito não se limita a interesses individuais: o sistema também protege bens coletivos e difusos.</p>
+
+<p>A doutrina usa formulações diferentes para definir bem jurídico. Na primeira leitura, não é produtivo decorar uma frase literal de cada autor. O que precisa ficar é a função do conceito: <span class="mark">identificar o que se protege e limitar o que pode ser criminalizado</span>.</p>
+
+<div class="side">
+  <b>Âncora de reconexão</b>
+  Bem jurídico <span class="anchor">(<em>retome:</em> objeto de proteção penal; conecta com fragmentariedade, ofensividade e com a função do Direito Penal em Roxin)</span>.
+</div>
+
+<h2>2. Quem escolhe o que merece proteção penal?</h2>
+<p>Em primeiro plano, o <strong>legislador</strong>. Mas isso não significa liberdade absoluta. A Constituição funciona em duas direções.</p>
+
+<div class="flow">
+  <div><b>Orienta</b>Indica valores fundamentais e, em certas hipóteses, estabelece deveres de proteção penal.</div>
+  <div><b>Limita</b>Direitos e garantias fundamentais impedem que o poder punitivo se expanda sem justificativa.</div>
+  <div><b>Não automatiza</b>Valor constitucionalmente protegido não se transforma, só por isso, em crime.</div>
+</div>
+
+<p>Por isso, a frase “está na Constituição, então precisa de tutela penal” é perigosa. A pena continua submetida à necessidade e à intervenção mínima <span class="anchor">(<em>retome:</em> fragmentariedade = o Penal protege apenas parcelas selecionadas; subsidiariedade = deve atuar como última resposta, quando meios menos gravosos não bastam)</span>.</p>
+
+<div class="exam">
+  <div class="label">Questão-sinal · Delegado PF 2025</div>
+  A banca afirmou que todos os interesses ou valores constitucionalmente contemplados exigiriam proteção penal. O item estava <strong>errado</strong>. A pegadinha foi transformar uma relação verdadeira, Constituição orienta a tutela penal, em uma regra absoluta.
+</div>
+
+<h2>3. O conceito também serve para limitar a criminalização</h2>
+<p>Quando se diz que o bem jurídico possui <strong>função crítica</strong>, a ideia é esta: o conceito permite questionar se a criação de um crime realmente protege algo suficientemente relevante.</p>
+
+<p>Isso ajuda a separar tutela penal de simples moralismo. O fato de uma conduta ser vista como errada ou inconveniente não basta, por si só, para justificar pena.</p>
+
+<div class="side">
+  <b>Reconexão curta</b>
+  Paternalismo penal rígido <span class="anchor">(punir alguém apenas para protegê-lo contra si mesmo)</span> entra nessa discussão. O tema se relaciona ao <span class="term">harm principle</span> <span class="anchor">(princípio do dano a terceiros, associado a John Stuart Mill)</span>. Aqui basta entender a conexão; o aprofundamento fica no ponto próprio.
+</div>
+
+<h2>4. Como a teoria do bem jurídico evoluiu?</h2>
+<p>A história só vale a pena se mostrar uma mudança de ideia. Em vez de decorar seis nomes como ilhas, acompanhe o deslocamento do foco:</p>
+
+<table>
+<thead><tr><th>Autor / corrente</th><th>Ideia central</th><th>O que muda</th></tr></thead>
+<tbody>
+<tr><td>Feuerbach</td><td>O delito é pensado como lesão de um <strong>direito subjetivo</strong>.</td><td>É o ponto anterior ao conceito moderno de bem jurídico.</td></tr>
+<tr><td>Birnbaum · 1834</td><td>É associado à criação do conceito de <strong>bem jurídico</strong>.</td><td>O foco se desloca do direito subjetivo para o <strong>bem</strong> protegido.</td></tr>
+<tr><td>Binding</td><td>O bem jurídico aparece fortemente ligado à <strong>valoração normativa</strong>.</td><td>A norma ocupa papel central na definição do bem protegido.</td></tr>
+<tr><td>Franz von Liszt</td><td>O interesse nasce na vida social e depois recebe reconhecimento jurídico.</td><td>O bem não é tratado como simples criação arbitrária do legislador.</td></tr>
+<tr><td>Concepção metodológica</td><td>Bem jurídico como <span class="term">ratio legis</span> <span class="anchor">(<em>isto é:</em> razão, sentido ou finalidade da norma)</span>.</td><td>O conceito ganha forte função interpretativa.</td></tr>
+<tr><td>Concepções constitucionais</td><td>O bem jurídico volta a atuar como <strong>limite político-criminal</strong>.</td><td>Reforça-se sua função crítica à luz da Constituição.</td></tr>
+</tbody>
+</table>
+
+<div class="exam">
+  <div class="label">Pegadinha real · PF 2025</div>
+  A banca juntou duas metades: <strong>Birnbaum</strong> realmente é associado à criação do conceito, mas colocou nele a ideia de bem jurídico como <span class="term">ratio legis</span> <span class="anchor">(finalidade da norma)</span>. Essa segunda parte pertence à <strong>concepção metodológica</strong>. É uma meia-verdade construída por fusão de correntes.
+</div>
+
+<p class="reconnect">Não é necessário decorar a redação completa de Binding ou Liszt na primeira passagem. É necessário reconhecer onde cada um se encaixa na evolução.</p>
+
+<h2>5. Bens coletivos, espiritualização e bens aparentes</h2>
+<p>O Direito Penal contemporâneo também tutela bens supraindividuais. Esse movimento recebe nomes como <strong>espiritualização, desmaterialização ou liquefação dos bens jurídicos</strong>. O ponto é simples: o objeto protegido pode ser coletivo ou difuso, como meio ambiente, ordem econômica ou saúde pública.</p>
+
+<div class="side">
+  <b>Não confunda</b>
+  Desmaterialização <strong>não</strong> significa “a conduta deixou de interessar ao Direito Penal”. Aqui significa ampliação da tutela para bens que não se reduzem a um objeto individual e concreto.
+</div>
+
+<p>Mas chamar algo de “coletivo” não resolve automaticamente o problema. Parte da doutrina fala em <strong>bens jurídicos aparentes ou de fachada</strong> quando o rótulo é tão vago, ou apenas soma interesses individuais, que deixa de cumprir adequadamente a função crítica.</p>
+
+<div class="exam">
+  <div class="label">Delegado PF 2025 · reconhecimento doutrinário</div>
+  A prova explorou exatamente a crítica a expressões como “segurança pública” e “paz pública” quando apresentadas como bens aparentes. Aqui a dificuldade não era memorizar uma lista, mas reconhecer a teoria em um enunciado longo.
+</div>
+
+<hr>
+
+<div class="qblock">
+  <div class="qtitle">Perguntas progressivas · primeira recuperação</div>
+
+  <details>
+    <summary>1. O que é bem jurídico e por que ele importa?</summary>
+    <div class="answer"><span class="quick">Resposta-relâmpago:</span> valor ou interesse relevante protegido pelo Direito Penal.<br><br>Ele identifica o objeto da tutela e também funciona como limite crítico da criminalização.</div>
+  </details>
+
+  <details>
+    <summary>2. Quem escolhe os bens protegidos penalmente?</summary>
+    <div class="answer"><span class="quick">O legislador</span>, mas dentro de limites constitucionais. A Constituição orienta a proteção e também contém o poder punitivo.</div>
+  </details>
+
+  <details>
+    <summary>3. Todo valor constitucional exige tutela penal?</summary>
+    <div class="answer"><span class="quick">Não.</span> A proteção penal depende também de necessidade, fragmentariedade e subsidiariedade. Mandados constitucionais de criminalização são situação específica.</div>
+  </details>
+
+  <details>
+    <summary>4. Qual é a função crítica da teoria do bem jurídico?</summary>
+    <div class="answer">Questionar se determinada criminalização protege um bem suficientemente relevante para justificar a intervenção penal.</div>
+  </details>
+
+  <details>
+    <summary>5. Quem é associado à criação do conceito de bem jurídico?</summary>
+    <div class="answer"><span class="quick">Johann Birnbaum.</span> A PF cobrou o ponto diretamente em 2025.</div>
+  </details>
+
+  <details>
+    <summary>6. O que significa ratio legis na concepção metodológica?</summary>
+    <div class="answer"><span class="quick">Razão ou finalidade da norma.</span> O bem jurídico funciona como critério para compreender o sentido do tipo penal.</div>
+  </details>
+
+  <details>
+    <summary>7. Qual foi a pegadinha da PF envolvendo Birnbaum e ratio legis?</summary>
+    <div class="answer">A banca atribuiu corretamente a Birnbaum a criação do conceito, mas transferiu para ele a ideia de bem jurídico como <span class="term">ratio legis</span>, própria da concepção metodológica.</div>
+  </details>
+
+  <details>
+    <summary>8. O que são bens jurídicos aparentes?</summary>
+    <div class="answer">Rótulos que não identificam com clareza um bem coletivo autônomo ou são tão vagos que enfraquecem a função crítica da teoria.</div>
+  </details>
+</div>
+
+<div class="footer-note">
+Espécime editorial V2. Objetivo: testar fluxo de leitura, âncoras de reconexão, sinalização visual, densidade teórica e recuperação antes de reconstruir o restante do capítulo.
+</div>
+</main>
+</body>
+</html>
