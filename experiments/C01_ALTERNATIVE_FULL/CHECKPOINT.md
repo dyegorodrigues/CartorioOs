@@ -82,3 +82,75 @@ Não fazer:
 3. ajustar respostas dos cards para padrão “núcleo na primeira frase + explicação curta”;
 4. só então gerar versão PDF de comparação;
 5. não iniciar C02 antes da avaliação do C01 alternativo.
+
+
+---
+
+# DECISÃO DE 07/10/2026 · V0 REPROVADA
+
+A V0 foi **reprovada como material de estudo** pelo usuário e pela reavaliação comparativa com o PDF Sintético do Gran.
+
+## Motivo
+
+A V0 transformou um problema de atomização em outro problema:
+- excesso de compressão;
+- perda de explicações;
+- perda de ritmo didático;
+- tabelas resumidas demais;
+- perguntas simplificadas sem contexto suficiente;
+- pouca riqueza visual/cognitiva;
+- experiência inferior ao próprio Gran Sintético usado como referência.
+
+## Regra nova e obrigatória
+
+O próximo C01 NÃO será uma reescrita do zero.
+
+### Base principal de estudo
+**Gran Sintético**
+
+Preservar:
+- ordem didática útil;
+- explicações fluídas;
+- quadros esquemáticos;
+- exemplos;
+- destaques;
+- ritmo página a página;
+- sensação de material que ensina, não só resume.
+
+### DD
+Usar como:
+- auditor de cobertura;
+- profundidade de Delegado;
+- detector de lacunas;
+- fonte de complementos selecionados.
+
+NÃO usar como justificativa para despejar toda informação na superfície.
+
+### Brainscape + Passo
+Usar para:
+- perguntas progressivas;
+- resposta-relâmpago;
+- comparação;
+- revisão;
+- reconstrução.
+
+NÃO usar frequência de cards como incidência.
+
+### Questões reais
+Inserir em três funções:
+1. questão-sinal no ponto da teoria;
+2. bloco progressivo;
+3. EXAM Lab final.
+
+### Fontes oficiais
+Usar para corrigir:
+- lei;
+- jurisprudência;
+- atualização;
+- conflitos entre cursinhos.
+
+## Regra editorial
+
+**Gran ensina → DD completa → prova prioriza → Brainscape/Passo recuperam → fonte oficial corrige.**
+
+A V0 permanece apenas como artefato de diagnóstico e não deve ser usada como base textual da próxima versão.
