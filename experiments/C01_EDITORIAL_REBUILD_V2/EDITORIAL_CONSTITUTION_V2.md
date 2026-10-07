@@ -342,3 +342,70 @@ Ele deve resolver ou preparar suficientemente o aluno para o espectro relevante 
 - conteúdo transversal que deve ser roteado a outro capítulo.
 
 Se uma questão relevante exigir uma distinção ausente, o MASTER é incompleto.
+
+
+---
+
+# 14. QA após inspeção do backup DP-01 v2 · 07/10/2026
+
+## 14.1 O backup antigo não é benchmark integral
+
+A teoria/apostila do backup é rica e útil. A camada Passo/revisão, porém, contém respostas excessivamente telegráficas e progressão incompleta. Não copiar cards antigos cegamente.
+
+## 14.2 Escada mínima de recuperação
+
+Antes de discriminações e autores, o aluno deve responder:
+1. O que é Direito Penal?
+2. O que é infração penal?
+3. Crime/delito × contravenção.
+4. O que é sanção penal?
+5. Pena × medida de segurança.
+6. Por que é ramo do Direito Público?
+7. Aspectos/acepções do conceito.
+8. Características.
+
+Só depois entram pegadinhas, autores e aprofundamentos.
+
+## 14.3 Resposta mínima suficiente
+
+Toda resposta de aprendizagem deve conter:
+- núcleo direto;
+- explicação;
+- conexão ou exemplo quando útil;
+- cuidado de prova quando relevante;
+- fundamento legal/jurisprudencial quando decisivo.
+
+Economia de palavras não é objetivo editorial.
+
+## 14.4 Questões objetivas
+
+Para A-E, explicar individualmente cada alternativa, inclusive matéria lateral. Marcar:
+- correta/incorreta;
+- regra correta;
+- mecanismo do erro;
+- ligação com a teoria.
+
+Para C/E, explicar tese, palavra decisiva, regra correta e pegadinha.
+
+## 14.5 Oral/discursiva
+
+Separar:
+- treino progressivo autoral, começando pelos fundamentos;
+- provas reais, preservadas com origem/ano.
+
+A aba de provas reais não pode fingir ser progressão didática só porque está ordenada pelos tópicos.
+
+## 14.6 Conceito e tabelas
+
+Eliminar duplicações de título/definição. Preservar formulação literal da fonte quando útil, sem paráfrase cosmética.
+
+Tabelas devem ser autossuficientes e trazer sinônimos apenas quando confirmados por fonte/prova. Microexplicações e destaques semânticos devem existir dentro das células quando ajudam a compreensão.
+
+## 14.7 Microexplicações
+
+Preferir fluxo natural:
+- ius puniendi (direito de punir do Estado)
+- ratio legis — razão/finalidade da norma —
+- teleológico (telos = finalidade)
+
+O mecanismo fica invisível para o aluno.
