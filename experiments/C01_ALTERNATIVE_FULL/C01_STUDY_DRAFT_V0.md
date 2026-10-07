@@ -207,6 +207,14 @@ O material também menciona funções interpretativa, sistemática e individuali
 
 Outra distinção relevante é entre bens coletivos legítimos e os chamados **bens jurídicos aparentes ou de fachada**, expressão utilizada em parte da doutrina para criticar rótulos muito vagos, como certas formulações de “segurança pública” ou “paz pública”. A PF 2025 tornou esse ponto relevante para reconhecimento em prova.
 
+### Reconhecimento de prova: paternalismo e *harm principle*
+
+A discussão do bem jurídico também serve para impedir que o Direito Penal seja usado simplesmente para proteger uma pessoa **contra ela mesma**. O material-base relaciona essa ideia ao *harm principle* de John Stuart Mill: a intervenção coercitiva se legitima especialmente para evitar dano a terceiros. Por isso, autolesão ou mera imoralidade não se tornam automaticamente crimes. Este ponto apareceu como parte da cobrança de teoria do bem jurídico em prova de Delegado e deve ser **compreendido**, mas não precisa virar uma sequência autônoma de cards.
+
+### Reconhecimento de prova: crimes de acumulação
+
+A PF 2025 também cobrou, em matéria ambiental, os chamados **crimes de acumulação**: a conduta individual pode ter lesividade reduzida, mas a repetição massiva de condutas semelhantes pode produzir risco relevante para um bem coletivo. A ideia conversa com a espiritualização dos bens jurídicos e com a tutela de bens difusos. Aqui basta reconhecer a lógica; o aprofundamento pertence ao estudo dos crimes ambientais e da ofensividade.
+
 ### Recuperação curta
 
 **22. Por que Birnbaum merece ser lembrado neste capítulo?**  
@@ -312,6 +320,8 @@ A simplificação “Clássica = pena retributiva” funciona apenas se você so
 - **Jurídica:** Garofalo.
 
 A banca gosta de trocar os nomes e usar a expressão “fase jurídica” para confundir Carrara, da fase jurídica da Clássica, com Garofalo, da fase jurídica da Positiva.
+
+> **Reconhecer, sem abrir novo subcapítulo:** uma prova de Delegado do PI em 2018 cobrou a tipologia lombrosiana do criminoso. O banco registra como categorias associadas a Lombroso o criminoso **nato, louco, por paixão e ocasional**; Ferri acrescenta o habitual. Isso merece permanecer disponível para reconhecimento, mas não reorganiza todo o tópico em torno de uma cobrança isolada.
 
 ### A correção importante da Terza Scuola
 
