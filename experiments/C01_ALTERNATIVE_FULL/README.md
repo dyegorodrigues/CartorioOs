@@ -383,3 +383,154 @@ O C01 alternativo só vence se o aluno conseguir:
 O banco pode crescer indefinidamente.
 
 **A superfície de estudo não.**
+
+
+---
+
+# Calibração após feedback do Zeus — 07/10/2026
+
+## Decisão principal
+
+O piloto **não** usará:
+- tabela telegráfica como substituto da explicação;
+- quatro ou cinco perguntões como substituto das perguntas de aprendizagem;
+- número-alvo rígido de perguntas;
+- uma tabela universal para todos os tipos de conteúdo.
+
+O fluxo padrão passa a ser:
+
+**explicação fluida suficiente → tabela carregadora de teoria quando realmente ajudar → perguntas curtas e sequenciais de aprendizagem → pergunta-mãe apenas no fechamento → questões reais em camada própria → oral/discursiva em camada própria.**
+
+## 1. Explicação fluida
+
+Cada microbloco precisa ser compreensível por alguém que está reaprendendo do zero.
+
+A explicação não será reduzida a palavras-chave. Deve responder:
+- o que é;
+- por que existe;
+- como se conecta ao que veio antes;
+- qual distinção evita confusão;
+- qual consequência importa para prova.
+
+Quando uma tabela vier depois, ela **organiza** a compreensão; não é obrigada a substituir toda a explicação.
+
+## 2. Tabela carregadora de teoria
+
+Tabela só entra quando a estrutura relacional/comparativa torna o assunto mais fácil de aprender ou revisar.
+
+Ela precisa ter densidade explicativa suficiente para ser relida sozinha em revisão.
+
+Não existe um modelo único.
+
+Exemplos de formatos:
+- Características: conceito | significado | exemplo | não confundir
+- Escolas: método | crime | criminoso | responsabilidade | pena | autores | pegadinhas
+- Roxin × Jakobs: ponto de comparação | Roxin | Jakobs | linguagem de prova
+- Evolução do bem jurídico: autor/corrente | ideia central | ruptura | relevância para prova
+- Classificações: par | conceito A | conceito B | armadilha
+
+## 3. Perguntas curtas de aprendizagem
+
+Preservar a qualidade do bom Brainscape: pergunta clara, uma operação cognitiva por vez, resposta suficientemente explicativa.
+
+Mas impor **sequência**.
+
+Uma pergunta deve nascer naturalmente da anterior e do trecho acabado de estudar.
+
+Exemplo de progressão:
+1. Por que o Direito Penal é uma ciência cultural?
+2. Qual a diferença entre o dever-ser do Direito Penal e o ser da Criminologia?
+3. O que significa dizer que o Direito Penal é normativo?
+4. Por que ele é valorativo?
+5. “Finalista” aqui tem relação com Welzel?
+6. Por que é predominantemente sancionatório?
+7. O que significa fragmentariedade?
+
+Isso é diferente de fragmentar cada frase em cartão.
+
+### Freio editorial
+Não criar card autônomo quando:
+- a informação é explicativa e já está bem contida na resposta anterior;
+- basta reconhecer numa alternativa;
+- é trivia doutrinária sem peso de prova;
+- a pergunta existe apenas porque uma fonte a separou;
+- a resposta seria praticamente a repetição de uma célula de tabela.
+
+## 4. Pergunta-mãe
+
+Só aparece **depois** de um bloco estudado.
+
+Função: reconstrução integrada.
+
+Exemplo:
+“Explique as principais características do Direito Penal e indique as confusões mais relevantes para prova.”
+
+Não substituir as perguntas curtas por perguntões.
+
+## 5. Questões reais
+
+Ficam separadas das perguntas didáticas.
+
+Funções:
+- mostrar linguagem da banca;
+- revelar distratores;
+- testar transferência;
+- auditar suficiência do material.
+
+Não forçar perguntas didáticas a imitar linguagem hostil de banca.
+
+## 6. Oral/discursiva
+
+É outra camada.
+
+Perguntas orais devem soar como prova oral e exigir produção organizada.
+
+Não transformar todas as perguntas de aprendizagem em mini-orais.
+
+A profundidade oral deve ser calibrada por:
+- oral real de Delegado;
+- recorrência em carreiras jurídicas próximas;
+- importância estrutural;
+- plausibilidade de follow-up.
+
+## 7. Regra de qualidade
+
+Um bloco só está pronto quando é possível:
+
+1. **aprender** lendo;
+2. **revisar** pela tabela/quadro ou explicação condensada;
+3. **recuperar** por perguntas curtas;
+4. **reconstruir** por pergunta-mãe;
+5. **aplicar** em questão real;
+6. **produzir**, quando necessário, em oral/discursiva.
+
+Se alguma dessas etapas exigir que o aluno reconstrua sozinho conexões que o material deveria ensinar, o bloco ainda não está pronto.
+
+## 8. Sem meta artificial de quantidade
+
+A antiga faixa estimada de 40–51 perguntas progressivas fica **cancelada como meta**.
+
+O número final será consequência da estrutura.
+
+A pergunta de controle é:
+
+> “Cada pergunta existente recupera algo que realmente vale ser recuperado, e a sequência ajuda a aprender?”
+
+Se sim, fica.
+Se não, funde, rebaixa para reconhecimento, incorpora à explicação ou remove da superfície de estudo.
+
+## 9. Papel do Zeus no piloto
+
+O usuário não precisa escolher arquitetura, fonte, quantidade ou classificação.
+
+O feedback esperado é de experiência:
+- consegui entender;
+- consegui seguir;
+- ficou pesado;
+- ficou superficial;
+- essa tabela ajudou;
+- essa pergunta parece inútil;
+- isso eu revisaria;
+- isso eu não estudaria assim.
+
+A engenharia e a correção do sistema são responsabilidade da coordenação do Tutor OS.
