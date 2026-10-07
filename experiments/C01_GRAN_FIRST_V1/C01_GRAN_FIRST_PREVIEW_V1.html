@@ -1,0 +1,687 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8">
+<title>DP-01 · Capítulo 1 · Edição de estudo</title>
+<style>
+@font-face{font-family:Inter;src:url(./Inter-Regular.otf);font-weight:400}
+@font-face{font-family:Inter;src:url(./Inter-Italic.otf);font-weight:400;font-style:italic}
+@font-face{font-family:Inter;src:url(./Inter-Medium.otf);font-weight:500}
+@font-face{font-family:Inter;src:url(./Inter-SemiBold.otf);font-weight:600}
+@font-face{font-family:Inter;src:url(./Inter-Bold.otf);font-weight:700}
+@font-face{font-family:Inter;src:url(./Inter-ExtraBold.otf);font-weight:800}
+@font-face{font-family:Inter;src:url(./Inter-Black.otf);font-weight:900}
+@page{size:A4;margin:17mm 15mm 15mm 15mm}
+*{box-sizing:border-box}
+body{font:10.4pt/1.56 Inter,"DejaVu Sans",Arial,sans-serif;color:#22252b;margin:0}
+b,strong{font-weight:700}
+p{margin:0 0 2.4mm}
+ul,ol{margin:1mm 0 2.4mm;padding-left:6mm} li{margin:.8mm 0}
+.az{color:#1658c4;font-weight:600}
+.vm{color:#cc2229;font-weight:700}
+.mk{background:#ffe066;padding:0 1px;-webkit-box-decoration-break:clone;box-decoration-break:clone}
+.au{font-weight:700;color:#1d2a52}
+.small{font-size:8.8pt;color:#6a6f7a}
+/* ---------- capa ---------- */
+.cover{page-break-after:always}
+.cover .band{background:#1d2a52;color:#fff;padding:7mm 9mm 6.5mm;border-bottom:6px solid #ffd23f}
+.cover .k{font:800 9pt Inter;letter-spacing:.16em;text-transform:uppercase;color:#ffd23f}
+.cover h1{font:900 24pt/1.1 Inter;margin:3mm 0 2.5mm}
+.cover h2{font:500 12.5pt/1.35 Inter;margin:0;color:#dfe5f5}
+.cover .what{margin:5mm 2mm 0;font-size:10pt}
+.cover .what h3{font:800 9.5pt Inter;letter-spacing:.1em;text-transform:uppercase;color:#1d2a52;margin:0 0 2mm}
+.mapa{width:100%;border-collapse:collapse;font-size:9.6pt;margin:0}
+.mapa td{border:none;border-bottom:1px solid #e1e3e8;padding:1.3mm 2mm;vertical-align:top}
+.mapa td.n{width:9mm;font:900 13pt Inter;color:#1658c4;text-align:center}
+.mapa td.t{font-weight:800;color:#1d2a52;width:46mm}
+.mapa td.c{width:30mm;text-align:right;color:#6a6f7a;font-size:8.6pt;white-space:nowrap}
+.uso{margin:4.5mm 2mm 0;border:1.2px solid #1d2a52;border-radius:2mm;padding:3.5mm 5mm}
+.uso h3{font:800 9.5pt Inter;letter-spacing:.1em;text-transform:uppercase;color:#1d2a52;margin:0 0 2mm}
+.uso ol{margin:0;padding-left:5mm;font-size:9.8pt}
+.leg{display:flex;flex-wrap:wrap;gap:1.5mm 5mm;margin-top:2.5mm;font-size:9pt}
+.cover .foot{margin-top:4mm;font-size:8.4pt;color:#6a6f7a;border-top:1px solid #e1e3e8;padding-top:2.5mm}
+/* ---------- tópico ---------- */
+.topic{page-break-before:always}
+.th{display:flex;align-items:flex-end;justify-content:space-between;border-bottom:3px solid #ffd23f;padding:2.5mm 0 1.5mm;margin:0 0 3.5mm}
+.th h2{font:900 15pt/1.4 Inter;color:#1658c4;margin:0;text-transform:uppercase;letter-spacing:.01em}
+.th h2 span{color:#1d2a52}
+.th .pos{font:700 8.4pt Inter;color:#8a8f99;white-space:nowrap;margin-left:4mm}
+h3.s{font:800 11.2pt Inter;color:#1658c4;margin:5mm 0 2mm;text-transform:uppercase;letter-spacing:.01em;page-break-after:avoid;break-after:avoid}
+h3.s .n{color:#1d2a52}
+h4{font:800 10.2pt Inter;color:#1d2a52;margin:3.5mm 0 1.5mm;page-break-after:avoid}
+.min1{background:#fff8d6;border-left:5px solid #1d2a52;padding:2.6mm 4mm;margin:0 0 4mm;font-size:10.4pt;page-break-inside:avoid}
+.min1 b.l{display:block;font:900 8.6pt Inter;letter-spacing:.12em;text-transform:uppercase;color:#1d2a52;margin-bottom:.8mm}
+/* quadro com rótulo (padrão Gran) */
+table{border-collapse:collapse;width:100%;margin:2.5mm 0 3.5mm;font-size:9.8pt}
+tr{page-break-inside:avoid}
+td,th{border:1px solid #b9bcc4;padding:1.8mm 2.4mm;vertical-align:top}
+table.lt th{background:#ffd84d;color:#1d2124;font:800 9pt/1.3 Inter;text-transform:uppercase;text-align:center;vertical-align:middle;width:27%}
+table.cmp thead th{background:#1d2a52;color:#fff;font:800 9pt Inter;text-transform:uppercase;text-align:center}
+table.cmp tbody th{background:#fff1b0;font:800 8.8pt Inter;text-transform:uppercase;text-align:left;width:19%}
+table.cmp td{font-size:9.5pt}
+/* blocos */
+.atc{border-top:1.5px dashed #9aa0aa;border-bottom:1.5px dashed #9aa0aa;padding:2mm 0 2.4mm;margin:4mm 0;page-break-inside:avoid}
+.atc .t{display:flex;justify-content:flex-end;align-items:center;gap:1.5mm;font:900 11pt Inter;color:#cc2229;letter-spacing:.04em;margin-bottom:1mm}
+.atc .t svg{width:5mm;height:5mm}
+.comp{border-left:4px solid #7a5cc7;background:#f5f2fc;padding:2.2mm 3.5mm;margin:3.5mm 0;page-break-inside:avoid;font-size:10pt}
+.comp>b.l{display:block;font:900 8.2pt Inter;letter-spacing:.12em;text-transform:uppercase;color:#5a3fb0;margin-bottom:.6mm}
+.dlg{border:1.3px dashed #1d2a52;background:#f2f4fa;padding:2.2mm 3.5mm;margin:3.5mm 0;page-break-inside:avoid;font-size:10pt}
+.dlg>b.l{display:block;font:900 8.2pt Inter;letter-spacing:.12em;text-transform:uppercase;color:#1d2a52;margin-bottom:.6mm}
+.dica{border-left:4px solid #c08a00;background:#fff6dc;padding:2.2mm 3.5mm;margin:3.5mm 0;page-break-inside:avoid;font-size:10pt}
+.dica>b.l{display:block;font:900 8.2pt Inter;letter-spacing:.12em;text-transform:uppercase;color:#8a6200;margin-bottom:.6mm}
+.nc{border:1.5px solid #cc2229;border-radius:2mm;padding:2.2mm 3.5mm;margin:3.5mm 0;page-break-inside:avoid;font-size:10pt}
+.nc>b.l{display:block;font:900 8.2pt Inter;letter-spacing:.12em;text-transform:uppercase;color:#cc2229;margin-bottom:.6mm}
+.caiu{background:#eef0f3;border-radius:2mm;padding:2.2mm 3.5mm;margin:3.5mm 0;page-break-inside:avoid;font-size:9.8pt}
+.caiu>b.l{display:block;font:900 8.2pt Inter;letter-spacing:.12em;text-transform:uppercase;color:#b4461a;margin-bottom:.6mm}
+.lembra{background:#1d2a52;color:#fff;border-radius:2mm;padding:2.4mm 4mm;margin:3.5mm 0;page-break-inside:avoid;font-size:10pt}
+.lembra>b.l{display:block;font:900 8.2pt Inter;letter-spacing:.12em;text-transform:uppercase;color:#ffd23f;margin-bottom:.6mm}
+.lembra .mk{color:#1d2124}
+.src{font-size:8.2pt;color:#8a8f99;border-top:1px solid #e6e8ec;padding-top:1.2mm;margin-top:4mm}
+.tl{display:grid;grid-template-columns:22mm 1fr;gap:0;margin:2mm 0 3mm;font-size:9.8pt}
+.tl div{padding:1.4mm 2mm;border-bottom:1px solid #e1e3e8}
+.tl .y{font:800 9.4pt Inter;color:#1658c4;text-align:right;border-right:3px solid #ffd23f}
+.flow{display:flex;align-items:stretch;gap:1.2mm;margin:2.5mm 0 3.5mm;font-size:9.2pt;page-break-inside:avoid}
+.flow>div{flex:1;border:1.2px solid #1d2a52;border-radius:1.5mm;padding:1.6mm 2mm;background:#fff}
+.flow>div>b:first-child{display:block;color:#1658c4;font-size:9.4pt;margin-bottom:.4mm}
+.flow>i{align-self:center;font-style:normal;color:#1d2a52;font-weight:900}
+/* perguntas do tópico */
+.cards{margin-top:5mm}
+.cards .hd{background:#1d2a52;color:#ffd23f;font:900 9.4pt Inter;letter-spacing:.12em;text-transform:uppercase;padding:1.8mm 3.5mm;border-radius:1.5mm 1.5mm 0 0;page-break-after:avoid;break-after:avoid}
+.cards .hd span{color:#c9d2ea;font-weight:600;letter-spacing:0;text-transform:none;font-size:8.6pt;margin-left:2mm}
+.card{border:1px solid #d5d9e2;margin-top:-1px;padding:2.2mm 3.5mm 2.4mm;page-break-inside:avoid}
+.cards .hd+.card{margin-top:0}
+.card .q{font-weight:700;color:#1d2a52}
+.card .q .pn{display:inline-block;min-width:9mm;font:900 8.4pt Inter;color:#fff;background:#1658c4;border-radius:1mm;text-align:center;padding:.3mm 1mm;margin-right:1.8mm;vertical-align:1px}
+.card .a{margin-top:1mm;padding:1.4mm 2.6mm;background:#f6f7f9;border-left:3px solid #ffd23f;font-size:9.9pt}
+.card .a p{margin:0 0 1mm}.card .a p:last-child{margin:0}
+.tag{display:inline-block;font:800 7.2pt Inter;letter-spacing:.06em;text-transform:uppercase;border-radius:1mm;padding:0 1.4mm;margin-left:1.5mm;vertical-align:1px}
+.tag.d{background:#e7ebf6;color:#1d2a52}.tag.c{background:#efe9fb;color:#5a3fb0}
+/* fim do capítulo */
+.part{page-break-before:always}
+.ph{background:#1d2a52;color:#fff;border-bottom:5px solid #ffd23f;padding:4mm 5mm;margin:0 0 4mm;border-radius:1.5mm}
+.ph .k{font:800 8.6pt Inter;letter-spacing:.14em;text-transform:uppercase;color:#ffd23f}
+.ph h2{font:900 15pt Inter;margin:1mm 0 0}
+.ph p{margin:1.2mm 0 0;color:#dfe5f5;font-size:9.6pt}
+ol.ql{padding-left:7mm} ol.ql li{margin:1.6mm 0;font-weight:600;color:#1d2a52}
+.pq{margin:0 0 4.5mm}
+.pq .q{font-weight:800;color:#1d2a52;margin-bottom:1mm;page-break-after:avoid;break-after:avoid}
+.pq .q .pn{color:#1658c4;margin-right:1.5mm}
+h3.s,h4,.min1 b.l{page-break-after:avoid;break-after:avoid}
+.pq .a{border-left:3px solid #ffd23f;padding:.5mm 0 .5mm 3.5mm}
+.qx{border:1px solid #d5d9e2;border-radius:2mm;padding:3mm 4mm;margin:0 0 5mm}
+.qx .gab,.qx ol.alt{page-break-inside:avoid}
+.qx .h{font:800 8.8pt Inter;letter-spacing:.06em;text-transform:uppercase;color:#b4461a;margin-bottom:1.2mm}
+.qx .h .ad{color:#5a3fb0}
+.qx .st{font-weight:600;margin-bottom:1.5mm}
+.qx ol.alt{list-style:none;padding-left:0;margin:0 0 2mm}
+.qx ol.alt li{padding-left:6mm;text-indent:-6mm;margin:1mm 0}
+.qx ol.alt li b{display:inline-block;width:6mm;text-indent:0}
+.qx .gab{background:#f6f7f9;border-left:3px solid #137a43;padding:2mm 3mm;font-size:9.8pt}
+.qx .gab .g{font-weight:900;color:#137a43}
+.ce{border:1px solid #d5d9e2;border-radius:2mm;margin:0 0 3mm;page-break-inside:avoid}
+.ce .st{padding:2mm 3.5mm;font-weight:600}
+.ce .r{padding:1.6mm 3.5mm;background:#f6f7f9;border-top:1px solid #e1e3e8;font-size:9.8pt}
+.ce .r .c{font-weight:900;color:#137a43}.ce .r .e{font-weight:900;color:#cc2229}
+.resumo ol{padding-left:6mm}.resumo li{margin:1.6mm 0}
+</style></head><body>
+<section class="cover">
+ <div class="band">
+  <div class="k">Direito Penal · DP-01 Noções Iniciais e Princípios · Capítulo 1 de 7</div>
+  <h1>Direito Penal: conceito, características, objeto, evolução, funções e classificações</h1>
+  <h2>Edição de estudo Gran-first: base didática do PDF Sintético, profundidade auditada com DD 2026 e cobrança calibrada por provas reais de Delegado</h2>
+ </div>
+
+ <div class="what">
+  <h3>O que tem neste capítulo</h3>
+  <table class="mapa">
+   <tr><td class="n">1</td><td class="t">Conceito</td><td>o que é o Direito Penal, sanção penal (pena × medida de segurança), ramo público, os três aspectos</td><td class="c">10 perguntas</td></tr>
+   <tr><td class="n">2</td><td class="t">Características</td><td>ciência cultural, normativa, valorativa, finalista, sancionatória e fragmentária - e o porquê de cada uma</td><td class="c">9 perguntas</td></tr>
+   <tr><td class="n">3</td><td class="t">Objeto de proteção</td><td>bem jurídico e o papel da Constituição (orientar e limitar)</td><td class="c">8 perguntas</td></tr>
+   <tr><td class="n">4</td><td class="t">Evolução histórica</td><td>vinganças, Período Humanitário, escolas penais, Período Contemporâneo e os códigos brasileiros</td><td class="c">14 perguntas</td></tr>
+   <tr><td class="n">5</td><td class="t">Funções</td><td>missão mediata e imediata, Roxin × Jakobs, função simbólica e as demais</td><td class="c">8 perguntas</td></tr>
+   <tr><td class="n">6</td><td class="t">Classificações</td><td>os cinco pares de nomes e o Direito de Intervenção de Hassemer</td><td class="c">5 perguntas</td></tr>
+   <tr><td class="n">✓</td><td class="t">Fechamento</td><td>o capítulo em 12 frases · perguntas-mãe · EXAM Lab com provas reais</td><td class="c">8<br>+ 8</td></tr>
+  </table>
+ </div>
+
+ <div class="uso">
+  <h3>Como usar (escolha um caminho)</h3>
+  <ol>
+   <li><b>Primeira vez:</b> leia o tópico; logo depois, responda as <b>Perguntas do tópico</b>, conferindo cada resposta. As respostas também ensinam: se não souber, leia a resposta e siga.</li>
+   <li><b>Revisão:</b> vá só pelas perguntas, cobrindo as respostas com a mão (ou use o arquivo de cartões no Brainscape: são as mesmas perguntas, na mesma ordem).</li>
+   <li><b>Antes da prova:</b> "O capítulo em 12 frases", o questionário de revisão e as questões comentadas.</li>
+  </ol>
+  <div class="leg">
+   <span><span class="az">Azul</span> = afirmação importante</span>
+   <span><span class="vm">Vermelho</span> = exceção, restrição, "não"</span>
+   <span><span class="mk">Marca-texto</span> = o que mais cai</span>
+   <span><span class="tag c">Complemento</span> = acréscimo conferido, fora do Gran e do DD</span>
+   <span><span class="tag d">Delegado+</span> = profundidade de carreira</span>
+  </div>
+ </div>
+
+ <div class="foot">Edição de estudo pessoal. Base: Gran Cursos, PDF Sintético <i>Direito Penal, Criminologia e Política Criminal</i> e <i>Direito Penal – Parte Geral</i> (Thiago Pacheco); Dedicação Delta 2026, <i>Direito Penal – Noções Iniciais e Princípios</i>, cap. 1. Não é material oficial de nenhum dos cursos. As fontes de cada tópico estão indicadas no rodapé do tópico.</div>
+</section>
+<section class="topic" data-t="1">
+<div class="th"><h2><span>1.</span> Conceito de Direito Penal</h2><div class="pos">Tópico 1 de 6</div></div>
+
+<div class="min1"><b class="l">Em 1 minuto</b>O Direito Penal é o ramo do <span class="az">Direito Público</span> que diz quais comportamentos são <b>infrações penais</b> (crimes e contravenções) e qual <b>sanção penal</b> corresponde a cada um. A sanção penal tem duas espécies: <span class="mk">pena</span> e <span class="mk">medida de segurança</span>. O conceito pode ser olhado por três ângulos: <b>formal</b>, <b>material</b> e <b>sociológico</b>.</div>
+
+<h3 class="s"><span class="n">1.1</span> O que é o Direito Penal</h3>
+<p>Direito Penal é o <span class="az">conjunto de normas destinadas a combater as infrações penais</span> praticadas, sejam elas <b>crime</b> ou <b>contravenção penal</b>, mediante a imposição de uma <b>sanção penal</b>, que poderá ser uma <b>pena</b> ou uma <b>medida de segurança</b>.</p>
+<p>A definição mais cobrada é a de <span class="au">Cleber Masson</span>: o Direito Penal é <span class="mk">"o conjunto de princípios e regras destinados a combater o crime e a contravenção penal, mediante a imposição de sanção penal"</span>. Também se diz que é o conjunto das normas que regulam a atuação do Estado nesse combate: ele <b>define os fatos puníveis</b> (os tipos penais) e <b>comina as respectivas sanções</b>.</p>
+<p>Repare nas três peças da definição. Ela fala em (1) um <b>conjunto de normas</b>, (2) com um <b>alvo</b>, a infração penal, e (3) com um <b>instrumento</b>, a sanção penal. Cada peça tem um detalhe que cai em prova:</p>
+
+<table class="lt">
+<tr><th>Conjunto de normas</th><td>As normas penais são de duas espécies. <b>Regras</b>: normas rígidas, fechadas, que descrevem uma conduta e sua consequência (ex.: art. 121, "matar alguém: pena de 6 a 20 anos"). <b>Princípios</b>: normas abertas, que orientam e limitam a aplicação das regras e <span class="az">admitem flexibilização</span> (ex.: insignificância, proporcionalidade).</td></tr>
+<tr><th>Infração penal</th><td>No Brasil, infração penal é gênero com duas espécies: <b>crime</b> (ou delito) e <b>contravenção penal</b>. Por isso a definição não fala só em crime.</td></tr>
+<tr><th>Sanção penal</th><td>É <span class="mk">gênero</span>, do qual são espécies a <b>pena</b> e a <b>medida de segurança</b> (quadro abaixo).</td></tr>
+</table>
+
+<h4>Pena × medida de segurança</h4>
+<table class="cmp">
+<thead><tr><th></th><th>Pena</th><th>Medida de segurança</th></tr></thead>
+<tbody>
+<tr><th>A quem se aplica</th><td>aos <b>imputáveis</b> (e ao semi-imputável, com redução de 1/3 a 2/3 - art. 26, parágrafo único, CP)</td><td>aos <b>inimputáveis</b> (art. 26, <i>caput</i> - o juiz absolve e aplica a medida: absolvição imprópria) e ao <b>semi-imputável</b> que precisar de especial tratamento curativo (art. 98, CP)</td></tr>
+<tr><th>Fundamento</th><td>culpabilidade</td><td>periculosidade</td></tr>
+<tr><th>Finalidade</th><td>retribuir e prevenir</td><td>tratar e prevenir</td></tr>
+</tbody></table>
+
+<div class="comp"><b class="l">Complemento · corrige uma simplificação</b>O Gran diz que a medida de segurança é "submetida aos inimputáveis". Está certo, mas incompleto: o <span class="az">semi-imputável também pode recebê-la</span>, no lugar da pena (art. 98, CP). E nunca as duas juntas: desde a reforma de 1984 o Brasil adota o <span class="mk">sistema vicariante</span> (pena reduzida <b>ou</b> medida de segurança). O antigo sistema do <span class="vm">duplo binário</span> (pena <b>e</b> medida de segurança) foi abandonado.</div>
+
+<div class="dica"><b class="l">#Dica DD · as três vias</b>Diz-se que a <b>pena</b> é a <span class="mk">1ª via</span>, a <b>medida de segurança</b> a <span class="mk">2ª</span> e a <b>reparação do dano</b> a <span class="mk">3ª via</span>, associada a Claus Roxin. <span class="small">No Brasil, institutos como arrependimento posterior (art. 16, CP) e composição civil dos danos (art. 74, Lei 9.099/95) mostram a valorização da reparação, mas <b>não devem ser tratados como identidade perfeita</b> com toda a construção teórica roxiniana. Nesta primeira passagem, entenda a ideia; não transforme isso em lista para decorar.</span></div>
+
+<h3 class="s"><span class="n">1.2</span> Ramo do Direito Público</h3>
+<p>Em todo caso, o Direito Penal é um <span class="mk">ramo do Direito Público</span>, porque <span class="az">suas normas são indisponíveis, impostas e dirigidas a todas as pessoas</span>. Além disso, <span class="vm">o Estado é o titular exclusivo do direito de punir</span>. Por isso, o <span class="mk">Estado sempre figura como sujeito passivo em qualquer infração penal</span>, seja crime ou contravenção.</p>
+
+<div class="atc"><div class="t">RECONHEÇA EM PROVA <svg viewBox="0 0 24 24"><path d="M12 2 1 21h22z" fill="none" stroke="#cc2229" stroke-width="2.2" stroke-linejoin="round"/><path d="M12 9v5" stroke="#cc2229" stroke-width="2.4" stroke-linecap="round"/><circle cx="12" cy="17.3" r="1.3" fill="#cc2229"/></svg></div>
+O Estado pode aparecer como <span class="az">sujeito passivo imediato</span> quando é a vítima direta (ex.: determinados crimes contra a Administração Pública) ou como <span class="az">mediato</span> quando a vítima direta é outra pessoa. Alguns autores usam ainda os rótulos <b>constante/formal/genérico</b> para o Estado e <b>eventual/material/particular</b> para a vítima direta.
+<p class="small" style="margin:1.5mm 0 0"><b>Régua de estudo:</b> reconheça a nomenclatura se aparecer em alternativa; não vale transformar cada sinônimo em cartão autônomo agora.</p></div>
+
+<h3 class="s"><span class="n">1.3</span> Os três aspectos do conceito</h3>
+<p>De acordo com a doutrina majoritária, o conceito de Direito Penal pode ser analisado sob três aspectos. Pense neles como três perguntas diferentes sobre a mesma coisa:</p>
+<table class="lt">
+<tr><th>Aspecto formal<br>ou estático</th><td><i>O que a lei diz?</i> Direito Penal é o <span class="az">conjunto de normas que qualifica certos comportamentos humanos como infrações penais, define os seus agentes e fixa as sanções</span> a serem aplicadas.</td></tr>
+<tr><th>Aspecto material</th><td><i>Por que aquilo é crime?</i> Direito Penal refere-se a <span class="az">comportamentos considerados altamente reprováveis ou danosos ao organismo social</span>, que atingem bens jurídicos indispensáveis à própria conservação e ao progresso da sociedade (<span class="au">Luiz Regis Prado</span>).</td></tr>
+<tr><th>Aspecto sociológico<br>ou dinâmico</th><td><i>Para que serve na sociedade?</i> Direito Penal é <span class="az">mais um dos vários instrumentos de controle social</span> de comportamentos desviados (ao lado de outros ramos do Direito), visando assegurar a necessária disciplina para a harmônica convivência dos membros da sociedade.</td></tr>
+</table>
+<div class="lembra"><b class="l">Para lembrar</b><b>Formal</b> = a <b>forma</b> da lei (o texto). <b>Material</b> = a <b>matéria</b>, o conteúdo (o bem jurídico atacado). <b>Sociológico</b> = a <b>sociedade</b> (controle social). E "dinâmico" anda junto com "sociológico"; "estático", com "formal".</div>
+
+<h4>Aprofundando o enfoque sociológico</h4>
+<p>A paz social depende de regras de conduta. Quando alguém viola essas regras, surge para o Estado o dever de aplicar sanções, que podem ser civis, administrativas ou penais, e vários ramos do Direito participam desse controle. Só quando a conduta atinge bens jurídicos <b>especialmente importantes</b> justifica-se a reação mais severa, a do Direito Penal. Por isso se diz que ele é o <span class="mk">"soldado de reserva"</span>: entra em campo quando os outros ramos não bastam. O que distingue a norma penal das demais é a sua <b>consequência jurídica</b>: a sanção penal, cujo traço mais marcante é a possibilidade de privar a pessoa da liberdade.</p>
+
+<div class="nc"><b class="l">Não confunda</b><b>Aspecto formal</b> do conceito (o Direito Penal visto como conjunto de normas) ≠ <b>Direito Penal "formal" ou adjetivo</b>, que é o nome dado ao <span class="vm">Direito Processual Penal</span> (classificações, tópico 6).</div>
+<div class="comp"><b class="l">Questão-sinal · Delegado</b>Em prova de Delegado, já se explorou exatamente o contraste entre <b>Direito Penal</b> como disciplina <b>normativa/dogmática</b> e a <b>Criminologia</b> como ciência <b>empírica</b>. Não memorize a banca: guarde a oposição <span class="mk">dever-ser × ser</span>, que volta no tópico de características.</div>
+
+<h3 class="s"><span class="n">1.4</span> Definições clássicas <span class="tag d">reconhecimento</span></h3>
+<p>Este quadro serve para <b>reconhecer linguagem doutrinária em alternativa</b>, não para decorar quatro frases literais. Todas as formulações giram em torno da relação entre <b>infração/crime como pressuposto</b> e <b>sanção como consequência</b>:</p>
+<table class="lt">
+<tr><th>Franz von Liszt<br><span style="font-weight:600;text-transform:none">período causal-naturalista</span></th><td>"o conjunto de prescrições emanadas do Estado que ligam ao <b>crime, como fato</b>, as <b>penas como consequência</b>"</td></tr>
+<tr><th>Edmund Mezger<br><span style="font-weight:600;text-transform:none">período neoclássico</span></th><td>"o conjunto de normas jurídicas que regulava o exercício do <b>poder punitivo do Estado</b>, associando ao delito, como seu pressuposto, a pena como sua consequência"</td></tr>
+<tr><th>Hans Welzel<br><span style="font-weight:600;text-transform:none">finalismo</span></th><td>"a parte do ordenamento jurídico que determina as ações de natureza criminal e a elas vincula uma pena <b>ou medida de segurança</b>"</td></tr>
+<tr><th>Juarez Cirino dos Santos</th><td>"o setor do ordenamento jurídico que define crimes, comina penas e prevê as medidas de segurança aplicáveis aos autores das ações incriminadas"</td></tr>
+</table>
+<p><span class="az">O que precisa ficar:</span> crime/infração como pressuposto + sanção como consequência. As diferenças de redação entre os quatro autores ficam em <b>reconhecimento</b> nesta etapa e só sobem para memória ativa se a prova-alvo justificar.</p>
+
+<div class="dica"><b class="l">Reconhecimento · "Direito Penal" ou "Direito Criminal"?</b>A Constituição usa a expressão <b>Direito Penal</b> (art. 22, I). "Direito Criminal" é denominação historicamente usada, inclusive no Código Criminal do Império de 1830. <span class="small">É detalhe de nomenclatura; não merece card próprio na primeira passagem.</span></div>
+
+<div class="cards"><div class="hd">Perguntas do tópico 1 <span>aprenda → tente responder → use a resposta para reparar a memória</span></div>
+<div class="card"><div class="q">O que é o Direito Penal, em uma frase?</div><div class="a"><p><b>É o conjunto de princípios e regras que define infrações penais e disciplina as sanções correspondentes.</b> No Brasil, alcança crimes e contravenções e integra o Direito Público.</p></div></div>
+<div class="card"><div class="q">Por que a definição fala em "infração penal" e não apenas em "crime"?</div><div class="a"><p>Porque <b>infração penal é gênero</b>: suas espécies são <b>crime (ou delito)</b> e <b>contravenção penal</b>.</p></div></div>
+<div class="card"><div class="q">O Direito Penal é formado apenas por regras?</div><div class="a"><p><b>Não.</b> Ele é formado por <b>regras e princípios</b>. As regras disciplinam hipóteses e consequências; os princípios orientam, limitam e dão sentido à aplicação do sistema.</p></div></div>
+<div class="card"><div class="q">"Sanção penal" é gênero ou espécie? Quais são as espécies centrais?</div><div class="a"><p><b>É gênero.</b> As espécies centrais são <b>pena</b> e <b>medida de segurança</b>.</p></div></div>
+<div class="card"><div class="q">Qual é a diferença essencial entre pena e medida de segurança?</div><div class="a"><p><b>Pena:</b> ligada à culpabilidade e aplicada ao imputável. <b>Medida de segurança:</b> ligada à periculosidade e aplicada ao inimputável; também pode substituir a pena do semi-imputável que necessite de especial tratamento curativo.</p></div></div>
+<div class="card"><div class="q">O semi-imputável pode receber pena e medida de segurança ao mesmo tempo?</div><div class="a"><p><b>Não.</b> O sistema é <b>vicariante</b>: pena reduzida <b>ou</b> medida de segurança, conforme o caso. O antigo duplo binário foi abandonado.</p></div></div>
+<div class="card"><div class="q">Por que o Direito Penal é ramo do Direito Público?</div><div class="a"><p>Porque o <b>Estado é titular do ius puniendi</b> e as normas penais não ficam à livre disposição das partes.</p></div></div>
+<div class="card"><div class="q">Quais são os três aspectos do conceito de Direito Penal?</div><div class="a"><p><b>Formal/estático:</b> conjunto de normas que define infrações e sanções. <b>Material:</b> volta-se às condutas especialmente graves que atingem bens jurídicos relevantes. <b>Sociológico/dinâmico:</b> instrumento de controle social.</p></div></div>
+<div class="card"><div class="q">Qual aspecto enxerga o Direito Penal como instrumento de controle social?</div><div class="a"><p>O <b>sociológico ou dinâmico</b>. Ele situa o Direito Penal entre os instrumentos utilizados para preservar a convivência social.</p></div></div>
+<div class="card"><div class="q">O que significa a imagem do Direito Penal como "soldado de reserva"?</div><div class="a"><p>Que a reação penal deve ocupar posição <b>subsidiária</b>: entra quando a tutela por meios menos graves não é suficiente para proteger bens especialmente relevantes.</p></div></div>
+</div>
+
+<div class="lembra"><b class="l">Reconhecimento rápido · não vira bateria de flashcards</b>
+<b>Três vias:</b> pena → medida de segurança → reparação do dano. &nbsp;•&nbsp;
+<b>Sujeito passivo:</b> Estado sempre integra a relação penal, imediato ou mediato conforme o caso. &nbsp;•&nbsp;
+<b>Definições clássicas:</b> crime/infração como pressuposto, sanção como consequência. &nbsp;•&nbsp;
+<b>Nomenclatura:</b> a CF usa "Direito Penal".
+</div>
+
+<div class="src">Fontes do tópico: Gran, PDF Sintético <i>Direito Penal, Criminologia e Política Criminal</i>, item 2; Gran, PDF Sintético <i>Direito Penal – Parte Geral</i>, item 1 · DD 2026, cap. 1, a) Conceito · Complementos: CP, arts. 16, 26, 97 e 98; Lei 9.099/95, art. 74.</div>
+</section>
+<section class="topic" data-t="2">
+<div class="th"><h2><span>2.</span> Características do Direito Penal</h2><div class="pos">Tópico 2 de 6</div></div>
+
+<div class="min1"><b class="l">Em 1 minuto</b>Segundo <span class="au">Cleber Masson</span>, o Direito Penal é uma <span class="mk">ciência cultural, normativa, valorativa, finalista, de natureza predominantemente sancionatória e fragmentária</span>. Não decore a lista solta: cada palavra responde a uma pergunta sobre o Direito Penal, e é o "porquê" que a banca cobra.</div>
+
+<p>De modo geral, a doutrina se refere ao Direito Penal como uma <span class="mk">ciência cultural, normativa, valorativa e finalista</span>. Masson acrescenta que ele é <b>predominantemente sancionatório</b> e <b>fragmentário</b>. Vamos uma a uma:</p>
+
+<table class="lt">
+<tr><th>Ciência</th><td>Suas regras estão <span class="az">sistematizadas em um conjunto de normas e princípios</span>, formando a <b>dogmática jurídico-penal</b>.</td></tr>
+<tr><th>Cultural</th><td>Pertence às ciências do <span class="mk">"dever-ser"</span>: trata de como as pessoas <b>devem</b> se comportar e de como <b>devem</b> ser punidas. É o contrário das ciências naturais, que estudam o <b>"ser"</b> (o que acontece de fato).</td></tr>
+<tr><th>Normativa</th><td>O objeto de estudo do Direito Penal é a <span class="az">norma</span> - a lei penal, o Direito positivo -, que tem regras e princípios como espécies.</td></tr>
+<tr><th>Valorativa</th><td>Não funciona com regras matemáticas de certo ou errado: possui <span class="az">sua própria escala de valores</span>, sopesados segundo critérios e princípios próprios, e valoriza hierarquicamente as suas normas.</td></tr>
+<tr><th>Finalista</th><td>Tem <span class="az">finalidade prática</span>, e não meramente acadêmica. Na visão de Claus Roxin, essa finalidade é a <b>proteção de bens jurídicos</b> fundamentais.</td></tr>
+<tr><th>Sancionatória<br><span style="font-weight:600;text-transform:none">(predominantemente)</span></th><td>Em regra, o Direito Penal <span class="vm">não cria bens jurídicos</span>: ele <span class="az">acrescenta proteção penal a bens já disciplinados por outros ramos</span>. Ex.: a propriedade é regulada pelo Direito Civil; o crime de furto só reforça essa proteção. <b>Excepcionalmente</b>, pode ser <span class="mk">constitutivo</span>, quando protege interesses que nenhum outro ramo regula. Por isso "predominantemente".</td></tr>
+<tr><th>Fragmentária</th><td>Não tutela todos os valores ou interesses, <span class="az">só os mais importantes</span> para os indivíduos e a sociedade - e só contra os ataques mais graves. Ex.: o Código Penal pune o dano doloso (art. 163), mas <span class="vm">não pune o dano culposo</span>; quem quebra algo por descuido responde apenas na esfera civil.</td></tr>
+</table>
+
+<div class="atc"><div class="t">ATENÇÃO <svg viewBox="0 0 24 24"><path d="M12 2 1 21h22z" fill="none" stroke="#cc2229" stroke-width="2.2" stroke-linejoin="round"/><path d="M12 9v5" stroke="#cc2229" stroke-width="2.4" stroke-linecap="round"/><circle cx="12" cy="17.3" r="1.3" fill="#cc2229"/></svg></div>
+Dizer que o Direito Penal é uma ciência <b>finalista</b> <span class="vm">não tem nada a ver com a teoria finalista da ação</span>, de Hans Welzel (aquela da teoria do crime). Aqui "finalista" quer dizer apenas que ele tem uma <b>finalidade prática</b>: proteger bens jurídicos.
+<p class="small" style="margin:1.5mm 0 0">Correção em relação ao Gran: o texto original fala em "finalismo penal do sistema clássico". O finalismo é de Welzel; o sistema clássico é o causalismo.</p></div>
+
+<div class="nc"><b class="l">Não confunda · ser × dever-ser</b>O <b>Direito Penal</b> é ciência do <span class="mk">dever-ser</span> (normativa: estuda a norma). A <b>Criminologia</b> é ciência do <span class="mk">ser</span> (empírica: observa a realidade do crime, do criminoso, da vítima e do controle social). Esse contraste volta no capítulo 2 (Direito Penal × Criminologia × Política Criminal).</div>
+
+<div class="lembra"><b class="l">Para lembrar em uma frase</b>O Direito Penal é uma <b>ciência</b> que diz como as coisas <b>devem ser</b> (cultural), estuda <b>normas</b> (normativa), pesa <b>valores</b> (valorativa), tem um <b>fim prático</b> (finalista), <b>reforça</b> a proteção dada por outros ramos (sancionatória) e só protege <b>pedaços</b> escolhidos da vida social (fragmentária).</div>
+<div class="comp"><b class="l">Questão-sinal · Delegado PC-RS 2025</b>A banca juntou, na mesma questão, <b>fragmentariedade</b>, <b>subsidiariedade</b> e natureza <b>sancionatória</b>. A armadilha foi ampliar uma ideia verdadeira até torná-la absoluta: dizer que o caráter sancionatório permitiria ao Direito Penal <b>criar autonomamente novos bens jurídicos</b>. Para resolver, não basta decorar os rótulos; é preciso entender o limite de cada característica.</div>
+
+<div class="cards"><div class="hd">Perguntas do tópico 2</div>
+<div class="card"><div class="q">Quais são as características do Direito Penal segundo Masson?</div><div class="a"><p><b>Ciência cultural, normativa, valorativa, finalista, de natureza predominantemente sancionatória e fragmentária.</b></p></div></div>
+<div class="card"><div class="q">Por que o Direito Penal é considerado uma ciência "cultural"?</div><div class="a"><p>Porque pertence às ciências do <b>dever-ser</b>: trata de como as pessoas devem se comportar e de como devem ser punidas. As ciências naturais, ao contrário, estudam o "ser".</p></div></div>
+<div class="card"><div class="q">Direito Penal e Criminologia: qual é ciência do "ser" e qual é do "dever-ser"?</div><div class="a"><p><b>Direito Penal: dever-ser</b> (normativo, estuda a norma). <b>Criminologia: ser</b> (empírica, estuda a realidade do crime, do criminoso, da vítima e do controle social).</p></div></div>
+<div class="card"><div class="q">O que significa dizer que o Direito Penal é "normativo"?</div><div class="a"><p>Que o seu <b>objeto de estudo é a norma</b> - a lei penal, o Direito positivo -, com regras e princípios como espécies.</p></div></div>
+<div class="card"><div class="q">E "valorativo"?</div><div class="a"><p>Que ele não trabalha com certo ou errado matemático, mas com <b>uma escala própria de valores</b>, ponderados segundo critérios e princípios penais, e valoriza hierarquicamente as suas normas.</p></div></div>
+<div class="card"><div class="q">A característica "finalista" tem relação com a teoria finalista de Welzel?</div><div class="a"><p><b>Não.</b> Aqui "finalista" significa só que o Direito Penal tem <b>finalidade prática</b> (proteger bens jurídicos), e não meramente acadêmica. A teoria finalista da ação é outro assunto (teoria do crime).</p></div></div>
+<div class="card"><div class="q">Por que se diz que o Direito Penal é "predominantemente sancionador"?</div><div class="a"><p>Porque, em regra, <b>não cria bens jurídicos</b>: acrescenta proteção penal a bens já disciplinados por outros ramos. Ex.: a propriedade vem do Direito Civil; o furto reforça a sua proteção.</p></div></div>
+<div class="card"><div class="q">O Direito Penal pode ser constitutivo?</div><div class="a"><p><b>Excepcionalmente, sim</b>: quando protege interesses que nenhum outro ramo do Direito regula. É por isso que se diz "<b>predominantemente</b>" sancionador, e não "exclusivamente".</p></div></div>
+<div class="card"><div class="q">O que é o caráter fragmentário? Dê um exemplo.</div><div class="a"><p>O Direito Penal <b>não protege todos os bens e interesses, só os mais importantes, e só contra os ataques mais graves</b>. Ex.: o Código Penal pune o dano doloso (art. 163), mas não o dano culposo, que fica para a esfera civil.</p></div></div>
+</div>
+
+<div class="src">Fontes do tópico: Gran, PDF Sintético <i>Direito Penal, Criminologia e Política Criminal</i>, item 2.1 · DD 2026, cap. 1, b) Características (Masson) · Complemento: CP, art. 163.</div>
+</section>
+
+<section class="topic" data-t="3">
+<div class="th"><h2><span>3.</span> Objeto de proteção: o bem jurídico</h2><div class="pos">Tópico 3 de 6</div></div>
+
+<div class="min1"><b class="l">Em 1 minuto</b>O Direito Penal protege <span class="mk">bens jurídicos</span>, mas o conceito também funciona como <b>limite da criminalização</b>. O legislador escolhe o que proteger, porém <span class="vm">não livremente</span>: a <b>Constituição</b> orienta e limita essa escolha. Para Delegado, há um segundo nível importante: a <b>evolução da teoria do bem jurídico</b>, cobrada diretamente pela PF em 2025.</div>
+
+<h3 class="s"><span class="n">3.1</span> O que é bem jurídico</h3>
+<p>Na definição de <span class="au">Eugênio Pacelli</span>, bem jurídico-penal "(...) é a coisa, o valor, o atributo espiritual ou intelectual cujo usufruto e gozo são reconhecidos como significativamente relevantes. Primeiro, para o efetivo desenvolvimento pessoal de seu titular e, depois e em consequência, para todo o corpo social, de que é exemplo o <b>meio ambiente ecologicamente equilibrado</b>".</p>
+<p>Em linguagem de prova, a ideia central é esta: <span class="az">bem jurídico é o valor, interesse ou condição relevante que justifica a tutela penal</span>. A vida, a integridade física, a liberdade, o patrimônio e o meio ambiente são exemplos. A definição de Pacelli ajuda a compreender a noção, mas <b>não precisa ser decorada palavra por palavra</b>.</p>
+
+<h3 class="s"><span class="n">3.2</span> Quem escolhe - e com que limites</h3>
+<p>É o <b>legislador</b> quem seleciona os bens jurídicos que o Direito Penal vai defender. Para <span class="au">Claus Roxin</span>, porém, "um conceito de bem jurídico vinculante político-criminalmente só pode derivar dos <b>valores garantidos na Lei Fundamental</b>, do nosso Estado de Direito baseado na liberdade do indivíduo, através dos quais são marcados os limites da atividade punitiva do Estado".</p>
+<p>Por isso <span class="vm">NÃO se pode falar em discricionariedade ampla e irrestrita</span> do legislador: os bens mais importantes já estão tratados na Constituição, que cumpre uma dupla missão:</p>
+<div class="flow">
+ <div><b>Orienta o legislador</b>Indica os valores indispensáveis à manutenção da sociedade. Nos <span class="mk">mandados de criminalização</span>, o legislador não tem a faculdade, e sim a <b>obrigação</b> de proteger penalmente certos bens, de forma adequada e, dentro do possível, integral. → cap. 7 (legalidade)</div>
+ <div><b>Limita o legislador</b>Impede que ele viole os direitos fundamentais atribuídos a toda pessoa humana - é a <span class="mk">visão garantista</span> do Direito Penal. → cap. 4 (garantismo)</div>
+</div>
+
+<div class="comp"><b class="l">Complemento · mandados expressos de criminalização na CF</b>Art. 5º, <b>XLI</b> (discriminação atentatória a direitos e liberdades fundamentais), <b>XLII</b> (racismo), <b>XLIII</b> (tortura, tráfico, terrorismo e crimes hediondos), <b>XLIV</b> (ação de grupos armados contra a ordem constitucional); art. 7º, <b>X</b> (retenção dolosa do salário); art. 216, <b>§4º</b> (danos e ameaças ao patrimônio cultural); art. 225, <b>§3º</b> (condutas lesivas ao meio ambiente); art. 227, <b>§4º</b> (abuso, violência e exploração sexual de criança e adolescente). O detalhamento fica no cap. 7.</div>
+
+<div class="dlg"><b class="l">Delegado+ · espiritualização dos bens jurídicos</b>Com o tempo, o Direito Penal passou a proteger também bens <b>supraindividuais</b> - coletivos e difusos, como o meio ambiente, a ordem econômica e a saúde pública. Esse fenômeno é chamado de <span class="mk">espiritualização, desmaterialização ou liquefação</span> dos bens jurídicos. <span class="vm">Pegadinha</span> (Delegado PC-PA 2021): chamar de "desmaterialização" o fato de uma conduta deixar de interessar ao Direito Penal está errado - isso se aproxima da chamada <b>fragmentariedade às avessas</b> (cap. 7).</div>
+
+<h3 class="s"><span class="n">3.3</span> Evolução da teoria do bem jurídico <span class="tag d">Delegado+</span></h3>
+<p>Esse bloco não está aqui por preciosismo histórico. Em 2025, a prova de <b>Delegado da PF</b> cobrou três itens seguidos sobre a teoria do bem jurídico. O melhor jeito de estudar é enxergar uma <b>linha de mudança</b>, e não decorar autores soltos:</p>
+
+<table class="lt">
+<tr><th>Feuerbach</th><td>O ponto de partida ainda é a <b>lesão de um direito subjetivo</b>. Serve como etapa anterior ao conceito moderno de bem jurídico.</td></tr>
+<tr><th><span class="mk">Birnbaum · 1834</span></th><td>É associado à <b>criação do conceito de bem jurídico</b>, deslocando o foco do direito subjetivo para o <b>bem</b> protegido.</td></tr>
+<tr><th>Binding</th><td>Concepção positivista: o bem jurídico é fortemente ligado à <b>valoração feita pela própria norma</b>.</td></tr>
+<tr><th>Franz von Liszt</th><td>O interesse existe na <b>vida social</b> e depois recebe reconhecimento jurídico; o bem não nasce simplesmente da vontade do legislador.</td></tr>
+<tr><th><span class="mk">Concepção metodológica</span></th><td>O bem jurídico passa a funcionar como <b>ratio legis</b>, isto é, como sentido/finalidade da norma e critério de interpretação. É justamente aqui que a PF tentou fazer a troca com Birnbaum.</td></tr>
+<tr><th>Concepções constitucionais</th><td>Recuperam a capacidade <b>crítica e limitadora</b> do conceito: a criminalização deve encontrar fundamento compatível com a Constituição e com o Estado de Direito.</td></tr>
+</table>
+
+<div class="atc"><div class="t">CAIU · PF 2025 <svg viewBox="0 0 24 24"><path d="M12 2 1 21h22z" fill="none" stroke="#cc2229" stroke-width="2.2" stroke-linejoin="round"/><path d="M12 9v5" stroke="#cc2229" stroke-width="2.4" stroke-linecap="round"/><circle cx="12" cy="17.3" r="1.3" fill="#cc2229"/></svg></div>
+A banca montou uma <b>meia-verdade</b>: atribuiu corretamente a Birnbaum a criação do conceito, mas colou nele a ideia de bem jurídico como <i>ratio legis</i>, que pertence à <b>concepção metodológica</b>. Essa é exatamente a espécie de detalhe que merece memória ativa porque já foi transformado em distrator real.</div>
+
+<h3 class="s"><span class="n">3.4</span> Função crítica, bens aparentes e limite ao paternalismo</h3>
+<p>O bem jurídico não serve apenas para organizar tipos penais. Ele exerce uma <span class="mk">função crítica</span>: permite perguntar se determinada criminalização protege algo suficientemente relevante para justificar a intervenção penal. Quanto mais vago for o bem invocado, menor pode ser a capacidade de o conceito funcionar como limite.</p>
+
+<div class="flow">
+ <div><b>Bem coletivo legítimo</b>Há um interesse supraindividual autônomo que justifica tutela penal, como ocorre com determinados bens ambientais ou econômicos.</div>
+ <div><b>Bem jurídico aparente</b>O rótulo coletivo pode esconder apenas a soma de bens individuais ou ser tão indeterminado que perde força crítica. A PF/2025 explorou exemplos como <b>"segurança pública"</b> e <b>"paz pública"</b> nessa discussão.</div>
+</div>
+
+<div class="nc"><b class="l">Não confunda · Constituição ≠ criminalização automática</b>A Constituição é <b>fonte e limite</b> da tutela penal, mas <span class="vm">nem todo interesse constitucionalmente protegido precisa virar crime</span>. A pena continua submetida à necessidade, à fragmentariedade e à subsidiariedade. Os <b>mandados expressos de criminalização</b> são situação diferente.</div>
+
+<div class="comp"><b class="l">Reconhecimento · paternalismo e dano a terceiros</b>A teoria do bem jurídico também dialoga com a crítica ao <b>paternalismo penal rígido</b>: o simples propósito de proteger uma pessoa contra si mesma não basta, por si só, para legitimar criminalização. A ideia se relaciona ao <i>harm principle</i>, associado a John Stuart Mill. <b>Entenda a lógica</b>; o aprofundamento fica para o ponto próprio de ofensividade/paternalismo.</div>
+
+<div class="cards"><div class="hd">Perguntas do tópico 3 <span>núcleo + cobrança real de Delegado</span></div>
+<div class="card"><div class="q">O que é bem jurídico e por que ele importa para o Direito Penal?</div><div class="a"><p>É o <b>valor, interesse ou condição relevante protegido pelo Direito Penal</b>. Além de indicar o objeto da tutela, o conceito exerce função <b>crítica</b>: ajuda a limitar criminalizações que não protejam algo suficientemente relevante.</p></div></div>
+<div class="card"><div class="q">Quem escolhe os bens jurídicos protegidos penalmente? Essa escolha é livre?</div><div class="a"><p>O <b>legislador</b> faz a seleção, mas <b>não possui liberdade irrestrita</b>. A Constituição orienta a proteção de valores fundamentais e, ao mesmo tempo, limita o poder punitivo.</p></div></div>
+<div class="card"><div class="q">Qual é a dupla função da Constituição na tutela dos bens jurídicos?</div><div class="a"><p><b>Orientar</b> a escolha de bens relevantes e <b>limitar</b> a criminalização por meio dos direitos fundamentais e das garantias do Estado de Direito.</p></div></div>
+<div class="card"><div class="q">Todo valor previsto na Constituição exige tutela penal?</div><div class="a"><p><b>Não.</b> A proteção constitucional não gera criminalização automática. A intervenção penal ainda depende de necessidade, fragmentariedade e subsidiariedade, salvo hipóteses em que a própria Constituição estabelece mandado de criminalização.</p></div></div>
+<div class="card"><div class="q">O que é espiritualização, desmaterialização ou liquefação dos bens jurídicos?</div><div class="a"><p>É a ampliação da tutela para <b>bens supraindividuais, coletivos ou difusos</b>, como meio ambiente, ordem econômica e saúde pública. Não significa que uma conduta deixou de interessar ao Direito Penal.</p></div></div>
+<div class="card"><div class="q">Quem é associado à criação do conceito de bem jurídico e qual pegadinha a PF cobrou em 2025?</div><div class="a"><p><b>Johann Birnbaum.</b> A PF misturou corretamente seu nome à criação do conceito, mas atribuiu a ele a noção de bem jurídico como <b>ratio legis</b>, que pertence à <b>concepção metodológica</b>.</p></div></div>
+<div class="card"><div class="q">O que caracteriza a concepção metodológica do bem jurídico?</div><div class="a"><p>Ela trata o bem jurídico como <b>ratio legis</b>, isto é, como sentido/finalidade da norma e critério de interpretação.</p></div></div>
+<div class="card"><div class="q">O que são bens jurídicos aparentes?</div><div class="a"><p>São rótulos que <b>não identificam com clareza um bem coletivo autônomo</b> ou são tão indeterminados que enfraquecem a função crítica da teoria. A PF/2025 cobrou essa discussão.</p></div></div>
+</div>
+
+<div class="lembra"><b class="l">Reconhecimento rápido · sem multiplicar cartões</b>
+<b>Feuerbach:</b> direito subjetivo. &nbsp;•&nbsp;
+<b>Binding:</b> valoração normativa. &nbsp;•&nbsp;
+<b>Liszt:</b> interesse social reconhecido pelo Direito. &nbsp;•&nbsp;
+<b>Mandados de criminalização:</b> saiba o conceito; os dispositivos detalhados voltam no capítulo próprio.
+</div>
+
+<div class="src">Fontes do tópico: DD 2026, cap. 1, c) Objeto de proteção (Pacelli; Roxin) · Gran, PDF Sintético <i>Direito Penal – Parte Geral</i>, questão 004 comentada (PC-PA 2021) · Complementos: CF, arts. 5º, XLI a XLIV, 7º, X, 216, §4º, 225, §3º, e 227, §4º.</div>
+</section>
+<section class="topic" data-t="4">
+<div class="th"><h2><span>4.</span> Evolução histórica do Direito Penal</h2><div class="pos">Tópico 4 de 6</div></div>
+
+<div class="min1"><b class="l">Em 1 minuto</b>A linha geral é: <b>vinganças</b> (privada → divina → pública) → <b>Iluminismo e período humanitário</b> → <b>escolas penais</b> → <b>constitucionalização do Direito Penal</b>. Para Delegado, o bloco mais importante são as <span class="mk">escolas</span>: Clássica, Positiva e Terza Scuola, sem esquecer algumas escolas posteriores usadas pela banca como cobrança direta ou distrator.</div>
+
+<div class="comp"><b class="l">Por que este bloco merece espaço</b>O edital da <b>PCDF 2026</b> trouxe expressamente “evolução epistemológica do Direito Penal” e “escolas penais”. Além disso, escolas aparecem reiteradamente em provas de Delegado de diferentes estados. Portanto, aqui não é história decorativa: é conteúdo efetivamente examinável.</div>
+
+<h3 class="s"><span class="n">4.1</span> Das vinganças ao limite da punição</h3>
+<p>As fases históricas ajudam a perceber uma transformação central: a reação ao delito sai de uma resposta privada e ilimitada e caminha, progressivamente, para a <b>centralização do poder de punir</b> e depois para a sua <b>limitação jurídica</b>.</p>
+
+<table class="lt">
+<tr><th>Vingança privada</th><td>A própria vítima ou seu grupo reage contra o agressor. A resposta podia atingir também o grupo do ofensor e era frequentemente <span class="vm">desproporcional</span>.</td></tr>
+<tr><th>Vingança divina</th><td>A punição se vincula fortemente à <b>religião</b>; autoridades religiosas aplicam sanções vistas como forma de expiação ou purificação.</td></tr>
+<tr><th>Vingança pública</th><td>O poder de punir se concentra no <b>soberano</b>. Há centralização estatal, mas ainda com forte crueldade e arbítrio.</td></tr>
+</table>
+
+<div class="comp"><b class="l">Talião e composição: por que aparecem nos livros?</b>Porque representam tentativas primitivas de <b>limitar a reação</b>. O talião impõe proporcionalidade entre ofensa e resposta; a composição permite substituir a vingança por reparação. Não é preciso transformar cada detalhe histórico em cartão: entenda a mudança de lógica.</div>
+
+<h3 class="s"><span class="n">4.2</span> Período Humanitário e Beccaria</h3>
+<p>O Iluminismo reage à crueldade e ao arbítrio do Antigo Regime. O nome central é <span class="au">Cesare Beccaria</span>, autor de <i>Dos Delitos e das Penas</i> (1764). Para prova, Beccaria não pode ser reduzido à palavra “humanização”. A banca explora as consequências práticas de sua posição.</p>
+
+<table class="lt">
+<tr><th>Legalidade</th><td>Crimes e penas devem ser previamente definidos pela lei.</td></tr>
+<tr><th>Proporcionalidade e moderação</th><td>A reação penal não deve reproduzir a crueldade que pretende combater.</td></tr>
+<tr><th>Tortura</th><td>Rejeitada.</td></tr>
+<tr><th>Certeza × severidade</th><td>A <span class="mk">certeza</span> de uma pena moderada tem maior força preventiva que a ameaça de punição extrema acompanhada da expectativa de impunidade.</td></tr>
+<tr><th>Finalidade da pena</th><td>Predominantemente <b>utilitária/preventiva</b>: impedir novos danos e desestimular delitos.</td></tr>
+</table>
+
+<div class="nc"><b class="l">Não confunda · Beccaria × Kant/Hegel</b><b>Beccaria</b> olha para a utilidade e a prevenção. <b>Kant e Hegel</b> são referências das teorias retributivas, voltadas à pena como resposta ao mal praticado. Essa troca já apareceu em prova de Delegado.</div>
+
+<h3 class="s"><span class="n">4.3</span> Clássica × Positiva × Terza Scuola</h3>
+<p>Esta é a tabela central do tópico. Leia <b>por linha</b>. Cada linha corresponde a uma operação que a banca costuma fazer: trocar método, fundamento, autor, objeto ou função da pena.</p>
+
+<table class="cmp">
+<thead><tr><th></th><th>Escola Clássica</th><th>Escola Positiva</th><th>Terza Scuola / Eclética</th></tr></thead>
+<tbody>
+<tr><th>Liberdade / determinação</th><td><span class="az">Livre-arbítrio</span>: o indivíduo é capaz de escolher sua conduta</td><td><span class="vm">Determinismo</span>: fatores biológicos, psicológicos e sociais condicionam o comportamento</td><td><b>Determinismo psicológico</b>, sem retornar simplesmente ao livre-arbítrio clássico; preserva a estrutura da responsabilidade moral/imputabilidade em formulação própria</td></tr>
+<tr><th>Crime</th><td><span class="mk">Ente jurídico</span>, violação da ordem jurídica</td><td>Fenômeno <b>natural e social</b></td><td>Fenômeno jurídico com causas também sociais e individuais</td></tr>
+<tr><th>Foco</th><td>O <b>fato/crime</b></td><td>O <b>criminoso</b> e sua periculosidade</td><td>Busca uma posição intermediária</td></tr>
+<tr><th>Método</th><td><b>Racional / lógico-dedutivo</b></td><td><span class="mk">Empírico / observacional</span></td><td>Combinação de elementos das correntes anteriores</td></tr>
+<tr><th>Responsabilidade</th><td>Responsabilidade moral ligada ao livre-arbítrio</td><td>Responsabilidade social e periculosidade, em chave determinista</td><td>Mantém imputabilidade e responsabilidade moral sem simplesmente restaurar o fundamento clássico do livre-arbítrio</td></tr>
+<tr><th>Resposta penal</th><td>Na fase jurídica de Carrara, pena retributiva e proporcional</td><td>Defesa social, prevenção e tratamento/readaptação</td><td>Distingue resposta a imputáveis e inimputáveis e incorpora a <span class="mk">medida de segurança</span></td></tr>
+<tr><th>Nomes</th><td><span class="au">Beccaria</span> como base filosófica/precursor; <span class="au">Carrara</span> na fase jurídica</td><td><span class="au">Lombroso</span>, <span class="au">Ferri</span>, <span class="au">Garofalo</span></td><td><span class="au">Carnevale</span>, <span class="au">Alimena</span>, <span class="au">Impallomeni</span></td></tr>
+</tbody></table>
+
+<div class="atc"><div class="t">CORREÇÃO IMPORTANTE <svg viewBox="0 0 24 24"><path d="M12 2 1 21h22z" fill="none" stroke="#cc2229" stroke-width="2.2" stroke-linejoin="round"/><path d="M12 9v5" stroke="#cc2229" stroke-width="2.4" stroke-linecap="round"/><circle cx="12" cy="17.3" r="1.3" fill="#cc2229"/></svg></div>
+A versão anterior simplificava a Terza Scuola como se ela simplesmente “admitisse livre-arbítrio”. Essa formulação é inadequada. Para estudo de Delegado, guarde: <b>Terza Scuola = tentativa de superação do antagonismo Clássica × Positiva + determinismo psicológico + manutenção da imputabilidade/responsabilidade moral + medida de segurança</b>.</div>
+
+<h4>A Escola Clássica não é uma fotografia única</h4>
+<p>É útil distinguir duas fases. Na <b>fase filosófica/teórica</b>, Beccaria apresenta uma visão utilitária e preventiva da pena. Na <b>fase jurídica/prática</b>, Carrara consolida o crime como ente jurídico e a pena retributiva/proporcional. Isso evita a falsa conclusão de que tudo o que se chama “Clássica” possui exatamente a mesma teoria da pena.</p>
+
+<h4>A Escola Positiva em três nomes</h4>
+<table class="lt">
+<tr><th>Lombroso · fase antropológica</th><td>Busca explicações biológicas e antropológicas para o delito; é associado à figura do <b>criminoso nato</b>.</td></tr>
+<tr><th>Ferri · fase sociológica</th><td>Amplia a explicação para fatores sociais, além dos individuais.</td></tr>
+<tr><th>Garofalo · fase jurídica</th><td>Sistematiza juridicamente o positivismo e trabalha com conceitos como periculosidade e delito natural.</td></tr>
+</table>
+
+<div class="nc"><b class="l">Não confunda · duas “fases jurídicas”</b><b>Carrara</b> é o nome da fase jurídica da <b>Escola Clássica</b>. <b>Garofalo</b> representa a fase jurídica da <b>Escola Positiva</b>. A banca gosta desse embaralhamento.</div>
+
+<h3 class="s"><span class="n">4.4</span> Outras escolas que Delegado realmente usa</h3>
+<p>Estas correntes não merecem o mesmo peso das três anteriores, mas não podem desaparecer: há cobrança real. Aqui o objetivo é <b>reconhecer o traço distintivo</b> e evitar troca de autores.</p>
+
+<table class="lt">
+<tr><th>Moderna Alemã / Política Criminal<br><span class="au">Franz von Liszt</span></th><td>Integra dogmática, criminologia e política criminal. A expressão <b>“ciência total do Direito Penal”</b> foi cobrada em prova de Delegado. Forte orientação preventiva.</td></tr>
+<tr><th>Correcionalista<br><span class="au">Röder; Dorado Montero</span></th><td>O criminoso é visto como sujeito a ser <b>corrigido</b>; a pena assume função corretiva/ressocializadora.</td></tr>
+<tr><th>Técnico-jurídica<br><span class="au">Arturo Rocco; Manzini</span></th><td>Centralidade do <b>Direito positivo</b> e do método técnico-jurídico. Rejeita misturar a dogmática com explicações biológicas ou sociológicas do delito.</td></tr>
+<tr><th>Defesa Social<br><span class="au">Filippo Gramatica</span></th><td>Vertente radical, propõe substituir categorias penais tradicionais por medidas de defesa social.</td></tr>
+<tr><th>Nova Defesa Social<br><span class="au">Marc Ancel</span></th><td>Vertente mais moderada e humanista: mantém Direito Penal e garantias, com ênfase em ressocialização e proteção social.</td></tr>
+</table>
+
+<div class="caiu"><b class="l">Caiu · Delegado PC-CE 2025</b>A questão misturou escolas e autores em todas as alternativas: Lombroso foi colocado na técnico-jurídica, Carrara na Moderna Alemã, método empírico na Clássica e livre-arbítrio na Positiva. A correta descreveu a Terza Scuola como tentativa de superar o antagonismo entre Clássica e Positiva. <b>É por isso que a tabela acima trabalha por contrastes.</b></div>
+
+<h3 class="s"><span class="n">4.5</span> Período contemporâneo</h3>
+<p>O Direito Penal contemporâneo é marcado pela <span class="mk">constitucionalização</span>: o poder punitivo passa a ser lido à luz dos direitos fundamentais, da legalidade, da proporcionalidade e dos limites próprios do Estado Democrático de Direito. Discussões como minimalismo, expansionismo, garantismo e Direito Penal do Inimigo serão retomadas nos capítulos próprios.</p>
+
+<h3 class="s"><span class="n">4.6</span> Linha histórica brasileira</h3>
+<p>Aqui vale uma linha cronológica curta, porque a banca já cobrou fatos específicos. Não é necessário transformar cada diploma em microcapítulo.</p>
+
+<div class="tl">
+ <div class="y">Colônia</div><div>Ordenações <b>Afonsinas → Manuelinas → Filipinas</b>.</div>
+ <div class="y">1824</div><div><b>Constituição do Império</b>: marco histórico usado em prova para a pessoalidade da pena e limitação de penas cruéis.</div>
+ <div class="y">1830</div><div><b>Código Criminal do Império</b>, primeiro código penal brasileiro.</div>
+ <div class="y">1890</div><div><b>Código Penal da República</b>.</div>
+ <div class="y">1932</div><div><b>Consolidação das Leis Penais</b>, de Vicente Piragibe.</div>
+ <div class="y">1940</div><div><span class="mk">Código Penal vigente</span>, Decreto-Lei 2.848/1940, em vigor desde 1942. O projeto-base é associado a <b>Alcântara Machado</b>, ponto cobrado pela Vunesp em Delegado PC-SP 2023.</div>
+ <div class="y">1969</div><div>Decreto-Lei 1.004/1969: <span class="vm">nunca entrou em vigor</span>.</div>
+ <div class="y">1984</div><div><b>Lei 7.209/1984</b>: substitui a Parte Geral do Código Penal.</div>
+</div>
+
+<div class="comp"><b class="l">Atualização legislativa</b>A Parte Especial atualmente contém também os crimes contra o <b>Estado Democrático de Direito</b>. Como a numeração e o conteúdo podem sofrer alterações legislativas, o material final deve puxar a referência do texto oficial vigente, em vez de exigir memorização de um “último artigo” como se fosse dado eterno.</div>
+
+<div class="cards"><div class="hd">Perguntas do tópico 4 <span>curtas, mas encadeadas</span></div>
+<div class="card"><div class="q">Qual é a sequência tradicional das fases da vingança?</div><div class="a"><p><b>Privada → divina → pública.</b> A sequência mostra a passagem da reação da vítima/grupo para a centralização do poder de punir.</p></div></div>
+<div class="card"><div class="q">Por que talião e composição são vistos como avanços históricos?</div><div class="a"><p>Porque introduzem <b>limites à vingança</b>: o talião trabalha com proporcionalidade e a composição substitui a retaliação por reparação.</p></div></div>
+<div class="card"><div class="q">O que caracteriza o período humanitário e quem é seu principal nome?</div><div class="a"><p>A reação iluminista contra crueldade e arbítrio. O principal nome é <b>Cesare Beccaria</b>, autor de <i>Dos Delitos e das Penas</i> (1764).</p></div></div>
+<div class="card"><div class="q">Para Beccaria, pesa mais a severidade ou a certeza da punição?</div><div class="a"><p>A <b>certeza</b> da punição. Sua visão é predominantemente utilitária/preventiva, e não de simples retribuição.</p></div></div>
+<div class="card"><div class="q">Qual é a estrutura básica da Escola Clássica?</div><div class="a"><p><b>Livre-arbítrio + crime como ente jurídico + método racional/lógico-dedutivo.</b> Na fase jurídica de Carrara, a pena aparece como retributiva e proporcional.</p></div></div>
+<div class="card"><div class="q">Qual é a estrutura básica da Escola Positiva?</div><div class="a"><p><b>Determinismo + foco no criminoso/periculosidade + método empírico.</b> A pena é vista como instrumento de defesa social e prevenção.</p></div></div>
+<div class="card"><div class="q">Quem são os três grandes nomes da Escola Positiva e o que cada um representa?</div><div class="a"><p><b>Lombroso</b>: fase antropológica. <b>Ferri</b>: fase sociológica. <b>Garofalo</b>: fase jurídica.</p></div></div>
+<div class="card"><div class="q">Carrara e Garofalo representam a mesma “fase jurídica”?</div><div class="a"><p><b>Não.</b> Carrara é fase jurídica da <b>Clássica</b>; Garofalo, fase jurídica da <b>Positiva</b>.</p></div></div>
+<div class="card"><div class="q">O que a Terza Scuola tenta fazer?</div><div class="a"><p>Superar o antagonismo entre Clássica e Positiva, combinando elementos das duas e mantendo a estrutura da imputabilidade, com espaço para <b>medidas de segurança</b>.</p></div></div>
+<div class="card"><div class="q">A Terza Scuola simplesmente restaura o livre-arbítrio clássico?</div><div class="a"><p><b>Não.</b> A formulação correta trabalha com <b>determinismo psicológico</b>, preservando responsabilidade moral/imputabilidade em chave própria.</p></div></div>
+<div class="card"><div class="q">O que identifica a Escola Moderna Alemã e quem é seu nome central?</div><div class="a"><p><b>Franz von Liszt.</b> Integra dogmática, criminologia e política criminal e está ligado à ideia de “ciência total do Direito Penal”.</p></div></div>
+<div class="card"><div class="q">Qual escola é associada a Arturo Rocco e o que ela privilegia?</div><div class="a"><p>A <b>técnico-jurídica</b>, centrada no Direito positivo e no método técnico-jurídico.</p></div></div>
+<div class="card"><div class="q">Qual é a linha mínima da história penal brasileira que vale recuperar?</div><div class="a"><p><b>Ordenações → Constituição de 1824 → Código Criminal de 1830 → Código de 1890 → Consolidação de 1932 → Código Penal de 1940 → código de 1969 que não vigorou → reforma da Parte Geral em 1984.</b></p></div></div>
+<div class="card"><div class="q">Quem elaborou o projeto associado à origem do Código Penal de 1940?</div><div class="a"><p><b>Alcântara Machado.</b> Esse fato foi cobrado diretamente em prova de Delegado PC-SP.</p></div></div>
+</div>
+
+<div class="lembra"><b class="l">Reconhecimento rápido</b>
+<b>Correcionalista:</b> correção do delinquente. &nbsp;•&nbsp;
+<b>Defesa Social:</b> Gramatica, vertente radical. &nbsp;•&nbsp;
+<b>Nova Defesa Social:</b> Marc Ancel, versão moderada/humanista. &nbsp;•&nbsp;
+<b>Tipologia de Lombroso:</b> fica disponível para reconhecimento e sobe para memória ativa se a banca-alvo insistir no ponto.
+</div>
+
+<div class="src">Fontes do tópico: Gran Sintético + DD 2026 · Corpus oficial de Delegado: PC-CE 2025, PC-PI 2026, PC-MG 2025, PC-SC 2024, PC-SP 2023, PC-PB 2022, PC-PA 2021, entre outras · Edital PCDF 2026: evolução epistemológica e escolas penais expressamente previstas · Texto legal vigente conferido quando pertinente.</div>
+</section><section class="topic" data-t="5">
+<div class="th"><h2><span>5.</span> Funções (missão) do Direito Penal</h2><div class="pos">Tópico 5 de 6</div></div>
+
+<div class="min1"><b class="l">Em 1 minuto</b>A missão <b>mediata</b> combina <span class="mk">controle social</span> e <span class="mk">limitação do poder punitivo</span>. Na missão <b>imediata</b>, o contraste mais cobrado é <b>Roxin × Jakobs</b>: proteção de bens jurídicos × vigência da norma. Entre as demais funções, a <b>simbólica</b> tem cobrança direta importante, e a <b>promocional</b> exige cuidado porque a banca já explorou a controvérsia.</div>
+
+<h3 class="s"><span class="n">5.1</span> Missão mediata: controlar e limitar</h3>
+<p>O Direito Penal trabalha em duas direções ao mesmo tempo. Ele participa do controle social, mas também <b>limita o próprio Estado</b>. Uma sem a outra produz uma visão incompleta do sistema.</p>
+
+<table class="lt">
+<tr><th>Controle social</th><td>Contribui para preservar a convivência social ao proibir determinadas condutas e prever consequências jurídicas para sua prática.</td></tr>
+<tr><th>Limitação do poder de punir</th><td>Funciona como <b>garantia contra o arbítrio</b>: o Estado só pode punir nos limites previamente estabelecidos pelo ordenamento.</td></tr>
+</table>
+
+<div class="lembra"><b class="l">Imagem clássica</b><span class="au">Franz von Liszt</span>: o Código Penal é a <span class="mk">“Magna Carta do delinquente”</span>. A ideia é simples: antes de autorizar punições, a lei penal também diz <b>quando o Estado não pode punir</b>.</div>
+
+<h3 class="s"><span class="n">5.2</span> Missão imediata: Roxin × Jakobs</h3>
+<p>Este contraste já apareceu de forma direta em prova de Delegado. O melhor jeito de estudar não é decorar seis apelidos doutrinários, mas entender <b>qual problema cada autor coloca no centro</b>.</p>
+
+<table class="cmp">
+<thead><tr><th>Ponto</th><th>Claus Roxin</th><th>Günther Jakobs</th></tr></thead>
+<tbody>
+<tr><th>Funcionalismo</th><td>Teleológico / moderado</td><td>Sistêmico / radical</td></tr>
+<tr><th>Missão central</th><td><span class="mk">Proteção de bens jurídicos relevantes</span></td><td><span class="mk">Garantia da vigência da norma</span></td></tr>
+<tr><th>Raciocínio</th><td>O sistema penal deve ser orientado por finalidades político-criminais e pela necessidade de tutela de bens.</td><td>A pena reafirma expectativas normativas e demonstra que a norma continua válida apesar de sua violação.</td></tr>
+<tr><th>Conexões</th><td>Bem jurídico, política criminal, funcionalismo teleológico</td><td>Prevenção geral positiva, sistema normativo, Direito Penal do Inimigo</td></tr>
+</tbody></table>
+
+<div class="caiu"><b class="l">Caiu · Delegado PC-SP 2023</b>A Vunesp perguntou diretamente pela função do Direito Penal. A alternativa correta foi a <b>proteção de bens jurídicos relevantes para a sociedade</b>, isto é, a formulação associada a Roxin. O distrator mais sedutor confundia a <b>função</b> do Direito Penal com seus <b>instrumentos</b>, pena e medida de segurança.</div>
+
+<div class="nc"><b class="l">Não antecipe o capítulo seguinte</b>O <b>Direito Penal do Inimigo</b> é desdobramento relevante de Jakobs, mas não precisa ser estudado integralmente aqui. Neste capítulo, basta reconhecer a conexão <b>Jakobs → vigência da norma → prevenção geral positiva → Direito Penal do Inimigo</b>. A teoria completa fica no ponto próprio.</div>
+
+<h3 class="s"><span class="n">5.3</span> Outras funções: o que distinguir em prova</h3>
+<p>Estas funções são cobradas principalmente por <b>descrição → identificação do rótulo</b> e por troca de conceitos próximos.</p>
+
+<table class="lt">
+<tr><th>Ético-social</th><td>Relaciona o Direito Penal à proteção ou reforço de valores ético-sociais mínimos. A crítica é transformar a pena em instrumento de educação moral.</td></tr>
+<tr><th><span class="mk">Simbólica</span></th><td>A lei produz sobretudo <b>efeito de percepção ou mensagem</b>, sem necessariamente resolver o problema concreto. No material de Masson, liga-se ao “Direito Penal do terror”, à inflação legislativa e à hipertrofia punitiva.</td></tr>
+<tr><th>Motivadora</th><td>A <b>ameaça de sanção</b> influencia comportamentos e estimula observância da norma.</td></tr>
+<tr><th>Redução da violência estatal</th><td>Parte da ideia de que a própria pena é uma forma de violência estatal e, por isso, deve ficar restrita aos casos necessários e juridicamente legitimados.</td></tr>
+<tr><th><span class="mk">Promocional</span></th><td>Expressão usada para a ideia de o Direito Penal atuar como instrumento de transformação social. <b>É tema controvertido</b> e não deve ser apresentado como missão primária consensual do sistema.</td></tr>
+</table>
+
+<div class="caiu"><b class="l">Caiu · Delegado PC-RO 2022</b>O Cebraspe descreveu uma função que não produz efeitos externos concretos, mas atua na percepção de governantes e cidadãos e se manifesta na inflação legislativa e na hipertrofia penal. Resposta: <b>função simbólica</b>.</div>
+
+<div class="atc"><div class="t">CUIDADO · PC-RS 2025 <svg viewBox="0 0 24 24"><path d="M12 2 1 21h22z" fill="none" stroke="#cc2229" stroke-width="2.2" stroke-linejoin="round"/><path d="M12 9v5" stroke="#cc2229" stroke-width="2.4" stroke-linecap="round"/><circle cx="12" cy="17.3" r="1.3" fill="#cc2229"/></svg></div>
+A Fundatec considerou errada a formulação expansiva segundo a qual o Direito Penal teria função promocional de transformação social <b>superando</b> a proteção de bens jurídicos. Portanto, estude assim: <b>saiba reconhecer a expressão “função promocional”, mas não a trate como missão primária pacífica nem como autorização para expansão ilimitada do sistema penal</b>.</div>
+
+<div class="nc"><b class="l">Não confunda · simbólica × motivadora</b><b>Simbólica:</b> efeito de mensagem/percepção, frequentemente criticado pela ausência de solução concreta. <b>Motivadora:</b> a ameaça de sanção busca influenciar diretamente o comportamento do destinatário.</div>
+
+<div class="cards"><div class="hd">Perguntas do tópico 5 <span>o que vale recuperar sem consultar</span></div>
+<div class="card"><div class="q">Quais são as duas dimensões da missão mediata do Direito Penal?</div><div class="a"><p><b>Controle social</b> e <b>limitação do poder de punir</b>. O sistema participa da preservação da ordem e, ao mesmo tempo, protege o indivíduo contra o arbítrio estatal.</p></div></div>
+<div class="card"><div class="q">O que significa a frase de Liszt de que o Código Penal é a “Magna Carta do delinquente”?</div><div class="a"><p>Que a lei penal também funciona como <b>garantia do indivíduo contra o Estado</b>, definindo previamente os limites da punição.</p></div></div>
+<div class="card"><div class="q">Para Roxin, qual é a missão central do Direito Penal?</div><div class="a"><p>A <b>proteção de bens jurídicos relevantes</b>, dentro de uma construção funcional orientada por finalidades político-criminais.</p></div></div>
+<div class="card"><div class="q">Para Jakobs, qual é a missão central do Direito Penal?</div><div class="a"><p><b>Assegurar a vigência da norma</b> e reafirmar as expectativas normativas do sistema.</p></div></div>
+<div class="card"><div class="q">Qual contraste resolve a maior parte das questões sobre Roxin e Jakobs?</div><div class="a"><p><b>Roxin → bem jurídico.</b> <b>Jakobs → vigência da norma.</b> Os demais rótulos servem para aprofundar essa diferença, não para substituí-la.</p></div></div>
+<div class="card"><div class="q">O que é a função simbólica?</div><div class="a"><p>É a função em que a legislação produz principalmente <b>efeito de mensagem ou percepção</b>, sem necessariamente gerar solução concreta do problema.</p></div></div>
+<div class="card"><div class="q">Qual a diferença entre função simbólica e motivadora?</div><div class="a"><p><b>Simbólica:</b> efeito predominantemente perceptivo/político. <b>Motivadora:</b> a ameaça de sanção busca orientar comportamentos.</p></div></div>
+<div class="card"><div class="q">Como tratar a função promocional em prova?</div><div class="a"><p>Reconheça a ideia de <b>transformação social</b>, mas marque a controvérsia: não é seguro apresentá-la como missão primária consensual nem como função superior à proteção de bens jurídicos.</p></div></div>
+</div>
+
+<div class="lembra"><b class="l">Reconhecimento rápido</b>
+<b>Roxin:</b> teleológico/moderado, bem jurídico. &nbsp;•&nbsp;
+<b>Jakobs:</b> sistêmico/radical, vigência da norma. &nbsp;•&nbsp;
+<b>Ético-social:</b> valores mínimos. &nbsp;•&nbsp;
+<b>Redução da violência estatal:</b> uso penal restrito ao necessário.
+</div>
+
+<div class="src">Fontes do tópico: Gran Sintético + DD 2026 · Provas oficiais/confirmadas do banco: PC-SP 2023 (Roxin), PC-RO 2022 (função simbólica), PC-RS 2025 (função promocional, fragmentariedade e caráter sancionatório) · Aprofundamentos transversais são roteados para os capítulos próprios.</div>
+</section><section class="topic" data-t="6">
+<div class="th"><h2><span>6.</span> Classificações do Direito Penal</h2><div class="pos">Tópico 6 de 6</div></div>
+
+<div class="min1"><b class="l">Em 1 minuto</b>As classificações têm <b>menor incidência direta</b> do que escolas, bem jurídico e funções. Por isso, a estratégia aqui é diferente: entender os <span class="mk">pares por contraste</span>, memorizar com força apenas os que ajudam outros tópicos e evitar transformar cada nomenclatura em um flashcard.</div>
+
+<table class="cmp">
+<thead><tr><th>Par</th><th>Primeiro termo</th><th>Segundo termo</th></tr></thead>
+<tbody>
+<tr><th>Fundamental × Complementar</th><td><b>Fundamental:</b> normas gerais e estruturantes aplicáveis ao sistema penal, especialmente a Parte Geral do CP.</td><td><b>Complementar:</b> legislação penal extravagante e disciplinas específicas fora do núcleo geral.</td></tr>
+<tr><th>Comum × Especial</th><td><b>Comum:</b> aplicação geral, sem exigir qualidade especial do destinatário.</td><td><b>Especial:</b> dirigido a situações ou sujeitos determinados, conforme o critério doutrinário adotado.</td></tr>
+<tr><th>Geral × Local</th><td><b>Geral:</b> incidência nacional, ligada à competência privativa da União para legislar sobre Direito Penal.</td><td><b>Local:</b> incidência territorial restrita nas hipóteses em que lei complementar autorize os Estados a legislar sobre questões específicas.</td></tr>
+<tr><th><span class="mk">Objetivo × Subjetivo</span></th><td><b>Objetivo:</b> conjunto de normas penais vigentes.</td><td><b>Subjetivo:</b> poder estatal de punir, o <i>ius puniendi</i>.</td></tr>
+<tr><th>Substantivo × Adjetivo</th><td><b>Substantivo/material:</b> Direito Penal propriamente dito.</td><td><b>Adjetivo/formal:</b> Direito Processual Penal.</td></tr>
+</tbody></table>
+
+<div class="atc"><div class="t">PONTO QUE VALE MAIS <svg viewBox="0 0 24 24"><path d="M12 2 1 21h22z" fill="none" stroke="#cc2229" stroke-width="2.2" stroke-linejoin="round"/><path d="M12 9v5" stroke="#cc2229" stroke-width="2.4" stroke-linecap="round"/><circle cx="12" cy="17.3" r="1.3" fill="#cc2229"/></svg></div>
+<b>Direito Penal subjetivo = ius puniendi do Estado.</b> Mesmo na ação penal privada, a vítima não recebe o poder de punir. Ela recebe apenas a <b>iniciativa acusatória</b>; a titularidade do poder punitivo continua estatal.</div>
+
+<div class="nc"><b class="l">Não confunda · duas utilizações de “formal”</b><b>Aspecto formal do conceito</b> significa olhar o Direito Penal como conjunto de normas que define infrações e sanções. <b>Direito Penal formal/adjetivo</b>, na classificação, é expressão tradicional para o <b>Direito Processual Penal</b>.</div>
+
+<h3 class="s"><span class="n">6.1</span> Direito de Intervenção de Hassemer <span class="tag d">reconhecimento forte</span></h3>
+<p><span class="au">Winfried Hassemer</span> propõe retirar do Direito Penal clássico parte dos ilícitos ligados a bens coletivos, difusos ou a formas de perigo abstrato e submetê-los a um <b>sistema intermediário</b>, situado entre o Direito Administrativo e o Direito Penal.</p>
+
+<div class="flow">
+ <div><b>Direito Administrativo</b>sanções administrativas</div><i>&lt;</i>
+ <div style="border-width:2px;background:#fff8d6"><b>Direito de Intervenção</b>resposta intermediária, mais flexível e menos gravosa que o Direito Penal clássico</div><i>&lt;</i>
+ <div><b>Direito Penal</b>núcleo de maior gravidade, com garantias penais intensas</div>
+</div>
+
+<p>A ideia é preservar o Direito Penal para seu núcleo mais grave e evitar que ele absorva toda forma de ilícito regulatório. O material costuma aproximar essa proposta de mecanismos sancionatórios fora do Direito Penal, mas isso deve ser entendido como <b>analogia doutrinária</b>, não como uma classificação legal automática de determinada lei brasileira.</p>
+
+<div class="cards"><div class="hd">Perguntas do tópico 6 <span>só o que merece recuperação ativa</span></div>
+<div class="card"><div class="q">Qual é a diferença entre Direito Penal objetivo e subjetivo?</div><div class="a"><p><b>Objetivo:</b> conjunto de normas penais vigentes. <b>Subjetivo:</b> poder de punir do Estado, o <i>ius puniendi</i>.</p></div></div>
+<div class="card"><div class="q">Na ação penal privada, a vítima passa a ser titular do ius puniendi?</div><div class="a"><p><b>Não.</b> A vítima recebe a iniciativa acusatória; o poder de punir continua pertencendo ao Estado.</p></div></div>
+<div class="card"><div class="q">O que significa Direito Penal substantivo e adjetivo?</div><div class="a"><p><b>Substantivo/material:</b> Direito Penal propriamente dito. <b>Adjetivo/formal:</b> Direito Processual Penal.</p></div></div>
+<div class="card"><div class="q">O que diferencia Direito Penal geral e local?</div><div class="a"><p><b>Geral:</b> incidência nacional. <b>Local:</b> incidência territorial restrita, possível nas hipóteses em que lei complementar autorize os Estados a legislar sobre questões específicas de Direito Penal.</p></div></div>
+<div class="card"><div class="q">Qual é a ideia central do Direito de Intervenção de Hassemer?</div><div class="a"><p>Criar um <b>espaço intermediário entre Direito Administrativo e Direito Penal</b> para determinados ilícitos, preservando o Direito Penal clássico para o núcleo de maior gravidade.</p></div></div>
+</div>
+
+<div class="lembra"><b class="l">Reconhecimento rápido · basta identificar o par</b>
+<b>Fundamental × complementar</b> = estrutura geral × legislação específica. &nbsp;•&nbsp;
+<b>Comum × especial</b> = aplicação geral × situações/sujeitos específicos. &nbsp;•&nbsp;
+<b>Geral × local</b> = território nacional × incidência territorial restrita. &nbsp;•&nbsp;
+<b>Objetivo × subjetivo</b> = normas × poder de punir. &nbsp;•&nbsp;
+<b>Substantivo × adjetivo</b> = Penal material × Processo Penal.
+</div>
+
+<div class="src">Fontes do tópico: DD 2026 + estrutura da edição Gran-first · A baixa incidência direta no corpus de Delegado justifica tratamento predominantemente comparativo, sem bateria extensa de cartões.</div>
+</section><section class="part resumo">
+<div class="ph"><div class="k">Fechamento · 1 de 3</div><h2>O capítulo em 12 frases</h2><p>Revisão-relâmpago. Se uma frase parecer “solta”, volte ao tópico correspondente.</p></div>
+<ol>
+<li>Direito Penal é o conjunto de <b>princípios e regras</b> que define infrações penais e disciplina as <b>sanções</b> correspondentes. <span class="small">(T1)</span></li>
+<li>Sanção penal é gênero: <b>pena</b> se liga à culpabilidade; <b>medida de segurança</b>, à periculosidade. Para o semi-imputável, o sistema é <b>vicariante</b>. <span class="small">(T1)</span></li>
+<li>É ramo do <b>Direito Público</b>; o <i>ius puniendi</i> pertence ao Estado. O conceito pode ser lido pelos aspectos <b>formal/estático</b>, <b>material</b> e <b>sociológico/dinâmico</b>. <span class="small">(T1)</span></li>
+<li>Características: ciência <b>cultural</b>, <b>normativa</b>, <b>valorativa</b> e <b>finalista</b>, de natureza predominantemente <b>sancionatória</b> e <b>fragmentária</b>. Finalista aqui não significa teoria finalista de Welzel. <span class="small">(T2)</span></li>
+<li>O Direito Penal protege <b>bens jurídicos</b>, mas o conceito também limita a criminalização. A Constituição <b>orienta e limita</b> o legislador, e nem todo valor constitucional exige tutela penal. <span class="small">(T3)</span></li>
+<li><b>Birnbaum</b> é associado à criação do conceito de bem jurídico; bem jurídico como <i>ratio legis</i> pertence à <b>concepção metodológica</b>. Bens aparentes podem perder a função crítica por vagueza ou por não formarem verdadeiro bem coletivo autônomo. <span class="small">(T3)</span></li>
+<li>A evolução histórica passa pelas vinganças <b>privada → divina → pública</b> e pelo período humanitário de <b>Beccaria</b>, que enfatiza legalidade, moderação, proporcionalidade e prevenção. <span class="small">(T4)</span></li>
+<li><b>Clássica</b>: livre-arbítrio, crime como ente jurídico, método racional. <b>Positiva</b>: determinismo, criminoso/periculosidade, método empírico. <b>Terza Scuola</b>: superação do antagonismo, determinismo psicológico, imputabilidade/responsabilidade moral e medidas de segurança. <span class="small">(T4)</span></li>
+<li>Lombroso, Ferri e Garofalo representam as fases <b>antropológica, sociológica e jurídica</b> da Positiva; Liszt é o nome da <b>Moderna Alemã</b>; Arturo Rocco, da <b>técnico-jurídica</b>. <span class="small">(T4)</span></li>
+<li>Missão mediata: <b>controle social + limite ao poder de punir</b>. Missão imediata: <b>Roxin → bens jurídicos</b>; <b>Jakobs → vigência da norma</b>. <span class="small">(T5)</span></li>
+<li>Função <b>simbólica</b> produz sobretudo efeito de mensagem/percepção; a <b>motivadora</b> atua pela ameaça de sanção. A função <b>promocional</b> é controvertida e não deve ser tratada como missão primária consensual. <span class="small">(T5)</span></li>
+<li>Nas classificações, guarde sobretudo: <b>objetivo = normas; subjetivo = ius puniendi estatal</b>; substantivo = Penal material; adjetivo = Processo Penal. Hassemer propõe um <b>Direito de Intervenção</b> intermediário. <span class="small">(T6)</span></li>
+</ol>
+</section>
+
+<section class="part">
+<div class="ph"><div class="k">Fechamento · 2 de 3</div><h2>Perguntas-mãe</h2><p>Aqui muda a escala: não são flashcards. São perguntas para reconstruir blocos depois do estudo.</p></div>
+
+<ol class="ql">
+<li>Conceitue Direito Penal e explique infração penal, sanção penal, pena, medida de segurança e sistema vicariante.</li>
+<li>Explique os três aspectos do conceito e as principais características do Direito Penal, apontando as confusões de prova mais comuns.</li>
+<li>Explique o papel do bem jurídico como objeto de proteção e como limite da criminalização. Inclua o papel da Constituição.</li>
+<li>Reconstrua a evolução da teoria do bem jurídico de Birnbaum à concepção metodológica e explique bens jurídicos aparentes.</li>
+<li>Compare Escola Clássica, Positiva e Terza Scuola quanto a fundamento, crime, foco, método, responsabilidade e resposta penal.</li>
+<li>Explique por que Beccaria não pode ser reduzido à ideia de pena retributiva e diferencie-o de Kant/Hegel.</li>
+<li>Diferencie a missão mediata da imediata e compare Roxin e Jakobs.</li>
+<li>Diferencie função simbólica, motivadora e promocional e explique como a banca pode trocar esses conceitos.</li>
+</ol>
+
+<h3 class="s" style="margin-top:6mm">Respostas-modelo</h3>
+
+<div class="pq"><div class="q">1. Conceitue Direito Penal e explique infração penal, sanção penal, pena, medida de segurança e sistema vicariante.</div><div class="a"><p>Direito Penal é o ramo do Direito Público formado por princípios e regras que define as infrações penais e disciplina as sanções correspondentes. <b>Infração penal</b> é gênero, com crime/delito e contravenção como espécies. <b>Sanção penal</b> também é gênero: pena e medida de segurança são suas espécies centrais. A pena se liga à culpabilidade e se aplica ao imputável; a medida de segurança se liga à periculosidade e se aplica ao inimputável e, em certas hipóteses, ao semi-imputável. Para este, vigora o <b>sistema vicariante</b>: pena reduzida ou medida de segurança, e não as duas conjuntamente.</p></div></div>
+
+<div class="pq"><div class="q">2. Explique os três aspectos do conceito e as principais características do Direito Penal.</div><div class="a"><p><b>Formal/estático</b>: conjunto de normas que define infrações e sanções. <b>Material</b>: dirige-se aos comportamentos graves que atingem bens jurídicos relevantes. <b>Sociológico/dinâmico</b>: instrumento de controle social. Quanto às características, é ciência <b>cultural</b> (dever-ser), <b>normativa</b> (estuda normas), <b>valorativa</b>, <b>finalista</b> (possui finalidade prática), predominantemente <b>sancionatória</b> e <b>fragmentária</b>. Não confundir “finalista” com a teoria finalista da ação nem natureza sancionatória com liberdade para criar autonomamente qualquer bem jurídico.</p></div></div>
+
+<div class="pq"><div class="q">3. Explique o papel do bem jurídico como objeto de proteção e como limite da criminalização.</div><div class="a"><p>Bem jurídico é o valor, interesse ou condição relevante cuja tutela pode justificar a intervenção penal. O legislador seleciona os bens protegidos, mas a escolha é juridicamente limitada. A <b>Constituição orienta</b> a tutela de valores fundamentais e, em algumas hipóteses, estabelece mandados de criminalização; ao mesmo tempo, <b>limita</b> o poder punitivo por meio de direitos e garantias fundamentais. Nem todo valor constitucional precisa receber tutela penal, porque a pena continua submetida à necessidade, fragmentariedade e subsidiariedade.</p></div></div>
+
+<div class="pq"><div class="q">4. Reconstrua a evolução da teoria do bem jurídico de Birnbaum à concepção metodológica.</div><div class="a"><p><b>Birnbaum</b> é associado à criação do conceito de bem jurídico, deslocando o foco do direito subjetivo para o bem protegido. <b>Binding</b> desenvolve concepção fortemente normativa; <b>Liszt</b> liga o bem a interesses da vida social reconhecidos pelo Direito. Na <b>concepção metodológica</b>, o bem jurídico passa a funcionar como <i>ratio legis</i>, sentido ou finalidade da norma e critério interpretativo. A PF/2025 explorou justamente a troca entre Birnbaum e essa concepção. As concepções constitucionais posteriores recuperam a função crítica e limitadora do bem jurídico.</p></div></div>
+
+<div class="pq"><div class="q">5. Compare Escola Clássica, Positiva e Terza Scuola.</div><div class="a"><p>A <b>Clássica</b> trabalha com livre-arbítrio, crime como ente jurídico e método racional/lógico-dedutivo; em Carrara, a pena é retributiva e proporcional. A <b>Positiva</b> é determinista, desloca o foco para o criminoso e a periculosidade e utiliza método empírico; Lombroso, Ferri e Garofalo representam suas fases antropológica, sociológica e jurídica. A <b>Terza Scuola</b> procura superar o antagonismo entre as duas: trabalha com determinismo psicológico, preserva a estrutura da imputabilidade/responsabilidade moral em formulação própria e incorpora medidas de segurança.</p></div></div>
+
+<div class="pq"><div class="q">6. Explique por que Beccaria não pode ser reduzido à ideia de pena retributiva.</div><div class="a"><p>Beccaria é marco do período humanitário e sustenta uma visão predominantemente <b>utilitária e preventiva</b> da pena: legalidade, moderação, proporcionalidade, rejeição da tortura e maior importância da certeza da punição em relação à severidade. A formulação retributiva típica é associada a autores como <b>Kant e Hegel</b>; dentro da Escola Clássica, a fase jurídica de Carrara apresenta outra configuração da pena.</p></div></div>
+
+<div class="pq"><div class="q">7. Diferencie a missão mediata da imediata e compare Roxin e Jakobs.</div><div class="a"><p>A missão <b>mediata</b> envolve controle social e limitação do poder punitivo. A missão <b>imediata</b> é discutida em correntes: para <b>Roxin</b>, o centro é a proteção de bens jurídicos relevantes dentro de uma orientação político-criminal; para <b>Jakobs</b>, a pena reafirma a vigência da norma e a estabilidade das expectativas normativas.</p></div></div>
+
+<div class="pq"><div class="q">8. Diferencie função simbólica, motivadora e promocional.</div><div class="a"><p>A <b>simbólica</b> atua principalmente no plano da mensagem e da percepção, podendo gerar sensação de resposta sem solução concreta. A <b>motivadora</b> usa a ameaça de sanção para influenciar comportamentos. A <b>promocional</b> é a formulação segundo a qual o Direito Penal poderia contribuir para transformação social, mas é controvertida e não deve ser tratada como missão primária consensual nem como autorização de expansão ilimitada.</p></div></div>
+</section>
+
+<section class="part">
+<div class="ph"><div class="k">Fechamento · 3 de 3</div><h2>EXAM Lab</h2><p>Questões selecionadas porque representam mecanismos diferentes de cobrança. A finalidade é testar se a teoria ensinada acima é suficiente.</p></div>
+
+<div class="qx"><div class="h">1 · Delegado PF 2025 · Cebraspe · bem jurídico</div>
+<div class="st">Birnbaum é associado à criação do conceito de bem jurídico; o item de prova acrescentou que, para ele, o bem jurídico se confundiria com a <i>ratio legis</i>, como critério de interpretação da norma.</div>
+<div class="gab"><span class="g">Gabarito: ERRADO.</span> A primeira metade está correta; a segunda mistura Birnbaum com a <b>concepção metodológica</b>. Mecanismo: <b>meia-verdade + troca de corrente</b>.</div></div>
+
+<div class="qx"><div class="h">2 · Delegado PF 2025 · Cebraspe · bens aparentes</div>
+<div class="st">O item tratou “segurança pública” e “paz pública” como exemplos de bens jurídicos aparentes quando o rótulo apenas agrega bens individuais ou é tão indeterminado que impede a função crítica da teoria.</div>
+<div class="gab"><span class="g">Gabarito: CERTO.</span> Aqui a dificuldade é reconhecer uma construção doutrinária específica em texto longo, não detectar simples troca de palavra.</div></div>
+
+<div class="qx"><div class="h">3 · Delegado PF 2025 · Cebraspe · Constituição</div>
+<div class="st">O item afirmou que todos os valores contemplados pela Constituição exigiriam tutela penal, ainda que isso implicasse paternalismo rígido e direto.</div>
+<div class="gab"><span class="g">Gabarito: ERRADO.</span> A Constituição orienta e limita, mas <b>não transforma todo valor constitucional em crime</b>. Mecanismo: <b>absolutização</b>.</div></div>
+
+<div class="qx"><div class="h">4 · Delegado PC-CE 2025 · Cebraspe · escolas penais</div>
+<div class="st">A questão embaralhou autores, métodos e fundamentos: Lombroso na técnico-jurídica, Carrara na Moderna Alemã, método empírico na Clássica e livre-arbítrio na Positiva. A alternativa correta descreveu a Terza Scuola como tentativa de superar o antagonismo entre Clássica e Positiva, mantendo a imputabilidade e incorporando medidas de segurança.</div>
+<div class="gab"><span class="g">Resposta correta: Terza Scuola.</span> Mecanismo: <b>troca múltipla de etiquetas</b>. É por isso que o tópico foi ensinado por tabela comparativa.</div></div>
+
+<div class="qx"><div class="h">5 · Delegado PC-SP 2023 · Vunesp · função do Direito Penal</div>
+<div class="st">A banca perguntou qual é a função do Direito Penal e ofereceu, entre as alternativas, “proteger bens jurídicos relevantes para a sociedade”.</div>
+<div class="gab"><span class="g">Gabarito: proteção de bens jurídicos.</span> Associação direta à formulação de <b>Roxin</b>. Um distrator confundia função com os instrumentos pena e medida de segurança.</div></div>
+
+<div class="qx"><div class="h">6 · Delegado PC-RO 2022 · Cebraspe · função simbólica</div>
+<div class="st">A banca descreveu a função que não produz efeitos externos concretos, atua na mente de governantes e cidadãos e se manifesta na inflação legislativa e na hipertrofia penal.</div>
+<div class="gab"><span class="g">Gabarito: função simbólica.</span> Mecanismo: <b>descrição longa → identificar o rótulo</b>.</div></div>
+
+<div class="qx"><div class="h">7 · Delegado PC-RS 2025 · Fundatec · características e funções</div>
+<div class="st">A questão combinou função promocional, fragmentariedade, subsidiariedade e natureza sancionatória. A banca considerou corretas fragmentariedade e subsidiariedade e rejeitou a formulação expansiva da função promocional e a ideia de que o caráter sancionatório permitiria criar autonomamente novos bens jurídicos.</div>
+<div class="gab"><span class="g">Lição:</span> a banca pode partir de conceitos verdadeiros e errar pela <b>extrapolação</b>. Saber o limite do conceito é mais útil que decorar o nome.</div></div>
+
+<div class="qx"><div class="h">8 · Delegado PC-SP 2023 · Vunesp · história brasileira</div>
+<div class="st">Projeto que deu origem ao Código Penal de 1940.</div>
+<div class="gab"><span class="g">Gabarito: Alcântara Machado.</span> Cobrança factual curta. Como já houve questão direta de Delegado, o nome permanece em memória ativa.</div></div>
+
+<h3 class="s">Certo ou errado · treino autoral</h3>
+<div class="ce"><div class="st">1. A concepção metodológica do bem jurídico é associada à ideia de <i>ratio legis</i>.</div><div class="r"><span class="c">Certo.</span> Não confundir com Birnbaum, associado à criação do conceito.</div></div>
+<div class="ce"><div class="st">2. A Escola Positiva trabalha com livre-arbítrio e método lógico-dedutivo.</div><div class="r"><span class="e">Errado.</span> Determinismo e método empírico são marcas da Positiva.</div></div>
+<div class="ce"><div class="st">3. A Terza Scuola deve ser resumida como retorno puro ao livre-arbítrio clássico.</div><div class="r"><span class="e">Errado.</span> A formulação estudada trabalha com determinismo psicológico e preserva imputabilidade/responsabilidade em chave própria.</div></div>
+<div class="ce"><div class="st">4. Para Jakobs, a missão central do Direito Penal é proteger bens jurídicos.</div><div class="r"><span class="e">Errado.</span> A formulação central é garantia da vigência da norma.</div></div>
+<div class="ce"><div class="st">5. Todo valor constitucionalmente protegido deve necessariamente receber tutela penal.</div><div class="r"><span class="e">Errado.</span> A tutela penal depende de necessidade e limites próprios, salvo mandados constitucionais de criminalização.</div></div>
+<div class="ce"><div class="st">6. Na ação penal privada, o ius puniendi permanece pertencendo ao Estado.</div><div class="r"><span class="c">Certo.</span> O ofendido recebe a iniciativa acusatória, não o poder de punir.</div></div>
+
+<div class="src" style="margin-top:6mm"><b>Base desta edição:</b> Gran Sintético como eixo didático; Dedicação Delta 2026 como auditor de cobertura/profundidade; banco de questões oficiais de Delegado como régua de prioridade; fontes oficiais para correção normativa e jurisprudencial. O fechamento foi atualizado para refletir PF 2025, PC-CE 2025, PC-RS 2025, PC-SP 2023 e PC-RO 2022.</div>
+</section>
+</body></html>
